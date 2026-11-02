@@ -1,18 +1,38 @@
 import React, { useEffect, useState } from "react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
+import { useAuth } from "../context/AuthContext.jsx";
 import { brandAssets } from "../data/homeData.js";
+import HeaderSearch from "./HeaderSearch.jsx";
 
 const NAV_ITEMS = [
-  { id: "home", label: "Trang chủ", href: "#home" },
-  { id: "villages", label: "Làng nghề", href: "#villages" },
-  { id: "about", label: "Về chúng tôi", href: "#about" },
+  { id: "home", label: "Trang chủ", targetHash: "#home" },
+  { id: "villages", label: "Làng nghề", targetHash: "#villages" },
+  { id: "about", label: "Về chúng tôi", targetHash: "#about" },
 ];
 
 export default function Header() {
-  const [searchQuery, setSearchQuery] = useState("");
+  const { currentUser, openLoginModal, openRegisterModal, logout } = useAuth();
+  const location = useLocation();
+  const navigate = useNavigate();
+
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeNav, setActiveNav] = useState("home");
 
+  const isHomeRoute = location.pathname === "/";
+
   useEffect(() => {
+    setMobileMenuOpen(false);
+  }, [location.pathname, location.hash]);
+
+  useEffect(() => {
+    if (
+      location.pathname.startsWith("/lang-nghe") ||
+      location.pathname.startsWith("/co-so")
+    ) {
+      setActiveNav("villages");
+      return undefined;
+    }
+
     const updateActiveOnScroll = () => {
       const scrollPos = window.scrollY + 180;
       const villagesEl = document.getElementById("villages");
@@ -30,22 +50,45 @@ export default function Header() {
     window.addEventListener("scroll", updateActiveOnScroll, { passive: true });
     updateActiveOnScroll();
     return () => window.removeEventListener("scroll", updateActiveOnScroll);
-  }, []);
+  }, [location.pathname]);
 
-  const handleSearch = (event) => {
+  const handleNavClick = (event, item) => {
     event.preventDefault();
+    setActiveNav(item.id);
+    setMobileMenuOpen(false);
+
+    if (item.id === "home") {
+      if (isHomeRoute) {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        if (location.hash) {
+          navigate("/", { replace: true });
+        }
+      } else {
+        navigate("/");
+      }
+      return;
+    }
+
+    if (isHomeRoute) {
+      const sectionEl = document.getElementById(item.targetHash.slice(1));
+      if (sectionEl) {
+        sectionEl.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    } else {
+      navigate(`/${item.targetHash}`);
+    }
   };
 
   return (
     <header className="site-header">
       <div className="site-header__inner">
         <div className="site-header__left">
-          <a
+          <Link
             className="brand"
-            href="#home"
+            to="/"
             aria-label="Craft Folio - Trang chủ"
             data-cursor="link"
-            onClick={() => setActiveNav("home")}
+            onClick={(event) => handleNavClick(event, NAV_ITEMS[0])}
           >
             <span className="brand__logo-frame">
               <img
@@ -54,7 +97,7 @@ export default function Header() {
                 alt="Craft Folio"
               />
             </span>
-          </a>
+          </Link>
 
           <nav className="site-nav" aria-label="Điều hướng chính">
             {NAV_ITEMS.map((item) => (
@@ -65,9 +108,9 @@ export default function Header() {
                     ? "site-nav__link site-nav__link--active"
                     : "site-nav__link"
                 }
-                href={item.href}
+                href={`/${item.targetHash}`}
                 data-cursor="link"
-                onClick={() => setActiveNav(item.id)}
+                onClick={(event) => handleNavClick(event, item)}
               >
                 {item.label}
               </a>
@@ -76,47 +119,50 @@ export default function Header() {
         </div>
 
         <div className="site-header__right">
-          <form
-            className="site-search"
-            role="search"
-            onSubmit={handleSearch}
-          >
-            <label className="visually-hidden" htmlFor="header-search-input">
-              Tìm kiếm xưởng thủ công hoặc làng nghề
-            </label>
-            <input
-              id="header-search-input"
-              type="search"
-              placeholder="Tìm kiếm"
-              value={searchQuery}
-              onChange={(event) => setSearchQuery(event.target.value)}
-            />
-            <button type="submit" aria-label="Tìm kiếm" data-cursor="link">
-              <svg viewBox="0 0 20 20" aria-hidden="true">
-                <circle cx="8.8" cy="8.8" r="5.4" />
-                <path d="m12.9 12.9 4.1 4.1" />
-              </svg>
-            </button>
-          </form>
+          <HeaderSearch />
 
           <div className="site-header__actions">
-            <a
-              className="site-header__auth-link"
-              href="#login"
-              data-cursor="link"
-            >
-              Đăng nhập
-            </a>
-            <span className="site-header__divider" aria-hidden="true">
-              |
-            </span>
-            <a
-              className="site-header__auth-link"
-              href="#register"
-              data-cursor="link"
-            >
-              Đăng ký
-            </a>
+            {currentUser ? (
+              <>
+                <span className="site-header__greeting">
+                  <span className="site-header__user-dot" aria-hidden="true" />
+                  <span>Xin chào, {currentUser.userName}</span>
+                </span>
+                <span className="site-header__divider" aria-hidden="true">
+                  |
+                </span>
+                <button
+                  type="button"
+                  className="site-header__auth-link site-header__auth-btn"
+                  data-cursor="link"
+                  onClick={logout}
+                >
+                  Đăng xuất
+                </button>
+              </>
+            ) : (
+              <>
+                <button
+                  type="button"
+                  className="site-header__auth-link site-header__auth-btn"
+                  data-cursor="link"
+                  onClick={() => openLoginModal()}
+                >
+                  Đăng nhập
+                </button>
+                <span className="site-header__divider" aria-hidden="true">
+                  |
+                </span>
+                <button
+                  type="button"
+                  className="site-header__auth-link site-header__auth-btn"
+                  data-cursor="link"
+                  onClick={() => openRegisterModal()}
+                >
+                  Đăng ký
+                </button>
+              </>
+            )}
           </div>
 
           <button
@@ -139,35 +185,18 @@ export default function Header() {
             {NAV_ITEMS.map((item) => (
               <a
                 key={item.id}
-                href={item.href}
-                onClick={() => {
-                  setActiveNav(item.id);
-                  setMobileMenuOpen(false);
-                }}
+                href={`/${item.targetHash}`}
+                onClick={(event) => handleNavClick(event, item)}
               >
                 {item.label}
               </a>
             ))}
           </nav>
-          <form
-            className="site-search site-search--mobile"
-            role="search"
-            onSubmit={handleSearch}
-          >
-            <input
-              type="search"
-              placeholder="Tìm kiếm"
-              aria-label="Tìm kiếm"
-              value={searchQuery}
-              onChange={(event) => setSearchQuery(event.target.value)}
-            />
-            <button type="submit" aria-label="Tìm kiếm">
-              <svg viewBox="0 0 20 20" aria-hidden="true">
-                <circle cx="8.8" cy="8.8" r="5.4" />
-                <path d="m12.9 12.9 4.1 4.1" />
-              </svg>
-            </button>
-          </form>
+
+          <HeaderSearch
+            isMobile
+            onNavigateComplete={() => setMobileMenuOpen(false)}
+          />
         </div>
       )}
     </header>

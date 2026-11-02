@@ -100,12 +100,16 @@ export const villages =
       "subtitle": "Phú Vinh – Nơi những sợi mây, nan tre kết thành tinh hoa thủ công Việt.",
       "images": [
         {
-          "url": "/images/Trang làng nghề/Mây Tre Đan/chuyện làng nghề 1.jpg",
-          "alt": "Nghệ nhân đan mây tre Phú Vinh"
+          "url": "/images/Trang làng nghề/Mây tre đan/chuyện làng nghề 1.jpg",
+          "alt": "Sản phẩm mây tre đan Phú Vinh"
         },
         {
-          "url": "/images/Trang làng nghề/Mây Tre Đan/chuyện làng nghề 1.jpg",
-          "alt": "Sản phẩm mây tre đan tinh xảo"
+          "url": "/images/Trang chủ/sanphamnoibat2.jpg",
+          "alt": "Đèn lồng mây tre đan Phú Vinh"
+        },
+        {
+          "url": "/images/Trang làng nghề/Mây tre đan/chuyện làng nghề 3.jpg",
+          "alt": "Đèn trang trí mây tre đan nghệ thuật"
         }
       ],
       "paragraphs": [
@@ -305,7 +309,7 @@ export const productionProcesses =
     "step": 2,
     "description": "Bước tiếp theo trong quy trình sản xuất sản phẩm từ mây tre đó là sơ chế nguyên liệu. Nếu quy trình này xử lý không cẩn thận sẽ dẫn đến đồ nội thất sau khi sử dụng một thời gian sẽ bị mối mọt, ẩm mốc và làm giảm tuổi thọ của sản phẩm.",
     "image": {
-      "url": "/images/Trang làng nghề/Làng quạt/quy trình sản xuất 2.jpg",
+      "url": "/images/Trang làng nghề/Mây tre đan/quy trình sản xuất 2.jpg",
       "alt": "Sơ chế nguyên liệu"
     }
   },
@@ -316,7 +320,7 @@ export const productionProcesses =
     "step": 3,
     "description": "Đối với nguyên liệu tre: Tre được cạo vỏ, đánh bóng bằng giấy ráp rồi hun khói bằng rơm hoặc lá tre để tạo màu nâu tây hoặc nâu đen, làm khô và chống cong vênh. Khi nguội, tre được uốn thẳng. Đối với nguyên liệu mây: Mây được phơi sấy để làm khô và tạo màu. Công đoạn này đòi hỏi kinh nghiệm vì quá nhiều hoặc ít khói, gặp mưa, nắng hay phơi sấy chưa đạt đều ảnh hưởng đến màu sắc, độ óng mềm và vẻ đẹp tự nhiên của sợi mây.",
     "image": {
-      "url": "/images/Trang làng nghề/Làng quạt/quy trình sản xuất 3.jpg",
+      "url": "/images/Trang làng nghề/Mây tre đan/quy trình sản xuất 3.jpg",
       "alt": "Xử lý nguyên liệu"
     }
   },
@@ -327,7 +331,7 @@ export const productionProcesses =
     "step": 4,
     "description": "Đều quan trọng và tốn nhiều thời gian nhất trong quy trình sản xuất sản phẩm mây tre đó là chẻ sợ. Dù là mây hay tre thì đều cần chẻ sợi thì mới có thể sử dụng để đan được. Việc làm này sẽ tạo cho nguyên liệu một độ dẻo dai mới có thể thỏa sức làm nên những sản phẩm khác nhau.",
     "image": {
-      "url": "/images/Trang làng nghề/Làng quạt/quy trình sản xuất 4.jpg",
+      "url": "/images/Trang làng nghề/Mây tre đan/quy trình sản xuất 4.jpg",
       "alt": "Chẻ sợi"
     }
   },
@@ -338,7 +342,7 @@ export const productionProcesses =
     "step": 5,
     "description": "Đây cũng chính là nước cuối cùng trong quy trình sản xuất sản phẩm mây tre truyền thống. Sau khi đan xong, sản phẩm có thể được nhúng keo, sơn màu, phủ bóng bề mặt, cắt tỉa lại sao cho hoàn chỉnh nhất trước khi đóng gói và vận chuyển đến tay khách hàng. Các nguyên liệu sau khi được xử lý hoàn tất, sẽ được đan và tạo hình bởi bàn tay tài hoa, khéo léo của những người thợ thủ công lành nghề để trở thành những sản phẩm đẹp mắt và cuốn hút.",
     "image": {
-      "url": "/images/Trang làng nghề/Làng quạt/quy trình sản xuất 5.jpg",
+      "url": "/images/Trang làng nghề/Mây tre đan/quy trình sản xuất 5.jpg",
       "alt": "Thi công chế tác sản phẩm"
     }
   },

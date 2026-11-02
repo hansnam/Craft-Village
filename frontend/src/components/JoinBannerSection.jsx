@@ -1,7 +1,9 @@
 import React, { useEffect, useRef } from "react";
+import { useAuth } from "../context/AuthContext.jsx";
 import { brandAssets, joinBannerContent } from "../data/homeData.js";
 
 export default function JoinBannerSection() {
+  const { currentUser, openRegisterModal, showToast } = useAuth();
   const bannerRef = useRef(null);
 
   useEffect(() => {
@@ -72,6 +74,19 @@ export default function JoinBannerSection() {
               className="join-banner__cta"
               href={joinBannerContent.ctaHref}
               data-cursor="link"
+              onClick={(event) => {
+                event.preventDefault();
+                if (currentUser) {
+                  showToast({
+                    type: "info",
+                    title: `Xin chào, ${currentUser.userName}`,
+                    message:
+                      "Bạn đã đăng nhập và sẵn sàng kết nối với các xưởng thủ công.",
+                  });
+                } else {
+                  openRegisterModal();
+                }
+              }}
             >
               <span>{joinBannerContent.ctaLabel}</span>
               <svg viewBox="0 0 20 20" aria-hidden="true">

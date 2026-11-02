@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useRef } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import { craftVillages } from "../data/homeData.js";
 import useInfiniteCarousel from "../hooks/useInfiniteCarousel.js";
 
@@ -21,6 +22,8 @@ function SideArrowIcon({ direction }) {
 }
 
 export default function CraftVillagesSection() {
+  const navigate = useNavigate();
+  const dragStartRef = useRef({ x: 0, y: 0 });
   const cloneCount = 3;
   const {
     extendedItems,
@@ -77,13 +80,40 @@ export default function CraftVillagesSection() {
             >
               {extendedItems.map((village, index) => {
                 const staggerSlot = Math.max(0, Math.min(2, index - cloneCount));
+                const villagePath = `/lang-nghe/${village.id}`;
+
+                const handleCardPointerDown = (event) => {
+                  dragStartRef.current = {
+                    x: event.clientX,
+                    y: event.clientY,
+                  };
+                };
+
+                const handleCardClick = (event) => {
+                  const dx = Math.abs(event.clientX - dragStartRef.current.x);
+                  const dy = Math.abs(event.clientY - dragStartRef.current.y);
+
+                  if (dx > 12 || dy > 12) {
+                    event.preventDefault();
+                    return;
+                  }
+
+                  if (event.target.closest("a")) {
+                    return;
+                  }
+
+                  navigate(villagePath);
+                };
+
                 return (
                   <article
-                    className="village-card"
+                    className="village-card village-card--clickable"
                     key={`${village.id}-${index}`}
                     style={{ "--stagger-index": staggerSlot }}
                     aria-label={village.fullName}
                     data-cursor="card"
+                    onPointerDown={handleCardPointerDown}
+                    onClick={handleCardClick}
                   >
                     <div className="village-card__header">
                       <div className="village-card__title-row">
@@ -91,7 +121,7 @@ export default function CraftVillagesSection() {
                           className="village-card__title"
                           title={village.fullName}
                         >
-                          {village.shortName}
+                          <Link to={villagePath}>{village.shortName}</Link>
                         </h3>
                         {village.verified && (
                           <span className="village-card__badge">
@@ -119,9 +149,9 @@ export default function CraftVillagesSection() {
                         loading="lazy"
                         draggable="false"
                       />
-                      <a
+                      <Link
                         className="village-card__cta"
-                        href={village.href}
+                        to={villagePath}
                         aria-label={`Khám phá ${village.fullName}`}
                       >
                         <span className="village-card__cta-text">Khám phá</span>
@@ -134,7 +164,7 @@ export default function CraftVillagesSection() {
                             <path d="M5.2 3.8h5v5" />
                           </svg>
                         </span>
-                      </a>
+                      </Link>
                     </div>
                   </article>
                 );
@@ -156,4 +186,3 @@ export default function CraftVillagesSection() {
     </section>
   );
 }
-

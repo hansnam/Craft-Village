@@ -1,62 +1,55 @@
 import React, { useEffect } from "react";
+import { Route, Routes, useLocation } from "react-router-dom";
 import Header from "./components/Header.jsx";
-import HeroBanner from "./components/HeroBanner.jsx";
-import FeaturedProductsSection from "./components/FeaturedProductsSection.jsx";
-import JourneySection from "./components/JourneySection.jsx";
-import CraftVillagesSection from "./components/CraftVillagesSection.jsx";
-import JoinBannerSection from "./components/JoinBannerSection.jsx";
 import Footer from "./components/Footer.jsx";
 import CustomCursor from "./components/CustomCursor.jsx";
+import AuthModal from "./components/AuthModal.jsx";
+import HomePage from "./pages/HomePage.jsx";
+import VillageDetailPage from "./pages/VillageDetailPage.jsx";
+import FacilityPlaceholderPage from "./pages/FacilityPlaceholderPage.jsx";
+import VillageNotFound from "./components/village/VillageNotFound.jsx";
 
-export default function App() {
+function RouteScrollManager() {
+  const { pathname, hash } = useLocation();
+
   useEffect(() => {
-    const motionPreference = window.matchMedia(
-      "(prefers-reduced-motion: reduce)"
-    );
-    if (motionPreference.matches || !("IntersectionObserver" in window)) {
-      document.querySelectorAll("[data-reveal]").forEach((el) => {
-        el.classList.add("is-visible");
+    if (hash) {
+      const targetId = hash.slice(1);
+      const rafId = window.requestAnimationFrame(() => {
+        const targetEl = document.getElementById(targetId);
+        if (targetEl) {
+          targetEl.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
       });
-      return undefined;
+      return () => window.cancelAnimationFrame(rafId);
     }
 
-    document.documentElement.classList.add("reveal-ready");
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("is-visible");
-            observer.unobserve(entry.target);
-          }
-        });
-      },
-      {
-        threshold: 0.14,
-        rootMargin: "0px 0px -40px 0px",
-      }
-    );
+    window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+    return undefined;
+  }, [pathname, hash]);
 
-    const targets = document.querySelectorAll("[data-reveal]");
-    targets.forEach((el) => observer.observe(el));
+  return null;
+}
 
-    return () => {
-      observer.disconnect();
-      document.documentElement.classList.remove("reveal-ready");
-    };
-  }, []);
-
+export default function App() {
   return (
     <div className="page">
+      <RouteScrollManager />
       <CustomCursor />
       <Header />
       <main className="page__main">
-        <HeroBanner />
-        <FeaturedProductsSection />
-        <JourneySection />
-        <CraftVillagesSection />
-        <JoinBannerSection />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/lang-nghe/:id" element={<VillageDetailPage />} />
+          <Route
+            path="/co-so/:facilityId"
+            element={<FacilityPlaceholderPage />}
+          />
+          <Route path="*" element={<VillageNotFound />} />
+        </Routes>
       </main>
       <Footer />
+      <AuthModal />
     </div>
   );
 }

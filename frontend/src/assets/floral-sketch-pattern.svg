@@ -1,131 +1,199 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="680" height="680" viewBox="0 0 680 680" fill="none">
-  <!-- Hand-drawn pencil sketch botanical floral pattern on Do paper -->
-  <g stroke="#bda98e" stroke-linecap="round" stroke-linejoin="round">
-    <!-- Large Blooming Camellia / Lotus Flower (Top-Center-Left, ~310, 135) -->
-    <g opacity="0.26">
-      <!-- Outer soft petals -->
-      <path d="M310 138 C282 104, 278 58, 308 26 C338 56, 338 102, 310 138 Z" stroke-width="1.15" />
-      <path d="M310 138 C338 102, 384 94, 416 120 C390 152, 346 158, 310 138 Z" stroke-width="1.1" />
-      <path d="M310 138 C346 158, 360 202, 336 238 C302 216, 292 174, 310 138 Z" stroke-width="1.15" />
-      <path d="M310 138 C292 174, 248 192, 212 170 C232 134, 272 122, 310 138 Z" stroke-width="1.1" />
-      <path d="M310 138 C272 122, 244 82, 258 44 C294 56, 308 98, 310 138 Z" stroke-width="1.05" />
-      <!-- Secondary layered petals -->
-      <path d="M332 98 C354 68, 390 66, 408 86 C394 112, 364 118, 332 98" stroke-width="0.9" />
-      <path d="M278 164 C254 198, 266 232, 296 242 C312 222, 312 192, 298 166" stroke-width="0.9" />
-      <path d="M254 118 C222 112, 204 88, 218 64 C244 68, 262 90, 268 114" stroke-width="0.85" />
-      <!-- Fine pencil shading / petal veins -->
-      <path d="M309 124 C304 96, 304 68, 308 42" stroke-width="0.55" />
-      <path d="M316 122 C320 98, 318 74, 313 54" stroke-width="0.45" />
-      <path d="M301 122 C294 98, 294 74, 301 54" stroke-width="0.45" />
-      <path d="M324 136 C352 124, 378 120, 400 123" stroke-width="0.55" />
-      <path d="M326 142 C352 138, 374 136, 392 133" stroke-width="0.45" />
-      <path d="M316 150 C330 176, 334 200, 332 222" stroke-width="0.55" />
-      <path d="M308 152 C316 178, 318 200, 316 218" stroke-width="0.45" />
-      <path d="M296 144 C270 156, 246 162, 228 164" stroke-width="0.55" />
-      <path d="M296 136 C272 142, 250 146, 234 150" stroke-width="0.45" />
-      <path d="M298 126 C282 102, 270 80, 264 60" stroke-width="0.5" />
-      <!-- Delicate Stamens & Pistil -->
-      <circle cx="310" cy="138" r="9" stroke-width="0.95" />
-      <circle cx="310" cy="138" r="4" stroke-width="0.6" />
-      <path d="M310 129 L308 112 M316 131 L327 117 M319 138 L336 137 M316 145 L328 158 M308 147 L304 164 M302 143 L288 153 M301 135 L285 131" stroke-width="0.55" />
-      <circle cx="308" cy="110" r="1.6" stroke-width="0.7" />
-      <circle cx="328" cy="116" r="1.6" stroke-width="0.7" />
-      <circle cx="338" cy="137" r="1.6" stroke-width="0.7" />
-      <circle cx="329" cy="159" r="1.6" stroke-width="0.7" />
-      <circle cx="304" cy="166" r="1.6" stroke-width="0.7" />
-      <circle cx="286" cy="154" r="1.6" stroke-width="0.7" />
-      <circle cx="283" cy="130" r="1.6" stroke-width="0.7" />
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="760" viewBox="0 0 760 760" fill="none">
+  <!-- Hand-drawn Vietnamese Lotus (Hoa Sen) botanical line-art pattern on Do paper -->
+  <g stroke="#bfa98c" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- ======================================================================
+         1. HERO BLOOMING LOTUS (HOA SEN MÃN KHAI) — Center-Left (~285, 205)
+         Classic layered pointed Vietnamese lotus petals, stamens & curved stem
+         ====================================================================== -->
+    <g opacity="0.28">
+      <!-- Peeking Lotus Seed Pod (Gương sen) & Stamens inside cup -->
+      <ellipse cx="285" cy="166" rx="22" ry="6.5" stroke-width="0.85" />
+      <circle cx="277" cy="166" r="1.2" stroke-width="0.7" />
+      <circle cx="285" cy="165" r="1.2" stroke-width="0.7" />
+      <circle cx="293" cy="166" r="1.2" stroke-width="0.7" />
+      <path d="M266 172 L258 156 M273 171 L268 153 M281 170 L279 151 M289 170 L291 151 M297 171 L302 153 M304 172 L312 156" stroke-width="0.6" />
+      <circle cx="257" cy="154" r="1.3" stroke-width="0.7" />
+      <circle cx="267" cy="151" r="1.3" stroke-width="0.7" />
+      <circle cx="279" cy="149" r="1.3" stroke-width="0.7" />
+      <circle cx="291" cy="149" r="1.3" stroke-width="0.7" />
+      <circle cx="303" cy="151" r="1.3" stroke-width="0.7" />
+      <circle cx="313" cy="154" r="1.3" stroke-width="0.7" />
+
+      <!-- Back-center upright pointed lotus petal -->
+      <path d="M285 94 C264 122, 258 158, 270 198 C278 190, 292 190, 300 198 C312 158, 306 122, 285 94 Z" fill="#fcf9f2" fill-opacity="0.65" stroke-width="1.15" />
+      <path d="M285 102 C285 134, 285 162, 285 190" stroke-width="0.55" />
+      <path d="M281 112 C274 138, 273 162, 277 186" stroke-width="0.42" />
+      <path d="M289 112 C296 138, 297 162, 293 186" stroke-width="0.42" />
+
+      <!-- Inner-left & inner-right pointed cupping petals -->
+      <path d="M232 110 C222 142, 232 182, 268 210 C264 176, 256 138, 232 110 Z" fill="#fcf9f2" fill-opacity="0.55" stroke-width="1.1" />
+      <path d="M236 118 C242 148, 250 176, 263 202" stroke-width="0.5" />
+      <path d="M233 128 C232 154, 240 180, 256 202" stroke-width="0.4" />
+
+      <path d="M338 110 C348 142, 338 182, 302 210 C306 176, 314 138, 338 110 Z" fill="#fcf9f2" fill-opacity="0.55" stroke-width="1.1" />
+      <path d="M334 118 C328 148, 320 176, 307 202" stroke-width="0.5" />
+      <path d="M337 128 C338 154, 330 180, 314 202" stroke-width="0.4" />
+
+      <!-- Mid-outer fanning lotus petals (Left & Right) -->
+      <path d="M188 144 C192 182, 220 212, 266 220 C248 192, 224 162, 188 144 Z" fill="#fcf9f2" fill-opacity="0.5" stroke-width="1.1" />
+      <path d="M196 150 C216 174, 236 196, 258 214" stroke-width="0.5" />
+      <path d="M198 160 C212 184, 230 202, 252 215" stroke-width="0.4" />
+
+      <path d="M382 144 C378 182, 350 212, 304 220 C322 192, 346 162, 382 144 Z" fill="#fcf9f2" fill-opacity="0.5" stroke-width="1.1" />
+      <path d="M374 150 C354 174, 334 196, 312 214" stroke-width="0.5" />
+      <path d="M372 160 C358 184, 340 202, 318 215" stroke-width="0.4" />
+
+      <!-- Lower-outer wide grace petals (Left & Right) -->
+      <path d="M168 192 C188 222, 228 234, 272 228 C242 214, 208 196, 168 192 Z" stroke-width="1.05" />
+      <path d="M178 196 C206 208, 234 218, 262 224" stroke-width="0.45" />
+
+      <path d="M402 192 C382 222, 342 234, 298 228 C328 214, 362 196, 402 192 Z" stroke-width="1.05" />
+      <path d="M392 196 C364 208, 336 218, 308 224" stroke-width="0.45" />
+
+      <!-- Foreground cupped base petals (3-petal lotus crown base) -->
+      <path d="M285 184 C264 202, 262 226, 285 238 C308 226, 306 202, 285 184 Z" fill="#fcf9f2" stroke-width="1.15" />
+      <path d="M285 190 L285 233 M278 198 C274 212, 276 224, 282 234 M292 198 C296 212, 294 224, 288 234" stroke-width="0.45" />
+
+      <path d="M226 226 C244 238, 266 240, 282 234 C268 220, 248 216, 226 226 Z" fill="#fcf9f2" stroke-width="1.0" />
+      <path d="M344 226 C326 238, 304 240, 288 234 C302 220, 322 216, 344 226 Z" fill="#fcf9f2" stroke-width="1.0" />
+
+      <!-- Tall Slender Lotus Stem -->
+      <path d="M285 238 C282 288, 264 342, 238 402" stroke-width="1.2" />
+      <path d="M288 240 C285 288, 268 340, 243 398" stroke-width="0.45" />
     </g>
 
-    <!-- Stem & Veined Leaves extending from Top Flower -->
-    <g opacity="0.22">
-      <path d="M294 188 C272 232, 236 268, 196 306" stroke-width="1.05" />
-      <!-- Left Leaf 1 -->
-      <path d="M258 242 C220 232, 186 248, 168 276 C202 286, 238 272, 258 242 Z" stroke-width="0.95" />
-      <path d="M256 243 C226 254, 198 264, 172 275" stroke-width="0.6" />
-      <path d="M232 252 L218 242 M214 259 L198 250 M226 255 L220 268 M206 262 L200 274" stroke-width="0.45" />
-      <!-- Right Leaf 2 -->
-      <path d="M276 218 C312 222, 342 246, 352 278 C316 280, 288 256, 276 218 Z" stroke-width="0.95" />
-      <path d="M278 220 C304 240, 328 258, 349 276" stroke-width="0.6" />
-      <path d="M302 238 L318 234 M320 252 L336 250 M306 242 L302 258" stroke-width="0.45" />
-      <!-- Unfurling Flower Bud -->
-      <path d="M232 272 C214 298, 184 314, 158 320" stroke-width="0.85" />
-      <path d="M158 320 C138 308, 122 316, 112 336 C132 344, 150 338, 158 320 Z" stroke-width="0.95" />
-      <path d="M152 318 C136 322, 124 328, 115 335" stroke-width="0.5" />
-    </g>
-
-    <!-- Second Open Lotus / Peony Blossom (Bottom-Right, ~535, 470) -->
+    <!-- ======================================================================
+         2. POINTED LOTUS BUD (BÚP SEN) & SEED POD (ĐÀI SEN) — Top-Left
+         ====================================================================== -->
     <g opacity="0.25">
-      <path d="M536 472 C512 436, 514 390, 544 362 C572 392, 568 438, 536 472 Z" stroke-width="1.1" />
-      <path d="M536 472 C568 442, 614 440, 642 468 C612 498, 568 498, 536 472 Z" stroke-width="1.1" />
-      <path d="M536 472 C568 498, 578 544, 550 576 C518 550, 514 508, 536 472 Z" stroke-width="1.1" />
-      <path d="M536 472 C514 508, 468 520, 436 494 C460 460, 498 452, 536 472 Z" stroke-width="1.1" />
-      <path d="M536 472 C498 452, 474 410, 492 374 C526 390, 536 432, 536 472 Z" stroke-width="1.05" />
-      <!-- Outer soft secondary petals -->
-      <path d="M562 434 C588 408, 620 410, 636 432 C618 454, 590 456, 562 438" stroke-width="0.85" />
-      <path d="M498 496 C474 528, 484 562, 512 574 C528 556, 530 526, 518 500" stroke-width="0.85" />
-      <!-- Fine pencil hatch lines -->
-      <path d="M538 456 C538 428, 540 400, 544 378" stroke-width="0.55" />
-      <path d="M545 456 C549 432, 550 408, 548 388" stroke-width="0.45" />
-      <path d="M552 472 C580 464, 606 464, 628 468" stroke-width="0.55" />
-      <path d="M542 486 C552 514, 554 538, 548 560" stroke-width="0.55" />
-      <path d="M520 476 C494 484, 470 488, 450 490" stroke-width="0.55" />
-      <path d="M526 458 C512 434, 502 410, 496 390" stroke-width="0.5" />
-      <!-- Center Stamens -->
-      <circle cx="536" cy="472" r="8.5" stroke-width="0.9" />
-      <path d="M536 463 L535 447 M543 466 L555 454 M545 473 L561 474 M541 480 L552 493 M533 481 L528 497 M528 476 L514 485 M528 468 L513 462" stroke-width="0.55" />
-      <circle cx="535" cy="445" r="1.5" stroke-width="0.7" />
-      <circle cx="556" cy="453" r="1.5" stroke-width="0.7" />
-      <circle cx="563" cy="474" r="1.5" stroke-width="0.7" />
-      <circle cx="553" cy="495" r="1.5" stroke-width="0.7" />
-      <circle cx="527" cy="499" r="1.5" stroke-width="0.7" />
-      <circle cx="512" cy="486" r="1.5" stroke-width="0.7" />
-      <!-- Leaves & Stem below second blossom -->
-      <path d="M518 524 C494 568, 458 608, 412 644" stroke-width="1.0" />
-      <path d="M478 584 C440 576, 408 590, 392 618 C424 626, 458 614, 478 584 Z" stroke-width="0.9" />
-      <path d="M476 585 C446 596, 420 606, 396 616" stroke-width="0.55" />
-      <path d="M494 562 C528 568, 554 592, 562 622 C528 622, 504 598, 494 562 Z" stroke-width="0.9" />
-      <path d="M496 564 C520 584, 540 602, 559 620" stroke-width="0.55" />
+      <!-- Tall Pointed Lotus Bud (Búp sen vươn cao) -->
+      <path d="M128 38 C102 68, 98 106, 118 134 C140 110, 146 72, 128 38 Z" stroke-width="1.15" />
+      <!-- Outer bud petal & sepal clasp -->
+      <path d="M128 38 C118 70, 116 102, 118 134" stroke-width="0.65" />
+      <path d="M104 92 C98 112, 104 128, 118 134" stroke-width="0.95" />
+      <path d="M138 96 C142 114, 134 128, 118 134" stroke-width="0.95" />
+      <path d="M122 54 C112 78, 109 102, 114 126" stroke-width="0.42" />
+      <path d="M131 58 C134 82, 131 104, 123 126" stroke-width="0.42" />
+      <!-- Bud stem -->
+      <path d="M118 134 C112 186, 94 238, 68 294" stroke-width="1.1" />
+
+      <!-- Tilted Lotus Seed Pod (Đài sen / Gương sen) -->
+      <g transform="translate(194, 146) rotate(16)">
+        <ellipse cx="0" cy="0" rx="22" ry="8.5" stroke-width="1.0" />
+        <path d="M-22 0 C-18 18, -9 30, 0 34 C9 30, 18 18, 22 0" stroke-width="1.0" />
+        <path d="M-12 7 L-6 29 M0 8.5 L0 33 M12 7 L6 29" stroke-width="0.45" />
+        <circle cx="-10" cy="-1" r="1.8" stroke-width="0.65" />
+        <circle cx="0" cy="-3" r="1.8" stroke-width="0.65" />
+        <circle cx="10" cy="-1" r="1.8" stroke-width="0.65" />
+        <circle cx="-5" cy="3" r="1.7" stroke-width="0.65" />
+        <circle cx="6" cy="3" r="1.7" stroke-width="0.65" />
+      </g>
+      <path d="M185 178 C172 222, 150 264, 122 308" stroke-width="0.95" />
     </g>
 
-    <!-- Third Delicate Side-Profile Lotus / Bud Branch (Bottom-Left, ~98, 520) -->
+    <!-- ======================================================================
+         3. ICONIC WAVY LOTUS LEAF (LÁ SEN MỀM MẠI) — Mid-Left (~162, 415)
+         ====================================================================== -->
+    <g opacity="0.23">
+      <!-- Wavy scalloped peltate lotus leaf rim -->
+      <path d="M58 408 C64 384, 92 372, 118 376 C142 366, 178 366, 202 376 C232 372, 258 386, 264 410 C258 432, 232 444, 204 440 C178 450, 142 450, 116 440 C88 444, 64 430, 58 408 Z" stroke-width="1.05" />
+      <!-- Inner subtle fold curve & leaf navel (rốn lá sen) -->
+      <ellipse cx="161" cy="412" rx="4.5" ry="2.6" stroke-width="0.8" />
+      <!-- Radiating lotus leaf veins -->
+      <path d="M157 411 C132 406, 98 404, 64 408" stroke-width="0.55" />
+      <path d="M158 409 C140 394, 118 384, 96 378" stroke-width="0.5" />
+      <path d="M161 409 C160 392, 160 380, 160 370" stroke-width="0.5" />
+      <path d="M164 409 C182 394, 204 384, 226 378" stroke-width="0.5" />
+      <path d="M165 411 C192 406, 224 404, 258 409" stroke-width="0.55" />
+      <path d="M158 414 C138 424, 116 432, 94 438" stroke-width="0.5" />
+      <path d="M161 415 C161 428, 161 438, 161 446" stroke-width="0.5" />
+      <path d="M164 414 C184 424, 206 432, 228 438" stroke-width="0.5" />
+      <!-- Leaf stem descending -->
+      <path d="M161 447 C158 494, 144 542, 122 592" stroke-width="1.05" />
+    </g>
+
+    <!-- ======================================================================
+         4. SECOND GRACEFUL BLOOMING LOTUS & BUD — Bottom-Right (~572, 515)
+         ====================================================================== -->
+    <g opacity="0.26">
+      <!-- Stamens peeking -->
+      <path d="M558 474 L552 458 M566 472 L564 455 M575 472 L576 455 M584 474 L590 458" stroke-width="0.55" />
+      <circle cx="551" cy="456" r="1.2" stroke-width="0.65" />
+      <circle cx="564" cy="453" r="1.2" stroke-width="0.65" />
+      <circle cx="576" cy="453" r="1.2" stroke-width="0.65" />
+      <circle cx="591" cy="456" r="1.2" stroke-width="0.65" />
+
+      <!-- Center pointed lotus petal -->
+      <path d="M570 404 C550 432, 546 466, 558 502 C566 494, 578 494, 586 502 C598 466, 594 432, 570 404 Z" fill="#fcf9f2" fill-opacity="0.6" stroke-width="1.1" />
+      <path d="M570 412 L571 494 M565 424 C560 448, 560 470, 564 492 M575 424 C580 448, 580 470, 576 492" stroke-width="0.45" />
+
+      <!-- Side cupping lotus petals -->
+      <path d="M522 422 C514 452, 524 488, 556 512 C552 480, 544 446, 522 422 Z" fill="#fcf9f2" fill-opacity="0.5" stroke-width="1.05" />
+      <path d="M527 430 C534 456, 542 482, 552 504" stroke-width="0.45" />
+
+      <path d="M620 420 C628 450, 618 486, 586 512 C590 480, 598 446, 620 420 Z" fill="#fcf9f2" fill-opacity="0.5" stroke-width="1.05" />
+      <path d="M615 428 C608 456, 600 482, 590 504" stroke-width="0.45" />
+
+      <!-- Outer spreading lotus petals -->
+      <path d="M482 456 C488 490, 516 516, 556 522 C538 496, 514 470, 482 456 Z" stroke-width="1.05" />
+      <path d="M492 462 C512 482, 532 500, 550 516" stroke-width="0.45" />
+
+      <path d="M660 454 C654 488, 626 516, 586 522 C604 496, 628 470, 660 454 Z" stroke-width="1.05" />
+      <path d="M650 460 C630 482, 610 500, 592 516" stroke-width="0.45" />
+
+      <!-- Foreground center & base petals -->
+      <path d="M571 490 C552 506, 552 526, 571 538 C590 526, 590 506, 571 490 Z" fill="#fcf9f2" stroke-width="1.1" />
+      <path d="M571 496 L571 533" stroke-width="0.45" />
+      <path d="M518 524 C534 536, 554 538, 568 534 C554 520, 536 516, 518 524 Z" stroke-width="0.95" />
+      <path d="M624 524 C608 536, 588 538, 574 534 C588 520, 606 516, 624 524 Z" stroke-width="0.95" />
+
+      <!-- Stem & Companion Pointed Lotus Bud -->
+      <path d="M571 538 C566 592, 548 648, 520 712" stroke-width="1.15" />
+
+      <!-- Slender Companion Lotus Bud (Right, ~686, 405) -->
+      <path d="M692 368 C672 392, 668 424, 684 448 C702 428, 708 396, 692 368 Z" stroke-width="1.05" />
+      <path d="M692 368 C684 396, 682 422, 684 448" stroke-width="0.55" />
+      <path d="M673 414 C669 430, 674 442, 684 448" stroke-width="0.85" />
+      <path d="M684 448 C678 504, 658 564, 626 628" stroke-width="0.95" />
+
+      <!-- Companion Cupped Lotus Leaf (Bottom-Center, ~442, 628) -->
+      <path d="M356 628 C364 606, 394 596, 424 600 C452 592, 488 596, 514 610 C524 628, 504 648, 476 648 C448 656, 412 656, 386 646 C366 646, 354 638, 356 628 Z" stroke-width="1.0" />
+      <ellipse cx="438" cy="628" rx="4" ry="2.2" stroke-width="0.75" />
+      <path d="M434 627 L364 626 M436 626 L398 602 M440 626 L454 598 M442 627 L508 614 M436 630 L392 644 M440 630 L472 646" stroke-width="0.48" />
+      <path d="M438 653 C434 680, 426 706, 414 732" stroke-width="0.95" />
+    </g>
+
+    <!-- ======================================================================
+         5. AIRY HALF-OPEN LOTUS & FOLDED LEAF — Top-Right (~592, 136)
+         ====================================================================== -->
     <g opacity="0.21">
-      <path d="M36 638 C64 596, 86 556, 108 504" stroke-width="1.0" />
-      <!-- Side-view blooming lotus cup -->
-      <path d="M108 504 C82 486, 74 452, 92 424 C114 442, 122 472, 108 504 Z" stroke-width="1.0" />
-      <path d="M108 504 C104 468, 122 436, 152 422 C158 456, 140 488, 108 504 Z" stroke-width="1.05" />
-      <path d="M108 504 C132 486, 164 484, 186 502 C164 522, 134 522, 108 504 Z" stroke-width="0.95" />
-      <path d="M108 504 C86 508, 62 496, 52 474 C76 468, 96 480, 108 504 Z" stroke-width="0.9" />
-      <!-- Fine inner lines -->
-      <path d="M114 492 C124 468, 136 446, 148 430" stroke-width="0.5" />
-      <path d="M102 490 C96 468, 94 448, 94 432" stroke-width="0.5" />
-      <path d="M120 502 C142 498, 162 498, 178 502" stroke-width="0.45" />
-      <!-- Leaf on lower stem -->
-      <path d="M76 572 C42 560, 16 572, 4 596 C32 606, 58 596, 76 572 Z" stroke-width="0.9" />
-      <path d="M74 573 C48 582, 26 588, 8 594" stroke-width="0.5" />
-      <path d="M88 548 C118 552, 142 570, 150 596 C120 598, 98 580, 88 548 Z" stroke-width="0.9" />
-      <path d="M90 550 C112 566, 130 580, 147 594" stroke-width="0.5" />
+      <!-- Half-open side-view lotus blossom -->
+      <path d="M598 54 C580 80, 578 112, 592 140 C608 116, 614 84, 598 54 Z" stroke-width="1.05" />
+      <path d="M598 62 L594 134" stroke-width="0.45" />
+      <path d="M558 76 C554 104, 566 130, 592 144 C586 116, 576 92, 558 76 Z" stroke-width="1.0" />
+      <path d="M636 78 C640 106, 626 132, 592 144 C600 116, 614 94, 636 78 Z" stroke-width="1.0" />
+      <path d="M534 110 C544 134, 566 146, 592 146 C576 128, 556 116, 534 110 Z" stroke-width="0.95" />
+      <path d="M656 112 C644 136, 620 146, 592 146 C610 128, 632 118, 656 112 Z" stroke-width="0.95" />
+      <path d="M592 146 C584 196, 562 246, 532 296" stroke-width="1.0" />
+
+      <!-- Young furled lotus leaf (Lá sen non cuộn) -->
+      <path d="M618 228 C642 208, 682 206, 714 222 C702 246, 668 258, 634 248 C622 244, 614 236, 618 228 Z" stroke-width="0.95" />
+      <path d="M622 232 C652 228, 682 226, 708 223" stroke-width="0.5" />
+      <path d="M652 230 L642 214 M674 228 L668 212 M660 232 L654 248" stroke-width="0.42" />
+      <path d="M648 250 C636 278, 618 304, 596 328" stroke-width="0.85" />
     </g>
 
-    <!-- Fourth Airy Branch & Small Blossom (Top-Left & Top-Right Accent, ~72, 108 & ~595, 118) -->
-    <g opacity="0.19">
-      <!-- Top-left graceful twig -->
-      <path d="M18 42 C48 74, 72 110, 92 152" stroke-width="0.9" />
-      <path d="M56 84 C84 72, 112 80, 126 102 C98 112, 72 104, 56 84 Z" stroke-width="0.85" />
-      <path d="M58 85 C82 90, 104 96, 122 101" stroke-width="0.45" />
-      <path d="M74 116 C48 124, 30 144, 28 168 C54 166, 72 146, 74 116 Z" stroke-width="0.85" />
-      <path d="M72 118 C56 136, 42 152, 30 166" stroke-width="0.45" />
-
-      <!-- Top-right airy blossom -->
-      <path d="M596 116 C580 92, 582 62, 602 44 C620 64, 618 94, 596 116 Z" stroke-width="0.95" />
-      <path d="M596 116 C618 96, 648 96, 666 114 C646 134, 618 134, 596 116 Z" stroke-width="0.95" />
-      <path d="M596 116 C616 136, 620 166, 602 186 C582 168, 580 140, 596 116 Z" stroke-width="0.95" />
-      <path d="M596 116 C576 136, 546 138, 528 120 C548 98, 574 98, 596 116 Z" stroke-width="0.95" />
-      <circle cx="596" cy="116" r="5.5" stroke-width="0.8" />
-      <path d="M596 108 C598 86, 600 68, 602 52 M604 116 C624 112, 642 112, 658 114 M596 124 C602 144, 604 162, 602 176 M588 116 C568 118, 550 120, 536 120" stroke-width="0.45" />
-      <path d="M582 154 C562 188, 534 218, 498 242" stroke-width="0.85" />
-      <path d="M548 198 C520 192, 498 202, 488 222 C510 228, 534 218, 548 198 Z" stroke-width="0.8" />
+    <!-- ======================================================================
+         6. DELICATE BOTTOM-LEFT LOTUS BUD ACCENT (~76, 650)
+         ====================================================================== -->
+    <g opacity="0.21">
+      <path d="M88 594 C68 618, 66 648, 82 672 C100 652, 104 622, 88 594 Z" stroke-width="1.0" />
+      <path d="M88 594 C82 620, 80 646, 82 672" stroke-width="0.5" />
+      <path d="M66 638 C64 654, 70 666, 82 672" stroke-width="0.85" />
+      <path d="M100 640 C102 654, 94 666, 82 672" stroke-width="0.85" />
+      <path d="M82 672 C76 698, 66 720, 52 742" stroke-width="0.95" />
     </g>
+
   </g>
 </svg>
-

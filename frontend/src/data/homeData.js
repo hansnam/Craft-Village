@@ -96,7 +96,7 @@ export const craftVillages = [
     verified: true,
     image: villageBambooImage,
     alt: "Các sản phẩm mây tre đan thủ công làng Phú Vinh",
-    href: "#join-craft-folio",
+    href: "/lang-nghe/MTD",
   },
   {
     id: "LNX",
@@ -108,7 +108,7 @@ export const craftVillages = [
     verified: true,
     image: villageSilkImage,
     alt: "Tấm lụa tơ tằm mềm mại của làng nghề Nha Xá",
-    href: "#join-craft-folio",
+    href: "/lang-nghe/LNX",
   },
   {
     id: "QCS",
@@ -120,7 +120,7 @@ export const craftVillages = [
     verified: true,
     image: villageFanImage,
     alt: "Quạt thủ công truyền thống làng Chàng Sơn",
-    href: "#join-craft-folio",
+    href: "/lang-nghe/QCS",
   },
   {
     id: "GBT",
@@ -132,7 +132,7 @@ export const craftVillages = [
     verified: true,
     image: villagePotteryImage,
     alt: "Bình gốm hoa lam truyền thống làng Bát Tràng",
-    href: "#join-craft-folio",
+    href: "/lang-nghe/GBT",
   },
   {
     id: "NLC",
@@ -144,7 +144,7 @@ export const craftVillages = [
     verified: true,
     image: villageHatImage,
     alt: "Nón lá truyền thống làng Chuông Thanh Oai",
-    href: "#join-craft-folio",
+    href: "/lang-nghe/NLC",
   },
 ];
 
