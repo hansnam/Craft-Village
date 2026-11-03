@@ -4,6 +4,7 @@ import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import CustomCursor from "./components/CustomCursor.jsx";
 import AuthModal from "./components/AuthModal.jsx";
+import { warmHeroBannerAssets } from "./components/HeroBanner.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import VillageDetailPage from "./pages/VillageDetailPage.jsx";
 import FacilityPlaceholderPage from "./pages/FacilityPlaceholderPage.jsx";
@@ -32,6 +33,10 @@ function RouteScrollManager() {
 }
 
 export default function App() {
+  useEffect(() => {
+    warmHeroBannerAssets();
+  }, []);
+
   return (
     <div className="page">
       <RouteScrollManager />

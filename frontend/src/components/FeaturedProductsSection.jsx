@@ -85,7 +85,11 @@ export default function FeaturedProductsSection() {
                     data-cursor="card"
                   >
                     <img
-                      className="product-card__image"
+                      className={
+                        product.imageVariant
+                          ? `product-card__image product-card__image--${product.imageVariant}`
+                          : "product-card__image"
+                      }
                       src={product.image}
                       alt={product.alt}
                       loading="lazy"
