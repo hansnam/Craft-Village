@@ -42,6 +42,7 @@ export const featuredProducts = [
     name: "Vân Đăng Nan Tre",
     description: "Đan nét thủ công, thắp sáng không gian.",
     image: productTwoImage,
+    imageVariant: "bamboo-lamp",
     alt: "Đèn thả trần Vân Đăng Nan Tre đan thủ công",
     href: "#villages",
   },

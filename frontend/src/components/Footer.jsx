@@ -340,7 +340,12 @@ export default function Footer() {
               </div>
 
               <div className="footer__contact-row footer__contact-row--hours">
-                <span className="footer__icon" aria-hidden="true" />
+                <span className="footer__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="8.5" />
+                    <path d="M12 7.4V12l3.2 2" />
+                  </svg>
+                </span>
                 <p className="footer__contact-text">08:00 AM - 07:30 PM</p>
               </div>
             </address>
