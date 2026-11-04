@@ -4,6 +4,7 @@ import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import CustomCursor from "./components/CustomCursor.jsx";
 import AuthModal from "./components/AuthModal.jsx";
+import GlobalPageLoader from "./components/GlobalPageLoader.jsx";
 import { warmHeroBannerAssets } from "./components/HeroBanner.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import VillageDetailPage from "./pages/VillageDetailPage.jsx";
@@ -39,6 +40,7 @@ export default function App() {
 
   return (
     <div className="page">
+      <GlobalPageLoader />
       <RouteScrollManager />
       <CustomCursor />
       <Header />
