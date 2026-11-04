@@ -3289,8 +3289,8 @@ html.custom-cursor-active select {
 }
 
 .story-gbt__gallery-card .story-gbt__gallery-img--vase {
-  object-position: center 42%;
-  transform: scale(1.34);
+  object-position: center 46%;
+  transform: none;
 }
 
 .story-gbt__banner {
@@ -3313,7 +3313,7 @@ html.custom-cursor-active select {
   height: 100%;
   object-fit: cover;
   object-position: center 82%;
-  transform: scale(1.12);
+  transform: none;
 }
 
 .story-gbt__banner-overlay {
@@ -3484,13 +3484,13 @@ html.custom-cursor-active select {
   object-fit: cover;
   object-position: center;
   border-radius: 14px;
-  transform: scale(1.02);
+  transform: none;
   transition: transform 680ms var(--ease-luxury);
 }
 
 .facility-card:hover .facility-card__image,
 .facility-card:focus-within .facility-card__image {
-  transform: scale(1.08);
+  transform: scale(1.02);
 }
 
 .facility-card__placeholder {
@@ -3714,24 +3714,43 @@ html.custom-cursor-active select {
 
 .process-step__media {
   position: relative;
-  aspect-ratio: 1.54;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 auto;
   border-radius: 18px;
   overflow: hidden;
   background: #ebe3d6;
   box-shadow: 0 14px 34px rgba(38, 28, 18, 0.12);
+  transition: transform 380ms var(--ease-luxury),
+    box-shadow 380ms var(--ease-luxury);
+}
+
+.process-step--img-left .process-step__media {
+  margin-right: auto;
+}
+
+.process-step--img-right .process-step__media {
+  margin-left: auto;
+}
+
+.process-step:hover .process-step__media {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 40px rgba(38, 28, 18, 0.16);
 }
 
 .process-step__image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  transform: scale(1.1);
-  transition: transform 680ms var(--ease-luxury);
-}
-
-.process-step:hover .process-step__image {
-  transform: scale(1.18);
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: clamp(340px, 40vw, 480px);
+  object-fit: contain;
+  border-radius: 18px;
+  transform: none;
+  transition: transform 380ms var(--ease-luxury);
 }
 
 .process-step__placeholder {
@@ -4330,6 +4349,14 @@ html.custom-cursor-active select {
   .process-step--img-right .process-step__media,
   .process-step--img-right .process-step__body {
     order: 0;
+  }
+
+  .process-step__media {
+    margin: 0 auto !important;
+  }
+
+  .process-step__image {
+    max-height: clamp(260px, 72vw, 380px);
   }
 
   .process-connector {

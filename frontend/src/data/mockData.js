@@ -507,9 +507,9 @@ export const facilities =
     "storyTitle": "Giữ nghề nón, mở lối sáng tạo",
     "storyContent": "Với khoảng 20 năm kinh nghiệm, Nón lá Hải Yến tiếp tục duy trì nghề làm nón truyền thống, đồng thời mở rộng sản phẩm theo nhu cầu khách hàng. Bên cạnh những mẫu nón cổ, cơ sở còn nhận làm nón quai thao và đèn trang trí, linh hoạt điều chỉnh kích thước, kiểu dáng và độ cầu kỳ. Sự kết hợp giữa tay nghề thủ công và khả năng cá nhân hóa giúp sản phẩm phù hợp với nhiều mục đích sử dụng khác nhau.",
     "images": {
-      "header": "/download/images\nón lá Hải Yến/header.png",
-      "consultation": "download/images\nón lá Hải Yến/tuvan.png",
-      "imageStory": "/download/images\nón lá Hải Yến/cauchuyen.jpg"
+      "header": "/download/images/Nón lá Hải Yến/header.png",
+      "consultation": "/download/images/Nón lá Hải Yến/tuavan.png",
+      "imageStory": "/download/images/Nón lá Hải Yến/cauchuyen.jpg"
     },
     "dienTichXuong": {
       "value": 100,
@@ -547,7 +547,7 @@ export const facilities =
     "storyTitle": "Gìn giữ di sản song hành với đổi mới",
     "storyContent": "Nghệ nhân Tạ Thu Hương đã có nhiều năm gắn bó với nghề làm nón tại làng Chuông. Trước nguy cơ nghề truyền thống mai một, bà thành lập HTX Mây Tre Nón Lá Tạ Thu Hương, kết nối các hộ sản xuất và chủ động tìm kiếm thị trường tiêu thụ. Không chỉ duy trì các mẫu nón truyền thống, HTX còn cải tiến kiểu dáng, phát triển sản phẩm phục vụ du lịch và thị trường quốc tế. Hành trình của HTX cho thấy việc gìn giữ di sản cần song hành với đổi mới sản phẩm và mở rộng đầu ra cho người làm nghề.",
     "images": {
-      "header": "/images/HTX Mây Tre Nón Lá Tạ Thu Hương/header.png",
+      "header": "/images/HTX Mây Tre Nón Lá Tạ Thu Hương/cauchuyen.png",
       "consultation": "/images/HTX Mây Tre Nón Lá Tạ Thu Hương/tuvan.png",
       "imageStory": "/images/HTX Mây Tre Nón Lá Tạ Thu Hương/cauchuyen.png"
     },
@@ -827,7 +827,7 @@ export const facilities =
     "storyTitle": "Nơi những dáng gốm hình thành",
     "storyContent": "Hoàng Anh Ceramics mang đến các sản phẩm gốm sứ thủ công phục vụ nhu cầu sử dụng, trang trí và quà tặng. Từ những mẫu heo đất tiết kiệm nhiều màu sắc đến các sản phẩm decor, mỗi dòng sản phẩm hướng đến sự đa dạng về kiểu dáng, đáp ứng nhu cầu của nhiều nhóm khách hàng. Không chỉ phục vụ khách mua lẻ, cơ sở còn hướng đến khách hàng đặt sỉ và doanh nghiệp có nhu cầu sử dụng gốm sứ làm quà tặng mang dấu ấn riêng.",
     "images": {
-      "header": "",
+      "header": "/images/CS hoàng anh ceramics/Cauchuyen.jpg",
       "consultation": "/images/CS hoàng anh ceramics/tuvan.png",
       "imageStory": "/images/CS hoàng anh ceramics/Cauchuyen.jpg"
     },
@@ -851,7 +851,7 @@ export const facilities =
     "storyTitle": "Trăm hoa hỷ lạc - Kim ngân tài xuyến",
     "storyContent": "Bách Ngân Hỷ hướng đến việc đưa gốm sứ thủ công đến gần hơn với đời sống hiện đại. Những họa tiết caro, sắc xanh dịu nhẹ hay hình ảnh cherry và đàn cá tạo nên phong cách trẻ trung, đồng thời giữ lại nét gần gũi của sản phẩm gốm truyền thống. Sự kết hợp giữa kỹ thuật thủ công và cảm hứng thiết kế hiện đại giúp các sản phẩm không chỉ phục vụ nhu cầu sử dụng mà còn góp phần tạo điểm nhấn cho bàn ăn và không gian sống.",
     "images": {
-      "header": "/images/CS bách ngân hỷ/Header.png",
+      "header": "/images/CS bách ngân hỷ/Cauchuyen.png",
       "consultation": "/images/CS bách ngân hỷ/tuvan.jpg",
       "imageStory": "/images/CS bách ngân hỷ/Cauchuyen.png"
     },
@@ -1093,7 +1093,7 @@ export const capacities =
     "order": 2,
     "description": "Nhận thiết kế riêng, linh hoạt điều chỉnh kích thước và độ cầu kỳ theo mục đích sử dụng của khách hàng.",
     "image": {
-      "url": "/download/images\nón lá Hải Yến\nanglucsanxuat2.jpg",
+      "url": "/download/images/nón lá Hải Yến/nanglucsanxuat2.jpg",
       "alt": "Sản xuất theo yêu cầu nón lá Hải Yến"
     }
   },
@@ -1104,7 +1104,7 @@ export const capacities =
     "order": 3,
     "description": "Gìn giữ kỹ thuật làm các dòng nón cổ như nón ba tầm, nón dâu, kết hợp kinh nghiệm thủ công được tích lũy qua khoảng 20 năm làm nghề.",
     "image": {
-      "url": "/download/images\nón lá Hải Yến\nanglucsanxuat3.jpg",
+      "url": "/download/images/nón lá Hải Yến/nanglucsanxuat3.jpg",
       "alt": "Chế tác nón cổ truyền nón lá Hải Yến"
     }
   },
@@ -1115,7 +1115,7 @@ export const capacities =
     "order": 4,
     "description": "Với đội ngũ 10 người tham gia sản xuất, cơ sở nhận đơn từ 1 sản phẩm đến số lượng lớn, đáp ứng nhiều quy mô đặt hàng khác nhau.",
     "image": {
-      "url": "/download/images\nón lá Hải Yến\nanglucsanxuat4.png",
+      "url": "/download/images/nón lá Hải Yến/nanglucsanxuat4.png",
       "alt": "Năng lực gia công và cung ứng nón lá Hải Yến"
     }
   },
@@ -1126,7 +1126,7 @@ export const capacities =
     "order": 1,
     "description": "Sản xuất nhiều dòng nón truyền thống như nón lá trắng, nón lá trên lụa, nón giấy bóng, nón quai thao và nón Thái.",
     "image": {
-      "url": "/images/HTX Mây Tre Nón Lá Tạ Thu Hương\nanglucsanxuat1.jpg",
+      "url": "/images/HTX Mây Tre Nón Lá Tạ Thu Hương/nanglucsanxuat1.jpg",
       "alt": "Đa dạng mẫu mã HTX Mây Tre Nón Lá Tạ Thu Hương"
     }
   },
@@ -1137,7 +1137,7 @@ export const capacities =
     "order": 2,
     "description": "Kết hợp kỹ thuật làm nón truyền thống với các chất liệu, kiểu dáng và cách trang trí đa dạng, đáp ứng nhu cầu quà tặng, du lịch và trang trí.",
     "image": {
-      "url": "/images/HTX Mây Tre Nón Lá Tạ Thu Hương\nanglucsanxuat2.jpg",
+      "url": "/images/HTX Mây Tre Nón Lá Tạ Thu Hương/nanglucsanxuat2.jpg",
       "alt": "Cải tiến mẫu mã và chất liệu HTX Mây Tre Nón Lá Tạ Thu Hương"
     }
   },
@@ -1148,7 +1148,7 @@ export const capacities =
     "order": 3,
     "description": "Liên kết với các hộ sản xuất tại làng Chuông, phối hợp nguồn lực lao động để đáp ứng nhu cầu đặt hàng với số lượng lớn.",
     "image": {
-      "url": "/images/HTX Mây Tre Nón Lá Tạ Thu Hương\nanglucsanxuat3.webp",
+      "url": "/images/HTX Mây Tre Nón Lá Tạ Thu Hương/nanglucsanxuat3.webp",
       "alt": "Năng lực cung ứng đơn hàng HTX Mây Tre Nón Lá Tạ Thu Hương"
     }
   },
@@ -1159,7 +1159,7 @@ export const capacities =
     "order": 4,
     "description": "Có 6 sản phẩm đạt chứng nhận OCOP 4 sao, từng thực hiện đơn hàng xuất khẩu quy mô lớn và đưa sản phẩm đến nhiều thị trường nước ngoài.",
     "image": {
-      "url": "/images/HTX Mây Tre Nón Lá Tạ Thu Hương\nanglucsanxuat4.jpg",
+      "url": "/images/HTX Mây Tre Nón Lá Tạ Thu Hương/nanglucsanxuat4.jpg",
       "alt": "Chất lượng và thị trường quốc tế HTX Mây Tre Nón Lá Tạ Thu Hương"
     }
   },
@@ -1170,7 +1170,7 @@ export const capacities =
     "order": 1,
     "description": "Lưu giữ kỹ thuật làm nón truyền thống, từ chọn lá, là phẳng đến khâu nón tỉ mỉ bằng tay.",
     "image": {
-      "url": "/images/Hoa Nón Làng Chuông\nlsx1.png",
+      "url": "/images/Hoa Nón Làng Chuông/nlsx1.png",
       "alt": "Sản xuất thủ công truyền thống Hoa Nón Làng Chuông"
     }
   },
@@ -1181,7 +1181,7 @@ export const capacities =
     "order": 2,
     "description": "Linh hoạt trong kiểu dáng, màu sắc và họa tiết, đáp ứng nhu cầu sử dụng và đặt hàng riêng.",
     "image": {
-      "url": "/images/Hoa Nón Làng Chuông\nlsx2.png",
+      "url": "/images/Hoa Nón Làng Chuông/nlsx2.png",
       "alt": "Thiết kế theo yêu cầu Hoa Nón Làng Chuông"
     }
   },
@@ -1192,7 +1192,7 @@ export const capacities =
     "order": 3,
     "description": "Cung cấp các dòng nón lá truyền thống, nón cưới hỏi, nón trang trí và nón phục vụ quà tặng, biểu diễn văn hóa.",
     "image": {
-      "url": "/images/Hoa Nón Làng Chuông\nlsx3.png",
+      "url": "/images/Hoa Nón Làng Chuông/nlsx3.png",
       "alt": "Đa dạng dòng sản phẩm Hoa Nón Làng Chuông"
     }
   },
@@ -1203,7 +1203,7 @@ export const capacities =
     "order": 4,
     "description": "Chú trọng từng đường kim, mối khâu và phần quai nón, đảm bảo tính thẩm mỹ và độ bền của sản phẩm.",
     "image": {
-      "url": "/images/Hoa Nón Làng Chuông\nlsx4.png",
+      "url": "/images/Hoa Nón Làng Chuông/nlsx4.png",
       "alt": "Gia công và hoàn thiện sản phẩm Hoa Nón Làng Chuông"
     }
   },
@@ -1214,7 +1214,7 @@ export const capacities =
     "order": 1,
     "description": "Lưu giữ kỹ thuật làm quạt truyền thống, từ gia công nan quạt đến phất quạt và hoàn thiện sản phẩm.",
     "image": {
-      "url": "/images/Quạt Chàng Sơn\nlsx1.png",
+      "url": "/images/Quạt Chàng Sơn/nlsx1.png",
       "alt": "Sản xuất thủ công truyền thống Quạt Chàng Sơn"
     }
   },
@@ -1225,7 +1225,7 @@ export const capacities =
     "order": 2,
     "description": "Đa dạng mẫu mã, kiểu dáng, hoa văn và kích thước, đáp ứng nhu cầu riêng của từng khách hàng.",
     "image": {
-      "url": "/images/Quạt Chàng Sơn\nlsx2.png",
+      "url": "/images/Quạt Chàng Sơn/nlsx2.png",
       "alt": "Thiết kế theo yêu cầu Quạt Chàng Sơn"
     }
   },
@@ -1236,7 +1236,7 @@ export const capacities =
     "order": 3,
     "description": "Cung cấp quạt truyền thống, quạt quà tặng, quạt cưới và quạt trang trí phục vụ nhiều mục đích sử dụng.",
     "image": {
-      "url": "/images/Quạt Chàng Sơn\nlsx3.png",
+      "url": "/images/Quạt Chàng Sơn/nlsx3.png",
       "alt": "Sản xuất đa dạng dòng quạt Quạt Chàng Sơn"
     }
   },
@@ -1247,7 +1247,7 @@ export const capacities =
     "order": 4,
     "description": "Thực hiện các công đoạn gia công, in ấn, lắp ráp và kiểm tra nhằm đảm bảo tính thẩm mỹ của từng chiếc quạt.",
     "image": {
-      "url": "/images/Quạt Chàng Sơn\nlsx4.png",
+      "url": "/images/Quạt Chàng Sơn/nlsx4.png",
       "alt": "Gia công và hoàn thiện sản phẩm Quạt Chàng Sơn"
     }
   },
@@ -1258,7 +1258,7 @@ export const capacities =
     "order": 1,
     "description": "Phát triển các sản phẩm quạt phục vụ nhu cầu sử dụng, trang trí và quà tặng, mang nét đặc trưng của nghề quạt Chàng Sơn.",
     "image": {
-      "url": "/images/Quạt Từ Tâm\nanglucsanxuat1.png",
+      "url": "/images/Quạt Từ Tâm/nanglucsanxuat1.png",
       "alt": "Đa dạng dòng quạt thủ công Quạt Từ Tâm"
     }
   },
@@ -1269,7 +1269,7 @@ export const capacities =
     "order": 2,
     "description": "Đề cao sự chỉn chu trong quá trình hoàn thiện, từ hình thức đến những chi tiết tạo nên nét riêng của sản phẩm.",
     "image": {
-      "url": "/images/Quạt Từ Tâm\nanglucsanxuat2.png",
+      "url": "/images/Quạt Từ Tâm/nanglucsanxuat2.png",
       "alt": "Chú trọng sự tỉ mỉ trong từng sản phẩm Quạt Từ Tâm"
     }
   },
@@ -1280,7 +1280,7 @@ export const capacities =
     "order": 3,
     "description": "Định hướng sản phẩm theo mục đích sử dụng, phù hợp với nhu cầu quà tặng, trang trí và các hoạt động sự kiện.",
     "image": {
-      "url": "/images/Quạt Từ Tâm\nanglucsanxuat3.png",
+      "url": "/images/Quạt Từ Tâm/nanglucsanxuat3.png",
       "alt": "Linh hoạt theo nhu cầu khách hàng Quạt Từ Tâm"
     }
   },
@@ -1291,7 +1291,7 @@ export const capacities =
     "order": 4,
     "description": "Có thể khai thác dòng quạt thủ công cho quà tặng đối tác, chương trình quảng bá và các hoạt động mang bản sắc văn hóa.",
     "image": {
-      "url": "/images/Quạt Từ Tâm\nanglucsanxuat4.png",
+      "url": "/images/Quạt Từ Tâm/nanglucsanxuat4.png",
       "alt": "Tiềm năng hợp tác với doanh nghiệp Quạt Từ Tâm"
     }
   },
@@ -1302,7 +1302,7 @@ export const capacities =
     "order": 1,
     "description": "Các dòng quạt mang nét truyền thống có thể được lựa chọn theo nhu cầu sử dụng, trang trí không gian hoặc làm quà tặng.",
     "image": {
-      "url": "/images/Quạt Phương\nanglucsanxuat1.png",
+      "url": "/images/Quạt Phương/nanglucsanxuat1.png",
       "alt": "Đa dạng mẫu mã và kiểu dáng Quạt Phương"
     }
   },
@@ -1313,7 +1313,7 @@ export const capacities =
     "order": 2,
     "description": "Chú trọng vẻ đẹp của sản phẩm, tạo sự hài hòa giữa nét văn hóa truyền thống và nhu cầu thẩm mỹ hiện nay.",
     "image": {
-      "url": "/images/Quạt Phương\nanglucsanxuat2.png",
+      "url": "/images/Quạt Phương/nanglucsanxuat2.png",
       "alt": "Kết hợp giá trị thủ công và thẩm mỹ Quạt Phương"
     }
   },
@@ -1324,7 +1324,7 @@ export const capacities =
     "order": 3,
     "description": "Sản phẩm có tiềm năng phục vụ các chương trình văn hóa, sự kiện doanh nghiệp và hoạt động quảng bá thương hiệu.",
     "image": {
-      "url": "/images/Quạt Phương\nanglucsanxuat3.png",
+      "url": "/images/Quạt Phương/nanglucsanxuat3.png",
       "alt": "Ứng dụng trong quà tặng và sự kiện Quạt Phương"
     }
   },
@@ -1335,7 +1335,7 @@ export const capacities =
     "order": 4,
     "description": "Có thể khai thác các phương án lựa chọn mẫu quạt phù hợp với từng mục đích hợp tác; quy mô nhận đơn và khả năng tùy chỉnh cần được xác nhận trực tiếp với cơ sở.",
     "image": {
-      "url": "/images/Quạt Phương\nanglucsanxuat4.png",
+      "url": "/images/Quạt Phương/nanglucsanxuat4.png",
       "alt": "Khả năng phát triển đơn hàng theo yêu cầu Quạt Phương"
     }
   },
@@ -1346,7 +1346,7 @@ export const capacities =
     "order": 1,
     "description": "Đa dạng sản phẩm thủ công từ mây, tre và giang đan, mang vẻ đẹp mộc mạc và giá trị truyền thống.",
     "image": {
-      "url": "/images/CS Mây tre việt quang\nanglucsanxuat1.webp",
+      "url": "/images/CS Mây tre việt quang/nanglucsanxuat1.webp",
       "alt": "Sản phẩm mây tre đan Mây Tre Đan Việt Quang"
     }
   },
@@ -1357,7 +1357,7 @@ export const capacities =
     "order": 2,
     "description": "Kế thừa kinh nghiệm làm nghề qua nhiều thế hệ, chú trọng sự tỉ mỉ trong từng công đoạn đan.",
     "image": {
-      "url": "/images/CS Mây tre việt quang\nanglucsanxuat2.webp",
+      "url": "/images/CS Mây tre việt quang/nanglucsanxuat2.webp",
       "alt": "Kỹ thuật đan thủ công Mây Tre Đan Việt Quang"
     }
   },
@@ -1368,7 +1368,7 @@ export const capacities =
     "order": 3,
     "description": "Phù hợp với nhu cầu trang trí không gian, nội thất và phát triển các bộ sưu tập mang bản sắc Việt.",
     "image": {
-      "url": "/images/CS Mây tre việt quang\nanglucsanxuat3.jpg",
+      "url": "/images/CS Mây tre việt quang/nanglucsanxuat3.jpg",
       "alt": "Sản phẩm trang trí Mây Tre Đan Việt Quang"
     }
   },
@@ -1379,7 +1379,7 @@ export const capacities =
     "order": 4,
     "description": "Hỗ trợ trao đổi thiết kế theo yêu cầu, làm mẫu trước khi sản xuất hàng loạt cho đơn hàng doanh nghiệp.",
     "image": {
-      "url": "/images/CS Mây tre việt quang\nanglucsanxuat4.png",
+      "url": "/images/CS Mây tre việt quang/nanglucsanxuat4.png",
       "alt": "Quà tặng doanh nghiệp Mây Tre Đan Việt Quang"
     }
   },
@@ -1390,7 +1390,7 @@ export const capacities =
     "order": 1,
     "description": "Phát triển các dòng sản phẩm mây tre đan từ đồ gia dụng, phụ kiện đến vật dụng trang trí.",
     "image": {
-      "url": "/images/CS mây tre đan tuấn anh\nlsx1.jpg",
+      "url": "/images/CS mây tre đan tuấn anh/nlsx1.jpg",
       "alt": "Đa dạng sản phẩm thủ công Mây tre đan Tuấn Anh"
     }
   },
@@ -1401,7 +1401,7 @@ export const capacities =
     "order": 2,
     "description": "Linh hoạt kiểu dáng, kích thước và công năng theo nhu cầu riêng của khách hàng.",
     "image": {
-      "url": "/images/CS mây tre đan tuấn anh\nlsx2.jpg",
+      "url": "/images/CS mây tre đan tuấn anh/nlsx2.jpg",
       "alt": "Thiết kế theo yêu cầu Mây tre đan Tuấn Anh"
     }
   },
@@ -1412,7 +1412,7 @@ export const capacities =
     "order": 3,
     "description": "Phù hợp với không gian sống, nhà hàng, khách sạn, homestay và dịch vụ.",
     "image": {
-      "url": "/images/CS mây tre đan tuấn anh\nlsx3.jpg",
+      "url": "/images/CS mây tre đan tuấn anh/nlsx3.jpg",
       "alt": "Ứng dụng đa dạng Mây tre đan Tuấn Anh"
     }
   },
@@ -1423,7 +1423,7 @@ export const capacities =
     "order": 4,
     "description": "Tiếp nhận đơn đặt hàng phục vụ quà tặng, phụ kiện và nhu cầu hợp tác doanh nghiệp.",
     "image": {
-      "url": "/images/CS mây tre đan tuấn anh\nlsx4.jpg",
+      "url": "/images/CS mây tre đan tuấn anh/nlsx4.jpg",
       "alt": "Đơn hàng riêng biệt Mây tre đan Tuấn Anh"
     }
   },
@@ -1478,7 +1478,7 @@ export const capacities =
     "order": 1,
     "description": "Phát triển phong cách sản phẩm từ họa tiết caro, sắc xanh thanh lịch đến những thiết kế trẻ trung.",
     "image": {
-      "url": "/images/CS bách ngân hỷ\nanglucsanxuat1.png",
+      "url": "/images/CS bách ngân hỷ/nanglucsanxuat1.png",
       "alt": "Bộ sưu tập mang dấu ấn riêng Bách Ngân Hỷ"
     }
   },
@@ -1489,7 +1489,7 @@ export const capacities =
     "order": 2,
     "description": "Kết hợp kiểu dáng, màu men và họa tiết để tạo nên những bộ sưu tập có cá tính riêng.",
     "image": {
-      "url": "/images/CS bách ngân hỷ\nanglucsanxuat2.jpg",
+      "url": "/images/CS bách ngân hỷ/nanglucsanxuat2.jpg",
       "alt": "Đa dạng màu sắc và họa tiết Bách Ngân Hỷ"
     }
   },
@@ -1500,7 +1500,7 @@ export const capacities =
     "order": 3,
     "description": "Gợi ý các dòng cốc, đĩa và bộ đồ ăn phù hợp với phong cách nhà hàng, quán cà phê.",
     "image": {
-      "url": "/images/CS bách ngân hỷ\nanglucsanxuat3.jpg",
+      "url": "/images/CS bách ngân hỷ/nanglucsanxuat3.jpg",
       "alt": "Phù hợp cho không gian kinh doanh Bách Ngân Hỷ"
     }
   },
@@ -1511,7 +1511,7 @@ export const capacities =
     "order": 4,
     "description": "Lựa chọn các set gốm làm quà tặng đối tác, khách hàng và sự kiện doanh nghiệp.",
     "image": {
-      "url": "/images/CS bách ngân hỷ\nanglucsanxuat4.png",
+      "url": "/images/CS bách ngân hỷ/nanglucsanxuat4.png",
       "alt": "Sản phẩm cho những dịp đặc biệt Bách Ngân Hỷ"
     }
   },
@@ -1522,7 +1522,7 @@ export const capacities =
     "order": 1,
     "description": "Từ đồ gia dụng, ấm chén, cốc tách đến đồ thờ cúng, gốm phong thủy và gốm mỹ nghệ, đáp ứng nhiều nhu cầu sử dụng khác nhau.",
     "image": {
-      "url": "/images/CS gốm hải long\nanglucsanxuat1.jpg",
+      "url": "/images/CS gốm hải long/nanglucsanxuat1.jpg",
       "alt": "Đa dạng sản phẩm Gốm Hải Long"
     }
   },
@@ -1533,7 +1533,7 @@ export const capacities =
     "order": 2,
     "description": "Đa dạng sản phẩm trang trí mang dấu ấn thủ công, phù hợp với nhu cầu làm đẹp không gian và lựa chọn quà tặng.",
     "image": {
-      "url": "/images/CS gốm hải long\nanglucsanxuat2.png",
+      "url": "/images/CS gốm hải long/nanglucsanxuat2.png",
       "alt": "Đồ gốm mỹ nghệ Gốm Hải Long"
     }
   },
@@ -1544,7 +1544,7 @@ export const capacities =
     "order": 3,
     "description": "Cung ứng vật liệu gốm truyền thống dành cho công trình kiến trúc cổ, không gian hoài niệm và các dự án cải tạo.",
     "image": {
-      "url": "/images/CS gốm hải long\nanglucsanxuat3.jpg",
+      "url": "/images/CS gốm hải long/nanglucsanxuat3.jpg",
       "alt": "Cung cấp vật liệu ngói truyền thống Gốm Hải Long"
     }
   },
@@ -1555,7 +1555,7 @@ export const capacities =
     "order": 4,
     "description": "Dòng nồi gốm sứ phục vụ nhu cầu nấu ăn, hướng đến hộ gia đình và các đơn vị kinh doanh sản phẩm nhà bếp.",
     "image": {
-      "url": "/images/CS gốm hải long\nanglucsanxuat4.jpg",
+      "url": "/images/CS gốm hải long/nanglucsanxuat4.jpg",
       "alt": "Nồi gốm NodaCook Gốm Hải Long"
     }
   },
@@ -1566,7 +1566,7 @@ export const capacities =
     "order": 1,
     "description": "Lựa chọn kiểu dáng ấm đi kèm theo mẫu tham khảo, concept chụp ảnh hoặc yêu cầu riêng của khách hàng.",
     "image": {
-      "url": "/images/CS Gốm tới liên\nanglucsanxuat1.jpg",
+      "url": "/images/CS Gốm tới liên/nanglucsanxuat1.jpg",
       "alt": "Kiểu dáng sản phẩm Gốm Tới Liên"
     }
   },
@@ -1577,7 +1577,7 @@ export const capacities =
     "order": 2,
     "description": "Trao đổi về hoa văn, họa tiết và phong cách trang trí để sản phẩm phù hợp với ý tưởng hình ảnh hoặc bối cảnh sử dụng.",
     "image": {
-      "url": "/images/CS Gốm tới liên\nanglucsanxuat2.jpg",
+      "url": "/images/CS Gốm tới liên/nanglucsanxuat2.jpg",
       "alt": "Họa tiết và trang trí Gốm Tới Liên"
     }
   },
@@ -1588,7 +1588,7 @@ export const capacities =
     "order": 3,
     "description": "Tham khảo các tông màu và hiệu ứng men phù hợp với concept, không gian trưng bày hoặc yêu cầu thẩm mỹ của khách hàng.",
     "image": {
-      "url": "/images/CS Gốm tới liên\nanglucsanxuat3.png",
+      "url": "/images/CS Gốm tới liên/nanglucsanxuat3.png",
       "alt": "Màu sắc và men gốm Gốm Tới Liên"
     }
   },
@@ -1599,7 +1599,7 @@ export const capacities =
     "order": 4,
     "description": "Nhận mẫu tham khảo và yêu cầu về số lượng để trao đổi phương án sản xuất bộ ấm chén phục vụ chụp ảnh, quay phim, quảng cáo...",
     "image": {
-      "url": "/images/CS Gốm tới liên\nanglucsanxuat4.jpg",
+      "url": "/images/CS Gốm tới liên/nanglucsanxuat4.jpg",
       "alt": "Sản phẩm theo yêu cầu Gốm Tới Liên"
     }
   },
@@ -1610,7 +1610,7 @@ export const capacities =
     "order": 1,
     "description": "Danh mục bát đĩa, ấm chén, cốc, lọ hoa và đồ trang trí đáp ứng nhiều mục đích sử dụng, từ gia đình đến không gian kinh doanh.",
     "image": {
-      "url": "/images/CS Gốm Mạnh Hoa\nanglucsanxuat1.jpg",
+      "url": "/images/CS Gốm Mạnh Hoa/nanglucsanxuat1.jpg",
       "alt": "Đa dạng dòng sản phẩm Gốm Sứ Mạnh Hoa"
     }
   },
@@ -1621,7 +1621,7 @@ export const capacities =
     "order": 2,
     "description": "Đa dạng kiểu dáng, phù hợp sử dụng tại gia đình, văn phòng và quán cà phê.",
     "image": {
-      "url": "/images/CS Gốm Mạnh Hoa\nanglucsanxuat2.jpg",
+      "url": "/images/CS Gốm Mạnh Hoa/nanglucsanxuat2.jpg",
       "alt": "Ấm chén và cốc Gốm Sứ Mạnh Hoa"
     }
   },
@@ -1632,7 +1632,7 @@ export const capacities =
     "order": 3,
     "description": "Gợi ý các dòng cốc, đĩa và bộ đồ ăn phù hợp với phong cách nhà hàng, quán cà phê.",
     "image": {
-      "url": "/images/CS Gốm Mạnh Hoa\nanglucsanxuat3.png",
+      "url": "/images/CS Gốm Mạnh Hoa/nanglucsanxuat3.png",
       "alt": "Gốm sứ trang trí Gốm Sứ Mạnh Hoa"
     }
   },
@@ -1643,7 +1643,7 @@ export const capacities =
     "order": 4,
     "description": "Gợi ý các bộ gốm sứ phục vụ nhu cầu tri ân khách hàng, tặng đối tác, quà tặng sự kiện hoặc quà tặng thương hiệu.",
     "image": {
-      "url": "/images/CS Gốm Mạnh Hoa\nanglucsanxuat4.jpg",
+      "url": "/images/CS Gốm Mạnh Hoa/nanglucsanxuat4.jpg",
       "alt": "Sản phẩm cho những dịp đặc biệt Gốm Sứ Mạnh Hoa"
     }
   },
@@ -1654,7 +1654,7 @@ export const capacities =
     "order": 1,
     "description": "Cung cấp các dòng lụa tơ tằm với vẻ đẹp mềm mại, thanh lịch, phục vụ nhu cầu may mặc và sáng tạo trang phục.",
     "image": {
-      "url": "/images/CS Lụa nha xá\nanglucsanxuat1.webp",
+      "url": "/images/CS Lụa nha xá/nanglucsanxuat1.webp",
       "alt": "Lụa tơ tằm truyền thống Lụa Nha Xá"
     }
   },
@@ -1665,7 +1665,7 @@ export const capacities =
     "order": 2,
     "description": "Từ lụa trơn đến lụa hoa, mang đến nhiều lựa chọn chất liệu cho áo dài và các bộ sưu tập thời trang.",
     "image": {
-      "url": "/images/CS Lụa nha xá\nanglucsanxuat2.webp",
+      "url": "/images/CS Lụa nha xá/nanglucsanxuat2.webp",
       "alt": "Đa dạng màu sắc, họa tiết Lụa Nha Xá"
     }
   },
@@ -1676,7 +1676,7 @@ export const capacities =
     "order": 3,
     "description": "Phù hợp với trang phục truyền thống, thiết kế hiện đại và nhu cầu của các nhà thiết kế, cơ sở may đo.",
     "image": {
-      "url": "/images/CS Lụa nha xá\nanglucsanxuat3.png",
+      "url": "/images/CS Lụa nha xá/nanglucsanxuat3.png",
       "alt": "Ứng dụng trong thời trang Lụa Nha Xá"
     }
   },
@@ -1687,7 +1687,7 @@ export const capacities =
     "order": 4,
     "description": "Khăn lụa và phụ kiện là lựa chọn quà tặng tinh tế dành cho đối tác, sự kiện và doanh nghiệp.",
     "image": {
-      "url": "/images/CS Lụa nha xá\nanglucsanxuat4.png",
+      "url": "/images/CS Lụa nha xá/nanglucsanxuat4.png",
       "alt": "Quà tặng mang dấu ấn Lụa Nha Xá"
     }
   },
@@ -1698,7 +1698,7 @@ export const capacities =
     "order": 1,
     "description": "Gia đình có hơn 30 năm gắn bó với nghề sản xuất và kinh doanh lụa tơ tằm. Cung cấp tơ sợi, dệt hoa văn, nhuộm màu và hoàn thiện vải lụa.",
     "image": {
-      "url": "/images/Silk Hạ Vy\nanglucsanxuat1.jpg",
+      "url": "/images/Silk Hạ Vy/nanglucsanxuat1.jpg",
       "alt": "Kinh nghiệm & Năng lực chuyên môn Silk Hạ Vy"
     }
   },
@@ -1709,7 +1709,7 @@ export const capacities =
     "order": 2,
     "description": "Nhận nhuộm theo mẫu màu, dệt hoa văn và xử lý lụa theo yêu cầu.",
     "image": {
-      "url": "/images/Silk Hạ Vy\nanglucsanxuat2.jpg",
+      "url": "/images/Silk Hạ Vy/nanglucsanxuat2.jpg",
       "alt": "Khả năng tùy chỉnh Silk Hạ Vy"
     }
   },
@@ -1720,7 +1720,7 @@ export const capacities =
     "order": 3,
     "description": "Chủ động nguồn nguyên liệu và công đoạn nhuộm nhằm hỗ trợ tiến độ, đáp ứng nhu cầu đặt hàng.",
     "image": {
-      "url": "/images/Silk Hạ Vy\nanglucsanxuat3.jpg",
+      "url": "/images/Silk Hạ Vy/nanglucsanxuat3.jpg",
       "alt": "Định hướng sản phẩm Silk Hạ Vy"
     }
   },
@@ -1731,7 +1731,7 @@ export const capacities =
     "order": 4,
     "description": "Xưởng dệt, nhà may, đại lý vải, thương hiệu thời trang, khách sỉ và khách lẻ.",
     "image": {
-      "url": "/images/Silk Hạ Vy\nanglucsanxuat4.png",
+      "url": "/images/Silk Hạ Vy/nanglucsanxuat4.png",
       "alt": "Đối tượng khách hàng Silk Hạ Vy"
     }
   }
