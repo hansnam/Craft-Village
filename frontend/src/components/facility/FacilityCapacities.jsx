@@ -77,32 +77,32 @@ export default function FacilityCapacities({
                       </div>
                     </div>
 
-                    {/* Nét đứt liên kết uốn lượn giữa các ảnh */}
+                    {/* Đường nét đứt uốn lượn mềm mại giữa các ảnh như hình mẫu */}
                     {hasNext && (
                       <div className="workshop-capacity-connector" aria-hidden="true">
                         <svg
-                          viewBox="0 0 600 130"
+                          viewBox="0 0 600 160"
                           preserveAspectRatio="none"
                           className="workshop-capacity-connector__svg"
                         >
                           {index % 2 === 0 ? (
-                            // Nối từ Row ảnh bên Trái sang Row ảnh bên Phải (Row 1 -> 2, Row 3 -> 4)
+                            // Uốn lượn từ Row ảnh bên Trái sang Row ảnh bên Phải (Row 1 -> Row 2, Row 3 -> Row 4)
                             <path
-                              d="M 220 10 C 265 45, 335 75, 430 120"
+                              d="M 205 5 C 210 90, 370 75, 440 155"
                               fill="none"
-                              stroke="#c5b6a3"
+                              stroke="#c4b5a4"
                               strokeWidth="2.5"
-                              strokeDasharray="7 9"
+                              strokeDasharray="8 8"
                               strokeLinecap="round"
                             />
                           ) : (
-                            // Nối từ Row ảnh bên Phải sang Row ảnh bên Trái (Row 2 -> 3)
+                            // Uốn lượn từ Row ảnh bên Phải sang Row ảnh bên Trái (Row 2 -> Row 3)
                             <path
-                              d="M 430 10 C 335 45, 265 75, 220 120"
+                              d="M 395 5 C 390 90, 230 75, 160 155"
                               fill="none"
-                              stroke="#c5b6a3"
+                              stroke="#c4b5a4"
                               strokeWidth="2.5"
-                              strokeDasharray="7 9"
+                              strokeDasharray="8 8"
                               strokeLinecap="round"
                             />
                           )}
