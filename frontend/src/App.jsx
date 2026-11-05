@@ -8,7 +8,7 @@ import GlobalPageLoader from "./components/GlobalPageLoader.jsx";
 import { warmHeroBannerAssets } from "./components/HeroBanner.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import VillageDetailPage from "./pages/VillageDetailPage.jsx";
-import FacilityPlaceholderPage from "./pages/FacilityPlaceholderPage.jsx";
+import FacilityDetailPage from "./pages/FacilityDetailPage.jsx";
 import VillageNotFound from "./components/village/VillageNotFound.jsx";
 
 function RouteScrollManager() {
@@ -50,7 +50,7 @@ export default function App() {
           <Route path="/lang-nghe/:id" element={<VillageDetailPage />} />
           <Route
             path="/co-so/:facilityId"
-            element={<FacilityPlaceholderPage />}
+            element={<FacilityDetailPage />}
           />
           <Route path="*" element={<VillageNotFound />} />
         </Routes>

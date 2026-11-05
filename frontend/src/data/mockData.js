@@ -1828,12 +1828,31 @@ export const projects =
     "createdAt": ""
   },
   {
-    "id": "",
+    "id": "PRJ_GTL_01",
     "coSoSanXuatId": "GBT_GTL",
-    "name": "",
-    "description": "",
+    "name": "Bộ đạo cụ ấm chén trà quán cổ",
+    "description": "Cung cấp trọn gói đạo cụ ấm chén tạo hình gốm nung củi cho không gian trà đạo và phim trường cổ trang.",
+    "image": "/download/images/CS Gốm tới liên/duan1.jpg",
     "link": "",
-    "createdAt": ""
+    "createdAt": "2024-11-15"
+  },
+  {
+    "id": "PRJ_GTL_02",
+    "coSoSanXuatId": "GBT_GTL",
+    "name": "Thiết kế chén sen theo concept nghệ thuật",
+    "description": "Gia công bộ ấm chén theo mẫu phác thảo riêng phục vụ triển lãm gốm sứ nghệ thuật.",
+    "image": "/download/images/CS Gốm tới liên/duan2.jpg",
+    "link": "",
+    "createdAt": "2025-03-20"
+  },
+  {
+    "id": "PRJ_GTL_03",
+    "coSoSanXuatId": "GBT_GTL",
+    "name": "Bộ ấm rồng vân mây cao cấp",
+    "description": "Đơn hàng gia công thủ công các mẫu ấm chén rồng đất nung phục vụ không gian trà cao cấp.",
+    "image": "/download/images/CS Gốm tới liên/duan3.jpg",
+    "link": "",
+    "createdAt": "2025-08-10"
   },
   {
     "id": "",
@@ -2167,7 +2186,7 @@ export const reviews =
     "reviewTime": "2025-01-21",
     "order": 1,
     "content": "Mình rất ưng chiếc ấm đất nung củi này. Dáng ấm nhỏ gọn, cầm vừa tay, chất gốm đanh chắc và con cua nổi trên nắp làm rất tinh xảo, nhìn là thích ngay. Chờ lò hơn 20 ngày nhưng thành phẩm ra rất đáng để đợi, ai mê trà và đồ gốm thủ công nên thử một lần.",
-    "avatar": null
+    "avatar": "/download/images/CS Gốm tới liên/avatar 1.png"
   },
   {
     "id": "rv_GTL02",
@@ -2176,7 +2195,7 @@ export const reviews =
     "reviewTime": "2025-12-13",
     "order": 2,
     "content": "Mình chấm khoảng 85% hài lòng, chỉ thiếu chút độ đanh của gốm, nhưng vẫn đáng để thử và mình sẽ đặt thêm một chiếc nữa.",
-    "avatar": null
+    "avatar": "/download/images/CS Gốm tới liên/avatar 2.png"
   },
   {
     "id": "rv_GTL03",
@@ -2185,7 +2204,7 @@ export const reviews =
     "reviewTime": "2026-06-05",
     "order": 3,
     "content": "Chiếc ấm “Bạch Cúc Trường Tồn” nung củi thủ công này làm mình rất ưng. Cầm lên có cảm giác như chạm vào đất, lửa và khói, mộc mạc mà có hồn. Đúng chất gốm Việt, càng dùng càng thấy yêu, ai mê gốm nung củi nên thử một lần.",
-    "avatar": null
+    "avatar": "/download/images/CS Gốm tới liên/avatar3.png"
   },
   {
     "id": "rv_GSMH01",
@@ -3271,92 +3290,104 @@ export const products =
   {
     "id": "SP_GBT_19",
     "coSoSanXuatId": "GBT_GTL",
-    "name": "",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "name": "Ấm Bạch Cúc",
+    "itemDescription": "Ấm đất nung củi tạo hình đóa cúc trắng thanh tao, cốt gốm đanh chắc và giữ nhiệt tốt.",
+    "chatLieu": "Đất sét Bát Tràng nung củi tự nhiên",
+    "kyThuat": "Tạo hình thủ công, nung củi truyền thống",
     "xuatXu": "Làng gốm Bát Tràng, Hà Nội.",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
-    "isFeatured": null,
-    "images": []
+    "dacDiemTitle": "Chất gốm mộc mạc",
+    "dacDiemDescription": "Hoa văn cánh cúc đắp nổi thủ công tỉ mỉ, nắp khít giữ trọn hương trà.",
+    "chatLieuVaMauSac": "Màu nâu gốm tự nhiên điểm men trắng",
+    "hoaTietVaKieuDang": "Dáng tròn, quai cong thanh thoát, cúc đắp nổi",
+    "isFeatured": true,
+    "images": [
+      "/download/images/CS Gốm tới liên/sanpham1.jpg"
+    ]
   },
   {
     "id": "SP_GBT_20",
     "coSoSanXuatId": "GBT_GTL",
-    "name": "",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "name": "Ấm Rồng Vân Mây",
+    "itemDescription": "Tác phẩm chạm khắc rồng ẩn hiện trong mây cuộn uyển chuyển, mang tính thẩm mỹ và phong thủy cao.",
+    "chatLieu": "Đất sét Bát Tràng",
+    "kyThuat": "Khắc nổi chi tiết, nung nhiệt độ cao",
     "xuatXu": "Làng gốm Bát Tràng, Hà Nội.",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
-    "isFeatured": null,
-    "images": []
+    "dacDiemTitle": "Hình tượng rồng mây",
+    "dacDiemDescription": "Nắp ấm cách điệu đầu rồng dũng mãnh, thân ấm chạm vảy và vân mây sắc nét.",
+    "chatLieuVaMauSac": "Men mộc cổ điển",
+    "hoaTietVaKieuDang": "Dáng vát, họa tiết rồng vờn mây",
+    "isFeatured": true,
+    "images": [
+      "/download/images/CS Gốm tới liên/Sanpham2.jpg"
+    ]
   },
   {
     "id": "SP_GBT_21",
     "coSoSanXuatId": "GBT_GTL",
-    "name": "",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "name": "Ấm Cá Chép Hóa Rồng",
+    "itemDescription": "Thiết kế biểu tượng cá chép vượt vũ môn hóa rồng, biểu trưng cho sự thăng tiến và kiên trì.",
+    "chatLieu": "Đất sét cao cấp",
+    "kyThuat": "Tạo hình và đắp nổi 3D thủ công",
     "xuatXu": "Làng gốm Bát Tràng, Hà Nội.",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
-    "isFeatured": null,
-    "images": []
+    "dacDiemTitle": "Tạo hình sống động",
+    "dacDiemDescription": "Từng vây cá, sóng nước và đuôi rồng đều được chăm chút kỹ lưỡng.",
+    "chatLieuVaMauSac": "Men giả cổ đất nung",
+    "hoaTietVaKieuDang": "Dáng cổ quai cao, tạo hình cá hóa rồng",
+    "isFeatured": true,
+    "images": [
+      "/download/images/CS Gốm tới liên/Sanpham3.jpg"
+    ]
   },
   {
     "id": "SP_GBT_22",
     "coSoSanXuatId": "GBT_GTL",
-    "name": "",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "name": "Bộ ấm chén Sen",
+    "itemDescription": "Bộ trà đạo cao cấp lấy cảm hứng từ đầm sen mùa hạ, gồm ấm, chén tống và các chén quân đồng bộ.",
+    "chatLieu": "Đất sét mịn Bát Tràng",
+    "kyThuat": "Đắp cánh sen nổi, vuốt tay",
     "xuatXu": "Làng gốm Bát Tràng, Hà Nội.",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
-    "isFeatured": null,
-    "images": []
+    "dacDiemTitle": "Bộ trà hoàn chỉnh",
+    "dacDiemDescription": "Đồng điệu về tạo hình búp sen e ấp trên nắp và miệng chén.",
+    "chatLieuVaMauSac": "Sắc nâu ấm kết hợp cánh sen phớt kem",
+    "hoaTietVaKieuDang": "Trọn bộ ấm chén phong cách trà đạo",
+    "isFeatured": true,
+    "images": [
+      "/download/images/CS Gốm tới liên/sanpham4.jpg"
+    ]
   },
   {
     "id": "SP_GBT_23",
     "coSoSanXuatId": "GBT_GTL",
-    "name": "",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "name": "Ấm hoa Sen",
+    "itemDescription": "Ấm trà tạo hình búp sen nở nhẹ nhàng, quai ấm như cành sen uốn lượn tự nhiên.",
+    "chatLieu": "Đất sét Bát Tràng",
+    "kyThuat": "Tạo hình thủ công nghệ nhân",
     "xuatXu": "Làng gốm Bát Tràng, Hà Nội.",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
-    "isFeatured": null,
-    "images": []
+    "dacDiemTitle": "Đường nét thanh khiết",
+    "dacDiemDescription": "Cảm giác cầm nắm dễ chịu, dòng rót êm ái ngắt dòng dứt khoát.",
+    "chatLieuVaMauSac": "Men mộc nhám nhẹ",
+    "hoaTietVaKieuDang": "Dáng búp sen quai cành",
+    "isFeatured": true,
+    "images": [
+      "/download/images/CS Gốm tới liên/sanpham5.jpg"
+    ]
   },
   {
     "id": "SP_GBT_24",
     "coSoSanXuatId": "GBT_GTL",
-    "name": "",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "name": "Hũ đựng trà Sen",
+    "itemDescription": "Hũ trà gốm đậy nắp khít kín khí giúp bảo quản trà khô nguyên hương vị tinh túy.",
+    "chatLieu": "Gốm nung nhiệt độ cao",
+    "kyThuat": "Phủ men rạn hoa sen thủ công",
     "xuatXu": "Làng gốm Bát Tràng, Hà Nội.",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
-    "isFeatured": null,
-    "images": []
+    "dacDiemTitle": "Bảo quản trà tuyệt hảo",
+    "dacDiemDescription": "Họa tiết hoa sen khắc chìm và đắp nổi trên nền men ánh kim độc đáo.",
+    "chatLieuVaMauSac": "Men ánh kim tối điểm hoa sen trắng",
+    "hoaTietVaKieuDang": "Dáng chum tròn có nắp đậy khít",
+    "isFeatured": true,
+    "images": [
+      "/download/images/CS Gốm tới liên/Sanpham6.jpg"
+    ]
   },
   {
     "id": "SP_GBT_25",

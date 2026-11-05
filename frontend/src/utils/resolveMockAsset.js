@@ -1,21 +1,7 @@
-const villageAssetModules = import.meta.glob(
-  [
-    "../../download/images/Trang làng nghề/**/*.{png,jpg,jpeg,webp}",
-    "!../../download/images/Trang làng nghề/Header các trang/**",
-    "../../download/images/Trang chủ/sanphamnoibat2.jpg",
-  ],
+const allBundledModules = import.meta.glob(
+  "../../download/images/**/*.{png,jpg,jpeg,webp,avif,svg,PNG,JPG,JPEG,WEBP}",
   { eager: true, import: "default" }
 );
-
-const facilityAssetModules = import.meta.glob(
-  "../../download/images/*/{header,Header,header ,52,59,61,68,75,76,cauchuyen,Cauchuyen,cauChuyen,tuvan,tuavan}.{png,jpg,jpeg,webp}",
-  { eager: true, import: "default" }
-);
-
-const allBundledModules = {
-  ...villageAssetModules,
-  ...facilityAssetModules,
-};
 
 function stripVietnameseDiacritics(value) {
   return value
