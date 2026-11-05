@@ -54,3 +54,4 @@ export default function ImageLightboxModal({ isOpen, imageUrl, title, onClose })
     </div>
   );
 }
+

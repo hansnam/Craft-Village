@@ -137,3 +137,4 @@ export default function ProductDetailModal({ isOpen, product, onClose, onOpenLig
     </div>
   );
 }
+

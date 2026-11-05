@@ -1,6 +1,24 @@
 import React, { useState } from "react";
 import { resolveMockAsset } from "../../utils/resolveMockAsset.js";
 
+/**
+ * Chuyển đổi tên cơ sở sang dạng viết hoa chữ cái đầu (Title Case)
+ * Ví dụ: "GỐM TỚI LIÊN" -> "Gốm Tới Liên", "HTX MÂY TRE..." -> "HTX Mây Tre..."
+ */
+export function formatFacilityNameTitle(name) {
+  if (!name || typeof name !== "string") return "";
+  return name
+    .trim()
+    .toLowerCase()
+    .split(/\s+/)
+    .map((word) => {
+      if (!word) return "";
+      if (word.toUpperCase() === "HTX") return "HTX";
+      return word.charAt(0).toUpperCase() + word.slice(1);
+    })
+    .join(" ");
+}
+
 function StarRating({ count = 5 }) {
   return (
     <div className="workshop-stars" aria-label={`${count} sao`}>
@@ -37,12 +55,14 @@ export default function FacilityReviews({ reviews = [], facilityName = "xưởng
     );
   };
 
+  const displayTitleName = formatFacilityNameTitle(facilityName);
+
   return (
     <section id="danh-gia" className="workshop-section workshop-reviews" aria-labelledby="reviews-heading">
       <div className="workshop-section__container">
         <header className="workshop-section__header">
           <h2 id="reviews-heading" className="workshop-section__title">
-            Khách hàng nói gì về {facilityName}
+            Khách hàng nói gì về {displayTitleName}
           </h2>
         </header>
 
@@ -63,9 +83,13 @@ export default function FacilityReviews({ reviews = [], facilityName = "xưởng
           <div className="workshop-reviews__grid">
             {reviews.map((rev, index) => {
               const avatarUrl = rev.avatar ? resolveMockAsset(rev.avatar) : "";
+              const isMiddleCard = index % 3 === 1; // Thẻ thứ 2 (ở giữa) dịch xuống tạo độ cong
 
               return (
-                <div key={rev.id || index} className="workshop-review-card">
+                <div
+                  key={rev.id || index}
+                  className={`workshop-review-card ${isMiddleCard ? "workshop-review-card--middle" : ""}`}
+                >
                   <div className="workshop-review-card__header">
                     <div className="workshop-review-card__user">
                       {avatarUrl ? (

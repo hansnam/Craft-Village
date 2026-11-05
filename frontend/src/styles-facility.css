@@ -568,28 +568,26 @@
   margin: 0 auto;
 }
 
-.workshop-capacities__path-decoration {
-  position: absolute;
-  top: 40px;
-  bottom: 40px;
-  left: 50%;
-  transform: translateX(-50%);
+.workshop-capacity-connector {
   width: 100%;
-  height: 90%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
   pointer-events: none;
-  z-index: 0;
-  opacity: 0.85;
 }
 
-.workshop-capacities__svg-path {
+.workshop-capacity-connector__svg {
   width: 100%;
   height: 100%;
+  max-width: 680px;
 }
 
 .workshop-capacities__list {
   display: flex;
   flex-direction: column;
-  gap: 64px;
+  gap: 0;
   position: relative;
   z-index: 1;
 }
@@ -804,6 +802,8 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   width: 100%;
+  align-items: flex-start;
+  padding-bottom: 56px;
 }
 
 .workshop-review-card {
@@ -820,6 +820,16 @@
 .workshop-review-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 12px 28px rgba(92, 73, 56, 0.1);
+}
+
+@media (min-width: 1025px) {
+  .workshop-review-card--middle {
+    transform: translateY(44px);
+  }
+
+  .workshop-review-card--middle:hover {
+    transform: translateY(38px);
+  }
 }
 
 .workshop-review-card__header {
@@ -1315,10 +1325,11 @@
 
   .workshop-reviews__grid {
     grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 24px;
   }
 
-  .workshop-capacities__path-decoration {
-    display: none;
+  .workshop-review-card--middle {
+    transform: none;
   }
 }
 
@@ -1349,6 +1360,11 @@
     gap: 20px;
   }
 
+  .workshop-capacity-connector {
+    height: 70px;
+    margin: 10px 0;
+  }
+
   .workshop-capacity-row--reverse {
     direction: ltr;
   }
@@ -1375,3 +1391,4 @@
     grid-template-columns: 1fr;
   }
 }
+

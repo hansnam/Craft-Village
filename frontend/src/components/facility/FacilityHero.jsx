@@ -251,3 +251,4 @@ export default function FacilityHero({ facility, onOpenConnect, onOpenLightbox }
     </section>
   );
 }
+

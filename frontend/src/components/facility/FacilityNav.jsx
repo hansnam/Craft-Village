@@ -67,3 +67,4 @@ export default function FacilityNav({ activeSection, onSelectSection, hasProject
     </nav>
   );
 }
+
