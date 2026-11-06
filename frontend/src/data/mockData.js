@@ -560,7 +560,7 @@ export const facilities =
       "unit": "năm"
     },
     "soLuongToiThieu": {
-      "value": 1,
+      "value": 100,
       "unit": "sản phẩm"
     },
     "thoiGianGiaoHang": {
@@ -804,7 +804,7 @@ export const facilities =
       "unit": "sản phẩm"
     },
     "thoiGianGiaoHang": {
-      "from": 15,
+      "from": 30,
       "to": 60,
       "unit": "ngày"
     },
@@ -833,9 +833,19 @@ export const facilities =
     },
     "dienTichXuong": null,
     "kinhNghiem": null,
-    "soLuongToiThieu": null,
-    "thoiGianGiaoHang": null,
-    "hoTroThietKeLamMau": null
+    "soLuongToiThieu": {
+      "value": 1,
+      "unit": "sản phẩm"
+    },
+    "thoiGianGiaoHang": {
+      "from": 15,
+      "to": 60,
+      "unit": "ngày"
+    },
+    "hoTroThietKeLamMau": {
+      "value": 100,
+      "unit": "%"
+    }
   },
   {
     "id": "GBT_BNH",
@@ -868,7 +878,7 @@ export const facilities =
       "unit": "sản phẩm"
     },
     "thoiGianGiaoHang": {
-      "from": 10,
+      "from": 15,
       "to": 30,
       "unit": "ngày"
     },
@@ -988,8 +998,7 @@ export const facilities =
       "unit": "sản phẩm"
     },
     "thoiGianGiaoHang": {
-      "from": 15,
-      "to": 15,
+      "value": 15,
       "unit": "ngày"
     },
     "hoTroThietKeLamMau": {
@@ -1024,7 +1033,7 @@ export const facilities =
       "unit": "năm"
     },
     "soLuongToiThieu": {
-      "value": 10,
+      "value": 1,
       "unit": "sản phẩm"
     },
     "thoiGianGiaoHang": {

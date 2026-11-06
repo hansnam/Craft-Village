@@ -9,9 +9,9 @@ import {
 } from "./VillageMegaMenu.jsx";
 
 const NAV_ITEMS = [
-  { id: "home", label: "Trang chủ", targetHash: "#home" },
-  { id: "villages", label: "Làng nghề", targetHash: "#villages", hasMenu: true },
-  { id: "about", label: "Về chúng tôi", targetHash: "#about" },
+  { id: "home", label: "Trang chủ", targetHash: "#home", href: "/" },
+  { id: "villages", label: "Làng nghề", targetHash: "#villages", hasMenu: true, href: "/#villages" },
+  { id: "about", label: "Về chúng tôi", href: "/ve-chung-toi" },
 ];
 
 export default function Header() {
@@ -57,6 +57,11 @@ export default function Header() {
   }, [villageMenuOpen]);
 
   useEffect(() => {
+    if (location.pathname === "/ve-chung-toi") {
+      setActiveNav("about");
+      return undefined;
+    }
+
     if (
       location.pathname.startsWith("/lang-nghe") ||
       location.pathname.startsWith("/co-so")
@@ -68,12 +73,9 @@ export default function Header() {
     const updateActiveOnScroll = () => {
       const scrollPos = window.scrollY + 180;
       const villagesEl = document.getElementById("villages");
-      const aboutEl = document.getElementById("about");
 
       if (villagesEl && scrollPos >= villagesEl.offsetTop) {
         setActiveNav("villages");
-      } else if (aboutEl && scrollPos >= aboutEl.offsetTop) {
-        setActiveNav("about");
       } else {
         setActiveNav("home");
       }
@@ -90,6 +92,11 @@ export default function Header() {
     setVillageMenuOpen(false);
     setMobileMenuOpen(false);
 
+    if (navId === "about") {
+      navigate("/ve-chung-toi");
+      return;
+    }
+
     if (navId === "home") {
       if (isHomeRoute) {
         window.scrollTo({ top: 0, behavior: "smooth" });
@@ -103,12 +110,12 @@ export default function Header() {
     }
 
     if (isHomeRoute) {
-      const sectionEl = document.getElementById(targetHash.slice(1));
+      const sectionEl = targetHash ? document.getElementById(targetHash.slice(1)) : null;
       if (sectionEl) {
         sectionEl.scrollIntoView({ behavior: "smooth", block: "start" });
       }
     } else {
-      navigate(`/${targetHash}`);
+      navigate(targetHash ? `/${targetHash}` : "/");
     }
   };
 
@@ -188,7 +195,7 @@ export default function Header() {
                       ? "site-nav__link site-nav__link--active"
                       : "site-nav__link"
                   }
-                  href={`/${item.targetHash}`}
+                  href={item.href || `/${item.targetHash}`}
                   data-cursor="link"
                   onClick={(event) => handleDesktopNavClick(event, item)}
                 >
@@ -304,7 +311,7 @@ export default function Header() {
               return (
                 <a
                   key={item.id}
-                  href={`/${item.targetHash}`}
+                  href={item.href || `/${item.targetHash}`}
                   onClick={(event) => handleMobileNavClick(event, item)}
                 >
                   {item.label}
