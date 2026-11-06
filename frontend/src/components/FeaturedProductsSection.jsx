@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { featuredProducts } from "../data/homeData.js";
 import useInfiniteCarousel from "../hooks/useInfiniteCarousel.js";
 
@@ -77,6 +78,8 @@ export default function FeaturedProductsSection() {
             >
               {extendedItems.map((product, index) => {
                 const staggerSlot = Math.max(0, Math.min(2, index - cloneCount));
+                const isInternalRoute = product.href && product.href.startsWith("/");
+
                 return (
                   <article
                     className="product-card"
@@ -104,23 +107,43 @@ export default function FeaturedProductsSection() {
                       <p className="product-card__desc">
                         {product.description}
                       </p>
-                      <a
-                        className="product-card__action"
-                        href={product.href}
-                        aria-label={`Xem chi tiết sản phẩm ${product.name}`}
-                      >
-                        <span className="product-card__action-text">
-                          Xem chi tiết
-                        </span>
-                        <svg
-                          className="product-card__long-arrow"
-                          viewBox="0 0 44 12"
-                          aria-hidden="true"
+                      {isInternalRoute ? (
+                        <Link
+                          className="product-card__action"
+                          to={product.href}
+                          aria-label={`Xem chi tiết sản phẩm ${product.name}`}
                         >
-                          <path d="M1 6h40" />
-                          <path d="m36 1.5 5 4.5-5 4.5" />
-                        </svg>
-                      </a>
+                          <span className="product-card__action-text">
+                            Xem chi tiết
+                          </span>
+                          <svg
+                            className="product-card__long-arrow"
+                            viewBox="0 0 44 12"
+                            aria-hidden="true"
+                          >
+                            <path d="M1 6h40" />
+                            <path d="m36 1.5 5 4.5-5 4.5" />
+                          </svg>
+                        </Link>
+                      ) : (
+                        <a
+                          className="product-card__action"
+                          href={product.href}
+                          aria-label={`Xem chi tiết sản phẩm ${product.name}`}
+                        >
+                          <span className="product-card__action-text">
+                            Xem chi tiết
+                          </span>
+                          <svg
+                            className="product-card__long-arrow"
+                            viewBox="0 0 44 12"
+                            aria-hidden="true"
+                          >
+                            <path d="M1 6h40" />
+                            <path d="m36 1.5 5 4.5-5 4.5" />
+                          </svg>
+                        </a>
+                      )}
                     </div>
                   </article>
                 );
@@ -142,4 +165,3 @@ export default function FeaturedProductsSection() {
     </section>
   );
 }
-

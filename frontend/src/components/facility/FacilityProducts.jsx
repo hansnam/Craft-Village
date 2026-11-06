@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, useNavigate } from "react-router-dom";
 import { resolveMockAsset } from "../../utils/resolveMockAsset.js";
 
 export default function FacilityProducts({
@@ -7,6 +8,7 @@ export default function FacilityProducts({
   onSelectProduct,
   onOpenLightbox,
 }) {
+  const navigate = useNavigate();
   const subtitle =
     facility?.sanPhamDescription ||
     "Dòng sản phẩm thủ công truyền thống phù hợp với khách hàng có nhu cầu tìm kiếm sản phẩm chất lượng phục vụ trang trí, quà tặng hoặc sử dụng chuyên biệt.";
@@ -35,7 +37,13 @@ export default function FacilityProducts({
                   key={product.id || index}
                   className="workshop-product-card"
                   data-cursor="card"
-                  onClick={() => onSelectProduct && onSelectProduct(product)}
+                  onClick={() => {
+                    if (product.id) {
+                      navigate(`/san-pham/${product.id}`);
+                    } else if (onSelectProduct) {
+                      onSelectProduct(product);
+                    }
+                  }}
                 >
                   <div className="workshop-product-card__media">
                     {imageUrl ? (
@@ -65,12 +73,11 @@ export default function FacilityProducts({
                       {product.name || "Sản phẩm thủ công"}
                     </h3>
 
-                    <button
-                      type="button"
+                    <Link
+                      to={`/san-pham/${product.id}`}
                       className="workshop-product-card__btn"
                       onClick={(e) => {
                         e.stopPropagation();
-                        if (onSelectProduct) onSelectProduct(product);
                       }}
                       aria-label={`Xem chi tiết ${product.name || "sản phẩm"}`}
                     >
@@ -78,7 +85,7 @@ export default function FacilityProducts({
                       <svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" strokeWidth="2">
                         <path d="M3 8h10M9 4l4 4-4 4" />
                       </svg>
-                    </button>
+                    </Link>
                   </div>
                 </article>
               );
@@ -93,4 +100,3 @@ export default function FacilityProducts({
     </section>
   );
 }
-

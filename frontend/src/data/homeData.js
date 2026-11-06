@@ -35,7 +35,7 @@ export const featuredProducts = [
     description: "Gửi nét đẹp Thủ đô qua từng cánh quạt.",
     image: productOneImage,
     alt: "Quạt thủ công Dấu Ấn Hà Thành trên nền Hồ Gươm",
-    href: "#villages",
+    href: "/lang-nghe/QCS",
   },
   {
     id: "prod-2",
@@ -44,7 +44,7 @@ export const featuredProducts = [
     image: productTwoImage,
     imageVariant: "bamboo-lamp",
     alt: "Đèn thả trần Vân Đăng Nan Tre đan thủ công",
-    href: "#villages",
+    href: "/lang-nghe/MTD",
   },
   {
     id: "prod-3",
@@ -52,7 +52,7 @@ export const featuredProducts = [
     description: "Gửi trao nét đẹp, vun đắp duyên lành.",
     image: productThreeImage,
     alt: "Nón Hỷ Sắc thêu họa tiết chim hạc và chữ Hỷ",
-    href: "#villages",
+    href: "/san-pham/SP_NLC_NQTNS",
   },
   {
     id: "prod-4",
@@ -60,7 +60,7 @@ export const featuredProducts = [
     description: "Dáng lụa thanh tao, lưu giữ nét duyên truyền thống.",
     image: productFourImage,
     alt: "Áo dài lụa dệt hoa văn truyền thống",
-    href: "#villages",
+    href: "/lang-nghe/LNX",
   },
   {
     id: "prod-5",
@@ -68,7 +68,7 @@ export const featuredProducts = [
     description: "Đắp nổi tinh xảo, điểm sáng không gian sang trọng.",
     image: productFiveImage,
     alt: "Bình gốm nghệ thuật đắp nổi hoa thanh nhã",
-    href: "#villages",
+    href: "/lang-nghe/GBT",
   },
 ];
 
@@ -108,46 +108,47 @@ export const craftVillages = [
       "Chất liệu đặc trưng: Tơ tằm tự nhiên, được dệt thành những tấm lụa mềm mại với màu sắc và hoa văn đa dạng.",
     verified: true,
     image: villageSilkImage,
-    alt: "Tấm lụa tơ tằm mềm mại của làng nghề Nha Xá",
+    alt: "Khung dệt lụa truyền thống làng Nha Xá",
     href: "/lang-nghe/LNX",
   },
   {
     id: "QCS",
     shortName: "QUẠT CHÀNG SƠN",
-    fullName: "LÀNG QUẠT CHÀNG SƠN",
+    fullName: "QUẠT TRUYỀN THỐNG CHÀNG SƠN",
     location: "Chàng Sơn, Thạch Thất, Hà Nội",
     description:
-      "Sản phẩm thủ công: Quạt giấy, quạt vải với khung nan tre tinh xảo, kết hợp kỹ thuật truyền thống và nghệ thuật trang trí.",
+      "Chất liệu truyền thống: Nan tre, giấy điệp hoặc lụa, kết hợp nghệ thuật vẽ tay và tạo hình tỉ mỉ trên từng nan quạt.",
     verified: true,
     image: villageFanImage,
-    alt: "Quạt thủ công truyền thống làng Chàng Sơn",
+    alt: "Quạt giấy Chàng Sơn với nét vẽ phong cảnh truyền thống",
     href: "/lang-nghe/QCS",
   },
   {
     id: "GBT",
     shortName: "GỐM BÁT TRÀNG",
-    fullName: "LÀNG GỐM BÁT TRÀNG",
+    fullName: "LÀNG GỐM SỨ BÁT TRÀNG",
     location: "Bát Tràng, Gia Lâm, Hà Nội",
     description:
-      "Chất liệu truyền thống: Đất sét qua bàn tay tạo hình, kỹ thuật tráng men và nung gốm trở thành những sản phẩm mang giá trị thẩm mỹ riêng.",
+      "Chất liệu đặc trưng: Đất sét tinh tuyển kết hợp các bài men cổ truyền, nung ở nhiệt độ cao để tạo nên cốt gốm đanh chắc và sắc men sâu lắng.",
     verified: true,
     image: villagePotteryImage,
-    alt: "Bình gốm hoa lam truyền thống làng Bát Tràng",
+    alt: "Bình gốm men lam Bát Tràng đắp nổi rồng phượng tinh xảo",
     href: "/lang-nghe/GBT",
   },
   {
     id: "NLC",
-    shortName: "NÓN LÁ LÀNG CHUÔNG",
-    fullName: "NÓN LÁ LÀNG CHUÔNG",
-    location: "Làng Chuông, Thanh Oai, Hà Nội",
+    shortName: "NÓN LÁ CHUÔNG",
+    fullName: "LÀNG NÓN LÁ CHUÔNG",
+    location: "Phương Trung, Thanh Oai, Hà Nội",
     description:
-      "Nghề thủ công truyền thống: Lá cọ, khung vành cùng những đường khâu tỉ mỉ tạo nên chiếc nón lá mang nét duyên dáng Việt Nam.",
+      "Chất liệu mộc mạc: Lá lụa trắng, tre vót mảnh và chỉ cước trong suốt, đòi hỏi kỹ thuật đan nan đều đặn và mũi khâu tăm tắp.",
     verified: true,
     image: villageHatImage,
-    alt: "Nón lá truyền thống làng Chuông Thanh Oai",
+    alt: "Chiếc nón lá Chuông trắng tinh khôi đặt trên thúng nan tre",
     href: "/lang-nghe/NLC",
   },
 ];
+
 
 export const joinBannerContent = {
   headingLines: [

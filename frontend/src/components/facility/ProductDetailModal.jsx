@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import { resolveMockAsset } from "../../utils/resolveMockAsset.js";
 
 export default function ProductDetailModal({ isOpen, product, onClose, onOpenLightbox }) {
@@ -63,6 +64,11 @@ export default function ProductDetailModal({ isOpen, product, onClose, onOpenLig
               </div>
             ) : (
               <div className="workshop-product-modal__placeholder">
+                <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" strokeWidth="1.5">
+                  <rect x="3" y="3" width="18" height="18" rx="2" />
+                  <circle cx="8.5" cy="8.5" r="1.5" />
+                  <polyline points="21 15 16 10 5 21" />
+                </svg>
                 <span>Chưa có hình ảnh sản phẩm</span>
               </div>
             )}
@@ -121,10 +127,35 @@ export default function ProductDetailModal({ isOpen, product, onClose, onOpenLig
                 <span>{product.dacDiemDescription}</span>
               </div>
             )}
+
+            {product.id && (
+              <div style={{ marginTop: "20px" }}>
+                <Link
+                  to={`/san-pham/${product.id}`}
+                  onClick={onClose}
+                  style={{
+                    display: "inline-flex",
+                    alignItems: "center",
+                    gap: "8px",
+                    background: "#730000",
+                    color: "#FFFBF2",
+                    padding: "10px 18px",
+                    borderRadius: "6px",
+                    fontSize: "13.5px",
+                    fontWeight: "600",
+                    textDecoration: "none",
+                  }}
+                >
+                  <span>Xem trang chi tiết đầy đủ</span>
+                  <svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M3 8h10M9 4l4 4-4 4" />
+                  </svg>
+                </Link>
+              </div>
+            )}
           </div>
         </div>
       </div>
     </div>
   );
 }
-
