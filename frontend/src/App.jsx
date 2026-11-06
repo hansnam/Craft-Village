@@ -4,10 +4,12 @@ import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import CustomCursor from "./components/CustomCursor.jsx";
 import AuthModal from "./components/AuthModal.jsx";
+import GlobalPageLoader from "./components/GlobalPageLoader.jsx";
 import { warmHeroBannerAssets } from "./components/HeroBanner.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import VillageDetailPage from "./pages/VillageDetailPage.jsx";
-import FacilityPlaceholderPage from "./pages/FacilityPlaceholderPage.jsx";
+import FacilityDetailPage from "./pages/FacilityDetailPage.jsx";
+import AboutPage from "./pages/AboutPage.jsx";
 import VillageNotFound from "./components/village/VillageNotFound.jsx";
 
 function RouteScrollManager() {
@@ -39,6 +41,7 @@ export default function App() {
 
   return (
     <div className="page">
+      <GlobalPageLoader />
       <RouteScrollManager />
       <CustomCursor />
       <Header />
@@ -48,8 +51,9 @@ export default function App() {
           <Route path="/lang-nghe/:id" element={<VillageDetailPage />} />
           <Route
             path="/co-so/:facilityId"
-            element={<FacilityPlaceholderPage />}
+            element={<FacilityDetailPage />}
           />
+          <Route path="/ve-chung-toi" element={<AboutPage />} />
           <Route path="*" element={<VillageNotFound />} />
         </Routes>
       </main>
