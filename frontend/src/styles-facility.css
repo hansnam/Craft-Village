@@ -1657,3 +1657,15 @@
     justify-content: center;
   }
 }
+
+/* Hide all zoom badges / pills on images */
+.workshop-hero__zoom-pill,
+.workshop-story__zoom-hint,
+.workshop-capacity-row__zoom-hint,
+.workshop-project-card__zoom-hint,
+.workshop-product-modal__zoom-hint,
+.workshop-consult__zoom-pill,
+.about-zoom-pill,
+.about-hero__zoom-hint {
+  display: none !important;
+}

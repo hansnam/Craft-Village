@@ -79,7 +79,6 @@ export default function FacilityConsultation({
                 onOpenLightbox(consultImageUrl, `Tư vấn thiết kế - ${facility?.name}`)
               }
               data-cursor="button"
-              title="Bấm để phóng to hình ảnh"
             >
               <img
                 src={consultImageUrl}
@@ -87,20 +86,6 @@ export default function FacilityConsultation({
                 className="workshop-consult__img"
                 loading="lazy"
               />
-              <span className="workshop-consult__zoom-pill">
-                <svg
-                  viewBox="0 0 24 24"
-                  width="13"
-                  height="13"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  fill="none"
-                >
-                  <circle cx="11" cy="11" r="8" />
-                  <line x1="21" y1="21" x2="16.65" y2="16.65" />
-                </svg>
-                Phóng to
-              </span>
             </div>
           </div>
 

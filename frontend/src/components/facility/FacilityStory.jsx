@@ -51,7 +51,6 @@ export default function FacilityStory({ facility, onOpenLightbox }) {
               <div
                 className="workshop-story__img-wrap"
                 onClick={() => onOpenLightbox && onOpenLightbox(storyImageUrl, `${facility?.name} - Câu chuyện`)}
-                title="Bấm để phóng to hình ảnh"
               >
                 <img
                   src={storyImageUrl}
@@ -59,13 +58,6 @@ export default function FacilityStory({ facility, onOpenLightbox }) {
                   className="workshop-story__img"
                   loading="lazy"
                 />
-                <span className="workshop-story__zoom-hint">
-                  <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" strokeWidth="2" fill="none">
-                    <circle cx="11" cy="11" r="8" />
-                    <line x1="21" y1="21" x2="16.65" y2="16.65" />
-                  </svg>
-                  Phóng to
-                </span>
               </div>
             ) : (
               <div className="workshop-story__img-placeholder">

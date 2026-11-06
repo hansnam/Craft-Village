@@ -54,22 +54,12 @@ export default function ProductDetailModal({ isOpen, product, onClose, onOpenLig
               <div
                 className="workshop-product-modal__img-wrapper"
                 onClick={() => onOpenLightbox && onOpenLightbox(imageUrl, product.name)}
-                title="Bấm để phóng to ảnh"
               >
                 <img
                   src={imageUrl}
                   alt={product.name || "Sản phẩm thủ công"}
                   className="workshop-product-modal__img"
                 />
-                <span className="workshop-product-modal__zoom-hint">
-                  <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" strokeWidth="2" fill="none">
-                    <circle cx="11" cy="11" r="8" />
-                    <line x1="21" y1="21" x2="16.65" y2="16.65" />
-                    <line x1="11" y1="8" x2="11" y2="14" />
-                    <line x1="8" y1="11" x2="14" y2="11" />
-                  </svg>
-                  Phóng to
-                </span>
               </div>
             ) : (
               <div className="workshop-product-modal__placeholder">

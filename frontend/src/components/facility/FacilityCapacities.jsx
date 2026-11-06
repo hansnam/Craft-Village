@@ -43,7 +43,6 @@ export default function FacilityCapacities({
                           <div
                             className="workshop-capacity-row__img-frame"
                             onClick={() => onOpenLightbox && onOpenLightbox(imageUrl, item.name)}
-                            title="Bấm để phóng to hình ảnh"
                           >
                             <img
                               src={imageUrl}
@@ -51,13 +50,6 @@ export default function FacilityCapacities({
                               className="workshop-capacity-row__img"
                               loading="lazy"
                             />
-                            <span className="workshop-capacity-row__zoom-hint">
-                              <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" strokeWidth="2" fill="none">
-                                <circle cx="11" cy="11" r="8" />
-                                <line x1="21" y1="21" x2="16.65" y2="16.65" />
-                              </svg>
-                              Phóng to
-                            </span>
                           </div>
                         ) : (
                           <div className="workshop-capacity-row__img-placeholder">

@@ -50,13 +50,6 @@ export default function AboutPage() {
               className="about-hero__banner-img"
               loading="eager"
             />
-            <div className="about-hero__zoom-hint">
-              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2">
-                <circle cx="11" cy="11" r="8" />
-                <line x1="21" y1="21" x2="16.65" y2="16.65" />
-              </svg>
-              <span>Phóng to</span>
-            </div>
           </div>
         </section>
 
@@ -114,13 +107,6 @@ export default function AboutPage() {
               data-cursor="button"
             >
               <img src={galleryLeftUrl} alt="Nghề thủ công Việt Nam" loading="lazy" />
-              <span className="about-zoom-pill">
-                <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" strokeWidth="2">
-                  <circle cx="11" cy="11" r="8" />
-                  <line x1="21" y1="21" x2="16.65" y2="16.65" />
-                </svg>
-                Xem ảnh
-              </span>
             </div>
 
             <div
@@ -129,13 +115,6 @@ export default function AboutPage() {
               data-cursor="button"
             >
               <img src={galleryCenterUrl} alt="Không gian làng nghề" loading="lazy" />
-              <span className="about-zoom-pill">
-                <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" strokeWidth="2">
-                  <circle cx="11" cy="11" r="8" />
-                  <line x1="21" y1="21" x2="16.65" y2="16.65" />
-                </svg>
-                Xem ảnh
-              </span>
             </div>
 
             <div
@@ -144,13 +123,6 @@ export default function AboutPage() {
               data-cursor="button"
             >
               <img src={galleryRightUrl} alt="Sản phẩm tinh xảo" loading="lazy" />
-              <span className="about-zoom-pill">
-                <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" strokeWidth="2">
-                  <circle cx="11" cy="11" r="8" />
-                  <line x1="21" y1="21" x2="16.65" y2="16.65" />
-                </svg>
-                Xem ảnh
-              </span>
             </div>
           </div>
         </section>
@@ -173,13 +145,6 @@ export default function AboutPage() {
               data-cursor="button"
             >
               <img src={missionMainUrl} alt="Sứ mệnh kết nối nghề Việt" loading="lazy" />
-              <span className="about-zoom-pill">
-                <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" strokeWidth="2">
-                  <circle cx="11" cy="11" r="8" />
-                  <line x1="21" y1="21" x2="16.65" y2="16.65" />
-                </svg>
-                Phóng to
-              </span>
             </div>
 
             {/* Cột phải: 2 ảnh nhỏ bên trên + Nội dung bên dưới */}
@@ -248,13 +213,6 @@ export default function AboutPage() {
               data-cursor="button"
             >
               <img src={visionMainUrl} alt="Tầm nhìn Craft Folio" loading="lazy" />
-              <span className="about-zoom-pill">
-                <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" strokeWidth="2">
-                  <circle cx="11" cy="11" r="8" />
-                  <line x1="21" y1="21" x2="16.65" y2="16.65" />
-                </svg>
-                Phóng to
-              </span>
             </div>
 
             {/* Cột 3: Đoạn 2 */}
