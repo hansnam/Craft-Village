@@ -1400,3 +1400,260 @@
   }
 }
 
+
+/* ==========================================================================
+   CONSULTATION & INQUIRY SECTION (TƯ VẤN THIẾT KẾ & GỬI YÊU CẦU)
+   ========================================================================== */
+
+.workshop-consult {
+  padding: 60px 0 80px;
+  position: relative;
+}
+
+.workshop-consult__container {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.workshop-consult__header {
+  margin-bottom: 28px;
+}
+
+.workshop-consult__title {
+  font-family: var(--heading-font, "1FTV Blushing Rose", serif);
+  font-size: clamp(26px, 2.4vw, 36px);
+  font-weight: 400;
+  color: #181010;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+
+.workshop-consult__card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: center;
+  margin-bottom: 56px;
+}
+
+.workshop-consult__media-col {
+  position: relative;
+}
+
+.workshop-consult__img-wrap {
+  height: 386px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 32px rgba(92, 73, 56, 0.08);
+  position: relative;
+  cursor: pointer;
+  background-color: #f0ebe1;
+}
+
+.workshop-consult__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.6s cubic-bezier(0.2, 0, 0.2, 1);
+}
+
+.workshop-consult__img-wrap:hover .workshop-consult__img {
+  transform: scale(1.035);
+}
+
+.workshop-consult__zoom-pill {
+  position: absolute;
+  bottom: 14px;
+  right: 14px;
+  background: rgba(24, 16, 16, 0.72);
+  backdrop-filter: blur(6px);
+  color: #ffffff;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  pointer-events: none;
+}
+
+.workshop-consult__img-wrap:hover .workshop-consult__zoom-pill {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.workshop-consult__info-col {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+}
+
+.workshop-consult__desc {
+  font-size: clamp(20px, 1.7vw, 24px);
+  font-weight: 400;
+  color: var(--brand-crimson, #960018);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.workshop-consult__meta {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.workshop-consult__meta-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  color: #181010;
+}
+
+.workshop-consult__icon {
+  color: #181010;
+  flex-shrink: 0;
+  margin-top: 2px;
+  display: flex;
+  align-items: center;
+}
+
+.workshop-consult__meta-text {
+  font-size: clamp(16px, 1.3vw, 19px);
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.workshop-consult__action {
+  margin-top: 8px;
+}
+
+.workshop-consult__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 32px;
+  background-color: var(--brand-crimson, #960018);
+  color: #ffffff;
+  border-radius: 12px;
+  border: none;
+  font-size: clamp(18px, 1.4vw, 22px);
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  box-shadow: 0 4px 16px rgba(150, 0, 24, 0.28);
+}
+
+.workshop-consult__btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(150, 0, 24, 0.38);
+  background-color: #7b0014;
+}
+
+.workshop-consult__btn-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.workshop-consult__btn:hover .workshop-consult__btn-icon {
+  transform: translateX(3px);
+}
+
+/* 4 Feature Badges */
+.workshop-consult__badges {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.workshop-consult__badge-card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 24px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 14px;
+  border: 1px solid rgba(223, 215, 203, 0.6);
+  box-shadow: 0 4px 18px rgba(92, 73, 56, 0.04);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.workshop-consult__badge-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 28px rgba(143, 29, 29, 0.08);
+  border-color: rgba(143, 29, 29, 0.25);
+}
+
+.workshop-consult__badge-icon-wrap {
+  width: 76px;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.workshop-consult__badge-icon {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.workshop-consult__badge-icon-fallback {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: rgba(150, 0, 24, 0.08);
+}
+
+.workshop-consult__badge-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #181010;
+  line-height: 1.45;
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .workshop-consult__card {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .workshop-consult__img-wrap {
+    height: 320px;
+  }
+  .workshop-consult__badges {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .workshop-consult {
+    padding: 40px 0 60px;
+  }
+  .workshop-consult__img-wrap {
+    height: 240px;
+  }
+  .workshop-consult__badges {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+  .workshop-consult__btn {
+    width: 100%;
+    justify-content: center;
+  }
+}

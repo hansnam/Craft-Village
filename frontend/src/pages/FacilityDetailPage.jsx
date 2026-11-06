@@ -12,6 +12,7 @@ import VillageNotFound from "../components/village/VillageNotFound.jsx";
 import FacilityHero from "../components/facility/FacilityHero.jsx";
 import FacilityNav from "../components/facility/FacilityNav.jsx";
 import FacilityProducts from "../components/facility/FacilityProducts.jsx";
+import FacilityConsultation from "../components/facility/FacilityConsultation.jsx";
 import FacilityStory from "../components/facility/FacilityStory.jsx";
 import FacilityCapacities from "../components/facility/FacilityCapacities.jsx";
 import FacilityProjects from "../components/facility/FacilityProjects.jsx";
@@ -136,6 +137,13 @@ export default function FacilityDetailPage() {
         facility={facility}
         products={facilityProducts}
         onSelectProduct={(p) => setSelectedProduct(p)}
+        onOpenLightbox={handleOpenLightbox}
+      />
+
+      {/* Tư vấn thiết kế & gửi yêu cầu (ngay bên dưới Sản phẩm) */}
+      <FacilityConsultation
+        facility={facility}
+        onOpenConnect={() => setIsConnectModalOpen(true)}
         onOpenLightbox={handleOpenLightbox}
       />
 
