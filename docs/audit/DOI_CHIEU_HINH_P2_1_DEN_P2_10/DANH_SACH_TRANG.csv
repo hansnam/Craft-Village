@@ -1,0 +1,72 @@
+﻿facility_id,loai,pdf_page,title,url,web_image,pdf_image,capture_status,review_status
+GBT_HAC,Cơ sở,23,HOÀNG ANH CERAMICS,http://localhost:5173/Craft-Village/co-so/GBT_HAC,pdf-023/web.jpg,pdf-023/pdf.jpg,OK,Cần đối chiếu chi tiết
+GBT_HAC,Sản phẩm,30,Ống heo súp lơ,http://localhost:5173/Craft-Village/san-pham/SP_GBT_01,pdf-030/web.jpg,pdf-030/pdf.jpg,OK,Đã xác nhận lệch bố cục
+GBT_HAC,Sản phẩm,31,Ống heo Shiba,http://localhost:5173/Craft-Village/san-pham/SP_GBT_02,pdf-031/web.jpg,pdf-031/pdf.jpg,OK,Cần đối chiếu chi tiết
+GBT_HAC,Sản phẩm,32,Túi xách sứ cắm hoa,http://localhost:5173/Craft-Village/san-pham/SP_GBT_03,pdf-032/web.jpg,pdf-032/pdf.jpg,OK,Cần đối chiếu chi tiết
+GBT_HAC,Sản phẩm,33,Ống heo cua,http://localhost:5173/Craft-Village/san-pham/SP_GBT_04,pdf-033/web.jpg,pdf-033/pdf.jpg,OK,Cần đối chiếu chi tiết
+GBT_HAC,Sản phẩm,34,Ống heo Labubu,http://localhost:5173/Craft-Village/san-pham/SP_GBT_05,pdf-034/web.jpg,pdf-034/pdf.jpg,OK,Cần đối chiếu chi tiết
+GBT_HAC,Sản phẩm,35,Ống heo chim cánh cụt,http://localhost:5173/Craft-Village/san-pham/SP_GBT_06,pdf-035/web.jpg,pdf-035/pdf.jpg,OK,Cần đối chiếu chi tiết
+GBT_BNH,Cơ sở,24,BÁCH NGÂN HỶ,http://localhost:5173/Craft-Village/co-so/GBT_BNH,pdf-024/web.jpg,pdf-024/pdf.jpg,OK,Cần đối chiếu chi tiết
+GBT_BNH,Sản phẩm,36,Bộ sưu tập gốm Thanh Mạ,http://localhost:5173/Craft-Village/san-pham/SP_GBT_07,pdf-036/web.jpg,pdf-036/pdf.jpg,OK,Cần đối chiếu chi tiết
+GBT_BNH,Sản phẩm,37,Bộ sưu tập gốm Ngư Sắc,http://localhost:5173/Craft-Village/san-pham/SP_GBT_08,pdf-037/web.jpg,pdf-037/pdf.jpg,OK,Cần đối chiếu chi tiết
+GBT_BNH,Sản phẩm,38,Cherry Collection,http://localhost:5173/Craft-Village/san-pham/SP_GBT_09,pdf-038/web.jpg,pdf-038/pdf.jpg,OK,Cần đối chiếu chi tiết
+GBT_BNH,Sản phẩm,39,Cốc túi cafe,http://localhost:5173/Craft-Village/san-pham/SP_GBT_10,pdf-039/web.jpg,pdf-039/pdf.jpg,OK,Cần đối chiếu chi tiết
+GBT_BNH,Sản phẩm,40,Rổ gốm,http://localhost:5173/Craft-Village/san-pham/SP_GBT_11,pdf-040/web.jpg,pdf-040/pdf.jpg,OK,Cần đối chiếu chi tiết
+GBT_BNH,Sản phẩm,41,Hũ Hỷ Xuân Hoa,http://localhost:5173/Craft-Village/san-pham/SP_GBT_12,pdf-041/web.jpg,pdf-041/pdf.jpg,OK,Cần đối chiếu chi tiết
+GBT_GSMH,Cơ sở,25,GỐM SỨ MẠNH HOA,http://localhost:5173/Craft-Village/co-so/GBT_GSMH,pdf-025/web.jpg,pdf-025/pdf.jpg,OK,Cần đối chiếu chi tiết
+GBT_GSMH,Sản phẩm,43,Bộ ấm trà Lam Điệp,http://localhost:5173/Craft-Village/san-pham/SP_GBT_25,pdf-043/web.jpg,pdf-043/pdf.jpg,OK,Cần đối chiếu chi tiết
+GBT_GSMH,Sản phẩm,44,Bộ ấm trà Thanh Diệp,http://localhost:5173/Craft-Village/san-pham/SP_GBT_26,pdf-044/web.jpg,pdf-044/pdf.jpg,OK,Cần đối chiếu chi tiết
+GBT_GSMH,Sản phẩm,45,Khay mứt men hỏa biến,http://localhost:5173/Craft-Village/san-pham/SP_GBT_27,pdf-045/web.jpg,pdf-045/pdf.jpg,OK,Cần đối chiếu chi tiết
+GBT_GSMH,Sản phẩm,46,Bộ đồ ăn men hỏa biến,http://localhost:5173/Craft-Village/san-pham/SP_GBT_28,pdf-046/web.jpg,pdf-046/pdf.jpg,OK,Cần đối chiếu chi tiết
+GBT_GSMH,Sản phẩm,47,Hộp đựng trà Kim Hoa,http://localhost:5173/Craft-Village/san-pham/SP_GBT_29,pdf-047/web.jpg,pdf-047/pdf.jpg,OK,Cần đối chiếu chi tiết
+GBT_GSMH,Sản phẩm,48,Khay lá sen,http://localhost:5173/Craft-Village/san-pham/SP_GBT_30,pdf-048/web.jpg,pdf-048/pdf.jpg,OK,Cần đối chiếu chi tiết
+MTD_MTDVQ,Cơ sở,26,MÂY TRE ĐAN VIỆT QUANG,http://localhost:5173/Craft-Village/co-so/MTD_MTDVQ,pdf-026/web.jpg,pdf-026/pdf.jpg,OK,Đã xác nhận cần xem ghi chú
+MTD_MTDVQ,Sản phẩm,51,Túi Xách Mây Tre Đan Hồng Đan,http://localhost:5173/Craft-Village/san-pham/SP_MTD_TXMTDHD,pdf-051/web.jpg,pdf-051/pdf.jpg,OK,Cần đối chiếu chi tiết
+MTD_MTDVQ,Sản phẩm,52,Ghế Mây Tựa Đan Mộc,http://localhost:5173/Craft-Village/san-pham/SP_MTD_GMTDM,pdf-052/web.jpg,pdf-052/pdf.jpg,OK,Đã xác nhận lệch bố cục
+MTD_MTDVQ,Sản phẩm,53,Lót Ly Mây Tre Đan Tròn,http://localhost:5173/Craft-Village/san-pham/SP_MTD_LLMTDT,pdf-053/web.jpg,pdf-053/pdf.jpg,OK,Cần đối chiếu chi tiết
+MTD_MTDVQ,Sản phẩm,54,Đĩa Gốm Sứ Viền Mây Tre,http://localhost:5173/Craft-Village/san-pham/SP_MTD_DGSVMT,pdf-054/web.jpg,pdf-054/pdf.jpg,OK,Cần đối chiếu chi tiết
+MTD_MTDVQ,Sản phẩm,55,Khay Mây Đựng Đồ,http://localhost:5173/Craft-Village/san-pham/SP_MTD_KMMD,pdf-055/web.jpg,pdf-055/pdf.jpg,OK,Cần đối chiếu chi tiết
+MTD_MTDVQ,Sản phẩm,56,Hộp Đựng Giấy Mây Tre Đan,http://localhost:5173/Craft-Village/san-pham/SP_MTD_HDGMTD,pdf-056/web.jpg,pdf-056/pdf.jpg,OK,Cần đối chiếu chi tiết
+MTD_MTDTA,Cơ sở,27,MÂY TRE ĐAN TUẤN ANH,http://localhost:5173/Craft-Village/co-so/MTD_MTDTA,pdf-027/web.jpg,pdf-027/pdf.jpg,OK,Cần đối chiếu chi tiết
+MTD_MTDTA,Sản phẩm,57,Túi Xách Mây Dáng Tròn,http://localhost:5173/Craft-Village/san-pham/SP_MTD_TXMDT,pdf-057/web.jpg,pdf-057/pdf.jpg,OK,Cần đối chiếu chi tiết
+MTD_MTDTA,Sản phẩm,58,Túi Xách Mây Tre Đan Thanh Lịch,http://localhost:5173/Craft-Village/san-pham/SP_MTD_TXMTDTL,pdf-058/web.jpg,pdf-058/pdf.jpg,OK,Cần đối chiếu chi tiết
+MTD_MTDTA,Sản phẩm,59,Túi Xách Mây Nắp Gập,http://localhost:5173/Craft-Village/san-pham/SP_MTD_TXMNG,pdf-059/web.jpg,pdf-059/pdf.jpg,OK,Cần đối chiếu chi tiết
+MTD_MTDTA,Sản phẩm,60,Túi Xách Mây Tre Đan Dáng Trống,http://localhost:5173/Craft-Village/san-pham/SP_MTD_TXMTDDT,pdf-060/web.jpg,pdf-060/pdf.jpg,OK,Cần đối chiếu chi tiết
+MTD_MTDTA,Sản phẩm,61,Vali Mây Tre Đan Họa Tiết Hình Học,http://localhost:5173/Craft-Village/san-pham/SP_MTD_VMTDHTHH,pdf-061/web.jpg,pdf-061/pdf.jpg,OK,Cần đối chiếu chi tiết
+MTD_MTDTA,Sản phẩm,62,Bộ Giành Tích Ủ Trà,http://localhost:5173/Craft-Village/san-pham/SP_MTD_BGTTUT,pdf-062/web.jpg,pdf-062/pdf.jpg,OK,Cần đối chiếu chi tiết
+GBT_GTL,Cơ sở,21,GỐM TỚI LIÊN,http://localhost:5173/Craft-Village/co-so/GBT_GTL,pdf-021/web.jpg,pdf-021/pdf.jpg,OK,Đã xác nhận cần xem ghi chú
+GBT_GTL,Cơ sở,29,GỐM TỚI LIÊN,http://localhost:5173/Craft-Village/co-so/GBT_GTL,pdf-029/web.jpg,pdf-029/pdf.jpg,OK,Cần đối chiếu chi tiết
+GBT_GTL,Sản phẩm,63,Ấm Bạch Cúc,http://localhost:5173/Craft-Village/san-pham/SP_GBT_19,pdf-063/web.jpg,pdf-063/pdf.jpg,OK,Đã xác nhận lệch bố cục
+GBT_GTL,Sản phẩm,64,Ấm Rồng Vân Mây,http://localhost:5173/Craft-Village/san-pham/SP_GBT_20,pdf-064/web.jpg,pdf-064/pdf.jpg,OK,Cần đối chiếu chi tiết
+GBT_GTL,Sản phẩm,65,Ấm Cá Chép Hóa Rồng,http://localhost:5173/Craft-Village/san-pham/SP_GBT_21,pdf-065/web.jpg,pdf-065/pdf.jpg,OK,Cần đối chiếu chi tiết
+GBT_GTL,Sản phẩm,66,Bộ ấm chén Sen,http://localhost:5173/Craft-Village/san-pham/SP_GBT_22,pdf-066/web.jpg,pdf-066/pdf.jpg,OK,Cần đối chiếu chi tiết
+GBT_GTL,Sản phẩm,67,Ấm hoa Sen,http://localhost:5173/Craft-Village/san-pham/SP_GBT_23,pdf-067/web.jpg,pdf-067/pdf.jpg,OK,Cần đối chiếu chi tiết
+GBT_GTL,Sản phẩm,68,Hũ đựng trà Sen,http://localhost:5173/Craft-Village/san-pham/SP_GBT_24,pdf-068/web.jpg,pdf-068/pdf.jpg,OK,Cần đối chiếu chi tiết
+GBT_GHL,Cơ sở,22,GỐM HẢI LONG,http://localhost:5173/Craft-Village/co-so/GBT_GHL,pdf-022/web.jpg,pdf-022/pdf.jpg,OK,Đã xác nhận cần xem ghi chú
+GBT_GHL,Sản phẩm,69,Nồi đất vẽ tay,http://localhost:5173/Craft-Village/san-pham/SP_GBT_13,pdf-069/web.jpg,pdf-069/pdf.jpg,OK,Cần đối chiếu chi tiết
+GBT_GHL,Sản phẩm,70,Bình hút tài lộc,http://localhost:5173/Craft-Village/san-pham/SP_GBT_14,pdf-070/web.jpg,pdf-070/pdf.jpg,OK,Cần đối chiếu chi tiết
+GBT_GHL,Sản phẩm,71,Ngói mũi hài vàng hổ phách,http://localhost:5173/Craft-Village/san-pham/SP_GBT_15,pdf-071/web.jpg,pdf-071/pdf.jpg,OK,Cần đối chiếu chi tiết
+GBT_GHL,Sản phẩm,72,Bộ ấm trà quả hồng,http://localhost:5173/Craft-Village/san-pham/SP_GBT_16,pdf-072/web.jpg,pdf-072/pdf.jpg,OK,Cần đối chiếu chi tiết
+GBT_GHL,Sản phẩm,73,Bộ ấm chén tử sa,http://localhost:5173/Craft-Village/san-pham/SP_GBT_17,pdf-073/web.jpg,pdf-073/pdf.jpg,OK,Cần đối chiếu chi tiết
+GBT_GHL,Sản phẩm,74,Nồi đất Nodacook,http://localhost:5173/Craft-Village/san-pham/SP_GBT_18,pdf-074/web.jpg,pdf-074/pdf.jpg,OK,Cần đối chiếu chi tiết
+QCS_QTT,Cơ sở,75,QUẠT TỪ TÂM,http://localhost:5173/Craft-Village/co-so/QCS_QTT,pdf-075/web.jpg,pdf-075/pdf.jpg,OK,Cần đối chiếu chi tiết
+QCS_QTT,Sản phẩm,82,Quạt Khang Hi,http://localhost:5173/Craft-Village/san-pham/SP_QCS_QKH,pdf-082/web.jpg,pdf-082/pdf.jpg,OK,Đã xác nhận lệch bố cục
+QCS_QTT,Sản phẩm,83,Quạt Nan Gỗ,http://localhost:5173/Craft-Village/san-pham/SP_QCS_QNG,pdf-083/web.jpg,pdf-083/pdf.jpg,OK,Cần đối chiếu chi tiết
+QCS_QTT,Sản phẩm,84,Quạt Tranh Tết,http://localhost:5173/Craft-Village/san-pham/SP_QCS_QTT,pdf-084/web.jpg,pdf-084/pdf.jpg,OK,Cần đối chiếu chi tiết
+QCS_QTT,Sản phẩm,85,Quạt Hoa Văn Cao Cấp,http://localhost:5173/Craft-Village/san-pham/SP_QCS_QHVCC,pdf-085/web.jpg,pdf-085/pdf.jpg,OK,Cần đối chiếu chi tiết
+QCS_QTT,Sản phẩm,86,Quạt Truyền Thống,http://localhost:5173/Craft-Village/san-pham/SP_QCS_QTRUYENTHONG,pdf-086/web.jpg,pdf-086/pdf.jpg,OK,Cần đối chiếu chi tiết
+QCS_QTT,Sản phẩm,87,Quạt Tranh Phong Thủy,http://localhost:5173/Craft-Village/san-pham/SP_QCS_QTPT,pdf-087/web.jpg,pdf-087/pdf.jpg,OK,Cần đối chiếu chi tiết
+QCS_QP,Cơ sở,76,QUẠT PHƯƠNG,http://localhost:5173/Craft-Village/co-so/QCS_QP,pdf-076/web.jpg,pdf-076/pdf.jpg,OK,Cần đối chiếu chi tiết
+QCS_QP,Sản phẩm,88,Quạt Sắc Việt Cổ Phong,http://localhost:5173/Craft-Village/san-pham/SP_QCS_QSVCP,pdf-088/web.jpg,pdf-088/pdf.jpg,OK,Cần đối chiếu chi tiết
+QCS_QP,Sản phẩm,89,Quạt Thanh Vũ Hoa Lam,http://localhost:5173/Craft-Village/san-pham/SP_QCS_QTVHL,pdf-089/web.jpg,pdf-089/pdf.jpg,OK,Cần đối chiếu chi tiết
+QCS_QP,Sản phẩm,90,Quạt Kim Hoa Cát Tường,http://localhost:5173/Craft-Village/san-pham/SP_QCS_QKHCT,pdf-090/web.jpg,pdf-090/pdf.jpg,OK,Cần đối chiếu chi tiết
+QCS_QP,Sản phẩm,91,Quạt Lam Đồ Họa,http://localhost:5173/Craft-Village/san-pham/SP_QCS_QLDH,pdf-091/web.jpg,pdf-091/pdf.jpg,OK,Cần đối chiếu chi tiết
+QCS_QP,Sản phẩm,92,Quạt Vân Xoắn Lam,http://localhost:5173/Craft-Village/san-pham/SP_QCS_QVXL,pdf-092/web.jpg,pdf-092/pdf.jpg,OK,Cần đối chiếu chi tiết
+QCS_QP,Sản phẩm,93,Quạt Hội Xuân Dân Gian,http://localhost:5173/Craft-Village/san-pham/SP_QCS_QHXDG,pdf-093/web.jpg,pdf-093/pdf.jpg,OK,Cần đối chiếu chi tiết
+QCS_QCS,Cơ sở,77,QUẠT CHÀNG SƠN,http://localhost:5173/Craft-Village/co-so/QCS_QCS,pdf-077/web.jpg,pdf-077/pdf.jpg,OK,Cần đối chiếu chi tiết
+QCS_QCS,Sản phẩm,94,Quạt Linh Thú Dân Gian,http://localhost:5173/Craft-Village/san-pham/SP_QCS_QLTDG,pdf-094/web.jpg,pdf-094/pdf.jpg,OK,Cần đối chiếu chi tiết
+QCS_QCS,Sản phẩm,95,Quạt Phúc Lộc Đồng Tử,http://localhost:5173/Craft-Village/san-pham/SP_QCS_QPLDT,pdf-095/web.jpg,pdf-095/pdf.jpg,OK,Cần đối chiếu chi tiết
+QCS_QCS,Sản phẩm,96,Quạt Mai Điểu Nghênh Xuân,http://localhost:5173/Craft-Village/san-pham/SP_QCS_QMDNX,pdf-096/web.jpg,pdf-096/pdf.jpg,OK,Cần đối chiếu chi tiết
+QCS_QCS,Sản phẩm,97,Quạt Liên Hoa Phấn Sắc,http://localhost:5173/Craft-Village/san-pham/SP_QCS_QLHPS,pdf-097/web.jpg,pdf-097/pdf.jpg,OK,Cần đối chiếu chi tiết
+QCS_QCS,Sản phẩm,98,Quạt Sơn Thủy Lục Bảo,http://localhost:5173/Craft-Village/san-pham/SP_QCS_QSTLB,pdf-098/web.jpg,pdf-098/pdf.jpg,OK,Cần đối chiếu chi tiết
+QCS_QCS,Sản phẩm,99,Quạt Hắc Liên Thủy Mặc,http://localhost:5173/Craft-Village/san-pham/SP_QCS_QHLTM,pdf-099/web.jpg,pdf-099/pdf.jpg,OK,Cần đối chiếu chi tiết

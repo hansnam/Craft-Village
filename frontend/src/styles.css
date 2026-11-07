@@ -1085,6 +1085,25 @@ h6 {
   pointer-events: none;
 }
 
+.route-content { animation: route-content-enter 180ms ease-out both; }
+.route-loading {
+  position: fixed;
+  z-index: 9998;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 7px 14px;
+  border-radius: 999px;
+  background: #fffdf9;
+  color: #730000;
+  box-shadow: 0 2px 12px rgba(34, 24, 16, .18);
+  font-size: 13px;
+}
+@keyframes route-content-enter { from { opacity: 0; } to { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) {
+  .route-content { animation: none; }
+}
+
 /* --- MÀN CHỜ NÓN LÁ XOAY TRÒN TRÊN HERO BANNER --- */
 .hero__loader {
   position: absolute;
@@ -2436,7 +2455,7 @@ html.custom-cursor-active select {
 }
 
 .craft-cursor.is-pressed .craft-cursor__ring {
-  scale: 0.88;
+  --cursor-press-scale: 0.88;
 }
 
 /* ==========================================================================

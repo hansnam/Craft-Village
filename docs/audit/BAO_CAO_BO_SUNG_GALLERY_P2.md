@@ -4,6 +4,8 @@
 
 Trong 60 sản phẩm P2.1–P2.10, 42 sản phẩm có từ 2 ảnh trở lên; 18 sản phẩm vẫn chỉ có một ảnh chính. Các thumbnail mẫu sai sản phẩm trong PDF không được gắn. Chưa kết luận giao diện hoàn thiện.
 
+Riêng Việt Quang, sáu ảnh chính của PDF 51–56 đã dùng lần lượt `sanpham1.jpg`, `sanpham2.png`, `sanpham3.jpg`, `sanpham4.png`, `sanpham5.png`, `sanpham6.png` từ `template/Ảnh làng nghề_/CS Mây tre việt quang`; đã đối chiếu SHA-256 giữa ảnh nguồn và ảnh runtime. Các sản phẩm này chỉ còn thiếu **ảnh phụ khác góc**, không phải thiếu ảnh chính.
+
 | Trang PDF | ID sản phẩm | Tên |
 |---|---|---|
 | 97 | `SP_QCS_QLHPS` | Quạt Liên Hoa Phấn Sắc |

@@ -4,6 +4,10 @@
 
 # Đối chiếu đủ 130 trang WEBSITE.pdf
 
+> PDF 52 đã được chỉnh tiếp về tỷ lệ ảnh, thông số, hai vùng ảnh chi tiết, banner, liên hệ và sản phẩm cùng dòng. Hai chi tiết là crop từ cùng ảnh ghế; còn thiếu ảnh góc khác và thông tin hotline giữa PDF 52/26 chưa thống nhất nên vẫn MỘT PHẦN. Xem `YEU_CAU_SUA_SAT_PDF_SAN_PHAM.md`.
+
+> Đã chụp bộ ảnh so sánh P2.1–P2.10: xem [71 trang, URL và ảnh web/PDF](DOI_CHIEU_HINH_P2_1_DEN_P2_10/README.md). Có sai lệch đã xác nhận ở PDF 21, 22, 26, 30, 52, 63 và 82; các trang còn lại cần đối chiếu chi tiết, không coi ảnh chụp là nghiệm thu.
+
 Cập nhật 07/11/2026 sau khi bổ sung mock data. Số trang tính 1-based trong PDF.
 
 **Chưa trang nào được nghiệm thu hoàn thiện 100%.** MỘT PHẦN là đã có dữ liệu/route hoặc khối giao diện, vẫn cần so template và thao tác. TÀI SẢN RỜI không tính là màn hình.
@@ -39,11 +43,11 @@ Bản ghi sản phẩm trang 42 chưa xác minh cơ sở; dữ liệu liên hệ
 | 23 | Cơ sở HOÀNG ANH CERAMICS | MỘT PHẦN | `/co-so/GBT_HAC` | Đã kiểm tra hero, 6 card và 3 avatar tải được; còn so template toàn trang và đối chiếu gallery sản phẩm. |
 | 24 | Cơ sở BÁCH NGÂN HỶ | MỘT PHẦN | `/co-so/GBT_BNH` | Đã kiểm tra hero, 6 card và 3 avatar tải được; còn so template toàn trang và đối chiếu gallery sản phẩm. Đã sửa nội dung review Nguyễn Nhật Minh theo PDF. |
 | 25 | Cơ sở GỐM SỨ MẠNH HOA | MỘT PHẦN | `/co-so/GBT_GSMH` | Đã kiểm tra hero, 6 card và 3 avatar tải được; còn so template toàn trang và đối chiếu gallery sản phẩm. |
-| 26 | Cơ sở MÂY TRE ĐAN VIỆT QUANG | MỘT PHẦN | `/co-so/MTD_MTDVQ` | Đã kiểm tra hero, 6 card và 3 avatar tải được; còn so template toàn trang và đối chiếu gallery sản phẩm. |
+| 26 | Cơ sở MÂY TRE ĐAN VIỆT QUANG | MỘT PHẦN | `/co-so/MTD_MTDVQ` | Đã bổ sung 3 dự án từ PDF, chưa xác minh thực tế; còn đối chiếu thời gian giao hàng và nghiệm thu toàn trang. |
 | 27 | Cơ sở MÂY TRE ĐAN TUẤN ANH | MỘT PHẦN | `/co-so/MTD_MTDTA` | Đã kiểm tra hero, 6 card và 3 avatar tải được; còn so template toàn trang và đối chiếu gallery sản phẩm. |
 | 28 | Cơ sở LỤA NHA XÁ | MỘT PHẦN | `/co-so/LNX_LNX` | Có template và 6/6 sản phẩm có ảnh trong data; cần so layout, ảnh chi tiết, nội dung xưởng và nghiệm thu. |
 | 29 | Cơ sở GỐM TỚI LIÊN | MỘT PHẦN | `/co-so/GBT_GTL` | Đã kiểm tra hero, 6 card, 4 năng lực và 3 avatar khớp thiết kế PDF (Hà Mai Phương, Trần Văn Minh, Lữ Thanh Hà); còn so template toàn trang và đối chiếu gallery sản phẩm. Bản lặp Gốm Tới Liên của trang 21. |
-| 30 | Ống heo súp lơ | MỘT PHẦN | `/san-pham/SP_GBT_01` | Ảnh chính đã đối chiếu; có 4 ảnh trong data. Cần nghiệm thu gallery; giao diện/template chưa nghiệm thu. |
+| 30 | Ống heo súp lơ | MỘT PHẦN | `/san-pham/SP_GBT_01` | Đã chỉnh mẫu profile và nền sen/ảnh xưởng theo PDF; đã kiểm tra desktop/mobile. Cần người dùng duyệt, so chi tiết nội dung và ảnh từng khối. |
 | 31 | Ống heo Shiba | MỘT PHẦN | `/san-pham/SP_GBT_02` | Ảnh chính đã đối chiếu; có 5 ảnh trong data. Cần nghiệm thu gallery; giao diện/template chưa nghiệm thu. |
 | 32 | Túi xách sứ cắm hoa | MỘT PHẦN | `/san-pham/SP_GBT_03` | Ảnh chính đã đối chiếu; có 4 ảnh trong data. Cần nghiệm thu gallery; giao diện/template chưa nghiệm thu. |
 | 33 | Ống heo cua | MỘT PHẦN | `/san-pham/SP_GBT_04` | Ảnh chính đã đối chiếu; có 4 ảnh trong data. Cần nghiệm thu gallery; giao diện/template chưa nghiệm thu. |
@@ -55,7 +59,7 @@ Bản ghi sản phẩm trang 42 chưa xác minh cơ sở; dữ liệu liên hệ
 | 39 | Cốc túi cafe | MỘT PHẦN | `/san-pham/SP_GBT_10` | Ảnh chính đã đối chiếu; có 1 ảnh trong data (đã rà soát toàn bộ template: không có crop gallery riêng, thumbnail trong PDF là placeholder); giữ 1 ảnh, chưa nghiệm thu toàn trang. |
 | 40 | Rổ gốm | MỘT PHẦN | `/san-pham/SP_GBT_11` | Ảnh chính đã đối chiếu; có 1 ảnh trong data (đã rà soát toàn bộ template: không có crop gallery riêng, thumbnail trong PDF là placeholder); giữ 1 ảnh, chưa nghiệm thu toàn trang. |
 | 41 | Hũ Hỷ Xuân Hoa | MỘT PHẦN | `/san-pham/SP_GBT_12` | Ảnh chính đã đối chiếu; có 1 ảnh trong data (đã rà soát toàn bộ template: không có crop gallery riêng, thumbnail trong PDF là placeholder); giữ 1 ảnh, chưa nghiệm thu toàn trang. |
-| 42 | Nón cưới trắng tinh khôi | MỘT PHẦN | `/san-pham/SP_NLC_NONCUOI_TRANG` | Đã có bản ghi, 5 ảnh được gắn và nội dung theo PDF; giao diện/template chưa nghiệm thu. Chưa xác minh cơ sở và ảnh sample. |
+| 42 | Nón cưới trắng tinh khôi | MỘT PHẦN | `/san-pham/SP_NLC_NONCUOI_TRANG` | Đã chỉnh gallery dọc, hero, nội dung tab và ảnh thêu theo PDF; đã kiểm tra desktop/mobile. Cần người dùng duyệt; cơ sở chưa xác minh. |
 | 43 | Bộ ấm trà Lam Điệp | MỘT PHẦN | `/san-pham/SP_GBT_25` | Ảnh chính đã đối chiếu; có 1 ảnh trong data (đã rà soát toàn bộ template: không có crop gallery riêng, thumbnail trong PDF là placeholder); giữ 1 ảnh, chưa nghiệm thu toàn trang. |
 | 44 | Bộ ấm trà Thanh Diệp | MỘT PHẦN | `/san-pham/SP_GBT_26` | Ảnh chính đã đối chiếu; có 1 ảnh trong data (đã rà soát toàn bộ template: không có crop gallery riêng, thumbnail trong PDF là placeholder); giữ 1 ảnh, chưa nghiệm thu toàn trang. |
 | 45 | Khay mứt men hỏa biến | MỘT PHẦN | `/san-pham/SP_GBT_27` | Ảnh chính đã đối chiếu; có 1 ảnh trong data (đã rà soát toàn bộ template: không có crop gallery riêng, thumbnail trong PDF là placeholder); giữ 1 ảnh, chưa nghiệm thu toàn trang. |
@@ -65,7 +69,7 @@ Bản ghi sản phẩm trang 42 chưa xác minh cơ sở; dữ liệu liên hệ
 | 49 | Gửi yêu cầu – báo giá | CHƯA CÓ TRANG | `` | Modal kết nối và /dat-lich không thay thế layout/trường dữ liệu của trang này. |
 | 50 | Gửi yêu cầu – tham quan | CHƯA CÓ TRANG | `` | Modal kết nối và /dat-lich không thay thế layout/trường dữ liệu của trang này. |
 | 51 | Túi Xách Mây Tre Đan Hồng Đan | MỘT PHẦN | `/san-pham/SP_MTD_TXMTDHD` | Ảnh chính đã đối chiếu; có 1 ảnh trong data (đã rà soát toàn bộ template: không có crop gallery riêng, thumbnail trong PDF là placeholder); giữ 1 ảnh, chưa nghiệm thu toàn trang. |
-| 52 | Ghế Mây Tựa Đan Mộc | MỘT PHẦN | `/san-pham/SP_MTD_GMTDM` | Ảnh chính đã đối chiếu; có 1 ảnh trong data (đã rà soát toàn bộ template: không có crop gallery riêng, thumbnail trong PDF là placeholder); giữ 1 ảnh, chưa nghiệm thu toàn trang. |
+| 52 | Ghế Mây Tựa Đan Mộc | MỘT PHẦN | `/san-pham/SP_MTD_GMTDM` | Đã chỉnh hero, đặc điểm, banner và liên hệ theo PDF; hai ảnh chi tiết crop từ ảnh chính, chưa có góc khác. Hotline PDF 52/26 chưa thống nhất. Cần người dùng duyệt. |
 | 53 | Lót Ly Mây Tre Đan Tròn | MỘT PHẦN | `/san-pham/SP_MTD_LLMTDT` | Ảnh chính đã đối chiếu; có 1 ảnh trong data (đã rà soát toàn bộ template: không có crop gallery riêng, thumbnail trong PDF là placeholder); giữ 1 ảnh, chưa nghiệm thu toàn trang. |
 | 54 | Đĩa Gốm Sứ Viền Mây Tre | MỘT PHẦN | `/san-pham/SP_MTD_DGSVMT` | Ảnh chính đã đối chiếu; có 1 ảnh trong data (đã rà soát toàn bộ template: không có crop gallery riêng, thumbnail trong PDF là placeholder); giữ 1 ảnh, chưa nghiệm thu toàn trang. |
 | 55 | Khay Mây Đựng Đồ | MỘT PHẦN | `/san-pham/SP_MTD_KMMD` | Ảnh chính đã đối chiếu; có 1 ảnh trong data (đã rà soát toàn bộ template: không có crop gallery riêng, thumbnail trong PDF là placeholder); giữ 1 ảnh, chưa nghiệm thu toàn trang. |
@@ -76,7 +80,7 @@ Bản ghi sản phẩm trang 42 chưa xác minh cơ sở; dữ liệu liên hệ
 | 60 | Túi Xách Mây Tre Đan Dáng Trống | MỘT PHẦN | `/san-pham/SP_MTD_TXMTDDT` | Ảnh chính đã đối chiếu; có 1 ảnh trong data (đã rà soát toàn bộ template: không có crop gallery riêng, thumbnail trong PDF là placeholder); giữ 1 ảnh, chưa nghiệm thu toàn trang. |
 | 61 | Vali Mây Tre Đan Họa Tiết Hình Học | MỘT PHẦN | `/san-pham/SP_MTD_VMTDHTHH` | Ảnh chính đã đối chiếu; có 1 ảnh trong data (đã rà soát toàn bộ template: không có crop gallery riêng, thumbnail trong PDF là placeholder); giữ 1 ảnh, chưa nghiệm thu toàn trang. |
 | 62 | Bộ Giành Tích Ủ Trà | MỘT PHẦN | `/san-pham/SP_MTD_BGTTUT` | Ảnh chính đã đối chiếu; có 1 ảnh trong data (đã rà soát toàn bộ template: không có crop gallery riêng, thumbnail trong PDF là placeholder); giữ 1 ảnh, chưa nghiệm thu toàn trang. |
-| 63 | Ấm Bạch Cúc | MỘT PHẦN | `/san-pham/SP_GBT_19` | Ảnh chính đã đối chiếu khớp thiết kế PDF; có 1 ảnh trong data (template không có crop gallery chi tiết riêng); giao diện/template chưa nghiệm thu. |
+| 63 | Ấm Bạch Cúc | MỘT PHẦN | `/san-pham/SP_GBT_19` | Đã chỉnh mẫu profile và nền sen/ảnh xưởng theo PDF; đã kiểm tra desktop/mobile. Cần người dùng duyệt, so chi tiết nội dung và ảnh từng khối. |
 | 64 | Ấm Rồng Vân Mây | MỘT PHẦN | `/san-pham/SP_GBT_20` | Ảnh chính đã đối chiếu khớp thiết kế PDF; có 1 ảnh trong data (template không có crop gallery chi tiết riêng); giao diện/template chưa nghiệm thu. |
 | 65 | Ấm Cá Chép Hóa Rồng | MỘT PHẦN | `/san-pham/SP_GBT_21` | Ảnh chính đã đối chiếu khớp thiết kế PDF; có 1 ảnh trong data (template không có crop gallery chi tiết riêng); giao diện/template chưa nghiệm thu. |
 | 66 | Bộ ấm chén Sen | MỘT PHẦN | `/san-pham/SP_GBT_22` | Ảnh chính đã đối chiếu khớp thiết kế PDF; có 1 ảnh trong data (template không có crop gallery chi tiết riêng); giao diện/template chưa nghiệm thu. |
@@ -95,7 +99,7 @@ Bản ghi sản phẩm trang 42 chưa xác minh cơ sở; dữ liệu liên hệ
 | 79 | Cơ sở NÓN LÁ HẢI YẾN | MỘT PHẦN | `/co-so/NLC_NLHY` | Có template và 6/6 sản phẩm có ảnh trong data; cần so layout, ảnh chi tiết, nội dung xưởng và nghiệm thu. |
 | 80 | Cơ sở HTX MÂY TRE NÓN LÁ TẠ THU HƯƠNG | MỘT PHẦN | `/co-so/NLC_NLTTH` | Có template và 6/6 sản phẩm có ảnh trong data; cần so layout, ảnh chi tiết, nội dung xưởng và nghiệm thu. |
 | 81 | Cơ sở SILK HẠ VY | MỘT PHẦN | `/co-so/LNX_SHV` | Có template và 6/6 sản phẩm có ảnh trong data; cần so layout, ảnh chi tiết, nội dung xưởng và nghiệm thu. |
-| 82 | Quạt Khang Hi | MỘT PHẦN | `/san-pham/SP_QCS_QKH` | Ảnh chính đã đối chiếu khớp thiết kế PDF; có 1 ảnh trong data (template không có crop gallery chi tiết riêng); giao diện/template chưa nghiệm thu. |
+| 82 | Quạt Khang Hi | MỘT PHẦN | `/san-pham/SP_QCS_QKH` | Đã chỉnh mẫu profile và nền quạt/ảnh xưởng theo PDF; đã kiểm tra desktop/mobile. Cần người dùng duyệt, so chi tiết nội dung và ảnh từng khối. |
 | 83 | Quạt Nan Gỗ | MỘT PHẦN | `/san-pham/SP_QCS_QNG` | Ảnh chính đã đối chiếu khớp thiết kế PDF; có 1 ảnh trong data (template không có crop gallery chi tiết riêng); giao diện/template chưa nghiệm thu. |
 | 84 | Quạt Tranh Tết | MỘT PHẦN | `/san-pham/SP_QCS_QTT` | Ảnh chính đã đối chiếu khớp thiết kế PDF; có 1 ảnh trong data (template không có crop gallery chi tiết riêng); giao diện/template chưa nghiệm thu. |
 | 85 | Quạt Hoa Văn Cao Cấp | MỘT PHẦN | `/san-pham/SP_QCS_QHVCC` | Ảnh chính đã đối chiếu khớp thiết kế PDF; có 1 ảnh trong data (template không có crop gallery chi tiết riêng); giao diện/template chưa nghiệm thu. |

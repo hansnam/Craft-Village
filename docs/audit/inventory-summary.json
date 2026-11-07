@@ -1,16 +1,16 @@
 {
-  "image_files": 1489,
-  "unique_contents": 729,
+  "image_files": 1499,
+  "unique_contents": 739,
   "statuses": {
-    "REFERENCED": 566,
+    "REFERENCED": 579,
     "SAME_CONTENT_AS_REFERENCED": 755,
-    "NO_STATIC_REFERENCE": 168
+    "NO_STATIC_REFERENCE": 165
   },
   "roots": {
     "frontend/download/images": {
-      "REFERENCED": 565,
+      "REFERENCED": 578,
       "SAME_CONTENT_AS_REFERENCED": 86,
-      "NO_STATIC_REFERENCE": 147
+      "NO_STATIC_REFERENCE": 144
     },
     "frontend/public/images": {
       "SAME_CONTENT_AS_REFERENCED": 11
@@ -23,7 +23,7 @@
       "NO_STATIC_REFERENCE": 21
     }
   },
-  "literal_references": 571,
+  "literal_references": 589,
   "missing_references": 0,
   "data_counts": {
     "users": 3,
@@ -31,7 +31,7 @@
     "productionProcesses": 28,
     "facilities": 15,
     "capacities": 60,
-    "projects": 17,
+    "projects": 19,
     "reviews": 45,
     "products": 91,
     "initialBookings": 0

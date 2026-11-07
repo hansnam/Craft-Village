@@ -141,6 +141,19 @@ export default function FacilityConsultation({
                 </span>
                 <span className="workshop-consult__contact-text">{addressText}</span>
               </div>
+              {facility?.email?.trim() && (
+                <div className="workshop-consult__contact-item workshop-consult__contact-item--email">
+                  <span className="workshop-consult__contact-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="1.5">
+                      <rect x="3" y="5" width="18" height="14" rx="1" />
+                      <path d="m3 6 9 7 9-7" />
+                    </svg>
+                  </span>
+                  <a className="workshop-consult__contact-text" href={`mailto:${facility.email.trim()}`}>
+                    {facility.email.trim()}
+                  </a>
+                </div>
+              )}
             </div>
 
             {/* Nút gửi yêu cầu kết nối & đặt lịch */}
@@ -193,9 +206,6 @@ export default function FacilityConsultation({
             );
           })}
         </div>
-        <Link className="workshop-consult__booking" to={`/dat-lich/${facility?.id || ""}`}>
-          Đặt lịch đến xưởng
-        </Link>
         <Link className="workshop-consult__booking" to={`/dat-lich/${facility?.id || ""}`}>
           Đặt lịch đến xưởng
         </Link>

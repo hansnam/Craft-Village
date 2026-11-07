@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
@@ -36,6 +36,55 @@ function RouteScrollManager() {
   return null;
 }
 
+function RouteTransition({ children }) {
+  const { pathname } = useLocation();
+  const contentRef = useRef(null);
+  const [loadingImages, setLoadingImages] = useState(false);
+
+  useEffect(() => {
+    setLoadingImages(false);
+    let delay;
+    let pendingImages = [];
+    const onImageSettled = () => {
+      if (pendingImages.every((image) => image.complete)) {
+        window.clearTimeout(delay);
+        setLoadingImages(false);
+      }
+    };
+    // Only wait for images in the first viewport, not lazy images farther down.
+    const frame = window.requestAnimationFrame(() => {
+      pendingImages = [...(contentRef.current?.querySelectorAll("img") || [])].filter((image) => {
+        const rect = image.getBoundingClientRect();
+        return !image.complete && rect.bottom > 0 && rect.top < window.innerHeight;
+      });
+      if (!pendingImages.length) return;
+      pendingImages.forEach((image) => {
+        image.addEventListener("load", onImageSettled);
+        image.addEventListener("error", onImageSettled);
+      });
+      delay = window.setTimeout(() => {
+        if (pendingImages.some((image) => !image.complete)) setLoadingImages(true);
+      }, 300);
+      onImageSettled();
+    });
+    return () => {
+      window.cancelAnimationFrame(frame);
+      window.clearTimeout(delay);
+      pendingImages.forEach((image) => {
+        image.removeEventListener("load", onImageSettled);
+        image.removeEventListener("error", onImageSettled);
+      });
+    };
+  }, [pathname]);
+
+  return (
+    <>
+      {loadingImages && <div className="route-loading" role="status">Đang tải ảnh…</div>}
+      <div key={pathname} ref={contentRef} className="route-content">{children}</div>
+    </>
+  );
+}
+
 export default function App() {
   useEffect(() => {
     warmHeroBannerAssets();
@@ -48,6 +97,7 @@ export default function App() {
       <CustomCursor />
       <Header />
       <main className="page__main">
+        <RouteTransition>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/lang-nghe/:id" element={<VillageDetailPage />} />
@@ -61,6 +111,7 @@ export default function App() {
           <Route path="/ve-chung-toi" element={<AboutPage />} />
           <Route path="*" element={<VillageNotFound />} />
         </Routes>
+        </RouteTransition>
       </main>
       <Footer />
       <AuthModal />
