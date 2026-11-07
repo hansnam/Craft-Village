@@ -648,7 +648,7 @@ export default function ProductDetailPage() {
           <div className="product-container">
             <header className="product-related__header">
               <div>
-                <h2 className="product-related__title">KHÁM PHÁ THÊM CÁC SẢN PHẨM KHÁC</h2>
+                <h2 className="product-related__title">Khám phá thêm các sản phẩm khác</h2>
                 <p className="product-related__subtitle">
                   Khám phá các tác phẩm thủ công truyền thống đặc sắc khác từ các nghệ nhân làng nghề
                 </p>
