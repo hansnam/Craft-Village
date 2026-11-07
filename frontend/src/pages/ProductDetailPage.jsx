@@ -649,9 +649,9 @@ export default function ProductDetailPage() {
             <header className="product-related__header">
               <div>
                 <h2 className="product-related__title">Khám phá thêm các sản phẩm khác</h2>
-                <p className="product-related__subtitle">
+                {/* <p className="product-related__subtitle">
                   Khám phá các tác phẩm thủ công truyền thống đặc sắc khác từ các nghệ nhân làng nghề
-                </p>
+                </p> */}
               </div>
 
               {relatedProducts.length > 3 && (
