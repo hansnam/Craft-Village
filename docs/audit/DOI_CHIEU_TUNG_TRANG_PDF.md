@@ -134,7 +134,7 @@ Bản ghi sản phẩm trang 42 chưa xác minh cơ sở; dữ liệu liên hệ
 | 122 | Lụa hoa văn Bách Liên Hoa | MỘT PHẦN | `/san-pham/SP_LNX_04` | Đã có bản ghi, 6 ảnh được gắn và nội dung theo PDF; giao diện/template chưa nghiệm thu. |
 | 123 | Lụa hoa văn Sen Hồ Điệp | MỘT PHẦN | `/san-pham/SP_LNX_05` | Đã có bản ghi, 6 ảnh được gắn và nội dung theo PDF; giao diện/template chưa nghiệm thu. |
 | 124 | Lụa hoa văn Thọ dơi – Tím Hồng | MỘT PHẦN | `/san-pham/SP_LNX_06` | Đã có bản ghi, 6 ảnh được gắn và nội dung theo PDF; giao diện/template chưa nghiệm thu. |
-| 125 | Lụa Hoa Tiết Trống Đồng | MỘT PHẦN | `/san-pham/SP_SHV_01` | Đã có bản ghi, 6 ảnh được gắn và nội dung theo PDF; giao diện/template chưa nghiệm thu. |
+| 125 | Lụa Hoa Văn Trống Đồng | MỘT PHẦN | `/san-pham/SP_SHV_01` | Đã có bản ghi, 6 ảnh được gắn và nội dung theo PDF; giao diện/template chưa nghiệm thu. |
 | 126 | Lụa Hoa Văn Hoa Bèo | MỘT PHẦN | `/san-pham/SP_SHV_02` | Đã có bản ghi, 6 ảnh được gắn và nội dung theo PDF; giao diện/template chưa nghiệm thu. |
 | 127 | Lụa Hoa Văn Sen Hồ Điệp | MỘT PHẦN | `/san-pham/SP_SHV_03` | Đã có bản ghi, 6 ảnh được gắn và nội dung theo PDF; giao diện/template chưa nghiệm thu. |
 | 128 | Lụa Hoa Văn Bồ Công Anh | MỘT PHẦN | `/san-pham/SP_SHV_04` | Đã có bản ghi, 6 ảnh được gắn và nội dung theo PDF; giao diện/template chưa nghiệm thu. |

@@ -1053,7 +1053,7 @@ export const facilities =
     "tenChuXuong": null,
     "email": null,
     "diaChi": "làng nghề Nha Xá, Mộc Nam, Duy Tiên, Hà Nam.",
-    "soDienThoai": "0943549019",
+    "soDienThoai": "0936968322",
     "storyTitle": "Tiếp nối truyền thống làng nghề Nha Xá",
     "storyContent": "Xuất phát từ gia đình có hơn 30 năm gắn bó với nghề sản xuất và kinh doanh lụa tơ tằm, Hạ Vy Silk tiếp nối truyền thống làng nghề Nha Xá và từng bước phát triển hoạt động sản xuất. Trong quá trình kinh doanh, những khó khăn khi phụ thuộc vào xưởng nhuộm bên ngoài đã thôi thúc cơ sở xây dựng xưởng nhuộm riêng. Với định hướng chủ động hơn về nguồn hàng, màu sắc và tiến độ, Hạ Vy Silk mong muốn nâng cao chất lượng sản phẩm, đồng thời gìn giữ và phát triển nghề lụa truyền thống.",
     "images": {
@@ -2860,8 +2860,8 @@ export const products =
       "kyThuat": "Tạo hình nón truyền thống kết hợp trang trí hoa văn; kỹ thuật tạo họa tiết",
       "xuatXu": "Làng nón Chuông, xã Phương Trung, Hà Nội",
       "itemDescription": "Nón Điệp Liên mang sắc hồng nổi bật, kết hợp họa tiết hoa sen, lá sen và cánh bướm tạo nên tổng thể sinh động. Sản phẩm phù hợp với nhu cầu quà tặng, chụp ảnh, trưng bày hoặc sử dụng trong các hoạt động văn hóa.",
-      "dacDiemTitle": "Mảnh mai vững vàng trời mây",
-      "dacDiemDescription": "",
+      "dacDiemTitle": "Hương sen thoảng giữa hồ xanh, Mảnh mai vững vàng trời mây",
+      "dacDiemDescription": "Nền hồng tạo cảm giác trẻ trung, trong khi hình ảnh hoa sen và cánh bướm đem đến nét mềm mại, giàu tính trang trí. Bố cục họa tiết trải theo mặt nón giúp sản phẩm có điểm nhấn từ nhiều góc nhìn.",
       "chatLieuVaMauSac": "Nền hồng phấn pha hồng sen, kết hợp hoa sen hồng, lá xanh và cánh bướm nhiều màu.",
       "hoaTietVaKieuDang": "Hoa sen, lá sen và cánh bướm phối hợp hài hòa trên mặt nón, tạo nét trang trí sinh động, giàu tính nghệ thuật.",
       "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0978 661 743 (Lê Thị Phương) Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế riêng và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
@@ -2992,7 +2992,7 @@ export const products =
       "dacDiemTitle": "Gửi trao phúc lành, vun đắp bình an",
       "dacDiemDescription": "Hình ảnh nhân vật được đặt ở vị trí trung tâm, tạo điểm nhấn trên nền quạt sáng màu. Các chi tiết trang phục đỏ, xanh và vàng giúp hình vẽ thêm sinh động, trong khi phần nan quạt màu sáng giữ cho tổng thể sự hài hòa, trang nhã.",
       "chatLieuVaMauSac": "Nền vàng kem, phối họa tiết đa sắc và nan quạt vàng nhạt tự nhiên.",
-      "hoaTietVaKieuDang": "",
+      "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, nổi bật với hình tượng đồng tử trong trang phục truyền thống, mang đậm nét mỹ thuật phương Đông.",
       "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0912 916 992 Email https://quatchangson.vn/ Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu"
     }
   },
@@ -3082,7 +3082,7 @@ export const products =
       "dacDiemTitle": "Non xanh nước biếc, mở ra miền cảnh sắc an nhiên",
       "dacDiemDescription": "Bức tranh phong cảnh được thể hiện bằng nhiều sắc xanh từ sáng đến đậm, kết hợp những chi tiết cây cối, núi đồi và công trình kiến trúc nhỏ. Cách phối màu tạo cảm giác tươi mát, trong khi bố cục nhiều lớp mang đến chiều sâu cho mặt quạt.",
       "chatLieuVaMauSac": "Nền xanh lá phối sắc xanh, vàng, hồng, đỏ, kết hợp nan gỗ sáng tự nhiên.",
-      "hoaTietVaKieuDang": "",
+      "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, nổi bật với tranh sơn thủy kết hợp núi non, cây cối, mặt nước và kiến trúc truyền thống.",
       "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0912 916 992 Email https://quatchangson.vn/ Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế và báo giá theo nhu cầu."
     }
   },
@@ -3112,7 +3112,7 @@ export const products =
       "dacDiemTitle": "Sen nở giữa mực, tĩnh tại phương Đông",
       "dacDiemDescription": "Những đóa sen hồng được đặt trên nền họa tiết đen trắng, tạo điểm nhấn thị giác rõ rệt. Các mảng sáng tối đan xen với sắc hoa giúp chiếc quạt mang vẻ đẹp vừa trầm lắng vừa sinh động, phù hợp với không gian nghệ thuật và trưng bày.",
       "chatLieuVaMauSac": "Nền đen, trắng, xám điểm hoa sen hồng, kết hợp nan quạt nâu đậm.",
-      "hoaTietVaKieuDang": "",
+      "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, kết hợp hoa sen hồng và tranh thủy mặc, tạo hiệu ứng tương phản sáng tối tinh tế.",
       "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0912 916 992 Email https://quatchangson.vn/ Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu"
     }
   },
@@ -3262,7 +3262,7 @@ export const products =
       "dacDiemTitle": "Hoa sen thanh khiết, sắc xanh dịu dàng.",
       "dacDiemDescription": "Những bông sen trắng được bố trí thành cụm trên nền xanh, kết hợp cùng lá sen và nhụy vàng tạo điểm nhấn. Cách phối màu nhẹ nhàng giúp chiếc quạt giữ được vẻ đẹp trang nhã, phù hợp với nhiều không gian trưng bày.",
       "chatLieuVaMauSac": "Nền xanh rêu pha xám, hoa sen trắng, nhụy vàng và lá xanh; nan quạt màu đen.",
-      "hoaTietVaKieuDang": "",
+      "hoaTietVaKieuDang": "Cụm hoa sen nở kết hợp nụ sen và lá sen có phần tua đỏ nhỏ ở chốt quạt tạo điểm nhấn.",
       "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0979 038 158 - 0962 733 501 Email quatgiaytutam@gmail.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế riêng và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu"
     }
   },
@@ -3292,7 +3292,7 @@ export const products =
       "dacDiemTitle": "Muôn hoa hội tụ, gửi gắm phúc lành.",
       "dacDiemDescription": "Bề mặt quạt được trang trí bằng những cụm hoa nhiều màu, kết hợp hình ảnh chim công làm điểm nhấn. Bố cục trải rộng theo hình bán nguyệt giúp các chi tiết hòa quyện, tạo nên sản phẩm có tính trang trí cao và vẻ đẹp nổi bật.",
       "chatLieuVaMauSac": "Nền trắng ngà, họa tiết phối xanh, hồng, tím, đỏ và vàng; nan quạt màu sáng tự nhiên.",
-      "hoaTietVaKieuDang": "",
+      "hoaTietVaKieuDang": "Hình ảnh chim công kết hợp các cụm hoa lá nhiều màu, bố trí uốn lượn trên mặt quạt xếp hình bán nguyệt.",
       "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0979 038 158 - 0962 733 501 Email quatgiaytutam@gmail.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế riêng và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu"
     }
   },
@@ -3352,7 +3352,7 @@ export const products =
       "dacDiemTitle": "Cánh quạt đón gió, sắc lam lưu tình",
       "dacDiemDescription": "Hình ảnh chim công xanh là điểm nhấn chính trên nền quạt sáng màu. Những cành hoa và lá được bố trí xung quanh, kết hợp các sắc xanh lam, hồng và xanh lục để tạo nên bố cục sinh động nhưng không quá rực rỡ.",
       "chatLieuVaMauSac": "Nền trắng ngà, họa tiết xanh lam, xanh lục và hồng nhạt; nan quạt màu gỗ sáng tự nhiên.",
-      "hoaTietVaKieuDang": "",
+      "hoaTietVaKieuDang": "Chim công cách điệu kết hợp hoa lá, được sắp xếp theo đường cong của mặt quạt bán nguyệt.",
       "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0984 209 485 – 0986 295 663 Email quatphuong@gmail.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế riêng và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu"
     }
   },
@@ -3382,7 +3382,7 @@ export const products =
       "dacDiemTitle": "Sắc vàng thanh nhã, gửi gắm điều may",
       "dacDiemDescription": "Sắc vàng trên nền trắng ngà tạo hiệu ứng tương phản nhẹ, mang đến vẻ đẹp thanh lịch và không quá cầu kỳ. Các họa tiết được bố trí dọc theo mặt quạt, giúp tổng thể có chiều sâu mà vẫn giữ được sự hài hòa.",
       "chatLieuVaMauSac": "Nền trắng ngà điểm họa tiết vàng nhạt, kết hợp nan gỗ tự nhiên thanh lịch.",
-      "hoaTietVaKieuDang": "",
+      "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, trang trí hoa văn thực vật và đường nét uốn lượn mềm mại.",
       "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0984 209 485 – 0986 295 663 Email quatphuong@gmail.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế riêng và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu"
     }
   },
@@ -3412,7 +3412,7 @@ export const products =
       "dacDiemTitle": "Nét xanh sáng tạo, giao hòa truyền thống và hiện đại",
       "dacDiemDescription": "Nền xanh đậm làm nổi bật hệ thống đường nét và ký hiệu màu trắng xanh. Cách bố trí họa tiết theo từng nan tạo cảm giác có trật tự, gợi liên tưởng đến bản vẽ kỹ thuật và ngôn ngữ thiết kế hiện đại.",
       "chatLieuVaMauSac": "Nền xanh dương đậm, họa tiết trắng xanh, kết hợp nan quạt màu đen.",
-      "hoaTietVaKieuDang": "",
+      "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, trang trí bản vẽ kỹ thuật với đường nét hình học và hình minh họa kiến trúc độc đáo",
       "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0984 209 485 – 0986 295 663 Email quatphuong@gmail.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế riêng và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu"
     }
   },
@@ -3442,7 +3442,7 @@ export const products =
       "dacDiemTitle": "Nhịp xoắn hài hòa, tạo dấu ấn từ những đường nét giản dị",
       "dacDiemDescription": "Các họa tiết xoắn tròn được sắp xếp liên tiếp trên nền xanh, tạo nhịp điệu thị giác rõ ràng. Sự tương phản giữa hai gam màu giúp hoa văn nổi bật mà không cần sử dụng quá nhiều chi tiết trang trí.",
       "chatLieuVaMauSac": "Nền xanh lam pha xanh denim, họa tiết trắng ngà; nan quạt màu gỗ sáng tự nhiên.",
-      "hoaTietVaKieuDang": "",
+      "hoaTietVaKieuDang": "Họa tiết xoắn tròn cách điệu kết hợp các đường nét nhỏ, được lặp lại theo chiều xòe của quạt bán nguyệt.",
       "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0984 209 485 – 0986 295 663 Email quatphuong@gmail.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế riêng và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu"
     }
   },
@@ -3472,7 +3472,7 @@ export const products =
       "dacDiemTitle": "Rộn ràng sắc hội, lưu giữ hồn quê Việt",
       "dacDiemDescription": "Bề mặt quạt được trang trí bằng nhiều hình ảnh nhân vật và chi tiết gợi không khí sinh hoạt cộng đồng. Nền đỏ cam tạo điểm nhấn mạnh mẽ, trong khi các mảng màu phong phú giúp bức tranh thêm sinh động. Bố cục trải rộng theo hình bán nguyệt tạo cảm giác như một khung cảnh lễ hội thu nhỏ.",
       "chatLieuVaMauSac": "Nền đỏ cam rực rỡ, phối họa tiết đa sắc và nan gỗ sáng tự nhiên.",
-      "hoaTietVaKieuDang": "",
+      "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, tái hiện tranh sinh hoạt dân gian cùng hình ảnh nhân vật và hoa văn truyền thống.",
       "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0984 209 485 – 0986 295 663 Email quatphuong@gmail.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế riêng và báo giá theo nhu cầu."
     }
   },
@@ -3770,7 +3770,7 @@ export const products =
       "xuatXu": "Làng nghề Phú Vinh",
       "itemDescription": "Túi xách mây tre đan dáng trống có hình dáng thuôn dài, bề mặt đan thủ công và dây đeo dài, tạo nên phụ kiện mang nét mộc mạc, phù hợp với các hoạt động thường ngày.",
       "dacDiemTitle": "Đường đan tự nhiên, dáng túi phóng khoáng.",
-      "dacDiemDescription": "",
+      "dacDiemDescription": "Thiết kế dáng trống tạo cảm giác khác biệt so với các mẫu túi hình hộp thông thường. Bề mặt đan đều kết hợp dây đeo dài giúp sản phẩm phù hợp với phong cách thời trang giản dị, gần gũi với thiên nhiên.",
       "chatLieuVaMauSac": "Gam nâu vàng tự nhiên phối dây đeo và phụ kiện nâu sẫm, làm nổi bật kết cấu đan thủ công.",
       "hoaTietVaKieuDang": "Túi dáng thuôn dài, hai đầu bo tròn như chiếc trống nằm ngang, kết hợp nắp gập, khóa cài phía trước và dây đeo dài tiện dụng.",
       "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0974 830 598 Email nguyenphuongquang1984@gmail.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu"
@@ -4975,7 +4975,7 @@ export const products =
   {
     "id": "SP_SHV_01",
     "coSoSanXuatId": "LNX_SHV",
-    "name": "Lụa Hoa Tiết Trống Đồng",
+    "name": "Lụa Hoa Văn Trống Đồng",
     "itemDescription": "Nổi bật với sắc hồng tím dịu dàng, điểm xuyết những họa tiết tròn lấy cảm hứng từ hoa văn trống đồng truyền thống. Sự kết hợp giữa màu sắc mềm mại và các biểu tượng văn hóa tạo nên chất liệu mang vẻ đẹp vừa cổ điển vừa hiện đại, phù hợp cho áo dài, trang phục biểu diễn và những thiết kế tôn vinh bản sắc Việt.",
     "chatLieu": "Lụa hoa văn, 70% tơ tằm, 30% polyester.",
     "kyThuat": "Dệt Jacquard tạo hoa văn trống đồng, kết hợp xử lý hoàn tất bề mặt để tăng độ mềm mại và hiệu ứng óng nhẹ.",

@@ -145,14 +145,12 @@ export default function HeaderSearch({
               parentVillage ? ` • ${parentVillage.name}` : ""
             }`
           : p.xuatXu || "Sản phẩm thủ công";
-        const thumb = parentFacility
-          ? resolveFacilityThumbnail(parentFacility)
-          : "";
-        const targetHref = parentFacility
-          ? `/co-so/${parentFacility.id}`
-          : parentVillage
-          ? `/lang-nghe/${parentVillage.id}`
-          : "/";
+        const thumb =
+          (Array.isArray(p.images) && p.images.length > 0
+            ? resolveMockAsset(p.images[0])
+            : "") ||
+          (parentFacility ? resolveFacilityThumbnail(parentFacility) : "");
+        const targetHref = `/san-pham/${p.id}`;
 
         entries.push({
           key: `product-${p.id}`,
