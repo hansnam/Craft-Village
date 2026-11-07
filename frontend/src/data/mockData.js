@@ -2301,6 +2301,142 @@ export const reviews =
 export const products =
 [
   {
+    "id": "SP_QCS_DAHT",
+    "aliasIds": ["prod-1"],
+    "coSoSanXuatId": "QCS_QP",
+    "name": "Dấu Ấn Hà Thành",
+    "itemDescription": "Gửi nét đẹp Thủ đô qua từng cánh quạt. Tác phẩm quạt Chàng Sơn tinh xảo với nan tre tuyển chọn vót chuốt tỉ mỉ, bề mặt bồi giấy điệp vẽ phong cảnh Thăng Long - Hà Nội cổ kính thanh tao, mang đậm bản sắc văn hóa truyền thống nghìn năm văn hiến.",
+    "chatLieu": "Nan tre tự nhiên già dặn, giấy điệp truyền thống bồi bền chắc, mực vẽ thủ công cao cấp",
+    "kyThuat": "Vót nan tre đều tay, vào nan chính xác, bồi giấy thủ công nhiều lớp và vẽ tay họa tiết thắng cảnh Hà Nội",
+    "xuatXu": "Làng quạt Chàng Sơn, huyện Thạch Thất, Hà Nội",
+    "dacDiemTitle": "Gửi nét đẹp Thủ đô qua từng cánh quạt",
+    "dacDiemDescription": "Thiết kế kết hợp hài hòa giữa kỹ thuật làm quạt truyền thống Chàng Sơn và phong cảnh Thăng Long thanh lịch. Quạt xòe tròn đều, nan tre dẻo dai đàn hồi tốt, bề mặt tranh sinh động, thích hợp làm quà tặng ngoại giao, lưu niệm văn hóa hoặc trang trí không gian sang trọng.",
+    "chatLieuVaMauSac": "Nan tre nâu trầm tự nhiên, nền giấy ngà ấm áp kết hợp sắc màu hội họa truyền thống.",
+    "hoaTietVaKieuDang": "Dáng quạt xòe bán nguyệt kinh điển, nan tre vót mảnh đều, tranh vẽ cảnh sắc Thăng Long - Hồ Gươm cổ kính.",
+    "isFeatured": true,
+    "images": [
+      "/download/images/Trang chủ/sanphamnoibat1.png",
+      "/download/images/Quạt Phương/sanpham1.png",
+      "/download/images/Quạt Phương/sanpham2.png",
+      "/download/images/Quạt Phương/sanpham3.png"
+    ],
+    "sourcePdfPage": 88,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Nan tre tự nhiên và giấy điệp thủ công",
+      "kyThuat": "Vót nan tre, vào nan, bồi giấy và vẽ tay cảnh sắc Thăng Long",
+      "xuatXu": "Làng quạt Chàng Sơn, huyện Thạch Thất, Hà Nội",
+      "itemDescription": "Quạt thủ công Dấu Ấn Hà Thành tái hiện cảnh sắc Thăng Long cổ kính qua đường nét hội họa tinh xảo trên nan tre Chàng Sơn.",
+      "dacDiemTitle": "Gửi nét đẹp Thủ đô qua từng cánh quạt",
+      "dacDiemDescription": "Thiết kế kết hợp hài hòa giữa kỹ thuật làm quạt truyền thống Chàng Sơn và phong cảnh Thăng Long thanh lịch.",
+      "chatLieuVaMauSac": "Nan tre nâu trầm tự nhiên, nền giấy ngà ấm áp kết hợp sắc màu hội họa truyền thống.",
+      "hoaTietVaKieuDang": "Dáng quạt xòe bán nguyệt kinh điển, nan tre vót mảnh đều, tranh vẽ cảnh sắc Thăng Long - Hồ Gươm cổ kính.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Quạt Phương. Dịch vụ đi kèm: Nhận đặt làm quạt quà tặng doanh nghiệp, in logo và vẽ mẫu theo yêu cầu."
+    }
+  },
+  {
+    "id": "SP_MTD_VDNT",
+    "aliasIds": ["prod-2"],
+    "coSoSanXuatId": "MTD_MTDTA",
+    "name": "Vân Đăng Nan Tre",
+    "itemDescription": "Đan nét thủ công, thắp sáng không gian. Đèn thả trần mây tre đan với cấu trúc đa tầng nan tre thanh mảnh lồng ghép đồng tâm, tỏa ánh sáng vàng ấm cúng, tạo nên điểm nhấn thẩm mỹ đậm chất nghệ thuật mộc mạc và sang trọng cho không gian sống.",
+    "chatLieu": "Tre, nứa già tự nhiên đã qua xử lý luộc sấy chống mối mọt, khung xương gia cố chắc chắn",
+    "kyThuat": "Chẻ nan chuốt mảnh đồng đều, uốn nhiệt tạo hình các tầng tròn đồng tâm, đan cài nan thủ công tỉ mỉ",
+    "xuatXu": "Làng nghề mây tre đan Phú Vinh, xã Phú Nghĩa, huyện Chương Mỹ, Hà Nội",
+    "dacDiemTitle": "Đan nét thủ công, thắp sáng không gian",
+    "dacDiemDescription": "Sản phẩm nổi bật với cấu trúc đèn lồng nhiều tầng hình học thanh thoát. Khi bật đèn, ánh sáng xuyên qua các khe nan tre tạo hiệu ứng đổ bóng hoa văn độc đáo, mang đến cảm giác thư thái, bình yên cho phòng khách, phòng trà, nhà hàng hay khu nghỉ dưỡng cao cấp.",
+    "chatLieuVaMauSac": "Màu vàng nâu mộc mạc tự nhiên của tre, bóng sáng nhẹ nhàng.",
+    "hoaTietVaKieuDang": "Dáng đèn thả tròn nhiều tầng đồng tâm, nan tre đan dọc thanh mảnh tinh tế.",
+    "isFeatured": true,
+    "images": [
+      "/download/images/Trang chủ/sanphamnoibat2.jpg",
+      "/download/images/CS mây tre đan tuấn anh/mây tre tuấn anh 1 (1).jpg",
+      "/download/images/CS mây tre đan tuấn anh/mây tre tuấn anh 2 (1).jpg",
+      "/download/images/CS mây tre đan tuấn anh/mây tre tuấn anh 3 (1).jpg"
+    ],
+    "sourcePdfPage": 57,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Tre, nứa và sợi tự nhiên đan thủ công",
+      "kyThuat": "Chẻ nan, chuốt bóng, uốn tạo hình đa tầng đồng tâm",
+      "xuatXu": "Làng nghề mây tre đan Phú Vinh, Chương Mỹ, Hà Nội",
+      "itemDescription": "Đèn thả trần Vân Đăng Nan Tre kết hợp tạo hình hiện đại và kỹ thuật đan nan tre truyền thống làng Phú Vinh.",
+      "dacDiemTitle": "Đan nét thủ công, thắp sáng không gian",
+      "dacDiemDescription": "Cấu trúc đèn lồng nhiều tầng thanh thoát, ánh sáng ấm cúng lan tỏa qua từng khe nan tre.",
+      "chatLieuVaMauSac": "Màu vàng nâu mộc mạc tự nhiên của tre, bóng sáng nhẹ nhàng.",
+      "hoaTietVaKieuDang": "Dáng đèn thả tròn nhiều tầng đồng tâm, nan tre đan dọc thanh mảnh tinh tế.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Tuấn Anh. Dịch vụ đi kèm: Nhận sản xuất đèn trang trí mây tre theo kích thước và thiết kế riêng cho công trình."
+    }
+  },
+  {
+    "id": "SP_LNX_ADHV",
+    "aliasIds": ["prod-4"],
+    "coSoSanXuatId": "LNX_SHV",
+    "name": "Áo Dài Lụa Hoa Văn",
+    "itemDescription": "Dáng lụa thanh tao, lưu giữ nét duyên truyền thống. Chiếc áo dài được may từ tơ tằm Nha Xá thượng hạng dệt hoa văn chìm tinh xảo, chất lụa mềm mượt óng ả, rủ nhẹ bay bổng, tôn lên trọn vẹn nét đẹp thanh nhã, quý phái của người phụ nữ Việt.",
+    "chatLieu": "100% tơ tằm tự nhiên Nha Xá, dệt hoa văn truyền thống, nhuộm màu tự nhiên an toàn",
+    "kyThuat": "Dệt thoi tơ tằm hoa văn chìm, cắt may thủ công đo ni chuẩn xác từng đường kim mũi chỉ",
+    "xuatXu": "Làng dệt lụa Nha Xá, xã Mộc Nam, thị xã Duy Tiên, Hà Nam",
+    "dacDiemTitle": "Dáng lụa thanh tao, lưu giữ nét duyên truyền thống",
+    "dacDiemDescription": "Lụa tơ tằm Nha Xá nổi tiếng mịn màng, mát dịu vào mùa hè và ấm áp vào mùa đông. Từng họa tiết hoa văn dệt chìm phản quang nhẹ nhàng theo từng bước chuyển động, kết hợp phom áo dài truyền thống thướt tha, trang trọng trong mọi sự kiện.",
+    "chatLieuVaMauSac": "Màu sắc trang nhã, bề mặt óng ánh ánh tơ tự nhiên.",
+    "hoaTietVaKieuDang": "Áo dài dáng truyền thống thướt tha, tà áo bay bổng, dệt họa tiết hoa văn chìm quý phái.",
+    "isFeatured": true,
+    "images": [
+      "/download/images/Trang chủ/sanphamnoibat4.jpeg",
+      "/download/images/lụa hạ vy/sanpham1.png",
+      "/download/images/lụa hạ vy/sanpham2.png",
+      "/download/images/lụa hạ vy/sanpham3.png"
+    ],
+    "sourcePdfPage": 135,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "100% tơ tằm tự nhiên Nha Xá",
+      "kyThuat": "Dệt hoa văn chìm và may đo thủ công truyền thống",
+      "xuatXu": "Làng dệt lụa Nha Xá, Duy Tiên, Hà Nam",
+      "itemDescription": "Áo dài may từ chất lụa tơ tằm Nha Xá thượng hạng dệt hoa văn tinh tế, mềm mại và sang trọng.",
+      "dacDiemTitle": "Dáng lụa thanh tao, lưu giữ nét duyên truyền thống",
+      "dacDiemDescription": "Lụa tơ tằm Nha Xá mịn màng, tà áo bay bổng, hoa văn chìm tinh tế tôn vinh vẻ đẹp phụ nữ Việt.",
+      "chatLieuVaMauSac": "Màu sắc trang nhã, bề mặt óng ánh ánh tơ tự nhiên.",
+      "hoaTietVaKieuDang": "Áo dài dáng truyền thống thướt tha, tà áo bay bổng, dệt họa tiết hoa văn chìm quý phái.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Lụa Hạ Vy. Dịch vụ đi kèm: May đo theo yêu cầu, cung cấp vải lụa tơ tằm cao cấp số lượng lớn."
+    }
+  },
+  {
+    "id": "SP_GBT_BGLH",
+    "aliasIds": ["prod-5"],
+    "coSoSanXuatId": "GBT_GTL",
+    "name": "Bình Gốm Liên Hoa",
+    "itemDescription": "Đắp nổi tinh xảo, điểm sáng không gian sang trọng. Tác phẩm bình gốm Bát Tràng nghệ thuật với cốt đất cao lanh tinh luyện nung ở nhiệt độ cao, men mộc phủ bóng thanh nhã, điểm xuyết đóa hoa sen đắp nổi thủ công sống động, tượng trưng cho sự thanh khiết và thịnh vượng.",
+    "chatLieu": "Đất sét cao lanh Bát Tràng tinh lọc, men gốm truyền thống nung ở 1280°C",
+    "kyThuat": "Vuốt tạo hình trên bàn xoay, đắp nổi cánh sen thủ công, khắc tỉa chi tiết và nung củi/gas chuẩn nhiệt độ",
+    "xuatXu": "Làng gốm Bát Tràng, huyện Gia Lâm, Hà Nội",
+    "dacDiemTitle": "Đắp nổi tinh xảo, điểm sáng không gian sang trọng",
+    "dacDiemDescription": "Bình gốm dáng tròn đầy đặn mang ý nghĩa tụ tài tích lộc. Đóa sen đắp nổi sinh động như đang vươn nở, từng đường gân cánh hoa mềm mại tương phản trên nền men gốm mộc mạc, tạo nên điểm nhấn đẳng cấp cho phòng khách, phòng làm việc hay sảnh đón tiếp.",
+    "chatLieuVaMauSac": "Men mộc màu xám ghi hoặc men lam ngọc trang nhã, cánh sen đắp nổi tinh tế.",
+    "hoaTietVaKieuDang": "Bình dáng giọt ngọc hoặc hồ lô đầy đặn, họa tiết hoa sen và lá sen đắp nổi ba chiều ấn tượng.",
+    "isFeatured": true,
+    "images": [
+      "/download/images/Trang chủ/sanphamnoibat5.jpeg",
+      "/download/images/gốm tới liên/sanpham1.png",
+      "/download/images/gốm tới liên/sanpham2.png",
+      "/download/images/gốm tới liên/sanpham3.png"
+    ],
+    "sourcePdfPage": 18,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Đất sét cao lanh và men gốm truyền thống Bát Tràng",
+      "kyThuat": "Vuốt tay tạo hình, đắp nổi hoa văn sen thủ công, nung nhiệt cao 1280°C",
+      "xuatXu": "Làng gốm Bát Tràng, Gia Lâm, Hà Nội",
+      "itemDescription": "Bình gốm nghệ thuật đắp nổi hoa sen sống động, mang biểu tượng thanh khiết và thịnh vượng.",
+      "dacDiemTitle": "Đắp nổi tinh xảo, điểm sáng không gian sang trọng",
+      "dacDiemDescription": "Bình gốm tròn đầy đặn, đóa sen đắp nổi tinh tế tạo điểm nhấn nghệ thuật sang trọng cho không gian.",
+      "chatLieuVaMauSac": "Men mộc màu xám ghi hoặc men lam ngọc trang nhã, cánh sen đắp nổi tinh tế.",
+      "hoaTietVaKieuDang": "Bình dáng giọt ngọc hoặc hồ lô đầy đặn, họa tiết hoa sen và lá sen đắp nổi ba chiều ấn tượng.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Gốm Tới Liên. Dịch vụ đi kèm: Nhận chế tác bình gốm quà tặng in ấn logo thương hiệu số lượng lớn."
+    }
+  },
+  {
     "id": "SP_NLC_NQTNS",
     "coSoSanXuatId": "NLC_NLHY",
     "name": "Nón Quai Thao Nguyệt Sắc",
@@ -2728,6 +2864,7 @@ export const products =
   },
   {
     "id": "SP_NLC_NHS",
+    "aliasIds": ["prod-3"],
     "coSoSanXuatId": "NLC_HNLC",
     "name": "Nón Hỷ Sắc",
     "itemDescription": "Nổi bật với nền trắng trang nhã, điểm xuyết họa tiết trang trí màu hồng và biểu tượng chữ Hỷ ở trung tâm. Sự kết hợp giữa hình dáng nón truyền thống và các chi tiết mang ý nghĩa cát tường tạo nên sản phẩm giàu giá trị văn hóa, phù hợp làm quà tặng, vật phẩm trưng bày hoặc sử dụng trong các dịp lễ cưới truyền thống.",

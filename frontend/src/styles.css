@@ -1372,6 +1372,7 @@ h6 {
 
 .product-card {
   position: relative;
+  cursor: pointer;
   flex: 0 0
     calc(
       (100% - (var(--visible-cols) - 1) * var(--card-gap)) / var(--visible-cols)

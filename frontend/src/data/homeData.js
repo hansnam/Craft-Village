@@ -30,24 +30,24 @@ export const heroContent = {
 
 export const featuredProducts = [
   {
-    id: "prod-1",
+    id: "SP_QCS_DAHT",
     name: "Dấu Ấn Hà Thành",
     description: "Gửi nét đẹp Thủ đô qua từng cánh quạt.",
     image: productOneImage,
     alt: "Quạt thủ công Dấu Ấn Hà Thành trên nền Hồ Gươm",
-    href: "/lang-nghe/QCS",
+    href: "/san-pham/SP_QCS_DAHT",
   },
   {
-    id: "prod-2",
+    id: "SP_MTD_VDNT",
     name: "Vân Đăng Nan Tre",
     description: "Đan nét thủ công, thắp sáng không gian.",
     image: productTwoImage,
     imageVariant: "bamboo-lamp",
     alt: "Đèn thả trần Vân Đăng Nan Tre đan thủ công",
-    href: "/lang-nghe/MTD",
+    href: "/san-pham/SP_MTD_VDNT",
   },
   {
-    id: "prod-3",
+    id: "SP_NLC_NHS",
     name: "Nón Hỷ Sắc",
     description: "Gửi trao nét đẹp, vun đắp duyên lành.",
     image: productThreeImage,
@@ -55,20 +55,20 @@ export const featuredProducts = [
     href: "/san-pham/SP_NLC_NHS",
   },
   {
-    id: "prod-4",
+    id: "SP_LNX_ADHV",
     name: "Áo Dài Lụa Hoa Văn",
     description: "Dáng lụa thanh tao, lưu giữ nét duyên truyền thống.",
     image: productFourImage,
     alt: "Áo dài lụa dệt hoa văn truyền thống",
-    href: "/lang-nghe/LNX",
+    href: "/san-pham/SP_LNX_ADHV",
   },
   {
-    id: "prod-5",
+    id: "SP_GBT_BGLH",
     name: "Bình Gốm Liên Hoa",
     description: "Đắp nổi tinh xảo, điểm sáng không gian sang trọng.",
     image: productFiveImage,
     alt: "Bình gốm nghệ thuật đắp nổi hoa thanh nhã",
-    href: "/lang-nghe/GBT",
+    href: "/san-pham/SP_GBT_BGLH",
   },
 ];
 

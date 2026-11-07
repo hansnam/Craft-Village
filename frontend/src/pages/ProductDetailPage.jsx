@@ -34,11 +34,15 @@ export default function ProductDetailPage() {
   const { productId } = useParams();
   const navigate = useNavigate();
 
-  // Find product by id (case-insensitive)
+  // Find product by id or aliasIds (case-insensitive)
   const product = useMemo(() => {
     if (!productId) return null;
+    const lower = String(productId).toLowerCase();
     return products.find(
-      (p) => String(p.id).toLowerCase() === String(productId).toLowerCase()
+      (p) =>
+        String(p.id).toLowerCase() === lower ||
+        (Array.isArray(p.aliasIds) &&
+          p.aliasIds.some((a) => a.toLowerCase() === lower))
     );
   }, [productId]);
 

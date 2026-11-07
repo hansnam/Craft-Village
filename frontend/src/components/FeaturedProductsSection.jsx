@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { featuredProducts } from "../data/homeData.js";
 import useInfiniteCarousel from "../hooks/useInfiniteCarousel.js";
 
@@ -22,7 +22,18 @@ function SideArrowIcon({ direction }) {
 }
 
 export default function FeaturedProductsSection() {
+  const navigate = useNavigate();
   const cloneCount = 3;
+
+  const handleCardClick = (e, href) => {
+    if (e.target.closest("a, button")) return;
+    if (!href) return;
+    if (href.startsWith("/")) {
+      navigate(href);
+    } else {
+      window.location.href = href;
+    }
+  };
   const {
     extendedItems,
     trackIndex,
@@ -84,8 +95,9 @@ export default function FeaturedProductsSection() {
                   <article
                     className="product-card"
                     key={`${product.id}-${index}`}
-                    style={{ "--stagger-index": staggerSlot }}
+                    style={{ "--stagger-index": staggerSlot, cursor: "pointer" }}
                     data-cursor="card"
+                    onClick={(e) => handleCardClick(e, product.href)}
                   >
                     <img
                       className={
