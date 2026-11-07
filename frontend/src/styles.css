@@ -3049,6 +3049,7 @@ html.custom-cursor-active select {
 .village-story__frame {
   position: relative;
   overflow: hidden;
+  border-radius: 16px;
   background: #ebe3d6;
   box-shadow: 0 12px 30px rgba(34, 24, 15, 0.1);
 }
@@ -3058,6 +3059,7 @@ html.custom-cursor-active select {
   height: 100%;
   display: block;
   object-fit: cover;
+  border-radius: 16px;
   transition: transform 680ms var(--ease-luxury);
 }
 
@@ -3106,9 +3108,15 @@ html.custom-cursor-active select {
   width: 100%;
   aspect-ratio: 1.08;
   border-radius: 0 24px 24px 0;
+  overflow: hidden;
 }
 
 .story-nlc__left-img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 0 24px 24px 0;
   object-position: center center;
 }
 
@@ -3123,10 +3131,16 @@ html.custom-cursor-active select {
   width: 100%;
   aspect-ratio: 1.85;
   border-radius: 18px;
+  overflow: hidden;
 }
 
 .story-nlc__right-img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
   object-position: center 65%;
+  border-radius: 18px;
 }
 
 .story-nlc__quote-banner {
@@ -3194,7 +3208,16 @@ html.custom-cursor-active select {
 
 .story-qcs__hero-media {
   aspect-ratio: 1.46;
-  border-radius: 14px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.story-qcs__hero-media img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 16px;
 }
 
 .story-qcs__mid-copy {
@@ -3209,7 +3232,16 @@ html.custom-cursor-active select {
 
 .story-qcs__gallery-card {
   aspect-ratio: 1.58;
-  border-radius: 12px;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.story-qcs__gallery-card img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 14px;
 }
 
 .story-qcs__gallery-img--dragon {
@@ -3231,19 +3263,29 @@ html.custom-cursor-active select {
 
 .story-mtd__top-pair {
   display: grid;
-  grid-template-columns: minmax(0, 2.28fr) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1.45fr);
   gap: clamp(14px, 1.6vw, 20px);
   min-height: clamp(320px, 30vw, 405px);
 }
 
 .story-mtd__pair-wide,
 .story-mtd__pair-tall {
-  border-radius: 8px;
+  border-radius: 16px;
+  overflow: hidden;
   height: 100%;
 }
 
+.story-mtd__pair-wide img,
+.story-mtd__pair-tall img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
 .story-mtd__pair-tall-img {
-  object-position: 63% center;
+  object-position: center center;
 }
 
 .story-mtd__bottom {
@@ -3256,7 +3298,16 @@ html.custom-cursor-active select {
 
 .story-mtd__bottom-media {
   aspect-ratio: 1.88;
-  border-radius: 8px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.story-mtd__bottom-media img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 16px;
 }
 
 .story-mtd__bottom-img {
@@ -3304,7 +3355,16 @@ html.custom-cursor-active select {
 
 .story-gbt__gallery-card {
   aspect-ratio: 1.68;
-  border-radius: 12px;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.story-gbt__gallery-card img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 14px;
 }
 
 .story-gbt__gallery-card .story-gbt__gallery-img--vase {
@@ -3736,12 +3796,14 @@ html.custom-cursor-active select {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: fit-content;
-  max-width: 100%;
+  width: 100%;
+  max-width: 520px;
+  height: 350px;
+  aspect-ratio: 16 / 11;
   margin: 0 auto;
-  border-radius: 18px;
+  border-radius: 20px;
   overflow: hidden;
-  background: #ebe3d6;
+  background: #ede7dc;
   box-shadow: 0 14px 34px rgba(38, 28, 18, 0.12);
   transition: transform 380ms var(--ease-luxury),
     box-shadow 380ms var(--ease-luxury);
@@ -3762,12 +3824,11 @@ html.custom-cursor-active select {
 
 .process-step__image {
   display: block;
-  width: auto;
-  max-width: 100%;
-  height: auto;
-  max-height: clamp(340px, 40vw, 480px);
-  object-fit: contain;
-  border-radius: 18px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
   transform: none;
   transition: transform 380ms var(--ease-luxury);
 }
@@ -4589,7 +4650,7 @@ html.custom-cursor-active select {
   }
 
   .story-mtd__top-pair {
-    grid-template-columns: 1.65fr 1fr;
+    grid-template-columns: 1fr 1fr;
     min-height: 215px;
     gap: 12px;
   }
