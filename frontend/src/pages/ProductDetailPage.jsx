@@ -73,23 +73,6 @@ export default function ProductDetailPage() {
       });
     }
 
-    // If no images in product, check if there's a sample fallback image available
-    if (imgs.length === 0) {
-      // Check for downloaded sample assets from Figma frame 757:732
-      const sampleMain = resolveMockAsset("/images/product_detail/prod_sample_main.jpg");
-      if (sampleMain && product.id === "SP_NLC_NQTNS") {
-        imgs.push({ url: sampleMain, alt: product.name });
-        const thumb1 = resolveMockAsset("/images/product_detail/prod_sample_thumb1.jpg");
-        const thumb2 = resolveMockAsset("/images/product_detail/prod_sample_thumb2.jpg");
-        const thumb3 = resolveMockAsset("/images/product_detail/prod_sample_thumb3.jpg");
-        const thumb4 = resolveMockAsset("/images/product_detail/prod_sample_thumb4.jpg");
-        if (thumb1) imgs.push({ url: thumb1, alt: `${product.name} góc 1` });
-        if (thumb2) imgs.push({ url: thumb2, alt: `${product.name} góc 2` });
-        if (thumb3) imgs.push({ url: thumb3, alt: `${product.name} góc 3` });
-        if (thumb4) imgs.push({ url: thumb4, alt: `${product.name} góc 4` });
-      }
-    }
-
     return imgs;
   }, [product]);
 

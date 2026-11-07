@@ -1,0 +1,40 @@
+{
+  "docx_sha256": "0d2fc52ded31d51cab60fdefd66e38e1ef60eefc22ea1051ab01161459f427ce",
+  "paragraphs": 2280,
+  "products": 90,
+  "docx_blank_names": 29,
+  "products_with_any_missing_core_text": 36,
+  "records_with_scalar_difference_from_mock": 36,
+  "records_with_mock_value_docx_empty": 36,
+  "duplicate_docx_product_ids": {
+    "SP_QCS_QTT": 2,
+    "SP_GBT_29": 2
+  },
+  "blank_core_fields": {
+    "name": 29,
+    "itemDescription": 36,
+    "chatLieu": 36,
+    "kyThuat": 36,
+    "dacDiemTitle": 36,
+    "dacDiemDescription": 36,
+    "chatLieuVaMauSac": 36,
+    "hoaTietVaKieuDang": 36
+  },
+  "scalar_record_comparison": {
+    "facilities": {
+      "records": 15,
+      "records_with_differences": 2,
+      "records_with_unextracted_fields": 0
+    },
+    "capacities": {
+      "records": 60,
+      "records_with_differences": 0,
+      "records_with_unextracted_fields": 0
+    },
+    "reviews": {
+      "records": 45,
+      "records_with_differences": 0,
+      "records_with_unextracted_fields": 0
+    }
+  }
+}

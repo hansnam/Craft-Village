@@ -1,0 +1,50 @@
+{
+  "count": 91,
+  "photos": 276,
+  "pages_checked": [
+    {
+      "id": "SP_GBT_01",
+      "heading": "Ống heo súp lơ",
+      "main_image_loaded": true
+    },
+    {
+      "id": "SP_GBT_03",
+      "heading": "Túi xách sứ cắm hoa",
+      "main_image_loaded": true
+    },
+    {
+      "id": "SP_GBT_30",
+      "heading": "Khay lá sen",
+      "main_image_loaded": true
+    },
+    {
+      "id": "SP_QCS_QTRUYENTHONG",
+      "heading": "Quạt Truyền Thống",
+      "main_image_loaded": true
+    },
+    {
+      "id": "SP_NLC_NHS",
+      "heading": "Nón Hỷ Sắc",
+      "main_image_loaded": true
+    },
+    {
+      "id": "SP_NLC_NQTNS",
+      "heading": "Nón Quai Thao Nguyệt Sắc",
+      "main_image_loaded": true
+    },
+    {
+      "id": "SP_LNX_02",
+      "heading": "Lụa hoa văn Vân Bèo",
+      "main_image_loaded": true
+    },
+    {
+      "id": "SP_NLC_NONCUOI_TRANG",
+      "heading": "Nón cưới trắng tinh khôi",
+      "main_image_loaded": true
+    }
+  ],
+  "errors": [],
+  "unresolved_images": [],
+  "facility_cards": 6,
+  "facility_placeholders": 0
+}

@@ -52,7 +52,7 @@ export const featuredProducts = [
     description: "Gửi trao nét đẹp, vun đắp duyên lành.",
     image: productThreeImage,
     alt: "Nón Hỷ Sắc thêu họa tiết chim hạc và chữ Hỷ",
-    href: "/san-pham/SP_NLC_NQTNS",
+    href: "/san-pham/SP_NLC_NHS",
   },
   {
     id: "prod-4",

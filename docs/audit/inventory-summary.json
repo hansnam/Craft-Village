@@ -1,0 +1,42 @@
+{
+  "image_files": 1369,
+  "unique_contents": 655,
+  "statuses": {
+    "REFERENCED": 459,
+    "NO_STATIC_REFERENCE": 197,
+    "SAME_CONTENT_AS_REFERENCED": 713
+  },
+  "roots": {
+    "frontend/download/images": {
+      "REFERENCED": 458,
+      "NO_STATIC_REFERENCE": 172,
+      "SAME_CONTENT_AS_REFERENCED": 48
+    },
+    "frontend/public/images": {
+      "SAME_CONTENT_AS_REFERENCED": 11
+    },
+    "frontend/src/assets": {
+      "REFERENCED": 1
+    },
+    "template": {
+      "SAME_CONTENT_AS_REFERENCED": 654,
+      "NO_STATIC_REFERENCE": 25
+    }
+  },
+  "literal_references": 467,
+  "missing_references": 0,
+  "data_counts": {
+    "users": 3,
+    "villages": 5,
+    "productionProcesses": 28,
+    "facilities": 15,
+    "capacities": 60,
+    "projects": 17,
+    "reviews": 45,
+    "products": 91,
+    "initialBookings": 0
+  },
+  "products_without_name": 0,
+  "products_without_resolved_image": 0,
+  "duplicate_product_ids": {}
+}

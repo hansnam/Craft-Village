@@ -1,0 +1,45 @@
+{
+  "mobile": [
+    {
+      "route": "/",
+      "overflow": false
+    },
+    {
+      "route": "/ve-chung-toi",
+      "overflow": false
+    },
+    {
+      "route": "/dat-lich",
+      "overflow": false
+    },
+    {
+      "route": "/lang-nghe/MTD",
+      "overflow": false
+    },
+    {
+      "route": "/co-so/GBT_GTL",
+      "overflow": false
+    },
+    {
+      "route": "/san-pham/SP_GBT_19",
+      "overflow": false
+    }
+  ],
+  "booking_accepts_invalid_phone": true,
+  "booking_success_text": "Gửi yêu cầu đặt lịch thành công!\n\nMã cuộc hẹn: BK-5227\n\nXưởng làm việc:\nNÓN LÁ HẢI YẾN\nNgười đặt hẹn:\nKiem tra frontend (abc)\nMục đích:\nTham quan xưởng\nThời gian hẹn:\n2099-12-31 (08:30 - 10:00)\nChủ xưởng Nguyễn Thị Yến sẽ liên hệ trực tiếp qua số điện thoại hoặc Zalo của bạn trong vòng 24 giờ để xác nhận buổi làm việc.\nĐặt thêm lịch hẹn khác",
+  "booking_success_survives_reload": false,
+  "duplicate_product_routes": [
+    {
+      "id": "SP_QCS_QTT",
+      "h1": [
+        "Quạt Tranh Tết"
+      ]
+    },
+    {
+      "id": "SP_GBT_29",
+      "h1": [
+        ""
+      ]
+    }
+  ]
+}

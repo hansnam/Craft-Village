@@ -208,7 +208,7 @@ export const productionProcesses =
     "langNgheId": "NLC",
     "name": "Dán nón",
     "step": 3,
-    "description": "Vức vòng hay còn gọi là làm khung nón cũng là một công đoạn quan trọng. Vòng nón được làm bằng cật nứa vót nhỏ đều, khi nối bắt buộc phải tròn và không có vết. Khác với các loại nón ở nơi khác, nón Làng Chuông chỉ có 16 vòng giúp cho nón có độ bền chắc nhưng vẫn giữ được sự mềm mại.",
+    "description": "Vòng nón sau khi hoàn thành sẽ được xếp theo 3 lớp, bao gồm 2 lớp lá lụi và một lớp mo nứa ở giữa.",
     "image": {
       "url": "/images/Trang làng nghề/Làng nón/quy trình sản xuất 3.jpg",
       "alt": "Dán nón"
@@ -219,7 +219,7 @@ export const productionProcesses =
     "langNgheId": "NLC",
     "name": "Khâu nón (thắt nón)",
     "step": 4,
-    "description": "Khâu nón được coi là công đoạn rất khó đòi hỏi sự khéo léo của mỗi người bởi nếu không khéo lá sẽ bị rách. Điều quan trọng nữa là mũi khâu yêu cầu phải ngắn, lỗ nhỏ thì chiếc nón mới tròn, khít, mịn từ mép lá đến đường khâu. Khâu nón được coi là công đoạn rất khó đòi hỏi sự khéo léo của mỗi người bởi nếu không khéo lá sẽ bị rách. Điều quan trọng nữa là mũi khâu yêu cầu phải ngắn, lỗ nhỏ thì chiếc nón mới tròn, khít, mịn từ mép lá đến đường khâu.",
+    "description": "Khâu nón được coi là công đoạn rất khó đòi hỏi sự khéo léo của mỗi người bởi nếu không khéo lá sẽ bị rách. Điều quan trọng nữa là mũi khâu yêu cầu phải ngắn, lỗ nhỏ thì chiếc nón mới tròn, khít, mịn từ mép lá đến đường khâu.",
     "image": {
       "url": "/images/Trang làng nghề/Làng nón/quy trình sản xuất 4.jpg",
       "alt": "Khâu nón (thắt nón)"
@@ -629,7 +629,7 @@ export const facilities =
     "images": {
       "header": "/images/Quạt Chàng Sơn/52.png",
       "consultation": "/images/Quạt Chàng Sơn/59.png",
-      "imageStory": "/images/Quạt Chàng Sơn/61.png"
+      "imageStory": "/download/images/Quạt Chàng Sơn/52.png"
     },
     "dienTichXuong": {
       "value": 200,
@@ -891,7 +891,7 @@ export const facilities =
     "id": "GBT_GHL",
     "langNgheId": "GBT",
     "name": "GỐM HẢI LONG",
-    "description": "Thương hiệu kết hợp kỹ thuật vẽ tay truyền thống với phong cách vintage và cảm hứng châu Âu, tạo nên những sản phẩm mang dấu ấn riêng.",
+    "description": "Cơ sở với các sản phẩm thủ công đa dạng, nổi bật là bộ ấm chén và đồ gốm trang trí.",
     "sanPhamDescription": "Đồ gốm sứ thủ công với các dòng ấm chén, đồ gia dụng và vật phẩm trang trí, phù hợp với nhu cầu sử dụng, bài trí không gian và đặt hàng theo yêu cầu.",
     "tuVanDescription": "Liên hệ trực tiếp để tìm hiểu mẫu mã, nhận báo giá và trao đổi nhu cầu đặt hàng gốm sứ gia dụng, đồ mỹ nghệ, vật liệu kiến trúc hoặc nồi gốm sứ NodaCook.",
     "tenChuXuong": "HẢI LONG",
@@ -1048,7 +1048,7 @@ export const facilities =
     "langNgheId": "LNX",
     "name": "SILK HẠ VY",
     "description": "Cơ sở cung cấp tơ sợi, lụa thô đến sản xuất lụa thành phẩm.",
-    "sanPhamDescription": "Lụa Nha Xá cung cấp đa dạng sản phẩm từ lụa tơ tằm truyền thống, từ vải lụa, khăn lụa đến phụ kiện.",
+    "sanPhamDescription": "Lụa là dòng sản phẩm nổi bật với các họa tiết và hoa văn đa dạng, phù hợp cho khách hàng tìm kiếm chất liệu mang tính thẩm mỹ và dấu ấn riêng.",
     "tuVanDescription": "Liên hệ cơ sở để được tư vấn và báo giá theo chất liệu, màu sắc, quy cách và số lượng đặt hàng.",
     "tenChuXuong": null,
     "email": null,
@@ -1091,7 +1091,7 @@ export const capacities =
     "order": 1,
     "description": "Với khoảng 20 năm kinh nghiệm, cơ sở duy trì kỹ thuật làm nón thủ công truyền thống và tích lũy tay nghề qua từng sản phẩm.",
     "image": {
-      "url": "/images/workshops/non-la-hai-yen/nang-luc-san-xuat-1.jpg",
+      "url": "/download/images/Nón lá Hải Yến/nanglucsanxuat1.jpg",
       "alt": "Kinh nghiệm làm nghề nón lá Hải Yến"
     }
   },
@@ -2314,12 +2314,27 @@ export const products =
     "hoaTietVaKieuDang": "Nón dáng tròn, vành rộng, lòng lõm nhẹ, điểm nhấn là chuỗi hạt và hai tua đỏ buông đối xứng.",
     "isFeatured": false,
     "images": [
-      {
-        "Url": "",
-        "alt": "",
-        "isMain": false
-      }
-    ]
+      "/download/images/Nón lá Hải Yến/sanpham1(1).png",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/quai thao nguyệt sắc/0f73c43332baf52bbb6813186ba40ab9.jpg",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/quai thao nguyệt sắc/1c4a289e8fe890e0fa53afa9a1a56230.jpg",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/quai thao nguyệt sắc/791d034b2576e955f39da8580933dc04.jpg",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/quai thao nguyệt sắc/a7b557f78c319cf88290faba32ce0e83.jpg",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/quai thao nguyệt sắc/b4fcebfa-485e-41d8-8b89-7e78b7afdfab.jpg",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/quai thao nguyệt sắc/e3102d2da76fd523e3e5266569586d22.jpg"
+    ],
+    "sourcePdfPage": 107,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Khung nón và vật liệu đan truyền thống; dây hạt trang trí và tua vải",
+      "kyThuat": "Tạo hình và đan nón theo dáng tròn rộng, kết hợp hoàn thiện viền nón, đính dây hạt và tua trang trí.",
+      "xuatXu": "Làng nón Chuông, xã Phương Trung, Hà Nội",
+      "itemDescription": "Quai Thao Nguyệt Sắc ấn tượng với dáng nón tròn rộng, lòng nón thoáng với màu nâu vàng tự nhiên. Điểm nhấn nằm ở chuỗi hạt trang trí cùng đôi tua đỏ nổi bật hai bên, tạo nên vẻ đẹp vừa trang nhã vừa duyên dáng.",
+      "dacDiemTitle": "Vẻ đẹp nền nã, lưu giữ nét duyên Kinh Bắc",
+      "dacDiemDescription": "Thiết kế nổi bật nhờ sự kết hợp giữa nền nón màu nâu vàng mộc mạc và các chi tiết trang trí giàu tính thẩm mỹ. Chuỗi hạt buông nhẹ theo vành nón tạo nét mềm mại, trong khi đôi tua đỏ mang đến điểm nhấn nổi bật, phù hợp với không gian biểu diễn và trưng bày văn hóa truyền thống.",
+      "chatLieuVaMauSac": "Tông nâu vàng tự nhiên, kết hợp chuỗi hạt sáng màu và tua đỏ nổi bật.",
+      "hoaTietVaKieuDang": "Nón dáng tròn, vành rộng, lòng lõm nhẹ, điểm nhấn là chuỗi hạt và hai tua đỏ buông đối xứng.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0379 385 594 (Nguyễn Thị Yến) Dịch vụ đi kèm Nhận đơn sỉ số lượng lớn, đặt lẻ từ 1 sản phẩm, dịch vụ thiết kế theo mẫu, hoàn thiện linh hoạt theo yêu cầu. Giá Liên hệ cơ sở để nhận báo giá theo mẫu mã, kích thước, độ cầu kỳ và số lượng đặt hàng. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_NLC_NQTKN",
@@ -2334,7 +2349,28 @@ export const products =
     "chatLieuVaMauSac": "Nền vàng rơm tự nhiên, kết hợp dây quai và tua trắng thanh nhã.",
     "hoaTietVaKieuDang": "Nón dáng tròn, vành rộng, trang trí họa tiết hình tròn ở trung tâm cùng đôi tua trắng buông hai bên.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/Nón lá Hải Yến/sanpham2(1).png",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Quai thao kim nguyệt/4aa60ed0336eb74c4642f647e218d9bc.jpg",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Quai thao kim nguyệt/7f56b2f839a9a71b9648eed46b91f4f3.jpg",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Quai thao kim nguyệt/8573761901ede3f56981fcfdf7bdd28e.jpg",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Quai thao kim nguyệt/b927d290f55145ef304759726f2e60e0.jpg",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Quai thao kim nguyệt/Gemini_Generated_Image_yn9tiyn9tiyn9tiy.png",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Quai thao kim nguyệt/vn-11134207-7ra0g-m8fwiy9daglj33.webp"
+    ],
+    "sourcePdfPage": 108,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Khung nón và vật liệu đan truyền thống; dây quai và tua trang trí",
+      "kyThuat": "Tạo hình nón tròn rộng, hoàn thiện phần chóp và vành nón, kết hợp trang trí họa tiết trung tâm cùng dây quai",
+      "xuatXu": "Làng nón Chuông, xã Phương Trung, Hà Nội",
+      "itemDescription": "Quai Thao Kim Nguyệt nổi bật với sắc vàng rơm sáng và dáng nón tròn rộng mang nét đẹp cổ điển. Phần trung tâm được trang trí bằng họa tiết tròn tinh tế, kết hợp cùng dây quai sáng màu và đôi tua trắng mềm mại.",
+      "dacDiemTitle": "Sắc vàng dịu nhẹ, tôn lên vẻ đẹp thanh lịch",
+      "dacDiemDescription": "Tông vàng rơm tạo cảm giác ấm áp và gần gũi, trong khi họa tiết trang trí ở trung tâm giúp chiếc nón thêm phần nổi bật. Dây quai trắng kết hợp tua mềm mang lại nét duyên dáng, giữ cho tổng thể cân đối và trang nhã.",
+      "chatLieuVaMauSac": "Nền vàng rơm tự nhiên, kết hợp dây quai và tua trắng thanh nhã.",
+      "hoaTietVaKieuDang": "Nón dáng tròn, vành rộng, trang trí họa tiết hình tròn ở trung tâm cùng đôi tua trắng buông hai bên.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0379 385 594 (Nguyễn Thị Yến) Dịch vụ đi kèm Nhận đơn sỉ số lượng lớn, đặt lẻ từ 1 sản phẩm, dịch vụ thiết kế theo mẫu, hoàn thiện linh hoạt theo yêu cầu. Giá Liên hệ cơ sở để nhận báo giá theo mẫu mã, kích thước, độ cầu kỳ và số lượng đặt hàng. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_NLC_NQTMN",
@@ -2349,7 +2385,28 @@ export const products =
     "chatLieuVaMauSac": "Tông nâu vàng tự nhiên, kết hợp dây quai bện màu nâu đậm.",
     "hoaTietVaKieuDang": "Nón dáng tròn, vành rộng, bề mặt đan theo đường đồng tâm, thiết kế tối giản với dây quai buông mềm mại.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/Nón lá Hải Yến/sanpham3(1).png",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón quai thao mộc nguyên/13a9135b86f4747caa379074b8e75c1a.jpg",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón quai thao mộc nguyên/5697234ebf017278e1822c8ba642f6eb.jpg",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón quai thao mộc nguyên/73b3233bf03162db6b2def182f57c13d.jpg",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón quai thao mộc nguyên/880aba263c1e8b7ab841699a68d84604.jpg",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón quai thao mộc nguyên/a1bd7121d54a7843659df2c363602619.jpg",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón quai thao mộc nguyên/Gemini_Generated_Image_u2vvbau2vvbau2vv.png"
+    ],
+    "sourcePdfPage": 109,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Khung nón và vật liệu đan truyền thống; dây quai bện",
+      "kyThuat": "Tạo hình nón tròn rộng, hoàn thiện vành nón cùng dây quai bện đơn giản",
+      "xuatXu": "Làng nón Chuông, xã Phương Trung, Hà Nội",
+      "itemDescription": "Nón Quai Thao Mộc Nguyên mang vẻ đẹp mộc mạc, giản dị với sắc nâu tự nhiên, kiểu dáng tròn rộng và dây quai bện đồng điệu, phù hợp cho các bộ sưu tập văn hóa, không gian trưng bày và hoạt động tái hiện trang phục xưa.",
+      "dacDiemTitle": "Mộc mạc dáng xưa, tinh giản nét duyên",
+      "dacDiemDescription": "Sản phẩm thu hút bởi đường nét gọn gàng và màu sắc tự nhiên. Dây quai bện buông cong phía dưới vành tạo thành chi tiết trang trí nhẹ nhàng mà không làm mất đi vẻ giản dị của chiếc nón.",
+      "chatLieuVaMauSac": "Tông nâu vàng tự nhiên, kết hợp dây quai bện màu nâu đậm.",
+      "hoaTietVaKieuDang": "Nón dáng tròn, vành rộng, bề mặt đan theo đường đồng tâm, thiết kế tối giản với dây quai buông mềm mại.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0379 385 594 (Nguyễn Thị Yến) Dịch vụ đi kèm Nhận đơn sỉ số lượng lớn, đặt lẻ từ 1 sản phẩm, dịch vụ thiết kế theo mẫu, hoàn thiện linh hoạt theo yêu cầu. Giá Liên hệ cơ sở để nhận báo giá theo mẫu mã, kích thước, độ cầu kỳ và số lượng đặt hàng. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_NLC_NDKQ",
@@ -2364,7 +2421,28 @@ export const products =
     "chatLieuVaMauSac": "Tông vàng rơm tự nhiên, kết hợp dây quai và tua đen.",
     "hoaTietVaKieuDang": "Chóp cao hình nón, vành rộng nhiều lớp với các đường đan đồng tâm; dây quai buông cong, kết hợp tua đen ở hai bên.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/Nón lá Hải Yến/sanpham1.png",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Kim Quan/007b9ebe0b6b7ece97d45b323b1ec4fc.jpg",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Kim Quan/9a372d85-1382-4829-b0de-9f06f59aef70 1.png",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Kim Quan/9a372d85-1382-4829-b0de-9f06f59aef70 2.png",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Kim Quan/b4aabff0dc0da96280d4ea0d2a76e7b7.jpg",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Kim Quan/e13220a99b088594b0eb3b8dff0800c4.jpg",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Kim Quan/Gemini_Generated_Image_207uij207uij207u.png"
+    ],
+    "sourcePdfPage": 110,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Khung nón và vật liệu đan truyền thống; dây quai và tua trang trí",
+      "kyThuat": "Tạo hình chóp cao, đan và hoàn thiện vành nhiều lớp, kết hợp dây quai và tua trang trí",
+      "xuatXu": "Làng nón Chuông, xã Phương Trung, Hà Nội",
+      "itemDescription": "Đầu Kim Quan nổi bật với phần chóp cao hình nón, vành rộng và hệ dây tua màu đen buông hai bên. Sản phẩm phù hợp với trưng bày, phục dựng trang phục cổ hoặc các chương trình nghệ thuật mang cảm hứng lịch sử.",
+      "dacDiemTitle": "Chóp cao nổi bật, vành rộng tạo dáng vẻ bề thế",
+      "dacDiemDescription": "Điểm đặc trưng của sản phẩm là sự kết hợp giữa phần chóp cao và vành nón mở rộng theo nhiều tầng. Dây tua đen buông hai bên làm tăng vẻ trang trọng, tạo hình thức nổi bật khi kết hợp cùng trang phục biểu diễn hoặc trưng bày.",
+      "chatLieuVaMauSac": "Tông vàng rơm tự nhiên, kết hợp dây quai và tua đen.",
+      "hoaTietVaKieuDang": "Chóp cao hình nón, vành rộng nhiều lớp với các đường đan đồng tâm; dây quai buông cong, kết hợp tua đen ở hai bên.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0379 385 594 (Nguyễn Thị Yến) Dịch vụ đi kèm Nhận đơn sỉ số lượng lớn, đặt lẻ từ 1 sản phẩm, dịch vụ thiết kế theo mẫu, hoàn thiện linh hoạt theo yêu cầu. Giá Liên hệ cơ sở để nhận báo giá theo mẫu mã, kích thước, độ cầu kỳ và số lượng đặt hàng. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_NLC_NDHV",
@@ -2379,7 +2457,28 @@ export const products =
     "chatLieuVaMauSac": "Nền vàng rơm, dây quai đỏ sẫm, tua trang trí phối đỏ và xanh.",
     "hoaTietVaKieuDang": "Dáng chóp cao, vành rộng nhiều lớp, đường đan chạy theo thân nón; dây quai cong kết hợp tua trang trí đối xứng",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/Nón lá Hải Yến/sanpham2.png",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón Đầu Hồng Vân/055a66d1-88fe-43ad-a56f-61aa052a1bee 1.png",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón Đầu Hồng Vân/055a66d1-88fe-43ad-a56f-61aa052a1bee 2.png",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón Đầu Hồng Vân/055a66d1-88fe-43ad-a56f-61aa052a1bee 3.png",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón Đầu Hồng Vân/5db0289b-153a-48c2-83ad-5d53fd9aa512 1.png",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón Đầu Hồng Vân/5db0289b-153a-48c2-83ad-5d53fd9aa512 2.png",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón Đầu Hồng Vân/Gemini_Generated_Image_ctqfjnctqfjnctqf.png"
+    ],
+    "sourcePdfPage": 111,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Khung nón và vật liệu đan truyền thống; dây quai và tua trang trí",
+      "kyThuat": "Tạo hình chóp cao và vành nhiều lớp, kết hợp hoàn thiện dây quai cùng tua trang trí màu sắc.",
+      "xuatXu": "Làng nón Chuông, xã Phương Trung, Hà Nội",
+      "itemDescription": "Nón Đầu Hồng Vân mang sắc vàng rơm ấm áp, kết hợp dây quai đỏ và tua trang trí nhiều màu tạo điểm nhấn nổi bật. Dáng nón chóp cao cùng phần vành rộng nhiều lớp đem lại vẻ ngoài cân đối, giàu tính trang trí.",
+      "dacDiemTitle": "Sắc đỏ duyên dáng, điểm tô nét đẹp truyền thống",
+      "dacDiemDescription": "Nền nón màu vàng rơm làm nổi bật dây quai đỏ và các dải tua nhiều màu ở hai bên. Sự tương phản giữa màu sắc tự nhiên của vật liệu đan và chi tiết trang trí tạo nên diện mạo sinh động nhưng vẫn giữ được nét cổ truyền.",
+      "chatLieuVaMauSac": "Nền vàng rơm, dây quai đỏ sẫm, tua trang trí phối đỏ và xanh.",
+      "hoaTietVaKieuDang": "Dáng chóp cao, vành rộng nhiều lớp, đường đan chạy theo thân nón; dây quai cong kết hợp tua trang trí đối xứng",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0379 385 594 (Nguyễn Thị Yến) Dịch vụ đi kèm Nhận đơn sỉ số lượng lớn, đặt lẻ từ 1 sản phẩm, dịch vụ thiết kế theo mẫu, hoàn thiện linh hoạt theo yêu cầu. Giá Liên hệ cơ sở để nhận báo giá theo mẫu mã, kích thước, độ cầu kỳ và số lượng đặt hàng. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_NLC_NDVN",
@@ -2394,7 +2493,28 @@ export const products =
     "chatLieuVaMauSac": "Tông vàng rơm tự nhiên, dây quai màu nâu xanh trầm.",
     "hoaTietVaKieuDang": "Chóp cao, vành cong vểnh hai bên, bề mặt đan theo các đường tỏa từ đỉnh; dây quai buông mềm với tua nhỏ ở hai phía.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/Nón lá Hải Yến/sanpham3.png",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Vân Nguyệt/223faf46-81b2-4384-82d8-55696f48775e 1.png",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Vân Nguyệt/223faf46-81b2-4384-82d8-55696f48775e 2.png",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Vân Nguyệt/223faf46-81b2-4384-82d8-55696f48775e 3.png",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Vân Nguyệt/223faf46-81b2-4384-82d8-55696f48775e 4.png",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Vân Nguyệt/223faf46-81b2-4384-82d8-55696f48775e 7.png",
+      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Vân Nguyệt/Gemini_Generated_Image_c3nyz0c3nyz0c3ny.png"
+    ],
+    "sourcePdfPage": 112,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Khung nón và vật liệu đan truyền thống; dây quai và tua trang trí",
+      "kyThuat": "Tạo hình chóp cao, định dáng vành cong, hoàn thiện các đường đan và lắp dây quai trang trí.",
+      "xuatXu": "Làng nón Chuông, xã Phương Trung, Hà Nội",
+      "itemDescription": "Đầu Vân Nguyệt gây ấn tượng với phần chóp cao, vành nón uốn cong mềm mại và dây quai màu trầm. Sản phẩm phù hợp với phục dựng trang phục hoặc các bộ ảnh lấy cảm hứng từ văn hóa truyền thống.",
+      "dacDiemTitle": "Vành cong cách điệu, tạo dấu ấn riêng cho dáng nón",
+      "dacDiemDescription": "Sản phẩm nổi bật với phần vành uốn cong ở hai bên, tạo cảm giác chuyển động mềm mại cho tổng thể. Các đường đan tỏa đều từ chóp xuống vành giúp làm rõ cấu trúc thủ công, trong khi dây quai màu trầm giữ cho thiết kế hài hòa và trang nhã.",
+      "chatLieuVaMauSac": "Tông vàng rơm tự nhiên, dây quai màu nâu xanh trầm.",
+      "hoaTietVaKieuDang": "Chóp cao, vành cong vểnh hai bên, bề mặt đan theo các đường tỏa từ đỉnh; dây quai với tua nhỏ ở hai phía.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0379 385 594 (Nguyễn Thị Yến) Dịch vụ đi kèm Nhận đơn sỉ số lượng lớn, đặt lẻ từ 1 sản phẩm, dịch vụ thiết kế theo mẫu, hoàn thiện linh hoạt theo yêu cầu. Giá Liên hệ cơ sở để nhận báo giá theo mẫu mã, kích thước, độ cầu kỳ và số lượng đặt hàng. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_NLC_NVDBL",
@@ -2409,7 +2529,27 @@ export const products =
     "chatLieuVaMauSac": "Nền trắng ngà pha xanh nhạt, kết hợp các sắc đỏ, vàng, xanh lá và nâu.",
     "hoaTietVaKieuDang": "Tranh vẽ người trong trang phục truyền thống, bố trí theo vòng cung trên mặt nón tròn.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/sanpham1.png",
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Vũ Điệu Bản Làng/3f07650a-6a2d-4e3a-ba1e-41cd84c733db.jpg",
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Vũ Điệu Bản Làng/45904e48-80a9-419e-9653-5b6cbefb9e00.jpg",
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Vũ Điệu Bản Làng/4f3c9afd-f427-43c4-86c9-1c211217db39.jpg",
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Vũ Điệu Bản Làng/8961075e-9ee7-4ac1-bf6a-928ffaf71d62 1.png",
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Vũ Điệu Bản Làng/8961075e-9ee7-4ac1-bf6a-928ffaf71d62 2.png"
+    ],
+    "sourcePdfPage": 113,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Nón lá thủ công, màu trang trí chuyên dụng",
+      "kyThuat": "Tạo hình nón truyền thống kết hợp vẽ tranh trang trí trên bề mặt",
+      "xuatXu": "Làng nón Chuông, xã Phương Trung, Hà Nội",
+      "itemDescription": "Vũ Điệu Bản Làng tái hiện hình ảnh con người trong trang phục truyền thống qua những nét vẽ trên nền nón lá. Sự kết hợp này tạo nên sản phẩm mang đậm dấu ấn văn hóa, phù hợp để trưng bày, làm quà lưu niệm.",
+      "dacDiemTitle": "Lưu nhịp điệu quê hương trên dáng nón Việt",
+      "dacDiemDescription": "Sản phẩm nổi bật với những hình người trong trang phục truyền thống được sắp xếp quanh mặt nón. Các mảng màu đỏ, vàng, xanh tạo cảm giác chuyển động, gợi không khí vui tươi của những hoạt động văn hóa cộng đồng.",
+      "chatLieuVaMauSac": "Nền trắng ngà pha xanh nhạt, kết hợp các sắc đỏ, vàng, xanh lá và nâu.",
+      "hoaTietVaKieuDang": "Tranh vẽ người trong trang phục truyền thống, bố trí theo vòng cung trên mặt nón tròn.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0912258774 (Tạ Thu Hương) Dịch vụ đi kèm Tiếp nhận nhu cầu đặt hàng, lựa chọn mẫu mã theo mục đích sử dụng và trao đổi yêu cầu riêng với HTX. Giá Theo thông tin báo chí, giá sản phẩm từng được ghi nhận trong khoảng 30.000–200.000 đồng/chiếc, tùy loại nón và yêu cầu. Nên liên hệ để cập nhật báo giá hiện hành. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_NLC_NDATG",
@@ -2424,7 +2564,27 @@ export const products =
     "chatLieuVaMauSac": "Nền trắng ngà, họa tiết đen xám và điểm nhấn đỏ.",
     "hoaTietVaKieuDang": "Tranh thiên nhiên đơn sắc kết hợp điểm màu ở trung tâm trên dáng nón truyền thống.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/sanpham2.png",
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Dấu Ấn Thời Gian/869832750_122268499616273480_7276361879873561227_n 1.png",
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Dấu Ấn Thời Gian/c10b666a-c9a3-4467-b04e-166c31e160a4 1.png",
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Dấu Ấn Thời Gian/c10b666a-c9a3-4467-b04e-166c31e160a4 2.png",
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Dấu Ấn Thời Gian/c10b666a-c9a3-4467-b04e-166c31e160a4 3.png",
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Dấu Ấn Thời Gian/c10b666a-c9a3-4467-b04e-166c31e160a4 4.png"
+    ],
+    "sourcePdfPage": 114,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Nón lá thủ công, màu trang trí",
+      "kyThuat": "Tạo hình nón truyền thống kết hợp vẽ tranh đơn sắc và tạo điểm nhấn màu trên bề mặt.",
+      "xuatXu": "Làng nón Chuông, xã Phương Trung, Hà Nội",
+      "itemDescription": "Nón Dấu Ấn Thời Gian mang vẻ đẹp trầm lắng với tranh trang trí đơn sắc trên nền nón sáng màu. Hình ảnh thiên nhiên, bằng những đường nét hội họa cổ điển, kết hợp điểm nhấn đỏ ở trung tâm tạo nên sự tương phản tinh tế.",
+      "dacDiemTitle": "Nét xưa còn mãi, dấu ấn còn lưu",
+      "dacDiemDescription": "Nền nón sáng màu làm nổi bật những đường nét đen xám mô tả cây cối và cảnh vật. Điểm nhấn đỏ ở trung tâm tạo sự cân bằng thị giác, giúp sản phẩm vừa giữ được nét mộc mạc vừa mang dấu ấn nghệ thuật riêng.",
+      "chatLieuVaMauSac": "Nền trắng ngà, họa tiết đen xám và điểm nhấn đỏ.",
+      "hoaTietVaKieuDang": "Tranh thiên nhiên đơn sắc kết hợp điểm màu ở trung tâm trên dáng nón truyền thống.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0912258774 (Tạ Thu Hương) Dịch vụ đi kèm Nhận đơn sỉ số lượng lớn, đặt lẻ từ 1 sản phẩm, dịch vụ thiết kế theo mẫu, hoàn thiện linh hoạt theo yêu cầu. Giá Liên hệ HTX để nhận báo giá theo mẫu mã, chất liệu và số lượng đặt hàng. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_NLC_NKV",
@@ -2439,7 +2599,27 @@ export const products =
     "chatLieuVaMauSac": "Nền vàng rơm, viền hồng, họa tiết đen kết hợp các điểm nhấn đỏ cam.",
     "hoaTietVaKieuDang": "Hình chim công cách điệu với phần đuôi kéo dài, kết hợp các chi tiết trang trí nhỏ",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/sanpham3.png",
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Nón Kim Vũ/11.png",
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Nón Kim Vũ/12.png",
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Nón Kim Vũ/833863924_122264873588273480_2503797066406257761_n.jpg",
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Nón Kim Vũ/844007611_122265877766273480_413282655460255551_n.jpg",
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Nón Kim Vũ/847033055_122265877538273480_3183531042725667871_n.jpg"
+    ],
+    "sourcePdfPage": 115,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Nón lá thủ công, màu hoặc vật liệu trang trí",
+      "kyThuat": "Tạo hình nón truyền thống kết hợp trang trí hình chim công; kỹ thuật vẽ, thêu, đính họa tiết",
+      "xuatXu": "Làng nón Chuông, xã Phương Trung, Hà Nội",
+      "itemDescription": "Nón Kim Vũ gây ấn tượng với họa tiết chim công vẽ nét đen trên nền vàng rơm, rất phù hợp để trưng bày, làm quà tặng thủ công hoặc tô điểm không gian nghệ thuật truyền thống.",
+      "dacDiemTitle": "Vũ điệu sắc vàng, kiêu hãnh nét chim công",
+      "dacDiemDescription": "Hình chim công được đặt ở vị trí trung tâm, tạo điểm nhấn rõ ràng trên bề mặt nón. Những đường nét kéo dài ở phần đuôi kết hợp cùng các chi tiết màu sắc giúp sản phẩm có bố cục cân đối và vẻ ngoài giàu tính trang trí.",
+      "chatLieuVaMauSac": "Nền vàng rơm, viền hồng, họa tiết đen kết hợp các điểm nhấn đỏ cam.",
+      "hoaTietVaKieuDang": "Hình chim công cách điệu với phần đuôi kéo dài, kết hợp các chi tiết trang trí nhỏ.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0912258774 (Tạ Thu Hương) Dịch vụ đi kèm Nhận đơn sỉ số lượng lớn, đặt lẻ từ 1 sản phẩm, dịch vụ thiết kế theo mẫu, hoàn thiện linh hoạt theo yêu cầu. Giá Liên hệ HTX để nhận báo giá theo mẫu mã, chất liệu và số lượng đặt hàng. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_NLC_NLHTC",
@@ -2454,7 +2634,27 @@ export const products =
     "chatLieuVaMauSac": "Nền trắng ngà, hoa sen hồng, lá xanh và các chi tiết trang trí nhiều màu.",
     "hoaTietVaKieuDang": "Hoa sen nở kết hợp lá sen và các chi tiết hoa nhỏ, bố trí theo độ cong của mặt nón để tạo cảm giác tự nhiên.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/sanpham4.png",
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Liên Hoa Thanh Cảnh/111.png",
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Liên Hoa Thanh Cảnh/112.png",
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Liên Hoa Thanh Cảnh/868358897_122268499604273480_6985130325265403347_n 1.png",
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Liên Hoa Thanh Cảnh/871150678_122268499682273480_5076789892579742228_n 1.png",
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Liên Hoa Thanh Cảnh/871316160_122268499664273480_170722527425795122_n 1.png"
+    ],
+    "sourcePdfPage": 116,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Nón lá thủ công, màu trang trí",
+      "kyThuat": "Tạo hình nón truyền thống kết hợp vẽ hoặc trang trí họa tiết hoa sen trên bề mặt",
+      "xuatXu": "Làng nón Chuông, xã Phương Trung, Hà Nội",
+      "itemDescription": "Liên Hoa Thanh Cảnh nổi bật với hình ảnh hoa sen hồng trên nền nón sáng màu. Những chiếc lá xanh cùng các chi tiết hoa được thể hiện bằng màu sắc tươi sáng, tạo nên tổng thể gần gũi và giàu tính nghệ thuật.",
+      "dacDiemTitle": "Hương sen thanh khiết, lưu giữ nét đẹp Việt",
+      "dacDiemDescription": "Hình ảnh hoa sen được thể hiện nổi bật ở phần trung tâm và phía dưới mặt nón. Các mảng lá xanh cùng họa tiết phụ tạo nên bố cục hài hòa, làm nổi bật sắc hồng của cánh sen trên nền sáng.",
+      "chatLieuVaMauSac": "Nền trắng ngà, hoa sen hồng, lá xanh và các chi tiết trang trí nhiều màu.",
+      "hoaTietVaKieuDang": "Hoa sen nở kết hợp lá sen và các chi tiết hoa nhỏ, bố trí theo độ cong của mặt nón để tạo cảm giác tự nhiên.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0912258774 (Tạ Thu Hương) Dịch vụ đi kèm Nhận đơn sỉ số lượng lớn, đặt lẻ từ 1 sản phẩm, dịch vụ thiết kế theo mẫu, hoàn thiện linh hoạt theo yêu cầu. Giá Liên hệ HTX để nhận báo giá theo mẫu mã, chất liệu và số lượng đặt hàng. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_NLC_NXD",
@@ -2469,7 +2669,27 @@ export const products =
     "chatLieuVaMauSac": "Nền hồng phấn, họa tiết chim xanh, hoa hồng và cành cây nâu.",
     "hoaTietVaKieuDang": "Chim công cách điệu kết hợp hoa nở và cành cây, tạo bố cục thiên nhiên mềm mại trên mặt nón tròn.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/sanpham5.png",
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Nón Xuân Điệp/863683350_122267895350273480_7973370084803348637_n.jpg",
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Nón Xuân Điệp/869664342_122268499346273480_8180360518738157444_n.jpg",
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Nón Xuân Điệp/869729753_122268499322273480_5694301797513064183_n.jpg",
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Nón Xuân Điệp/image 48.png",
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Nón Xuân Điệp/image 49.png"
+    ],
+    "sourcePdfPage": 117,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Nón lá thủ công, màu hoặc vật liệu trang trí",
+      "kyThuat": "Tạo hình nón truyền thống kết hợp trang trí tranh hoa lá và hình chim",
+      "xuatXu": "Làng nón Chuông, xã Phương Trung, Hà Nội",
+      "itemDescription": "Nón Xuân Điệp mang sắc hồng phấn tươi trẻ, nổi bật với họa tiết chim công và hoa lá rực rỡ, rất phù hợp cho bộ sưu tập nghệ thuật, quà tặng văn hóa và hoạt động quảng bá thủ công.",
+      "dacDiemTitle": "Sắc xuân trên nón, nét duyên giữa đời",
+      "dacDiemDescription": "Nền hồng tạo cảm giác nhẹ nhàng, làm nổi bật hình ảnh chim công xanh cùng những cành hoa nhỏ. Các chi tiết được bố trí trải đều trên bề mặt nón, tạo nên một bức tranh sinh động mà vẫn giữ được sự hài hòa trong màu sắc.",
+      "chatLieuVaMauSac": "Nền hồng phấn, họa tiết chim xanh, hoa hồng và cành cây nâu.",
+      "hoaTietVaKieuDang": "Chim công cách điệu kết hợp hoa nở và cành cây, tạo bố cục thiên nhiên mềm mại trên mặt nón tròn.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0912258774 (Tạ Thu Hương) Dịch vụ đi kèm Nhận đơn sỉ số lượng lớn, đặt lẻ từ 1 sản phẩm, dịch vụ thiết kế theo mẫu, hoàn thiện linh hoạt theo yêu cầu. Giá Liên hệ HTX để nhận báo giá theo mẫu mã, chất liệu và số lượng đặt hàng. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_NLC_NDSTL",
@@ -2484,7 +2704,27 @@ export const products =
     "chatLieuVaMauSac": "Nền đỏ, kết hợp hoa sen vàng, cây xanh và các chi tiết kiến trúc màu trắng ngà.",
     "hoaTietVaKieuDang": "Tranh phong cảnh gợi nhắc kiến trúc Hà Nội, kết hợp hoa sen và cây xanh trên mặt nón.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/sanpham6.png",
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Dấu Son Thăng Long/125.png",
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Dấu Son Thăng Long/820196092_122263346810273480_5895736972436216052_n.jpg",
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Dấu Son Thăng Long/821123779_122263346750273480_1402837331595121011_n.jpg",
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Dấu Son Thăng Long/image 50.png",
+      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Dấu Son Thăng Long/image 51.png"
+    ],
+    "sourcePdfPage": 118,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Nón lá thủ công, màu trang trí",
+      "kyThuat": "Tạo hình nón truyền thống kết hợp vẽ tranh phong cảnh và trang trí họa tiết trên bề mặt",
+      "xuatXu": "Làng nón Chuông, xã Phương Trung, Hà Nội",
+      "itemDescription": "Nón Dấu Son Thăng Long nổi bật với nền đỏ rực rỡ, họa tiết hoa sen vàng cùng cảnh quan kiến trúc Hà Nội, là món quà lưu niệm văn hóa hoặc vật phẩm trưng bày mang đậm dấu ấn Việt Nam.",
+      "dacDiemTitle": "Sắc đỏ nổi bật, khắc họa vẻ đẹp đất kinh kỳ",
+      "dacDiemDescription": "Nền đỏ tạo điểm nhấn mạnh mẽ, làm nổi bật hình ảnh hoa sen vàng, cây xanh và công trình kiến trúc ở trung tâm. Bố cục tranh được tổ chức theo hình tròn, tận dụng đường cong của mặt nón để tạo nên một sản phẩm lưu niệm mang tính nhận diện địa phương.",
+      "chatLieuVaMauSac": "Nền đỏ, kết hợp hoa sen vàng, cây xanh và các chi tiết kiến trúc màu trắng ngà.",
+      "hoaTietVaKieuDang": "Tranh phong cảnh gợi nhắc kiến trúc Hà Nội, kết hợp hoa sen và cây xanh trên mặt nón.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0912258774 (Tạ Thu Hương) Dịch vụ đi kèm Nhận đơn sỉ số lượng lớn, đặt lẻ từ 1 sản phẩm, dịch vụ thiết kế theo mẫu, hoàn thiện linh hoạt theo yêu cầu. Giá Liên hệ HTX để nhận báo giá theo mẫu mã, chất liệu và số lượng đặt hàng. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_NLC_NHS",
@@ -2499,7 +2739,28 @@ export const products =
     "chatLieuVaMauSac": "Nền trắng ngà, kết hợp chi tiết trang trí màu hồng phấn và đỏ hồng.",
     "hoaTietVaKieuDang": "Hoa lá cách điệu kết hợp biểu tượng chữ Hỷ ở trung tâm, tạo điểm nhấn nổi bật trên dáng nón tròn truyền thống.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/Hoa Nón Làng Chuông/69.png",
+      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hỷ Sắc/anhchatlieu.jpg",
+      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hỷ Sắc/anhchitiet1.png",
+      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hỷ Sắc/anhchitiet2.png",
+      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hỷ Sắc/anhchitiet3.jpg",
+      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hỷ Sắc/anhchitiet4.jpg",
+      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hỷ Sắc/hoatiet.png"
+    ],
+    "sourcePdfPage": 101,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Chất liệu lá và vật liệu trang trí",
+      "kyThuat": "Tạo hình nón truyền thống, kết hợp trang trí họa tiết và đính kết chi tiết trên bề mặt",
+      "xuatXu": "Làng nón Chuông, xã Phương Trung, Hà Nội",
+      "itemDescription": "Nón Hỷ Sắc nổi bật với nền trắng trang nhã, điểm xuyết họa tiết trang trí màu hồng và biểu tượng chữ Hỷ ở trung tâm. Sản phẩm thích hợp làm quà tặng, trưng bày hoặc dùng trong lễ cưới truyền thống.",
+      "dacDiemTitle": "Gửi treo nét đẹp, vun đắp duyên lành",
+      "dacDiemDescription": "Sản phẩm gây ấn tượng với nền nón sáng màu và các chi tiết trang trí được bố trí cân đối. Biểu tượng chữ Hỷ kết hợp cùng họa tiết mềm mại tạo nên vẻ đẹp trang trọng, gợi không khí vui tươi và ý nghĩa chúc phúc.",
+      "chatLieuVaMauSac": "Nền trắng ngà, kết hợp chi tiết trang trí màu hồng phấn và đỏ hồng.",
+      "hoaTietVaKieuDang": "Hoa lá cách điệu kết hợp biểu tượng chữ Hỷ ở trung tâm, tạo điểm nhấn nổi bật trên dáng nón tròn truyền thống.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0978 661 743 (Lê Thị Phương) Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế riêng và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Giá Liên hệ xưởng để nhận báo giá theo chất liệu, mẫu mã và số lượng đặt hàng."
+    }
   },
   {
     "id": "SP_NLC_NHQ",
@@ -2514,7 +2775,28 @@ export const products =
     "chatLieuVaMauSac": "Nón trắng ngà chuyển vàng nhạt ở chóp, kết hợp tranh vẽ nhiều màu sắc.",
     "hoaTietVaKieuDang": "Tranh phong cảnh, con người và thiên nhiên được bố trí theo đường cong mặt nón, tạo bố cục hài hòa.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/Hoa Nón Làng Chuông/70.png",
+      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hồn Quê/anhchitiet1.png",
+      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hồn Quê/anhchitiet2.png",
+      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hồn Quê/anhchitiet3.png",
+      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hồn Quê/anhchitiet4.png",
+      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hồn Quê/chatlieu.png",
+      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hồn Quê/hoatiet.png"
+    ],
+    "sourcePdfPage": 102,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Chất liệu lá và màu vẽ Acrylic",
+      "kyThuat": "Tạo hình nón truyền thống kết hợp vẽ tranh trang trí trên bề mặt nón",
+      "xuatXu": "Làng nón Chuông, xã Phương Trung, Hà Nội",
+      "itemDescription": "Nón Hồn Quê kết hợp dáng nón lá truyền thống với những bức tranh phong cảnh. Hình ảnh con người, thiên nhiên và sinh hoạt làng quê tạo nên nét riêng, tạo thành một tác phẩm thủ công mang giá trị trang trí và lưu niệm.",
+      "dacDiemTitle": "Kể chuyện quê hương qua từng nét vẽ",
+      "dacDiemDescription": "Bề mặt nón được tận dụng như một không gian hội họa thu nhỏ, nơi những hình ảnh phong cảnh và sinh hoạt được thể hiện bằng màu sắc hài hòa. Sản phẩm vừa giữ được dáng nón truyền thống, vừa mang dấu ấn sáng tạo riêng.",
+      "chatLieuVaMauSac": "Nón trắng ngà chuyển vàng nhạt ở chóp, kết hợp tranh vẽ nhiều màu sắc.",
+      "hoaTietVaKieuDang": "Tranh phong cảnh, con người và thiên nhiên được bố trí theo đường cong mặt nón, tạo bố cục hài hòa.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0978 661 743 (Lê Thị Phương) Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế riêng và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Giá Liên hệ xưởng để nhận báo giá theo chất liệu, mẫu mã và số lượng đặt hàng."
+    }
   },
   {
     "id": "SP_NLC_SN",
@@ -2529,7 +2811,26 @@ export const products =
     "chatLieuVaMauSac": "Nền xanh lam nhạt, kết hợp hoa văn đỏ hồng và lá xanh.",
     "hoaTietVaKieuDang": "Họa tiết hoa sen với cánh hoa nhiều lớp, kết hợp lá và nụ sen, tạo cảm giác sinh động trên bề mặt nón tròn.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/Hoa Nón Làng Chuông/71.png",
+      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Sen Ngọc/4e978dca-1cc5-4fa5-a9d5-0fe65bbe6da1 1.png",
+      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Sen Ngọc/4e978dca-1cc5-4fa5-a9d5-0fe65bbe6da1 3.png",
+      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Sen Ngọc/977b0bfd-19a0-46fb-b9dd-227d5c83ab5a 1.png",
+      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Sen Ngọc/977b0bfd-19a0-46fb-b9dd-227d5c83ab5a 2.png"
+    ],
+    "sourcePdfPage": 103,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Chất liệu lá và vật liệu trang trí",
+      "kyThuat": "Tạo hình nón truyền thống kết hợp trang trí hoa văn; kỹ thuật thêu, vẽ đính nổi",
+      "xuatXu": "Làng nón Chuông, xã Phương Trung, Hà Nội",
+      "itemDescription": "Nón Sen Ngọc nổi bật với nền xanh lam dịu mắt và họa tiết hoa sen màu đỏ hồng. Sự kết hợp giữa hình dáng và hoa văn mang đến vẻ đẹp mềm mại, phù hợp để làm quà tặng, vật phẩm trưng bày hoặc phụ kiện.",
+      "dacDiemTitle": "Sắc hoa rực rỡ, điểm tô nét duyên Việt",
+      "dacDiemDescription": "Sản phẩm tạo điểm nhấn bằng sự tương phản giữa sắc xanh dịu và những đóa hoa đỏ hồng. Cách sắp xếp họa tiết theo độ cong của nón giúp tổng thể cân đối, làm nổi bật vẻ đẹp trang trí mà vẫn giữ được hình dáng truyền thống.",
+      "chatLieuVaMauSac": "Nền xanh lam nhạt, kết hợp hoa văn đỏ hồng và lá xanh.",
+      "hoaTietVaKieuDang": "Họa tiết hoa sen với cánh hoa nhiều lớp, kết hợp lá và nụ sen, tạo cảm giác sinh động trên bề mặt nón tròn.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0978 661 743 (Lê Thị Phương) Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế riêng và báo giá theo nhu cầu. Giá Liên hệ xưởng để nhận báo giá theo chất liệu, mẫu mã và số lượng đặt hàng. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_NLC_NDL",
@@ -2544,7 +2845,27 @@ export const products =
     "chatLieuVaMauSac": "Nền hồng phấn pha hồng sen, kết hợp hoa sen hồng, lá xanh và cánh bướm nhiều màu.",
     "hoaTietVaKieuDang": "Hoa sen, lá sen và cánh bướm được phối hợp hài hòa trên mặt nón, tạo nét trang trí sinh động, giàu tính nghệ thuật.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/Hoa Nón Làng Chuông/72.png",
+      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Điệp Liên/10ba38b7-4b67-4365-a277-c08b3ff6102f.jpg",
+      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Điệp Liên/2b67ab78-dd05-443f-b2e4-85e6a4586ab0 1.png",
+      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Điệp Liên/37bffdba-39a7-4b9b-a23c-c317f07da152.jpg",
+      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Điệp Liên/976f6655-3a84-4ab7-815e-d0ac29cdeb75.jpg",
+      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Điệp Liên/Gemini_Generated_Image_mo6x50mo6x50mo6x.png"
+    ],
+    "sourcePdfPage": 104,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Chất liệu lá và vật liệu trang trí",
+      "kyThuat": "Tạo hình nón truyền thống kết hợp trang trí hoa văn; kỹ thuật tạo họa tiết",
+      "xuatXu": "Làng nón Chuông, xã Phương Trung, Hà Nội",
+      "itemDescription": "Nón Điệp Liên mang sắc hồng nổi bật, kết hợp họa tiết hoa sen, lá sen và cánh bướm tạo nên tổng thể sinh động. Sản phẩm phù hợp với nhu cầu quà tặng, chụp ảnh, trưng bày hoặc sử dụng trong các hoạt động văn hóa.",
+      "dacDiemTitle": "Mảnh mai vững vàng trời mây",
+      "dacDiemDescription": "",
+      "chatLieuVaMauSac": "Nền hồng phấn pha hồng sen, kết hợp hoa sen hồng, lá xanh và cánh bướm nhiều màu.",
+      "hoaTietVaKieuDang": "Hoa sen, lá sen và cánh bướm phối hợp hài hòa trên mặt nón, tạo nét trang trí sinh động, giàu tính nghệ thuật.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0978 661 743 (Lê Thị Phương) Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế riêng và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_NLC_NHD",
@@ -2559,7 +2880,27 @@ export const products =
     "chatLieuVaMauSac": "Nền vàng rơm tự nhiên, kết hợp hoa trắng, vàng, lá xanh và cánh bướm đỏ hồng.",
     "hoaTietVaKieuDang": "Hoa nhỏ, lá xanh và cánh bướm được sắp xếp thành cụm trên mặt nón, tạo bố cục tự nhiên, hài hòa.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/Hoa Nón Làng Chuông/74.png",
+      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hoa Điệp/2186605b-3cb8-4386-b63c-619afce5e655.jpg",
+      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hoa Điệp/5290d451-b884-4408-a2ba-a9b4647348a7.jpg",
+      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hoa Điệp/777559dd-25d3-4193-8819-f52517540fda.jpg",
+      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hoa Điệp/7b620438-d2a9-4daf-b550-c7d0469c8328 1.png",
+      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hoa Điệp/7b620438-d2a9-4daf-b550-c7d0469c8328 2.png"
+    ],
+    "sourcePdfPage": 105,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Chất liệu lá và vật liệu trang trí",
+      "kyThuat": "Tạo hình nón truyền thống kết hợp trang trí hoa văn; phương pháp vẽ, thêu đính hoa",
+      "xuatXu": "Làng nón Chuông, xã Phương Trung, Hà Nội",
+      "itemDescription": "Nón Hoa Điệp giữ nét mộc mạc truyền thống với màu vàng rơm tự nhiên, điểm xuyết hoa nhỏ và cánh bướm ở trung tâm. Sản phẩm tươi sáng, thích hợp trưng bày, trang trí không gian hoặc làm quà tặng thủ công.",
+      "dacDiemTitle": "Vẻ đẹp mộc mạc điểm tô bằng sắc hoa tươi sáng",
+      "dacDiemDescription": "Sự kết hợp giữa nền nón màu tự nhiên và các chi tiết hoa lá tạo nên tổng thể gần gũi, nhẹ nhàng. Những cụm hoa được bố trí quanh bề mặt nón, tạo cảm giác phong phú mà không làm mất đi vẻ giản dị vốn có.",
+      "chatLieuVaMauSac": "Nền vàng rơm tự nhiên, kết hợp hoa trắng, vàng, lá xanh và cánh bướm đỏ hồng.",
+      "hoaTietVaKieuDang": "Hoa nhỏ, lá xanh và cánh bướm được sắp xếp thành cụm trên mặt nón, tạo bố cục tự nhiên, hài hòa.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0978 661 743 (Lê Thị Phương) Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế riêng và báo giá theo nhu cầu. Giá Liên hệ xưởng để nhận báo giá theo chất liệu, mẫu mã và số lượng đặt hàng. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_NLC_NXH",
@@ -2574,7 +2915,26 @@ export const products =
     "chatLieuVaMauSac": "Nền tím nhạt, bề mặt có hoa văn cùng tông màu và hiệu ứng ánh sáng nhẹ.",
     "hoaTietVaKieuDang": "Hoa văn nhỏ được trang trí trên bề mặt nón, kết hợp các đường đồng tâm theo cấu trúc của dáng nón truyền thống.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/Hoa Nón Làng Chuông/73.png",
+      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Xứ Huế/90e9fd28-de33-46fa-8cb2-279b7202e53d.jpg",
+      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Xứ Huế/sg-11134201-825zp-mjvjxn77g3cy1b.webp",
+      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Xứ Huế/sg-11134201-8260a-mjvjxo5f3o5j60.webp",
+      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Xứ Huế/sg-11134201-8261t-mjvjxp220ydc7f.webp"
+    ],
+    "sourcePdfPage": 106,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Nón trang trí phủ vải lụa",
+      "kyThuat": "Tạo hình nón truyền thống kết hợp phủ hoặc trang trí bề mặt bằng lụa",
+      "xuatXu": "Làng nón Chuông, xã Phương Trung, Hà Nội",
+      "itemDescription": "Nón Xứ Huế nổi bật với gam tím nhạt và bề mặt được phủ hoa văn tinh tế. Các đường nét trang trí tạo hiệu ứng thị giác nhẹ nhàng, mang đến diện mạo thanh lịch cho chiếc nón truyền thống.",
+      "dacDiemTitle": "Mềm mại sắc lụa, duyên dáng nón Việt",
+      "dacDiemDescription": "Sản phẩm có màu tím nhạt đồng đều, kết hợp những đường hoa văn nhỏ tạo nên bề mặt giàu chi tiết. Sự tiết chế về màu sắc giúp chiếc nón giữ được vẻ trang nhã, phù hợp với các không gian trưng bày và bộ sưu tập thủ công.",
+      "chatLieuVaMauSac": "Nền tím nhạt, bề mặt có hoa văn cùng tông màu và hiệu ứng ánh sáng nhẹ.",
+      "hoaTietVaKieuDang": "Hoa văn nhỏ được trang trí trên bề mặt nón, kết hợp các đường đồng tâm theo cấu trúc của dáng nón truyền thống.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0978 661 743 (Lê Thị Phương) Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế riêng và báo giá theo nhu cầu. Giá Liên hệ xưởng để nhận báo giá theo chất liệu, mẫu mã và số lượng đặt hàng. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_QCS_QLTDG",
@@ -2589,7 +2949,22 @@ export const products =
     "chatLieuVaMauSac": "Nền trắng ngà phối họa tiết đỏ, vàng, xanh lục, đen cùng nan quạt vàng nhạt tự nhiên.",
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, nổi bật với hình tượng linh vật cách điệu theo phong cách tranh dân gian, đặt giữa hệ nan tỏa đều.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/Quạt Chàng Sơn/53.png"
+    ],
+    "sourcePdfPage": 94,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Nan quạt bằng tre hoặc gỗ, mặt quạt bằng giấy hoặc vải trang trí ế ế ậ",
+      "kyThuat": "Tạo hình quạt xếp, kết hợp trang trí hình tượng linh vật bằng phương pháp vẽ hoặc in màu trên mặt quạt",
+      "xuatXu": "Làng quạt Chàng Sơn, Thạch Thất, Hà Nội",
+      "itemDescription": "Quạt Linh Thú Dân Gian nổi bật với hình tượng linh vật được thể hiện bằng những gam màu rực rỡ trên nền quạt trắng sáng. Các đường nét tạo hình khỏe khoắn, gợi nhắc đến nghệ thuật trang trí dân gian Việt Nam.",
+      "dacDiemTitle": "Hình tượng dân gian, sắc màu đa nhiệm",
+      "dacDiemDescription": "Điểm nhấn của sản phẩm là hình tượng linh vật được thể hiện ở vị trí trung tâm, kết hợp những mảng màu nổi bật và đường nét cách điệu. Nền quạt sáng màu giúp họa tiết trở nên rõ nét, tạo nên tổng thể vừa sinh động vừa mang dấu ấn văn hóa truyền thống.",
+      "chatLieuVaMauSac": "Quạt xếp bán nguyệt, nổi bật với hình tượng linh vật cách điệu theo phong cách tranh dân gian, đặt giữa hệ nan tỏa đều.",
+      "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, nổi bật với hình tượng linh vật cách điệu theo phong cách tranh dân gian, đặt giữa hệ nan tỏa đều.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0912 916 992 Email https://quatchangson.vn/ Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_QCS_QPLDT",
@@ -2604,7 +2979,22 @@ export const products =
     "chatLieuVaMauSac": "Nền vàng kem, phối họa tiết đa sắc và nan quạt vàng nhạt tự nhiên.",
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, nổi bật với hình tượng đồng tử trong trang phục truyền thống, mang đậm nét mỹ thuật phương Đông.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/Quạt Chàng Sơn/54.png"
+    ],
+    "sourcePdfPage": 95,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Nan quạt bằng tre hoặc gỗ, mặt quạt bằng giấy hoặc vải trang trí ế ế ậ ằ",
+      "kyThuat": "Tạo hình quạt xếp, kết hợp trang trí hình nhân vật bằng phương pháp vẽ hoặc in màu trên nền quạt sáng.",
+      "xuatXu": "Làng quạt Chàng Sơn, Thạch Thất, Hà Nội",
+      "itemDescription": "Vẻ đẹp tươi sáng với hình ảnh nhân vật đồng tử trong trang phục truyền thống được thể hiện trên nền quạt màu vàng kem. Những chi tiết trang phục nhiều màu tạo nên tổng thể gần gũi.",
+      "dacDiemTitle": "Gửi trao phúc lành, vun đắp bình an",
+      "dacDiemDescription": "Hình ảnh nhân vật được đặt ở vị trí trung tâm, tạo điểm nhấn trên nền quạt sáng màu. Các chi tiết trang phục đỏ, xanh và vàng giúp hình vẽ thêm sinh động, trong khi phần nan quạt màu sáng giữ cho tổng thể sự hài hòa, trang nhã.",
+      "chatLieuVaMauSac": "Nền vàng kem, phối họa tiết đa sắc và nan quạt vàng nhạt tự nhiên.",
+      "hoaTietVaKieuDang": "",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0912 916 992 Email https://quatchangson.vn/ Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_QCS_QMDNX",
@@ -2619,7 +3009,22 @@ export const products =
     "chatLieuVaMauSac": "Nền vàng kem pha cam nhạt, phối họa tiết đa sắc và nan gỗ sáng tự nhiên.",
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, trang trí cành cây, hoa mai và chim, mang nét cổ điển, đậm sắc xuân.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/Quạt Chàng Sơn/55.png"
+    ],
+    "sourcePdfPage": 96,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Nan quạt bằng tre hoặc gỗ, mặt quạt bằng giấy hoặc vải trang trí ế ế",
+      "kyThuat": "Tạo hình quạt xếp, kết hợp trang trí tranh cành mai và chim bằng phương pháp vẽ hoặc in màu",
+      "xuatXu": "Làng quạt Chàng Sơn, Thạch Thất, Hà Nội",
+      "itemDescription": "Tái hiện khung cảnh thiên nhiên giàu sức sống với những cành mai, đàn chim và sắc trời. Chi tiết đỏ, đen và nâu được phối trên nền vàng nhạt, gợi không khí mùa xuân và vẻ đẹp thanh tao của hội họa truyền thống.",
+      "dacDiemTitle": "Chim vui trên cành, sắc xuân lan tỏa",
+      "dacDiemDescription": "Bức tranh trên mặt quạt gây ấn tượng với cành cây uốn lượn, những chú chim nổi bật và nền màu vàng ấm. Bố cục trải dài theo đường cong của quạt tạo cảm giác như một bức tranh phong cảnh thu nhỏ, vừa có chiều sâu vừa giữ được nét mềm mại.",
+      "chatLieuVaMauSac": "Nền vàng kem pha cam nhạt, phối họa tiết đa sắc và nan gỗ sáng tự nhiên.",
+      "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, trang trí cành cây, hoa mai và chim, mang nét cổ điển, đậm sắc xuân.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0912 916 992 Email https://quatchangson.vn/ Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế và báo giá theo nhu cầu."
+    }
   },
   {
     "id": "SP_QCS_QLHPS",
@@ -2634,7 +3039,22 @@ export const products =
     "chatLieuVaMauSac": "Nền xanh xám, phối hoa sen hồng, lá xanh và nan quạt trắng ngà.",
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, nổi bật với cụm hoa sen nở và lá sen trải rộng, tạo bố cục cân đối, mềm mại.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/Quạt Chàng Sơn/56.png"
+    ],
+    "sourcePdfPage": 97,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Nan quạt bằng tre hoặc gỗ, mặt quạt bằng giấy hoặc vải trang trí ế ế ằ",
+      "kyThuat": "Tạo hình quạt xếp, kết hợp trang trí hoa sen và lá sen bằng phương pháp vẽ hoặc in màu.",
+      "xuatXu": "Làng quạt Chàng Sơn, Thạch Thất, Hà Nội",
+      "itemDescription": "Nổi bật với những đóa sen hồng được thể hiện trên nền xanh xám dịu mắt. Sự kết hợp giữa sắc hồng mềm mại, lá sen xanh và những đường nét tự nhiên gợi vẻ đẹp thanh tao của loài hoa gắn bó với văn hóa Việt Nam",
+      "dacDiemTitle": "Sen hồng khoe sắc, thanh nhã sắc xanh",
+      "dacDiemDescription": "Những bông sen hồng được bố trí nổi bật trên nền xanh xám, tạo hiệu ứng tương phản nhẹ nhàng. Các cánh hoa mềm mại kết hợp cùng lá sen tạo cảm giác tự nhiên, giúp sản phẩm vừa có tính trang trí vừa gợi nét đẹp gần gũi của văn hóa Việt.",
+      "chatLieuVaMauSac": "Nền xanh xám, phối hoa sen hồng, lá xanh và nan quạt trắng ngà.",
+      "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, nổi bật với cụm hoa sen nở và lá sen trải rộng, tạo bố cục cân đối, mềm mại.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0912 916 992 Email https://quatchangson.vn/ Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_QCS_QSTLB",
@@ -2649,7 +3069,22 @@ export const products =
     "chatLieuVaMauSac": "Nền xanh lá phối sắc xanh, vàng, hồng, đỏ, kết hợp nan gỗ sáng tự nhiên.",
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, nổi bật với tranh sơn thủy kết hợp núi non, cây cối, mặt nước và kiến trúc truyền thống.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/Quạt Chàng Sơn/57.png"
+    ],
+    "sourcePdfPage": 98,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Nan quạt bằng tre hoặc gỗ, mặt quạt bằng giấy hoặc vải trang trí ế ế",
+      "kyThuat": "Tạo hình quạt xếp, kết hợp trang trí tranh phong cảnh bằng phương pháp vẽ hoặc in màu trên nền quạt",
+      "xuatXu": "Làng quạt Chàng Sơn, Thạch Thất, Hà Nội",
+      "itemDescription": "Mang đến hình ảnh phong cảnh thiên nhiên với núi non, cây cối, mặt nước và những công trình ẩn hiện giữa sắc xanh tươi sáng. Bố cục nhiều lớp tạo cảm giác có chiều sâu, gợi một miền sơn thủy yên bình và giàu sức sống.",
+      "dacDiemTitle": "Non xanh nước biếc, mở ra miền cảnh sắc an nhiên",
+      "dacDiemDescription": "Bức tranh phong cảnh được thể hiện bằng nhiều sắc xanh từ sáng đến đậm, kết hợp những chi tiết cây cối, núi đồi và công trình kiến trúc nhỏ. Cách phối màu tạo cảm giác tươi mát, trong khi bố cục nhiều lớp mang đến chiều sâu cho mặt quạt.",
+      "chatLieuVaMauSac": "Nền xanh lá phối sắc xanh, vàng, hồng, đỏ, kết hợp nan gỗ sáng tự nhiên.",
+      "hoaTietVaKieuDang": "",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0912 916 992 Email https://quatchangson.vn/ Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế và báo giá theo nhu cầu."
+    }
   },
   {
     "id": "SP_QCS_QHLTM",
@@ -2664,7 +3099,22 @@ export const products =
     "chatLieuVaMauSac": "Nền đen, trắng, xám điểm hoa sen hồng, kết hợp nan quạt nâu đậm.",
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, kết hợp hoa sen hồng và tranh thủy mặc, tạo hiệu ứng tương phản sáng tối tinh tế.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/Quạt Chàng Sơn/58.png"
+    ],
+    "sourcePdfPage": 99,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Nan quạt bằng tre hoặc gỗ, mặt quạt bằng giấy hoặc vải trang trí",
+      "kyThuat": "Tạo hình quạt xếp, kết hợp trang trí hoa sen và họa tiết thủy mặc bằng phương pháp vẽ hoặc in màu.",
+      "xuatXu": "Làng quạt Chàng Sơn, Thạch Thất, Hà Nội",
+      "itemDescription": "Gây ấn tượng với nền tối, nổi bật cùng những đóa sen hồng và các mảng họa tiết đen trắng mang phong cách thủy mặc. Sự tương phản giữa sắc hoa tươi sáng và nền trầm tạo nên vẻ đẹp sâu lắng, có chiều sâu.",
+      "dacDiemTitle": "Sen nở giữa mực, tĩnh tại phương Đông",
+      "dacDiemDescription": "Những đóa sen hồng được đặt trên nền họa tiết đen trắng, tạo điểm nhấn thị giác rõ rệt. Các mảng sáng tối đan xen với sắc hoa giúp chiếc quạt mang vẻ đẹp vừa trầm lắng vừa sinh động, phù hợp với không gian nghệ thuật và trưng bày.",
+      "chatLieuVaMauSac": "Nền đen, trắng, xám điểm hoa sen hồng, kết hợp nan quạt nâu đậm.",
+      "hoaTietVaKieuDang": "",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0912 916 992 Email https://quatchangson.vn/ Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_QCS_QKH",
@@ -2679,7 +3129,22 @@ export const products =
     "chatLieuVaMauSac": "Nền giấy trắng ngà, họa tiết đen xám điểm hồng đỏ, kết hợp nan quạt màu đen tương phản.",
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, trang trí thư pháp, tranh phong cảnh và hoa nhỏ, tạo nét hài hòa, tinh tế.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/Quạt Từ Tâm/sanpham1.png"
+    ],
+    "sourcePdfPage": 82,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Giấy trang trí, nan quạt và cán quạt ế ề ố ế",
+      "kyThuat": "Tạo hình quạt xếp truyền thống, kết hợp trang trí thư pháp và họa tiết hội họa trên bề mặt giấy.",
+      "xuatXu": "Làng quạt Chàng Sơn",
+      "itemDescription": "Quạt Khang Hi mang vẻ đẹp thanh nhã với nền giấy sáng màu, kết hợp thư pháp và họa tiết hội họa theo phong cách phương Đông. Những nét mực đen mềm mại cùng điểm nhấn hồng đỏ tạo nên bố cục hài hòa.",
+      "dacDiemTitle": "Nét mực phương Đông, lưu dấu vẻ đẹp cổ truyền",
+      "dacDiemDescription": "Sản phẩm nổi bật với nền trắng kết hợp các nét mực đen và điểm nhấn màu hồng nhẹ. Bố cục trang trí không đối xứng tạo cảm giác tự nhiên, giúp chiếc quạt vừa có giá trị sử dụng vừa mang tính nghệ thuật.",
+      "chatLieuVaMauSac": "Nền giấy trắng ngà, họa tiết đen xám điểm hồng đỏ, kết hợp nan quạt màu đen tương phản.",
+      "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, trang trí thư pháp, tranh phong cảnh và hoa nhỏ, tạo nét hài hòa, tinh tế.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0979 038 158 - 0962 733 501 Email quatgiaytutam@gmail.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế riêng và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_QCS_QNG",
@@ -2694,7 +3159,22 @@ export const products =
     "chatLieuVaMauSac": "Nan gỗ sáng tự nhiên, mặt quạt xanh lam đậm kết hợp họa tiết đỏ, vàng, xanh lục nổi bật.",
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, trang trí hình rồng cách điệu cùng hoa văn thực vật, tạo điểm nhấn nổi bật trên nền xanh đậm.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/Quạt Từ Tâm/sanpham2.png"
+    ],
+    "sourcePdfPage": 83,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Nan quạt màu gỗ sáng tự nhiên, mặt quạt bằng giấy hoặc vải trang trí.",
+      "kyThuat": "Tạo hình quạt xếp với hệ nan liên kết, kết hợp trang trí hình tượng rồng và hoa văn thực vật trên mặt quạt.",
+      "xuatXu": "Làng quạt Chàng Sơn",
+      "itemDescription": "Quạt Nan Gỗ ấn tượng với phần mặt quạt màu xanh lam đậm, nổi bật cùng họa tiết rồng nhiều màu và những nhành hoa ánh vàng. Sự kết hợp giữa nền màu trầm và các chi tiết trang trí rực rỡ tạo nên vẻ đẹp sang trọng.",
+      "dacDiemTitle": "Nét mộc tự nhiên, điểm sắc nghệ thuật",
+      "dacDiemDescription": "Chiếc quạt kết hợp phần nan màu sáng với mặt quạt xanh đậm, tạo nên sự tương phản rõ nét. Hình tượng rồng nhiều màu được đặt ở vị trí trung tâm, kết hợp cùng các nhành hoa lá màu vàng giúp tổng thể thêm sinh động và giàu tính trang trí.",
+      "chatLieuVaMauSac": "Nan gỗ sáng tự nhiên, mặt quạt xanh lam đậm kết hợp họa tiết đỏ, vàng, xanh lục nổi bật.",
+      "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, trang trí hình rồng cách điệu cùng hoa văn thực vật, tạo điểm nhấn nổi bật trên nền xanh đậm.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0979 038 158 - 0962 733 501 Email quatgiaytutam@gmail.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế riêng và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_QCS_QTT",
@@ -2709,7 +3189,22 @@ export const products =
     "chatLieuVaMauSac": "Nền trắng ngà, hoa màu hồng phấn và hồng đậm, cành cây nâu đen; nan quạt màu đen.",
     "hoaTietVaKieuDang": "Hình cành đào nở hoa được bố trí theo đường cong của mặt quạt bán nguyệt. Có tua đỏ làm điểm nhấn trang trí.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/Quạt Từ Tâm/sanpham3.png"
+    ],
+    "sourcePdfPage": 84,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Giấy trang trí, nan quạt và cán quạt.",
+      "kyThuat": "Tạo hình quạt xếp truyền thống, kết hợp vẽ hoặc in tranh hoa đào trên bề mặt.",
+      "xuatXu": "Làng quạt Chàng Sơn",
+      "itemDescription": "Quạt Tranh Tết mang không khí mùa xuân lên mặt quạt qua hình ảnh những cành hoa đào hồng nở rộ trên nền giấy sáng. Các nhánh cây sẫm màu uốn lượn mềm mại, kết hợp với sắc hoa tươi tắn tạo.",
+      "dacDiemTitle": "Mai đào khoe sắc, gửi trao lời chúc xuân.",
+      "dacDiemDescription": "Những cành hoa đào được thể hiện bằng đường nét uyển chuyển, trải rộng trên mặt quạt. Sắc hồng nổi bật trên nền trắng ngà, tạo cảm giác tươi sáng và mang ý nghĩa về sự khởi đầu tốt đẹp trong năm mới.",
+      "chatLieuVaMauSac": "Nền trắng ngà, hoa màu hồng phấn và hồng đậm, cành cây nâu đen; nan quạt màu đen.",
+      "hoaTietVaKieuDang": "Hình cành đào nở hoa được bố trí theo đường cong của mặt quạt bán nguyệt. Có tua đỏ làm điểm nhấn trang trí.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0979 038 158 - 0962 733 501 Email quatgiaytutam@gmail.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế riêng và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_QCS_QHVCC",
@@ -2724,10 +3219,25 @@ export const products =
     "chatLieuVaMauSac": "Nền đỏ, họa tiết vàng và phần nan quạt màu ngà sáng",
     "hoaTietVaKieuDang": "Hoa văn truyền thống kết hợp các mô-típ đối xứng và đường nét uốn lượn trên mặt quạt bán nguyệt.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/Quạt Từ Tâm/sanpham4.png"
+    ],
+    "sourcePdfPage": 85,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Giấy hoặc vải trang trí, nan quạt và cán quạt.",
+      "kyThuat": "Tạo hình quạt xếp, kết hợp trang trí hoa văn trên nền đỏ; phương pháp vẽ, in hoặc đính họa tiết",
+      "xuatXu": "Làng quạt Chàng Sơn",
+      "itemDescription": "Quạt Hoa Văn Cao Cấp nổi bật với nền đỏ rực rỡ cùng hệ họa tiết trang trí mang phong cách truyền thống. Những chi tiết ánh vàng được bố trí hài hòa trên mặt quạt, tạo hiệu ứng nổi bật và cảm giác sang trọng.",
+      "dacDiemTitle": "Sắc đỏ nổi bật, điểm vàng sang trọng.",
+      "dacDiemDescription": "Nền đỏ tạo ấn tượng thị giác mạnh, trong khi các chi tiết vàng giúp bề mặt quạt thêm nổi bật. Hệ hoa văn được sắp xếp theo hình dáng mặt quạt, tạo sự cân đối và làm tăng vẻ trang trọng cho sản phẩm.",
+      "chatLieuVaMauSac": "Nền đỏ, họa tiết vàng và phần nan quạt màu ngà sáng.",
+      "hoaTietVaKieuDang": "Hoa văn truyền thống kết hợp các mô- típ đối xứng và đường nét uốn lượn trên mặt quạt bán nguyệt.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0979 038 158 - 0962 733 501 Email quatgiaytutam@gmail.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế riêng và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu"
+    }
   },
   {
-    "id": "SP_QCS_QTT",
+    "id": "SP_QCS_QTRUYENTHONG",
     "coSoSanXuatId": "QCS_QTT",
     "name": "Quạt Truyền Thống",
     "itemDescription": "Mang vẻ đẹp thanh nhã với hình ảnh hoa sen trắng nổi bật trên nền xanh trầm. Các cánh hoa mềm mại kết hợp cùng lá sen xanh tạo nên bố cục hài hòa, gợi nhắc đến vẻ đẹp giản dị và thanh cao của văn hóa Việt Nam. Sản phẩm phù hợp làm quà tặng, vật phẩm trang trí hoặc sử dụng trong các hoạt động văn hóa nghệ thuật.",
@@ -2739,7 +3249,22 @@ export const products =
     "chatLieuVaMauSac": "Nền xanh rêu pha xám, hoa sen trắng, nhụy vàng và lá xanh; nan quạt màu đen.",
     "hoaTietVaKieuDang": "Cụm hoa sen nở kết hợp nụ sen và lá sen có phần tua đỏ nhỏ ở chốt quạt tạo điểm nhấn.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/Quạt Từ Tâm/sanpham5.png"
+    ],
+    "sourcePdfPage": 86,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Giấy hoặc vải trang trí, nan quạt và cán quạt",
+      "kyThuat": "Tạo hình quạt xếp truyền thống, kết hợp trang trí họa tiết hoa sen và lá sen trên mặt quạt",
+      "xuatXu": "Làng quạt Chàng Sơn",
+      "itemDescription": "Quạt Truyền Thống mang vẻ đẹp thanh nhã với hình ảnh hoa sen trắng nổi bật trên nền xanh trầm. Các cánh hoa mềm mại kết hợp cùng lá sen xanh tạo nên bố cục hài hòa, gợi nhắc đến vẻ đẹp giản dị và thanh cao.",
+      "dacDiemTitle": "Hoa sen thanh khiết, sắc xanh dịu dàng.",
+      "dacDiemDescription": "Những bông sen trắng được bố trí thành cụm trên nền xanh, kết hợp cùng lá sen và nhụy vàng tạo điểm nhấn. Cách phối màu nhẹ nhàng giúp chiếc quạt giữ được vẻ đẹp trang nhã, phù hợp với nhiều không gian trưng bày.",
+      "chatLieuVaMauSac": "Nền xanh rêu pha xám, hoa sen trắng, nhụy vàng và lá xanh; nan quạt màu đen.",
+      "hoaTietVaKieuDang": "",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0979 038 158 - 0962 733 501 Email quatgiaytutam@gmail.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế riêng và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_QCS_QTPT",
@@ -2754,7 +3279,22 @@ export const products =
     "chatLieuVaMauSac": "Nền trắng ngà, họa tiết phối xanh, hồng, tím, đỏ và vàng; nan quạt màu sáng tự nhiên.",
     "hoaTietVaKieuDang": "Hình ảnh chim công kết hợp các cụm hoa lá nhiều màu, bố trí uốn lượn trên mặt quạt xếp hình bán nguyệt.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/Quạt Từ Tâm/sanpham6.png"
+    ],
+    "sourcePdfPage": 87,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Giấy hoặc vải trang trí, nan quạt và cán quạt",
+      "kyThuat": "Tạo hình quạt xếp, kết hợp vẽ hoặc in tranh hoa lá và chim công trên mặt quạt",
+      "xuatXu": "Làng quạt Chàng Sơn",
+      "itemDescription": "Quạt Tranh Phong Thủy nổi bật với bức tranh nhiều màu sắc, kết hợp hình ảnh chim công và các loài hoa trên nền sáng. Sự phối hợp giữa sắc xanh, hồng, tím, đỏ và vàng tạo nên tổng thể sinh động, giàu tính nghệ thuật.",
+      "dacDiemTitle": "Muôn hoa hội tụ, gửi gắm phúc lành.",
+      "dacDiemDescription": "Bề mặt quạt được trang trí bằng những cụm hoa nhiều màu, kết hợp hình ảnh chim công làm điểm nhấn. Bố cục trải rộng theo hình bán nguyệt giúp các chi tiết hòa quyện, tạo nên sản phẩm có tính trang trí cao và vẻ đẹp nổi bật.",
+      "chatLieuVaMauSac": "Nền trắng ngà, họa tiết phối xanh, hồng, tím, đỏ và vàng; nan quạt màu sáng tự nhiên.",
+      "hoaTietVaKieuDang": "",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0979 038 158 - 0962 733 501 Email quatgiaytutam@gmail.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế riêng và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_QCS_QSVCP",
@@ -2769,7 +3309,22 @@ export const products =
     "chatLieuVaMauSac": "Nền đen phối họa tiết đỏ, vàng, xanh lá nổi bật, kết hợp nan gỗ sáng tự nhiên.",
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, trang trí hình nhân vật trong trang phục truyền thống xen kẽ hoa văn cách điệu, bố trí theo từng ô.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/Quạt Phương/sanpham1.png"
+    ],
+    "sourcePdfPage": 88,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Nan quạt màu gỗ tự nhiên, mặt quạt bằng giấy hoặc vải trang trí ế ế",
+      "kyThuat": "Tạo hình quạt xếp thủ công, kết hợp trang trí hình nhân vật và họa tiết hoa trên mặt quạt",
+      "xuatXu": "Làng quạt Chàng Sơn, Thạch Thất, Hà Nội",
+      "itemDescription": "Quạt Sắc Việt Cổ Phong gây ấn tượng với nền đen huyền bí, điểm xuyết hình ảnh những nhân vật trong trang phục truyền thống cùng các họa tiết hoa rực rỡ.",
+      "dacDiemTitle": "Sắc màu kể chuyện văn hóa",
+      "dacDiemDescription": "Nền đen tạo chiều sâu cho tổng thể, làm nổi bật hình ảnh nhân vật trong trang phục truyền thống và các họa tiết hoa nhiều màu. Bố cục được chia thành những mảng trang trí riêng biệt, tạo cảm giác cân đối và giúp từng chi tiết trở nên nổi bật.",
+      "chatLieuVaMauSac": "Nền đen phối họa tiết đỏ, vàng, xanh lá nổi bật, kết hợp nan gỗ sáng tự nhiên.",
+      "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, trang trí hình nhân vật trong trang phục truyền thống xen kẽ hoa văn cách điệu, bố trí theo từng ô.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0984 209 485 – 0986 295 663 Email quatphuong@gmail.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế riêng và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_QCS_QTVHL",
@@ -2784,7 +3339,22 @@ export const products =
     "chatLieuVaMauSac": "Nền trắng ngà, họa tiết xanh lam, xanh lục và hồng nhạt; nan quạt màu gỗ sáng tự nhiên.",
     "hoaTietVaKieuDang": "Chim công cách điệu kết hợp hoa lá, được sắp xếp theo đường cong của mặt quạt bán nguyệt.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/Quạt Phương/sanpham2.png"
+    ],
+    "sourcePdfPage": 89,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Nan quạt màu gỗ tự nhiên, mặt quạt bằng giấy hoặc vải trang trí ế ế",
+      "kyThuat": "Tạo hình quạt xếp, kết hợp trang trí hình chim công và hoa lá trên mặt quạt.",
+      "xuatXu": "Làng quạt Chàng Sơn, Thạch Thất, Hà Nội",
+      "itemDescription": "Quạt Thanh Vũ Hoa Lam nổi bật với hình ảnh chim công xanh trên nền sáng, kết hợp cùng các họa tiết hoa lá mang sắc xanh và hồng nhẹ nhàng. Tổng thể tạo cảm giác thanh thoát, hài hòa giữa vẻ đẹp thiên nhiên.",
+      "dacDiemTitle": "Cánh quạt đón gió, sắc lam lưu tình",
+      "dacDiemDescription": "Hình ảnh chim công xanh là điểm nhấn chính trên nền quạt sáng màu. Những cành hoa và lá được bố trí xung quanh, kết hợp các sắc xanh lam, hồng và xanh lục để tạo nên bố cục sinh động nhưng không quá rực rỡ.",
+      "chatLieuVaMauSac": "Nền trắng ngà, họa tiết xanh lam, xanh lục và hồng nhạt; nan quạt màu gỗ sáng tự nhiên.",
+      "hoaTietVaKieuDang": "",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0984 209 485 – 0986 295 663 Email quatphuong@gmail.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế riêng và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_QCS_QKHCT",
@@ -2799,7 +3369,22 @@ export const products =
     "chatLieuVaMauSac": "Nền trắng ngà điểm họa tiết vàng nhạt, kết hợp nan gỗ tự nhiên thanh lịch.",
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, trang trí hoa văn thực vật và đường nét uốn lượn mềm mại.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/Quạt Phương/sanpham3.png"
+    ],
+    "sourcePdfPage": 90,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Nan quạt màu gỗ tự nhiên, mặt quạt bằng giấy hoặc vải trang trí ế ế ế",
+      "kyThuat": "Tạo hình quạt xếp, kết hợp trang trí họa tiết màu vàng trên nền sáng",
+      "xuatXu": "Làng quạt Chàng Sơn, Thạch Thất, Hà Nội",
+      "itemDescription": "Quạt Kim Hoa Cát Tường mang vẻ đẹp trang nhã với nền giấy trắng ngà, điểm xuyết các họa tiết màu vàng ánh kim. Những đường nét trang trí mềm mại kết hợp cùng sắc màu nhẹ nhàng tạo nên tổng thể tinh tế.",
+      "dacDiemTitle": "Sắc vàng thanh nhã, gửi gắm điều may",
+      "dacDiemDescription": "Sắc vàng trên nền trắng ngà tạo hiệu ứng tương phản nhẹ, mang đến vẻ đẹp thanh lịch và không quá cầu kỳ. Các họa tiết được bố trí dọc theo mặt quạt, giúp tổng thể có chiều sâu mà vẫn giữ được sự hài hòa.",
+      "chatLieuVaMauSac": "Nền trắng ngà điểm họa tiết vàng nhạt, kết hợp nan gỗ tự nhiên thanh lịch.",
+      "hoaTietVaKieuDang": "",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0984 209 485 – 0986 295 663 Email quatphuong@gmail.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế riêng và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_QCS_QLDH",
@@ -2814,7 +3399,22 @@ export const products =
     "chatLieuVaMauSac": "Nền xanh dương đậm, họa tiết trắng xanh, kết hợp nan quạt màu đen.",
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, trang trí bản vẽ kỹ thuật với đường nét hình học và hình minh họa kiến trúc độc đáo",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/Quạt Phương/sanpham4.png"
+    ],
+    "sourcePdfPage": 91,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Nan quạt màu đen, mặt quạt bằng giấy hoặc vải có họa tiết trang trí ế ế ặ ể ệ",
+      "kyThuat": "Tạo hình quạt xếp, kết hợp in hoặc thể hiện các đường nét đồ họa trên mặt quạt",
+      "xuatXu": "Làng quạt Chàng Sơn, Thạch Thất, Hà Nội",
+      "itemDescription": "Quạt Lam Đồ Họa nổi bật với nền xanh dương đậm cùng hệ thống đường nét kỹ thuật màu sáng, gợi hình ảnh bản vẽ kiến trúc và các sơ đồ thiết kế. Phong cách thể hiện hiện đại tạo nên sự khác biệt.",
+      "dacDiemTitle": "Nét xanh sáng tạo, giao hòa truyền thống và hiện đại",
+      "dacDiemDescription": "Nền xanh đậm làm nổi bật hệ thống đường nét và ký hiệu màu trắng xanh. Cách bố trí họa tiết theo từng nan tạo cảm giác có trật tự, gợi liên tưởng đến bản vẽ kỹ thuật và ngôn ngữ thiết kế hiện đại.",
+      "chatLieuVaMauSac": "Nền xanh dương đậm, họa tiết trắng xanh, kết hợp nan quạt màu đen.",
+      "hoaTietVaKieuDang": "",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0984 209 485 – 0986 295 663 Email quatphuong@gmail.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế riêng và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_QCS_QVXL",
@@ -2829,7 +3429,22 @@ export const products =
     "chatLieuVaMauSac": "Nền xanh lam pha xanh denim, họa tiết trắng ngà; nan quạt màu gỗ sáng tự nhiên.",
     "hoaTietVaKieuDang": "Họa tiết xoắn tròn cách điệu kết hợp các đường nét nhỏ, được lặp lại theo chiều xòe của quạt bán nguyệt.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/Quạt Phương/sanpham5.png"
+    ],
+    "sourcePdfPage": 92,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Nan quạt màu gỗ tự nhiên, mặt quạt bằng giấy hoặc vải trang trí ế ế ế ắ ặ",
+      "kyThuat": "Tạo hình quạt xếp, kết hợp trang trí họa tiết xoắn tròn lặp lại trên nền xanh",
+      "xuatXu": "Làng quạt Chàng Sơn, Thạch Thất, Hà Nội",
+      "itemDescription": "Quạt Vân Xoắn Lam gây ấn tượng với nền xanh lam trầm, kết hợp những họa tiết xoắn tròn màu trắng được lặp lại đều đặn trên bề mặt. Thiết kế tối giản về màu sắc nhưng giàu tính nhịp điệu.",
+      "dacDiemTitle": "Nhịp xoắn hài hòa, tạo dấu ấn từ những đường nét giản dị",
+      "dacDiemDescription": "Các họa tiết xoắn tròn được sắp xếp liên tiếp trên nền xanh, tạo nhịp điệu thị giác rõ ràng. Sự tương phản giữa hai gam màu giúp hoa văn nổi bật mà không cần sử dụng quá nhiều chi tiết trang trí.",
+      "chatLieuVaMauSac": "Nền xanh lam pha xanh denim, họa tiết trắng ngà; nan quạt màu gỗ sáng tự nhiên.",
+      "hoaTietVaKieuDang": "",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0984 209 485 – 0986 295 663 Email quatphuong@gmail.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế riêng và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_QCS_QHXDG",
@@ -2844,7 +3459,22 @@ export const products =
     "chatLieuVaMauSac": "Nền đỏ cam rực rỡ, phối họa tiết đa sắc và nan gỗ sáng tự nhiên.",
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, tái hiện tranh sinh hoạt dân gian cùng hình ảnh nhân vật và hoa văn truyền thống.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/Quạt Phương/sanpham6.png"
+    ],
+    "sourcePdfPage": 93,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Nan quạt màu gỗ tự nhiên, mặt quạt bằng giấy hoặc vải trang trí ế ế",
+      "kyThuat": "Tạo hình quạt xếp, kết hợp trang trí tranh sinh hoạt dân gian trên bề mặt",
+      "xuatXu": "Làng quạt Chàng Sơn, Thạch Thất, Hà Nội",
+      "itemDescription": "Tái hiện không khí lễ hội truyền thống qua những hình ảnh nhân vật, hoạt động sinh hoạt và họa tiết trang trí nhiều màu sắc. Nền đỏ cam nổi bật kết hợp cùng các mảng màu xanh, vàng và trắng tạo nên tổng thể sống động.",
+      "dacDiemTitle": "Rộn ràng sắc hội, lưu giữ hồn quê Việt",
+      "dacDiemDescription": "Bề mặt quạt được trang trí bằng nhiều hình ảnh nhân vật và chi tiết gợi không khí sinh hoạt cộng đồng. Nền đỏ cam tạo điểm nhấn mạnh mẽ, trong khi các mảng màu phong phú giúp bức tranh thêm sinh động. Bố cục trải rộng theo hình bán nguyệt tạo cảm giác như một khung cảnh lễ hội thu nhỏ.",
+      "chatLieuVaMauSac": "Nền đỏ cam rực rỡ, phối họa tiết đa sắc và nan gỗ sáng tự nhiên.",
+      "hoaTietVaKieuDang": "",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0984 209 485 – 0986 295 663 Email quatphuong@gmail.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế riêng và báo giá theo nhu cầu."
+    }
   },
   {
     "id": "SP_MTD_TXMTDHD",
@@ -2859,7 +3489,22 @@ export const products =
     "chatLieuVaMauSac": "Thân túi đan đỏ hồng phối trắng kem, kết hợp quai nâu vàng tự nhiên.",
     "hoaTietVaKieuDang": "Túi dáng chữ nhật rộng, miệng mở, hai quai tròn và họa tiết zích zắc nổi bật.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS Mây tre việt quang/sanpham1.jpg"
+    ],
+    "sourcePdfPage": 51,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Mây, tre hoặc sợi đan thủ công kết hợp quai xách bằng mây",
+      "kyThuat": "Đan thủ công, tạo hình thân túi và hoàn thiện quai xách",
+      "xuatXu": "Làng nghề Phú Vinh",
+      "itemDescription": "Túi xách thủ công kết hợp phần thân đan họa tiết zích zắc đỏ hồng với quai xách tròn bằng mây, tạo điểm nhấn nổi bật cho phong cách thời trang mang cảm hứng tự nhiên.",
+      "dacDiemTitle": "Đan nét truyền thống, điểm sắc màu riêng",
+      "dacDiemDescription": "Sản phẩm kết hợp kỹ thuật đan thủ công với cách phối màu hiện đại, tạo nên chiếc túi vừa có tính ứng dụng vừa mang dấu ấn thủ công mỹ nghệ. Thiết kế phù hợp với những chuyến dạo phố, du lịch hoặc phối cùng trang phục phong cách tự nhiên.",
+      "chatLieuVaMauSac": "Thân túi đan đỏ hồng phối trắng kem, kết hợp quai nâu vàng tự nhiên.",
+      "hoaTietVaKieuDang": "Túi dáng chữ nhật rộng, miệng mở, hai quai tròn và họa tiết zích zắc nổi bật.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0912 916 992 Email nguyenphuongquang1984@gmail.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_MTD_GMTDM",
@@ -2874,7 +3519,22 @@ export const products =
     "chatLieuVaMauSac": "Tông nâu vàng tự nhiên, kết hợp đệm ngồi màu sáng, dễ phối hợp với nhiều không gian nội thất.",
     "hoaTietVaKieuDang": "Ghế tựa lưng chữ nhật đan đều, chân nghiêng và tay vịn thấp, mang thiết kế gọn nhẹ, gần gũi với thiên nhiên.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS Mây tre việt quang/sanpham2.png"
+    ],
+    "sourcePdfPage": 52,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Mây đan kết hợp khung gỗ",
+      "kyThuat": "Đan mây phần tựa ghế, gia công khung và lắp ráp hoàn thiện.",
+      "xuatXu": "Làng nghề Phú Vinh",
+      "itemDescription": "Ghế mây mang thiết kế tối giản với khung gỗ hoặc vật liệu tự nhiên kết hợp phần tựa đan thủ công, tạo cảm giác gần gũi và thư thái cho không gian sống.",
+      "dacDiemTitle": "Vẻ mộc tự nhiên, nâng niu từng phút giây",
+      "dacDiemDescription": "Chiếc ghế kết hợp kết cấu khung chắc chắn với bề mặt đan thoáng, mang lại vẻ đẹp giản dị mà vẫn có điểm nhấn thủ công. Sản phẩm phù hợp với không gian phòng khách, góc đọc sách, homestay hoặc khu nghỉ dưỡng theo phong cách tự nhiên.",
+      "chatLieuVaMauSac": "Tông nâu vàng tự nhiên, kết hợp đệm ngồi màu sáng, dễ phối hợp với nhiều không gian nội thất.",
+      "hoaTietVaKieuDang": "Ghế tựa lưng chữ nhật đan đều, chân nghiêng và tay vịn thấp, mang thiết kế gọn nhẹ, gần gũi với thiên nhiên.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0912 916 992 Email nguyenphuongquang1984@gmail.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_MTD_LLMTDT",
@@ -2889,7 +3549,22 @@ export const products =
     "chatLieuVaMauSac": "Tông nâu vàng tự nhiên, bề mặt đan nổi rõ, dễ kết hợp với đồ gốm và nội thất gỗ.",
     "hoaTietVaKieuDang": "Lót ly dáng tròn, đan theo vòng đồng tâm, viền gọn gàng, tạo tổng thể cân đối và mộc mạc.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS Mây tre việt quang/sanpham3.jpg"
+    ],
+    "sourcePdfPage": 53,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Mây hoặc sợi thực vật đan thủ công",
+      "kyThuat": "Đan xoắn hoặc đan vòng tròn, hoàn thiện viền sản phẩm",
+      "xuatXu": "Làng nghề Phú Vinh",
+      "itemDescription": "Lót ly mây tre đan có kiểu dáng tròn nhỏ gọn, bề mặt đan đều và màu sắc tự nhiên, giúp bảo vệ mặt bàn đồng thời tạo điểm nhấn mộc mạc cho góc thưởng trà.",
+      "dacDiemTitle": "Nét mộc dưới ly, điểm duyên trên bàn",
+      "dacDiemDescription": "Sản phẩm mang vẻ đẹp tự nhiên của vật liệu đan thủ công, phù hợp với thói quen thưởng trà và sử dụng đồ uống hằng ngày. Thiết kế đơn giản giúp lót ly dễ kết hợp với ấm trà gốm, cốc sứ và nhiều phong cách bày biện khác nhau.",
+      "chatLieuVaMauSac": "Tông nâu vàng tự nhiên, bề mặt đan nổi rõ, dễ kết hợp với đồ gốm và nội thất gỗ.",
+      "hoaTietVaKieuDang": "Lót ly dáng tròn, đan theo vòng đồng tâm, viền gọn gàng, tạo tổng thể cân đối và mộc mạc.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0912 916 992 Email nguyenphuongquang1984@gmail.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_MTD_DGSVMT",
@@ -2904,7 +3579,22 @@ export const products =
     "chatLieuVaMauSac": "Đĩa nền trắng họa tiết xanh lam, kết hợp viền đan nâu vàng tự nhiên.",
     "hoaTietVaKieuDang": "Đa dạng dáng tròn, bầu dục và cách điệu, trang trí hoa lá xanh trên nền sáng, tạo điểm nhấn mộc mạc, tinh tế.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS Mây tre việt quang/sanpham4.png"
+    ],
+    "sourcePdfPage": 54,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Gốm sứ kết hợp viền mây tre đan",
+      "kyThuat": "Tạo hình và trang trí gốm sứ, đan viền mây và hoàn thiện sản phẩm",
+      "xuatXu": "Làng nghề Phú Vinh",
+      "itemDescription": "Đĩa gốm sứ trang trí với nhiều kiểu dáng và họa tiết xanh lam, kết hợp viền mây đan tự nhiên, tạo nên sự giao thoa giữa nghệ thuật gốm và thủ công mỹ nghệ.",
+      "dacDiemTitle": "Nét gốm thanh nhã, viền đan tự nhiên",
+      "dacDiemDescription": "Sản phẩm kết hợp hai chất liệu thủ công với đặc trưng thẩm mỹ riêng: bề mặt gốm mang họa tiết trang trí tinh tế, trong khi phần viền đan tạo cảm giác gần gũi và mộc mạc. Sự kết hợp này giúp chiếc đĩa phù hợp cả với nhu cầu bày biện lẫn trang trí không gian.",
+      "chatLieuVaMauSac": "Đĩa nền trắng họa tiết xanh lam, kết hợp viền đan nâu vàng tự nhiên.",
+      "hoaTietVaKieuDang": "Đa dạng dáng tròn, bầu dục và cách điệu, trang trí hoa lá xanh trên nền sáng, tạo điểm nhấn mộc mạc, tinh tế.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0912 916 992 Email nguyenphuongquang1984@gmail.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_MTD_KMMD",
@@ -2919,7 +3609,22 @@ export const products =
     "chatLieuVaMauSac": "Tông nâu vàng sáng, nổi bật với kết cấu đan tự nhiên, dễ phối hợp cùng đồ gỗ và gốm sứ.",
     "hoaTietVaKieuDang": "Khay dáng thuôn dài, đáy phẳng, thành đan cao vừa phải và viền bo gọn, tạo vẻ mộc mạc, tinh tế.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS Mây tre việt quang/Khay mây đựng đồ.jpg"
+    ],
+    "sourcePdfPage": 55,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Mây hoặc vật liệu sợi thực vật đan thủ công ố ầ",
+      "kyThuat": "Đan tạo hình khay, gia cố phần thành và hoàn thiện viền",
+      "xuatXu": "Làng nghề Phú Vinh",
+      "itemDescription": "Khay mây đan thủ công có dáng thuôn dài, phần thành thấp và tông màu tự nhiên, phù hợp để sắp xếp đồ dùng cá nhân, vật dụng bàn ăn hoặc các món đồ nhỏ trong gia đình.",
+      "dacDiemTitle": "Gọn gàng trong sắp đặt, mộc mạc trong nét mây",
+      "dacDiemDescription": "Với thiết kế đơn giản và kích thước có thể bố trí linh hoạt, khay mây hỗ trợ sắp xếp các vật dụng nhỏ một cách ngăn nắp. Sản phẩm phù hợp với bàn ăn, kệ bếp, bàn trà hoặc không gian lưu trú theo phong cách tự nhiên.",
+      "chatLieuVaMauSac": "Tông nâu vàng sáng, nổi bật với kết cấu đan tự nhiên, dễ phối hợp cùng đồ gỗ và gốm sứ.",
+      "hoaTietVaKieuDang": "Khay dáng thuôn dài, đáy phẳng, thành đan cao vừa phải và viền bo gọn, tạo vẻ mộc mạc, tinh tế.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0912 916 992 Email nguyenphuongquang1984@gmail.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_MTD_HDGMTD",
@@ -2934,7 +3639,22 @@ export const products =
     "chatLieuVaMauSac": "Tông nâu vàng tự nhiên, bề mặt đan mộc mạc, dễ kết hợp với nội thất gỗ, vải và gốm.",
     "hoaTietVaKieuDang": "Hộp chữ nhật, thân đan đều, miệng mở tiện đặt hộp giấy, có thể kết hợp nắp hoặc khe rút giấy tùy thiết kế.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS Mây tre việt quang/mây tre phú vinh 6 (1).jpg"
+    ],
+    "sourcePdfPage": 56,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Mây, tre hoặc sợi thực vật đan thủ công ộ ố ệ ề",
+      "kyThuat": "Đan tạo hình hộp, gia cố khung và hoàn thiện viền",
+      "xuatXu": "Làng nghề Phú Vinh",
+      "itemDescription": "Hộp đựng giấy mây tre đan kết hợp công năng lưu trữ với vẻ đẹp thủ công tự nhiên, giúp không gian bàn làm việc, phòng khách hoặc phòng ngủ trở nên gọn gàng và hài hòa hơn.",
+      "dacDiemTitle": "Giữ không gian ngăn nắp, điểm tô vẻ đẹp tự nhiên",
+      "dacDiemDescription": "Sản phẩm hướng đến sự tiện dụng trong sinh hoạt hằng ngày, đồng thời tạo điểm nhấn trang trí nhờ bề mặt đan có kết cấu rõ nét. Thiết kế phù hợp với nhiều không gian, từ bàn trang điểm đến phòng khách, văn phòng và cơ sở lưu trú.",
+      "chatLieuVaMauSac": "Tông nâu vàng tự nhiên, bề mặt đan mộc mạc, dễ kết hợp với nội thất gỗ, vải và gốm.",
+      "hoaTietVaKieuDang": "Hộp chữ nhật, thân đan đều, miệng mở tiện đặt hộp giấy, có thể kết hợp nắp hoặc khe rút giấy tùy thiết kế.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0912 916 992 Email nguyenphuongquang1984@gmail.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_MTD_TXMDT",
@@ -2949,7 +3669,22 @@ export const products =
     "chatLieuVaMauSac": "Tông vàng nâu tự nhiên, kết hợp quai và dây đeo nâu trầm, tạo điểm nhấn hài hòa.",
     "hoaTietVaKieuDang": "Túi dáng tròn dẹt, đan theo vòng đồng tâm, có nắp đóng, khóa da và quai xách hai bên, tạo nét độc đáo.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS mây tre đan tuấn anh/mây tre tuấn anh 7 (1).jpg"
+    ],
+    "sourcePdfPage": 57,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Mây hoặc sợi thực vật đan thủ công",
+      "kyThuat": "Đan tạo hình thân túi, hoàn thiện quai và lắp ráp phụ kiện",
+      "xuatXu": "Làng nghề Phú Vinh",
+      "itemDescription": "Túi xách mây dáng tròn nổi bật với bề mặt đan đều, quai xách nhỏ gọn và dây đeo tiện dụng, phù hợp với phong cách thời trang mang hơi hướng tự nhiên, mộc mạc.",
+      "dacDiemTitle": "Dáng tròn duyên dáng, lưu giữ nét mộc",
+      "dacDiemDescription": "Sản phẩm kết hợp kỹ thuật đan thủ công với kiểu dáng nhỏ gọn, tạo nên phụ kiện vừa có tính ứng dụng vừa mang dấu ấn thủ công mỹ nghệ. Thiết kế phù hợp với những chuyến dạo phố, du lịch hoặc phối cùng trang phục theo phong cách tự nhiên.",
+      "chatLieuVaMauSac": "Tông vàng nâu tự nhiên, kết hợp quai và dây đeo nâu trầm, tạo điểm nhấn hài hòa.",
+      "hoaTietVaKieuDang": "Túi dáng tròn dẹt, đan theo vòng đồng tâm, có nắp đóng, khóa da và quai xách hai bên, tạo nét độc đáo.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0974 830 598 Email nguyenphuongquang1984@gmail.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_MTD_TXMTDTL",
@@ -2964,7 +3699,22 @@ export const products =
     "chatLieuVaMauSac": "Thân túi vàng nâu sáng, phối lót và phụ kiện nâu sẫm, tôn lên vẻ mộc mạc của chất liệu đan.",
     "hoaTietVaKieuDang": "Túi dáng hộp chữ nhật, quai xách phía trên, thân đan đều kết hợp khóa cài da, tạo vẻ gọn gàng, tiện dụng.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS mây tre đan tuấn anh/mây tre tuấn anh (1).jpg"
+    ],
+    "sourcePdfPage": 58,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Mây tre hoặc sợi thực vật đan thủ công kết hợp phụ kiện da",
+      "kyThuat": "Đan tạo hình thân túi, gia cố khung và hoàn thiện phụ kiện",
+      "xuatXu": "Làng nghề Phú Vinh",
+      "itemDescription": "Túi xách mây tre đan kết hợp phần thân đan thủ công với quai xách chắc chắn và các chi tiết trang trí, tạo nên thiết kế cân bằng giữa nét truyền thống và phong cách hiện đại.",
+      "dacDiemTitle": "Điểm chạm của phong cách hiện đại",
+      "dacDiemDescription": "Sản phẩm gây ấn tượng với phần thân đan màu tự nhiên, kết hợp quai xách phía trên và các chi tiết da màu nâu. Thiết kế có cấu trúc rõ ràng, phù hợp với nhu cầu sử dụng hằng ngày hoặc làm phụ kiện trong những dịp gặp gỡ, dạo phố.",
+      "chatLieuVaMauSac": "Thân túi vàng nâu sáng, phối lót và phụ kiện nâu sẫm, tôn lên vẻ mộc mạc của chất liệu đan.",
+      "hoaTietVaKieuDang": "Túi dáng hộp chữ nhật, quai xách phía trên, thân đan đều kết hợp khóa cài da, tạo vẻ gọn gàng, tiện dụng.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0974 830 598 Email nguyenphuongquang1984@gmail.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_MTD_TXMNG",
@@ -2979,7 +3729,22 @@ export const products =
     "chatLieuVaMauSac": "Tông vàng kem tự nhiên, phối dây đeo và chi tiết nâu sáng, tôn lên vẻ mộc mạc của chất liệu đan.",
     "hoaTietVaKieuDang": "Túi dáng chữ nhật, nắp gập chéo, điểm nhấn nơ đan và khóa tròn, kết hợp dây đeo dài tiện dụng.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS mây tre đan tuấn anh/may tre tuan anh 9 (1).jpg"
+    ],
+    "sourcePdfPage": 59,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Mây hoặc sợi thực vật đan thủ công kết hợp phụ kiện",
+      "kyThuat": "Đan mắt cáo, tạo hình thân và nắp túi, hoàn thiện dây đeo và khóa càI",
+      "xuatXu": "Làng nghề Phú Vinh",
+      "itemDescription": "Túi xách mây nắp gập có thiết kế hình hộp thanh lịch, nổi bật với bề mặt đan mắt cáo, chi tiết nơ trang trí và dây đeo dài, phù hợp với phong cách thời trang nhẹ nhàng.",
+      "dacDiemTitle": "Nắp gập thanh tao, tôn nét duyên riêng",
+      "dacDiemDescription": "Sản phẩm mang vẻ đẹp giản dị nhưng có điểm nhấn nhờ phần nắp gập và chi tiết trang trí phía trước. Sự kết hợp giữa màu sắc tự nhiên và kiểu dáng gọn gàng giúp túi dễ phối cùng nhiều phong cách trang phục.",
+      "chatLieuVaMauSac": "Tông vàng kem tự nhiên, phối dây đeo và chi tiết nâu sáng, tôn lên vẻ mộc mạc của chất liệu đan.",
+      "hoaTietVaKieuDang": "Túi dáng chữ nhật, nắp gập chéo, điểm nhấn nơ đan và khóa tròn, kết hợp dây đeo dài tiện dụng.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0974 830 598 Email nguyenphuongquang1984@gmail.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_MTD_TXMTDDT",
@@ -2994,7 +3759,22 @@ export const products =
     "chatLieuVaMauSac": "Gam nâu vàng tự nhiên phối dây đeo và phụ kiện nâu sẫm, làm nổi bật kết cấu đan thủ công.",
     "hoaTietVaKieuDang": "Túi dáng thuôn dài, hai đầu bo tròn như chiếc trống nằm ngang, kết hợp nắp gập, khóa cài phía trước và dây đeo dài tiện dụng.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS mây tre đan tuấn anh/mây tre tuan anh 10 (1).jpg"
+    ],
+    "sourcePdfPage": 60,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Mây hoặc sợi thực vật đan thủ công kết hợp phụ kiện",
+      "kyThuat": "Đan tạo hình thân túi, gia cố hai đầu và hoàn thiện quai, dây đeo",
+      "xuatXu": "Làng nghề Phú Vinh",
+      "itemDescription": "Túi xách mây tre đan dáng trống có hình dáng thuôn dài, bề mặt đan thủ công và dây đeo dài, tạo nên phụ kiện mang nét mộc mạc, phù hợp với các hoạt động thường ngày.",
+      "dacDiemTitle": "Đường đan tự nhiên, dáng túi phóng khoáng.",
+      "dacDiemDescription": "",
+      "chatLieuVaMauSac": "Gam nâu vàng tự nhiên phối dây đeo và phụ kiện nâu sẫm, làm nổi bật kết cấu đan thủ công.",
+      "hoaTietVaKieuDang": "Túi dáng thuôn dài, hai đầu bo tròn như chiếc trống nằm ngang, kết hợp nắp gập, khóa cài phía trước và dây đeo dài tiện dụng.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0974 830 598 Email nguyenphuongquang1984@gmail.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_MTD_VMTDHTHH",
@@ -3009,7 +3789,22 @@ export const products =
     "chatLieuVaMauSac": "Tông nâu vàng phối nâu sẫm, làm nổi bật kết cấu đan thủ công và vẻ mộc mạc của sản phẩm.",
     "hoaTietVaKieuDang": "Vali dáng hộp chữ nhật, nắp mở và quai xách phía trên. Họa tiết hình thoi kết hợp khóa cài giúp tổng thể cân đối, gọn gàng.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS mây tre đan tuấn anh/mây tre tuấn anh 5 (1).jpg"
+    ],
+    "sourcePdfPage": 61,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Mây tre hoặc sợi thực vật đan thủ công",
+      "kyThuat": "Đan tạo hình hộp, gia cố khung và hoàn thiện quai xách, khóa cài.",
+      "xuatXu": "Làng nghề Phú Vinh",
+      "itemDescription": "Vali mây tre đan có dáng hộp vuông vắn, phần thân được đan chắc chắn và trang trí họa tiết hình học, tạo nên sản phẩm vừa mang dấu ấn thủ công vừa có tính ứng dụng trong lưu trữ và trang trí.",
+      "dacDiemTitle": "Mộc mạc đường đan, thanh lịch dáng hình",
+      "dacDiemDescription": "Sản phẩm nổi bật với kết cấu hộp rõ ràng và các họa tiết hình học được tạo nên từ cách phối sợi đan. Thiết kế mang nét cổ điển, phù hợp để đựng vật dụng cá nhân, lưu trữ đồ dùng hoặc làm điểm nhấn trang trí trong không gian sống.",
+      "chatLieuVaMauSac": "Tông nâu vàng phối nâu sẫm, làm nổi bật kết cấu đan thủ công và vẻ mộc mạc của sản phẩm.",
+      "hoaTietVaKieuDang": "Vali dáng hộp chữ nhật, nắp mở và quai xách phía trên. Họa tiết hình thoi kết hợp khóa cài giúp tổng thể cân đối, gọn gàng.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0974 830 598 Email nguyenphuongquang1984@gmail.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_MTD_BGTTUT",
@@ -3024,277 +3819,589 @@ export const products =
     "chatLieuVaMauSac": "Tông vàng nâu tự nhiên làm nổi bật kết cấu sợi đan, tạo cảm giác mộc mạc, hài hòa với đồ gỗ và gốm.",
     "hoaTietVaKieuDang": "Giành có thân tròn, nắp hình chóp với các vòng đan đồng tâm, tạo tổng thể cân đối và đậm nét thủ công.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS mây tre đan tuấn anh/mây tre tuấn anh 6 (1).jpg"
+    ],
+    "sourcePdfPage": 62,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Mây, tre hoặc sợi thực vật đan thủ công",
+      "kyThuat": "Đan tạo hình thân giành và nắp, hoàn thiện các vòng đan trang trí",
+      "xuatXu": "Làng nghề Phú Vinh",
+      "itemDescription": "Bộ giành tích ủ trà được tạo hình từ các sợi đan tự nhiên, có nắp đậy hình chóp và kiểu dáng tròn đầy, góp phần giữ nét truyền thống trong không gian thưởng trà.",
+      "dacDiemTitle": "Giữ hơi trà ấm, lưu truyền nét Việt",
+      "dacDiemDescription": "Bộ giành tích ủ trà gợi nhắc đến nét sinh hoạt thưởng trà truyền thống. Kiểu dáng tròn đầy cùng kết cấu đan thủ công tạo nên vẻ mộc mạc, phù hợp với không gian thưởng trà gia đình, nhà hàng mang phong cách truyền thống hoặc khu nghỉ dưỡng văn hóa.",
+      "chatLieuVaMauSac": "Tông vàng nâu tự nhiên làm nổi bật kết cấu sợi đan, tạo cảm giác mộc mạc, hài hòa với đồ gỗ và gốm.",
+      "hoaTietVaKieuDang": "Giành có thân tròn, nắp hình chóp với các vòng đan đồng tâm, tạo tổng thể cân đối và đậm nét thủ công.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0974 830 598 Email nguyenphuongquang1984@gmail.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế và báo giá theo nhu cầu. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_GBT_01",
     "coSoSanXuatId": "GBT_HAC",
-    "name": "",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "name": "Ống heo súp lơ",
+    "itemDescription": "Ống heo súp lơ là sản phẩm trang trí kết hợp công năng tiết kiệm tiền với tạo hình ngộ nghĩnh phù hợp để đặt trên bàn học, bàn làm việc hoặc làm quà tặng cho những người yêu thích đồ vật dễ thương.",
+    "chatLieu": "Gốm sứ cao cấp",
+    "kyThuat": "Tạo hình gốm kết hợp hoàn thiện bề mặt và trang trí màu sắc.",
     "xuatXu": "Làng gốm Bát Tràng, Hà Nội.",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
+    "dacDiemTitle": "Nét tạo hình đáng yêu, điểm nhấn cho góc nhỏ",
+    "dacDiemDescription": "Lấy cảm hứng từ hình dáng cây súp lơ, sản phẩm gây ấn tượng với phần tán xanh mềm mại và thân trắng nhỏ nhắn. Sự kết hợp giữa tạo hình ngộ nghĩnh và biểu cảm tối giản mang đến vẻ gần gũi, biến chiếc ống heo quen thuộc thành món đồ vừa hữu ích, vừa có giá trị trang trí.",
+    "chatLieuVaMauSac": "Thân trắng ngà, tán xanh lá, bề mặt bóng mịn và sáng đẹp.",
+    "hoaTietVaKieuDang": "Tán súp lơ uốn lượn tự nhiên, thân thuôn tròn cùng đôi mắt đen nhỏ, tạo vẻ ngộ nghĩnh, đáng yêu.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS hoàng anh ceramics/Sanpham1.jpg",
+      "/download/images/CS hoàng anh ceramics/Chi tiết sản phẩm-ỐNG HEO SÚP LƠ/Ảnh màn hình 2026-10-29 lúc 13.58.38.png",
+      "/download/images/CS hoàng anh ceramics/Chi tiết sản phẩm-ỐNG HEO SÚP LƠ/Ảnh màn hình 2026-10-29 lúc 13.58.45.png",
+      "/download/images/CS hoàng anh ceramics/Chi tiết sản phẩm-ỐNG HEO SÚP LƠ/Ảnh màn hình 2026-10-29 lúc 13.58.57.png"
+    ],
+    "sourcePdfPage": 30,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Gốm sứ cao cấp",
+      "kyThuat": "Tạo hình gốm kết hợp hoàn thiện bề mặt và trang trí màu sắc.",
+      "xuatXu": "Làng gốm Bát Tràng, Hà Nội",
+      "itemDescription": "Ống heo súp lơ là sản phẩm trang trí kết hợp công năng tiết kiệm tiền với tạo hình ngộ nghĩnh phù hợp để đặt trên bàn học, bàn làm việc hoặc làm quà tặng cho những người yêu thích đồ vật dễ thương.",
+      "dacDiemTitle": "Nét tạo hình đáng yêu, điểm nhấn cho góc nhỏ",
+      "dacDiemDescription": "Lấy cảm hứng từ hình dáng cây súp lơ, sản phẩm gây ấn tượng với phần tán xanh mềm mại và thân trắng nhỏ nhắn. Sự kết hợp giữa tạo hình ngộ nghĩnh và biểu cảm tối giản mang đến vẻ gần gũi, biến chiếc ống heo quen thuộc thành món đồ vừa hữu ích, vừa có giá trị trang trí.",
+      "chatLieuVaMauSac": "Thân trắng ngà, tán xanh lá, bề mặt bóng mịn và sáng đẹp.",
+      "hoaTietVaKieuDang": "Tán súp lơ uốn lượn tự nhiên, thân thuôn tròn cùng đôi mắt đen nhỏ, tạo vẻ ngộ nghĩnh, đáng yêu.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline 0395 895 165 Dịch vụ đi kèm Tư vấn lựa chọn sản phẩm, cung cấp sỉ và lẻ, nhận in logo làm quà tặng doanh nghiệp. Các yêu cầu thiết kế riêng và điều kiện đặt hàng cần được xác nhận trực tiếp với cơ sở. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_GBT_02",
     "coSoSanXuatId": "GBT_HAC",
-    "name": "",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "name": "Ống heo Shiba",
+    "itemDescription": "Ống heo Shiba là sản phẩm trang trí kết hợp công năng tiết kiệm tiền với tạo hình chú chó Shiba tròn trịa, đáng yêu. Sản phẩm phù hợp để đặt trên bàn học, bàn làm việc, kệ trang trí hoặc làm quà tặng cho những người yêu thích thú cưng và đồ gốm tạo hình",
+    "chatLieu": "Gốm sứ cao cấp",
+    "kyThuat": "Tạo hình gốm kết hợp hoàn thiện bề mặt và trang trí màu sắc",
     "xuatXu": "Làng gốm Bát Tràng, Hà Nội.",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
+    "dacDiemTitle": "Dáng vẻ ngộ nghĩnh, điểm nhấn cho không gian nhỏ",
+    "dacDiemDescription": "Lấy cảm hứng từ hình ảnh chú chó Shiba, sản phẩm gây ấn tượng với thân hình mũm mĩm, dáng ngồi nhỏ nhắn và biểu cảm thân thiện. Sự kết hợp giữa tạo hình sinh động và công năng sử dụng giúp chiếc ống heo trở thành món đồ vừa hữu ích, vừa mang lại nét vui tươi cho không gian",
+    "chatLieuVaMauSac": "Gốm sứ cao cấp với gam trắng kem và nâu vàng, bề mặt sáng bóng.",
+    "hoaTietVaKieuDang": "Ống heo có đầu lớn, thân tròn, đường nét mềm mại và khuôn mặt tối giản, tạo vẻ đáng yêu, gần gũi.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS hoàng anh ceramics/Sanpham2.jpg",
+      "/download/images/CS hoàng anh ceramics/Chi tiết - ống heo shiba/Ảnh màn hình 2026-10-29 lúc 14.01.41.png",
+      "/download/images/CS hoàng anh ceramics/Chi tiết - ống heo shiba/Ảnh màn hình 2026-10-29 lúc 14.01.53.png",
+      "/download/images/CS hoàng anh ceramics/Chi tiết - ống heo shiba/Ảnh màn hình 2026-10-29 lúc 14.02.02.png",
+      "/download/images/CS hoàng anh ceramics/Chi tiết - ống heo shiba/Ảnh màn hình 2026-10-29 lúc 14.02.14.png"
+    ],
+    "sourcePdfPage": 31,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Gốm sứ cao cấp",
+      "kyThuat": "Tạo hình gốm kết hợp hoàn thiện bề mặt và trang trí màu sắc",
+      "xuatXu": "Làng gốm Bát Tràng, Hà Nội",
+      "itemDescription": "Ống heo Shiba là sản phẩm trang trí kết hợp công năng tiết kiệm tiền với tạo hình chú chó Shiba tròn trịa, đáng yêu. Sản phẩm phù hợp để đặt trên bàn học, bàn làm việc, kệ trang trí hoặc làm quà tặng cho những người yêu thích thú cưng và đồ gốm tạo hình",
+      "dacDiemTitle": "Dáng vẻ ngộ nghĩnh, điểm nhấn cho không gian nhỏ",
+      "dacDiemDescription": "Lấy cảm hứng từ hình ảnh chú chó Shiba, sản phẩm gây ấn tượng với thân hình mũm mĩm, dáng ngồi nhỏ nhắn và biểu cảm thân thiện. Sự kết hợp giữa tạo hình sinh động và công năng sử dụng giúp chiếc ống heo trở thành món đồ vừa hữu ích, vừa mang lại nét vui tươi cho không gian",
+      "chatLieuVaMauSac": "Gốm sứ cao cấp với gam trắng kem và nâu vàng, bề mặt sáng bóng.",
+      "hoaTietVaKieuDang": "Ống heo có đầu lớn, thân tròn, đường nét mềm mại và khuôn mặt tối giản, tạo vẻ đáng yêu, gần gũi.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline 0395 895 165 Dịch vụ đi kèm Tư vấn lựa chọn sản phẩm, cung cấp sỉ và lẻ, nhận in logo làm quà tặng doanh nghiệp. Các yêu cầu thiết kế riêng và điều kiện đặt hàng cần được xác nhận trực tiếp với cơ sở. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_GBT_03",
     "coSoSanXuatId": "GBT_HAC",
-    "name": "",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "name": "Túi xách sứ cắm hoa",
+    "itemDescription": "Túi xách gốm cắm hoa tươi là sản phẩm trang trí kết hợp công năng cắm hoa với tạo hình chiếc túi xách nhỏ nhắn, độc đáo. Sản phẩm phù hợp để bài trí trên bàn trà, kệ tủ, bàn làm việc hoặc làm quà tặng cho những người yêu thích đồ gốm trang trí",
+    "chatLieu": "Gốm sứ cao cấp",
+    "kyThuat": "Tạo hình gốm kết hợp hoàn thiện bề mặt và trang trí họa tiết",
     "xuatXu": "Làng gốm Bát Tràng, Hà Nội.",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
+    "dacDiemTitle": "Dáng túi duyên dáng, tô điểm không gian sống",
+    "dacDiemDescription": "Lấy cảm hứng từ hình dáng chiếc túi xách quen thuộc, sản phẩm mang đến cách thể hiện mới lạ cho vật dụng cắm hoa. Thiết kế kết hợp giữa đường nét mềm mại và họa tiết sinh động, giúp không gian thêm điểm nhấn mà vẫn giữ được nét gần gũi, tinh tế",
+    "chatLieuVaMauSac": "Gốm sứ cao cấp, nền trắng phối quai nâu nhạt và họa tiết nhiều màu, bề mặt sáng bóng.",
+    "hoaTietVaKieuDang": "Dáng túi bo góc mềm mại, quai cầm phía trên, trang trí chùm quả và lá xanh sinh động trên nền trắng.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS hoàng anh ceramics/Sanpham4.jpg",
+      "/download/images/CS hoàng anh ceramics/Chi tiết - túi sách cắm hoa/Ảnh màn hình 2026-10-29 lúc 14.05.19.png",
+      "/download/images/CS hoàng anh ceramics/Chi tiết - túi sách cắm hoa/Ảnh màn hình 2026-10-29 lúc 14.05.33.png",
+      "/download/images/CS hoàng anh ceramics/Chi tiết - túi sách cắm hoa/Ảnh màn hình 2026-10-29 lúc 14.05.43.png"
+    ],
+    "sourcePdfPage": 32,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Gốm sứ cao cấp",
+      "kyThuat": "Tạo hình gốm kết hợp hoàn thiện bề mặt và trang trí họa tiết",
+      "xuatXu": "Làng gốm Bát Tràng, Hà Nội",
+      "itemDescription": "Túi xách gốm cắm hoa tươi là sản phẩm trang trí kết hợp công năng cắm hoa với tạo hình chiếc túi xách nhỏ nhắn, độc đáo. Sản phẩm phù hợp để bài trí trên bàn trà, kệ tủ, bàn làm việc hoặc làm quà tặng cho những người yêu thích đồ gốm trang trí",
+      "dacDiemTitle": "Dáng túi duyên dáng, tô điểm không gian sống",
+      "dacDiemDescription": "Lấy cảm hứng từ hình dáng chiếc túi xách quen thuộc, sản phẩm mang đến cách thể hiện mới lạ cho vật dụng cắm hoa. Thiết kế kết hợp giữa đường nét mềm mại và họa tiết sinh động, giúp không gian thêm điểm nhấn mà vẫn giữ được nét gần gũi, tinh tế",
+      "chatLieuVaMauSac": "Gốm sứ cao cấp, nền trắng phối quai nâu nhạt và họa tiết nhiều màu, bề mặt sáng bóng.",
+      "hoaTietVaKieuDang": "Dáng túi bo góc mềm mại, quai cầm phía trên, trang trí chùm quả và lá xanh sinh động trên nền trắng.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline 0395 895 165 Dịch vụ đi kèm Tư vấn lựa chọn sản phẩm, cung cấp sỉ và lẻ, nhận in logo làm quà tặng doanh nghiệp. Các yêu cầu thiết kế riêng và điều kiện đặt hàng cần được xác nhận trực tiếp với cơ sở. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_GBT_04",
     "coSoSanXuatId": "GBT_HAC",
-    "name": "",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "name": "Ống heo cua",
+    "itemDescription": "Ống heo cua là sản phẩm trang trí kết hợp công năng tiết kiệm tiền với tạo hình con cua cách điệu, mang vẻ ngoài vui nhộn và độc đáo. Sản phẩm phù hợp để trang trí bàn học, bàn làm việc hoặc làm quà tặng cho những người yêu thích các món đồ gốm có hình dáng sáng tạo",
+    "chatLieu": "Gốm sứ cao cấp",
+    "kyThuat": "Tạo hình gốm kết hợp hoàn thiện bề mặt và trang trí màu sắc",
     "xuatXu": "Làng gốm Bát Tràng, Hà Nội.",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
+    "dacDiemTitle": "Tạo hình tinh nghịch, sắc màu nổi bật",
+    "dacDiemDescription": "Lấy cảm hứng từ hình dáng con cua, sản phẩm thu hút ánh nhìn bằng phần thân tròn, đôi mắt nhô cao và các chi tiết tạo hình ngộ nghĩnh. Thiết kế khác biệt so với những mẫu ống heo truyền thống, mang đến nét sinh động cho không gian trưng bày",
+    "chatLieuVaMauSac": "Gốm sứ cao cấp với màu đỏ, cam, trắng và tím, bề mặt sáng bóng, bắt mắt.",
+    "hoaTietVaKieuDang": "Thân tròn, đôi mắt nổi bật các chi tiết cách điệu hình càng cua, tạo vẻ đáng yêu và cá tính.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS hoàng anh ceramics/sanpham3.png",
+      "/download/images/CS hoàng anh ceramics/Chi tiết - ống heo cua/Ảnh màn hình 2026-10-29 lúc 14.09.48.png",
+      "/download/images/CS hoàng anh ceramics/Chi tiết - ống heo cua/Ảnh màn hình 2026-10-29 lúc 14.10.05.png",
+      "/download/images/CS hoàng anh ceramics/Chi tiết - ống heo cua/Ảnh màn hình 2026-10-29 lúc 14.10.15.png"
+    ],
+    "sourcePdfPage": 33,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Gốm sứ cao cấp",
+      "kyThuat": "Tạo hình gốm kết hợp hoàn thiện bề mặt và trang trí màu sắc",
+      "xuatXu": "Làng gốm Bát Tràng, Hà Nội",
+      "itemDescription": "Ống heo cua là sản phẩm trang trí kết hợp công năng tiết kiệm tiền với tạo hình con cua cách điệu, mang vẻ ngoài vui nhộn và độc đáo. Sản phẩm phù hợp để trang trí bàn học, bàn làm việc hoặc làm quà tặng cho những người yêu thích các món đồ gốm có hình dáng sáng tạo",
+      "dacDiemTitle": "Tạo hình tinh nghịch, sắc màu nổi bật",
+      "dacDiemDescription": "Lấy cảm hứng từ hình dáng con cua, sản phẩm thu hút ánh nhìn bằng phần thân tròn, đôi mắt nhô cao và các chi tiết tạo hình ngộ nghĩnh. Thiết kế khác biệt so với những mẫu ống heo truyền thống, mang đến nét sinh động cho không gian trưng bày",
+      "chatLieuVaMauSac": "Gốm sứ cao cấp với màu đỏ, cam, trắng và tím, bề mặt sáng bóng, bắt mắt.",
+      "hoaTietVaKieuDang": "Thân tròn, đôi mắt nổi bật các chi tiết cách điệu hình càng cua, tạo vẻ đáng yêu và cá tính.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline 0395 895 165 Dịch vụ đi kèm Tư vấn lựa chọn sản phẩm, cung cấp sỉ và lẻ, nhận in logo làm quà tặng doanh nghiệp. Các yêu cầu thiết kế riêng và điều kiện đặt hàng cần được xác nhận trực tiếp với cơ sở. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_GBT_05",
     "coSoSanXuatId": "GBT_HAC",
-    "name": "",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "name": "Ống heo Labubu",
+    "itemDescription": "Ống heo Labubu là sản phẩm trang trí kết hợp công năng tiết kiệm tiền với tạo hình nhân vật có đôi tai nhọn và biểu cảm tinh nghịch. Sản phẩm phù hợp để đặt trên bàn học, bàn làm việc, kệ trưng bày hoặc làm quà tặng cho những người yêu thích đồ vật tạo hình độc đáo",
+    "chatLieu": "Gốm sứ cao cấp",
+    "kyThuat": "Tạo hình gốm kết hợp hoàn thiện bề mặt và trang trí màu sắc",
     "xuatXu": "Làng gốm Bát Tràng, Hà Nội.",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
+    "dacDiemTitle": "Tạo hình cá tính, điểm nhấn trẻ trung",
+    "dacDiemDescription": "Sản phẩm gây ấn tượng với phần đầu lớn, đôi tai nhọn và biểu cảm đặc trưng được thể hiện qua những đường nét cách điệu. Kết hợp giữa hình thức trang trí và công năng tiết kiệm tiền, chiếc ống heo mang đến vẻ sinh động cho không gian cá nhân",
+    "chatLieuVaMauSac": "Gốm sứ cao cấp với các màu tím nhạt, xanh lá và xanh ngọc, bề mặt sáng bóng, màu sắc tươi tắn.",
+    "hoaTietVaKieuDang": "Đầu lớn, tai dài nhọn, thân hình nhỏ gọn cùng các chi tiết khuôn mặt rõ nét, tạo vẻ ngoài đáng yêu và tinh nghịch.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS hoàng anh ceramics/Sanpham5.jpg",
+      "/download/images/CS hoàng anh ceramics/Chi tiết - ống heo labubu/Ảnh màn hình 2026-10-29 lúc 14.13.25.png",
+      "/download/images/CS hoàng anh ceramics/Chi tiết - ống heo labubu/Ảnh màn hình 2026-10-29 lúc 14.13.33.png",
+      "/download/images/CS hoàng anh ceramics/Chi tiết - ống heo labubu/Ảnh màn hình 2026-10-29 lúc 14.13.50.png"
+    ],
+    "sourcePdfPage": 34,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Gốm sứ cao cấp",
+      "kyThuat": "Tạo hình gốm kết hợp hoàn thiện bề mặt và trang trí màu sắc",
+      "xuatXu": "Làng gốm Bát Tràng, Hà Nội",
+      "itemDescription": "Ống heo Labubu là sản phẩm trang trí kết hợp công năng tiết kiệm tiền với tạo hình nhân vật có đôi tai nhọn và biểu cảm tinh nghịch. Sản phẩm phù hợp để đặt trên bàn học, bàn làm việc, kệ trưng bày hoặc làm quà tặng cho những người yêu thích đồ vật tạo hình độc đáo",
+      "dacDiemTitle": "Tạo hình cá tính, điểm nhấn trẻ trung",
+      "dacDiemDescription": "Sản phẩm gây ấn tượng với phần đầu lớn, đôi tai nhọn và biểu cảm đặc trưng được thể hiện qua những đường nét cách điệu. Kết hợp giữa hình thức trang trí và công năng tiết kiệm tiền, chiếc ống heo mang đến vẻ sinh động cho không gian cá nhân",
+      "chatLieuVaMauSac": "Gốm sứ cao cấp với các màu tím nhạt, xanh lá và xanh ngọc, bề mặt sáng bóng, màu sắc tươi tắn.",
+      "hoaTietVaKieuDang": "Đầu lớn, tai dài nhọn, thân hình nhỏ gọn cùng các chi tiết khuôn mặt rõ nét, tạo vẻ ngoài đáng yêu và tinh nghịch.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline 0395 895 165 Dịch vụ đi kèm Tư vấn lựa chọn sản phẩm, cung cấp sỉ và lẻ, nhận in logo làm quà tặng doanh nghiệp. Các yêu cầu thiết kế riêng và điều kiện đặt hàng cần được xác nhận trực tiếp với cơ sở. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_GBT_06",
     "coSoSanXuatId": "GBT_HAC",
-    "name": "",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "name": "Ống heo chim cánh cụt",
+    "itemDescription": "Ống heo chim cánh cụt là sản phẩm trang trí kết hợp công năng tiết kiệm tiền với tạo hình chú chim cánh cụt tròn trịa, ngộ nghĩnh. Sản phẩm phù hợp để đặt trên bàn học, bàn làm việc hoặc làm quà tặng cho trẻ em và những người yêu thích các món đồ gốm đáng yêu",
+    "chatLieu": "Gốm sứ cao cấp",
+    "kyThuat": "Tạo hình gốm kết hợp hoàn thiện bề mặt và trang trí màu sắc.",
     "xuatXu": "Làng gốm Bát Tràng, Hà Nội.",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
+    "dacDiemTitle": "Nhỏ nhắn, đáng yêu, gần gũi trong từng đường nét",
+    "dacDiemDescription": "Lấy cảm hứng từ hình dáng chim cánh cụt, sản phẩm gây thiện cảm với thân hình bầu tròn và biểu cảm ngộ nghĩnh. Thiết kế đơn giản kết hợp màu sắc hài hòa giúp chiếc ống heo vừa đáp ứng nhu cầu tiết kiệm tiền, vừa trở thành điểm nhấn vui tươi trong không gian sống",
+    "chatLieuVaMauSac": "Gốm sứ cao cấp với tông trắng, xám xanh nhạt, kết hợp đen, vàng và cam, tạo vẻ ngoài hài hòa, sinh động.",
+    "hoaTietVaKieuDang": "Tạo hình tối giản, giữ nét đặc trưng của chim cánh cụt, mang vẻ đáng yêu, thân thiện.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS hoàng anh ceramics/Sanpham6.jpg",
+      "/download/images/CS hoàng anh ceramics/Chi tiết - ống heo chim cánh cụt/Ảnh màn hình 2026-10-29 lúc 14.21.37.png",
+      "/download/images/CS hoàng anh ceramics/Chi tiết - ống heo chim cánh cụt/Ảnh màn hình 2026-10-29 lúc 14.21.43.png",
+      "/download/images/CS hoàng anh ceramics/Chi tiết - ống heo chim cánh cụt/Ảnh màn hình 2026-10-29 lúc 14.21.49.png",
+      "/download/images/CS hoàng anh ceramics/Chi tiết - ống heo chim cánh cụt/Ảnh màn hình 2026-10-29 lúc 14.21.56.png"
+    ],
+    "sourcePdfPage": 35,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Gốm sứ cao cấp",
+      "kyThuat": "Tạo hình gốm kết hợp hoàn thiện bề mặt và trang trí màu sắc.",
+      "xuatXu": "Làng gốm Bát Tràng, Hà Nội",
+      "itemDescription": "Ống heo chim cánh cụt là sản phẩm trang trí kết hợp công năng tiết kiệm tiền với tạo hình chú chim cánh cụt tròn trịa, ngộ nghĩnh. Sản phẩm phù hợp để đặt trên bàn học, bàn làm việc hoặc làm quà tặng cho trẻ em và những người yêu thích các món đồ gốm đáng yêu",
+      "dacDiemTitle": "Nhỏ nhắn, đáng yêu, gần gũi trong từng đường nét",
+      "dacDiemDescription": "Lấy cảm hứng từ hình dáng chim cánh cụt, sản phẩm gây thiện cảm với thân hình bầu tròn và biểu cảm ngộ nghĩnh. Thiết kế đơn giản kết hợp màu sắc hài hòa giúp chiếc ống heo vừa đáp ứng nhu cầu tiết kiệm tiền, vừa trở thành điểm nhấn vui tươi trong không gian sống",
+      "chatLieuVaMauSac": "Gốm sứ cao cấp với tông trắng, xám xanh nhạt, kết hợp đen, vàng và cam, tạo vẻ ngoài hài hòa, sinh động.",
+      "hoaTietVaKieuDang": "Tạo hình tối giản, giữ nét đặc trưng của chim cánh cụt, mang vẻ đáng yêu, thân thiện.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline 0395 895 165 Dịch vụ đi kèm Tư vấn lựa chọn sản phẩm, cung cấp sỉ và lẻ, nhận in logo làm quà tặng doanh nghiệp. Các yêu cầu thiết kế riêng và điều kiện đặt hàng cần được xác nhận trực tiếp với cơ sở. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_GBT_07",
     "coSoSanXuatId": "GBT_BNH",
-    "name": "",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "name": "Bộ sưu tập gốm Thanh Mạ",
+    "itemDescription": "Bộ sưu tập gốm Thanh Mạ gồm các vật dụng bàn ăn với gam màu xanh lá và trắng nhẹ nhàng, kiểu dáng đa dạng cùng họa tiết kẻ ô và chi tiết trang trí lấy cảm hứng từ thiên nhiên, mang đến vẻ tươi sáng, gần gũi cho không gian ăn uống",
+    "chatLieu": "Gốm sứ cao cấp",
+    "kyThuat": "Tạo hình gốm kết hợp hoàn thiện bề mặt và trang trí họa tiết",
     "xuatXu": "Làng gốm Bát Tràng, Hà Nội.",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
+    "dacDiemTitle": "Sắc xanh dịu mắt, cảm hứng từ thiên nhiên",
+    "dacDiemDescription": "Bộ sưu tập tạo ấn tượng bằng sự kết hợp giữa màu xanh lá và nền trắng, mang đến cảm giác tươi mới nhưng không quá nổi bật. Những họa tiết được bố trí trên từng sản phẩm giúp bộ đồ ăn có sự đồng điệu mà vẫn giữ nét riêng trong từng món",
+    "chatLieuVaMauSac": "Gốm với tông trắng phối xanh lá, tạo cảm giác nhẹ nhàng, hài hòa, phù hợp với không gian ăn uống và thưởng trà.",
+    "hoaTietVaKieuDang": "Bộ sưu tập gồm bát, đĩa, cốc và khay với họa tiết kẻ ô xanh trắng cùng các chi tiết trang trí nhỏ",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS bách ngân hỷ/sanpham1.jpg",
+      "/download/images/CS bách ngân hỷ/Chi tiết - gốm thanh mạ/Ảnh màn hình 2026-10-30 lúc 22.33.12.png",
+      "/download/images/CS bách ngân hỷ/Chi tiết - gốm thanh mạ/Ảnh màn hình 2026-10-30 lúc 22.33.34.png",
+      "/download/images/CS bách ngân hỷ/Chi tiết - gốm thanh mạ/Ảnh màn hình 2026-10-30 lúc 22.33.42.png"
+    ],
+    "sourcePdfPage": 36,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Gốm sứ cao cấp",
+      "kyThuat": "Tạo hình gốm kết hợp hoàn thiện bề mặt và trang trí họa tiết",
+      "xuatXu": "Làng gốm Bát Tràng, Hà Nội",
+      "itemDescription": "Bộ sưu tập gốm Thanh Mạ gồm các vật dụng bàn ăn với gam màu xanh lá và trắng nhẹ nhàng, kiểu dáng đa dạng cùng họa tiết kẻ ô và chi tiết trang trí lấy cảm hứng từ thiên nhiên, mang đến vẻ tươi sáng, gần gũi cho không gian ăn uống",
+      "dacDiemTitle": "Sắc xanh dịu mắt, cảm hứng từ thiên nhiên",
+      "dacDiemDescription": "Bộ sưu tập tạo ấn tượng bằng sự kết hợp giữa màu xanh lá và nền trắng, mang đến cảm giác tươi mới nhưng không quá nổi bật. Những họa tiết được bố trí trên từng sản phẩm giúp bộ đồ ăn có sự đồng điệu mà vẫn giữ nét riêng trong từng món",
+      "chatLieuVaMauSac": "Gốm với tông trắng phối xanh lá, tạo cảm giác nhẹ nhàng, hài hòa, phù hợp với không gian ăn uống và thưởng trà.",
+      "hoaTietVaKieuDang": "Bộ sưu tập gồm bát, đĩa, cốc và khay với họa tiết kẻ ô xanh trắng cùng các chi tiết trang trí nhỏ",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline 094 767 55 99 Email bachnganhy89@gmail.com Dịch vụ đi kèm Tư vấn lựa chọn sản phẩm, cung cấp sỉ và lẻ. Nhu cầu in logo, thiết kế riêng hoặc đặt hàng doanh nghiệp cần được xác nhận trực tiếp với cơ sở Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_GBT_08",
     "coSoSanXuatId": "GBT_BNH",
-    "name": "",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "name": "Bộ sưu tập gốm Ngư Sắc",
+    "itemDescription": "Bộ sưu tập gốm Ngư Sắc nổi bật với họa tiết cá nhiều màu sắc trên nền gốm sáng. Các sản phẩm như cốc, đĩa và khay được trang trí bằng hình cá cách điệu, tạo vẻ vui tươi, sinh động cho bàn ăn.",
+    "chatLieu": "Gốm sứ cao cấp",
+    "kyThuat": "Tạo hình gốm kết hợp hoàn thiện bề mặt và trang trí họa tiết cá",
     "xuatXu": "Làng gốm Bát Tràng, Hà Nội.",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
+    "dacDiemTitle": "Những chuyển động dưới làn nước",
+    "dacDiemDescription": "Lấy hình ảnh cá làm điểm nhấn, bộ sưu tập mang đến cách thể hiện sinh động thông qua những đường nét đơn giản và màu sắc đa dạng. Các họa tiết được bố trí trên từng món đồ, tạo nên sự liên kết giữa các sản phẩm mà không làm mất đi nét riêng của từng thiết kế",
+    "chatLieuVaMauSac": "Gốm nền trắng, kết hợp họa tiết xanh dương, đỏ, vàng và xanh lá nổi bật.",
+    "hoaTietVaKieuDang": "Bộ sưu tập gồm cốc có quai, đĩa và khay với kiểu dáng đơn giản, trang trí họa tiết cá cách điệu vui mắt.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS bách ngân hỷ/sanpham2.jpg",
+      "/download/images/CS bách ngân hỷ/Chi tiết - gốm ngư sắc/Ảnh màn hình 2026-10-30 lúc 22.55.20.png",
+      "/download/images/CS bách ngân hỷ/Chi tiết - gốm ngư sắc/Ảnh màn hình 2026-10-30 lúc 22.55.27.png",
+      "/download/images/CS bách ngân hỷ/Chi tiết - gốm ngư sắc/Ảnh màn hình 2026-10-30 lúc 22.55.34.png",
+      "/download/images/CS bách ngân hỷ/Chi tiết - gốm ngư sắc/Ảnh màn hình 2026-10-30 lúc 22.55.41.png"
+    ],
+    "sourcePdfPage": 37,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Gốm sứ cao cấp",
+      "kyThuat": "Tạo hình gốm kết hợp hoàn thiện bề mặt và trang trí họa tiết cá",
+      "xuatXu": "Làng gốm Bát Tràng, Hà Nội",
+      "itemDescription": "Bộ sưu tập gốm Ngư Sắc nổi bật với họa tiết cá nhiều màu sắc trên nền gốm sáng. Các sản phẩm như cốc, đĩa và khay được trang trí bằng hình cá cách điệu, tạo vẻ vui tươi, sinh động cho bàn ăn.",
+      "dacDiemTitle": "Những chuyển động dưới làn nước",
+      "dacDiemDescription": "Lấy hình ảnh cá làm điểm nhấn, bộ sưu tập mang đến cách thể hiện sinh động thông qua những đường nét đơn giản và màu sắc đa dạng. Các họa tiết được bố trí trên từng món đồ, tạo nên sự liên kết giữa các sản phẩm mà không làm mất đi nét riêng của từng thiết kế",
+      "chatLieuVaMauSac": "Gốm nền trắng, kết hợp họa tiết xanh dương, đỏ, vàng và xanh lá nổi bật.",
+      "hoaTietVaKieuDang": "Bộ sưu tập gồm cốc có quai, đĩa và khay với kiểu dáng đơn giản, trang trí họa tiết cá cách điệu vui mắt.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline 094 767 55 99 Email bachnganhy89@gmail.com Dịch vụ đi kèm Tư vấn lựa chọn sản phẩm, cung cấp sỉ và lẻ. Nhu cầu in logo, thiết kế riêng hoặc đặt hàng doanh nghiệp cần được xác nhận trực tiếp với cơ sở Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Khám phá thêm các sản phẩm khác Bộ sưu tập gốm Thanh Mạ Cốc túi cafe Hũ hỷ Xuân Hoa Tầm nhìn của chúng tôi “CRAFT FOLIO hướng đến xây dựng hệ thống Digital Portfolio trực quan, giúp doanh nghiệp dễ dàng tìm kiếm, đánh giá và kết nối với các xưởng phù hợp. Trong giai đoạn đầu, dự án tập trung phát triển phiên bản thử nghiệm, xây dựng hồ sơ xưởng thực tế và tiếp nhận phản hồi để hoàn thiện nền tảng” SỐ HÓA – KẾT NỐI – LAN TỎA Craft Folio Số 96A Trần Phú (Km10, Đường Nguyễn Trãi), Phường Mộ Lao, Quận Hà Đông, Hà Nội. 0972206411 craftfoliocskh@gmail.com 08:00 AM - 07:30 PM ĐỪNG BỎ LỠ THÔNG TIN Để cập nhật những sản phẩm mới, nhận thông tin ưu đãi đặc biệt và thông tin khác. Nhập email của bạn ĐĂNG KÍ"
+    }
   },
   {
     "id": "SP_GBT_09",
     "coSoSanXuatId": "GBT_BNH",
-    "name": "",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "name": "Cherry Collection",
+    "itemDescription": "Cherry Collection lấy cảm hứng từ những quả cherry đỏ nhỏ xinh trên nền hồng pastel, kết hợp lá xanh tạo vẻ ngọt ngào, trẻ trung. Bộ sưu tập gồm cốc, đĩa và khay, phù hợp cho những bữa ăn nhẹ hoặc trang trí không gian cá nhân",
+    "chatLieu": "Gốm sứ cao cấp",
+    "kyThuat": "Tạo hình gốm kết hợp hoàn thiện bề mặt và trang trí họa tiết cherry",
     "xuatXu": "Làng gốm Bát Tràng, Hà Nội.",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
+    "dacDiemTitle": "Sắc hồng dịu dàng, điểm xuyết những quả cherry",
+    "dacDiemDescription": "Cherry Collection tạo dấu ấn bằng bảng màu ngọt ngào và họa tiết trái cây quen thuộc. Sự kết hợp giữa nền hồng, những đường kẻ ô và hình cherry đỏ mang đến vẻ trẻ trung, giúp các vật dụng thường ngày trở nên sinh động hơn",
+    "chatLieuVaMauSac": "Gốm nền hồng pastel, kết hợp họa tiết cherry đỏ và lá xanh nổi bật.",
+    "hoaTietVaKieuDang": "Bộ sưu tập gồm cốc có quai, đĩa và khay bo tròn mềm mại, trang trí cherry xen kẽ họa tiết kẻ ô đồng bộ.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS bách ngân hỷ/Sanpham3.jpg"
+    ],
+    "sourcePdfPage": 38,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Gốm sứ cao cấp",
+      "kyThuat": "Tạo hình gốm kết hợp hoàn thiện bề mặt và trang trí họa tiết cherry",
+      "xuatXu": "Làng gốm Bát Tràng, Hà Nội",
+      "itemDescription": "Cherry Collection lấy cảm hứng từ những quả cherry đỏ nhỏ xinh trên nền hồng pastel, kết hợp lá xanh tạo vẻ ngọt ngào, trẻ trung. Bộ sưu tập gồm cốc, đĩa và khay, phù hợp cho những bữa ăn nhẹ hoặc trang trí không gian cá nhân",
+      "dacDiemTitle": "Sắc hồng dịu dàng, điểm xuyết những quả cherry",
+      "dacDiemDescription": "Cherry Collection tạo dấu ấn bằng bảng màu ngọt ngào và họa tiết trái cây quen thuộc. Sự kết hợp giữa nền hồng, những đường kẻ ô và hình cherry đỏ mang đến vẻ trẻ trung, giúp các vật dụng thường ngày trở nên sinh động hơn",
+      "chatLieuVaMauSac": "Gốm nền hồng pastel, kết hợp họa tiết cherry đỏ và lá xanh nổi bật.",
+      "hoaTietVaKieuDang": "Bộ sưu tập gồm cốc có quai, đĩa và khay bo tròn mềm mại, trang trí cherry xen kẽ họa tiết kẻ ô đồng bộ.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline 094 767 55 99 Email bachnganhy89@gmail.com Dịch vụ đi kèm Tư vấn lựa chọn sản phẩm, cung cấp sỉ và lẻ. Nhu cầu in logo, thiết kế riêng hoặc đặt hàng doanh nghiệp cần được xác nhận trực tiếp với cơ sở Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Khám phá thêm các sản phẩm khác Bộ sưu tập gốm Ngư Sắc Túi xách sứ cắm hoa Ống heo cua Tầm nhìn của chúng tôi “CRAFT FOLIO hướng đến xây dựng hệ thống Digital Portfolio trực quan, giúp doanh nghiệp dễ dàng tìm kiếm, đánh giá và kết nối với các xưởng phù hợp. Trong giai đoạn đầu, dự án tập trung phát triển phiên bản thử nghiệm, xây dựng hồ sơ xưởng thực tế và tiếp nhận phản hồi để hoàn thiện nền tảng” SỐ HÓA – KẾT NỐI – LAN TỎA Craft Folio Số 96A Trần Phú (Km10, Đường Nguyễn Trãi), Phường Mộ Lao, Quận Hà Đông, Hà Nội. 0972206411 craftfoliocskh@gmail.com 08:00 AM - 07:30 PM ĐỪNG BỎ LỠ THÔNG TIN Để cập nhật những sản phẩm mới, nhận thông tin ưu đãi đặc biệt và thông tin khác. Nhập email của bạn ĐĂNG KÍ"
+    }
   },
   {
     "id": "SP_GBT_10",
     "coSoSanXuatId": "GBT_BNH",
-    "name": "",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "name": "Cốc túi cafe",
+    "itemDescription": "Cốc túi cafe có kiểu dáng độc đáo, lấy cảm hứng từ những chiếc túi nhỏ. Thân cốc được trang trí bằng nhiều đường nét và họa tiết khác nhau, mang vẻ mộc mạc, vui mắt, phù hợp để thưởng thức cà phê, trà hoặc trang trí góc làm việc",
+    "chatLieu": "Gốm sứ cao cấp",
+    "kyThuat": "Tạo hình gốm kết hợp hoàn thiện bề mặt và trang trí họa tiết",
     "xuatXu": "Làng gốm Bát Tràng, Hà Nội.",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
+    "dacDiemTitle": "Kiểu dáng khác biệt, nét duyên từ những chi tiết nhỏ",
+    "dacDiemDescription": "Không chỉ là vật dụng phục vụ đồ uống, cốc túi cafe còn tạo sự thu hút nhờ hình dáng lạ mắt và cách trang trí đa dạng. Mỗi sản phẩm mang một cách phối màu riêng, giúp bộ sưu tập trở nên phong phú mà vẫn giữ được tinh thần gần gũi của đồ gốm thủ công",
+    "chatLieuVaMauSac": "Gốm với các tông trắng kem, vàng nhạt kết hợp họa tiết nhiều màu tươi sáng.",
+    "hoaTietVaKieuDang": "Cốc thân rộng, miệng mở, đáy thuôn nhẹ, trang trí họa tiết uốn lượn.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS bách ngân hỷ/Sanpham4.jpg"
+    ],
+    "sourcePdfPage": 39,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Gốm sứ cao cấp",
+      "kyThuat": "Tạo hình gốm kết hợp hoàn thiện bề mặt và trang trí họa tiết",
+      "xuatXu": "Làng gốm Bát Tràng, Hà Nội",
+      "itemDescription": "Cốc túi cafe có kiểu dáng độc đáo, lấy cảm hứng từ những chiếc túi nhỏ. Thân cốc được trang trí bằng nhiều đường nét và họa tiết khác nhau, mang vẻ mộc mạc, vui mắt, phù hợp để thưởng thức cà phê, trà hoặc trang trí góc làm việc",
+      "dacDiemTitle": "Kiểu dáng khác biệt, nét duyên từ những chi tiết nhỏ",
+      "dacDiemDescription": "Không chỉ là vật dụng phục vụ đồ uống, cốc túi cafe còn tạo sự thu hút nhờ hình dáng lạ mắt và cách trang trí đa dạng. Mỗi sản phẩm mang một cách phối màu riêng, giúp bộ sưu tập trở nên phong phú mà vẫn giữ được tinh thần gần gũi của đồ gốm thủ công",
+      "chatLieuVaMauSac": "Gốm với các tông trắng kem, vàng nhạt kết hợp họa tiết nhiều màu tươi sáng.",
+      "hoaTietVaKieuDang": "Cốc thân rộng, miệng mở, đáy thuôn nhẹ, trang trí họa tiết uốn lượn.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline 094 767 55 99 Email bachnganhy89@gmail.com Dịch vụ đi kèm Tư vấn lựa chọn sản phẩm, cung cấp sỉ và lẻ. Nhu cầu in logo, thiết kế riêng hoặc đặt hàng doanh nghiệp cần được xác nhận trực tiếp với cơ sở Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Khám phá thêm các sản phẩm khác Cherry collection Bộ sưu tập gốm Ngư Sắc Hũ hỷ Xuân Hoa Tầm nhìn của chúng tôi “CRAFT FOLIO hướng đến xây dựng hệ thống Digital Portfolio trực quan, giúp doanh nghiệp dễ dàng tìm kiếm, đánh giá và kết nối với các xưởng phù hợp. Trong giai đoạn đầu, dự án tập trung phát triển phiên bản thử nghiệm, xây dựng hồ sơ xưởng thực tế và tiếp nhận phản hồi để hoàn thiện nền tảng” SỐ HÓA – KẾT NỐI – LAN TỎA Craft Folio Số 96A Trần Phú (Km10, Đường Nguyễn Trãi), Phường Mộ Lao, Quận Hà Đông, Hà Nội. 0972206411 craftfoliocskh@gmail.com 08:00 AM - 07:30 PM ĐỪNG BỎ LỠ THÔNG TIN Để cập nhật những sản phẩm mới, nhận thông tin ưu đãi đặc biệt và thông tin khác. Nhập email của bạn ĐĂNG KÍ"
+    }
   },
   {
     "id": "SP_GBT_11",
     "coSoSanXuatId": "GBT_BNH",
-    "name": "",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "name": "Rổ gốm",
+    "itemDescription": "Rổ gốm kết hợp hình dáng chiếc rổ quen thuộc với chất liệu gốm và họa tiết trang trí sinh động. Sản phẩm có lòng sâu, hai quai cầm hai bên cùng các lỗ nhỏ trên bề mặt. Thiết kế phù hợp để bày biện trái cây, bánh hoặc trang trí không gian bếp và bàn ăn",
+    "chatLieu": "Gốm sứ cao cấp",
+    "kyThuat": "Tạo hình gốm kết hợp tạo lỗ, hoàn thiện bề mặt và trang trí họa tiết",
     "xuatXu": "Làng gốm Bát Tràng, Hà Nội.",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
+    "dacDiemTitle": "Hình dáng thân quen, cách thể hiện mới lạ",
+    "dacDiemDescription": "Lấy cảm hứng từ chiếc rổ truyền thống, sản phẩm được thể hiện qua chất liệu gốm với đường nét mềm mại và những chi tiết trang trí riêng biệt. Sự kết hợp giữa hình dáng thực dụng và yếu tố thẩm mỹ tạo nên món đồ vừa có thể sử dụng, vừa góp phần làm đẹp không gian",
+    "chatLieuVaMauSac": "Gốm nền trắng kem, kết hợp họa tiết xanh dương và xanh lá hài hòa.",
+    "hoaTietVaKieuDang": "Rổ lòng sâu, miệng rộng, hai quai đối xứng và các lỗ nhỏ mô phỏng rổ đan truyền thống, tạo vẻ độc đáo.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS bách ngân hỷ/Sanpham5.jpg"
+    ],
+    "sourcePdfPage": 40,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Gốm sứ cao cấp",
+      "kyThuat": "Tạo hình gốm kết hợp tạo lỗ, hoàn thiện bề mặt và trang trí họa tiết",
+      "xuatXu": "Làng gốm Bát Tràng, Hà Nội",
+      "itemDescription": "Rổ gốm kết hợp hình dáng chiếc rổ quen thuộc với chất liệu gốm và họa tiết trang trí sinh động. Sản phẩm có lòng sâu, hai quai cầm hai bên cùng các lỗ nhỏ trên bề mặt. Thiết kế phù hợp để bày biện trái cây, bánh hoặc trang trí không gian bếp và bàn ăn",
+      "dacDiemTitle": "Hình dáng thân quen, cách thể hiện mới lạ",
+      "dacDiemDescription": "Lấy cảm hứng từ chiếc rổ truyền thống, sản phẩm được thể hiện qua chất liệu gốm với đường nét mềm mại và những chi tiết trang trí riêng biệt. Sự kết hợp giữa hình dáng thực dụng và yếu tố thẩm mỹ tạo nên món đồ vừa có thể sử dụng, vừa góp phần làm đẹp không gian",
+      "chatLieuVaMauSac": "Gốm nền trắng kem, kết hợp họa tiết xanh dương và xanh lá hài hòa.",
+      "hoaTietVaKieuDang": "Rổ lòng sâu, miệng rộng, hai quai đối xứng và các lỗ nhỏ mô phỏng rổ đan truyền thống, tạo vẻ độc đáo.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline 094 767 55 99 Email bachnganhy89@gmail.com Dịch vụ đi kèm Tư vấn lựa chọn sản phẩm, cung cấp sỉ và lẻ. Nhu cầu in logo, thiết kế riêng hoặc đặt hàng doanh nghiệp cần được xác nhận trực tiếp với cơ sở Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Khám phá thêm các sản phẩm khác Hũ hỷ Xuân Hoa Bộ sưu tập gốm Thanh Mạ Ống heo cua Tầm nhìn của chúng tôi “CRAFT FOLIO hướng đến xây dựng hệ thống Digital Portfolio trực quan, giúp doanh nghiệp dễ dàng tìm kiếm, đánh giá và kết nối với các xưởng phù hợp. Trong giai đoạn đầu, dự án tập trung phát triển phiên bản thử nghiệm, xây dựng hồ sơ xưởng thực tế và tiếp nhận phản hồi để hoàn thiện nền tảng” SỐ HÓA – KẾT NỐI – LAN TỎA Craft Folio Số 96A Trần Phú (Km10, Đường Nguyễn Trãi), Phường Mộ Lao, Quận Hà Đông, Hà Nội. 0972206411 craftfoliocskh@gmail.com 08:00 AM - 07:30 PM ĐỪNG BỎ LỠ THÔNG TIN Để cập nhật những sản phẩm mới, nhận thông tin ưu đãi đặc biệt và thông tin khác. Nhập email của bạn ĐĂNG KÍ"
+    }
   },
   {
     "id": "SP_GBT_12",
     "coSoSanXuatId": "GBT_BNH",
-    "name": "",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "name": "Hũ Hỷ Xuân Hoa",
+    "itemDescription": "Hũ Hỷ Xuân Hoa là sản phẩm gốm trang trí có hình dáng tròn trịa, kết hợp nắp đậy và họa tiết nhiều màu sắc. Các mẫu hũ được trang trí bằng hoa lá, đường kẻ và hình vẽ ngộ nghĩnh, mang đến vẻ tươi vui. Sản phẩm phù hợp để đựng vật dụng nhỏ hoặc trang trí không gian sống",
+    "chatLieu": "Gốm sứ cao cấp",
+    "kyThuat": "Tạo hình gốm kết hợp hoàn thiện bề mặt và trang trí họa tiết",
     "xuatXu": "Làng gốm Bát Tràng, Hà Nội.",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
+    "dacDiemTitle": "Sắc màu tươi vui, gửi gắm nét duyên trong từng chiếc hũ",
+    "dacDiemDescription": "Hũ Hỷ Xuân Hoa gây ấn tượng với hình dáng nhỏ nhắn và cách trang trí đa dạng. Mỗi mẫu mang một bảng màu và họa tiết riêng, từ hoa lá đến những đường nét hình học, tạo nên sự phong phú khi trưng bày theo bộ",
+    "chatLieuVaMauSac": "Gốm tông trắng kem, hồng, xanh và cam, bề mặt sáng với màu sắc tươi vui.",
+    "hoaTietVaKieuDang": "Hũ thân tròn, có nắp đậy và chi tiết tạo hình phía trước, trang trí hoa lá, đường kẻ và hình vẽ cách điệu đa dạng.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS bách ngân hỷ/Sanpham6.jpg"
+    ],
+    "sourcePdfPage": 41,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Gốm sứ cao cấp",
+      "kyThuat": "Tạo hình gốm kết hợp hoàn thiện bề mặt và trang trí họa tiết",
+      "xuatXu": "Làng gốm Bát Tràng, Hà Nội",
+      "itemDescription": "Hũ Hỷ Xuân Hoa là sản phẩm gốm trang trí có hình dáng tròn trịa, kết hợp nắp đậy và họa tiết nhiều màu sắc. Các mẫu hũ được trang trí bằng hoa lá, đường kẻ và hình vẽ ngộ nghĩnh, mang đến vẻ tươi vui. Sản phẩm phù hợp để đựng vật dụng nhỏ hoặc trang trí không gian sống",
+      "dacDiemTitle": "Sắc màu tươi vui, gửi gắm nét duyên trong từng chiếc hũ",
+      "dacDiemDescription": "Hũ Hỷ Xuân Hoa gây ấn tượng với hình dáng nhỏ nhắn và cách trang trí đa dạng. Mỗi mẫu mang một bảng màu và họa tiết riêng, từ hoa lá đến những đường nét hình học, tạo nên sự phong phú khi trưng bày theo bộ",
+      "chatLieuVaMauSac": "Gốm tông trắng kem, hồng, xanh và cam, bề mặt sáng với màu sắc tươi vui.",
+      "hoaTietVaKieuDang": "Hũ thân tròn, có nắp đậy và chi tiết tạo hình phía trước, trang trí hoa lá, đường kẻ và hình vẽ cách điệu đa dạng.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline 094 767 55 99 Email bachnganhy89@gmail.com Dịch vụ đi kèm Tư vấn lựa chọn sản phẩm, cung cấp sỉ và lẻ. Nhu cầu in logo, thiết kế riêng hoặc đặt hàng doanh nghiệp cần được xác nhận trực tiếp với cơ sở Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu Khám phá thêm các sản phẩm khác Bộ sưu tập gốm Thanh Mạ Cherry collection Cốc túi cafe Tầm nhìn của chúng tôi “CRAFT FOLIO hướng đến xây dựng hệ thống Digital Portfolio trực quan, giúp doanh nghiệp dễ dàng tìm kiếm, đánh giá và kết nối với các xưởng phù hợp. Trong giai đoạn đầu, dự án tập trung phát triển phiên bản thử nghiệm, xây dựng hồ sơ xưởng thực tế và tiếp nhận phản hồi để hoàn thiện nền tảng” SỐ HÓA – KẾT NỐI – LAN TỎA Craft Folio Số 96A Trần Phú (Km10, Đường Nguyễn Trãi), Phường Mộ Lao, Quận Hà Đông, Hà Nội. 0972206411 craftfoliocskh@gmail.com 08:00 AM - 07:30 PM ĐỪNG BỎ LỠ THÔNG TIN Để cập nhật những sản phẩm mới, nhận thông tin ưu đãi đặc biệt và thông tin khác. Nhập email của bạn ĐĂNG KÍ"
+    }
   },
   {
     "id": "SP_GBT_13",
     "coSoSanXuatId": "GBT_GHL",
-    "name": "",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "name": "Nồi đất vẽ tay họa tiết",
+    "itemDescription": "Chiếc nồi đất mang vẻ đẹp mộc mạc với phần thân nâu trầm kết hợp họa tiết vẽ tay trên lớp men sáng. Thiết kế phù hợp cho việc nấu nướng và trình bày món ăn, đem đến cảm giác gần gũi trong mỗi bữa cơm gia đình",
+    "chatLieu": "Đất gốm, lớp men trang trí",
+    "kyThuat": "Tạo hình gốm, tráng men và vẽ họa tiết thủ công",
     "xuatXu": "Làng gốm Bát Tràng, Hà Nội.",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
+    "dacDiemTitle": "Nét mộc mạc làm nên giá trị",
+    "dacDiemDescription": "Từ dáng nồi quen thuộc trong gian bếp Việt, những nét vẽ trên bề mặt gốm tạo nên điểm nhấn riêng cho sản phẩm. Sự kết hợp giữa hình thức truyền thống và cách trang trí giản dị giúp chiếc nồi vừa có công năng sử dụng, vừa mang nét đẹp thủ công",
+    "chatLieuVaMauSac": "Thân nồi màu nâu trầm, nắp phủ men sáng, tạo sự tương phản hài hòa",
+    "hoaTietVaKieuDang": "Nồi dáng tròn thấp, nắp đồng bộ, trang trí họa tiết xanh lam trên nền men sáng, giữ nét mộc mạc, tinh tế",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS gốm hải long/sanpham1.jpg"
+    ],
+    "sourcePdfPage": 69,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Đất gốm, lớp men trang trí",
+      "kyThuat": "Tạo hình gốm, tráng men và vẽ họa tiết thủ công",
+      "xuatXu": "Làng gốm Bát Tràng, Hà Nội",
+      "itemDescription": "Chiếc nồi đất mang vẻ đẹp mộc mạc với phần thân nâu trầm kết hợp họa tiết vẽ tay trên lớp men sáng. Thiết kế phù hợp cho việc nấu nướng và trình bày món ăn, đem đến cảm giác gần gũi trong mỗi bữa cơm gia đình",
+      "dacDiemTitle": "Nét mộc mạc làm nên giá trị",
+      "dacDiemDescription": "Từ dáng nồi quen thuộc trong gian bếp Việt, những nét vẽ trên bề mặt gốm tạo nên điểm nhấn riêng cho sản phẩm. Sự kết hợp giữa hình thức truyền thống và cách trang trí giản dị giúp chiếc nồi vừa có công năng sử dụng, vừa mang nét đẹp thủ công",
+      "chatLieuVaMauSac": "Thân nồi màu nâu trầm, nắp phủ men sáng, tạo sự tương phản hài hòa",
+      "hoaTietVaKieuDang": "Nồi dáng tròn thấp, nắp đồng bộ, trang trí họa tiết xanh lam trên nền men sáng, giữ nét mộc mạc, tinh tế",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline 096 201 60 1 Email info@gomhailong.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế riêng và báo giá theo nhu cầu Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_GBT_14",
     "coSoSanXuatId": "GBT_GHL",
-    "name": "",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "name": "Bình hút tài lộc",
+    "itemDescription": "Bình gốm nổi bật với hình ảnh con thuyền căng buồm được trang trí trên thân bình. Tác phẩm kết hợp hình dáng bình truyền thống với họa tiết mang ý nghĩa may mắn, thuận lợi và phát triển trong công việc",
+    "chatLieu": "Gốm sứ, men trang trí",
+    "kyThuat": "Tạo hình bình gốm, trang trí họa tiết và hoàn thiện bề mặt",
     "xuatXu": "Làng gốm Bát Tràng, Hà Nội.",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
+    "dacDiemTitle": "Nét mộc mạc làm nên giá trị",
+    "dacDiemDescription": "Với dáng bình truyền thống cùng họa tiết được chăm chút trên bề mặt, sản phẩm kết hợp vẻ đẹp thủ công với ý nghĩa tốt lành, phù hợp để trang trí không gian sống hoặc làm quà tặng",
+    "chatLieuVaMauSac": "Gốm sáng màu, kết hợp chi tiết vàng và nâu, tạo vẻ ấm áp, trang nhã",
+    "hoaTietVaKieuDang": "Bình dáng tròn, cổ thu nhỏ, miệng loe nhẹ, trang trí họa tiết thuyền buồm mang ý nghĩa thuận lợi, hanh thông. Nắp bình đồng bộ với tổng thể",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS gốm hải long/sanpham2.png"
+    ],
+    "sourcePdfPage": 70,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Gốm sứ, men trang trí",
+      "kyThuat": "Tạo hình bình gốm, trang trí họa tiết và hoàn thiện bề mặt",
+      "xuatXu": "Làng gốm Bát Tràng, Hà Nội",
+      "itemDescription": "Bình gốm nổi bật với hình ảnh con thuyền căng buồm được trang trí trên thân bình. Tác phẩm kết hợp hình dáng bình truyền thống với họa tiết mang ý nghĩa may mắn, thuận lợi và phát triển trong công việc",
+      "dacDiemTitle": "Nét mộc mạc làm nên giá trị",
+      "dacDiemDescription": "Với dáng bình truyền thống cùng họa tiết được chăm chút trên bề mặt, sản phẩm kết hợp vẻ đẹp thủ công với ý nghĩa tốt lành, phù hợp để trang trí không gian sống hoặc làm quà tặng",
+      "chatLieuVaMauSac": "Gốm sáng màu, kết hợp chi tiết vàng và nâu, tạo vẻ ấm áp, trang nhã",
+      "hoaTietVaKieuDang": "Bình dáng tròn, cổ thu nhỏ, miệng loe nhẹ, trang trí họa tiết thuyền buồm mang ý nghĩa thuận lợi, hanh thông. Nắp bình đồng bộ với tổng thể",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline 096 201 60 1 Email info@gomhailong.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế riêng và báo giá theo nhu cầu Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_GBT_15",
     "coSoSanXuatId": "GBT_GHL",
-    "name": "",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "name": "Ngói mũi hài vàng hổ phách",
+    "itemDescription": "Ngói mũi hài mang sắc vàng hổ phách ấm, kết hợp kiểu dáng truyền thống và họa tiết trang trí nổi trên bề mặt. Sản phẩm gợi nét kiến trúc cổ, phù hợp với những công trình hướng đến vẻ đẹp truyền thống",
+    "chatLieu": "Gốm, men màu vàng hổ phách",
+    "kyThuat": "Tạo hình ngói, tạo họa tiết trang trí và hoàn thiện bề mặt men",
     "xuatXu": "Làng gốm Bát Tràng, Hà Nội.",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
+    "dacDiemTitle": "Nét mộc mạc làm nên giá trị",
+    "dacDiemDescription": "Từ hình dáng ngói truyền thống đến sắc men ấm áp, sản phẩm góp phần tạo nên vẻ đẹp cổ kính và dấu ấn riêng cho không gian kiến trúc",
+    "chatLieuVaMauSac": "Men gốm màu vàng hổ phách, tạo vẻ ấm áp, nổi bật và tăng tính thẩm mỹ",
+    "hoaTietVaKieuDang": "Ngói dáng mũi hài với phần đầu cong đặc trưng, kết hợp họa tiết nổi, tôn lên nét đẹp truyền thống",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS gốm hải long/sanpham3.png"
+    ],
+    "sourcePdfPage": 71,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Gốm, men màu vàng hổ phách",
+      "kyThuat": "Tạo hình ngói, tạo họa tiết trang trí và hoàn thiện bề mặt men",
+      "xuatXu": "Làng gốm Bát Tràng, Hà Nội",
+      "itemDescription": "Ngói mũi hài mang sắc vàng hổ phách ấm, kết hợp kiểu dáng truyền thống và họa tiết trang trí nổi trên bề mặt. Sản phẩm gợi nét kiến trúc cổ, phù hợp với những công trình hướng đến vẻ đẹp truyền thống",
+      "dacDiemTitle": "Nét mộc mạc làm nên giá trị",
+      "dacDiemDescription": "Từ hình dáng ngói truyền thống đến sắc men ấm áp, sản phẩm góp phần tạo nên vẻ đẹp cổ kính và dấu ấn riêng cho không gian kiến trúc",
+      "chatLieuVaMauSac": "Men gốm màu vàng hổ phách, tạo vẻ ấm áp, nổi bật và tăng tính thẩm mỹ",
+      "hoaTietVaKieuDang": "Ngói dáng mũi hài với phần đầu cong đặc trưng, kết hợp họa tiết nổi, tôn lên nét đẹp truyền thống",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline 096 201 60 1 Email info@gomhailong.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế riêng và báo giá theo nhu cầu Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_GBT_16",
     "coSoSanXuatId": "GBT_GHL",
-    "name": "",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "name": "Bộ ấm trà quả hồng",
+    "itemDescription": "Bộ ấm trà gây ấn tượng bởi dáng ấm tròn đầy, họa tiết trang trí xanh lam và phần chi tiết bọc đồng tạo điểm nhấn. Bộ sản phẩm phù hợp với không gian thưởng trà truyền thống, tiếp khách hoặc làm quà tặng",
+    "chatLieu": "Gốm sứ, chi tiết bọc đồng",
+    "kyThuat": "Tạo hình gốm, vẽ họa tiết trang trí, tráng men và hoàn thiện chi tiết bọc đồng",
     "xuatXu": "Làng gốm Bát Tràng, Hà Nội.",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
+    "dacDiemTitle": "Nét mộc mạc làm nên giá trị",
+    "dacDiemDescription": "Bộ ấm trà kết hợp vẻ đẹp của gốm thủ công với những chi tiết trang trí tinh tế, mang đến cảm giác ấm cúng và trang nhã cho không gian thưởng trà",
+    "chatLieuVaMauSac": "Gốm tông sáng, điểm xuyết họa tiết xanh lam và chi tiết bọc đồng, tạo vẻ hài hòa, nổi bật",
+    "hoaTietVaKieuDang": "Ấm dáng tròn đầy, đi kèm chén trà đồng bộ, trang trí họa tiết mềm mại, kết hợp bọc đồng mang nét truyền thống và độc đáo",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS gốm hải long/sanpham4.jpg"
+    ],
+    "sourcePdfPage": 72,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Gốm sứ, chi tiết bọc đồng",
+      "kyThuat": "Tạo hình gốm, vẽ họa tiết trang trí, tráng men và hoàn thiện chi tiết bọc đồng",
+      "xuatXu": "Làng gốm Bát Tràng, Hà Nội",
+      "itemDescription": "Bộ ấm trà gây ấn tượng bởi dáng ấm tròn đầy, họa tiết trang trí xanh lam và phần chi tiết bọc đồng tạo điểm nhấn. Bộ sản phẩm phù hợp với không gian thưởng trà truyền thống, tiếp khách hoặc làm quà tặng",
+      "dacDiemTitle": "Nét mộc mạc làm nên giá trị",
+      "dacDiemDescription": "Bộ ấm trà kết hợp vẻ đẹp của gốm thủ công với những chi tiết trang trí tinh tế, mang đến cảm giác ấm cúng và trang nhã cho không gian thưởng trà",
+      "chatLieuVaMauSac": "Gốm tông sáng, điểm xuyết họa tiết xanh lam và chi tiết bọc đồng, tạo vẻ hài hòa, nổi bật",
+      "hoaTietVaKieuDang": "Ấm dáng tròn đầy, đi kèm chén trà đồng bộ, trang trí họa tiết mềm mại, kết hợp bọc đồng mang nét truyền thống và độc đáo",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline 096 201 60 1 Email info@gomhailong.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế riêng và báo giá theo nhu cầu Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_GBT_17",
     "coSoSanXuatId": "GBT_GHL",
-    "name": "",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "name": "Bộ ấm chén tử sa",
+    "itemDescription": "Bộ ấm chén có tông nâu trầm, dáng nhỏ gọn và họa tiết hoa sen đắp nổi trên thân ấm. Thiết kế hướng đến vẻ đẹp giản dị, phù hợp với người yêu thích thưởng trà và các sản phẩm gốm mang dấu ấn thủ công",
+    "chatLieu": "Gốm màu nâu trầm",
+    "kyThuat": "Tạo hình ấm chén, đắp nổi họa tiết hoa sen và hoàn thiện bề mặt",
     "xuatXu": "Làng gốm Bát Tràng, Hà Nội.",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
+    "dacDiemTitle": "Nét mộc mạc làm nên giá trị",
+    "dacDiemDescription": "Nét mộc mạc làm nên giá trị. Sự kết hợp giữa sắc nâu trầm và họa tiết hoa sen tạo nên vẻ đẹp giản dị, thanh nhã, phù hợp với không gian thưởng trà truyền thống",
+    "chatLieuVaMauSac": "Sắc nâu trầm kết hợp họa tiết hoa sen tạo vẻ mộc mạc, thanh nhã, phù hợp với không gian thưởng trà truyền thống",
+    "hoaTietVaKieuDang": "Gốm tông nâu trầm, bề mặt mộc mạc, tôn lên vẻ đẹp tự nhiên của chất liệu",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS gốm hải long/sanpham3.jpg"
+    ],
+    "sourcePdfPage": 73,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Gốm màu nâu trầm",
+      "kyThuat": "Tạo hình ấm chén, đắp nổi họa tiết hoa sen và hoàn thiện bề mặt",
+      "xuatXu": "Làng gốm Bát Tràng, Hà Nội",
+      "itemDescription": "Bộ ấm chén có tông nâu trầm, dáng nhỏ gọn và họa tiết hoa sen đắp nổi trên thân ấm. Thiết kế hướng đến vẻ đẹp giản dị, phù hợp với người yêu thích thưởng trà và các sản phẩm gốm mang dấu ấn thủ công",
+      "dacDiemTitle": "Nét mộc mạc làm nên giá trị",
+      "dacDiemDescription": "Nét mộc mạc làm nên giá trị. Sự kết hợp giữa sắc nâu trầm và họa tiết hoa sen tạo nên vẻ đẹp giản dị, thanh nhã, phù hợp với không gian thưởng trà truyền thống",
+      "chatLieuVaMauSac": "Sắc nâu trầm kết hợp họa tiết hoa sen tạo vẻ mộc mạc, thanh nhã, phù hợp với không gian thưởng trà truyền thống",
+      "hoaTietVaKieuDang": "Gốm tông nâu trầm, bề mặt mộc mạc, tôn lên vẻ đẹp tự nhiên của chất liệu",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline 096 201 60 1 Email info@gomhailong.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế riêng và báo giá theo nhu cầu Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_GBT_18",
     "coSoSanXuatId": "GBT_GHL",
-    "name": "",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "name": "Nồi đất Nodacook",
+    "itemDescription": "Nồi đất dung tích 2 lít có thiết kế tròn, nắp đậy kín và hai quai cầm hai bên. Tông nâu trầm mang vẻ mộc mạc, phù hợp với nhu cầu chế biến và trình bày các món ăn trong bữa cơm gia đình",
+    "chatLieu": "Gốm đất nung",
+    "kyThuat": "Tạo hình thân nồi, nắp và quai cầm; hoàn thiện bề mặt và nung sản phẩm",
     "xuatXu": "Làng gốm Bát Tràng, Hà Nội.",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
+    "dacDiemTitle": "Nét mộc mạc làm nên giá trị",
+    "dacDiemDescription": "Nét mộc mạc làm nên giá trị. Với kiểu dáng gần gũi và thiết kế chú trọng công năng, nồi đất Nodacook mang đến lựa chọn phù hợp cho những bữa cơm gia đình, kết hợp nét truyền thống với nhu cầu sử dụng hằng ngày",
+    "chatLieuVaMauSac": "Gốm tông nâu trầm, bề mặt mộc mạc, tạo cảm giác giản dị và ấm áp",
+    "hoaTietVaKieuDang": "Nồi dáng tròn, thân rộng, nắp đồng bộ và hai quai cầm tiện dụng. Thiết kế đơn giản, chú trọng công năng",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS gốm hải long/sanpham6.png"
+    ],
+    "sourcePdfPage": 74,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Gốm đất nung",
+      "kyThuat": "Tạo hình thân nồi, nắp và quai cầm; hoàn thiện bề mặt và nung sản phẩm",
+      "xuatXu": "Làng gốm Bát Tràng, Hà Nội",
+      "itemDescription": "Nồi đất dung tích 2 lít có thiết kế tròn, nắp đậy kín và hai quai cầm hai bên. Tông nâu trầm mang vẻ mộc mạc, phù hợp với nhu cầu chế biến và trình bày các món ăn trong bữa cơm gia đình",
+      "dacDiemTitle": "Nét mộc mạc làm nên giá trị",
+      "dacDiemDescription": "Nét mộc mạc làm nên giá trị. Với kiểu dáng gần gũi và thiết kế chú trọng công năng, nồi đất Nodacook mang đến lựa chọn phù hợp cho những bữa cơm gia đình, kết hợp nét truyền thống với nhu cầu sử dụng hằng ngày",
+      "chatLieuVaMauSac": "Gốm tông nâu trầm, bề mặt mộc mạc, tạo cảm giác giản dị và ấm áp",
+      "hoaTietVaKieuDang": "Nồi dáng tròn, thân rộng, nắp đồng bộ và hai quai cầm tiện dụng. Thiết kế đơn giản, chú trọng công năng",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline 096 201 60 1 Email info@gomhailong.com Dịch vụ đi kèm Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế riêng và báo giá theo nhu cầu Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_GBT_19",
@@ -3311,7 +4418,20 @@ export const products =
     "isFeatured": true,
     "images": [
       "/download/images/CS Gốm tới liên/sanpham1.jpg"
-    ]
+    ],
+    "sourcePdfPage": 63,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Gốm",
+      "kyThuat": "Tạo hình gốm, trang trí họa tiết nổi và hoàn thiện bề mặt",
+      "xuatXu": "Làng gốm Bát Tràng, Hà Nội",
+      "itemDescription": "Ấm trà gốm mang gam màu trầm mộc mạc, nổi bật với họa tiết hoa cúc trắng ngà được tạo hình tinh tế, tạo nên vẻ đẹp thanh nhã cho không gian thưởng trà",
+      "dacDiemTitle": "Thanh nhã trong từng đường nét",
+      "dacDiemDescription": "Sự kết hợp giữa gam màu trầm và họa tiết hoa cúc trắng ngà tạo nên nét đẹp nhẹ nhàng, tinh tế. Sản phẩm phù hợp với những không gian thưởng trà mang phong cách truyền thống, đề cao sự giản dị và thanh nhã",
+      "chatLieuVaMauSac": "Tông nâu xám trầm, kết hợp chi tiết trắng ngà, tạo vẻ mộc mạc và nổi bật",
+      "hoaTietVaKieuDang": "Ấm dáng tròn thấp, vòi cong, quai uốn mềm mại, trang trí hoa cúc trắng tạo hình nổi, mang nét thanh nhã, tinh tế",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline 0962 776 595 (Khuất Thị Hồng Liên ) Dịch vụ đi kèm Liên hệ trực tiếp để trao đổi mẫu thiết kế, số lượng và yêu cầu đặt hàng đạo cụ ấm chén Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_GBT_20",
@@ -3328,7 +4448,20 @@ export const products =
     "isFeatured": true,
     "images": [
       "/download/images/CS Gốm tới liên/Sanpham2.jpg"
-    ]
+    ],
+    "sourcePdfPage": 64,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Gốm",
+      "kyThuat": "Tạo hình gốm, trang trí họa tiết nổi và hoàn thiện bề mặt",
+      "xuatXu": "Làng gốm Bát Tràng, Hà Nội",
+      "itemDescription": "Ấm trà gốm gây ấn tượng với họa tiết rồng và vân mây nổi trên nền nâu trầm, kết hợp kiểu dáng cổ điển cùng những đường nét tạo hình giàu tính nghệ thuật",
+      "dacDiemTitle": "Dấu ấn nghệ thuật trong từng họa tiết",
+      "dacDiemDescription": "Lấy cảm hứng từ hình tượng rồng và mây trong nghệ thuật truyền thống, chiếc ấm gây ấn tượng bởi các chi tiết tạo hình nổi trên nền gốm nâu trầm mang vẻ cổ điển, phù hợp với không gian thưởng trà hoặc trưng bày đồ gốm nghệ thuật",
+      "chatLieuVaMauSac": "Tông nâu đất trầm kết hợp chi tiết nâu sáng, tạo vẻ cổ điển, mộc mạc",
+      "hoaTietVaKieuDang": "Ấm dáng tròn chắc chắn, vòi và quai uốn cong, trang trí họa tiết rồng và vân mây nổi bật, mang nét mạnh mẽ, nghệ thuật",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline 0962 776 595 (Khuất Thị Hồng Liên ) Dịch vụ đi kèm Liên hệ trực tiếp để trao đổi mẫu thiết kế, số lượng và yêu cầu đặt hàng đạo cụ ấm chén Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_GBT_21",
@@ -3345,7 +4478,20 @@ export const products =
     "isFeatured": true,
     "images": [
       "/download/images/CS Gốm tới liên/Sanpham3.jpg"
-    ]
+    ],
+    "sourcePdfPage": 65,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Gốm",
+      "kyThuat": "Tạo hình gốm, trang trí họa tiết nổi và hoàn thiện bề mặt",
+      "xuatXu": "Làng gốm Bát Tràng, Hà Nội",
+      "itemDescription": "Lấy cảm hứng từ hình tượng cá chép hóa rồng, sản phẩm kết hợp gam màu nâu đất với họa tiết nổi độc đáo, thể hiện nét đẹp văn hóa truyền thống qua nghệ thuật tạo hình gốm",
+      "dacDiemTitle": "Vượt dòng hóa rồng, gửi gắm khát vọng vươn xa",
+      "dacDiemDescription": "Hình tượng cá chép hóa rồng được thể hiện qua những đường nét tạo hình nổi bật trên thân ấm. Sự kết hợp giữa sắc nâu đất và các chi tiết trang trí màu sáng giúp sản phẩm vừa giữ được nét mộc mạc của gốm, vừa tạo điểm nhấn giàu ý nghĩa văn hóa",
+      "chatLieuVaMauSac": "Tông nâu đất kết hợp chi tiết trắng ngà, tạo sự tương phản hài hòa",
+      "hoaTietVaKieuDang": "Ấm dáng tròn, vòi cong, quai cách điệu, trang trí họa tiết cá chép hóa rồng đắp nổi, tượng trưng cho may mắn và thăng tiến",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline 0962 776 595 (Khuất Thị Hồng Liên ) Dịch vụ đi kèm Liên hệ trực tiếp để trao đổi mẫu thiết kế, số lượng và yêu cầu đặt hàng đạo cụ ấm chén Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_GBT_22",
@@ -3362,7 +4508,20 @@ export const products =
     "isFeatured": true,
     "images": [
       "/download/images/CS Gốm tới liên/sanpham4.jpg"
-    ]
+    ],
+    "sourcePdfPage": 66,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Gốm",
+      "kyThuat": "Tạo hình gốm, trang trí họa tiết hoa sen và hoàn thiện bề mặt",
+      "xuatXu": "Làng gốm Bát Tràng, Hà Nội",
+      "itemDescription": "Bộ ấm chén gốm đồng bộ với họa tiết hoa sen trắng ngà trên nền nâu ấm, mang đến vẻ trang nhã cho những buổi thưởng trà và tiếp khách",
+      "dacDiemTitle": "Nét duyên của hoa sen",
+      "dacDiemDescription": "Bộ ấm chén gây thiện cảm với thiết kế đồng bộ và họa tiết hoa sen trang nhã. Tông màu nâu ấm kết hợp các chi tiết trắng ngà tạo nên tổng thể hài hòa, thích hợp cho những buổi thưởng trà, tiếp khách hoặc làm quà tặng",
+      "chatLieuVaMauSac": "Tông nâu đất ấm áp kết hợp họa tiết hoa sen trắng ngà, tạo vẻ hài hòa, trang nhã",
+      "hoaTietVaKieuDang": "Bộ ấm chén gồm ấm, chén và đĩa lót đồng bộ, trang trí hoa sen đắp nổi mềm mại, phù hợp với không gian thưởng trà truyền thống",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline 0962 776 595 (Khuất Thị Hồng Liên ) Dịch vụ đi kèm Liên hệ trực tiếp để trao đổi mẫu thiết kế, số lượng và yêu cầu đặt hàng đạo cụ ấm chén Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_GBT_23",
@@ -3379,7 +4538,20 @@ export const products =
     "isFeatured": true,
     "images": [
       "/download/images/CS Gốm tới liên/sanpham5.jpg"
-    ]
+    ],
+    "sourcePdfPage": 67,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Gốm",
+      "kyThuat": "Tạo hình gốm, trang trí họa tiết hoa sen và hoàn thiện bề mặt",
+      "xuatXu": "Làng gốm Bát Tràng, Hà Nội",
+      "itemDescription": "Ấm trà gốm nổi bật với họa tiết hoa sen nổi trên nền nâu trầm, kết hợp dáng ấm tròn đầy và đường nét mềm mại, tạo điểm nhấn tinh tế cho bàn trà",
+      "dacDiemTitle": "Dáng gốm mộc mạc, nét sen thanh tao",
+      "dacDiemDescription": "Bộ ấm chén gây thiện cảm với thiết kế đồng bộ và họa tiết hoa sen trang nhã. Tông màu nâu ấm kết hợp các chi tiết trắng ngà tạo nên tổng thể hài hòa, thích hợp cho những buổi thưởng trà, tiếp khách hoặc làm quà tặng",
+      "chatLieuVaMauSac": "Tông nâu trầm kết hợp họa tiết hoa sen trắng ngà, tạo vẻ mộc mạc, cổ điển",
+      "hoaTietVaKieuDang": "Ấm dáng tròn đầy, vòi cong, quai uốn mềm mại, trang trí hoa sen đắp nổi tinh tế trên thân ấm",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline 0962 776 595 (Khuất Thị Hồng Liên ) Dịch vụ đi kèm Liên hệ trực tiếp để trao đổi mẫu thiết kế, số lượng và yêu cầu đặt hàng đạo cụ ấm chén Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_GBT_24",
@@ -3396,187 +4568,409 @@ export const products =
     "isFeatured": true,
     "images": [
       "/download/images/CS Gốm tới liên/Sanpham6.jpg"
-    ]
+    ],
+    "sourcePdfPage": 68,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Gốm",
+      "kyThuat": "Tạo hình gốm, trang trí họa tiết hoa nổi và hoàn thiện bề mặt",
+      "xuatXu": "Làng gốm Bát Tràng, Hà Nội",
+      "itemDescription": "Hũ gốm đựng trà có dáng tròn cân đối, phối màu trầm cùng họa tiết hoa sen trang nhã, phù hợp để bảo quản trà và trang trí không gian thưởng trà",
+      "dacDiemTitle": "Lưu giữ hương trà, tô điểm không gian",
+      "dacDiemDescription": "Sản phẩm kết hợp công năng đựng trà với giá trị trang trí thông qua kiểu dáng cân đối và họa tiết hoa sen thanh nhã. Gam màu trầm tạo cảm giác gần gũi, phù hợp với bàn trà gia đình hoặc không gian trưng bày gốm",
+      "chatLieuVaMauSac": "Tông nâu xanh trầm kết hợp họa tiết hoa sen trắng xanh, hài hòa",
+      "hoaTietVaKieuDang": "Hũ dáng tròn, miệng rộng, nắp đồng bộ, trang trí hoa sen và đường nét mềm mại, giữ tổng thể cân đối, tinh tế",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline 0962 776 595 (Khuất Thị Hồng Liên ) Dịch vụ đi kèm Liên hệ trực tiếp để trao đổi mẫu thiết kế, số lượng và yêu cầu đặt hàng đạo cụ ấm chén Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_GBT_25",
     "coSoSanXuatId": "GBT_GSMH",
-    "name": "",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "name": "Bộ ấm trà Lam Điệp",
+    "itemDescription": "Bộ ấm trà gốm mang sắc xanh lam trầm, kết hợp các chi tiết trang trí tinh tế và thiết kế đồng bộ, tạo nên vẻ đẹp cổ điển cho không gian thưởng trà",
+    "chatLieu": "Gốm",
+    "kyThuat": "Tạo hình gốm, trang trí họa tiết và hoàn thiện bề mặt",
     "xuatXu": "Làng gốm Bát Tràng, Hà Nội.",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
+    "dacDiemTitle": "Thanh nhã sắc lam, điểm tô nét đẹp thưởng trà",
+    "dacDiemDescription": "Bộ ấm trà gây ấn tượng với gam màu xanh lam trầm cùng thiết kế đồng bộ giữa ấm, chén và các phụ kiện đi kèm. Tổng thể mang vẻ đẹp cổ điển, phù hợp với không gian thưởng trà truyền thống hoặc trưng bày đồ gốm nghệ thuật.",
+    "chatLieuVaMauSac": "Tông xanh lam đậm kết hợp các chi tiết trang trí sáng màu",
+    "hoaTietVaKieuDang": "Bộ ấm trà gồm ấm, chén và phụ kiện đồng bộ, thiết kế cân đối, trang nhã, phù hợp để thưởng trà và tiếp khách",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS Gốm Mạnh Hoa/sanpham1.jpg"
+    ],
+    "sourcePdfPage": 43,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Gốm",
+      "kyThuat": "Tạo hình gốm, trang trí họa tiết và hoàn thiện bề mặt",
+      "xuatXu": "Làng gốm Bát Tràng, Hà Nội",
+      "itemDescription": "Bộ ấm trà gốm mang sắc xanh lam trầm, kết hợp các chi tiết trang trí tinh tế và thiết kế đồng bộ, tạo nên vẻ đẹp cổ điển cho không gian thưởng trà",
+      "dacDiemTitle": "Thanh nhã sắc lam, điểm tô nét đẹp thưởng trà",
+      "dacDiemDescription": "Bộ ấm trà gây ấn tượng với gam màu xanh lam trầm cùng thiết kế đồng bộ giữa ấm, chén và các phụ kiện đi kèm. Tổng thể mang vẻ đẹp cổ điển, phù hợp với không gian thưởng trà truyền thống hoặc trưng bày đồ gốm nghệ thuật.",
+      "chatLieuVaMauSac": "Tông xanh lam đậm kết hợp các chi tiết trang trí sáng màu",
+      "hoaTietVaKieuDang": "Bộ ấm trà gồm ấm, chén và phụ kiện đồng bộ, thiết kế cân đối, trang nhã, phù hợp để thưởng trà và tiếp khách",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline 0915 062 662 (Phượng) Dịch vụ đi kèm Tư vấn sản phẩm, trao đổi đơn hàng sỉ và nhu cầu đặt hàng theo yêu cầu; các dịch vụ cụ thể cần được xác nhận với cơ sở Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_GBT_26",
     "coSoSanXuatId": "GBT_GSMH",
-    "name": "",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "name": "Bộ ấm trà Thanh Diệp",
+    "itemDescription": "Bộ ấm trà gốm phủ sắc xanh ngọc dịu mắt, nổi bật với thiết kế ấm trà và chén nhỏ được sắp xếp hài hòa trên khay đồng bộ, mang đến cảm giác thư thái cho những buổi thưởng trà",
+    "chatLieu": "Gốm",
+    "kyThuat": "Tạo hình gốm, trang trí bề mặt và hoàn thiện sản phẩm",
     "xuatXu": "Làng gốm Bát Tràng, Hà Nội.",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
+    "dacDiemTitle": "Sắc xanh an nhiên, khơi nguồn tĩnh tại",
+    "dacDiemDescription": "Bộ ấm trà gây chú ý với màu xanh ngọc nhẹ nhàng và cách sắp xếp các chén trà thành một tổng thể cân đối. Thiết kế mang hơi hướng gần gũi với thiên nhiên, phù hợp với không gian thưởng trà tối giản hoặc phong cách Á Đông",
+    "chatLieuVaMauSac": "Tông xanh ngọc nhẹ nhàng, bề mặt mịn màng, tạo cảm giác thư thái và hài hòa",
+    "hoaTietVaKieuDang": "Ấm trà dáng tròn thấp, quai và nắp mềm mại, kết hợp chén nhỏ và khay cách điệu, tạo tổng thể đồng bộ, tinh tế",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS Gốm Mạnh Hoa/sanpham2.jpg"
+    ],
+    "sourcePdfPage": 44,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Gốm",
+      "kyThuat": "Tạo hình gốm, trang trí bề mặt và hoàn thiện sản phẩm",
+      "xuatXu": "Làng gốm Bát Tràng, Hà Nội",
+      "itemDescription": "Bộ ấm trà gốm phủ sắc xanh ngọc dịu mắt, nổi bật với thiết kế ấm trà và chén nhỏ được sắp xếp hài hòa trên khay đồng bộ, mang đến cảm giác thư thái cho những buổi thưởng trà",
+      "dacDiemTitle": "Sắc xanh an nhiên, khơi nguồn tĩnh tại",
+      "dacDiemDescription": "Bộ ấm trà gây chú ý với màu xanh ngọc nhẹ nhàng và cách sắp xếp các chén trà thành một tổng thể cân đối. Thiết kế mang hơi hướng gần gũi với thiên nhiên, phù hợp với không gian thưởng trà tối giản hoặc phong cách Á Đông",
+      "chatLieuVaMauSac": "Tông xanh ngọc nhẹ nhàng, bề mặt mịn màng, tạo cảm giác thư thái và hài hòa",
+      "hoaTietVaKieuDang": "Ấm trà dáng tròn thấp, quai và nắp mềm mại, kết hợp chén nhỏ và khay cách điệu, tạo tổng thể đồng bộ, tinh tế",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline 0915 062 662 (Phượng) Dịch vụ đi kèm Tư vấn sản phẩm, trao đổi đơn hàng sỉ và nhu cầu đặt hàng theo yêu cầu; các dịch vụ cụ thể cần được xác nhận với cơ sở Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_GBT_27",
     "coSoSanXuatId": "GBT_GSMH",
-    "name": "",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "name": "Khay mứt men hỏa biến",
+    "itemDescription": "Khay mứt gốm được chia thành nhiều ngăn nhỏ, nổi bật với sắc men đa dạng và kiểu dáng độc đáo, phù hợp để bày mứt, bánh kẹo hoặc các món ăn nhẹ khi tiếp khách",
+    "chatLieu": "Gốm",
+    "kyThuat": "Tạo hình khay nhiều ngăn, trang trí men và hoàn thiện bề mặt",
     "xuatXu": "Làng gốm Bát Tràng, Hà Nội.",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
+    "dacDiemTitle": "Sắc men biến chuyển, điểm nhấn nghệ thuật cho bàn trà",
+    "dacDiemDescription": "Sản phẩm kết hợp công năng bày biện với giá trị trang trí thông qua thiết kế nhiều ngăn và bảng màu phong phú. Hình dáng mềm mại cùng các chi tiết men tạo nên nét riêng cho không gian tiếp khách",
+    "chatLieuVaMauSac": "Khay men xanh, kết hợp các ngăn nhiều màu như vàng, hồng, tím, tạo vẻ sinh động, nổi bật",
+    "hoaTietVaKieuDang": "Khay chia nhiều ngăn theo bố cục tròn, viền uốn lượn cách điệu, phù hợp để đựng mứt, bánh kẹo hoặc trang trí",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS Gốm Mạnh Hoa/sanpham3.jpg"
+    ],
+    "sourcePdfPage": 45,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Gốm",
+      "kyThuat": "Tạo hình khay nhiều ngăn, trang trí men và hoàn thiện bề mặt",
+      "xuatXu": "Làng gốm Bát Tràng, Hà Nội",
+      "itemDescription": "Khay mứt gốm được chia thành nhiều ngăn nhỏ, nổi bật với sắc men đa dạng và kiểu dáng độc đáo, phù hợp để bày mứt, bánh kẹo hoặc các món ăn nhẹ khi tiếp khách",
+      "dacDiemTitle": "Sắc men biến chuyển, điểm nhấn nghệ thuật cho bàn trà",
+      "dacDiemDescription": "Sản phẩm kết hợp công năng bày biện với giá trị trang trí thông qua thiết kế nhiều ngăn và bảng màu phong phú. Hình dáng mềm mại cùng các chi tiết men tạo nên nét riêng cho không gian tiếp khách",
+      "chatLieuVaMauSac": "Khay men xanh, kết hợp các ngăn nhiều màu như vàng, hồng, tím, tạo vẻ sinh động, nổi bật",
+      "hoaTietVaKieuDang": "Khay chia nhiều ngăn theo bố cục tròn, viền uốn lượn cách điệu, phù hợp để đựng mứt, bánh kẹo hoặc trang trí",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline 0915 062 662 (Phượng) Dịch vụ đi kèm Tư vấn sản phẩm, trao đổi đơn hàng sỉ và nhu cầu đặt hàng theo yêu cầu; các dịch vụ cụ thể cần được xác nhận với cơ sở Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_GBT_28",
     "coSoSanXuatId": "GBT_GSMH",
-    "name": "",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "name": "Bộ đồ ăn men hỏa biến",
+    "itemDescription": "Bộ đồ ăn gốm sở hữu sắc men xanh đậm nổi bật, kết hợp các hình dáng cách điệu và thiết kế đồng bộ, tạo điểm nhấn nghệ thuật cho bàn ăn gia đình hoặc những dịp tiếp đãi đặc biệt",
+    "chatLieu": "Gốm",
+    "kyThuat": "Tạo hình gốm, trang trí men và hoàn thiện bề mặt",
     "xuatXu": "Làng gốm Bát Tràng, Hà Nội.",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
+    "dacDiemTitle": "Sắc men độc đáo, nâng tầm nghệ thuật",
+    "dacDiemDescription": "Bộ sản phẩm gây ấn tượng bởi sắc xanh đậm và các hình dáng được thiết kế khác biệt so với đồ ăn thông thường. Sự kết hợp giữa màu sắc và tạo hình giúp bàn ăn trở nên nổi bật, đồng thời thể hiện nét sáng tạo trong thiết kế gốm",
+    "chatLieuVaMauSac": "Gốm men xanh lam đậm với các sắc độ chuyển màu, tạo vẻ sang trọng và nổi bật",
+    "hoaTietVaKieuDang": "Bộ đồ ăn gồm đĩa, bát và khay nhỏ với kiểu dáng cách điệu, sắp xếp theo bố cục tròn hài hòa, phù hợp để bày biện và trang trí bàn ăn",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS Gốm Mạnh Hoa/sanpham4.jpg"
+    ],
+    "sourcePdfPage": 46,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Gốm",
+      "kyThuat": "Tạo hình gốm, trang trí men và hoàn thiện bề mặt",
+      "xuatXu": "Làng gốm Bát Tràng, Hà Nội",
+      "itemDescription": "Bộ đồ ăn gốm sở hữu sắc men xanh đậm nổi bật, kết hợp các hình dáng cách điệu và thiết kế đồng bộ, tạo điểm nhấn nghệ thuật cho bàn ăn gia đình hoặc những dịp tiếp đãi đặc biệt",
+      "dacDiemTitle": "Sắc men độc đáo, nâng tầm nghệ thuật",
+      "dacDiemDescription": "Bộ sản phẩm gây ấn tượng bởi sắc xanh đậm và các hình dáng được thiết kế khác biệt so với đồ ăn thông thường. Sự kết hợp giữa màu sắc và tạo hình giúp bàn ăn trở nên nổi bật, đồng thời thể hiện nét sáng tạo trong thiết kế gốm",
+      "chatLieuVaMauSac": "Gốm men xanh lam đậm với các sắc độ chuyển màu, tạo vẻ sang trọng và nổi bật",
+      "hoaTietVaKieuDang": "Bộ đồ ăn gồm đĩa, bát và khay nhỏ với kiểu dáng cách điệu, sắp xếp theo bố cục tròn hài hòa, phù hợp để bày biện và trang trí bàn ăn",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline 0915 062 662 (Phượng) Dịch vụ đi kèm Tư vấn sản phẩm, trao đổi đơn hàng sỉ và nhu cầu đặt hàng theo yêu cầu; các dịch vụ cụ thể cần được xác nhận với cơ sở Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_GBT_29",
     "coSoSanXuatId": "GBT_GSMH",
-    "name": "",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "name": "Hộp đựng trà Kim Hoa",
+    "itemDescription": "Hộp đựng trà gốm mang sắc đen bóng, điểm xuyết họa tiết ánh vàng tinh tế, kết hợp nắp đậy đồng bộ tạo nên vẻ đẹp sang trọng cho không gian thưởng trà",
+    "chatLieu": "Gốm",
+    "kyThuat": "Tạo hình hộp gốm, trang trí họa tiết và hoàn thiện bề mặt",
     "xuatXu": "Làng gốm Bát Tràng, Hà Nội.",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
+    "dacDiemTitle": "Lưu giữ vẻ đẹp tinh tuyển",
+    "dacDiemDescription": "Sản phẩm nổi bật với sự tương phản giữa nền gốm tối màu và họa tiết ánh vàng. Kiểu dáng gọn gàng kết hợp nắp đậy giúp hộp vừa có công năng lưu trữ, vừa tạo điểm nhấn thẩm mỹ trên bàn trà",
+    "chatLieuVaMauSac": "Tông đen bóng kết hợp họa tiết vàng ánh kim, tạo vẻ cổ điển và trang nhã",
+    "hoaTietVaKieuDang": "Hộp dáng tròn, nắp đậy vừa vặn, trang trí họa tiết ánh vàng nổi bật trên nền tối",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS Gốm Mạnh Hoa/sanpham5.jpg"
+    ],
+    "sourcePdfPage": 47,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Gốm",
+      "kyThuat": "Tạo hình hộp gốm, trang trí họa tiết và hoàn thiện bề mặt",
+      "xuatXu": "Làng gốm Bát Tràng, Hà Nội",
+      "itemDescription": "Hộp đựng trà gốm mang sắc đen bóng, điểm xuyết họa tiết ánh vàng tinh tế, kết hợp nắp đậy đồng bộ tạo nên vẻ đẹp sang trọng cho không gian thưởng trà",
+      "dacDiemTitle": "Lưu giữ vẻ đẹp tinh tuyển",
+      "dacDiemDescription": "Sản phẩm nổi bật với sự tương phản giữa nền gốm tối màu và họa tiết ánh vàng. Kiểu dáng gọn gàng kết hợp nắp đậy giúp hộp vừa có công năng lưu trữ, vừa tạo điểm nhấn thẩm mỹ trên bàn trà",
+      "chatLieuVaMauSac": "Tông đen bóng kết hợp họa tiết vàng ánh kim, tạo vẻ cổ điển và trang nhã",
+      "hoaTietVaKieuDang": "Hộp dáng tròn, nắp đậy vừa vặn, trang trí họa tiết ánh vàng nổi bật trên nền tối",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline 0915 062 662 (Phượng) Dịch vụ đi kèm Tư vấn sản phẩm, trao đổi đơn hàng sỉ và nhu cầu đặt hàng theo yêu cầu; các dịch vụ cụ thể cần được xác nhận với cơ sở Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
-    "id": "SP_GBT_29",
+    "id": "SP_GBT_30",
     "coSoSanXuatId": "GBT_GSMH",
-    "name": "Bộ Giành Tích Ủ Trà",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "name": "Khay lá sen",
+    "itemDescription": "Khay gốm lấy cảm hứng từ hình dáng lá sen, nổi bật với sắc xanh ngọc và đường viền uốn lượn tự nhiên, phù hợp để bày đồ ăn nhẹ hoặc trang trí không gian sống",
+    "chatLieu": "Gốm",
+    "kyThuat": "Tạo hình khay gốm, trang trí men và hoàn thiện bề mặt",
     "xuatXu": "Làng gốm Bát Tràng, Hà Nội.",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
+    "dacDiemTitle": "Dáng lá mềm mại, sắc men gợi nét thanh tao",
+    "dacDiemDescription": "Khay Lá Sen kết hợp cảm hứng từ thiên nhiên với nghệ thuật tạo hình gốm. Sắc xanh nổi bật cùng đường viền tự nhiên giúp sản phẩm tạo điểm nhấn trên bàn ăn, bàn trà hoặc trong không gian trưng bày đồ thủ công",
+    "chatLieuVaMauSac": "Tông xanh ngọc với lớp men chuyển sắc nhẹ nhàng, tạo cảm giác gần gũi với thiên nhiên",
+    "hoaTietVaKieuDang": "Khay mô phỏng lá sen, lòng rộng, viền uốn lượn và dáng bất đối xứng, phù hợp để bày đồ ăn hoặc trang trí",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS Gốm Mạnh Hoa/sanpham6.png"
+    ],
+    "sourcePdfPage": 48,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Gốm",
+      "kyThuat": "Tạo hình khay gốm, trang trí men và hoàn thiện bề mặt",
+      "xuatXu": "Làng gốm Bát Tràng, Hà Nội",
+      "itemDescription": "Khay gốm lấy cảm hứng từ hình dáng lá sen, nổi bật với sắc xanh ngọc và đường viền uốn lượn tự nhiên, phù hợp để bày đồ ăn nhẹ hoặc trang trí không gian sống",
+      "dacDiemTitle": "Dáng lá mềm mại, sắc men gợi nét thanh tao",
+      "dacDiemDescription": "Khay Lá Sen kết hợp cảm hứng từ thiên nhiên với nghệ thuật tạo hình gốm. Sắc xanh nổi bật cùng đường viền tự nhiên giúp sản phẩm tạo điểm nhấn trên bàn ăn, bàn trà hoặc trong không gian trưng bày đồ thủ công",
+      "chatLieuVaMauSac": "Tông xanh ngọc với lớp men chuyển sắc nhẹ nhàng, tạo cảm giác gần gũi với thiên nhiên",
+      "hoaTietVaKieuDang": "Khay mô phỏng lá sen, lòng rộng, viền uốn lượn và dáng bất đối xứng, phù hợp để bày đồ ăn hoặc trang trí",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline 0915 062 662 (Phượng) Dịch vụ đi kèm Tư vấn sản phẩm, trao đổi đơn hàng sỉ và nhu cầu đặt hàng theo yêu cầu; các dịch vụ cụ thể cần được xác nhận với cơ sở Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_LNX_01",
     "coSoSanXuatId": "LNX_LNX",
     "name": "Lụa hoa văn Phượng Vũ",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "itemDescription": "Lụa hoa văn Phượng Vũ nổi bật với sắc đỏ hồng sang trọng cùng họa tiết phượng. Sự kết hợp giữa màu sắc và hoa văn tạo nên chất liệu phù hợp cho áo dài, trang phục lễ hội và những thiết kế mang vẻ đẹp văn hóa.",
+    "chatLieu": "Lụa hoa văn; 70% tơ tằm, 30% polyester",
+    "kyThuat": "Dệt Jacquard tạo hoa văn phượng, kết hợp xử lý giúp bề mặt lụa mềm mại và có độ óng nhẹ",
     "xuatXu": "Làng Lụa Nha Xá, Ninh Bình",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
+    "dacDiemTitle": "Sắc phượng kiêu sa, tôn nét đẹp truyền thống",
+    "dacDiemDescription": "Sản phẩm gây ấn tượng bởi tông đỏ hồng đậm, kết hợp cùng hệ hoa văn có độ tương phản nhẹ. Tổng thể mang vẻ đẹp sang trọng, phù hợp với những thiết kế trang phục cần điểm nhấn và chiều sâu văn hóa.",
+    "chatLieuVaMauSac": "Nền vải màu đỏ hồng, bề mặt có hiệu ứng ánh sáng nhẹ khi quan sát.",
+    "hoaTietVaKieuDang": "Họa tiết phượng cách điệu nổi bật trên nền lụa đỏ hồng, với những đường nét uốn lượn mềm mại, tạo cảm giác uyển chuyển và thanh thoát.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS Lụa nha xá/sanpham1.png",
+      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn phượng vũ/ab105e41-2057-4c43-be16-06ec477fecfc.jpg",
+      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn phượng vũ/sanpham1 2.png",
+      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn phượng vũ/vn-11134207-81ztc-mnmcfqpq1rlw5a.webp",
+      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn phượng vũ/vn-11134207-81ztc-msozqv97oflw3e.webp",
+      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn phượng vũ/vn-11134207-81ztc-msoztuu8c5qic8.webp"
+    ],
+    "sourcePdfPage": 119,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Lụa hoa văn; 70% tơ tằm, 30% polyester",
+      "kyThuat": "Dệt Jacquard tạo hoa văn phượng, kết hợp xử lý giúp bề mặt lụa mềm mại và có độ óng nhẹ",
+      "xuatXu": "Làng Lụa Nha Xá",
+      "itemDescription": "Lụa hoa văn Phượng Vũ nổi bật với sắc đỏ hồng sang trọng cùng họa tiết phượng. Sự kết hợp giữa màu sắc và hoa văn tạo nên chất liệu phù hợp cho áo dài, trang phục lễ hội và những thiết kế mang vẻ đẹp văn hóa.",
+      "dacDiemTitle": "Sắc phượng kiêu sa, tôn nét đẹp truyền thống",
+      "dacDiemDescription": "Sản phẩm gây ấn tượng bởi tông đỏ hồng đậm, kết hợp cùng hệ hoa văn có độ tương phản nhẹ. Tổng thể mang vẻ đẹp sang trọng, phù hợp với những thiết kế trang phục cần điểm nhấn và chiều sâu văn hóa.",
+      "chatLieuVaMauSac": "Nền vải màu đỏ hồng, bề mặt có hiệu ứng ánh sáng nhẹ khi quan sát.",
+      "hoaTietVaKieuDang": "Họa tiết phượng cách điệu nổi bật trên nền lụa đỏ hồng, với những đường nét uốn lượn mềm mại, tạo cảm giác uyển chuyển và thanh thoát.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline 0943.549.019 Dịch vụ đi kèm Nhận đơn sỉ số lượng lớn, đặt lẻ từ 1 sản phẩm, hoàn thiện linh hoạt theo yêu cầu. Giá Liên hệ cơ sở để nhận báo giá theo mẫu mã, kích thước và số lượng đặt hàng. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_LNX_02",
     "coSoSanXuatId": "LNX_LNX",
-    "name": "Lụa hoa văn Phượng Vũ",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "name": "Lụa hoa văn Vân Bèo",
+    "itemDescription": "Lụa hoa văn Vân Bèo mang sắc hồng phấn dịu dàng, kết hợp cùng những đường nét hoa văn uốn lượn. Sản phẩm phù hợp với áo dài nữ tính và những mẫu trang phục hướng đến vẻ đẹp nhẹ nhàng, thanh lịch.",
+    "chatLieu": "Lụa hoa văn; 70% tơ tằm, 30% polyester.",
+    "kyThuat": "Dệt Jacquard tạo các đường vân, kết hợp xử lý nhằm tăng độ mềm mại và tạo hiệu ứng bề mặt tinh tế.",
     "xuatXu": "Làng Lụa Nha Xá, Ninh Bình",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
+    "dacDiemTitle": "Đường vân mềm mại, nét duyên thanh nhã",
+    "dacDiemDescription": "Điểm nhấn của sản phẩm nằm ở sự kết hợp giữa màu hồng phấn và các đường nét trang trí mềm mại. Thiết kế tạo cảm giác nhẹ nhàng, dễ ứng dụng trong nhiều phong cách trang phục khác nhau.",
+    "chatLieuVaMauSac": "Nền vải hồng phấn, hoa văn có sắc độ gần với màu nền.",
+    "hoaTietVaKieuDang": "Những đường vân uốn lượn đan xen trên nền hồng phấn, tạo nên nhịp điệu hoa văn nhẹ nhàng và liền mạch.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS Lụa nha xá/sanpham2.png",
+      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn vân bèo/77861cd1-baf4-4f5a-ae75-7cb71e322f1d.jpg",
+      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn vân bèo/vn-11134207-7ras8-m4jsj99s647jce.webp",
+      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn vân bèo/vn-11134207-81ztc-mphnb1xli1an09@resize_w900_nl.webp",
+      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn vân bèo/vn-11134207-81ztc-mphnfhr8kwzk8a.webp"
+    ],
+    "sourcePdfPage": 120,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Lụa hoa văn; 70% tơ tằm, 30% polyester.",
+      "kyThuat": "Dệt Jacquard tạo các đường vân, kết hợp xử lý nhằm tăng độ mềm mại và tạo hiệu ứng bề mặt tinh tế.",
+      "xuatXu": "Làng lụa Nha Xá",
+      "itemDescription": "Lụa hoa văn Vân Bèo mang sắc hồng phấn dịu dàng, kết hợp cùng những đường nét hoa văn uốn lượn. Sản phẩm phù hợp với áo dài nữ tính và những mẫu trang phục hướng đến vẻ đẹp nhẹ nhàng, thanh lịch.",
+      "dacDiemTitle": "Đường vân mềm mại, nét duyên thanh nhã",
+      "dacDiemDescription": "Điểm nhấn của sản phẩm nằm ở sự kết hợp giữa màu hồng phấn và các đường nét trang trí mềm mại. Thiết kế tạo cảm giác nhẹ nhàng, dễ ứng dụng trong nhiều phong cách trang phục khác nhau.",
+      "chatLieuVaMauSac": "Nền vải hồng phấn, hoa văn có sắc độ gần với màu nền.",
+      "hoaTietVaKieuDang": "Những đường vân uốn lượn đan xen trên nền hồng phấn, tạo nên nhịp điệu hoa văn nhẹ nhàng và liền mạch.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0943.549.019 Dịch vụ đi kèm Nhận đơn sỉ số lượng lớn, đặt lẻ từ 1 sản phẩm, dịch vụ thiết kế theo mẫu, hoàn thiện linh hoạt theo yêu cầu. Giá Liên hệ cơ sở để nhận báo giá theo mẫu mã, kích thước, độ cầu kỳ và số lượng đặt hàng. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_LNX_03",
     "coSoSanXuatId": "LNX_LNX",
-    "name": "Lụa hoa văn Phượng Vũ",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "name": "Lụa hoa văn Thọ dơi – Xám Bạc",
+    "itemDescription": "Lụa hoa văn Thọ Dơi phiên bản xám bạc mang vẻ đẹp trang nhã với gam màu trung tính. Tổng thể không quá rực rỡ nhưng vẫn tạo được điểm nhấn nhờ cách phối màu tinh tế, phù hợp với trang phục truyền thống, áo dài.",
+    "chatLieu": "Lụa hoa văn; 70% tơ tằm, 30% polyester.",
+    "kyThuat": "Dệt Jacquard tạo hoa văn truyền thống, kết hợp nhuộm màu xám bạc và xử lý hoàn tất bề mặt vải.",
     "xuatXu": "Làng Lụa Nha Xá, Ninh Bình",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
+    "dacDiemTitle": "Lưu giữ nét đẹp cổ truyền",
+    "dacDiemDescription": "Sản phẩm nổi bật với nền vải sáng màu cùng các họa tiết được bố trí đều đặn. Cách phối màu tạo cảm giác trang trọng, phù hợp với những thiết kế đề cao nét đẹp cổ điển và sự tinh tế.",
+    "chatLieuVaMauSac": "Nền xám bạc, hoa văn có sắc độ tương phản nhẹ.",
+    "hoaTietVaKieuDang": "Họa tiết chữ Thọ Dơi được thể hiện theo phong cách truyền thống, kết hợp các đường nét cân đối và bố cục hài hòa trên nền xám bạc.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS Lụa nha xá/sanpham3.webp",
+      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn thọ dơi - xám bạc/vn-11134207-81ztc-mnm8nit2oa9y0a.webp",
+      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn thọ dơi - xám bạc/vn-11134207-81ztc-mr74dtasusjk05@resize_w900_nl.webp",
+      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn thọ dơi - xám bạc/vn-11134207-81ztc-mrze9nqkpe6f75.webp",
+      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn thọ dơi - xám bạc/vn-11134207-81ztc-mrze9nrzs3k282.webp",
+      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn thọ dơi - xám bạc/vn-11134207-81ztc-mrziy0y6b5s2b8.webp"
+    ],
+    "sourcePdfPage": 121,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Lụa hoa văn; 70% tơ tằm, 30% polyester.",
+      "kyThuat": "Dệt Jacquard tạo hoa văn truyền thống, kết hợp nhuộm màu xám bạc và xử lý hoàn tất bề mặt vải.",
+      "xuatXu": "Làng lụa Nha Xá",
+      "itemDescription": "Lụa hoa văn Thọ Dơi phiên bản xám bạc mang vẻ đẹp trang nhã với gam màu trung tính. Tổng thể không quá rực rỡ nhưng vẫn tạo được điểm nhấn nhờ cách phối màu tinh tế, phù hợp với trang phục truyền thống, áo dài.",
+      "dacDiemTitle": "Lưu giữ nét đẹp cổ truyền",
+      "dacDiemDescription": "Sản phẩm nổi bật với nền vải sáng màu cùng các họa tiết được bố trí đều đặn. Cách phối màu tạo cảm giác trang trọng, phù hợp với những thiết kế đề cao nét đẹp cổ điển và sự tinh tế.",
+      "chatLieuVaMauSac": "Nền xám bạc, hoa văn có sắc độ tương phản nhẹ.",
+      "hoaTietVaKieuDang": "Họa tiết chữ Thọ Dơi được thể hiện theo phong cách truyền thống, kết hợp các đường nét cân đối và bố cục hài hòa trên nền xám bạc.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0943.549.019 Dịch vụ đi kèm Nhận đơn sỉ số lượng lớn, đặt lẻ từ 1 sản phẩm, dịch vụ thiết kế theo mẫu, hoàn thiện linh hoạt theo yêu cầu. Giá Liên hệ cơ sở để nhận báo giá theo mẫu mã, kích thước, độ cầu kỳ và số lượng đặt hàng. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_LNX_04",
     "coSoSanXuatId": "LNX_LNX",
-    "name": "Lụa hoa văn Phượng Vũ",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "name": "Lụa hoa văn Bách Liên Hoa",
+    "itemDescription": "Lụa hoa văn Bách Liên Hoa ấn tượng với gam xanh lam pha tím dịu mắt và những họa tiết hoa lá trải đều trên nền vải. Sản phẩm phù hợp cho áo dài, trang phục truyền thống và các thiết kế mang cảm hứng thiên nhiên.",
+    "chatLieu": "Lụa hoa văn; 70% tơ tằm, 30% polyester.",
+    "kyThuat": "Dệt Jacquard tạo họa tiết hoa lá, kết hợp nhuộm màu xanh lam pha tím để tăng tính thẩm mỹ cho bề mặt vải.",
     "xuatXu": "Làng Lụa Nha Xá, Ninh Bình",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
+    "dacDiemTitle": "Trăm hoa hội tụ, thanh nhã sắc Việt",
+    "dacDiemDescription": "Tông màu xanh lam pha tím mang lại cảm giác nhẹ nhàng, trong khi hệ hoa văn tạo chiều sâu cho bề mặt vải. Sản phẩm phù hợp với những thiết kế cần sự cân bằng giữa nét truyền thống và tính thẩm mỹ hiện đại.",
+    "chatLieuVaMauSac": "Nền xanh lam pha tím, hoa văn có sắc độ nhẹ nhàng.",
+    "hoaTietVaKieuDang": "Hệ hoa văn hoa lá được sắp xếp đan xen trên nền xanh lam pha tím, tạo cảm giác phong phú nhưng vẫn hài hòa.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS Lụa nha xá/sanpham4.jpg",
+      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn bách liên hoa/vn-11134207-81ztc-mpk7ds082rke67.webp",
+      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn bách liên hoa/vn-11134207-81ztc-mpk7ds122ya6c7.webp",
+      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn bách liên hoa/vn-11134207-81ztc-mpukqn6j1s7487.webp",
+      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn bách liên hoa/vn-11134207-81ztc-mrtx85b407wn92.jpg",
+      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn bách liên hoa/vn-11134207-81ztc-mrtxcm9fyb5t77.jpg"
+    ],
+    "sourcePdfPage": 122,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Lụa hoa văn; 70% tơ tằm, 30% polyester.",
+      "kyThuat": "Dệt Jacquard tạo họa tiết hoa lá, kết hợp nhuộm màu xanh lam pha tím để tăng tính thẩm mỹ cho bề mặt vải.",
+      "xuatXu": "Làng lụa Nha Xá",
+      "itemDescription": "Lụa hoa văn Bách Liên Hoa ấn tượng với gam xanh lam pha tím dịu mắt và những họa tiết hoa lá trải đều trên nền vải. Sản phẩm phù hợp cho áo dài, trang phục truyền thống và các thiết kế mang cảm hứng thiên nhiên.",
+      "dacDiemTitle": "Trăm hoa hội tụ, thanh nhã sắc Việt",
+      "dacDiemDescription": "Tông màu xanh lam pha tím mang lại cảm giác nhẹ nhàng, trong khi hệ hoa văn tạo chiều sâu cho bề mặt vải. Sản phẩm phù hợp với những thiết kế cần sự cân bằng giữa nét truyền thống và tính thẩm mỹ hiện đại.",
+      "chatLieuVaMauSac": "Nền xanh lam pha tím, hoa văn có sắc độ nhẹ nhàng.",
+      "hoaTietVaKieuDang": "Hệ hoa văn hoa lá được sắp xếp đan xen trên nền xanh lam pha tím, tạo cảm giác phong phú nhưng vẫn hài hòa.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0943.549.019 Dịch vụ đi kèm Nhận đơn sỉ số lượng lớn, đặt lẻ từ 1 sản phẩm, dịch vụ thiết kế theo mẫu, hoàn thiện linh hoạt theo yêu cầu. Giá Liên hệ cơ sở để nhận báo giá theo mẫu mã, kích thước, độ cầu kỳ và số lượng đặt hàng. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_LNX_05",
     "coSoSanXuatId": "LNX_LNX",
-    "name": "Lụa hoa văn Phượng Vũ",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "name": "Lụa hoa văn Sen Hồ Điệp",
+    "itemDescription": "Lụa hoa văn Sen Hồ Điệp sở hữu tông vàng nhạt trang nhã, kết hợp cùng những đường nét trang trí gợi hình ảnh thiên nhiên. Sắc vàng cùng hoa văn mềm mại tạo nên vẻ đẹp thanh lịch, thích hợp các thiết kế truyền thống.",
+    "chatLieu": "Lụa hoa văn; 70% tơ tằm, 30% polyester.",
+    "kyThuat": "Vải có hoa văn trang trí",
     "xuatXu": "Làng Lụa Nha Xá, Ninh Bình",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
+    "dacDiemTitle": "Sắc vàng trang nhã, thiên nhiên hài hòa",
+    "dacDiemDescription": "Sản phẩm tạo điểm nhấn bằng nền vàng nhạt kết hợp với hoa văn có sắc độ tinh tế. Tổng thể không quá cầu kỳ, phù hợp với những thiết kế đề cao sự thanh lịch và vẻ đẹp nền nã.",
+    "chatLieuVaMauSac": "Nền vàng nhạt, hoa văn có hiệu ứng ánh sáng nhẹ.",
+    "hoaTietVaKieuDang": "Hoa văn lấy cảm hứng từ hình tượng sen và hồ điệp, kết hợp trên nền vàng nhạt tạo nên tổng thể nhẹ nhàng, thanh thoát.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS Lụa nha xá/sanpham5.png",
+      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn sen hồ điệp/484824489_1044549594361729_4377349374783878228_n.jpg",
+      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn sen hồ điệp/485035892_1044549634361725_9085957628290583763_n.jpg",
+      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn sen hồ điệp/485687671_1047628964053792_5591196335653054878_n.jpg",
+      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn sen hồ điệp/vn-11134207-81ztc-mtdirh89lmv62e.webp",
+      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn sen hồ điệp/vn-11134207-81ztc-mtdirh987klgc0.webp"
+    ],
+    "sourcePdfPage": 123,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Lụa hoa văn; 70% tơ tằm, 30% polyester.",
+      "kyThuat": "Vải có hoa văn trang trí",
+      "xuatXu": "Làng lụa Nha Xá",
+      "itemDescription": "Lụa hoa văn Sen Hồ Điệp sở hữu tông vàng nhạt trang nhã, kết hợp cùng những đường nét trang trí gợi hình ảnh thiên nhiên. Sắc vàng cùng hoa văn mềm mại tạo nên vẻ đẹp thanh lịch, thích hợp các thiết kế truyền thống.",
+      "dacDiemTitle": "Sắc vàng trang nhã, thiên nhiên hài hòa",
+      "dacDiemDescription": "Sản phẩm tạo điểm nhấn bằng nền vàng nhạt kết hợp với hoa văn có sắc độ tinh tế. Tổng thể không quá cầu kỳ, phù hợp với những thiết kế đề cao sự thanh lịch và vẻ đẹp nền nã.",
+      "chatLieuVaMauSac": "Nền vàng nhạt, hoa văn có hiệu ứng ánh sáng nhẹ.",
+      "hoaTietVaKieuDang": "Hoa văn lấy cảm hứng từ hình tượng sen và hồ điệp, kết hợp trên nền vàng nhạt tạo nên tổng thể nhẹ nhàng, thanh thoát.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0943.549.019 Dịch vụ đi kèm Nhận đơn sỉ số lượng lớn, đặt lẻ từ 1 sản phẩm, dịch vụ thiết kế theo mẫu, hoàn thiện linh hoạt theo yêu cầu. Giá Liên hệ cơ sở để nhận báo giá theo mẫu mã, kích thước, độ cầu kỳ và số lượng đặt hàng. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_LNX_06",
     "coSoSanXuatId": "LNX_LNX",
-    "name": "Lụa hoa văn Phượng Vũ",
-    "itemDescription": "",
-    "chatLieu": "",
-    "kyThuat": "",
+    "name": "Lụa hoa văn Thọ dơi – Tím Hồng",
+    "itemDescription": "Lụa hoa văn Thọ Dơi phiên bản tím hồng nổi bật với gam màu đậm và hoa văn truyền thống được bố trí dày trên nền vải. Sắc tím hồng tạo cảm giác nổi bật, trong khi các chi tiết trang trí mang đến vẻ đẹp cổ điển.",
+    "chatLieu": "Lụa hoa văn; 70% tơ tằm, 30% polyester",
+    "kyThuat": "Dệt Jacquard tạo hoa văn truyền thống, kết hợp nhuộm màu tím hồng nhằm làm nổi bật họa tiết",
     "xuatXu": "Làng Lụa Nha Xá, Ninh Bình",
-    "dacDiemTitle": "",
-    "dacDiemDescription": "",
-    "chatLieuVaMauSac": "",
-    "hoaTietVaKieuDang": "",
+    "dacDiemTitle": "Nét cổ truyền, sắc màu sang trọng",
+    "dacDiemDescription": "Nền vải đậm màu kết hợp cùng hệ hoa văn tạo nên bề mặt giàu tính trang trí. So với phiên bản xám bạc, mẫu tím hồng mang sắc thái nổi bật hơn, phù hợp với những thiết kế cần tạo ấn tượng về màu sắc.",
+    "chatLieuVaMauSac": "Nền tím hồng đậm, hoa văn có độ tương phản với nền vải.",
+    "hoaTietVaKieuDang": "Họa tiết chữ Thọ Dơi được bố trí lặp lại trên nền tím hồng đậm, tạo nên bề mặt hoa văn nổi bật và có chiều sâu thị giác",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/CS Lụa nha xá/sanpham6.webp",
+      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn thọ dơi - tím hồng/vn-11134207-81ztc-mmgufvsdijgh85.webp",
+      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn thọ dơi - tím hồng/vn-11134207-81ztc-mmzfsscv7478a9@resize_w900_nl.webp",
+      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn thọ dơi - tím hồng/vn-11134207-81ztc-mrzeh2ubvl6tc2.webp",
+      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn thọ dơi - tím hồng/vn-11134207-81ztc-mrzeh2uf6zgg29.webp",
+      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn thọ dơi - tím hồng/vn-11134207-820l4-mii6xg6nwxdyee.webp"
+    ],
+    "sourcePdfPage": 124,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Lụa hoa văn; 70% tơ tằm, 30% polyester",
+      "kyThuat": "Dệt Jacquard tạo hoa văn truyền thống, kết hợp nhuộm màu tím hồng nhằm làm nổi bật họa tiết",
+      "xuatXu": "Làng lụa Nha Xá",
+      "itemDescription": "Lụa hoa văn Thọ Dơi phiên bản tím hồng nổi bật với gam màu đậm và hoa văn truyền thống được bố trí dày trên nền vải. Sắc tím hồng tạo cảm giác nổi bật, trong khi các chi tiết trang trí mang đến vẻ đẹp cổ điển.",
+      "dacDiemTitle": "Nét cổ truyền, sắc màu sang trọng",
+      "dacDiemDescription": "Nền vải đậm màu kết hợp cùng hệ hoa văn tạo nên bề mặt giàu tính trang trí. So với phiên bản xám bạc, mẫu tím hồng mang sắc thái nổi bật hơn, phù hợp với những thiết kế cần tạo ấn tượng về màu sắc.",
+      "chatLieuVaMauSac": "Nền tím hồng đậm, hoa văn có độ tương phản với nền vải.",
+      "hoaTietVaKieuDang": "Họa tiết chữ Thọ Dơi được bố trí lặp lại trên nền tím hồng đậm, tạo nên bề mặt hoa văn nổi bật và có chiều sâu thị giác",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0379 385 594 (Nguyễn Thị Yến) Dịch vụ đi kèm Nhận đơn sỉ số lượng lớn, đặt lẻ từ 1 sản phẩm, dịch vụ thiết kế theo mẫu, hoàn thiện linh hoạt theo yêu cầu. Giá Liên hệ cơ sở để nhận báo giá theo mẫu mã, kích thước, độ cầu kỳ và số lượng đặt hàng. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_SHV_01",
@@ -3591,7 +4985,27 @@ export const products =
     "chatLieuVaMauSac": "Nền hồng phấn pha tím, hoa văn có sắc độ đậm nhạt tạo chiều sâu cho bề mặt.",
     "hoaTietVaKieuDang": "Họa tiết tròn lấy cảm hứng từ hoa văn trống đồng, kết hợp các đường nét hình học và mô-típ trang trí truyền thống.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/Silk Hạ Vy/sanpham1.png",
+      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết trống đồng/115.png",
+      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết trống đồng/116.png",
+      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết trống đồng/118.png",
+      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết trống đồng/119.png",
+      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết trống đồng/image 59.png"
+    ],
+    "sourcePdfPage": 125,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Lụa hoa văn, 70% tơ tằm, 30% polyeste",
+      "kyThuat": "Dệt Jacquard tạo hoa văn trống đồng, kết hợp xử lý bề mặt để tăng độ mềm mại và hiệu ứng óng nhẹ",
+      "xuatXu": "Làng lụa Nha Xá",
+      "itemDescription": "Lụa Hoa Văn Trống Đồng nổi bật với sắc hồng tím dịu dàng kết hợp họa tiết trống đồng truyền thống, tạo nên vẻ đẹp vừa cổ điển vừa hiện đại, rất phù hợp cho áo dài và trang phục tôn vinh bản sắc Việt.",
+      "dacDiemTitle": "Họa tiết cổ truyền trên nền lụa sắc hồng trang nhã",
+      "dacDiemDescription": "Bề mặt vải gây ấn tượng bởi các họa tiết tròn được sắp xếp liên tục, tạo nhịp điệu thị giác hài hòa. Tông hồng tím kết hợp cùng sắc độ hoa văn trầm mang đến vẻ đẹp tinh tế, phù hợp với những thiết kế vừa có tính ứng dụng vừa chứa đựng giá trị văn hóa.",
+      "chatLieuVaMauSac": "Nền hồng phấn pha tím, hoa văn có sắc độ đậm nhạt tạo chiều sâu cho bề mặt.",
+      "hoaTietVaKieuDang": "Họa tiết tròn lấy cảm hứng từ hoa văn trống đồng, kết hợp các đường nét hình học và mô-típ trang trí truyền thống.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0824 399 987 - 0936 968 32 Dịch vụ đi kèm Nhận đơn sỉ số lượng lớn, đặt lẻ từ 1 sản phẩm. Giá Liên hệ cơ sở để nhận báo giá theo mẫu mã, kích thước, và số lượng đặt hàng. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_SHV_02",
@@ -3606,7 +5020,27 @@ export const products =
     "chatLieuVaMauSac": "Nền nâu vàng ánh đồng, hoa văn màu vàng kem tạo hiệu ứng tương phản nhẹ.",
     "hoaTietVaKieuDang": "Hoa văn hoa lá cách điệu với các cành, lá và cụm hoa đan xen, tạo bố cục liên tục trên bề mặt vải.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/Silk Hạ Vy/sanpham2.png",
+      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết văn bèo/750055114_122171963312702573_5773349679271158708_n.jpg",
+      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết văn bèo/750975528_122171962916702573_1670322622917590725_n.jpg",
+      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết văn bèo/751403216_122171963600702573_2332413209466842260_n.jpg",
+      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết văn bèo/798797572_122176819682702573_472252852712524341_n.jpg",
+      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết văn bèo/vn-11134207-7ras8-m15e69mtlxmj33.webp"
+    ],
+    "sourcePdfPage": 126,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Lụa hoa văn, 70% tơ tằm, 30% polyester.",
+      "kyThuat": "Dệt Jacquard tạo hoa văn hoa lá, kết hợp xử lý hoàn tất nhằm tăng độ mềm mại và làm nổi bật bề mặt vải",
+      "xuatXu": "Làng lụa Nha Xá",
+      "itemDescription": "Lụa Hoa Văn Hoa Bèo mang tông nâu vàng ấm áp, nổi bật với hệ hoa văn hoa lá được thể hiện dày và đều trên nền vải. Sản phẩm thích hợp cho áo dài, trang phục truyền thống và các thiết kế mang hơi hướng cổ điển.",
+      "dacDiemTitle": "Sắc nâu thanh nhã, hoa văn mềm mại",
+      "dacDiemDescription": "Sản phẩm tạo ấn tượng với các cụm hoa lá đan xen trên nền nâu vàng, mang đến cảm giác hài hòa và sang trọng. Hoa văn được phân bố tương đối đồng đều, giúp bề mặt vải có chiều sâu mà không làm mất đi sự nhẹ nhàng của tổng thể.",
+      "chatLieuVaMauSac": "Nền nâu vàng ánh đồng, hoa văn màu vàng kem tạo hiệu ứng tương phản nhẹ.",
+      "hoaTietVaKieuDang": "Hoa văn hoa lá cách điệu với các cành, lá và cụm hoa đan xen, tạo bố cục liên tục trên bề mặt vải.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0824 399 987 - 0936 968 32 Dịch vụ đi kèm Nhận đơn sỉ số lượng lớn, đặt lẻ từ 1 sản phẩm, dịch vụ thiết kế theo mẫu, hoàn thiện linh hoạt theo yêu cầu. Giá Liên hệ cơ sở để nhận báo giá theo mẫu mã, kích thước, độ cầu kỳ và số lượng đặt hàng. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_SHV_03",
@@ -3621,7 +5055,27 @@ export const products =
     "chatLieuVaMauSac": "Nền vàng nhạt phối xanh lam, hoa văn có sắc độ nhẹ nhàng.",
     "hoaTietVaKieuDang": "Hoa văn lấy cảm hứng từ sen và hồ điệp, thể hiện bằng những đường nét cách điệu trên nền vải sáng màu.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/Silk Hạ Vy/sanpham3.png",
+      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa  họa tiết sen hồ điệp/795697006_122177387540702573_3171883097456989638_n.jpg",
+      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa  họa tiết sen hồ điệp/809039048_122177387150702573_1189098113739789235_n.jpg",
+      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa  họa tiết sen hồ điệp/813804480_122177387390702573_2589954493518617100_n.jpg",
+      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa  họa tiết sen hồ điệp/813825139_122177387336702573_7436785209372892926_n.jpg",
+      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa  họa tiết sen hồ điệp/814660566_122177387426702573_2830616196582631165_n.jpg"
+    ],
+    "sourcePdfPage": 127,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Lụa hoa văn, 70% tơ tằm, 30% polyester.",
+      "kyThuat": "Dệt Jacquard tạo hoa văn thiên nhiên, kết hợp xử lý hoàn tất bề mặt để duy trì độ mềm mại và hiệu ứng ánh nhẹ.",
+      "xuatXu": "Làng lụa Nha Xá",
+      "itemDescription": "Lụa Hoa Văn Sen Hồ Điệp ết hợp gam vàng nhạt và xanh lam dịu mắt cùng họa tiết sen, hồ điệp mềm mại, rất phù hợp cho áo dài và trang phục truyền thống mang cảm hứng thiên nhiên.",
+      "dacDiemTitle": "Sen thanh tao, bướm nhẹ nhàng, sắc lụa an nhiên",
+      "dacDiemDescription": "Nền vải vàng nhạt kết hợp cùng các họa tiết xanh lam tạo nên sự tương phản tinh tế. Hoa văn được phân bố thoáng, giúp tổng thể nhẹ nhàng và phù hợp với những thiết kế đề cao sự thanh nhã.",
+      "chatLieuVaMauSac": "Nền vàng nhạt phối xanh lam, hoa văn có sắc độ nhẹ nhàng",
+      "hoaTietVaKieuDang": "Hoa văn lấy cảm hứng từ sen và hồ điệp, thể hiện bằng những đường nét cách điệu trên nền vải sáng màu.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0824 399 987 - 0936 968 32 Dịch vụ đi kèm Nhận đơn sỉ số lượng lớn, đặt lẻ từ 1 sản phẩm, dịch vụ thiết kế theo mẫu, hoàn thiện linh hoạt theo yêu cầu. Giá Liên hệ cơ sở để nhận báo giá theo mẫu mã, kích thước, độ cầu kỳ và số lượng đặt hàng. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_SHV_04",
@@ -3636,7 +5090,27 @@ export const products =
     "chatLieuVaMauSac": "Nền hồng đào pha hồng phấn, hoa văn hồng nhạt tạo hiệu ứng chìm nổi nhẹ.",
     "hoaTietVaKieuDang": "Họa tiết nhỏ dạng chấm và mô-típ trang trí cách điệu, được sắp xếp đều đặn trên nền vải.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/Silk Hạ Vy/sanpham4.png",
+      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết bồ công anh/717215950_122168579858702573_8474644397043665798_n.jpg",
+      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết bồ công anh/720467700_122168578310702573_2103647288352647541_n.jpg",
+      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết bồ công anh/bang-mau-lua-to-tam-nha-xa-bo-cong-anh-7.png",
+      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết bồ công anh/bang-mau-lua-to-tam-nha-xa-bo-cong-anh-8-768x768.png",
+      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết bồ công anh/bang-mau-lua-to-tam-nha-xa-bo-cong-anh-9-1-768x768.png"
+    ],
+    "sourcePdfPage": 128,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Lụa hoa văn, 70% tơ tằm, 30% polyester.",
+      "kyThuat": "Dệt Jacquard tạo hoa văn nhỏ trên nền vải, kết hợp xử lý hoàn tất để tạo bề mặt mềm mại và ánh nhẹ",
+      "xuatXu": "Làng lụa Nha Xá",
+      "itemDescription": "Lụa Hoa Văn Bồ Công Anh nổi bật với sắc hồng đào nhẹ nhàng cùng họa tiết tinh giản, nữ tính, rất phù hợp cho áo dài và trang phục thanh lịch, nhẹ nhàng.",
+      "dacDiemTitle": "Chạm nét mong manh, lưu giữ vẻ đẹp dịu dàng",
+      "dacDiemDescription": "Bề mặt vải được điểm xuyết bằng các họa tiết nhỏ có sắc độ gần với màu nền, tạo hiệu ứng trang trí kín đáo. Tông hồng đào giúp tổng thể thêm dịu dàng, dễ kết hợp với nhiều kiểu dáng trang phục.",
+      "chatLieuVaMauSac": "Nền hồng đào pha hồng phấn, hoa văn hồng nhạt tạo hiệu ứng chìm nổi nhẹ.",
+      "hoaTietVaKieuDang": "Họa tiết nhỏ dạng chấm và mô-típ trang trí cách điệu, được sắp xếp đều đặn trên nền vải.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0824 399 987 - 0936 968 32 Dịch vụ đi kèm Nhận đơn sỉ số lượng lớn, đặt lẻ từ 1 sản phẩm, dịch vụ thiết kế theo mẫu, hoàn thiện linh hoạt theo yêu cầu. Giá Liên hệ cơ sở để nhận báo giá theo mẫu mã, kích thước, độ cầu kỳ và số lượng đặt hàng. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_SHV_05",
@@ -3651,7 +5125,26 @@ export const products =
     "chatLieuVaMauSac": "Hai gam be sáng và cam đào, kết hợp các chấm tròn màu trắng kem.",
     "hoaTietVaKieuDang": "Họa tiết chấm tròn kích thước tương đối đồng đều, bố trí theo nhịp lặp lại trên bề mặt vải.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/Silk Hạ Vy/sanpham5.png",
+      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/Lụa họa tiết chấm trắng/844190415_122179810964702573_494931536953348333_n.jpg",
+      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/Lụa họa tiết chấm trắng/844544968_122179810382702573_3519689400050281184_n.jpg",
+      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/Lụa họa tiết chấm trắng/847908691_122179810634702573_4389983655385714811_n.jpg",
+      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/Lụa họa tiết chấm trắng/image 52.png"
+    ],
+    "sourcePdfPage": 129,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Lụa hoa văn, 70% tơ tằm, 30% polyester.",
+      "kyThuat": "Dệt Jacquard hoặc tạo hoa văn chấm trên nền vải",
+      "xuatXu": "Làng lụa Nha Xá",
+      "itemDescription": "Lụa Hoa Văn Chấm Trắng gây ấn tượng bởi cách phối hai gam màu be sáng và cam đàotrẻ trung cùng họa tiết chấm tròn ánh nhẹ, rất phù hợp cho áo dài cách tân và trang phục hiện đại, nữ tính.",
+      "dacDiemTitle": "Những chấm tròn nhỏ tạo nên nét duyên hiện đại",
+      "dacDiemDescription": "Họa tiết chấm tròn được phân bố đều trên nền vải, tạo cảm giác nhịp nhàng và sinh động. Sự chuyển đổi giữa sắc be và cam đào mang lại nét mới mẻ, phù hợp với những thiết kế đề cao sự trẻ trung nhưng vẫn thanh lịch.",
+      "chatLieuVaMauSac": "Hai gam be sáng và cam đào, kết hợp các chấm tròn màu trắng kem.",
+      "hoaTietVaKieuDang": "Họa tiết chấm tròn kích thước tương đối đồng đều, bố trí theo nhịp lặp lại trên bề mặt vải.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0824 399 987 - 0936 968 32 Dịch vụ đi kèm Nhận đơn sỉ số lượng lớn, đặt lẻ từ 1 sản phẩm, dịch vụ thiết kế theo mẫu, hoàn thiện linh hoạt theo yêu cầu. Giá Liên hệ cơ sở để nhận báo giá theo mẫu mã, kích thước, độ cầu kỳ và số lượng đặt hàng. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
   },
   {
     "id": "SP_SHV_06",
@@ -3666,7 +5159,51 @@ export const products =
     "chatLieuVaMauSac": "Nền trắng ngà pha xanh nhạt, hoa văn xanh xám tạo độ tương phản nhẹ.",
     "hoaTietVaKieuDang": "Hoa văn hoa lá cách điệu, gồm các đường cong mềm mại và mô-típ thực vật nối tiếp nhau trên bề mặt vải.",
     "isFeatured": null,
-    "images": []
+    "images": [
+      "/download/images/Silk Hạ Vy/sanpham6.png",
+      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết thủy tiên/839960533_122179315058702573_8463421776564176194_n.jpg",
+      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết thủy tiên/840094840_122179313270702573_1798523357816591698_n.jpg",
+      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết thủy tiên/841013291_122179313234702573_8051992405890746565_n.jpg",
+      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết thủy tiên/842308676_122179317332702573_199721434829700862_n.jpg",
+      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết thủy tiên/842329010_122179317548702573_3893334904783706225_n.jpg"
+    ],
+    "sourcePdfPage": 130,
+    "detailTemplate": "profile",
+    "pdfContent": {
+      "chatLieu": "Lụa hoa văn, 70% tơ tằm, 30% polyester.",
+      "kyThuat": "Dệt Jacquard tạo hoa văn hoa lá tinh tế, xử lý hoàn tất làm nổi bật sự tương phản nhẹ nhàng giữa nền vải và họa tiết.",
+      "xuatXu": "Làng lụa Nha Xá",
+      "itemDescription": "Lụa Hoa Văn Thủy Tiên mang gam trắng ngà pha xanh xám, kết hợp hệ hoa văn hoa lá mềm mại thanh thoát, trang nhã, rất phù hợp cho áo dài và trang phục dự lễ tinh tế.",
+      "dacDiemTitle": "Thanh tao cánh thủy tiên, tinh tế sắc lụa",
+      "dacDiemDescription": "Sản phẩm nổi bật với các họa tiết uốn lượn được sắp xếp liên tục trên nền trắng ngà. Sắc xanh xám nhẹ giúp hoa văn hiện lên tinh tế, tạo cảm giác cổ điển mà không nặng nề, phù hợp với những thiết kế cần sự chỉn chu và hài hòa.",
+      "chatLieuVaMauSac": "Nền trắng ngà pha xanh nhạt, hoa văn xanh xám tạo độ tương phản nhẹ.",
+      "hoaTietVaKieuDang": "Hoa văn hoa lá cách điệu, gồm các đường cong mềm mại và mô-típ thực vật nối tiếp nhau trên bề mặt vải.",
+      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Hotline - Zalo 0824 399 987 - 0936 968 32 Dịch vụ đi kèm Nhận đơn sỉ số lượng lớn, đặt lẻ từ 1 sản phẩm, dịch vụ thiết kế theo mẫu, hoàn thiện linh hoạt theo yêu cầu. Giá Liên hệ cơ sở để nhận báo giá theo mẫu mã, kích thước, độ cầu kỳ và số lượng đặt hàng. Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn? Gửi yêu cầu"
+    }
+  },
+  {
+    "id": "SP_NLC_NONCUOI_TRANG",
+    "coSoSanXuatId": null,
+    "name": "Nón cưới trắng tinh khôi",
+    "itemDescription": "Khâu nón (thắt nón) là công đoạn đòi hỏi sự khéo léo của người thợ.",
+    "chatLieu": "",
+    "kyThuat": "Khâu nón thủ công",
+    "xuatXu": "Làng Chuông",
+    "dacDiemTitle": "",
+    "dacDiemDescription": "",
+    "chatLieuVaMauSac": "",
+    "hoaTietVaKieuDang": "",
+    "isFeatured": false,
+    "images": [
+      "/download/images/product_detail/prod_sample_main.jpg",
+      "/download/images/product_detail/prod_sample_thumb1.jpg",
+      "/download/images/product_detail/prod_sample_thumb2.jpg",
+      "/download/images/product_detail/prod_sample_thumb3.jpg",
+      "/download/images/product_detail/prod_sample_thumb4.jpg"
+    ],
+    "sourcePdfPage": 42,
+    "detailTemplate": "tabs",
+    "sourceNote": "PDF chưa xác định cơ sở sản xuất; không tự gán cơ sở."
   }
 ];
 
