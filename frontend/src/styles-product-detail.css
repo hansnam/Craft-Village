@@ -822,9 +822,12 @@
 }
 
 .product-related__subtitle {
-  font-size: 14.5px;
+  font-family: var(--font-blushing-rose, var(--heading-font, "1FTV Blushing Rose", serif));
+  font-size: clamp(17px, 1.6vw, 20px);
   color: #7a6e65;
   margin: 0;
+  line-height: 1.45;
+  letter-spacing: 0.01em;
 }
 
 .product-related__controls {
