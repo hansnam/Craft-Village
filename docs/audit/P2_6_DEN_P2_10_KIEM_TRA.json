@@ -1,0 +1,406 @@
+{
+  "facilities": {
+    "GBT_GTL": {
+      "name": "GỐM TỚI LIÊN",
+      "header": "/images/CS Gốm tới liên/Header.jpg",
+      "headerOk": true,
+      "consultation": "/images/CS Gốm tới liên/tuvan.jpg",
+      "consultationOk": true,
+      "story": "/images/CS Gốm tới liên/cauchuyen.png",
+      "storyOk": true,
+      "capacitiesCount": 4,
+      "capacitiesOk": true,
+      "reviewsCount": 3,
+      "reviews": [
+        {
+          "author": "Hà Mai Phương",
+          "avatar": "/download/images/CS Gốm tới liên/HaMaiPhuong.png",
+          "avatarOk": true
+        },
+        {
+          "author": "Trần Văn Minh",
+          "avatar": "/download/images/CS Gốm tới liên/TranVanMinh.png",
+          "avatarOk": true
+        },
+        {
+          "author": "Lữ Thanh Hà",
+          "avatar": "/download/images/CS Gốm tới liên/LuThanhHa.png",
+          "avatarOk": true
+        }
+      ],
+      "productCount": 6,
+      "products": [
+        {
+          "id": "SP_GBT_19",
+          "name": "Ấm Bạch Cúc",
+          "page": 63,
+          "imageCount": 1,
+          "mainImage": "/download/images/CS Gốm tới liên/sanpham1.jpg",
+          "mainImageOk": true
+        },
+        {
+          "id": "SP_GBT_20",
+          "name": "Ấm Rồng Vân Mây",
+          "page": 64,
+          "imageCount": 1,
+          "mainImage": "/download/images/CS Gốm tới liên/Sanpham2.jpg",
+          "mainImageOk": true
+        },
+        {
+          "id": "SP_GBT_21",
+          "name": "Ấm Cá Chép Hóa Rồng",
+          "page": 65,
+          "imageCount": 1,
+          "mainImage": "/download/images/CS Gốm tới liên/Sanpham3.jpg",
+          "mainImageOk": true
+        },
+        {
+          "id": "SP_GBT_22",
+          "name": "Bộ ấm chén Sen",
+          "page": 66,
+          "imageCount": 1,
+          "mainImage": "/download/images/CS Gốm tới liên/sanpham4.jpg",
+          "mainImageOk": true
+        },
+        {
+          "id": "SP_GBT_23",
+          "name": "Ấm hoa Sen",
+          "page": 67,
+          "imageCount": 1,
+          "mainImage": "/download/images/CS Gốm tới liên/sanpham5.jpg",
+          "mainImageOk": true
+        },
+        {
+          "id": "SP_GBT_24",
+          "name": "Hũ đựng trà Sen",
+          "page": 68,
+          "imageCount": 1,
+          "mainImage": "/download/images/CS Gốm tới liên/Sanpham6.jpg",
+          "mainImageOk": true
+        }
+      ]
+    },
+    "GBT_GHL": {
+      "name": "GỐM HẢI LONG",
+      "header": "/images/CS gốm hải long/header .jpg",
+      "headerOk": true,
+      "consultation": "/images/CS gốm hải long/tuvan.jpg",
+      "consultationOk": true,
+      "story": "/images/CS gốm hải long/cauchuyen.jpg",
+      "storyOk": true,
+      "capacitiesCount": 4,
+      "capacitiesOk": true,
+      "reviewsCount": 3,
+      "reviews": [
+        {
+          "author": "Trần Khánh Linh",
+          "avatar": "/download/images/CS gốm hải long/TranKhanhLinh.jpg",
+          "avatarOk": true
+        },
+        {
+          "author": "Đỗ Ngọc Mai",
+          "avatar": "/download/images/CS gốm hải long/DoNgocMai.jpg",
+          "avatarOk": true
+        },
+        {
+          "author": "Nguyễn Đức Thành",
+          "avatar": "/download/images/CS gốm hải long/NguyenDucThanh.jpg",
+          "avatarOk": true
+        }
+      ],
+      "productCount": 6,
+      "products": [
+        {
+          "id": "SP_GBT_13",
+          "name": "Nồi đất vẽ tay họa tiết",
+          "page": 69,
+          "imageCount": 1,
+          "mainImage": "/download/images/CS gốm hải long/sanpham1.jpg",
+          "mainImageOk": true
+        },
+        {
+          "id": "SP_GBT_14",
+          "name": "Bình hút tài lộc",
+          "page": 70,
+          "imageCount": 1,
+          "mainImage": "/download/images/CS gốm hải long/sanpham2.png",
+          "mainImageOk": true
+        },
+        {
+          "id": "SP_GBT_15",
+          "name": "Ngói mũi hài vàng hổ phách",
+          "page": 71,
+          "imageCount": 1,
+          "mainImage": "/download/images/CS gốm hải long/sanpham3.png",
+          "mainImageOk": true
+        },
+        {
+          "id": "SP_GBT_16",
+          "name": "Bộ ấm trà quả hồng",
+          "page": 72,
+          "imageCount": 1,
+          "mainImage": "/download/images/CS gốm hải long/sanpham4.jpg",
+          "mainImageOk": true
+        },
+        {
+          "id": "SP_GBT_17",
+          "name": "Bộ ấm chén tử sa",
+          "page": 73,
+          "imageCount": 1,
+          "mainImage": "/download/images/CS gốm hải long/sanpham3.jpg",
+          "mainImageOk": true
+        },
+        {
+          "id": "SP_GBT_18",
+          "name": "Nồi đất Nodacook",
+          "page": 74,
+          "imageCount": 1,
+          "mainImage": "/download/images/CS gốm hải long/sanpham6.png",
+          "mainImageOk": true
+        }
+      ]
+    },
+    "QCS_QTT": {
+      "name": "QUẠT TỪ TÂM",
+      "header": "/images/Quạt Từ Tâm/header.png",
+      "headerOk": true,
+      "consultation": "/images/Quạt Từ Tâm/tuvan.png",
+      "consultationOk": true,
+      "story": "/images/Quạt Từ Tâm/cauchuyen.png",
+      "storyOk": true,
+      "capacitiesCount": 4,
+      "capacitiesOk": true,
+      "reviewsCount": 3,
+      "reviews": [
+        {
+          "author": "Trần Phương Nhi",
+          "avatar": "/download/images/Quạt Từ Tâm/TranPhuongNhi.jpg",
+          "avatarOk": true
+        },
+        {
+          "author": "Thành Nguyễn",
+          "avatar": "/download/images/Quạt Từ Tâm/ThanhNguyen.jpg",
+          "avatarOk": true
+        },
+        {
+          "author": "Nguyễn Hải Linh",
+          "avatar": "/download/images/Quạt Từ Tâm/NguyenHaiLinh.jpg",
+          "avatarOk": true
+        }
+      ],
+      "productCount": 6,
+      "products": [
+        {
+          "id": "SP_QCS_QKH",
+          "name": "Quạt Khang Hi",
+          "page": 82,
+          "imageCount": 1,
+          "mainImage": "/download/images/Quạt Từ Tâm/sanpham1.png",
+          "mainImageOk": true
+        },
+        {
+          "id": "SP_QCS_QNG",
+          "name": "Quạt Nan Gỗ",
+          "page": 83,
+          "imageCount": 1,
+          "mainImage": "/download/images/Quạt Từ Tâm/sanpham2.png",
+          "mainImageOk": true
+        },
+        {
+          "id": "SP_QCS_QTT",
+          "name": "Quạt Tranh Tết",
+          "page": 84,
+          "imageCount": 1,
+          "mainImage": "/download/images/Quạt Từ Tâm/sanpham3.png",
+          "mainImageOk": true
+        },
+        {
+          "id": "SP_QCS_QHVCC",
+          "name": "Quạt Hoa Văn Cao Cấp",
+          "page": 85,
+          "imageCount": 1,
+          "mainImage": "/download/images/Quạt Từ Tâm/sanpham4.png",
+          "mainImageOk": true
+        },
+        {
+          "id": "SP_QCS_QTRUYENTHONG",
+          "name": "Quạt Truyền Thống",
+          "page": 86,
+          "imageCount": 1,
+          "mainImage": "/download/images/Quạt Từ Tâm/sanpham5.png",
+          "mainImageOk": true
+        },
+        {
+          "id": "SP_QCS_QTPT",
+          "name": "Quạt Tranh Phong Thủy",
+          "page": 87,
+          "imageCount": 1,
+          "mainImage": "/download/images/Quạt Từ Tâm/sanpham6.png",
+          "mainImageOk": true
+        }
+      ]
+    },
+    "QCS_QP": {
+      "name": "QUẠT PHƯƠNG",
+      "header": "/download/images/Quạt Phương/header.png",
+      "headerOk": true,
+      "consultation": "/download/images/Quạt Phương/tuvan.png",
+      "consultationOk": true,
+      "story": "/download/images/Quạt Phương/cauchuyen.png",
+      "storyOk": true,
+      "capacitiesCount": 4,
+      "capacitiesOk": true,
+      "reviewsCount": 3,
+      "reviews": [
+        {
+          "author": "Trần Minh Anh",
+          "avatar": "/download/images/Quạt Phương/TranMinhAnh.jpg",
+          "avatarOk": true
+        },
+        {
+          "author": "Lương Anh Tuấn",
+          "avatar": "/download/images/Quạt Phương/LuongAnhTuan.avif",
+          "avatarOk": true
+        },
+        {
+          "author": "Vũ Thu Phương",
+          "avatar": "/download/images/Quạt Phương/VuThuPhuong.webp",
+          "avatarOk": true
+        }
+      ],
+      "productCount": 6,
+      "products": [
+        {
+          "id": "SP_QCS_QSVCP",
+          "name": "Quạt Sắc Việt Cổ Phong",
+          "page": 88,
+          "imageCount": 1,
+          "mainImage": "/download/images/Quạt Phương/sanpham1.png",
+          "mainImageOk": true
+        },
+        {
+          "id": "SP_QCS_QTVHL",
+          "name": "Quạt Thanh Vũ Hoa Lam",
+          "page": 89,
+          "imageCount": 1,
+          "mainImage": "/download/images/Quạt Phương/sanpham2.png",
+          "mainImageOk": true
+        },
+        {
+          "id": "SP_QCS_QKHCT",
+          "name": "Quạt Kim Hoa Cát Tường",
+          "page": 90,
+          "imageCount": 1,
+          "mainImage": "/download/images/Quạt Phương/sanpham3.png",
+          "mainImageOk": true
+        },
+        {
+          "id": "SP_QCS_QLDH",
+          "name": "Quạt Lam Đồ Họa",
+          "page": 91,
+          "imageCount": 1,
+          "mainImage": "/download/images/Quạt Phương/sanpham4.png",
+          "mainImageOk": true
+        },
+        {
+          "id": "SP_QCS_QVXL",
+          "name": "Quạt Vân Xoắn Lam",
+          "page": 92,
+          "imageCount": 1,
+          "mainImage": "/download/images/Quạt Phương/sanpham5.png",
+          "mainImageOk": true
+        },
+        {
+          "id": "SP_QCS_QHXDG",
+          "name": "Quạt Hội Xuân Dân Gian",
+          "page": 93,
+          "imageCount": 1,
+          "mainImage": "/download/images/Quạt Phương/sanpham6.png",
+          "mainImageOk": true
+        }
+      ]
+    },
+    "QCS_QCS": {
+      "name": "QUẠT CHÀNG SƠN",
+      "header": "/download/images/Quạt Chàng Sơn/header.png",
+      "headerOk": true,
+      "consultation": "/download/images/Quạt Chàng Sơn/tuvan.png",
+      "consultationOk": true,
+      "story": "/download/images/Quạt Chàng Sơn/cauchuyen.png",
+      "storyOk": true,
+      "capacitiesCount": 4,
+      "capacitiesOk": true,
+      "reviewsCount": 3,
+      "reviews": [
+        {
+          "author": "Phạm Mỹ Anh",
+          "avatar": "/download/images/Quạt Chàng Sơn/PhamMyAnh.jpg",
+          "avatarOk": true
+        },
+        {
+          "author": "Nguyễn Minh",
+          "avatar": "/download/images/Quạt Chàng Sơn/NguyenMinh.jpg",
+          "avatarOk": true
+        },
+        {
+          "author": "Thái Linh",
+          "avatar": "/download/images/Quạt Chàng Sơn/ThaiLinh.jpg",
+          "avatarOk": true
+        }
+      ],
+      "productCount": 6,
+      "products": [
+        {
+          "id": "SP_QCS_QLTDG",
+          "name": "Quạt Linh Thú Dân Gian",
+          "page": 94,
+          "imageCount": 1,
+          "mainImage": "/download/images/Quạt Chàng Sơn/sanpham1.png",
+          "mainImageOk": true
+        },
+        {
+          "id": "SP_QCS_QPLDT",
+          "name": "Quạt Phúc Lộc Đồng Tử",
+          "page": 95,
+          "imageCount": 1,
+          "mainImage": "/download/images/Quạt Chàng Sơn/sanpham2.png",
+          "mainImageOk": true
+        },
+        {
+          "id": "SP_QCS_QMDNX",
+          "name": "Quạt Mai Điểu Nghênh Xuân",
+          "page": 96,
+          "imageCount": 1,
+          "mainImage": "/download/images/Quạt Chàng Sơn/sanpham3.png",
+          "mainImageOk": true
+        },
+        {
+          "id": "SP_QCS_QLHPS",
+          "name": "Quạt Liên Hoa Phấn Sắc",
+          "page": 97,
+          "imageCount": 1,
+          "mainImage": "/download/images/Quạt Chàng Sơn/sanpham4.png",
+          "mainImageOk": true
+        },
+        {
+          "id": "SP_QCS_QSTLB",
+          "name": "Quạt Sơn Thủy Lục Bảo",
+          "page": 98,
+          "imageCount": 1,
+          "mainImage": "/download/images/Quạt Chàng Sơn/sanpham5.png",
+          "mainImageOk": true
+        },
+        {
+          "id": "SP_QCS_QHLTM",
+          "name": "Quạt Hắc Liên Thủy Mặc",
+          "page": 99,
+          "imageCount": 1,
+          "mainImage": "/download/images/Quạt Chàng Sơn/sanpham6.png",
+          "mainImageOk": true
+        }
+      ]
+    }
+  },
+  "products": {},
+  "missingFiles": []
+}

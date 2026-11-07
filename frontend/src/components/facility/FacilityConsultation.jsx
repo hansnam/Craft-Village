@@ -42,11 +42,7 @@ export default function FacilityConsultation({
     resolveMockAsset("/download/images/facility_common/consult_main_img.png");
 
   // Format phone display
-  const phoneText = facility?.soDienThoai
-    ? facility?.tenChuXuong
-      ? `${facility.soDienThoai} (${facility.tenChuXuong})`
-      : facility.soDienThoai
-    : "0962.776.595";
+  const phoneText = facility?.soDienThoai || "";
 
   const addressText = facility?.diaChi
     ? `Địa chỉ: ${facility.diaChi}`
@@ -63,6 +59,9 @@ export default function FacilityConsultation({
       aria-labelledby="consult-heading"
     >
       <div className="workshop-consult__container">
+        <h2 id="consult-heading" className="workshop-consult__title">
+          TƯ VẤN THIẾT KẾ &amp; GỬI YÊU CẦU
+        </h2>
         {/* Khối chính 2 cột: Banner ảnh bên trái + Form/Thông tin bên phải */}
         <div className="workshop-consult__card">
           {/* Cột trái: Ảnh minh họa tư vấn chế tác */}
@@ -104,11 +103,6 @@ export default function FacilityConsultation({
 
           {/* Cột phải: Thông tin tư vấn & Nút gửi yêu cầu */}
           <div className="workshop-consult__info">
-            <span className="workshop-consult__tag">DỊCH VỤ CHẾ TÁC THEO YÊU CẦU</span>
-            <h2 id="consult-heading" className="workshop-consult__title">
-              TƯ VẤN THIẾT KẾ VÀ GỬI YÊU CẦU
-            </h2>
-
             <p className="workshop-consult__desc">{descriptionText}</p>
 
             {/* Thông tin liên hệ nhanh: Số điện thoại & Địa chỉ */}
@@ -127,7 +121,7 @@ export default function FacilityConsultation({
                   </svg>
                 </span>
                 <span className="workshop-consult__contact-text">
-                  Số điện thoại: <strong>{phoneText}</strong>
+                  {phoneText}
                 </span>
               </div>
 
@@ -172,31 +166,6 @@ export default function FacilityConsultation({
                 </span>
               </button>
 
-              <Link
-                to={`/dat-lich/${facility?.id || ""}`}
-                style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  gap: "8px",
-                  background: "#FFFDF9",
-                  color: "#730000",
-                  border: "1.5px solid #730000",
-                  padding: "12px 20px",
-                  borderRadius: "8px",
-                  fontWeight: "600",
-                  textDecoration: "none",
-                  fontSize: "14px",
-                  transition: "all 0.2s ease",
-                }}
-              >
-                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2">
-                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
-                  <line x1="16" y1="2" x2="16" y2="6" />
-                  <line x1="8" y1="2" x2="8" y2="6" />
-                  <line x1="3" y1="10" x2="21" y2="10" />
-                </svg>
-                <span>Đặt lịch đến xưởng</span>
-              </Link>
             </div>
           </div>
         </div>
@@ -224,6 +193,12 @@ export default function FacilityConsultation({
             );
           })}
         </div>
+        <Link className="workshop-consult__booking" to={`/dat-lich/${facility?.id || ""}`}>
+          Đặt lịch đến xưởng
+        </Link>
+        <Link className="workshop-consult__booking" to={`/dat-lich/${facility?.id || ""}`}>
+          Đặt lịch đến xưởng
+        </Link>
       </div>
     </section>
   );

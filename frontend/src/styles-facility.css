@@ -1408,6 +1408,7 @@
 .workshop-consult {
   padding: 60px 0 80px;
   position: relative;
+  background: #fffdf2 url("./assets/floral-sketch-pattern.svg") center / cover no-repeat;
 }
 
 .workshop-consult__container {
@@ -1427,7 +1428,7 @@
   color: #181010;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  margin: 0;
+  margin: 0 0 54px;
 }
 
 .workshop-consult__card {
@@ -1437,6 +1438,38 @@
   align-items: center;
   margin-bottom: 56px;
 }
+
+.workshop-consult__media {
+  aspect-ratio: 1.65;
+  overflow: hidden;
+  border-radius: 20px;
+  background: #f0ebe1;
+  cursor: zoom-in;
+}
+
+.workshop-consult__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.workshop-consult__contact-box {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.workshop-consult__contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  font-size: clamp(16px, 1.3vw, 20px);
+  line-height: 1.5;
+}
+
+.workshop-consult__contact-item:first-child { order: 2; }
+.workshop-consult__contact-icon { display: flex; flex: 0 0 auto; margin-top: 3px; }
 
 .workshop-consult__media-col {
   position: relative;
@@ -1564,7 +1597,8 @@
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.2);
+  background: #fff;
+  color: #730000;
   transition: transform 0.3s ease;
 }
 
@@ -1577,6 +1611,20 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
+}
+.workshop-consult__booking {
+  display: inline-block;
+  margin-top: 20px;
+  color: #730000;
+  font-weight: 600;
+  text-underline-offset: 3px;
+}
+.workshop-consult__booking {
+  display: inline-block;
+  margin-top: 20px;
+  color: #730000;
+  font-weight: 600;
+  text-underline-offset: 3px;
 }
 
 .workshop-consult__badge-card {
@@ -1656,6 +1704,9 @@
     width: 100%;
     justify-content: center;
   }
+  .workshop-consult__title { margin-bottom: 28px; }
+  .workshop-consult__info { gap: 22px; }
+  .workshop-consult__media { aspect-ratio: 1.5; }
 }
 
 /* Hide all zoom badges / pills on images */

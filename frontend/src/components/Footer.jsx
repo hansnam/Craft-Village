@@ -399,6 +399,7 @@ export default function Footer() {
             <p className="footer__vision-quote">
               “CRAFT FOLIO hướng đến xây dựng hệ thống Digital Portfolio trực quan, giúp doanh nghiệp dễ dàng tìm kiếm, đánh giá và kết nối với các xưởng phù hợp. Trong giai đoạn đầu, dự án tập trung phát triển phiên bản thử nghiệm, xây dựng hồ sơ xưởng thực tế và tiếp nhận phản hồi để hoàn thiện nền tảng”
             </p>
+            <p className="footer__vision-motto">SỐ HÓA – KẾT NỐI – LAN TỎA</p>
           </div>
         </div>
       </div>

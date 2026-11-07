@@ -1,16 +1,16 @@
 {
-  "image_files": 1369,
-  "unique_contents": 655,
+  "image_files": 1489,
+  "unique_contents": 729,
   "statuses": {
-    "REFERENCED": 459,
-    "NO_STATIC_REFERENCE": 197,
-    "SAME_CONTENT_AS_REFERENCED": 713
+    "REFERENCED": 566,
+    "SAME_CONTENT_AS_REFERENCED": 755,
+    "NO_STATIC_REFERENCE": 168
   },
   "roots": {
     "frontend/download/images": {
-      "REFERENCED": 458,
-      "NO_STATIC_REFERENCE": 172,
-      "SAME_CONTENT_AS_REFERENCED": 48
+      "REFERENCED": 565,
+      "SAME_CONTENT_AS_REFERENCED": 86,
+      "NO_STATIC_REFERENCE": 147
     },
     "frontend/public/images": {
       "SAME_CONTENT_AS_REFERENCED": 11
@@ -19,11 +19,11 @@
       "REFERENCED": 1
     },
     "template": {
-      "SAME_CONTENT_AS_REFERENCED": 654,
-      "NO_STATIC_REFERENCE": 25
+      "SAME_CONTENT_AS_REFERENCED": 658,
+      "NO_STATIC_REFERENCE": 21
     }
   },
-  "literal_references": 467,
+  "literal_references": 571,
   "missing_references": 0,
   "data_counts": {
     "users": 3,

@@ -1,0 +1,45 @@
+{
+  "products": [
+    {
+      "id": "SP_GBT_09",
+      "images_loaded": 4,
+      "thumbnail_switches_image": true
+    },
+    {
+      "id": "SP_GBT_26",
+      "images_loaded": 3,
+      "thumbnail_switches_image": true
+    },
+    {
+      "id": "SP_GBT_19",
+      "images_loaded": 3,
+      "thumbnail_switches_image": true
+    },
+    {
+      "id": "SP_GBT_13",
+      "images_loaded": 3,
+      "thumbnail_switches_image": true
+    },
+    {
+      "id": "SP_QCS_QKH",
+      "images_loaded": 3,
+      "thumbnail_switches_image": true
+    },
+    {
+      "id": "SP_QCS_QLTDG",
+      "images_loaded": 4,
+      "thumbnail_switches_image": true
+    },
+    {
+      "id": "SP_MTD_TXMDT",
+      "images_loaded": 2,
+      "thumbnail_switches_image": true
+    },
+    {
+      "id": "SP_MTD_TXMTDTL",
+      "images_loaded": 3,
+      "thumbnail_switches_image": true
+    }
+  ],
+  "errors": []
+}

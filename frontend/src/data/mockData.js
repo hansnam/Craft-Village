@@ -627,9 +627,9 @@ export const facilities =
     "storyTitle": "Gắn với làng nghề truyền thống",
     "storyContent": "Quạt Chàng Sơn là sản phẩm thủ công mang dấu ấn văn hóa của vùng Xứ Đoài. Từ những nguyên liệu quen thuộc như tre và giấy, người thợ tạo nên những chiếc quạt vừa có công năng sử dụng, vừa có giá trị thẩm mỹ qua hình ảnh, họa tiết và kỹ thuật chế tác.",
     "images": {
-      "header": "/images/Quạt Chàng Sơn/52.png",
-      "consultation": "/images/Quạt Chàng Sơn/59.png",
-      "imageStory": "/download/images/Quạt Chàng Sơn/52.png"
+      "header": "/download/images/Quạt Chàng Sơn/header.png",
+      "consultation": "/download/images/Quạt Chàng Sơn/tuvan.png",
+      "imageStory": "/download/images/Quạt Chàng Sơn/cauchuyen.png"
     },
     "dienTichXuong": {
       "value": 200,
@@ -707,9 +707,9 @@ export const facilities =
     "storyTitle": "Hình thành từ tình yêu với nghề làm quạt truyền thống",
     "storyContent": "Bắt đầu từ mô hình hộ kinh doanh gia đình vào đầu những năm 2000, thương hiệu đã phát triển với mong muốn gìn giữ nghề truyền thống và đưa quạt Việt đến gần hơn với thị trường hiện đại. Xưởng chú trọng kết hợp chất liệu, thiết kế mới với bản sắc văn hóa Việt Nam.",
     "images": {
-      "header": "/images/Quạt Phương/header.png",
-      "consultation": "/images/Quạt Phương/cauchuyen.png",
-      "imageStory": "/images/Quạt Phương/tuvan.png"
+      "header": "/download/images/Quạt Phương/header.png",
+      "consultation": "/download/images/Quạt Phương/tuvan.png",
+      "imageStory": "/download/images/Quạt Phương/cauchuyen.png"
     },
     "dienTichXuong": {
       "value": 300,
@@ -827,7 +827,7 @@ export const facilities =
     "storyTitle": "Nơi những dáng gốm hình thành",
     "storyContent": "Hoàng Anh Ceramics mang đến các sản phẩm gốm sứ thủ công phục vụ nhu cầu sử dụng, trang trí và quà tặng. Từ những mẫu heo đất tiết kiệm nhiều màu sắc đến các sản phẩm decor, mỗi dòng sản phẩm hướng đến sự đa dạng về kiểu dáng, đáp ứng nhu cầu của nhiều nhóm khách hàng. Không chỉ phục vụ khách mua lẻ, cơ sở còn hướng đến khách hàng đặt sỉ và doanh nghiệp có nhu cầu sử dụng gốm sứ làm quà tặng mang dấu ấn riêng.",
     "images": {
-      "header": "/images/CS hoàng anh ceramics/Cauchuyen.jpg",
+      "header": "/images/CS hoàng anh ceramics/header.png",
       "consultation": "/images/CS hoàng anh ceramics/tuvan.png",
       "imageStory": "/images/CS hoàng anh ceramics/Cauchuyen.jpg"
     },
@@ -861,7 +861,7 @@ export const facilities =
     "storyTitle": "Trăm hoa hỷ lạc - Kim ngân tài xuyến",
     "storyContent": "Bách Ngân Hỷ hướng đến việc đưa gốm sứ thủ công đến gần hơn với đời sống hiện đại. Những họa tiết caro, sắc xanh dịu nhẹ hay hình ảnh cherry và đàn cá tạo nên phong cách trẻ trung, đồng thời giữ lại nét gần gũi của sản phẩm gốm truyền thống. Sự kết hợp giữa kỹ thuật thủ công và cảm hứng thiết kế hiện đại giúp các sản phẩm không chỉ phục vụ nhu cầu sử dụng mà còn góp phần tạo điểm nhấn cho bàn ăn và không gian sống.",
     "images": {
-      "header": "/images/CS bách ngân hỷ/Cauchuyen.png",
+      "header": "/images/CS bách ngân hỷ/Header.png",
       "consultation": "/images/CS bách ngân hỷ/tuvan.jpg",
       "imageStory": "/images/CS bách ngân hỷ/Cauchuyen.png"
     },
@@ -893,7 +893,7 @@ export const facilities =
     "name": "GỐM HẢI LONG",
     "description": "Cơ sở với các sản phẩm thủ công đa dạng, nổi bật là bộ ấm chén và đồ gốm trang trí.",
     "sanPhamDescription": "Đồ gốm sứ thủ công với các dòng ấm chén, đồ gia dụng và vật phẩm trang trí, phù hợp với nhu cầu sử dụng, bài trí không gian và đặt hàng theo yêu cầu.",
-    "tuVanDescription": "Liên hệ trực tiếp để tìm hiểu mẫu mã, nhận báo giá và trao đổi nhu cầu đặt hàng gốm sứ gia dụng, đồ mỹ nghệ, vật liệu kiến trúc hoặc nồi gốm sứ NodaCook.",
+    "tuVanDescription": "Liên hệ trực tiếp để trao đổi mẫu thiết kế, số lượng và yêu cầu đặt hàng gốm sứ gia dụng, đồ mỹ nghệ, vật liệu kiến trúc hoặc nồi gốm sứ NodaCook.",
     "tenChuXuong": "HẢI LONG",
     "email": "info@gomhailong.com",
     "diaChi": "Số 238, thôn 2, Bát Tràng, Gia Lâm, Hà Nội.",
@@ -1223,7 +1223,7 @@ export const capacities =
     "order": 1,
     "description": "Lưu giữ kỹ thuật làm quạt truyền thống, từ gia công nan quạt đến phất quạt và hoàn thiện sản phẩm.",
     "image": {
-      "url": "/images/Quạt Chàng Sơn/nlsx1.png",
+      "url": "/download/images/Quạt Chàng Sơn/nanglucsanxuat1.png",
       "alt": "Sản xuất thủ công truyền thống Quạt Chàng Sơn"
     }
   },
@@ -1234,7 +1234,7 @@ export const capacities =
     "order": 2,
     "description": "Đa dạng mẫu mã, kiểu dáng, hoa văn và kích thước, đáp ứng nhu cầu riêng của từng khách hàng.",
     "image": {
-      "url": "/images/Quạt Chàng Sơn/nlsx2.png",
+      "url": "/download/images/Quạt Chàng Sơn/nanglucsanxuat2.png",
       "alt": "Thiết kế theo yêu cầu Quạt Chàng Sơn"
     }
   },
@@ -1245,7 +1245,7 @@ export const capacities =
     "order": 3,
     "description": "Cung cấp quạt truyền thống, quạt quà tặng, quạt cưới và quạt trang trí phục vụ nhiều mục đích sử dụng.",
     "image": {
-      "url": "/images/Quạt Chàng Sơn/nlsx3.png",
+      "url": "/download/images/Quạt Chàng Sơn/nanglucsanxuat3.png",
       "alt": "Sản xuất đa dạng dòng quạt Quạt Chàng Sơn"
     }
   },
@@ -1256,7 +1256,7 @@ export const capacities =
     "order": 4,
     "description": "Thực hiện các công đoạn gia công, in ấn, lắp ráp và kiểm tra nhằm đảm bảo tính thẩm mỹ của từng chiếc quạt.",
     "image": {
-      "url": "/images/Quạt Chàng Sơn/nlsx4.png",
+      "url": "/download/images/Quạt Chàng Sơn/nanglucsanxuat4.png",
       "alt": "Gia công và hoàn thiện sản phẩm Quạt Chàng Sơn"
     }
   },
@@ -1975,83 +1975,83 @@ export const reviews =
   {
     "id": "rv_QCS01",
     "coSoSanXuatId": "QCS_QCS",
-    "reviewerName": "Phạm Như Quỳnh",
+    "reviewerName": "Phạm Mỹ Anh",
     "reviewTime": "2026-01-11",
     "order": 1,
     "content": "Quạt giấy Chàng Sơn mang nét đẹp truyền thống nhưng vẫn có thể linh hoạt theo concept của từng chương trình. Đây là lựa chọn phù hợp để làm quà tặng, đạo cụ biểu diễn hoặc tạo điểm nhấn văn hóa cho sự kiện.",
-    "avatar": null
+    "avatar": "/download/images/Quạt Chàng Sơn/PhamMyAnh.jpg"
   },
   {
     "id": "rv_QCS02",
     "coSoSanXuatId": "QCS_QCS",
-    "reviewerName": "Nguyễn Thái Tuấn",
+    "reviewerName": "Nguyễn Minh",
     "reviewTime": "2025-06-15",
     "order": 2,
     "content": "Sản phẩm có tính ứng dụng cao, mẫu mã đa dạng và có thể cân nhắc thiết kế riêng theo nhu cầu đặt hàng. Quạt giấy không chỉ là món quà lưu niệm mà còn góp phần truyền tải nét văn hóa Việt đến khách hàng và đối tác.",
-    "avatar": null
+    "avatar": "/download/images/Quạt Chàng Sơn/NguyenMinh.jpg"
   },
   {
     "id": "rv_QCS03",
     "coSoSanXuatId": "QCS_QCS",
-    "reviewerName": "Hiền Chi",
+    "reviewerName": "Thái Linh",
     "reviewTime": "2026-02-01",
     "order": 3,
     "content": "Họa tiết trên quạt giấy mở ra nhiều ý tưởng sáng tạo cho các bộ ảnh, hoạt động trải nghiệm và chiến dịch truyền thông mang bản sắc Việt. Sự kết hợp giữa chất liệu truyền thống và thiết kế hiện đại giúp sản phẩm trở nên gần gũi với nhiều đối tượng.",
-    "avatar": null
+    "avatar": "/download/images/Quạt Chàng Sơn/ThaiLinh.jpg"
   },
   {
     "id": "rv_QTT01",
     "coSoSanXuatId": "QCS_QTT",
-    "reviewerName": "Trần Phương Ý",
+    "reviewerName": "Trần Phương Nhi",
     "reviewTime": "2026-02-25",
     "order": 1,
     "content": "Điều tôi đặc biệt yêu thích ở Quạt Từ Tâm chính là sự tận tâm – từ khâu tư vấn, thiết kế đến giao hàng đều nhanh chóng, chuyên nghiệp. Các bạn đã giúp tôi hoàn thiện lô quạt đúng giờ để gửi đi Mỹ, điều này thực sự khiến tôi rất cảm kích.",
-    "avatar": null
+    "avatar": "/download/images/Quạt Từ Tâm/TranPhuongNhi.jpg"
   },
   {
     "id": "rv_QTT02",
     "coSoSanXuatId": "QCS_QTT",
-    "reviewerName": "Trần Văn Quân",
+    "reviewerName": "Thành Nguyễn",
     "reviewTime": "2025-02-07",
     "order": 2,
     "content": "Những chiếc quạt từ Quạt Từ Tâm đã làm cho ngày của tôi trở nên thật đặc biệt! Các vị khách đều cảm tác khen ngợi và yêu thích chúng. Điều đó làm tôi cảm thấy thật tự hào khi mang một phần giá trị Việt Nam đến với mọi người.",
-    "avatar": null
+    "avatar": "/download/images/Quạt Từ Tâm/ThanhNguyen.jpg"
   },
   {
     "id": "rv_QTT03",
     "coSoSanXuatId": "QCS_QTT",
-    "reviewerName": "Nguyễn Yến Chi",
+    "reviewerName": "Nguyễn Hải Linh",
     "reviewTime": "2026-04-14",
     "order": 3,
     "content": "Thiết kế quạt thể hiện rõ thông điệp và hình ảnh thương hiệu của chúng tôi với mặt sau hài hòa, sắc nét. Chất liệu nan tre và vải không chỉ thân thiện với môi trường mà còn nhẹ nhàng, dễ sử dụng – điều này rất phù hợp với các giá trị mà chúng tôi đang theo đuổi.",
-    "avatar": null
+    "avatar": "/download/images/Quạt Từ Tâm/NguyenHaiLinh.jpg"
   },
   {
     "id": "rv_QP01",
     "coSoSanXuatId": "QCS_QP",
-    "reviewerName": "Trần Thu Anh",
+    "reviewerName": "Trần Minh Anh",
     "reviewTime": "2026-10-19",
     "order": 1,
     "content": "Tôi ấn tượng với cách Quạt Phương kết hợp chất liệu truyền thống và kỹ thuật in hiện đại. Mỗi chiếc quạt không chỉ có tính thẩm mỹ mà còn mang nét văn hóa Việt Nam, rất phù hợp để làm quà tặng cho bạn bè và đối tác quốc tế.",
-    "avatar": null
+    "avatar": "/download/images/Quạt Phương/TranMinhAnh.jpg"
   },
   {
     "id": "rv_QP02",
     "coSoSanXuatId": "QCS_QP",
-    "reviewerName": "Nguyễn Thị Kim Chi",
-    "reviewTime": "2025-08-27",
+    "reviewerName": "Lương Anh Tuấn",
+    "reviewTime": "2026-08-27",
     "order": 2,
     "content": "Điều khiến chúng tôi hài lòng là sự tỉ mỉ trong từng chi tiết và chất lượng hoàn thiện của sản phẩm. Quạt thủ công không chỉ đáp ứng nhu cầu sử dụng mà còn phù hợp với không gian văn hóa, lịch sử, nơi mỗi sản phẩm đều cần thể hiện được bản sắc truyền thống",
-    "avatar": null
+    "avatar": "/download/images/Quạt Phương/LuongAnhTuan.avif"
   },
   {
     "id": "rv_QP03",
     "coSoSanXuatId": "QCS_QP",
-    "reviewerName": "Trần Tuấn Nam",
+    "reviewerName": "Vũ Thu Phương",
     "reviewTime": "2026-04-03",
     "order": 3,
     "content": "Với ngành du lịch, một món quà nhỏ nhưng mang dấu ấn địa phương có thể tạo nên trải nghiệm đáng nhớ cho du khách. Quạt thủ công là lựa chọn thú vị bởi vừa hữu ích, vừa giúp giới thiệu nét đẹp văn hóa Việt Nam theo cách gần gũi",
-    "avatar": null
+    "avatar": "/download/images/Quạt Phương/VuThuPhuong.webp"
   },
   {
     "id": "rv_MTDVQ01",
@@ -2060,7 +2060,7 @@ export const reviews =
     "reviewTime": "2024-07-01",
     "order": 1,
     "content": "Các sản phẩm mây tre đan có tính thẩm mỹ cao. Tôi đánh giá cao khả năng ứng dụng chất liệu truyền thống vào những sản phẩm phù hợp với nhu cầu quà tặng doanh nghiệp, vừa mang giá trị sử dụng, vừa góp phần lan tỏa bản sắc văn hóa Việt Nam.",
-    "avatar": null
+    "avatar": "/images/CS Mây tre việt quang/tranquochuy.jpg"
   },
   {
     "id": "rv_MTDVQ02",
@@ -2069,7 +2069,7 @@ export const reviews =
     "reviewTime": "2025-11-25",
     "order": 2,
     "content": "Sản phẩm gây ấn tượng bởi chất liệu tự nhiên, đường đan tỉ mỉ và vẻ đẹp mộc mạc. Các dòng sản phẩm mây tre có tiềm năng ứng dụng trong nhiều không gian như nhà hàng, khách sạn, khu nghỉ dưỡng và cửa hàng theo phong cách gần gũi với thiên nhiên.",
-    "avatar": null
+    "avatar": "/images/CS Mây tre việt quang/nguyenminhanh.jpg"
   },
   {
     "id": "rv_MTDVQ03",
@@ -2078,7 +2078,7 @@ export const reviews =
     "reviewTime": "2025-03-29",
     "order": 3,
     "content": "Điểm nổi bật của sản phẩm nằm ở sự kết hợp giữa kỹ thuật đan truyền thống và khả năng ứng dụng trong đời sống hiện đại. Đây là nguồn cảm hứng hữu ích cho các dự án thiết kế nội thất, trang trí không gian và phát triển sản phẩm thủ công mang dấu ấn văn hóa Việt.",
-    "avatar": null
+    "avatar": "/images/CS Mây tre việt quang/lethuha.jpg"
   },
   {
     "id": "rv_MTDTA01",
@@ -2087,7 +2087,7 @@ export const reviews =
     "reviewTime": "2024-07-31",
     "order": 1,
     "content": "Các sản phẩm có nhiều tiềm năng ứng dụng trong lĩnh vực quà tặng và đồ dùng trang trí. Khả năng trao đổi về mẫu mã theo yêu cầu giúp doanh nghiệp có thêm lựa chọn khi phát triển sản phẩm phù hợp với định hướng thương hiệu.",
-    "avatar": null
+    "avatar": "/images/CS mây tre đan tuấn anh/BuiNgocLinh.jpg"
   },
   {
     "id": "rv_MTDTA02",
@@ -2096,7 +2096,7 @@ export const reviews =
     "reviewTime": "2025-03-14",
     "order": 2,
     "content": "Những sản phẩm như khay đan và hộp đựng khăn giấy phù hợp với các không gian theo đuổi phong cách tự nhiên, gần gũi. Việc lựa chọn mẫu mã theo nhu cầu sử dụng là yếu tố đáng cân nhắc khi tìm kiếm sản phẩm cho khách sạn, homestay và nhà hàng.",
-    "avatar": null
+    "avatar": "/images/CS mây tre đan tuấn anh/CaoXuanVu.jpg"
   },
   {
     "id": "rv_MTDTA03",
@@ -2105,7 +2105,7 @@ export const reviews =
     "reviewTime": "2025-06-28",
     "order": 3,
     "content": "Việc tiếp nhận thiết kế riêng mở ra cơ hội phát triển các sản phẩm có kiểu dáng khác biệt. Đây là hướng đi đáng quan tâm đối với những thương hiệu muốn khai thác chất liệu và kỹ thuật thủ công để tạo dấu ấn riêng cho sản phẩm.",
-    "avatar": null
+    "avatar": "/images/CS mây tre đan tuấn anh/PhamKhanhLy.jpg"
   },
   {
     "id": "rv_HAC01",
@@ -2114,7 +2114,7 @@ export const reviews =
     "reviewTime": "2026-09-25",
     "order": 1,
     "content": "Tôi khá ấn tượng với các mẫu heo đất tại Hoàng Anh Ceramics. Sản phẩm có nhiều kiểu dáng, màu sắc dễ thương, phù hợp để tiết kiệm hoặc làm quà tặng. Có nhiều kích thước để lựa chọn nên khá tiện.",
-    "avatar": null
+    "avatar": "/images/CS hoàng anh ceramics/NguyenMinhAnh.png"
   },
   {
     "id": "rv_HAC02",
@@ -2123,7 +2123,7 @@ export const reviews =
     "reviewTime": "2026-03-12",
     "order": 2,
     "content": "Chúng tôi tìm kiếm những sản phẩm gốm sứ có thể sử dụng làm quà tặng và tạo dấu ấn riêng cho thương hiệu. Hoàng Anh Ceramics có các lựa chọn đa dạng, phù hợp để tham khảo cho những đơn hàng quà tặng theo nhu cầu của doanh nghiệp.",
-    "avatar": null
+    "avatar": "/images/CS hoàng anh ceramics/TranThuHa.png"
   },
   {
     "id": "rv_HAC03",
@@ -2132,7 +2132,7 @@ export const reviews =
     "reviewTime": "2026-06-04",
     "order": 3,
     "content": "Tôi bị thu hút bởi những thiết kế ngộ nghĩnh và sự đa dạng của các mẫu heo đất bằng gốm. Chúng sẽ là những món quà đáng yêu và vật trang trí thú vị. Tôi cũng rất trân trọng kỹ thuật thủ công truyền thống đằng sau nghề gốm Việt Nam.",
-    "avatar": null
+    "avatar": "/images/CS hoàng anh ceramics/EmilyCarter.png"
   },
   {
     "id": "rv_BNH01",
@@ -2141,7 +2141,7 @@ export const reviews =
     "reviewTime": "2025-07-24",
     "order": 1,
     "content": "Tôi rất thích phong cách của Bách Ngân Hỷ. Họa tiết vẽ tay tinh tế, màu sắc nhẹ nhàng và có nét riêng, đặc biệt là bộ sưu tập Cherry. Sản phẩm vừa có thể sử dụng hằng ngày, vừa phù hợp để trang trí không gian sống.",
-    "avatar": null
+    "avatar": "/images/CS bách ngân hỷ/TranPhuongMai.jpg"
   },
   {
     "id": "rv_BNH02",
@@ -2149,8 +2149,8 @@ export const reviews =
     "reviewerName": "Nguyễn Nhật Minh",
     "reviewTime": "2025-02-15",
     "order": 2,
-    "content": "Tôi rất thích phong cách của Bách Ngân Hỷ. Họa tiết vẽ tay tinh tế, màu sắc nhẹ nhàng và có nét riêng, đặc biệt là bộ sưu tập Cherry. Sản phẩm vừa có thể sử dụng hằng ngày, vừa phù hợp để trang trí không gian sống.",
-    "avatar": null
+    "content": "Các mẫu gốm sứ mang phong cách vintage khá phù hợp với định hướng không gian của chúng tôi. Sự đa dạng về họa tiết giúp việc lựa chọn sản phẩm đồng bộ cho bàn ăn và khu vực phục vụ trở nên thuận tiện hơn.",
+    "avatar": "/images/CS bách ngân hỷ/NguyenNhatMInh.jpg"
   },
   {
     "id": "rv_BNH03",
@@ -2159,7 +2159,7 @@ export const reviews =
     "reviewTime": "2025-09-19",
     "order": 3,
     "content": "Sự kết hợp giữa kỹ thuật thủ công truyền thống Việt Nam và họa tiết lấy cảm hứng từ châu Âu hiện đại rất cuốn hút. Tôi đặc biệt thích màu sắc nhẹ nhàng và những chi tiết sinh động, tạo nên vẻ đẹp vừa thanh lịch vừa đương đại.",
-    "avatar": null
+    "avatar": "/images/CS bách ngân hỷ/NgoNgocAnh.jpg"
   },
   {
     "id": "rv_GHL01",
@@ -2168,7 +2168,7 @@ export const reviews =
     "reviewTime": "2025-07-26",
     "order": 1,
     "content": "Những sản phẩm mang nét văn hóa truyền thống có tiềm năng sử dụng làm quà tặng hoặc vật phẩm trang trí cho sự kiện. Sự đa dạng về kiểu dáng giúp đơn vị tổ chức có thêm lựa chọn phù hợp với chủ đề chương trình.",
-    "avatar": null
+    "avatar": "/download/images/CS gốm hải long/TranKhanhLinh.jpg"
   },
   {
     "id": "rv_GHL02",
@@ -2177,7 +2177,7 @@ export const reviews =
     "reviewTime": "2024-05-13",
     "order": 2,
     "content": "Mình đánh giá cao nét thủ công và sự đa dạng trong thiết kế sản phẩm. Đây là yếu tố giúp các mặt hàng gốm có điểm nhấn riêng, phù hợp với những khách hàng yêu thích sản phẩm mang dấu ấn truyền thống.",
-    "avatar": null
+    "avatar": "/download/images/CS gốm hải long/DoNgocMai.jpg"
   },
   {
     "id": "rv_GHL03",
@@ -2186,7 +2186,7 @@ export const reviews =
     "reviewTime": "2025-09-05",
     "order": 3,
     "content": "Các sản phẩm gốm có thể ứng dụng trong nhiều không gian khác nhau, từ nhà ở đến quán cà phê và nhà hàng. Nếu có thêm thông tin về kích thước, chất liệu và khả năng đặt theo yêu cầu, doanh nghiệp sẽ thuận tiện hơn trong quá trình lựa chọn.",
-    "avatar": null
+    "avatar": "/download/images/CS gốm hải long/NguyenDucThanh.jpg"
   },
   {
     "id": "rv_GTL01",
@@ -2195,7 +2195,7 @@ export const reviews =
     "reviewTime": "2025-01-21",
     "order": 1,
     "content": "Mình rất ưng chiếc ấm đất nung củi này. Dáng ấm nhỏ gọn, cầm vừa tay, chất gốm đanh chắc và con cua nổi trên nắp làm rất tinh xảo, nhìn là thích ngay. Chờ lò hơn 20 ngày nhưng thành phẩm ra rất đáng để đợi, ai mê trà và đồ gốm thủ công nên thử một lần.",
-    "avatar": "/download/images/CS Gốm tới liên/avatar 1.png"
+    "avatar": "/download/images/CS Gốm tới liên/HaMaiPhuong.png"
   },
   {
     "id": "rv_GTL02",
@@ -2204,7 +2204,7 @@ export const reviews =
     "reviewTime": "2025-12-13",
     "order": 2,
     "content": "Mình chấm khoảng 85% hài lòng, chỉ thiếu chút độ đanh của gốm, nhưng vẫn đáng để thử và mình sẽ đặt thêm một chiếc nữa.",
-    "avatar": "/download/images/CS Gốm tới liên/avatar 2.png"
+    "avatar": "/download/images/CS Gốm tới liên/TranVanMinh.png"
   },
   {
     "id": "rv_GTL03",
@@ -2213,7 +2213,7 @@ export const reviews =
     "reviewTime": "2026-06-05",
     "order": 3,
     "content": "Chiếc ấm “Bạch Cúc Trường Tồn” nung củi thủ công này làm mình rất ưng. Cầm lên có cảm giác như chạm vào đất, lửa và khói, mộc mạc mà có hồn. Đúng chất gốm Việt, càng dùng càng thấy yêu, ai mê gốm nung củi nên thử một lần.",
-    "avatar": "/download/images/CS Gốm tới liên/avatar3.png"
+    "avatar": "/download/images/CS Gốm tới liên/LuThanhHa.png"
   },
   {
     "id": "rv_GSMH01",
@@ -2222,16 +2222,16 @@ export const reviews =
     "reviewTime": "2024-07-21",
     "order": 1,
     "content": "Tôi thích những sản phẩm gốm sứ có thiết kế trang nhã, dễ sử dụng trong sinh hoạt hằng ngày. Các mẫu ấm chén và đồ trang trí mang lại cảm giác gần gũi, phù hợp để sử dụng trong gia đình hoặc làm quà tặng.",
-    "avatar": null
+    "avatar": "/images/CS Gốm Mạnh Hoa/NguyenMaiChi.jpg"
   },
   {
     "id": "rv_GSMH02",
     "coSoSanXuatId": "GBT_GSMH",
-    "reviewerName": "Ngueyenx Khánh Toàn",
+    "reviewerName": "Nguyễn Khánh Toàn",
     "reviewTime": "2025-01-05",
     "order": 2,
     "content": "Điều chúng tôi quan tâm khi lựa chọn gốm sứ là sự đồng bộ về kiểu dáng và khả năng đáp ứng nhu cầu sử dụng thực tế. Mô hình hợp tác với cơ sở tại làng nghề Bát Tràng mang đến thêm lựa chọn khi tìm kiếm sản phẩm cho hoạt động kinh doanh.",
-    "avatar": null
+    "avatar": "/images/CS Gốm Mạnh Hoa/NguyenKhanhToan.jpg"
   },
   {
     "id": "rv_GSMH03",
@@ -2240,7 +2240,7 @@ export const reviews =
     "reviewTime": "2025-01-19",
     "order": 3,
     "content": "Sự kết hợp giữa kỹ thuật thủ công truyền thống Việt Nam và họa tiết lấy cảm hứng từ châu Âu hiện đại rất cuốn hút. Tôi đặc biệt thích màu sắc nhẹ nhàng và những chi tiết sinh động, tạo nên vẻ đẹp vừa thanh lịch vừa đương đại.",
-    "avatar": null
+    "avatar": "/images/CS Gốm Mạnh Hoa/HoangHaiAn.jpg"
   },
   {
     "id": "rv_LNX01",
@@ -2950,7 +2950,10 @@ export const products =
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, nổi bật với hình tượng linh vật cách điệu theo phong cách tranh dân gian, đặt giữa hệ nan tỏa đều.",
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Chàng Sơn/53.png"
+      "/download/images/Quạt Chàng Sơn/sanpham1.png",
+      "/download/images/pdf_gallery/SP_QCS_QLTDG/pdf-094-xref-190377.jpg",
+      "/download/images/pdf_gallery/SP_QCS_QLTDG/pdf-094-xref-190391.jpg",
+      "/download/images/pdf_gallery/SP_QCS_QLTDG/pdf-094-xref-190387.jpg"
     ],
     "sourcePdfPage": 94,
     "detailTemplate": "profile",
@@ -2980,7 +2983,10 @@ export const products =
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, nổi bật với hình tượng đồng tử trong trang phục truyền thống, mang đậm nét mỹ thuật phương Đông.",
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Chàng Sơn/54.png"
+      "/download/images/Quạt Chàng Sơn/sanpham2.png",
+      "/download/images/pdf_gallery/SP_QCS_QPLDT/pdf-095-xref-192676.jpg",
+      "/download/images/pdf_gallery/SP_QCS_QPLDT/pdf-095-xref-192686.jpg",
+      "/download/images/pdf_gallery/SP_QCS_QPLDT/pdf-095-xref-192682.jpg"
     ],
     "sourcePdfPage": 95,
     "detailTemplate": "profile",
@@ -3010,7 +3016,8 @@ export const products =
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, trang trí cành cây, hoa mai và chim, mang nét cổ điển, đậm sắc xuân.",
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Chàng Sơn/55.png"
+      "/download/images/Quạt Chàng Sơn/sanpham3.png",
+      "/download/images/pdf_gallery/SP_QCS_QMDNX/pdf-096-xref-194827.jpg"
     ],
     "sourcePdfPage": 96,
     "detailTemplate": "profile",
@@ -3040,7 +3047,7 @@ export const products =
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, nổi bật với cụm hoa sen nở và lá sen trải rộng, tạo bố cục cân đối, mềm mại.",
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Chàng Sơn/56.png"
+      "/download/images/Quạt Chàng Sơn/sanpham4.png"
     ],
     "sourcePdfPage": 97,
     "detailTemplate": "profile",
@@ -3070,7 +3077,7 @@ export const products =
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, nổi bật với tranh sơn thủy kết hợp núi non, cây cối, mặt nước và kiến trúc truyền thống.",
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Chàng Sơn/57.png"
+      "/download/images/Quạt Chàng Sơn/sanpham5.png"
     ],
     "sourcePdfPage": 98,
     "detailTemplate": "profile",
@@ -3100,7 +3107,7 @@ export const products =
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, kết hợp hoa sen hồng và tranh thủy mặc, tạo hiệu ứng tương phản sáng tối tinh tế.",
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Chàng Sơn/58.png"
+      "/download/images/Quạt Chàng Sơn/sanpham6.png"
     ],
     "sourcePdfPage": 99,
     "detailTemplate": "profile",
@@ -3130,7 +3137,9 @@ export const products =
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, trang trí thư pháp, tranh phong cảnh và hoa nhỏ, tạo nét hài hòa, tinh tế.",
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Từ Tâm/sanpham1.png"
+      "/download/images/Quạt Từ Tâm/sanpham1.png",
+      "/download/images/pdf_gallery/SP_QCS_QKH/pdf-082-xref-165485.jpg",
+      "/download/images/pdf_gallery/SP_QCS_QKH/pdf-082-xref-165497.jpg"
     ],
     "sourcePdfPage": 82,
     "detailTemplate": "profile",
@@ -3160,7 +3169,9 @@ export const products =
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, trang trí hình rồng cách điệu cùng hoa văn thực vật, tạo điểm nhấn nổi bật trên nền xanh đậm.",
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Từ Tâm/sanpham2.png"
+      "/download/images/Quạt Từ Tâm/sanpham2.png",
+      "/download/images/pdf_gallery/SP_QCS_QNG/pdf-083-xref-167400.jpg",
+      "/download/images/pdf_gallery/SP_QCS_QNG/pdf-083-xref-167396.jpg"
     ],
     "sourcePdfPage": 83,
     "detailTemplate": "profile",
@@ -3190,7 +3201,10 @@ export const products =
     "hoaTietVaKieuDang": "Hình cành đào nở hoa được bố trí theo đường cong của mặt quạt bán nguyệt. Có tua đỏ làm điểm nhấn trang trí.",
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Từ Tâm/sanpham3.png"
+      "/download/images/Quạt Từ Tâm/sanpham3.png",
+      "/download/images/pdf_gallery/SP_QCS_QTT/pdf-084-xref-169385.jpg",
+      "/download/images/pdf_gallery/SP_QCS_QTT/pdf-084-xref-169395.jpg",
+      "/download/images/pdf_gallery/SP_QCS_QTT/pdf-084-xref-169391.jpg"
     ],
     "sourcePdfPage": 84,
     "detailTemplate": "profile",
@@ -3220,7 +3234,10 @@ export const products =
     "hoaTietVaKieuDang": "Hoa văn truyền thống kết hợp các mô-típ đối xứng và đường nét uốn lượn trên mặt quạt bán nguyệt.",
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Từ Tâm/sanpham4.png"
+      "/download/images/Quạt Từ Tâm/sanpham4.png",
+      "/download/images/pdf_gallery/SP_QCS_QHVCC/pdf-085-xref-171440.jpg",
+      "/download/images/pdf_gallery/SP_QCS_QHVCC/pdf-085-xref-171436.jpg",
+      "/download/images/pdf_gallery/SP_QCS_QHVCC/pdf-085-xref-171444.jpg"
     ],
     "sourcePdfPage": 85,
     "detailTemplate": "profile",
@@ -3250,7 +3267,10 @@ export const products =
     "hoaTietVaKieuDang": "Cụm hoa sen nở kết hợp nụ sen và lá sen có phần tua đỏ nhỏ ở chốt quạt tạo điểm nhấn.",
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Từ Tâm/sanpham5.png"
+      "/download/images/Quạt Từ Tâm/sanpham5.png",
+      "/download/images/pdf_gallery/SP_QCS_QTRUYENTHONG/pdf-086-xref-173467.jpg",
+      "/download/images/pdf_gallery/SP_QCS_QTRUYENTHONG/pdf-086-xref-173457.jpg",
+      "/download/images/pdf_gallery/SP_QCS_QTRUYENTHONG/pdf-086-xref-173463.jpg"
     ],
     "sourcePdfPage": 86,
     "detailTemplate": "profile",
@@ -3280,7 +3300,10 @@ export const products =
     "hoaTietVaKieuDang": "Hình ảnh chim công kết hợp các cụm hoa lá nhiều màu, bố trí uốn lượn trên mặt quạt xếp hình bán nguyệt.",
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Từ Tâm/sanpham6.png"
+      "/download/images/Quạt Từ Tâm/sanpham6.png",
+      "/download/images/pdf_gallery/SP_QCS_QTPT/pdf-087-xref-175400.jpg",
+      "/download/images/pdf_gallery/SP_QCS_QTPT/pdf-087-xref-175390.jpg",
+      "/download/images/pdf_gallery/SP_QCS_QTPT/pdf-087-xref-175396.jpg"
     ],
     "sourcePdfPage": 87,
     "detailTemplate": "profile",
@@ -3310,7 +3333,10 @@ export const products =
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, trang trí hình nhân vật trong trang phục truyền thống xen kẽ hoa văn cách điệu, bố trí theo từng ô.",
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Phương/sanpham1.png"
+      "/download/images/Quạt Phương/sanpham1.png",
+      "/download/images/pdf_gallery/SP_QCS_QSVCP/pdf-088-xref-177565.jpg",
+      "/download/images/pdf_gallery/SP_QCS_QSVCP/pdf-088-xref-177551.jpg",
+      "/download/images/pdf_gallery/SP_QCS_QSVCP/pdf-088-xref-177561.jpg"
     ],
     "sourcePdfPage": 88,
     "detailTemplate": "profile",
@@ -3340,7 +3366,8 @@ export const products =
     "hoaTietVaKieuDang": "Chim công cách điệu kết hợp hoa lá, được sắp xếp theo đường cong của mặt quạt bán nguyệt.",
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Phương/sanpham2.png"
+      "/download/images/Quạt Phương/sanpham2.png",
+      "/download/images/pdf_gallery/SP_QCS_QTVHL/pdf-089-xref-179814.jpg"
     ],
     "sourcePdfPage": 89,
     "detailTemplate": "profile",
@@ -3370,7 +3397,10 @@ export const products =
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, trang trí hoa văn thực vật và đường nét uốn lượn mềm mại.",
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Phương/sanpham3.png"
+      "/download/images/Quạt Phương/sanpham3.png",
+      "/download/images/pdf_gallery/SP_QCS_QKHCT/pdf-090-xref-181977.jpg",
+      "/download/images/pdf_gallery/SP_QCS_QKHCT/pdf-090-xref-181987.jpg",
+      "/download/images/pdf_gallery/SP_QCS_QKHCT/pdf-090-xref-181983.jpg"
     ],
     "sourcePdfPage": 90,
     "detailTemplate": "profile",
@@ -3400,7 +3430,8 @@ export const products =
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, trang trí bản vẽ kỹ thuật với đường nét hình học và hình minh họa kiến trúc độc đáo",
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Phương/sanpham4.png"
+      "/download/images/Quạt Phương/sanpham4.png",
+      "/download/images/pdf_gallery/SP_QCS_QLDH/pdf-091-xref-184168.jpg"
     ],
     "sourcePdfPage": 91,
     "detailTemplate": "profile",
@@ -3430,7 +3461,10 @@ export const products =
     "hoaTietVaKieuDang": "Họa tiết xoắn tròn cách điệu kết hợp các đường nét nhỏ, được lặp lại theo chiều xòe của quạt bán nguyệt.",
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Phương/sanpham5.png"
+      "/download/images/Quạt Phương/sanpham5.png",
+      "/download/images/pdf_gallery/SP_QCS_QVXL/pdf-092-xref-186359.jpg",
+      "/download/images/pdf_gallery/SP_QCS_QVXL/pdf-092-xref-186369.jpg",
+      "/download/images/pdf_gallery/SP_QCS_QVXL/pdf-092-xref-186365.jpg"
     ],
     "sourcePdfPage": 92,
     "detailTemplate": "profile",
@@ -3460,7 +3494,10 @@ export const products =
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, tái hiện tranh sinh hoạt dân gian cùng hình ảnh nhân vật và hoa văn truyền thống.",
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Phương/sanpham6.png"
+      "/download/images/Quạt Phương/sanpham6.png",
+      "/download/images/pdf_gallery/SP_QCS_QHXDG/pdf-093-xref-188534.jpg",
+      "/download/images/pdf_gallery/SP_QCS_QHXDG/pdf-093-xref-188530.jpg",
+      "/download/images/pdf_gallery/SP_QCS_QHXDG/pdf-093-xref-188542.jpg"
     ],
     "sourcePdfPage": 93,
     "detailTemplate": "profile",
@@ -3610,7 +3647,7 @@ export const products =
     "hoaTietVaKieuDang": "Khay dáng thuôn dài, đáy phẳng, thành đan cao vừa phải và viền bo gọn, tạo vẻ mộc mạc, tinh tế.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS Mây tre việt quang/Khay mây đựng đồ.jpg"
+      "/download/images/CS Mây tre việt quang/sanpham5.png"
     ],
     "sourcePdfPage": 55,
     "detailTemplate": "profile",
@@ -3640,7 +3677,7 @@ export const products =
     "hoaTietVaKieuDang": "Hộp chữ nhật, thân đan đều, miệng mở tiện đặt hộp giấy, có thể kết hợp nắp hoặc khe rút giấy tùy thiết kế.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS Mây tre việt quang/mây tre phú vinh 6 (1).jpg"
+      "/download/images/CS Mây tre việt quang/sanpham6.png"
     ],
     "sourcePdfPage": 56,
     "detailTemplate": "profile",
@@ -3670,7 +3707,8 @@ export const products =
     "hoaTietVaKieuDang": "Túi dáng tròn dẹt, đan theo vòng đồng tâm, có nắp đóng, khóa da và quai xách hai bên, tạo nét độc đáo.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS mây tre đan tuấn anh/mây tre tuấn anh 7 (1).jpg"
+      "/download/images/CS mây tre đan tuấn anh/mây tre tuấn anh 7 (1).jpg",
+      "/download/images/Mây tre đan Phú Vinh/Mây tre đan Tuấn Anh/mây tre tuấn anh 8.jpg"
     ],
     "sourcePdfPage": 57,
     "detailTemplate": "profile",
@@ -3700,7 +3738,9 @@ export const products =
     "hoaTietVaKieuDang": "Túi dáng hộp chữ nhật, quai xách phía trên, thân đan đều kết hợp khóa cài da, tạo vẻ gọn gàng, tiện dụng.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS mây tre đan tuấn anh/mây tre tuấn anh (1).jpg"
+      "/download/images/CS mây tre đan tuấn anh/mây tre tuấn anh (1).jpg",
+      "/download/images/Mây tre đan Phú Vinh/Mây tre đan Tuấn Anh/mây tre tuấn anh 2.jpg",
+      "/download/images/Mây tre đan Phú Vinh/Mây tre đan Tuấn Anh/mây tre tuấn anh 3.jpg"
     ],
     "sourcePdfPage": 58,
     "detailTemplate": "profile",
@@ -4117,7 +4157,10 @@ export const products =
     "hoaTietVaKieuDang": "Bộ sưu tập gồm cốc có quai, đĩa và khay bo tròn mềm mại, trang trí cherry xen kẽ họa tiết kẻ ô đồng bộ.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS bách ngân hỷ/Sanpham3.jpg"
+      "/download/images/CS bách ngân hỷ/Sanpham3.jpg",
+      "/download/images/pdf_gallery/SP_GBT_09/pdf-038-xref-67585.jpg",
+      "/download/images/pdf_gallery/SP_GBT_09/pdf-038-xref-67599.jpg",
+      "/download/images/pdf_gallery/SP_GBT_09/pdf-038-xref-67549.jpg"
     ],
     "sourcePdfPage": 38,
     "detailTemplate": "profile",
@@ -4147,7 +4190,10 @@ export const products =
     "hoaTietVaKieuDang": "Cốc thân rộng, miệng mở, đáy thuôn nhẹ, trang trí họa tiết uốn lượn.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS bách ngân hỷ/Sanpham4.jpg"
+      "/download/images/CS bách ngân hỷ/Sanpham4.jpg",
+      "/download/images/pdf_gallery/SP_GBT_10/pdf-039-xref-69474.jpg",
+      "/download/images/pdf_gallery/SP_GBT_10/pdf-039-xref-69520.jpg",
+      "/download/images/pdf_gallery/SP_GBT_10/pdf-039-xref-69510.jpg"
     ],
     "sourcePdfPage": 39,
     "detailTemplate": "profile",
@@ -4177,7 +4223,9 @@ export const products =
     "hoaTietVaKieuDang": "Rổ lòng sâu, miệng rộng, hai quai đối xứng và các lỗ nhỏ mô phỏng rổ đan truyền thống, tạo vẻ độc đáo.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS bách ngân hỷ/Sanpham5.jpg"
+      "/download/images/CS bách ngân hỷ/Sanpham5.jpg",
+      "/download/images/pdf_gallery/SP_GBT_11/pdf-040-xref-71353.jpg",
+      "/download/images/pdf_gallery/SP_GBT_11/pdf-040-xref-71391.jpg"
     ],
     "sourcePdfPage": 40,
     "detailTemplate": "profile",
@@ -4207,7 +4255,10 @@ export const products =
     "hoaTietVaKieuDang": "Hũ thân tròn, có nắp đậy và chi tiết tạo hình phía trước, trang trí hoa lá, đường kẻ và hình vẽ cách điệu đa dạng.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS bách ngân hỷ/Sanpham6.jpg"
+      "/download/images/CS bách ngân hỷ/Sanpham6.jpg",
+      "/download/images/pdf_gallery/SP_GBT_12/pdf-041-xref-65766.jpg",
+      "/download/images/pdf_gallery/SP_GBT_12/pdf-041-xref-73280.jpg",
+      "/download/images/pdf_gallery/SP_GBT_12/pdf-041-xref-73290.jpg"
     ],
     "sourcePdfPage": 41,
     "detailTemplate": "profile",
@@ -4226,7 +4277,7 @@ export const products =
   {
     "id": "SP_GBT_13",
     "coSoSanXuatId": "GBT_GHL",
-    "name": "Nồi đất vẽ tay họa tiết",
+    "name": "Nồi đất vẽ tay",
     "itemDescription": "Chiếc nồi đất mang vẻ đẹp mộc mạc với phần thân nâu trầm kết hợp họa tiết vẽ tay trên lớp men sáng. Thiết kế phù hợp cho việc nấu nướng và trình bày món ăn, đem đến cảm giác gần gũi trong mỗi bữa cơm gia đình",
     "chatLieu": "Đất gốm, lớp men trang trí",
     "kyThuat": "Tạo hình gốm, tráng men và vẽ họa tiết thủ công",
@@ -4237,7 +4288,9 @@ export const products =
     "hoaTietVaKieuDang": "Nồi dáng tròn thấp, nắp đồng bộ, trang trí họa tiết xanh lam trên nền men sáng, giữ nét mộc mạc, tinh tế",
     "isFeatured": null,
     "images": [
-      "/download/images/CS gốm hải long/sanpham1.jpg"
+      "/download/images/CS gốm hải long/sanpham1.jpg",
+      "/download/images/pdf_gallery/SP_GBT_13/pdf-069-xref-128122.jpg",
+      "/download/images/pdf_gallery/SP_GBT_13/pdf-069-xref-128168.jpg"
     ],
     "sourcePdfPage": 69,
     "detailTemplate": "profile",
@@ -4267,7 +4320,9 @@ export const products =
     "hoaTietVaKieuDang": "Bình dáng tròn, cổ thu nhỏ, miệng loe nhẹ, trang trí họa tiết thuyền buồm mang ý nghĩa thuận lợi, hanh thông. Nắp bình đồng bộ với tổng thể",
     "isFeatured": null,
     "images": [
-      "/download/images/CS gốm hải long/sanpham2.png"
+      "/download/images/CS gốm hải long/sanpham2.png",
+      "/download/images/pdf_gallery/SP_GBT_14/pdf-070-xref-130027.jpg",
+      "/download/images/pdf_gallery/SP_GBT_14/pdf-070-xref-130069.jpg"
     ],
     "sourcePdfPage": 70,
     "detailTemplate": "profile",
@@ -4417,7 +4472,9 @@ export const products =
     "hoaTietVaKieuDang": "Dáng tròn, quai cong thanh thoát, cúc đắp nổi",
     "isFeatured": true,
     "images": [
-      "/download/images/CS Gốm tới liên/sanpham1.jpg"
+      "/download/images/CS Gốm tới liên/sanpham1.jpg",
+      "/download/images/pdf_gallery/SP_GBT_19/pdf-063-xref-117380.jpg",
+      "/download/images/pdf_gallery/SP_GBT_19/pdf-063-xref-117394.jpg"
     ],
     "sourcePdfPage": 63,
     "detailTemplate": "profile",
@@ -4447,7 +4504,9 @@ export const products =
     "hoaTietVaKieuDang": "Dáng vát, họa tiết rồng vờn mây",
     "isFeatured": true,
     "images": [
-      "/download/images/CS Gốm tới liên/Sanpham2.jpg"
+      "/download/images/CS Gốm tới liên/Sanpham2.jpg",
+      "/download/images/pdf_gallery/SP_GBT_20/pdf-064-xref-119141.jpg",
+      "/download/images/pdf_gallery/SP_GBT_20/pdf-064-xref-117386.jpg"
     ],
     "sourcePdfPage": 64,
     "detailTemplate": "profile",
@@ -4477,7 +4536,9 @@ export const products =
     "hoaTietVaKieuDang": "Dáng cổ quai cao, tạo hình cá hóa rồng",
     "isFeatured": true,
     "images": [
-      "/download/images/CS Gốm tới liên/Sanpham3.jpg"
+      "/download/images/CS Gốm tới liên/Sanpham3.jpg",
+      "/download/images/pdf_gallery/SP_GBT_21/pdf-065-xref-120970.jpg",
+      "/download/images/pdf_gallery/SP_GBT_21/pdf-065-xref-120932.jpg"
     ],
     "sourcePdfPage": 65,
     "detailTemplate": "profile",
@@ -4507,7 +4568,9 @@ export const products =
     "hoaTietVaKieuDang": "Trọn bộ ấm chén phong cách trà đạo",
     "isFeatured": true,
     "images": [
-      "/download/images/CS Gốm tới liên/sanpham4.jpg"
+      "/download/images/CS Gốm tới liên/sanpham4.jpg",
+      "/download/images/pdf_gallery/SP_GBT_22/pdf-066-xref-122833.jpg",
+      "/download/images/pdf_gallery/SP_GBT_22/pdf-066-xref-122829.jpg"
     ],
     "sourcePdfPage": 66,
     "detailTemplate": "profile",
@@ -4537,7 +4600,9 @@ export const products =
     "hoaTietVaKieuDang": "Dáng búp sen quai cành",
     "isFeatured": true,
     "images": [
-      "/download/images/CS Gốm tới liên/sanpham5.jpg"
+      "/download/images/CS Gốm tới liên/sanpham5.jpg",
+      "/download/images/pdf_gallery/SP_GBT_23/pdf-067-xref-124588.jpg",
+      "/download/images/pdf_gallery/SP_GBT_23/pdf-067-xref-124550.jpg"
     ],
     "sourcePdfPage": 67,
     "detailTemplate": "profile",
@@ -4567,7 +4632,9 @@ export const products =
     "hoaTietVaKieuDang": "Dáng chum tròn có nắp đậy khít",
     "isFeatured": true,
     "images": [
-      "/download/images/CS Gốm tới liên/Sanpham6.jpg"
+      "/download/images/CS Gốm tới liên/Sanpham6.jpg",
+      "/download/images/pdf_gallery/SP_GBT_24/pdf-068-xref-126341.jpg",
+      "/download/images/pdf_gallery/SP_GBT_24/pdf-068-xref-126297.jpg"
     ],
     "sourcePdfPage": 68,
     "detailTemplate": "profile",
@@ -4627,7 +4694,9 @@ export const products =
     "hoaTietVaKieuDang": "Ấm trà dáng tròn thấp, quai và nắp mềm mại, kết hợp chén nhỏ và khay cách điệu, tạo tổng thể đồng bộ, tinh tế",
     "isFeatured": null,
     "images": [
-      "/download/images/CS Gốm Mạnh Hoa/sanpham2.jpg"
+      "/download/images/CS Gốm Mạnh Hoa/sanpham2.jpg",
+      "/download/images/pdf_gallery/SP_GBT_26/pdf-044-xref-78151.jpg",
+      "/download/images/pdf_gallery/SP_GBT_26/pdf-044-xref-78113.jpg"
     ],
     "sourcePdfPage": 44,
     "detailTemplate": "profile",
@@ -4657,7 +4726,9 @@ export const products =
     "hoaTietVaKieuDang": "Khay chia nhiều ngăn theo bố cục tròn, viền uốn lượn cách điệu, phù hợp để đựng mứt, bánh kẹo hoặc trang trí",
     "isFeatured": null,
     "images": [
-      "/download/images/CS Gốm Mạnh Hoa/sanpham3.jpg"
+      "/download/images/CS Gốm Mạnh Hoa/sanpham3.jpg",
+      "/download/images/pdf_gallery/SP_GBT_27/pdf-045-xref-79946.jpg",
+      "/download/images/pdf_gallery/SP_GBT_27/pdf-045-xref-79956.jpg"
     ],
     "sourcePdfPage": 45,
     "detailTemplate": "profile",
@@ -4687,7 +4758,9 @@ export const products =
     "hoaTietVaKieuDang": "Bộ đồ ăn gồm đĩa, bát và khay nhỏ với kiểu dáng cách điệu, sắp xếp theo bố cục tròn hài hòa, phù hợp để bày biện và trang trí bàn ăn",
     "isFeatured": null,
     "images": [
-      "/download/images/CS Gốm Mạnh Hoa/sanpham4.jpg"
+      "/download/images/CS Gốm Mạnh Hoa/sanpham4.jpg",
+      "/download/images/pdf_gallery/SP_GBT_28/pdf-046-xref-81795.jpg",
+      "/download/images/pdf_gallery/SP_GBT_28/pdf-046-xref-81805.jpg"
     ],
     "sourcePdfPage": 46,
     "detailTemplate": "profile",
@@ -4717,7 +4790,9 @@ export const products =
     "hoaTietVaKieuDang": "Hộp dáng tròn, nắp đậy vừa vặn, trang trí họa tiết ánh vàng nổi bật trên nền tối",
     "isFeatured": null,
     "images": [
-      "/download/images/CS Gốm Mạnh Hoa/sanpham5.jpg"
+      "/download/images/CS Gốm Mạnh Hoa/sanpham5.jpg",
+      "/download/images/pdf_gallery/SP_GBT_29/pdf-047-xref-83654.jpg",
+      "/download/images/pdf_gallery/SP_GBT_29/pdf-047-xref-83616.jpg"
     ],
     "sourcePdfPage": 47,
     "detailTemplate": "profile",
@@ -4747,7 +4822,9 @@ export const products =
     "hoaTietVaKieuDang": "Khay mô phỏng lá sen, lòng rộng, viền uốn lượn và dáng bất đối xứng, phù hợp để bày đồ ăn hoặc trang trí",
     "isFeatured": null,
     "images": [
-      "/download/images/CS Gốm Mạnh Hoa/sanpham6.png"
+      "/download/images/CS Gốm Mạnh Hoa/sanpham6.png",
+      "/download/images/pdf_gallery/SP_GBT_30/pdf-048-xref-85491.jpg",
+      "/download/images/pdf_gallery/SP_GBT_30/pdf-048-xref-85453.jpg"
     ],
     "sourcePdfPage": 48,
     "detailTemplate": "profile",

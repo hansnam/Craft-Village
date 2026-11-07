@@ -44,7 +44,7 @@ Các dòng dưới đây thuộc mốc kiểm tra hiện tại; khi code đổi 
 | 3. Cơ sở | P0506–P0873 | Có 15 cơ sở. Trong 10 trường scalar đã kiểm tra, 2 cơ sở hiện khác DOCX vì mô tả đã sửa theo PDF; một số email null; ảnh dùng dấu ngoặc kép cong/backslash và thiếu dấu phẩy | Tra PDF 21–29/75–81; kiểm tra liên hệ/mô tả/ảnh. Không biến null thành contact đoán. So sánh scalar không xác nhận ảnh hoặc thông số lồng nhau đã đúng PDF. |
 | 4. Năng lực | P0874–P1594 | 60 mục; tên và mô tả của cả 60 khớp mock. Mỗi cơ sở 4 mục trong DOCX, chưa đủ căn cứ cho các trang PDF có bố cục/số mục khác | Rà từng cơ sở theo PDF; ảnh Hải Yến có path lỗi giống mock. Không mặc định 4 mục là đầy đủ cho mọi trang. |
 | 5. Dự án | P1595–P1700 | Chủ yếu là tên trường `id/name/Description/link/createdAt`, chưa có đầy đủ bản ghi. Có link tham khảo tại 5.3 Hoa Nón nhưng không phải hồ sơ dự án hoàn chỉnh | Lấy thông tin hiển thị từ PDF và nguồn được xác minh; không sinh dự án chỉ từ schema. Link trong DOCX chưa được mở/xác minh ở lượt này. PDF cũng có chữ dự án bị copy sang cơ sở khác, cần ghi xung đột trước khi dùng. |
-| 6. Review | P1701–P2124 | 45 review, cả tên/ngày/nội dung scalar khớp mock; avatar null. Không có nghĩa khớp PDF: ví dụ PDF 75 ghi Trần Phương Nhi, Thành Nguyễn, Nguyễn Hải Linh nhưng DOCX/mock đang dùng Trần Phương Ý, Trần Văn Quân, Nguyễn Yến Chi | Đối chiếu tên/ngày/ảnh/nội dung trên từng trang PDF; ghi quyết định nguồn khi xung đột. Không gán avatar đoán. |
+| 6. Review | P1701–P2124 | Có 45 review; mock hiện có 30 avatar và còn 15 null. Có 11 bản ghi khác DOCX ở tên/ngày/nội dung, bao gồm các tên đã sửa theo PDF 75–77 và review Nguyễn Nhật Minh | Đối chiếu tên/ngày/ảnh/nội dung trên từng trang PDF; ghi quyết định nguồn khi xung đột. Không gán avatar đoán. |
 | 7. Sản phẩm | P2125–P2280 | 90 bản ghi; 29 tên rỗng, 36 bản ghi thiếu nội dung chính, toàn bộ chưa có path ảnh sản phẩm thực tế; ID trùng và tên lụa lặp | Dùng bảng bổ sung dưới đây + văn bản PDF; giữ 6 bản Gốm Tới Liên trong mock đã có dữ liệu tốt hơn. |
 | Home/about và trang Gửi yêu cầu | Không có mục nội dung đầy đủ tương ứng | Không tìm thấy nội dung riêng “Thông tin dự án”, “Kết nối đúng nhu cầu”; chưa bao quát các section và 2 nhánh form | Lấy PDF 7/11–13/20/49–50; data home ở `homeData.js`, about/booking hiện có nhiều text ngay trong page JSX. |
 | Nón cưới trắng tinh khôi | Không có bản ghi đúng tên | Mock đã có `SP_NLC_NONCUOI_TRANG`, cơ sở chưa xác minh | Tra PDF 42 và ảnh sample để xác minh danh tính/cơ sở; không lấy nhầm bản Quai Thao Nguyệt Sắc. |
@@ -53,7 +53,7 @@ Các so sánh scalar là phép so trường đã nêu, không phải xác nhận
 
 ## 3. Các chỗ trống trong DOCX và nguồn PDF để đối chiếu
 
-Hiện 36 bản ghi có trường văn bản trong mock được bổ sung so với DOCX; 90 sản phẩm gốc đã có tên và nội dung chính, thêm một bản mẫu trang 42. Bảng dưới mô tả những chỗ trống của DOCX để tránh chép đè dữ liệu mock.
+Hiện 37 bản ghi có trường văn bản trong mock khác DOCX, trong đó 36 bản đã được bổ sung trường DOCX để trống; 90 sản phẩm gốc đã có tên và nội dung chính, thêm một bản mẫu trang 42. Bảng dưới mô tả những chỗ trống của DOCX để tránh chép đè dữ liệu mock.
 
 36 bản ghi dưới đây đều để trống `itemDescription`, `chatLieu`, `kyThuat`, `dacDiemTitle`, `dacDiemDescription`, `chatLieuVaMauSac`, `hoaTietVaKieuDang` trong DOCX; `xuatXu` có giá trị nhưng vẫn cần so với PDF. Có 29 tên trống; bản Gốm Mạnh Hoa thứ sáu lại mang tên mây tre sai nhóm. Cả 6 bản lụa cùng tên Phượng Vũ.
 

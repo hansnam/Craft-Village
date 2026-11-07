@@ -4,7 +4,7 @@
   "products": 90,
   "docx_blank_names": 29,
   "products_with_any_missing_core_text": 36,
-  "records_with_scalar_difference_from_mock": 36,
+  "records_with_scalar_difference_from_mock": 37,
   "records_with_mock_value_docx_empty": 36,
   "duplicate_docx_product_ids": {
     "SP_QCS_QTT": 2,
@@ -33,7 +33,7 @@
     },
     "reviews": {
       "records": 45,
-      "records_with_differences": 0,
+      "records_with_differences": 11,
       "records_with_unextracted_fields": 0
     }
   }
