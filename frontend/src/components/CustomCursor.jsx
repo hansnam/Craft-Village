@@ -48,7 +48,7 @@ export default function CustomCursor() {
       if (ringRef.current) {
         ringRef.current.style.transform = `translate3d(${ringPos.x.toFixed(
           2
-        )}px, ${ringPos.y.toFixed(2)}px, 0)`;
+        )}px, ${ringPos.y.toFixed(2)}px, 0) scale(var(--cursor-press-scale, 1))`;
       }
       if (auraRef.current) {
         auraRef.current.style.transform = `translate3d(${auraPos.x.toFixed(

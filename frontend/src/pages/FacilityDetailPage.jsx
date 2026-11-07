@@ -86,7 +86,7 @@ export default function FacilityDetailPage() {
   };
 
   return (
-    <div className="workshop-detail-page">
+    <div className={`workshop-detail-page${facility.id === "MTD_MTDVQ" ? " workshop-detail-page--viet-quang" : ""}`}>
       {/* Breadcrumb điều hướng */}
       <nav className="workshop-breadcrumb" aria-label="Đường dẫn trang">
         <div className="workshop-breadcrumb__container">

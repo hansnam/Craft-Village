@@ -1797,12 +1797,34 @@ export const projects =
     "createdAt": ""
   },
   {
-    "id": "",
+    "id": "PRJ_MTDVQ_01",
     "coSoSanXuatId": "MTD_MTDVQ",
-    "name": "",
-    "description": "",
+    "name": "Lồng bàn đan mây - Sản phẩm công nghiệp nông thôn tiêu biểu khu vực phía Bắc",
+    "description": "Sản phẩm thể hiện khả năng ứng dụng kỹ thuật đan truyền thống vào vật dụng phục vụ đời sống, kết hợp giá trị thủ công với tính ứng dụng thực tế.",
+    "image": "/download/images/CS Mây tre việt quang/duan1.jpg",
     "link": "",
-    "createdAt": ""
+    "createdAt": "04/08/2024",
+    "sourceNote": "Nội dung thiết kế PDF 26, chưa xác minh thực tế."
+  },
+  {
+    "id": "PRJ_MTDVQ_02",
+    "coSoSanXuatId": "MTD_MTDVQ",
+    "name": "Bộ sưu tập sản phẩm mây tre đan OCOP 4 sao",
+    "description": "Việt Quang có các sản phẩm đạt OCOP 4 sao gồm bình hoa đan tre, túi thời trang, chậu tre, giỏ đan mây và tháp mây. Danh mục cho thấy sự đa dạng về kiểu dáng và công năng, từ đồ gia dụng đến sản phẩm trang trí và phụ kiện.",
+    "image": "/download/images/CS Mây tre việt quang/duan2.jpg",
+    "link": "",
+    "createdAt": "",
+    "sourceNote": "Nội dung thiết kế PDF 26, chưa xác minh thực tế."
+  },
+  {
+    "id": "PRJ_MTDVQ_03",
+    "coSoSanXuatId": "MTD_MTDVQ",
+    "name": "Phát triển sản phẩm thủ công mỹ nghệ sáng tạo",
+    "description": "Dưới sự dẫn dắt của nghệ nhân Nguyễn Văn Tĩnh, xưởng duy trì kỹ thuật đan thủ công truyền thống, đồng thời cải tiến mẫu mã để đáp ứng nhu cầu thị trường.",
+    "image": "/download/images/CS Mây tre việt quang/duan3.jpg",
+    "link": "",
+    "createdAt": "",
+    "sourceNote": "Nội dung thiết kế PDF 26, chưa xác minh thực tế."
   },
   {
     "id": "",
@@ -3264,7 +3286,7 @@ export const products =
     "id": "SP_QCS_QKH",
     "coSoSanXuatId": "QCS_QTT",
     "name": "Quạt Khang Hi",
-    "itemDescription": "Mang vẻ đẹp thanh nhã với nền giấy sáng màu, kết hợp thư pháp và họa tiết hội họa theo phong cách phương Đông. Những nét mực đen mềm mại cùng điểm nhấn hồng đỏ tạo nên bố cục hài hòa, gợi tinh thần thi họa truyền thống. Sản phẩm phù hợp để trưng bày, làm quà tặng hoặc kết hợp với trang phục mang phong cách cổ điển.",
+    "itemDescription": "Quạt Khang Hi mang vẻ đẹp thanh nhã với nền giấy sáng màu, kết hợp thư pháp và họa tiết hội họa theo phong cách phương Đông. Những nét mực đen mềm mại cùng điểm nhấn hồng đỏ tạo nên bố cục hài hòa.",
     "chatLieu": "Giấy trang trí, nan quạt và cán quạt",
     "kyThuat": "Tạo hình quạt xếp truyền thống, kết hợp trang trí thư pháp và họa tiết hội họa trên bề mặt giấy.",
     "xuatXu": "Làng quạt Chàng Sơn, Thạch Thất, Hà Nội.",
@@ -3272,6 +3294,10 @@ export const products =
     "dacDiemDescription": "Sản phẩm nổi bật với nền trắng kết hợp các nét mực đen và điểm nhấn màu hồng nhẹ. Bố cục trang trí không đối xứng tạo cảm giác tự nhiên, giúp chiếc quạt vừa có giá trị sử dụng vừa mang tính nghệ thuật.",
     "chatLieuVaMauSac": "Nền giấy trắng ngà, họa tiết đen xám điểm hồng đỏ, kết hợp nan quạt màu đen tương phản.",
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, trang trí thư pháp, tranh phong cảnh và hoa nhỏ, tạo nét hài hòa, tinh tế.",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_QCS_QKH/chat-lieu.jpg",
+      "design": "/download/images/pdf_features/SP_QCS_QKH/kieu-dang.jpg"
+    },
     "isFeatured": null,
     "images": [
       "/download/images/Quạt Từ Tâm/sanpham1.png",
@@ -4599,14 +4625,14 @@ export const products =
     "id": "SP_GBT_19",
     "coSoSanXuatId": "GBT_GTL",
     "name": "Ấm Bạch Cúc",
-    "itemDescription": "Ấm đất nung củi tạo hình đóa cúc trắng thanh tao, cốt gốm đanh chắc và giữ nhiệt tốt.",
-    "chatLieu": "Đất sét Bát Tràng nung củi tự nhiên",
-    "kyThuat": "Tạo hình thủ công, nung củi truyền thống",
+    "itemDescription": "Ấm trà gốm mang gam màu trầm mộc mạc, nổi bật với họa tiết hoa cúc trắng ngà được tạo hình tinh tế, tạo nên vẻ đẹp thanh nhã cho không gian thưởng trà",
+    "chatLieu": "Gốm",
+    "kyThuat": "Tạo hình gốm, trang trí họa tiết nổi và hoàn thiện bề mặt",
     "xuatXu": "Làng gốm Bát Tràng, Hà Nội.",
-    "dacDiemTitle": "Chất gốm mộc mạc",
-    "dacDiemDescription": "Hoa văn cánh cúc đắp nổi thủ công tỉ mỉ, nắp khít giữ trọn hương trà.",
-    "chatLieuVaMauSac": "Màu nâu gốm tự nhiên điểm men trắng",
-    "hoaTietVaKieuDang": "Dáng tròn, quai cong thanh thoát, cúc đắp nổi",
+    "dacDiemTitle": "Thanh nhã trong từng đường nét",
+    "dacDiemDescription": "Sự kết hợp giữa gam màu trầm và họa tiết hoa cúc trắng ngà tạo nên nét đẹp nhẹ nhàng, tinh tế. Sản phẩm phù hợp với những không gian thưởng trà mang phong cách truyền thống, đề cao sự giản dị và thanh nhã",
+    "chatLieuVaMauSac": "Tông nâu xám trầm, kết hợp chi tiết trắng ngà, tạo vẻ mộc mạc và nổi bật",
+    "hoaTietVaKieuDang": "Ấm dáng tròn thấp, vòi cong, quai uốn mềm mại, trang trí hoa cúc trắng tạo hình nổi, mang nét thanh nhã, tinh tế",
     "isFeatured": true,
     "images": [
       "/download/images/CS Gốm tới liên/sanpham1.jpg",

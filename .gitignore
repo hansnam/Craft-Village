@@ -5,3 +5,7 @@
 scratch/
 template/
 docs/ke_hoach
+
+# Ảnh chụp đối chiếu web/PDF chỉ dùng tại máy; giữ README và danh sách trang.
+docs/audit/DOI_CHIEU_HINH_P2_1_DEN_P2_10/pdf-*/web.jpg
+docs/audit/DOI_CHIEU_HINH_P2_1_DEN_P2_10/pdf-*/pdf.jpg

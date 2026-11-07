@@ -1,42 +1,25 @@
-import React, { useEffect, useState, useRef } from "react";
-import { useLocation } from "react-router-dom";
+import React, { useEffect, useState } from "react";
 
 const NON_LA_RIB_ANGLES = Array.from({ length: 16 }, (_, idx) => idx * 22.5);
 
 /**
  * Hiệu ứng Loading toàn trang (Global Page Loader)
  * Hiển thị biểu tượng Nón Lá 3D xoay tròn đặc trưng di sản văn hóa Việt Nam,
- * tự động kích hoạt mượt mà khi chuyển trang hoặc tải mới ứng dụng.
+ * chỉ hiển thị khi ứng dụng khởi động lần đầu.
  */
 export default function GlobalPageLoader() {
-  const location = useLocation();
   const [isLoading, setIsLoading] = useState(true);
-  const previousPathRef = useRef(location.pathname);
-  const timerRef = useRef(null);
 
   // Khởi tạo lần đầu
   useEffect(() => {
-    timerRef.current = window.setTimeout(() => {
+    const timer = window.setTimeout(() => {
       setIsLoading(false);
     }, 450);
 
     return () => {
-      if (timerRef.current) window.clearTimeout(timerRef.current);
+      window.clearTimeout(timer);
     };
   }, []);
-
-  // Chuyển trang (chỉ kích hoạt khi pathname thay đổi, bỏ qua neo scroll hash nội bộ)
-  useEffect(() => {
-    if (location.pathname !== previousPathRef.current) {
-      previousPathRef.current = location.pathname;
-      setIsLoading(true);
-
-      if (timerRef.current) window.clearTimeout(timerRef.current);
-      timerRef.current = window.setTimeout(() => {
-        setIsLoading(false);
-      }, 420);
-    }
-  }, [location.pathname]);
 
   return (
     <div
