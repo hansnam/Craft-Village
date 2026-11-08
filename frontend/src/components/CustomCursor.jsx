@@ -86,14 +86,27 @@ export default function CustomCursor() {
         setCursorMode("input");
         return;
       }
-      if (el.closest("a, button, [data-cursor='link']")) {
-        setCursorMode("link");
+
+      // Mục 5.4: Artisan Inspect cursor on craft & product images
+      if (
+        el.closest(
+          "[data-cursor='artisan'], [data-cursor='inspect'], .product-gallery__main, .product-profile-hero__main-box, .workshop-capacity-row__img-frame, .artisan-inspectable, .product-card__media, .artisan-turntable"
+        )
+      ) {
+        setCursorMode("artisan");
         return;
       }
+
       if (el.closest("[data-cursor='card']")) {
         setCursorMode("card");
         return;
       }
+
+      if (el.closest("a, button, [data-cursor='link'], .btn, .nav-link")) {
+        setCursorMode("link");
+        return;
+      }
+
       setCursorMode("default");
     };
 
@@ -138,14 +151,15 @@ export default function CustomCursor() {
     .filter(Boolean)
     .join(" ");
 
+  const labelText = cursorMode === "artisan" ? "Khám phá ✦" : "Xem ↗";
+
   return (
     <div className={stateClasses} aria-hidden="true">
       <div className="craft-cursor__aura" ref={auraRef} />
       <div className="craft-cursor__ring" ref={ringRef}>
-        <span className="craft-cursor__label">Xem ↗</span>
+        <span className="craft-cursor__label">{labelText}</span>
       </div>
       <div className="craft-cursor__dot" ref={dotRef} />
     </div>
   );
 }
-

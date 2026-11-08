@@ -1,5 +1,6 @@
 import React from "react";
 import { resolveMockAsset } from "../../utils/resolveMockAsset.js";
+import AnimatedDrawingCurve from "../effects/AnimatedDrawingCurve.jsx";
 
 export default function FacilityCapacities({
   capacities = [],
@@ -69,37 +70,12 @@ export default function FacilityCapacities({
                       </div>
                     </div>
 
-                    {/* Đường nét đứt uốn lượn mềm mại giữa các ảnh như hình mẫu */}
+                    {/* Đường chỉ thêu uốn lượn tự động vẽ theo tiến trình cuộn (Mục 5.3) */}
                     {hasNext && (
-                      <div className="workshop-capacity-connector" aria-hidden="true">
-                        <svg
-                          viewBox="0 0 600 160"
-                          preserveAspectRatio="none"
-                          className="workshop-capacity-connector__svg"
-                        >
-                          {index % 2 === 0 ? (
-                            // Uốn lượn từ Row ảnh bên Trái sang Row ảnh bên Phải (Row 1 -> Row 2, Row 3 -> Row 4)
-                            <path
-                              d="M 205 5 C 210 90, 370 75, 440 155"
-                              fill="none"
-                              stroke="#c4b5a4"
-                              strokeWidth="2.5"
-                              strokeDasharray="8 8"
-                              strokeLinecap="round"
-                            />
-                          ) : (
-                            // Uốn lượn từ Row ảnh bên Phải sang Row ảnh bên Trái (Row 2 -> Row 3)
-                            <path
-                              d="M 395 5 C 390 90, 230 75, 160 155"
-                              fill="none"
-                              stroke="#c4b5a4"
-                              strokeWidth="2.5"
-                              strokeDasharray="8 8"
-                              strokeLinecap="round"
-                            />
-                          )}
-                        </svg>
-                      </div>
+                      <AnimatedDrawingCurve
+                        direction={index % 2 === 0 ? "left-to-right" : "right-to-left"}
+                        index={index}
+                      />
                     )}
                   </React.Fragment>
                 );

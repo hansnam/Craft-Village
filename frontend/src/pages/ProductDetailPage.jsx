@@ -4,6 +4,7 @@ import { products, facilities, villages } from "../data/mockData.js";
 import { resolveMockAsset } from "../utils/resolveMockAsset.js";
 import ImageLightboxModal from "../components/facility/ImageLightboxModal.jsx";
 import FacilityConnectModal from "../components/facility/FacilityConnectModal.jsx";
+import ArtisanTurntableShowcase from "../components/effects/ArtisanTurntableShowcase.jsx";
 
 // Helper icon placeholder for missing craft product images
 function CraftProductPlaceholder({ name, facilityName }) {
@@ -281,41 +282,27 @@ export default function ProductDetailPage() {
 
               {/* Left Column: 1:1 Square Product Image */}
               <div className="product-profile-hero__gallery">
-                <div
-                  className={`product-profile-hero__main-box ${currentMainImage ? "is-clickable" : ""}`}
-                  onClick={() => {
-                    if (currentMainImage?.url) {
+                <div className="product-profile-hero__main-box">
+                  <ArtisanTurntableShowcase
+                    images={galleryImages}
+                    activeIndex={activeImageIndex}
+                    onIndexChange={setActiveImageIndex}
+                    productName={product.name}
+                    facilityName={facility?.name}
+                    onOpenLightbox={(url, alt) =>
                       setLightbox({
                         open: true,
-                        url: currentMainImage.url,
-                        alt: currentMainImage.alt || product.name,
-                      });
+                        url,
+                        alt: alt || product.name,
+                      })
                     }
-                  }}
-                  title={currentMainImage ? "Nhấp để phóng to ảnh" : undefined}
-                >
-                  {currentMainImage ? (
-                    <>
-                      <img
-                        src={currentMainImage.url}
-                        alt={currentMainImage.alt || product.name}
-                        className="product-profile-hero__main-img"
+                    placeholder={
+                      <CraftProductPlaceholder
+                        name={product.name}
+                        facilityName={facility?.name}
                       />
-                      <div className="product-profile-hero__zoom-badge" aria-hidden="true">
-                        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2">
-                          <circle cx="11" cy="11" r="8" />
-                          <line x1="21" y1="21" x2="16.65" y2="16.65" />
-                          <line x1="11" y1="8" x2="11" y2="14" />
-                          <line x1="8" y1="11" x2="14" y2="11" />
-                        </svg>
-                      </div>
-                    </>
-                  ) : (
-                    <CraftProductPlaceholder
-                      name={product.name}
-                      facilityName={facility?.name}
-                    />
-                  )}
+                    }
+                  />
 
                   {/* Slider controls: Only visible when multiple authentic gallery images exist */}
                   {galleryImages.length > 1 && (
@@ -754,41 +741,27 @@ export default function ProductDetailPage() {
 
               {/* Left Gallery */}
               <div className="product-gallery">
-                <div
-                  className={`product-gallery__main ${currentMainImage ? "is-clickable" : ""}`}
-                  onClick={() => {
-                    if (currentMainImage?.url) {
+                <div className="product-gallery__main">
+                  <ArtisanTurntableShowcase
+                    images={galleryImages}
+                    activeIndex={activeImageIndex}
+                    onIndexChange={setActiveImageIndex}
+                    productName={product.name}
+                    facilityName={facility?.name}
+                    onOpenLightbox={(url, alt) =>
                       setLightbox({
                         open: true,
-                        url: currentMainImage.url,
-                        alt: currentMainImage.alt || product.name,
-                      });
+                        url,
+                        alt: alt || product.name,
+                      })
                     }
-                  }}
-                  title={currentMainImage ? "Nhấp để xem ảnh kích thước lớn" : undefined}
-                >
-                  {currentMainImage ? (
-                    <>
-                      <img
-                        src={currentMainImage.url}
-                        alt={currentMainImage.alt || product.name}
-                        className="product-gallery__main-img"
+                    placeholder={
+                      <CraftProductPlaceholder
+                        name={product.name}
+                        facilityName={facility?.name}
                       />
-                      <div className="product-gallery__zoom-badge" aria-hidden="true">
-                        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2">
-                          <circle cx="11" cy="11" r="8" />
-                          <line x1="21" y1="21" x2="16.65" y2="16.65" />
-                          <line x1="11" y1="8" x2="11" y2="14" />
-                          <line x1="8" y1="11" x2="14" y2="11" />
-                        </svg>
-                      </div>
-                    </>
-                  ) : (
-                    <CraftProductPlaceholder
-                      name={product.name}
-                      facilityName={facility?.name}
-                    />
-                  )}
+                    }
+                  />
                 </div>
 
                 <div className="product-gallery__thumbs">
