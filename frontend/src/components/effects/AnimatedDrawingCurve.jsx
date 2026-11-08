@@ -175,3 +175,4 @@ export default function AnimatedDrawingCurve({ direction = "left-to-right", inde
     </div>
   );
 }
+
