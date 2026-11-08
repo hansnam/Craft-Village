@@ -4809,3 +4809,22 @@ html.custom-cursor-active select {
     animation: heroNonLaSpin 4s linear infinite !important;
   }
 }
+
+/* Toast Action Button */
+.craft-toast__action-btn {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 4px 10px;
+  background: var(--brand-crimson, #8f1d1d);
+  color: #fff !important;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 160ms ease;
+}
+.craft-toast__action-btn:hover {
+  background: #a82323;
+}

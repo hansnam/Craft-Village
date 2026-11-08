@@ -1634,7 +1634,7 @@
 .product-detail-page--profile-reference .product-profile-spec-icon { color: #171411; }
 .product-detail-page--profile-reference .product-profile-spec-label, .product-detail-page--profile-reference .product-profile-spec-val { font-size: 16px; line-height: 1.45; color: #171411; }
 .product-detail-page--profile-reference .btn-profile-primary { width: 304px; height: 56px; font-size: 18px; }
-.product-detail-page--profile-reference .btn-profile-primary::after { content: '➜'; display: grid; place-items: center; color: #730000; background: white; width: 32px; height: 32px; border-radius: 50%; margin-left: 18px; }
+.product-detail-page--profile-reference .btn-profile-primary::after { content: '\279c'; display: grid; place-items: center; color: #730000; background: white; width: 32px; height: 32px; border-radius: 50%; margin-left: 18px; font-size: 16px; }
 .product-detail-page--profile-reference .product-profile-features { padding: 0 0 140px; border: 0; }
 .product-detail-page--profile-reference .product-profile-features > .product-container { position: relative; }
 .product-detail-page--profile-reference .product-profile-section-title { font: 500 14px/1.4 var(--body-font); letter-spacing: 0; color: #171411; }
@@ -1919,3 +1919,58 @@
   }
 }
 
+
+/* ==========================================================================
+   FIGMA FRAME 1184:137 SPECIFIC REFINEMENTS
+   ========================================================================== */
+.product-profile-contact__callout-card {
+  min-height: 228px;
+  padding: 24px 32px !important;
+  display: grid !important;
+  grid-template-columns: 240px 1fr !important;
+  gap: 24px !important;
+  align-items: center !important;
+  text-align: left !important;
+  box-shadow: 0 4px 20px rgba(44, 24, 16, 0.08) !important;
+  border: 1px solid rgba(186, 146, 94, 0.35) !important;
+  border-radius: 16px !important;
+  background-color: #fffdf9 !important;
+}
+
+.product-profile-contact__callout-image {
+  width: 100% !important;
+  height: 155px !important;
+  object-fit: cover !important;
+  border-radius: 10px !important;
+  box-shadow: 0 4px 12px rgba(44, 24, 16, 0.1) !important;
+}
+
+.product-profile-contact__callout-content {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  gap: 16px !important;
+}
+
+.product-profile-contact__callout-prompt {
+  font-size: 15px !important;
+  color: #1e100a !important;
+  line-height: 1.5 !important;
+  margin: 0 !important;
+}
+
+.product-profile-contact__callout-prompt strong {
+  font-size: 16px !important;
+  color: #1e100a !important;
+}
+
+.product-profile-contact__callout-card .btn-profile-primary {
+  width: 100% !important;
+  max-width: 280px !important;
+}
+
+@media (max-width: 768px) {
+  .product-profile-contact__callout-card {
+    grid-template-columns: 1fr !important;
+  }
+}
