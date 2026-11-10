@@ -92,6 +92,20 @@ function CraftToastStack({ toasts, onDismiss }) {
             {toast.message && (
               <p className="craft-toast__message">{toast.message}</p>
             )}
+            {toast.actionLabel && (
+              <button
+                type="button"
+                className="craft-toast__action-btn"
+                onClick={() => {
+                  if (typeof toast.onAction === "function") {
+                    toast.onAction();
+                  }
+                  onDismiss(toast.id);
+                }}
+              >
+                {toast.actionLabel}
+              </button>
+            )}
           </div>
 
           <button

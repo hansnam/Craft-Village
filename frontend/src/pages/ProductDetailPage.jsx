@@ -1,9 +1,11 @@
 import React, { useState, useEffect, useMemo } from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
+import { useAuth } from "../context/AuthContext.jsx";
 import { products, facilities, villages } from "../data/mockData.js";
 import { resolveMockAsset } from "../utils/resolveMockAsset.js";
 import ImageLightboxModal from "../components/facility/ImageLightboxModal.jsx";
 import FacilityConnectModal from "../components/facility/FacilityConnectModal.jsx";
+import ArtisanTurntableShowcase from "../components/effects/ArtisanTurntableShowcase.jsx";
 
 // Helper icon placeholder for missing craft product images
 function CraftProductPlaceholder({ name, facilityName }) {
@@ -33,6 +35,7 @@ function CraftProductPlaceholder({ name, facilityName }) {
 export default function ProductDetailPage() {
   const { productId } = useParams();
   const navigate = useNavigate();
+  const { currentUser, openLoginModal, showToast: showAuthToast } = useAuth();
 
   // Find product by id or aliasIds (case-insensitive)
   const product = useMemo(() => {
@@ -86,6 +89,33 @@ export default function ProductDetailPage() {
   const [toastMessage, setToastMessage] = useState("");
   const [lightbox, setLightbox] = useState({ open: false, url: "", alt: "" });
   const [isConnectModalOpen, setIsConnectModalOpen] = useState(false);
+
+  // Handler for "Gửi yêu cầu": requires login or prompts user to login
+  const handleInquiryRequest = () => {
+    if (!currentUser) {
+      if (typeof showAuthToast === "function") {
+        showAuthToast({
+          type: "warning",
+          title: "Cần đăng nhập",
+          message: "Bạn cần đăng nhập mới có thể gửi yêu cầu.",
+          actionLabel: "Đăng nhập ngay ↗",
+          onAction: () => {
+            if (typeof openLoginModal === "function") {
+              openLoginModal();
+            }
+          },
+        });
+      } else {
+        alert("Bạn cần đăng nhập mới có thể gửi yêu cầu.");
+        if (typeof openLoginModal === "function") {
+          openLoginModal();
+        }
+      }
+      return;
+    }
+    setIsConnectModalOpen(true);
+  };
+
 
   // Manage favorites in localStorage
   useEffect(() => {
@@ -287,41 +317,27 @@ export default function ProductDetailPage() {
 
               {/* Left Column: 1:1 Square Product Image */}
               <div className="product-profile-hero__gallery">
-                <div
-                  className={`product-profile-hero__main-box ${currentMainImage ? "is-clickable" : ""}`}
-                  onClick={() => {
-                    if (currentMainImage?.url) {
+                <div className="product-profile-hero__main-box">
+                  <ArtisanTurntableShowcase
+                    images={galleryImages}
+                    activeIndex={activeImageIndex}
+                    onIndexChange={setActiveImageIndex}
+                    productName={product.name}
+                    facilityName={facility?.name}
+                    onOpenLightbox={(url, alt) =>
                       setLightbox({
                         open: true,
-                        url: currentMainImage.url,
-                        alt: currentMainImage.alt || product.name,
-                      });
+                        url,
+                        alt: alt || product.name,
+                      })
                     }
-                  }}
-                  title={currentMainImage ? "Nhấp để phóng to ảnh" : undefined}
-                >
-                  {currentMainImage ? (
-                    <>
-                      <img
-                        src={currentMainImage.url}
-                        alt={currentMainImage.alt || product.name}
-                        className="product-profile-hero__main-img"
+                    placeholder={
+                      <CraftProductPlaceholder
+                        name={product.name}
+                        facilityName={facility?.name}
                       />
-                      <div className="product-profile-hero__zoom-badge" aria-hidden="true">
-                        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2">
-                          <circle cx="11" cy="11" r="8" />
-                          <line x1="21" y1="21" x2="16.65" y2="16.65" />
-                          <line x1="11" y1="8" x2="11" y2="14" />
-                          <line x1="8" y1="11" x2="14" y2="11" />
-                        </svg>
-                      </div>
-                    </>
-                  ) : (
-                    <CraftProductPlaceholder
-                      name={product.name}
-                      facilityName={facility?.name}
-                    />
-                  )}
+                    }
+                  />
 
                   {/* Slider controls: Only visible when multiple authentic gallery images exist */}
                   {galleryImages.length > 1 && (
@@ -435,7 +451,7 @@ export default function ProductDetailPage() {
                   <button
                     type="button"
                     className="btn-profile-primary"
-                    onClick={() => setIsConnectModalOpen(true)}
+                    onClick={handleInquiryRequest}
                   >
                     Gửi yêu cầu
                   </button>
@@ -575,17 +591,17 @@ export default function ProductDetailPage() {
               <h2 className="product-profile-section-title">HƯỚNG DẪN LIÊN HỆ XƯỞNG</h2>
 
               <div className="product-profile-contact__grid">
-                {/* Left: Contact Info with Icons matching PDF */}
+                {/* Left: Contact Info with Icons matching Figma 1184:137 */}
                 <div className="product-profile-contact__info">
                   <h3 className="product-profile-contact__subtitle">Trao đổi trực tiếp với xưởng</h3>
 
                   <div className="product-profile-contact__rows">
                     <div className="product-profile-contact-row">
                       <div className="product-profile-contact-row__head">
-                        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#730000" strokeWidth="2" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#730000" strokeWidth="2" aria-hidden="true">
                           <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                         </svg>
-                        <span className="product-profile-contact-row__label">Hotline - Zalo</span>
+                        <span className="product-profile-contact-row__label">Hotline</span>
                       </div>
                       <span className="product-profile-contact-row__val">
                         {product.id === "SP_MTD_GMTDM" ? "0912 916 992" : (facility?.soDienThoai || "Liên hệ xưởng")}
@@ -594,34 +610,31 @@ export default function ProductDetailPage() {
 
                     {facility?.email?.trim() && <div className="product-profile-contact-row">
                       <div className="product-profile-contact-row__head">
-                        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#730000" strokeWidth="2" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#730000" strokeWidth="2" aria-hidden="true">
                           <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
                           <polyline points="22,6 12,13 2,6" />
                         </svg>
                         <span className="product-profile-contact-row__label">Email</span>
                       </div>
-                      <span className="product-profile-contact-row__val">
-                        {facility.email.trim()}
-                      </span>
+                      <span className="product-profile-contact-row__val">{facility.email.trim()}</span>
                     </div>}
 
                     <div className="product-profile-contact-row">
                       <div className="product-profile-contact-row__head">
-                        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#730000" strokeWidth="2" aria-hidden="true">
-                          <polyline points="21 8 21 21 3 21 3 8" />
-                          <rect x="1" y="3" width="22" height="5" />
-                          <line x1="10" y1="12" x2="14" y2="12" />
+                        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#730000" strokeWidth="2" aria-hidden="true">
+                          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                          <circle cx="12" cy="10" r="3" />
                         </svg>
                         <span className="product-profile-contact-row__label">Dịch vụ đi kèm</span>
                       </div>
                       <span className="product-profile-contact-row__val">
-                        Nhận đơn số lượng lớn, trao đổi về mẫu thiết kế và báo giá theo nhu cầu.
+                        Tư vấn sản phẩm, trao đổi đơn hàng sỉ và nhu cầu đặt hàng theo yêu cầu; các dịch vụ cụ thể cần được xác nhận với cơ sở
                       </span>
                     </div>
                   </div>
                 </div>
 
-                {/* Right: Callout Prompt & CTA with Background Image */}
+                {/* Right: Callout Prompt & CTA matching Figma 1184:137 (Lotus Card Background + Artisan Thumbnail) */}
                 <div className="product-profile-contact__callout">
                   <div
                     className="product-profile-contact__callout-card"
@@ -631,22 +644,25 @@ export default function ProductDetailPage() {
                         : facility?.images?.consultation
                           ? `linear-gradient(rgba(247, 241, 230, 0.86), rgba(247, 241, 230, 0.86)), url('${resolveMockAsset(facility.images.consultation)}')`
                           : undefined,
+                      backgroundSize: 'cover',
+                      backgroundPosition: 'center',
                     }}
                   >
                     {profileAssets && (
                       <img className="product-profile-contact__callout-image" src={resolveMockAsset(profileAssets.contact)} alt="Hình minh họa nghề thủ công" />
                     )}
                     <div className="product-profile-contact__callout-content">
-                    <p className="product-profile-contact__callout-prompt">
-                      Bạn cần tư vấn thêm về sản phẩm hoặc đặt hàng số lượng lớn?
-                    </p>
-                    <button
-                      type="button"
-                      className="btn-profile-primary"
-                      onClick={() => setIsConnectModalOpen(true)}
-                    >
-                      Gửi yêu cầu
-                    </button>
+                      <p className="product-profile-contact__callout-prompt">
+                        <strong>Bạn cần tư vấn thêm</strong><br />
+                        về sản phẩm hoặc đặt hàng số lượng lớn?
+                      </p>
+                      <button
+                        type="button"
+                        className="btn-profile-primary"
+                        onClick={handleInquiryRequest}
+                      >
+                        Gửi yêu cầu
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -760,41 +776,27 @@ export default function ProductDetailPage() {
 
               {/* Left Gallery */}
               <div className="product-gallery">
-                <div
-                  className={`product-gallery__main ${currentMainImage ? "is-clickable" : ""}`}
-                  onClick={() => {
-                    if (currentMainImage?.url) {
+                <div className="product-gallery__main">
+                  <ArtisanTurntableShowcase
+                    images={galleryImages}
+                    activeIndex={activeImageIndex}
+                    onIndexChange={setActiveImageIndex}
+                    productName={product.name}
+                    facilityName={facility?.name}
+                    onOpenLightbox={(url, alt) =>
                       setLightbox({
                         open: true,
-                        url: currentMainImage.url,
-                        alt: currentMainImage.alt || product.name,
-                      });
+                        url,
+                        alt: alt || product.name,
+                      })
                     }
-                  }}
-                  title={currentMainImage ? "Nhấp để xem ảnh kích thước lớn" : undefined}
-                >
-                  {currentMainImage ? (
-                    <>
-                      <img
-                        src={currentMainImage.url}
-                        alt={currentMainImage.alt || product.name}
-                        className="product-gallery__main-img"
+                    placeholder={
+                      <CraftProductPlaceholder
+                        name={product.name}
+                        facilityName={facility?.name}
                       />
-                      <div className="product-gallery__zoom-badge" aria-hidden="true">
-                        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2">
-                          <circle cx="11" cy="11" r="8" />
-                          <line x1="21" y1="21" x2="16.65" y2="16.65" />
-                          <line x1="11" y1="8" x2="11" y2="14" />
-                          <line x1="8" y1="11" x2="14" y2="11" />
-                        </svg>
-                      </div>
-                    </>
-                  ) : (
-                    <CraftProductPlaceholder
-                      name={product.name}
-                      facilityName={facility?.name}
-                    />
-                  )}
+                    }
+                  />
                 </div>
 
                 <div className="product-gallery__thumbs">
@@ -890,7 +892,7 @@ export default function ProductDetailPage() {
                   <button
                     type="button"
                     className="btn-quote"
-                    onClick={() => setIsConnectModalOpen(true)}
+                    onClick={handleInquiryRequest}
                   >
                     <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2">
                       <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
