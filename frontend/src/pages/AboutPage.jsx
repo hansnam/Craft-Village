@@ -1,13 +1,45 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { resolveMockAsset } from "../utils/resolveMockAsset.js";
 import ImageLightboxModal from "../components/facility/ImageLightboxModal.jsx";
 
+const base = import.meta.env.BASE_URL || "/";
+
+function getAssetUrl(relPath) {
+  if (!relPath) return "";
+  const resolved = resolveMockAsset(relPath);
+  if (resolved) return resolved;
+  const cleanPath = relPath.replace(/^\/+/, "");
+  return `${base}${cleanPath}`;
+}
+
 export default function AboutPage() {
   const [lightbox, setLightbox] = useState({ isOpen: false, imageUrl: "", title: "" });
+  const [isVideoLoaded, setIsVideoLoaded] = useState(false);
+  const videoRef = useRef(null);
 
   useEffect(() => {
     window.scrollTo(0, 0);
     document.title = "Về chúng tôi | CRAFT FOLIO - Kết nối làng nghề truyền thống";
+
+    const video = videoRef.current;
+    if (video) {
+      video.muted = true;
+      video.defaultMuted = true;
+      video.playsInline = true;
+
+      const attemptPlay = () => {
+        const playPromise = video.play();
+        if (playPromise !== undefined) {
+          playPromise
+            .then(() => setIsVideoLoaded(true))
+            .catch(() => {
+              // Autoplay policy: muted is set so this rarely triggers
+            });
+        }
+      };
+
+      attemptPlay();
+    }
   }, []);
 
   const openLightbox = (url, title) => {
@@ -18,52 +50,87 @@ export default function AboutPage() {
     setLightbox({ isOpen: false, imageUrl: "", title: "" });
   };
 
-  // Image assets downloaded from Figma Frame 1576:373
-  const heroBannerUrl = resolveMockAsset("/download/images/about_us/about_hero_figma.png");
-  const projectThumbUrl = resolveMockAsset("/download/images/about_us/about_project_thumb.png");
-  const panoramaArtisanUrl = resolveMockAsset("/download/images/about_us/about_panorama_artisan.png");
-  const missionCard1Url = resolveMockAsset("/download/images/about_us/about_mission_card1.png");
-  const missionCard2Url = resolveMockAsset("/download/images/about_us/about_mission_card2.png");
-  const waveBgUrl = resolveMockAsset("/download/images/about_us/about_wave_bg.png");
-  const visionIllustrationUrl = resolveMockAsset("/download/images/about_us/about_vision_illustration.png");
+  // Base-aware asset URLs from folder 'images/Về chúng tôi'
+  const posterUrl = getAssetUrl("download/images/about_us/header_poster.jpg");
+  const videoStream720Url = getAssetUrl("download/images/about_us/header_stream_720p.mp4");
+  const videoStream1080Url = getAssetUrl("download/images/about_us/header_stream.mp4");
+  const videoOriginalUrl = getAssetUrl("download/images/about_us/about_header.mp4");
+  const projectAvatarUrl = getAssetUrl("download/images/about_us/about_project_avatar.jpg");
+  const statementStripsUrl = getAssetUrl("download/images/about_us/about_statement_strips.png");
+  const missionCard1Url = getAssetUrl("download/images/about_us/about_mission_card1.jpg");
+  const missionCard2Url = getAssetUrl("download/images/about_us/about_mission_card2.jpg");
+  const visionCollageUrl = getAssetUrl("download/images/about_us/about_vision_collage.png");
+  const waveBgUrl = getAssetUrl("download/images/about_us/about_wave_bg.png");
+  const botanicalPatternUrl = getAssetUrl("download/images/about_us/botanical_pattern.png");
 
   return (
     <div className="about-page">
       {/* Botanical Pattern Background Overlay */}
-      <div className="about-page__bg-pattern" aria-hidden="true" />
+      <div
+        className="about-page__bg-pattern"
+        aria-hidden="true"
+        style={{ backgroundImage: `url('${botanicalPatternUrl}')` }}
+      />
 
-      {/* 1. HERO BANNER (Full width matching Figma Rectangle 5) */}
-      <section className="about-hero" aria-label="Hình ảnh giới thiệu dự án">
-        <div
-          className="about-hero__banner-wrap"
-          onClick={() => openLightbox(heroBannerUrl, "Craft Folio - Làng nghề Việt Nam")}
-          data-cursor="button"
-        >
+      {/* ==================================================================
+          1. HEADER VIDEO BANNER (Optimized progressive chunk streaming with FastStart & poster)
+         ================================================================== */}
+      <section className="about-hero" aria-label="Video giới thiệu dự án">
+        <div className="about-hero__video-container">
+          {/* Instant poster placeholder */}
           <img
-            src={heroBannerUrl}
-            alt="Craft Folio - Di sản và bàn tay làng nghề truyền thống"
-            className="about-hero__banner-img"
+            src={posterUrl}
+            alt="Craft Folio Hero Poster"
+            className={`about-hero__poster-img ${isVideoLoaded ? "is-hidden" : ""}`}
             loading="eager"
           />
+
+          <video
+            ref={videoRef}
+            src={videoStream720Url}
+            className={`about-hero__video ${isVideoLoaded ? "is-loaded" : ""}`}
+            autoPlay
+            loop
+            muted
+            playsInline
+            preload="metadata"
+            poster={posterUrl}
+            onLoadedData={() => setIsVideoLoaded(true)}
+            onCanPlay={() => setIsVideoLoaded(true)}
+            onPlaying={() => setIsVideoLoaded(true)}
+          >
+            {/* Streamable 720p (3.4MB with FastStart moov progressive chunk streaming) */}
+            <source src={videoStream720Url} type="video/mp4" />
+            {/* Streamable 1080p (8.5MB with FastStart moov progressive chunk streaming) */}
+            <source src={videoStream1080Url} type="video/mp4" />
+            {/* Original video fallback */}
+            <source src={videoOriginalUrl} type="video/mp4" />
+            Trình duyệt của bạn không hỗ trợ thẻ video.
+          </video>
         </div>
       </section>
 
       <div className="about-page__container">
-        {/* 2. THÔNG TIN DỰ ÁN */}
+        {/* ==================================================================
+            2. THÔNG TIN DỰ ÁN
+           ================================================================== */}
         <section className="about-section about-project" aria-labelledby="project-info-title">
           <div className="about-project__grid">
+            {/* Left: Project Image Banner (avatar du an.jpg) */}
             <div
               className="about-project__media-wrap"
-              onClick={() => openLightbox(projectThumbUrl, "Nghệ nhân gốm - Craft Folio")}
+              onClick={() => openLightbox(projectAvatarUrl, "Craft Folio - Thông tin dự án")}
               data-cursor="button"
             >
               <img
-                src={projectThumbUrl}
-                alt="Nghệ nhân gốm thủ công"
+                src={projectAvatarUrl}
+                alt="Craft Folio - Kết nối tinh hoa thủ công Việt"
                 className="about-project__img"
                 loading="lazy"
               />
             </div>
+
+            {/* Right: Typography Content */}
             <div className="about-project__content">
               <h1 id="project-info-title" className="about-section__title">
                 Thông tin dự án
@@ -80,24 +147,27 @@ export default function AboutPage() {
               </p>
             </div>
           </div>
-        </section>
 
-        {/* 3. ĐẠI CẢNH & TUYÊN NGÔN BẢN SẮC */}
-        <section className="about-section about-statement" aria-label="Tuyên ngôn dự án">
-          <blockquote className="about-statement__quote">
+          {/* Centered Callout Quote below 2-column info */}
+          <div className="about-project__highlight-quote">
             “CRAFT FOLIO không chỉ giới thiệu sản phẩm mà còn tạo điều kiện để các cơ sở sản xuất
             thể hiện năng lực và đặc điểm riêng của mình trên nền tảng số”
-          </blockquote>
+          </div>
+        </section>
 
+        {/* ==================================================================
+            3. ĐẠI CẢNH 5 CỘT ẢNH NGHỆ THUẬT & ĐOẠN VĂN BẢN KẾT NỐI
+           ================================================================== */}
+        <section className="about-section about-statement" aria-label="Bộ sưu tập và sứ mệnh kết nối">
           <div
-            className="about-statement__panorama-wrap"
-            onClick={() => openLightbox(panoramaArtisanUrl, "Nghệ nhân làng nghề làm việc")}
+            className="about-statement__strips-wrap"
+            onClick={() => openLightbox(statementStripsUrl, "Tinh hoa làng nghề truyền thống Việt Nam")}
             data-cursor="button"
           >
             <img
-              src={panoramaArtisanUrl}
-              alt="Đại cảnh nghệ nhân làng nghề làm việc"
-              className="about-statement__panorama-img"
+              src={statementStripsUrl}
+              alt="5 nét đẹp thủ công: Quạt Chàng Sơn, Nón Làng Chuông, Gốm Bát Tràng, Lụa Nha Xá, Mây tre đan Phú Vinh"
+              className="about-statement__strips-img"
               loading="lazy"
             />
           </div>
@@ -110,7 +180,9 @@ export default function AboutPage() {
           </p>
         </section>
 
-        {/* 4. SỨ MỆNH */}
+        {/* ==================================================================
+            4. SỨ MỆNH
+           ================================================================== */}
         <section className="about-section about-mission" aria-labelledby="mission-title">
           <div className="about-mission__header">
             <h2 id="mission-title" className="about-section__title">
@@ -132,7 +204,7 @@ export default function AboutPage() {
               >
                 <img
                   src={missionCard1Url}
-                  alt="Chúng tôi hướng đến"
+                  alt="Không gian trưng bày mây tre đan thủ công"
                   loading="lazy"
                 />
               </div>
@@ -155,7 +227,7 @@ export default function AboutPage() {
               >
                 <img
                   src={missionCard2Url}
-                  alt="Giá trị chúng tôi tạo ra"
+                  alt="Không gian giới thiệu sản phẩm làng nghề đến khách hàng"
                   loading="lazy"
                 />
               </div>
@@ -171,7 +243,9 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* 5. TẦM NHÌN */}
+        {/* ==================================================================
+            5. TẦM NHÌN
+           ================================================================== */}
         <section
           className="about-section about-vision"
           aria-labelledby="vision-title"
@@ -193,6 +267,7 @@ export default function AboutPage() {
           </div>
 
           <div className="about-vision__grid">
+            {/* Left Column: Strategic Vision Paragraphs */}
             <div className="about-vision__text-col">
               <p className="about-section__lead">
                 CRAFT FOLIO hướng đến việc mở rộng hệ thống dữ liệu về các làng nghề, đa dạng hóa
@@ -207,15 +282,16 @@ export default function AboutPage() {
               </p>
             </div>
 
+            {/* Right Column: Artisan Collage Image */}
             <div
-              className="about-vision__illustration-wrap"
-              onClick={() => openLightbox(visionIllustrationUrl, "Tầm nhìn phát triển Craft Folio")}
+              className="about-vision__collage-wrap"
+              onClick={() => openLightbox(visionCollageUrl, "Tầm nhìn phát triển Craft Folio")}
               data-cursor="button"
             >
               <img
-                src={visionIllustrationUrl}
-                alt="Minh họa tầm nhìn phát triển làng nghề"
-                className="about-vision__illustration-img"
+                src={visionCollageUrl}
+                alt="Các nghệ nhân làng nghề chế tác nón lá, quạt và đồ gốm"
+                className="about-vision__collage-img"
                 loading="lazy"
               />
             </div>

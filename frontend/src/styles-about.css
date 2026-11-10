@@ -8,7 +8,7 @@
   min-height: 100vh;
   position: relative;
   overflow-x: hidden;
-  padding-bottom: 100px;
+  padding-bottom: 60px;
 }
 
 /* Background botanical pattern layer from Figma */
@@ -37,29 +37,29 @@
   padding: 0 32px;
 }
 
-/* Section Common Typography */
+/* Common Section Typography - tightened vertical padding */
 .about-section {
-  padding: 80px 0;
+  padding: 32px 0;
   position: relative;
 }
 
 .about-section__title {
   font-family: var(--heading-font, "1FTV Blushing Rose", serif);
-  font-size: clamp(38px, 4.2vw, 60px);
+  font-size: clamp(36px, 4vw, 56px);
   font-weight: 400;
   color: #960018;
   line-height: 1.15;
-  margin: 0 0 12px;
+  margin: 0 0 8px;
   letter-spacing: -0.5px;
 }
 
 .about-section__subheading {
   font-family: var(--body-font, "Be Vietnam Pro", sans-serif);
-  font-size: clamp(22px, 2vw, 28px);
+  font-size: clamp(20px, 1.8vw, 26px);
   font-weight: 600;
   color: #181010;
   line-height: 1.35;
-  margin: 0 0 16px;
+  margin: 0 0 12px;
 }
 
 .about-section__line {
@@ -67,52 +67,70 @@
   max-width: 100%;
   height: 2px;
   background-color: #960018;
-  margin-bottom: 24px;
+  margin-bottom: 18px;
   border-radius: 2px;
 }
 
 .about-section__lead {
   font-family: var(--body-font, "Be Vietnam Pro", sans-serif);
-  font-size: clamp(16px, 1.25vw, 19px);
-  line-height: 1.8;
+  font-size: clamp(15px, 1.15vw, 18px);
+  line-height: 1.7;
   color: #181010;
-  margin: 0 0 20px;
+  margin: 0 0 16px;
   font-weight: 400;
 }
 
 /* --------------------------------------------------------------------------
-   1. HERO BANNER
+   1. HEADER VIDEO BANNER (Progressive Chunk Streaming)
    -------------------------------------------------------------------------- */
 .about-hero {
-  padding-top: 24px;
-  padding-bottom: 40px;
+  padding-top: 16px;
+  padding-bottom: 20px;
   max-width: 1440px;
   margin: 0 auto;
   padding-inline: 24px;
 }
 
-.about-hero__banner-wrap {
+.about-hero__video-container {
   position: relative;
   width: 100%;
   aspect-ratio: 1440 / 712;
-  max-height: 650px;
+  max-height: 640px;
   border-radius: 20px;
   overflow: hidden;
-  box-shadow: 0 12px 36px rgba(92, 73, 56, 0.12);
-  cursor: pointer;
-  background-color: #f0ebe1;
+  background-color: #120d0b;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
 }
 
-.about-hero__banner-img {
+.about-hero__poster-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+  transition: opacity 0.5s ease;
+}
+
+.about-hero__poster-img.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.about-hero__video {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
-  transition: transform 0.6s cubic-bezier(0.2, 0, 0.2, 1);
+  opacity: 0;
+  transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.about-hero__banner-wrap:hover .about-hero__banner-img {
-  transform: scale(1.025);
+.about-hero__video.is-loaded {
+  opacity: 1;
+  position: relative;
+  z-index: 2;
 }
 
 /* --------------------------------------------------------------------------
@@ -120,9 +138,10 @@
    -------------------------------------------------------------------------- */
 .about-project__grid {
   display: grid;
-  grid-template-columns: 528px 1fr;
-  gap: 56px;
+  grid-template-columns: 500px 1fr;
+  gap: 48px;
   align-items: center;
+  margin-bottom: 32px;
 }
 
 .about-project__media-wrap {
@@ -130,7 +149,7 @@
   aspect-ratio: 528 / 465;
   border-radius: 18px;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(92, 73, 56, 0.1);
+  box-shadow: 0 8px 24px rgba(92, 73, 56, 0.1);
   cursor: pointer;
   background-color: #f0ebe1;
 }
@@ -144,7 +163,7 @@
 }
 
 .about-project__media-wrap:hover .about-project__img {
-  transform: scale(1.035);
+  transform: scale(1.03);
 }
 
 .about-project__content {
@@ -152,52 +171,53 @@
   flex-direction: column;
 }
 
-/* --------------------------------------------------------------------------
-   3. ĐẠI CẢNH & TUYÊN NGÔN BẢN SẮC
-   -------------------------------------------------------------------------- */
-.about-statement {
-  padding: 60px 0 80px;
-}
-
-.about-statement__quote {
+.about-project__highlight-quote {
   font-family: var(--body-font, "Be Vietnam Pro", sans-serif);
-  font-size: clamp(20px, 1.8vw, 24px);
+  font-size: clamp(18px, 1.5vw, 22px);
   font-weight: 600;
-  line-height: 1.6;
+  line-height: 1.5;
   color: #181010;
   text-align: center;
   max-width: 1050px;
-  margin: 0 auto 40px;
-  padding: 0 16px;
+  margin: 20px auto 0;
+  padding: 0 20px;
 }
 
-.about-statement__panorama-wrap {
+/* --------------------------------------------------------------------------
+   3. ĐẠI CẢNH 5 CỘT ẢNH NGHỆ THUẬT & ĐOẠN VĂN BẢN KẾT NỐI
+   -------------------------------------------------------------------------- */
+.about-statement {
+  padding: 32px 0 36px;
+}
+
+.about-statement__strips-wrap {
   width: 100%;
-  max-height: 680px;
+  max-width: 100%;
+  margin: 0 auto 28px;
   border-radius: 20px;
   overflow: hidden;
-  box-shadow: 0 14px 44px rgba(92, 73, 56, 0.12);
   cursor: pointer;
-  background-color: #f0ebe1;
-  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  transition: transform 0.5s ease;
 }
 
-.about-statement__panorama-img {
+.about-statement__strips-img {
   width: 100%;
-  max-height: 680px;
+  height: auto;
   object-fit: cover;
   display: block;
   transition: transform 0.6s cubic-bezier(0.2, 0, 0.2, 1);
 }
 
-.about-statement__panorama-wrap:hover .about-statement__panorama-img {
-  transform: scale(1.02);
+.about-statement__strips-wrap:hover .about-statement__strips-img {
+  transform: scale(1.015);
 }
 
 .about-statement__lead {
   font-family: var(--body-font, "Be Vietnam Pro", sans-serif);
-  font-size: clamp(17px, 1.3vw, 20px);
-  line-height: 1.8;
+  font-size: clamp(16px, 1.2vw, 19px);
+  line-height: 1.75;
   color: #181010;
   text-align: center;
   max-width: 980px;
@@ -208,14 +228,18 @@
 /* --------------------------------------------------------------------------
    4. SỨ MỆNH
    -------------------------------------------------------------------------- */
+.about-mission {
+  padding: 28px 0;
+}
+
 .about-mission__header {
-  margin-bottom: 36px;
+  margin-bottom: 24px;
 }
 
 .about-mission__cards-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 40px;
+  gap: 36px;
 }
 
 .about-mission-card {
@@ -225,10 +249,10 @@
 
 .about-mission-card__media {
   width: 100%;
-  aspect-ratio: 638 / 380;
+  aspect-ratio: 638 / 420;
   border-radius: 18px;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(92, 73, 56, 0.1);
+  box-shadow: 0 8px 24px rgba(92, 73, 56, 0.09);
   cursor: pointer;
   background-color: #f0ebe1;
 }
@@ -242,25 +266,25 @@
 }
 
 .about-mission-card__media:hover img {
-  transform: scale(1.035);
+  transform: scale(1.03);
 }
 
 .about-mission-card__body {
-  padding-top: 24px;
+  padding-top: 18px;
 }
 
 .about-mission-card__title {
   font-family: var(--body-font, "Be Vietnam Pro", sans-serif);
-  font-size: clamp(20px, 1.6vw, 24px);
+  font-size: clamp(19px, 1.5vw, 23px);
   font-weight: 600;
   color: #181010;
-  margin: 0 0 12px;
+  margin: 0 0 10px;
 }
 
 .about-mission-card__desc {
   font-family: var(--body-font, "Be Vietnam Pro", sans-serif);
-  font-size: clamp(16px, 1.2vw, 18px);
-  line-height: 1.75;
+  font-size: clamp(15px, 1.15vw, 17px);
+  line-height: 1.7;
   color: #181010;
   margin: 0;
   font-weight: 400;
@@ -270,38 +294,38 @@
    5. TẦM NHÌN
    -------------------------------------------------------------------------- */
 .about-vision {
-  padding: 80px 32px 100px;
+  padding: 40px 32px 50px;
   border-radius: 24px;
-  margin-top: 40px;
+  margin-top: 24px;
 }
 
 .about-vision__header {
-  margin-bottom: 36px;
+  margin-bottom: 24px;
 }
 
 .about-vision__grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 56px;
+  gap: 48px;
   align-items: center;
 }
 
 .about-vision__text-col {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 14px;
 }
 
-.about-vision__illustration-wrap {
+.about-vision__collage-wrap {
   width: 100%;
-  max-width: 580px;
+  max-width: 620px;
   border-radius: 18px;
   overflow: hidden;
   cursor: pointer;
   margin: 0 auto;
 }
 
-.about-vision__illustration-img {
+.about-vision__collage-img {
   width: 100%;
   height: auto;
   object-fit: contain;
@@ -309,8 +333,8 @@
   transition: transform 0.5s ease;
 }
 
-.about-vision__illustration-wrap:hover .about-vision__illustration-img {
-  transform: scale(1.03);
+.about-vision__collage-wrap:hover .about-vision__collage-img {
+  transform: scale(1.025);
 }
 
 /* --------------------------------------------------------------------------
@@ -319,42 +343,47 @@
 @media (max-width: 1080px) {
   .about-project__grid {
     grid-template-columns: 1fr;
-    gap: 36px;
+    gap: 28px;
   }
   .about-project__media-wrap {
-    max-width: 528px;
+    max-width: 500px;
     margin: 0 auto;
   }
 
   .about-mission__cards-grid {
     grid-template-columns: 1fr;
-    gap: 36px;
+    gap: 28px;
   }
 
   .about-vision__grid {
     grid-template-columns: 1fr;
-    gap: 36px;
+    gap: 28px;
   }
 }
 
 @media (max-width: 768px) {
   .about-page__container {
-    padding: 0 20px;
+    padding: 0 16px;
   }
   .about-hero {
-    padding-inline: 16px;
-    padding-top: 16px;
+    padding-inline: 12px;
+    padding-top: 12px;
+  }
+  .about-hero__video-container {
+    aspect-ratio: 16 / 9;
+    max-height: 380px;
+    border-radius: 14px;
   }
   .about-section {
-    padding: 50px 0;
+    padding: 24px 0;
   }
-  .about-statement__quote {
-    margin-bottom: 24px;
+  .about-project__highlight-quote {
+    margin-top: 16px;
   }
-  .about-statement__panorama-wrap {
-    margin-bottom: 24px;
+  .about-statement__strips-wrap {
+    margin-bottom: 16px;
   }
   .about-section__line {
-    width: 240px;
+    width: 220px;
   }
 }
