@@ -1655,6 +1655,7 @@
 .product-detail-page--profile-reference .product-profile-quote-strip__text { max-width: 570px; font: 400 26px/1.2 var(--heading-font); }
 .product-detail-page--lotus .product-profile-quote-strip { background-position: center 10%; background-color: #fff; background-size: cover; }
 .product-detail-page--lotus .product-profile-quote-strip__text { color: #870a0d; text-shadow: none; }
+.product-detail-page--silk .product-profile-quote-strip { background-position: center 50%; }
 .product-profile-quote-strip--plain { background-color: #f6efe2; }
 .product-profile-quote-strip--plain .product-profile-quote-strip__text { color: #730000; text-shadow: none; }
 

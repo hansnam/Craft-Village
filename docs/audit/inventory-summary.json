@@ -1,14 +1,14 @@
 {
-  "image_files": 1499,
-  "unique_contents": 739,
+  "image_files": 1638,
+  "unique_contents": 878,
   "statuses": {
-    "REFERENCED": 579,
+    "REFERENCED": 718,
     "SAME_CONTENT_AS_REFERENCED": 755,
     "NO_STATIC_REFERENCE": 165
   },
   "roots": {
     "frontend/download/images": {
-      "REFERENCED": 578,
+      "REFERENCED": 717,
       "SAME_CONTENT_AS_REFERENCED": 86,
       "NO_STATIC_REFERENCE": 144
     },
@@ -23,7 +23,7 @@
       "NO_STATIC_REFERENCE": 21
     }
   },
-  "literal_references": 589,
+  "literal_references": 732,
   "missing_references": 0,
   "data_counts": {
     "users": 3,
@@ -33,7 +33,7 @@
     "capacities": 60,
     "projects": 19,
     "reviews": 45,
-    "products": 91,
+    "products": 95,
     "initialBookings": 0
   },
   "products_without_name": 0,

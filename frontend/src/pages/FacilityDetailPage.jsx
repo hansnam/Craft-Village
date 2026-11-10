@@ -58,7 +58,7 @@ export default function FacilityDetailPage() {
 
   // Lọc dữ liệu liên quan đến cơ sở này
   const facilityProducts = Array.isArray(products)
-    ? products.filter((p) => p.coSoSanXuatId === facility.id)
+    ? products.filter((p) => p.coSoSanXuatId === facility.id && !p.isHomeFeaturedOnly)
     : [];
 
   const facilityCapacities = Array.isArray(capacities)

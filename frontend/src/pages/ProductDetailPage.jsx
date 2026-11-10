@@ -156,11 +156,11 @@ export default function ProductDetailPage() {
     if (!product) return [];
 
     const sameFacility = products.filter(
-      (p) => p.coSoSanXuatId === product.coSoSanXuatId && p.id !== product.id
+      (p) => p.coSoSanXuatId === product.coSoSanXuatId && p.id !== product.id && !p.isHomeFeaturedOnly
     );
 
     const others = products.filter(
-      (p) => p.id !== product.id && p.coSoSanXuatId !== product.coSoSanXuatId
+      (p) => p.id !== product.id && p.coSoSanXuatId !== product.coSoSanXuatId && !p.isHomeFeaturedOnly
     );
 
     return [...sameFacility, ...others].slice(0, 6);
@@ -209,24 +209,30 @@ export default function ProductDetailPage() {
     82: { quote: "/download/images/banners/quote_pdf82.jpg", contact: "/download/images/banners/contact_card_mtd.png" },
   }[product.sourcePdfPage];
   const pdfPage = product.sourcePdfPage;
-  const isP2Product = (pdfPage >= 30 && pdfPage <= 41) || (pdfPage >= 43 && pdfPage <= 48) || (pdfPage >= 51 && pdfPage <= 74) || (pdfPage >= 82 && pdfPage <= 99);
+  const isP2Product = (pdfPage >= 30 && pdfPage <= 41) || (pdfPage >= 43 && pdfPage <= 48) || (pdfPage >= 51 && pdfPage <= 74) || (pdfPage >= 82 && pdfPage <= 99) || (pdfPage >= 101 && pdfPage <= 130);
   const fallbackQuote = {
     GBT: "/download/images/banners/quote_lotus_pdf.jpg",
     MTD: "/download/images/banners/quote_banner_mtd.png",
     QCS: "/download/images/banners/quote_pdf82.jpg",
+    NLC: "/download/images/banners/quote_non_pdf101.jpg",
+    LNX: "/download/images/banners/quote_lua_pdf119.jpg",
+  }[facility?.langNgheId];
+  const templateContact = {
+    NLC: "/download/images/banners/contact_non_pdf101.jpg",
+    LNX: "/download/images/banners/contact_lua_pdf119.jpg",
   }[facility?.langNgheId];
   const profileAssets = sampleProfileAssets || (isP2Product && fallbackQuote && facility?.images?.consultation
-    ? { quote: fallbackQuote, contact: facility.images.consultation, lotus: facility.langNgheId === "GBT" }
+    ? { quote: fallbackQuote, contact: templateContact || facility.images.consultation, lotus: facility.langNgheId === "GBT" }
     : null);
   const quoteImage = profileAssets?.quote || fallbackQuote;
   const isLotusBanner = profileAssets?.lotus || (!profileAssets && facility?.langNgheId === "GBT");
   const explicitMaterialUrl = product.featureImages?.material && resolveMockAsset(product.featureImages.material);
   const explicitShapeUrl = product.featureImages?.design && resolveMockAsset(product.featureImages.design);
-  const materialImage = (explicitMaterialUrl && { url: explicitMaterialUrl }) || galleryImages[1] || (isP2Product ? galleryImages[0] : null);
-  const shapeImage = (explicitShapeUrl && { url: explicitShapeUrl }) || galleryImages[2] || (isP2Product ? galleryImages[0] : null);
+  const materialImage = (explicitMaterialUrl && { url: explicitMaterialUrl }) || (isP2Product ? galleryImages[0] : galleryImages[1]);
+  const shapeImage = (explicitShapeUrl && { url: explicitShapeUrl }) || (isP2Product ? galleryImages[0] : galleryImages[2]);
 
   return (
-    <div className={`product-detail-page ${isTabsTemplate ? "has-tabs-template" : "has-profile-template"}${profileAssets ? " product-detail-page--profile-reference" : ""}${isLotusBanner ? " product-detail-page--lotus" : ""}${isChairPdf52 ? " product-detail-page--pdf52" : ""}`}>
+    <div className={`product-detail-page ${isTabsTemplate ? "has-tabs-template" : "has-profile-template"}${profileAssets ? " product-detail-page--profile-reference" : ""}${isLotusBanner ? " product-detail-page--lotus" : ""}${facility?.langNgheId === "LNX" ? " product-detail-page--silk" : ""}${isChairPdf52 ? " product-detail-page--pdf52" : ""}`}>
       {/* Toast feedback notification */}
       {toastMessage && (
         <div className="craft-toast" role="status" aria-live="polite">
@@ -628,7 +634,7 @@ export default function ProductDetailPage() {
                     }}
                   >
                     {profileAssets && (
-                      <img className="product-profile-contact__callout-image" src={resolveMockAsset(profileAssets.contact)} alt={`Không gian ${facility?.name || "làng nghề"}`} />
+                      <img className="product-profile-contact__callout-image" src={resolveMockAsset(profileAssets.contact)} alt="Hình minh họa nghề thủ công" />
                     )}
                     <div className="product-profile-contact__callout-content">
                     <p className="product-profile-contact__callout-prompt">
