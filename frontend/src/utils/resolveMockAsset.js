@@ -1,7 +1,13 @@
-const allBundledModules = import.meta.glob(
-  "../../download/Ảnh làng nghề/**/*.{png,jpg,jpeg,webp,avif,svg,mp4,PNG,JPG,JPEG,WEBP,MP4}",
-  { eager: true, import: "default" }
-);
+const allBundledModules = {
+  ...import.meta.glob(
+    "../../download/images/**/*.{png,jpg,jpeg,webp,avif,svg,mp4,PNG,JPG,JPEG,WEBP,MP4}",
+    { eager: true, import: "default" }
+  ),
+  ...import.meta.glob(
+    "../../download/Ảnh làng nghề/**/*.{png,jpg,jpeg,webp,avif,svg,mp4,PNG,JPG,JPEG,WEBP,MP4}",
+    { eager: true, import: "default" }
+  ),
+};
 
 function stripVietnameseDiacritics(value) {
   return value
@@ -34,11 +40,12 @@ const exactLowerLookup = new Map();
 const asciiSlugLookup = new Map();
 const asciiNoExtLookup = new Map();
 
-const GLOB_PREFIX = "../../download/Ảnh làng nghề/";
+const GLOB_PREFIXES = ["../../download/Ảnh làng nghề/", "../../download/images/"];
 
 Object.entries(allBundledModules).forEach(([globKey, assetUrl]) => {
-  if (!globKey.startsWith(GLOB_PREFIX)) return;
-  const relPath = globKey.slice(GLOB_PREFIX.length);
+  const matchedPrefix = GLOB_PREFIXES.find((p) => globKey.startsWith(p));
+  if (!matchedPrefix) return;
+  const relPath = globKey.slice(matchedPrefix.length);
   const exactKey = relPath.toLowerCase();
   const slugKey = toAsciiSlug(relPath);
   const noExtKey = stripExtension(slugKey);
