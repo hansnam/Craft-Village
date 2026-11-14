@@ -1916,83 +1916,83 @@ export const reviews =
   {
     "id": "rv_NLHY01",
     "coSoSanXuatId": "NLC_NLHY",
-    "reviewerName": "Hà Trang",
+    "reviewerName": "Thu Thảo",
     "reviewTime": "2026-05-15",
     "order": 1,
     "content": "Các dòng nón thủ công có tiềm năng trở thành quà tặng đối tác và sản phẩm lưu niệm mang đậm dấu ấn văn hóa Việt Nam. Khả năng đặt thiết kế riêng cũng giúp doanh nghiệp linh hoạt hơn khi lựa chọn sản phẩm phù hợp với chủ đề và nhu cầu của từng chương trình.",
-    "avatar": null
+    "avatar": "/download/images/pdf_avatars/NLC_NLHY/rv_NLHY01.jpg"
   },
   {
     "id": "rv_NLHY02",
     "coSoSanXuatId": "NLC_NLHY",
-    "reviewerName": "Phạm Nhy",
+    "reviewerName": "Huyền My",
     "reviewTime": "2026-08-24",
     "order": 2,
     "content": "Những sản phẩm như nón cổ, nón quai thao và đèn trang trí mang đến nhiều ý tưởng sáng tạo cho không gian trưng bày. Tôi đánh giá cao tiềm năng kết hợp chất liệu thủ công truyền thống với phong cách thiết kế hiện đại.",
-    "avatar": null
+    "avatar": "/download/images/pdf_avatars/NLC_NLHY/rv_NLHY02.jpg"
   },
   {
     "id": "rv_NLHY03",
     "coSoSanXuatId": "NLC_NLHY",
-    "reviewerName": "Phạm Mai Chi",
+    "reviewerName": "Phạm Mai Linh",
     "reviewTime": "2025-07-25",
     "order": 3,
     "content": "Các dòng nón thủ công có tiềm năng trở thành quà tặng đối tác và sản phẩm lưu niệm mang đậm dấu ấn văn hóa Việt Nam. Khả năng đặt thiết kế riêng cũng giúp doanh nghiệp linh hoạt hơn khi lựa chọn sản phẩm phù hợp với chủ đề và nhu cầu của từng chương trình",
-    "avatar": null
+    "avatar": "/download/images/pdf_avatars/NLC_NLHY/rv_NLHY03.jpg"
   },
   {
     "id": "rv_NLTTH01",
     "coSoSanXuatId": "NLC_NLTTH",
-    "reviewerName": "Nguyễn Mai Thư",
+    "reviewerName": "Nguyễn Mai Anh",
     "reviewTime": "2026-09-13",
     "order": 1,
     "content": "Tôi đặc biệt yêu thích chiếc nón lá bởi hình dáng rất đẹp và duyên dáng. Những hình vẽ trên nón cũng ấn tượng và có ý nghĩa. Tôi mua nón để sưu tầm, phối hợp bài trí nhà cho đẹp và cũng để làm phong thủy",
-    "avatar": null
+    "avatar": "/download/images/pdf_avatars/NLC_NLTTH/rv_NLTTH01.jpg"
   },
   {
     "id": "rv_NLTTH02",
     "coSoSanXuatId": "NLC_NLTTH",
-    "reviewerName": "Vũ Minh Anh",
+    "reviewerName": "Vũ Mạnh",
     "reviewTime": "2026-08-25",
     "order": 2,
     "content": "Hình ảnh chiếc áo dài truyền thống của phụ nữ Việt Nam luôn gắn liền với chiếc nón lá duyên dáng. Bởi vậy, tôi mua chiếc nón này làm món quà nhỏ tặng vợ nhân ngày sinh nhật.",
-    "avatar": null
+    "avatar": "/download/images/pdf_avatars/NLC_NLTTH/rv_NLTTH02.jpg"
   },
   {
     "id": "rv_NLTTH03",
     "coSoSanXuatId": "NLC_NLTTH",
-    "reviewerName": "Hà Thùy Linh",
+    "reviewerName": "Bảo Ngọc",
     "reviewTime": "2026-05-14",
     "order": 3,
     "content": "Các sản phẩm nón thủ công có nét đẹp truyền thống, phù hợp với những chương trình văn hóa và biểu diễn nghệ thuật. Khả năng tùy chỉnh kích thước, kiểu dáng giúp chúng tôi dễ dàng lựa chọn sản phẩm phù hợp với ý tưởng tổ chức.",
-    "avatar": null
+    "avatar": "/download/images/pdf_avatars/NLC_NLTTH/rv_NLTTH03.jpg"
   },
   {
     "id": "rv_HNLC01",
     "coSoSanXuatId": "NLC_HNLC",
-    "reviewerName": "Vũ Thị Thanh Nhàn",
+    "reviewerName": "Trần Kim Hoa",
     "reviewTime": "2026-04-02",
     "order": 1,
     "content": "Nón Làng Chuông mang vẻ đẹp truyền thống và tạo điểm nhấn độc đáo cho các chương trình văn hóa. Những mẫu nón được trang trí sáng tạo giúp chúng tôi có thêm ý tưởng kết hợp yếu tố bản sắc Việt vào không gian và hoạt động sự kiện",
-    "avatar": null
+    "avatar": "/download/images/pdf_avatars/NLC_HNLC/rv_HNLC01.jpg"
   },
   {
     "id": "rv_HNLC02",
     "coSoSanXuatId": "NLC_HNLC",
-    "reviewerName": "Nguyễn Thị Lan Anh",
+    "reviewerName": "Nguyễn Trung Đức",
     "reviewTime": "2026-06-06",
     "order": 2,
     "content": "Các dòng nón thủ công có tiềm năng trở thành quà tặng đối tác và sản phẩm lưu niệm mang đậm dấu ấn văn hóa Việt Nam. Khả năng đặt thiết kế riêng cũng giúp doanh nghiệp linh hoạt hơn khi lựa chọn sản phẩm phù hợp với chủ đề và nhu cầu của từng chương trình",
-    "avatar": null
+    "avatar": "/download/images/pdf_avatars/NLC_HNLC/rv_HNLC02.jpg"
   },
   {
     "id": "rv_HNLC03",
     "coSoSanXuatId": "NLC_HNLC",
-    "reviewerName": "Kiều Hà Trang",
+    "reviewerName": "Lý Ngọc Lan",
     "reviewTime": "2025-08-13",
     "order": 3,
     "content": "Các sản phẩm nón thủ công có nét đẹp truyền thống, phù hợp với những chương trình văn hóa và biểu diễn nghệ thuật. Khả năng tùy chỉnh kích thước, kiểu dáng giúp chúng tôi dễ dàng lựa chọn sản phẩm phù hợp với ý tưởng tổ chức.",
-    "avatar": null
+    "avatar": "/download/images/pdf_avatars/NLC_HNLC/rv_HNLC03.jpg"
   },
   {
     "id": "rv_QCS01",
@@ -2271,7 +2271,7 @@ export const reviews =
     "reviewTime": "2025-03-25",
     "order": 1,
     "content": "Lụa có nét đẹp riêng nhờ chất liệu mềm mại và vẻ thanh lịch, phù hợp với những sản phẩm thời trang hướng đến sự tinh tế. Các dòng lụa truyền thống cũng mang lại nhiều cảm hứng khi lựa chọn chất liệu cho những thiết kế mang bản sắc Việt.",
-    "avatar": null
+    "avatar": "/download/images/pdf_avatars/LNX_LNX/rv_LNX01.jpg"
   },
   {
     "id": "rv_LNX02",
@@ -2280,7 +2280,7 @@ export const reviews =
     "reviewTime": "2026-01-01",
     "order": 2,
     "content": "Chúng tôi quan tâm đến các sản phẩm từ lụa vì vừa có giá trị sử dụng, vừa mang ý nghĩa văn hóa. Khăn lụa là một lựa chọn đáng cân nhắc cho quà tặng đối tác, đặc biệt khi được lựa chọn kỹ về màu sắc, chất liệu và cách đóng gói.",
-    "avatar": null
+    "avatar": "/download/images/pdf_avatars/LNX_LNX/rv_LNX02.jpg"
   },
   {
     "id": "rv_LNX03",
@@ -2289,34 +2289,34 @@ export const reviews =
     "reviewTime": "2026-09-25",
     "order": 3,
     "content": "Lụa truyền thống có sức hấp dẫn riêng nhờ sự kết hợp giữa chất liệu và kỹ thuật thủ công. Đây là nguồn cảm hứng để phát triển những thiết kế vừa giữ được nét duyên dáng truyền thống, vừa phù hợp với thị hiếu hiện đại.",
-    "avatar": null
+    "avatar": "/download/images/pdf_avatars/LNX_LNX/rv_LNX03.jpg"
   },
   {
     "id": "rv_SHV01",
     "coSoSanXuatId": "LNX_SHV",
-    "reviewerName": "Mai Phương Nhi",
+    "reviewerName": "Phương Nhi",
     "reviewTime": "2026-04-21",
     "order": 1,
     "content": "Đối với xưởng may, nguồn vải và độ đồng đều giữa các đợt hàng là những yếu tố rất quan trọng. Khi làm việc với đơn vị cung cấp lụa, chúng tôi thường quan tâm đến quy cách vải, màu sắc và thời gian hoàn thành để sắp xếp kế hoạch sản xuất phù hợp.",
-    "avatar": null
+    "avatar": "/download/images/pdf_avatars/LNX_SHV/rv_SHV01.jpg"
   },
   {
     "id": "rv_SHV02",
     "coSoSanXuatId": "LNX_SHV",
-    "reviewerName": "Nguyễn Ngọc Linh",
-    "reviewTime": "2025-11-02",
+    "reviewerName": "Nhật Long",
+    "reviewTime": "2026-11-02",
     "order": 2,
     "content": "Điều tôi quan tâm khi lựa chọn lụa là chất vải có phù hợp với ý tưởng thiết kế hay không. Màu sắc, độ rủ và bề mặt vải đều ảnh hưởng đến thành phẩm cuối cùng.",
-    "avatar": null
+    "avatar": "/download/images/pdf_avatars/LNX_SHV/rv_SHV02.jpg"
   },
   {
     "id": "rv_SHV03",
     "coSoSanXuatId": "LNX_SHV",
-    "reviewerName": "Trịnh Mỹ Anh",
+    "reviewerName": "Trịnh Lam Anh",
     "reviewTime": "2026-06-17",
     "order": 3,
     "content": "Chúng tôi quan tâm đến các sản phẩm từ lụa vì vừa có giá trị sử dụng, vừa mang ý nghĩa văn hóa. Khăn lụa là một lựa chọn đáng cân nhắc cho quà tặng đối tác, đặc biệt khi được lựa chọn kỹ về màu sắc, chất liệu và cách đóng gói.",
-    "avatar": null
+    "avatar": "/download/images/pdf_avatars/LNX_SHV/rv_SHV03.jpg"
   }
 ];
 
@@ -2342,7 +2342,9 @@ export const products =
       "/download/Ảnh làng nghề/Quạt Phương/sanpham2.png",
       "/download/Ảnh làng nghề/Quạt Phương/sanpham3.png"
     ],
-    "sourcePdfPage": 88,
+    "sourcePdfPage": null,
+    "isHomeFeaturedOnly": true,
+    "sourceNote": "Sản phẩm nổi bật mock; chưa xác định trang chi tiết tương ứng trong PDF.",
     "detailTemplate": "profile",
     "pdfContent": {
       "chatLieu": "Nan tre tự nhiên và giấy điệp thủ công",
@@ -2376,7 +2378,9 @@ export const products =
       "/download/Ảnh làng nghề/CS mây tre đan tuấn anh/sanpham2.jpg",
       "/download/Ảnh làng nghề/CS mây tre đan tuấn anh/sanpham3.jpg"
     ],
-    "sourcePdfPage": 57,
+    "sourcePdfPage": null,
+    "isHomeFeaturedOnly": true,
+    "sourceNote": "Sản phẩm nổi bật mock; chưa xác định trang chi tiết tương ứng trong PDF.",
     "detailTemplate": "profile",
     "pdfContent": {
       "chatLieu": "Tre, nứa và sợi tự nhiên đan thủ công",
@@ -2410,7 +2414,9 @@ export const products =
       "/download/Ảnh làng nghề/Silk Hạ Vy/sanpham2.png",
       "/download/Ảnh làng nghề/Silk Hạ Vy/sanpham3.png"
     ],
-    "sourcePdfPage": 135,
+    "sourcePdfPage": null,
+    "isHomeFeaturedOnly": true,
+    "sourceNote": "Sản phẩm nổi bật mock; chưa xác định trang chi tiết tương ứng trong PDF.",
     "detailTemplate": "profile",
     "pdfContent": {
       "chatLieu": "100% tơ tằm tự nhiên Nha Xá",
@@ -2444,7 +2450,9 @@ export const products =
       "/download/Ảnh làng nghề/CS Gốm tới liên/Sanpham2.jpg",
       "/download/Ảnh làng nghề/CS Gốm tới liên/Sanpham3.jpg"
     ],
-    "sourcePdfPage": 18,
+    "sourcePdfPage": null,
+    "isHomeFeaturedOnly": true,
+    "sourceNote": "Sản phẩm nổi bật mock; chưa xác định trang chi tiết tương ứng trong PDF.",
     "detailTemplate": "profile",
     "pdfContent": {
       "chatLieu": "Đất sét cao lanh và men gốm truyền thống Bát Tràng",
@@ -2568,6 +2576,10 @@ export const products =
   },
   {
     "id": "SP_NLC_NDKQ",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_NLC_NDKQ/pdf-110-material.jpg",
+      "design": "/download/images/pdf_features/SP_NLC_NDKQ/pdf-110-design.jpg"
+    },
     "coSoSanXuatId": "NLC_NLHY",
     "name": "Nón Đầu Kim Quan",
     "itemDescription": "Nổi bật với phần chóp cao hình nón, vành rộng nhiều lớp và hệ dây tua màu đen buông hai bên. Cấu trúc nón tạo cảm giác bề thế, trong khi các đường đan tự nhiên làm nổi bật nét thủ công truyền thống. Sản phẩm phù hợp với trưng bày văn hóa, phục dựng trang phục cổ hoặc các chương trình nghệ thuật mang cảm hứng lịch sử.",
@@ -2604,6 +2616,10 @@ export const products =
   },
   {
     "id": "SP_NLC_NDHV",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_NLC_NDHV/pdf-111-material.jpg",
+      "design": "/download/images/pdf_features/SP_NLC_NDHV/pdf-111-design.jpg"
+    },
     "coSoSanXuatId": "NLC_NLHY",
     "name": "Nón Đầu Hồng Vân",
     "itemDescription": "Mang sắc vàng rơm ấm áp, kết hợp dây quai đỏ và tua trang trí nhiều màu tạo điểm nhấn nổi bật. Dáng nón chóp cao cùng phần vành rộng nhiều lớp đem lại vẻ ngoài cân đối, giàu tính trang trí. Sản phẩm phù hợp với các hoạt động biểu diễn nghệ thuật, chụp ảnh văn hóa và trưng bày sản phẩm thủ công truyền thống.",
@@ -2640,6 +2656,10 @@ export const products =
   },
   {
     "id": "SP_NLC_NDVN",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_NLC_NDVN/pdf-112-material.jpg",
+      "design": "/download/images/pdf_features/SP_NLC_NDVN/pdf-112-design.jpg"
+    },
     "coSoSanXuatId": "NLC_NLHY",
     "name": "Nón Đầu Vân Nguyệt",
     "itemDescription": "Phần chóp cao, vành nón uốn cong mềm mại và dây quai màu trầm. Khác với những mẫu có vành rộng cân đối, thiết kế này tạo điểm nhấn bằng đường cong vểnh nhẹ ở hai bên, mang đến vẻ ngoài độc đáo và giàu tính tạo hình. Sản phẩm phù hợp với trưng bày nghệ thuật, phục dựng trang phục hoặc các bộ ảnh lấy cảm hứng từ văn hóa truyền thống.",
@@ -2676,6 +2696,10 @@ export const products =
   },
   {
     "id": "SP_NLC_NVDBL",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_NLC_NVDBL/pdf-113-material.jpg",
+      "design": "/download/images/pdf_features/SP_NLC_NVDBL/pdf-113-design.jpg"
+    },
     "coSoSanXuatId": "NLC_NLTTH",
     "name": "Nón Vũ Điệu Bản Làng",
     "itemDescription": "Tái hiện hình ảnh con người trong trang phục truyền thống qua những nét vẽ sinh động trên nền nón lá. Sự kết hợp giữa gam màu tươi sáng và hình ảnh sinh hoạt cộng đồng tạo nên một sản phẩm mang đậm dấu ấn văn hóa, phù hợp để trưng bày, làm quà lưu niệm hoặc giới thiệu nét đẹp Việt Nam.",
@@ -2711,6 +2735,10 @@ export const products =
   },
   {
     "id": "SP_NLC_NDATG",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_NLC_NDATG/pdf-114-material.jpg",
+      "design": "/download/images/pdf_features/SP_NLC_NDATG/pdf-114-design.jpg"
+    },
     "coSoSanXuatId": "NLC_NLTTH",
     "name": "Nón Dấu Ấn Thời Gian",
     "itemDescription": "Mang vẻ đẹp trầm lắng với tranh trang trí đơn sắc trên nền nón sáng màu. Hình ảnh thiên nhiên được thể hiện bằng những đường nét gợi phong cách hội họa cổ điển, kết hợp điểm nhấn đỏ ở trung tâm tạo nên sự tương phản tinh tế. Sản phẩm phù hợp với không gian trưng bày văn hóa và những bộ sưu tập thủ công mang hơi hướng hoài niệm.",
@@ -2746,6 +2774,10 @@ export const products =
   },
   {
     "id": "SP_NLC_NKV",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_NLC_NKV/pdf-115-material.jpg",
+      "design": "/download/images/pdf_features/SP_NLC_NKV/pdf-115-design.jpg"
+    },
     "coSoSanXuatId": "NLC_NLTTH",
     "name": "Nón Kim Vũ",
     "itemDescription": "Hình ảnh chim công được thể hiện bằng những đường nét đen nổi bật trên nền nón màu vàng rơm. Các chi tiết trang trí màu cam và đỏ hồng tạo điểm nhấn, trong khi viền hồng bao quanh làm tăng sức hút cho tổng thể. Sản phẩm phù hợp để trưng bày, làm quà tặng thủ công hoặc sử dụng trong các không gian mang phong cách nghệ thuật truyền thống.",
@@ -2781,6 +2813,10 @@ export const products =
   },
   {
     "id": "SP_NLC_NLHTC",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_NLC_NLHTC/pdf-116-material.jpg",
+      "design": "/download/images/pdf_features/SP_NLC_NLHTC/pdf-116-design.jpg"
+    },
     "coSoSanXuatId": "NLC_NLTTH",
     "name": "Nón Liên Hoa Thanh Cảnh",
     "itemDescription": "Hình ảnh hoa sen hồng trên nền nón sáng màu. Những chiếc lá xanh cùng các chi tiết hoa được thể hiện bằng màu sắc tươi sáng, tạo nên tổng thể gần gũi và giàu tính nghệ thuật. Sản phẩm phù hợp để làm quà lưu niệm, trưng bày hoặc giới thiệu hình ảnh hoa sen – biểu tượng quen thuộc trong văn hóa Việt Nam.",
@@ -2816,6 +2852,10 @@ export const products =
   },
   {
     "id": "SP_NLC_NXD",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_NLC_NXD/pdf-117-material.jpg",
+      "design": "/download/images/pdf_features/SP_NLC_NXD/pdf-117-design.jpg"
+    },
     "coSoSanXuatId": "NLC_NLTTH",
     "name": "Nón Xuân Điệp",
     "itemDescription": "Sắc hồng phấn dịu dàng, kết hợp hình ảnh chim công giữa những cành hoa nở rộ. Sự phối hợp giữa màu hồng, xanh và các chi tiết hoa lá tạo nên vẻ đẹp tươi trẻ, giàu sức sống. Sản phẩm phù hợp với những bộ sưu tập nón nghệ thuật, quà tặng văn hóa và hoạt động quảng bá sản phẩm thủ công.",
@@ -2851,6 +2891,10 @@ export const products =
   },
   {
     "id": "SP_NLC_NDSTL",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_NLC_NDSTL/pdf-118-material.jpg",
+      "design": "/download/images/pdf_features/SP_NLC_NDSTL/pdf-118-design.jpg"
+    },
     "coSoSanXuatId": "NLC_NLTTH",
     "name": "Nón Dấu Son Thăng Long",
     "itemDescription": "Nền đỏ rực rỡ, kết hợp hình ảnh hoa sen vàng và công trình kiến trúc gợi nhớ đến Hà Nội. Các chi tiết cây xanh và cảnh quan được sắp xếp quanh mặt nón, tạo thành một bức tranh thu nhỏ mang dấu ấn địa danh. Sản phẩm phù hợp làm quà lưu niệm, quà tặng văn hóa hoặc trưng bày trong các không gian giới thiệu hình ảnh Việt Nam.",
@@ -2886,6 +2930,10 @@ export const products =
   },
   {
     "id": "SP_NLC_NHS",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_NLC_NHS/pdf-101-material.jpg",
+      "design": "/download/images/pdf_features/SP_NLC_NHS/pdf-101-design.jpg"
+    },
     "aliasIds": ["prod-3"],
     "coSoSanXuatId": "NLC_HNLC",
     "name": "Nón Hỷ Sắc",
@@ -2959,6 +3007,10 @@ export const products =
   },
   {
     "id": "SP_NLC_SN",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_NLC_SN/pdf-103-material.jpg",
+      "design": "/download/images/pdf_features/SP_NLC_SN/pdf-103-design.jpg"
+    },
     "coSoSanXuatId": "NLC_HNLC",
     "name": "Nón Sen Ngọc",
     "itemDescription": "Nền xanh lam dịu mắt và họa tiết hoa sen màu đỏ hồng được thể hiện nổi bật trên bề mặt. Sự kết hợp giữa hình dáng nón truyền thống và hoa văn thiên nhiên mang đến vẻ đẹp mềm mại, phù hợp để làm quà tặng, vật phẩm trưng bày hoặc phụ kiện mang dấu ấn văn hóa Việt Nam.",
@@ -3028,6 +3080,10 @@ export const products =
   },
   {
     "id": "SP_NLC_NHD",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_NLC_NHD/pdf-105-material.jpg",
+      "design": "/download/images/pdf_features/SP_NLC_NHD/pdf-105-design.jpg"
+    },
     "coSoSanXuatId": "NLC_HNLC",
     "name": "Nón Hoa Điệp",
     "itemDescription": "Nền màu vàng rơm tự nhiên, điểm xuyết những cụm hoa nhỏ nhiều màu và hình ảnh cánh bướm ở trung tâm. Sản phẩm giữ lại nét mộc mạc của nón truyền thống, đồng thời tạo điểm nhấn bằng các chi tiết trang trí tươi sáng, phù hợp để trưng bày, trang trí không gian hoặc làm quà tặng thủ công.",
@@ -3063,6 +3119,10 @@ export const products =
   },
   {
     "id": "SP_NLC_NXH",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_NLC_NXH/pdf-106-material.jpg",
+      "design": "/download/images/pdf_features/SP_NLC_NXH/pdf-106-design.jpg"
+    },
     "coSoSanXuatId": "NLC_HNLC",
     "name": "Nón Xứ Huế",
     "itemDescription": "Nón Lụa nổi bật với gam tím nhạt và bề mặt được phủ hoa văn tinh tế. Các đường nét trang trí tạo hiệu ứng thị giác nhẹ nhàng, mang đến diện mạo thanh lịch cho chiếc nón truyền thống. Sản phẩm phù hợp với nhu cầu trưng bày, quà tặng và phối hợp trong các không gian mang phong cách văn hóa Việt Nam.",
@@ -3097,6 +3157,10 @@ export const products =
   },
   {
     "id": "SP_QCS_QLTDG",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_QCS_QLTDG/pdf-094-material.jpg",
+      "design": "/download/images/pdf_features/SP_QCS_QLTDG/pdf-094-design.jpg"
+    },
     "coSoSanXuatId": "QCS_QCS",
     "name": "Quạt Linh Thú Dân Gian",
     "itemDescription": "Hình tượng linh vật được thể hiện bằng những gam màu rực rỡ trên nền quạt trắng sáng. Các đường nét tạo hình khỏe khoắn, kết hợp sắc đỏ, vàng, xanh và đen, gợi nhắc đến nghệ thuật trang trí dân gian Việt Nam. Sản phẩm là lựa chọn phù hợp cho quà tặng văn hóa, vật phẩm trưng bày và các bộ sưu tập tôn vinh giá trị thủ công truyền thống.",
@@ -3130,6 +3194,10 @@ export const products =
   },
   {
     "id": "SP_QCS_QPLDT",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_QCS_QPLDT/pdf-095-material.jpg",
+      "design": "/download/images/pdf_features/SP_QCS_QPLDT/pdf-095-design.jpg"
+    },
     "coSoSanXuatId": "QCS_QCS",
     "name": "Quạt Phúc Lộc Đồng Tử",
     "itemDescription": "Mang vẻ đẹp tươi sáng với hình ảnh nhân vật đồng tử trong trang phục truyền thống được thể hiện trên nền quạt màu vàng kem. Những chi tiết trang phục nhiều màu kết hợp cùng các đường nét trang trí nhẹ nhàng tạo nên tổng thể gần gũi, gợi liên tưởng đến những hình tượng cầu chúc may mắn trong văn hóa phương Đông. Sản phẩm phù hợp làm quà tặng, vật phẩm trang trí hoặc bổ sung cho bộ sưu tập quạt nghệ thuật dân gian.",
@@ -3163,6 +3231,10 @@ export const products =
   },
   {
     "id": "SP_QCS_QMDNX",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_QCS_QMDNX/pdf-096-material.jpg",
+      "design": "/download/images/pdf_features/SP_QCS_QMDNX/pdf-096-design.jpg"
+    },
     "coSoSanXuatId": "QCS_QCS",
     "name": "Quạt Mai Điểu Nghênh Xuân",
     "itemDescription": "Tái hiện khung cảnh thiên nhiên giàu sức sống với những cành mai, đàn chim và sắc trời vàng ấm. Các chi tiết đỏ, đen và nâu được phối hợp trên nền vàng nhạt, gợi không khí mùa xuân và vẻ đẹp thanh tao của hội họa truyền thống. Sản phẩm phù hợp làm quà tặng dịp Tết, vật phẩm trang trí hoặc lựa chọn dành cho những người yêu thích tranh phong cảnh phương Đông.",
@@ -3320,6 +3392,10 @@ export const products =
   },
   {
     "id": "SP_QCS_QNG",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_QCS_QNG/pdf-083-material.jpg",
+      "design": "/download/images/pdf_features/SP_QCS_QNG/pdf-083-design.jpg"
+    },
     "coSoSanXuatId": "QCS_QTT",
     "name": "Quạt Nan Gỗ",
     "itemDescription": "Gây ấn tượng với phần mặt quạt màu xanh lam đậm, nổi bật cùng họa tiết rồng nhiều màu và những nhành hoa lá ánh vàng. Sự kết hợp giữa nền màu trầm và các chi tiết trang trí rực rỡ tạo nên vẻ đẹp sang trọng, đậm phong cách phương Đông. Sản phẩm phù hợp làm quà tặng, vật phẩm trưng bày hoặc phục vụ các hoạt động văn hóa nghệ thuật.",
@@ -3352,6 +3428,10 @@ export const products =
   },
   {
     "id": "SP_QCS_QTT",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_QCS_QTT/pdf-084-material.jpg",
+      "design": "/download/images/pdf_features/SP_QCS_QTT/pdf-084-design.jpg"
+    },
     "coSoSanXuatId": "QCS_QTT",
     "name": "Quạt Tranh Tết",
     "itemDescription": "Mang không khí mùa xuân lên mặt quạt qua hình ảnh những cành hoa đào hồng nở rộ trên nền giấy sáng. Các nhánh cây sẫm màu uốn lượn mềm mại, kết hợp với sắc hoa tươi tắn tạo nên tổng thể nhẹ nhàng và giàu ý nghĩa. Sản phẩm thích hợp làm quà tặng dịp Tết, trang trí không gian ngày xuân hoặc sử dụng trong các hoạt động văn hóa truyền thống.",
@@ -3385,6 +3465,10 @@ export const products =
   },
   {
     "id": "SP_QCS_QHVCC",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_QCS_QHVCC/pdf-085-material.jpg",
+      "design": "/download/images/pdf_features/SP_QCS_QHVCC/pdf-085-design.jpg"
+    },
     "coSoSanXuatId": "QCS_QTT",
     "name": "Quạt Hoa Văn Cao Cấp",
     "itemDescription": "Nổi bật với nền đỏ rực rỡ cùng hệ họa tiết trang trí mang phong cách truyền thống. Những chi tiết ánh vàng được bố trí hài hòa trên mặt quạt, tạo hiệu ứng nổi bật và cảm giác sang trọng. Sản phẩm phù hợp làm quà tặng, vật phẩm trưng bày hoặc phụ kiện cho các chương trình nghệ thuật và sự kiện văn hóa.",
@@ -3418,6 +3502,10 @@ export const products =
   },
   {
     "id": "SP_QCS_QTRUYENTHONG",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_QCS_QTRUYENTHONG/pdf-086-material.jpg",
+      "design": "/download/images/pdf_features/SP_QCS_QTRUYENTHONG/pdf-086-design.jpg"
+    },
     "coSoSanXuatId": "QCS_QTT",
     "name": "Quạt Truyền Thống",
     "itemDescription": "Mang vẻ đẹp thanh nhã với hình ảnh hoa sen trắng nổi bật trên nền xanh trầm. Các cánh hoa mềm mại kết hợp cùng lá sen xanh tạo nên bố cục hài hòa, gợi nhắc đến vẻ đẹp giản dị và thanh cao của văn hóa Việt Nam. Sản phẩm phù hợp làm quà tặng, vật phẩm trang trí hoặc sử dụng trong các hoạt động văn hóa nghệ thuật.",
@@ -3451,6 +3539,10 @@ export const products =
   },
   {
     "id": "SP_QCS_QTPT",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_QCS_QTPT/pdf-087-material.jpg",
+      "design": "/download/images/pdf_features/SP_QCS_QTPT/pdf-087-design.jpg"
+    },
     "coSoSanXuatId": "QCS_QTT",
     "name": "Quạt Tranh Phong Thủy",
     "itemDescription": "Nổi bật với bức tranh nhiều màu sắc, kết hợp hình ảnh chim công và các loài hoa trên nền sáng. Sự phối hợp giữa sắc xanh, hồng, tím, đỏ và vàng tạo nên tổng thể sinh động, giàu tính nghệ thuật. Hình tượng chim công thường gắn với vẻ đẹp và sự cao quý trong mỹ thuật trang trí, giúp sản phẩm phù hợp làm quà tặng hoặc trưng bày trong không gian mang phong cách Á Đông.",
@@ -3484,6 +3576,10 @@ export const products =
   },
   {
     "id": "SP_QCS_QSVCP",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_QCS_QSVCP/pdf-088-material.jpg",
+      "design": "/download/images/pdf_features/SP_QCS_QSVCP/pdf-088-design.jpg"
+    },
     "coSoSanXuatId": "QCS_QP",
     "name": "Quạt Sắc Việt Cổ Phong",
     "itemDescription": "Nền đen huyền bí, điểm xuyết hình ảnh những nhân vật trong trang phục truyền thống cùng các họa tiết hoa rực rỡ. Sự kết hợp giữa gam màu trầm và những chi tiết nhiều màu sắc tạo nên vẻ đẹp cổ điển, gợi nhắc đến trang phục và mỹ thuật phương Đông. Sản phẩm phù hợp để trưng bày, làm quà tặng văn hóa hoặc bổ sung vào bộ sưu tập quạt nghệ thuật mang dấu ấn truyền thống.",
@@ -3517,6 +3613,10 @@ export const products =
   },
   {
     "id": "SP_QCS_QTVHL",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_QCS_QTVHL/pdf-089-material.jpg",
+      "design": "/download/images/pdf_features/SP_QCS_QTVHL/pdf-089-design.jpg"
+    },
     "coSoSanXuatId": "QCS_QP",
     "name": "Quạt Thanh Vũ Hoa Lam",
     "itemDescription": "Hình ảnh chim công xanh trên nền sáng, kết hợp cùng các họa tiết hoa lá mang sắc xanh và hồng nhẹ nhàng. Tổng thể tạo cảm giác thanh thoát, hài hòa giữa vẻ đẹp thiên nhiên và phong cách trang trí Á Đông. Sản phẩm thích hợp làm quà tặng, vật phẩm trưng bày hoặc phụ kiện trong các không gian mang hơi hướng truyền thống.",
@@ -3548,6 +3648,10 @@ export const products =
   },
   {
     "id": "SP_QCS_QKHCT",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_QCS_QKHCT/pdf-090-material.jpg",
+      "design": "/download/images/pdf_features/SP_QCS_QKHCT/pdf-090-design.jpg"
+    },
     "coSoSanXuatId": "QCS_QP",
     "name": "Quạt Kim Hoa Cát Tường",
     "itemDescription": "Mang vẻ đẹp trang nhã với nền giấy trắng ngà, điểm xuyết các họa tiết màu vàng ánh kim. Những đường nét trang trí mềm mại kết hợp cùng sắc màu nhẹ nhàng tạo nên tổng thể tinh tế, phù hợp với không gian mang phong cách cổ điển. Sản phẩm có thể được sử dụng làm quà tặng, vật phẩm trưng bày hoặc kết hợp trong các bộ sưu tập quạt nghệ thuật.",
@@ -3581,6 +3685,10 @@ export const products =
   },
   {
     "id": "SP_QCS_QLDH",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_QCS_QLDH/pdf-091-material.jpg",
+      "design": "/download/images/pdf_features/SP_QCS_QLDH/pdf-091-design.jpg"
+    },
     "coSoSanXuatId": "QCS_QP",
     "name": "Quạt Lam Đồ Họa",
     "itemDescription": "Nền xanh dương đậm cùng hệ thống đường nét kỹ thuật màu sáng, gợi hình ảnh bản vẽ kiến trúc và các sơ đồ thiết kế. Phong cách thể hiện hiện đại tạo nên sự khác biệt so với những mẫu quạt thiên về hoa văn truyền thống. Sản phẩm phù hợp làm quà tặng sáng tạo, vật phẩm trưng bày hoặc quà lưu niệm dành cho những người yêu thích kiến trúc và thiết kế.",
@@ -3612,6 +3720,10 @@ export const products =
   },
   {
     "id": "SP_QCS_QVXL",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_QCS_QVXL/pdf-092-material.jpg",
+      "design": "/download/images/pdf_features/SP_QCS_QVXL/pdf-092-design.jpg"
+    },
     "coSoSanXuatId": "QCS_QP",
     "name": "Quạt Vân Xoắn Lam",
     "itemDescription": "Nền xanh lam trầm, kết hợp những họa tiết xoắn tròn màu trắng được lặp lại đều đặn trên bề mặt. Thiết kế tối giản về màu sắc nhưng giàu tính nhịp điệu, tạo nên vẻ đẹp mộc mạc và dễ nhận diện. Sản phẩm phù hợp với những người yêu thích họa tiết hình học, phong cách trang trí Á Đông và các vật phẩm thủ công có thiết kế tinh giản.",
@@ -3645,6 +3757,10 @@ export const products =
   },
   {
     "id": "SP_QCS_QHXDG",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_QCS_QHXDG/pdf-093-material.jpg",
+      "design": "/download/images/pdf_features/SP_QCS_QHXDG/pdf-093-design.jpg"
+    },
     "coSoSanXuatId": "QCS_QP",
     "name": "Quạt Hội Xuân Dân Gian",
     "itemDescription": "Tái hiện không khí lễ hội truyền thống qua những hình ảnh nhân vật, hoạt động sinh hoạt và họa tiết trang trí nhiều màu sắc. Nền đỏ cam nổi bật kết hợp cùng các mảng màu xanh, vàng và trắng tạo nên tổng thể sống động, gợi cảm giác vui tươi của những ngày hội. Sản phẩm phù hợp làm quà tặng văn hóa, vật phẩm trưng bày hoặc sử dụng trong các chương trình giới thiệu nghệ thuật dân gian.",
@@ -4041,6 +4157,10 @@ export const products =
   },
   {
     "id": "SP_GBT_01",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_GBT_01/pdf-030-material.jpg",
+      "design": "/download/images/pdf_features/SP_GBT_01/pdf-030-design.jpg"
+    },
     "coSoSanXuatId": "GBT_HAC",
     "name": "Ống heo súp lơ",
     "itemDescription": "Ống heo súp lơ là sản phẩm trang trí kết hợp công năng tiết kiệm tiền với tạo hình ngộ nghĩnh phù hợp để đặt trên bàn học, bàn làm việc hoặc làm quà tặng cho những người yêu thích đồ vật dễ thương.",
@@ -4074,6 +4194,10 @@ export const products =
   },
   {
     "id": "SP_GBT_02",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_GBT_02/pdf-031-material.jpg",
+      "design": "/download/images/pdf_features/SP_GBT_02/pdf-031-design.jpg"
+    },
     "coSoSanXuatId": "GBT_HAC",
     "name": "Ống heo Shiba",
     "itemDescription": "Ống heo Shiba là sản phẩm trang trí kết hợp công năng tiết kiệm tiền với tạo hình chú chó Shiba tròn trịa, đáng yêu. Sản phẩm phù hợp để đặt trên bàn học, bàn làm việc, kệ trang trí hoặc làm quà tặng cho những người yêu thích thú cưng và đồ gốm tạo hình",
@@ -4108,6 +4232,10 @@ export const products =
   },
   {
     "id": "SP_GBT_03",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_GBT_03/pdf-032-material.jpg",
+      "design": "/download/images/pdf_features/SP_GBT_03/pdf-032-design.jpg"
+    },
     "coSoSanXuatId": "GBT_HAC",
     "name": "Túi xách sứ cắm hoa",
     "itemDescription": "Túi xách gốm cắm hoa tươi là sản phẩm trang trí kết hợp công năng cắm hoa với tạo hình chiếc túi xách nhỏ nhắn, độc đáo. Sản phẩm phù hợp để bài trí trên bàn trà, kệ tủ, bàn làm việc hoặc làm quà tặng cho những người yêu thích đồ gốm trang trí",
@@ -4141,6 +4269,10 @@ export const products =
   },
   {
     "id": "SP_GBT_04",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_GBT_04/pdf-033-material.jpg",
+      "design": "/download/images/pdf_features/SP_GBT_04/pdf-033-design.jpg"
+    },
     "coSoSanXuatId": "GBT_HAC",
     "name": "Ống heo cua",
     "itemDescription": "Ống heo cua là sản phẩm trang trí kết hợp công năng tiết kiệm tiền với tạo hình con cua cách điệu, mang vẻ ngoài vui nhộn và độc đáo. Sản phẩm phù hợp để trang trí bàn học, bàn làm việc hoặc làm quà tặng cho những người yêu thích các món đồ gốm có hình dáng sáng tạo",
@@ -4174,6 +4306,10 @@ export const products =
   },
   {
     "id": "SP_GBT_05",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_GBT_05/pdf-034-material.jpg",
+      "design": "/download/images/pdf_features/SP_GBT_05/pdf-034-design.jpg"
+    },
     "coSoSanXuatId": "GBT_HAC",
     "name": "Ống heo Labubu",
     "itemDescription": "Ống heo Labubu là sản phẩm trang trí kết hợp công năng tiết kiệm tiền với tạo hình nhân vật có đôi tai nhọn và biểu cảm tinh nghịch. Sản phẩm phù hợp để đặt trên bàn học, bàn làm việc, kệ trưng bày hoặc làm quà tặng cho những người yêu thích đồ vật tạo hình độc đáo",
@@ -4207,6 +4343,10 @@ export const products =
   },
   {
     "id": "SP_GBT_06",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_GBT_06/pdf-035-material.jpg",
+      "design": "/download/images/pdf_features/SP_GBT_06/pdf-035-design.jpg"
+    },
     "coSoSanXuatId": "GBT_HAC",
     "name": "Ống heo chim cánh cụt",
     "itemDescription": "Ống heo chim cánh cụt là sản phẩm trang trí kết hợp công năng tiết kiệm tiền với tạo hình chú chim cánh cụt tròn trịa, ngộ nghĩnh. Sản phẩm phù hợp để đặt trên bàn học, bàn làm việc hoặc làm quà tặng cho trẻ em và những người yêu thích các món đồ gốm đáng yêu",
@@ -4241,6 +4381,10 @@ export const products =
   },
   {
     "id": "SP_GBT_07",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_GBT_07/pdf-036-material.jpg",
+      "design": "/download/images/pdf_features/SP_GBT_07/pdf-036-design.jpg"
+    },
     "coSoSanXuatId": "GBT_BNH",
     "name": "Bộ sưu tập gốm Thanh Mạ",
     "itemDescription": "Bộ sưu tập gốm Thanh Mạ gồm các vật dụng bàn ăn với gam màu xanh lá và trắng nhẹ nhàng, kiểu dáng đa dạng cùng họa tiết kẻ ô và chi tiết trang trí lấy cảm hứng từ thiên nhiên, mang đến vẻ tươi sáng, gần gũi cho không gian ăn uống",
@@ -4274,6 +4418,10 @@ export const products =
   },
   {
     "id": "SP_GBT_08",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_GBT_08/pdf-037-material.jpg",
+      "design": "/download/images/pdf_features/SP_GBT_08/pdf-037-design.jpg"
+    },
     "coSoSanXuatId": "GBT_BNH",
     "name": "Bộ sưu tập gốm Ngư Sắc",
     "itemDescription": "Bộ sưu tập gốm Ngư Sắc nổi bật với họa tiết cá nhiều màu sắc trên nền gốm sáng. Các sản phẩm như cốc, đĩa và khay được trang trí bằng hình cá cách điệu, tạo vẻ vui tươi, sinh động cho bàn ăn.",
@@ -4308,6 +4456,10 @@ export const products =
   },
   {
     "id": "SP_GBT_09",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_GBT_09/pdf-038-material.jpg",
+      "design": "/download/images/pdf_features/SP_GBT_09/pdf-038-design.jpg"
+    },
     "coSoSanXuatId": "GBT_BNH",
     "name": "Cherry Collection",
     "itemDescription": "Cherry Collection lấy cảm hứng từ những quả cherry đỏ nhỏ xinh trên nền hồng pastel, kết hợp lá xanh tạo vẻ ngọt ngào, trẻ trung. Bộ sưu tập gồm cốc, đĩa và khay, phù hợp cho những bữa ăn nhẹ hoặc trang trí không gian cá nhân",
@@ -4341,6 +4493,10 @@ export const products =
   },
   {
     "id": "SP_GBT_10",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_GBT_10/pdf-039-material.jpg",
+      "design": "/download/images/pdf_features/SP_GBT_10/pdf-039-design.jpg"
+    },
     "coSoSanXuatId": "GBT_BNH",
     "name": "Cốc túi cafe",
     "itemDescription": "Cốc túi cafe có kiểu dáng độc đáo, lấy cảm hứng từ những chiếc túi nhỏ. Thân cốc được trang trí bằng nhiều đường nét và họa tiết khác nhau, mang vẻ mộc mạc, vui mắt, phù hợp để thưởng thức cà phê, trà hoặc trang trí góc làm việc",
@@ -4374,6 +4530,10 @@ export const products =
   },
   {
     "id": "SP_GBT_11",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_GBT_11/pdf-040-material.jpg",
+      "design": "/download/images/pdf_features/SP_GBT_11/pdf-040-design.jpg"
+    },
     "coSoSanXuatId": "GBT_BNH",
     "name": "Rổ gốm",
     "itemDescription": "Rổ gốm kết hợp hình dáng chiếc rổ quen thuộc với chất liệu gốm và họa tiết trang trí sinh động. Sản phẩm có lòng sâu, hai quai cầm hai bên cùng các lỗ nhỏ trên bề mặt. Thiết kế phù hợp để bày biện trái cây, bánh hoặc trang trí không gian bếp và bàn ăn",
@@ -4406,6 +4566,10 @@ export const products =
   },
   {
     "id": "SP_GBT_12",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_GBT_12/pdf-041-material.jpg",
+      "design": "/download/images/pdf_features/SP_GBT_12/pdf-041-design.jpg"
+    },
     "coSoSanXuatId": "GBT_BNH",
     "name": "Hũ Hỷ Xuân Hoa",
     "itemDescription": "Hũ Hỷ Xuân Hoa là sản phẩm gốm trang trí có hình dáng tròn trịa, kết hợp nắp đậy và họa tiết nhiều màu sắc. Các mẫu hũ được trang trí bằng hoa lá, đường kẻ và hình vẽ ngộ nghĩnh, mang đến vẻ tươi vui. Sản phẩm phù hợp để đựng vật dụng nhỏ hoặc trang trí không gian sống",
@@ -4439,6 +4603,10 @@ export const products =
   },
   {
     "id": "SP_GBT_13",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_GBT_13/pdf-069-material.jpg",
+      "design": "/download/images/pdf_features/SP_GBT_13/pdf-069-design.jpg"
+    },
     "coSoSanXuatId": "GBT_GHL",
     "name": "Nồi đất vẽ tay",
     "itemDescription": "Chiếc nồi đất mang vẻ đẹp mộc mạc với phần thân nâu trầm kết hợp họa tiết vẽ tay trên lớp men sáng. Thiết kế phù hợp cho việc nấu nướng và trình bày món ăn, đem đến cảm giác gần gũi trong mỗi bữa cơm gia đình",
@@ -4471,6 +4639,10 @@ export const products =
   },
   {
     "id": "SP_GBT_14",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_GBT_14/pdf-070-material.jpg",
+      "design": "/download/images/pdf_features/SP_GBT_14/pdf-070-design.jpg"
+    },
     "coSoSanXuatId": "GBT_GHL",
     "name": "Bình hút tài lộc",
     "itemDescription": "Bình gốm nổi bật với hình ảnh con thuyền căng buồm được trang trí trên thân bình. Tác phẩm kết hợp hình dáng bình truyền thống với họa tiết mang ý nghĩa may mắn, thuận lợi và phát triển trong công việc",
@@ -4533,6 +4705,10 @@ export const products =
   },
   {
     "id": "SP_GBT_16",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_GBT_16/pdf-072-material.jpg",
+      "design": "/download/images/pdf_features/SP_GBT_16/pdf-072-design.jpg"
+    },
     "coSoSanXuatId": "GBT_GHL",
     "name": "Bộ ấm trà quả hồng",
     "itemDescription": "Bộ ấm trà gây ấn tượng bởi dáng ấm tròn đầy, họa tiết trang trí xanh lam và phần chi tiết bọc đồng tạo điểm nhấn. Bộ sản phẩm phù hợp với không gian thưởng trà truyền thống, tiếp khách hoặc làm quà tặng",
@@ -4623,6 +4799,10 @@ export const products =
   },
   {
     "id": "SP_GBT_19",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_GBT_19/pdf-063-material.jpg",
+      "design": "/download/images/pdf_features/SP_GBT_19/pdf-063-design.jpg"
+    },
     "coSoSanXuatId": "GBT_GTL",
     "name": "Ấm Bạch Cúc",
     "itemDescription": "Ấm trà gốm mang gam màu trầm mộc mạc, nổi bật với họa tiết hoa cúc trắng ngà được tạo hình tinh tế, tạo nên vẻ đẹp thanh nhã cho không gian thưởng trà",
@@ -4655,6 +4835,10 @@ export const products =
   },
   {
     "id": "SP_GBT_20",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_GBT_20/pdf-064-material.jpg",
+      "design": "/download/images/pdf_features/SP_GBT_20/pdf-064-design.jpg"
+    },
     "coSoSanXuatId": "GBT_GTL",
     "name": "Ấm Rồng Vân Mây",
     "itemDescription": "Tác phẩm chạm khắc rồng ẩn hiện trong mây cuộn uyển chuyển, mang tính thẩm mỹ và phong thủy cao.",
@@ -4687,6 +4871,10 @@ export const products =
   },
   {
     "id": "SP_GBT_21",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_GBT_21/pdf-065-material.jpg",
+      "design": "/download/images/pdf_features/SP_GBT_21/pdf-065-design.jpg"
+    },
     "coSoSanXuatId": "GBT_GTL",
     "name": "Ấm Cá Chép Hóa Rồng",
     "itemDescription": "Thiết kế biểu tượng cá chép vượt vũ môn hóa rồng, biểu trưng cho sự thăng tiến và kiên trì.",
@@ -4719,6 +4907,10 @@ export const products =
   },
   {
     "id": "SP_GBT_22",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_GBT_22/pdf-066-material.jpg",
+      "design": "/download/images/pdf_features/SP_GBT_22/pdf-066-design.jpg"
+    },
     "coSoSanXuatId": "GBT_GTL",
     "name": "Bộ ấm chén Sen",
     "itemDescription": "Bộ trà đạo cao cấp lấy cảm hứng từ đầm sen mùa hạ, gồm ấm, chén tống và các chén quân đồng bộ.",
@@ -4751,6 +4943,10 @@ export const products =
   },
   {
     "id": "SP_GBT_23",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_GBT_23/pdf-067-material.jpg",
+      "design": "/download/images/pdf_features/SP_GBT_23/pdf-067-design.jpg"
+    },
     "coSoSanXuatId": "GBT_GTL",
     "name": "Ấm hoa Sen",
     "itemDescription": "Ấm trà tạo hình búp sen nở nhẹ nhàng, quai ấm như cành sen uốn lượn tự nhiên.",
@@ -4783,6 +4979,10 @@ export const products =
   },
   {
     "id": "SP_GBT_24",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_GBT_24/pdf-068-material.jpg",
+      "design": "/download/images/pdf_features/SP_GBT_24/pdf-068-design.jpg"
+    },
     "coSoSanXuatId": "GBT_GTL",
     "name": "Hũ đựng trà Sen",
     "itemDescription": "Hũ trà gốm đậy nắp khít kín khí giúp bảo quản trà khô nguyên hương vị tinh túy.",
@@ -4815,6 +5015,10 @@ export const products =
   },
   {
     "id": "SP_GBT_25",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_GBT_25/pdf-043-material.jpg",
+      "design": "/download/images/pdf_features/SP_GBT_25/pdf-043-design.jpg"
+    },
     "coSoSanXuatId": "GBT_GSMH",
     "name": "Bộ ấm trà Lam Điệp",
     "itemDescription": "Bộ ấm trà gốm mang sắc xanh lam trầm, kết hợp các chi tiết trang trí tinh tế và thiết kế đồng bộ, tạo nên vẻ đẹp cổ điển cho không gian thưởng trà",
@@ -4845,6 +5049,10 @@ export const products =
   },
   {
     "id": "SP_GBT_26",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_GBT_26/pdf-044-material.jpg",
+      "design": "/download/images/pdf_features/SP_GBT_26/pdf-044-design.jpg"
+    },
     "coSoSanXuatId": "GBT_GSMH",
     "name": "Bộ ấm trà Thanh Diệp",
     "itemDescription": "Bộ ấm trà gốm phủ sắc xanh ngọc dịu mắt, nổi bật với thiết kế ấm trà và chén nhỏ được sắp xếp hài hòa trên khay đồng bộ, mang đến cảm giác thư thái cho những buổi thưởng trà",
@@ -4877,6 +5085,10 @@ export const products =
   },
   {
     "id": "SP_GBT_27",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_GBT_27/pdf-045-material.jpg",
+      "design": "/download/images/pdf_features/SP_GBT_27/pdf-045-design.jpg"
+    },
     "coSoSanXuatId": "GBT_GSMH",
     "name": "Khay mứt men hỏa biến",
     "itemDescription": "Khay mứt gốm được chia thành nhiều ngăn nhỏ, nổi bật với sắc men đa dạng và kiểu dáng độc đáo, phù hợp để bày mứt, bánh kẹo hoặc các món ăn nhẹ khi tiếp khách",
@@ -4909,6 +5121,10 @@ export const products =
   },
   {
     "id": "SP_GBT_28",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_GBT_28/pdf-046-material.jpg",
+      "design": "/download/images/pdf_features/SP_GBT_28/pdf-046-design.jpg"
+    },
     "coSoSanXuatId": "GBT_GSMH",
     "name": "Bộ đồ ăn men hỏa biến",
     "itemDescription": "Bộ đồ ăn gốm sở hữu sắc men xanh đậm nổi bật, kết hợp các hình dáng cách điệu và thiết kế đồng bộ, tạo điểm nhấn nghệ thuật cho bàn ăn gia đình hoặc những dịp tiếp đãi đặc biệt",
@@ -4941,6 +5157,10 @@ export const products =
   },
   {
     "id": "SP_GBT_29",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_GBT_29/pdf-047-material.jpg",
+      "design": "/download/images/pdf_features/SP_GBT_29/pdf-047-design.jpg"
+    },
     "coSoSanXuatId": "GBT_GSMH",
     "name": "Hộp đựng trà Kim Hoa",
     "itemDescription": "Hộp đựng trà gốm mang sắc đen bóng, điểm xuyết họa tiết ánh vàng tinh tế, kết hợp nắp đậy đồng bộ tạo nên vẻ đẹp sang trọng cho không gian thưởng trà",
@@ -4973,6 +5193,10 @@ export const products =
   },
   {
     "id": "SP_GBT_30",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_GBT_30/pdf-048-material.jpg",
+      "design": "/download/images/pdf_features/SP_GBT_30/pdf-048-design.jpg"
+    },
     "coSoSanXuatId": "GBT_GSMH",
     "name": "Khay lá sen",
     "itemDescription": "Khay gốm lấy cảm hứng từ hình dáng lá sen, nổi bật với sắc xanh ngọc và đường viền uốn lượn tự nhiên, phù hợp để bày đồ ăn nhẹ hoặc trang trí không gian sống",
@@ -5005,6 +5229,10 @@ export const products =
   },
   {
     "id": "SP_LNX_01",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_LNX_01/pdf-119-material.jpg",
+      "design": "/download/images/pdf_features/SP_LNX_01/pdf-119-design.jpg"
+    },
     "coSoSanXuatId": "LNX_LNX",
     "name": "Lụa hoa văn Phượng Vũ",
     "itemDescription": "Lụa hoa văn Phượng Vũ nổi bật với sắc đỏ hồng sang trọng cùng họa tiết phượng. Sự kết hợp giữa màu sắc và hoa văn tạo nên chất liệu phù hợp cho áo dài, trang phục lễ hội và những thiết kế mang vẻ đẹp văn hóa.",
@@ -5040,6 +5268,10 @@ export const products =
   },
   {
     "id": "SP_LNX_02",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_LNX_02/pdf-120-material.jpg",
+      "design": "/download/images/pdf_features/SP_LNX_02/pdf-120-design.jpg"
+    },
     "coSoSanXuatId": "LNX_LNX",
     "name": "Lụa hoa văn Vân Bèo",
     "itemDescription": "Lụa hoa văn Vân Bèo mang sắc hồng phấn dịu dàng, kết hợp cùng những đường nét hoa văn uốn lượn. Sản phẩm phù hợp với áo dài nữ tính và những mẫu trang phục hướng đến vẻ đẹp nhẹ nhàng, thanh lịch.",
@@ -5074,6 +5306,10 @@ export const products =
   },
   {
     "id": "SP_LNX_03",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_LNX_03/pdf-121-material.jpg",
+      "design": "/download/images/pdf_features/SP_LNX_03/pdf-121-design.jpg"
+    },
     "coSoSanXuatId": "LNX_LNX",
     "name": "Lụa hoa văn Thọ dơi – Xám Bạc",
     "itemDescription": "Lụa hoa văn Thọ Dơi phiên bản xám bạc mang vẻ đẹp trang nhã với gam màu trung tính. Tổng thể không quá rực rỡ nhưng vẫn tạo được điểm nhấn nhờ cách phối màu tinh tế, phù hợp với trang phục truyền thống, áo dài.",
@@ -5109,6 +5345,10 @@ export const products =
   },
   {
     "id": "SP_LNX_04",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_LNX_04/pdf-122-material.jpg",
+      "design": "/download/images/pdf_features/SP_LNX_04/pdf-122-design.jpg"
+    },
     "coSoSanXuatId": "LNX_LNX",
     "name": "Lụa hoa văn Bách Liên Hoa",
     "itemDescription": "Lụa hoa văn Bách Liên Hoa ấn tượng với gam xanh lam pha tím dịu mắt và những họa tiết hoa lá trải đều trên nền vải. Sản phẩm phù hợp cho áo dài, trang phục truyền thống và các thiết kế mang cảm hứng thiên nhiên.",
@@ -5144,6 +5384,10 @@ export const products =
   },
   {
     "id": "SP_LNX_05",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_LNX_05/pdf-123-material.jpg",
+      "design": "/download/images/pdf_features/SP_LNX_05/pdf-123-design.jpg"
+    },
     "coSoSanXuatId": "LNX_LNX",
     "name": "Lụa hoa văn Sen Hồ Điệp",
     "itemDescription": "Lụa hoa văn Sen Hồ Điệp sở hữu tông vàng nhạt trang nhã, kết hợp cùng những đường nét trang trí gợi hình ảnh thiên nhiên. Sắc vàng cùng hoa văn mềm mại tạo nên vẻ đẹp thanh lịch, thích hợp các thiết kế truyền thống.",
@@ -5179,6 +5423,10 @@ export const products =
   },
   {
     "id": "SP_LNX_06",
+    "featureImages": {
+      "material": "/download/images/pdf_features/SP_LNX_06/pdf-124-material.jpg",
+      "design": "/download/images/pdf_features/SP_LNX_06/pdf-124-design.jpg"
+    },
     "coSoSanXuatId": "LNX_LNX",
     "name": "Lụa hoa văn Thọ dơi – Tím Hồng",
     "itemDescription": "Lụa hoa văn Thọ Dơi phiên bản tím hồng nổi bật với gam màu đậm và hoa văn truyền thống được bố trí dày trên nền vải. Sắc tím hồng tạo cảm giác nổi bật, trong khi các chi tiết trang trí mang đến vẻ đẹp cổ điển.",

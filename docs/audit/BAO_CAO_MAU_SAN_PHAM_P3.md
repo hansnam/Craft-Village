@@ -1,5 +1,7 @@
 # Đối chiếu và sửa năm trang mẫu sản phẩm
 
+> Ngày 10/11/2026: đã đối chiếu hai ô ảnh đặc điểm của 60 trang P2, sửa ánh xạ cho thêm 41 trang. Xem [báo cáo ảnh đặc điểm](DOI_CHIEU_ANH_DAC_DIEM_P2.md) và [danh sách nguồn ảnh](PDF_FEATURE_IMAGES.csv); các dòng cũ bên dưới là mốc trước lượt này.
+
 > PDF 82 — Quạt Khang Hi: đã thay ảnh ở hai ô đặc điểm bằng ảnh nhúng đúng vị trí trong PDF (nan quạt cho chất liệu, thư pháp cho kiểu dáng), tại `frontend/download/images/pdf_features/SP_QCS_QKH/`. `mockData.js` dùng `featureImages` riêng, tách khỏi gallery. Đã kiểm tra ảnh tải và mở phóng to; các sản phẩm khác vẫn cần đối chiếu hai ô đặc điểm vì mặc định còn dựa vào thứ tự gallery.
 
 > Cập nhật theo góp ý: dịch ảnh sen lên vùng có nền sáng, nới độ rộng tiêu đề đặc điểm; email chỉ hiển thị khi cơ sở có dữ liệu, áp dụng ở phần liên hệ sản phẩm và tư vấn trang cơ sở. Đã kiểm tra trường hợp có/không email trên desktop và mobile.
