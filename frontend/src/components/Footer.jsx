@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import { brandAssets } from "../data/homeData.js";
 
 function appendSplineCurve(points) {
@@ -395,7 +396,11 @@ export default function Footer() {
 
           {/* Right Column: Vision Statement */}
           <div className="footer__right">
-            <h3 className="footer__vision-title">Tầm nhìn của chúng tôi</h3>
+            <h3 className="footer__vision-title">
+              <Link to="/ve-chung-toi" className="footer__vision-link" data-cursor="link">
+                Tầm nhìn của chúng tôi
+              </Link>
+            </h3>
             <p className="footer__vision-quote">
               “CRAFT FOLIO hướng đến xây dựng hệ thống Digital Portfolio trực quan, giúp doanh nghiệp dễ dàng tìm kiếm, đánh giá và kết nối với các xưởng phù hợp. Trong giai đoạn đầu, dự án tập trung phát triển phiên bản thử nghiệm, xây dựng hồ sơ xưởng thực tế và tiếp nhận phản hồi để hoàn thiện nền tảng”
             </p>

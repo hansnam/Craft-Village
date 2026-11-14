@@ -50,18 +50,18 @@ export default function AboutPage() {
     setLightbox({ isOpen: false, imageUrl: "", title: "" });
   };
 
-  // Base-aware asset URLs from folder 'images/Về chúng tôi'
-  const posterUrl = getAssetUrl("download/images/about_us/header_poster.jpg");
-  const videoStream720Url = getAssetUrl("download/images/about_us/header_stream_720p.mp4");
-  const videoStream1080Url = getAssetUrl("download/images/about_us/header_stream.mp4");
-  const videoOriginalUrl = getAssetUrl("download/images/about_us/about_header.mp4");
-  const projectAvatarUrl = getAssetUrl("download/images/about_us/about_project_avatar.jpg");
-  const statementStripsUrl = getAssetUrl("download/images/about_us/about_statement_strips.png");
-  const missionCard1Url = getAssetUrl("download/images/about_us/about_mission_card1.jpg");
-  const missionCard2Url = getAssetUrl("download/images/about_us/about_mission_card2.jpg");
-  const visionCollageUrl = getAssetUrl("download/images/about_us/about_vision_collage.png");
-  const waveBgUrl = getAssetUrl("download/images/about_us/about_wave_bg.png");
-  const botanicalPatternUrl = getAssetUrl("download/images/about_us/botanical_pattern.png");
+  // Base-aware asset URLs from folder 'Ảnh làng nghề/Về Chúng Tôi'
+  const posterUrl = getAssetUrl("download/Ảnh làng nghề/Về Chúng Tôi/avatar du an.jpg");
+  const videoStream720Url = getAssetUrl("download/Ảnh làng nghề/Về Chúng Tôi/header.mp4");
+  const videoStream1080Url = getAssetUrl("download/Ảnh làng nghề/Về Chúng Tôi/header.mp4");
+  const videoOriginalUrl = getAssetUrl("download/Ảnh làng nghề/Về Chúng Tôi/header.mp4");
+  const projectAvatarUrl = getAssetUrl("download/Ảnh làng nghề/Về Chúng Tôi/avatar du an.jpg");
+  const statementStripsUrl = getAssetUrl("download/Ảnh làng nghề/Về Chúng Tôi/thông tin dự án.png");
+  const missionCard1Url = getAssetUrl("download/Ảnh làng nghề/Về Chúng Tôi/sumenh.jpg");
+  const missionCard2Url = getAssetUrl("download/Ảnh làng nghề/Về Chúng Tôi/sumenh(1).jpg");
+  const visionCollageUrl = getAssetUrl("download/Ảnh làng nghề/Về Chúng Tôi/Tầm nhìn.png");
+  const waveBgUrl = getAssetUrl("download/Ảnh làng nghề/Về Chúng Tôi/Thiết kế chưa có tên.png");
+  const botanicalPatternUrl = getAssetUrl("download/Ảnh làng nghề/Nền/nền trang cơ sở xưởng.png");
 
   return (
     <div className="about-page">

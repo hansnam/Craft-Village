@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { resolveMockAsset } from "../../utils/resolveMockAsset.js";
 import AnimatedDrawingCurve from "../effects/AnimatedDrawingCurve.jsx";
 
@@ -7,9 +7,39 @@ export default function FacilityCapacities({
   facilityName = "",
   onOpenLightbox,
 }) {
+  const listRef = useRef(null);
   const sortedCapacities = [...capacities].sort(
     (a, b) => (Number(a.order) || 0) - (Number(b.order) || 0)
   );
+
+  useEffect(() => {
+    const container = listRef.current;
+    if (!container) return undefined;
+
+    const rows = [...container.querySelectorAll(".workshop-capacity-row")];
+    if (!rows.length) return undefined;
+
+    const motionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
+    if (motionQuery.matches || !("IntersectionObserver" in window)) {
+      rows.forEach((row) => row.classList.add("is-visible"));
+      return undefined;
+    }
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.16, rootMargin: "0px 0px -30px 0px" }
+    );
+
+    rows.forEach((row) => observer.observe(row));
+    return () => observer.disconnect();
+  }, [sortedCapacities.length]);
 
   return (
     <section id="nang-luc-san-xuat" className="workshop-section workshop-capacities" aria-labelledby="capacities-heading">
@@ -24,7 +54,7 @@ export default function FacilityCapacities({
         </header>
 
         {sortedCapacities.length > 0 ? (
-          <div className="workshop-capacities__timeline">
+          <div className="workshop-capacities__timeline" ref={listRef}>
             <div className="workshop-capacities__list">
               {sortedCapacities.map((item, index) => {
                 const isEven = index % 2 === 1; // index 0 (Row 1): Img Left, index 1 (Row 2): Img Right, index 2 (Row 3): Img Left, index 3 (Row 4): Img Right

@@ -1,9 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { facilities } from "../../data/mockData.js";
 import { resolveFacilityThumbnail } from "../../utils/resolveMockAsset.js";
 
 function FacilityCard({ facility, index }) {
+  const navigate = useNavigate();
   const thumbUrl = resolveFacilityThumbnail(facility);
   const shortSummary =
     facility?.description ||
@@ -15,11 +16,17 @@ function FacilityCard({ facility, index }) {
     facility?.hoTroThietKeLamMau === undefined ||
     Number(facility?.hoTroThietKeLamMau?.value) > 0;
 
+  const handleCardClick = (event) => {
+    if (event.target.closest("a, button")) return;
+    navigate(`/co-so/${facility.id}`);
+  };
+
   return (
     <article
       className="facility-card"
-      style={{ "--facility-index": index }}
+      style={{ "--facility-index": index, cursor: "pointer" }}
       data-cursor="card"
+      onClick={handleCardClick}
     >
       <Link
         to={`/co-so/${facility.id}`}

@@ -185,19 +185,19 @@ h6 {
 
 .brand__logo-frame {
   position: relative;
-  width: 76px;
-  height: 45px;
+  width: 60px;
+  height: 44px;
   overflow: hidden;
-  display: block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .brand__logo {
-  position: absolute;
-  width: 204px;
-  height: 102px;
-  max-width: none;
-  left: -68px;
-  top: -29px;
+  position: static;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
   user-select: none;
   pointer-events: none;
 }
@@ -1573,7 +1573,7 @@ h6 {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 44%;
+  object-position: center 15%;
   transition: transform 900ms var(--ease-luxury);
 }
 
@@ -1968,11 +1968,13 @@ h6 {
 
 .footer {
   position: relative;
+  z-index: 10;
   margin-top: 0;
 }
 
 .footer__silk-wrap {
   position: relative;
+  z-index: 2;
   width: 100%;
   height: clamp(165px, 18.5vw, 275px);
   margin-bottom: -2px;
@@ -2007,15 +2009,15 @@ h6 {
 }
 
 .brand__logo-frame--footer {
-  width: 104px;
-  height: 62px;
+  width: 78px;
+  height: 56px;
 }
 
 .brand__logo--footer {
-  width: 280px;
-  height: 140px;
-  left: -94px;
-  top: -39px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: static;
 }
 
 .footer__brand-name {
@@ -2213,10 +2215,20 @@ h6 {
   color: #38332e;
 }
 
+.footer__vision-link {
+  color: inherit;
+  text-decoration: none;
+  transition: opacity 200ms ease;
+}
+
+.footer__vision-link:hover {
+  opacity: 0.78;
+}
+
 /* Place the vision to the left of the contact details across the website. */
 .footer .footer__grid {
   grid-template-columns: minmax(0, 1.12fr) minmax(0, .88fr);
-  align-items: start;
+  align-items: center;
 }
 .footer .footer__right { grid-column: 1; grid-row: 1; }
 .footer .footer__left { grid-column: 2; grid-row: 1; }
@@ -2559,16 +2571,16 @@ html.custom-cursor-active select {
 }
 
 .brand__logo-frame--modal {
-  width: 98px;
-  height: 58px;
+  width: 76px;
+  height: 54px;
   margin-bottom: 8px;
 }
 
 .brand__logo--modal {
-  width: 264px;
-  height: 132px;
-  left: -88px;
-  top: -37px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: static;
 }
 
 .auth-modal__title {
@@ -3229,9 +3241,9 @@ html.custom-cursor-active select {
 /* 2.2 Quạt Chàng Sơn (QCS - story-four-images) */
 .story-qcs__top {
   display: grid;
-  grid-template-columns: minmax(0, 0.94fr) minmax(0, 1.06fr);
+  grid-template-columns: minmax(0, 0.84fr) minmax(0, 1.16fr);
   gap: clamp(28px, 4.2vw, 56px);
-  align-items: start;
+  align-items: center;
 }
 
 .story-qcs__subtitle {
@@ -3240,7 +3252,8 @@ html.custom-cursor-active select {
 }
 
 .story-qcs__hero-media {
-  aspect-ratio: 1.46;
+  width: 100%;
+  aspect-ratio: 1.38;
   border-radius: 16px;
   overflow: hidden;
 }
@@ -3250,6 +3263,7 @@ html.custom-cursor-active select {
   height: 100%;
   display: block;
   object-fit: cover;
+  object-position: center 15%;
   border-radius: 16px;
 }
 
@@ -3361,9 +3375,13 @@ html.custom-cursor-active select {
 
 .story-gbt__top {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: clamp(18px, 2.4vw, 30px);
+  grid-template-columns: 0.92fr 2.08fr;
+  gap: clamp(28px, 4vw, 56px);
   align-items: flex-start;
+}
+
+.story-gbt .village-story__paragraphs {
+  padding-left: clamp(12px, 2vw, 32px);
 }
 
 .story-gbt__header {
@@ -3601,7 +3619,7 @@ html.custom-cursor-active select {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
+  object-position: center 18%;
   border-radius: 14px;
   transform: none;
   transition: transform 680ms var(--ease-luxury);
@@ -3737,16 +3755,19 @@ html.custom-cursor-active select {
 .facility-card__tag {
   display: inline-flex;
   align-items: center;
-  min-height: 34px;
-  padding: 5px 18px;
-  border-radius: 999px;
-  background: var(--brand-crimson-deep);
-  color: #ffffff;
+  padding: 2px 0;
+  background: transparent;
+  color: var(--brand-crimson-deep);
   font-family: var(--body-font);
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0.01em;
-  box-shadow: 0 3px 9px rgba(135, 10, 13, 0.22);
+}
+
+.facility-card__tag + .facility-card__tag::before {
+  content: "•";
+  margin-right: 12px;
+  color: rgba(135, 10, 13, 0.45);
 }
 
 .facility-card__detail-btn {
@@ -3757,13 +3778,14 @@ html.custom-cursor-active select {
   min-height: 38px;
   padding: 4px 6px 4px 22px;
   border-radius: 999px;
-  border: 1px solid #48423c;
-  background: #ffffff;
-  color: var(--ink-charcoal);
+  border: 1px solid var(--brand-crimson);
+  background: var(--brand-crimson);
+  color: #ffffff;
   font-family: var(--body-font);
   font-size: 15px;
   font-weight: 600;
   white-space: nowrap;
+  box-shadow: 0 4px 12px rgba(135, 10, 13, 0.24);
   transition: border-color 220ms ease, background-color 220ms ease,
     color 220ms ease, transform 220ms var(--ease-luxury), box-shadow 220ms ease;
 }
@@ -3772,11 +3794,11 @@ html.custom-cursor-active select {
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  background: #181512;
-  color: #ffffff;
+  background: #ffffff;
+  color: var(--brand-crimson);
   display: grid;
   place-items: center;
-  transition: background-color 220ms ease, transform 220ms var(--ease-luxury);
+  transition: background-color 220ms ease, color 220ms ease, transform 220ms var(--ease-luxury);
 }
 
 .facility-card__detail-circle svg {
@@ -3790,13 +3812,15 @@ html.custom-cursor-active select {
 }
 
 .facility-card__detail-btn:hover {
-  border-color: var(--brand-crimson);
-  color: var(--brand-crimson);
-  box-shadow: 0 6px 16px rgba(143, 29, 29, 0.12);
+  border-color: var(--brand-crimson-deep);
+  background: var(--brand-crimson-deep);
+  color: #ffffff;
+  box-shadow: 0 6px 16px rgba(143, 29, 29, 0.28);
 }
 
 .facility-card__detail-btn:hover .facility-card__detail-circle {
-  background: var(--brand-crimson);
+  background: #ffffff;
+  color: var(--brand-crimson-deep);
   transform: rotate(12deg);
 }
 
@@ -4524,15 +4548,15 @@ html.custom-cursor-active select {
   }
 
   .site-header .brand__logo-frame {
-    width: 64px;
-    height: 38px;
+    width: 50px;
+    height: 36px;
   }
 
   .site-header .brand__logo {
-    width: 172px;
-    height: 86px;
-    left: -57px;
-    top: -24px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: static;
   }
 
   .site-header__right {
@@ -4561,8 +4585,13 @@ html.custom-cursor-active select {
 
   .hero {
     aspect-ratio: 16 / 10;
-    min-height: 250px;
-    max-height: 340px;
+    min-height: 220px;
+    max-height: 360px;
+  }
+
+  .village-hero {
+    aspect-ratio: 2 / 1;
+    min-height: 0;
   }
 
   .hero__content {

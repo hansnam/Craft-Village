@@ -1,24 +1,38 @@
 import React, { useState, useEffect } from "react";
 
-export default function FacilityNav({ activeSection, onSelectSection, hasProjects = true }) {
+export default function FacilityNav({
+  activeSection,
+  onSelectSection,
+  hasCapacities = true,
+}) {
   const [isSticky, setIsSticky] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsSticky(window.scrollY > 480);
-    };
-
-    window.addEventListener("scroll", handleScroll, { passive: true });
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
 
   const navItems = [
     { id: "san-pham", label: "Sản phẩm" },
     { id: "cau-chuyen", label: "Câu chuyện" },
-    { id: "nang-luc-san-xuat", label: "Năng lực sản xuất" },
-    ...(hasProjects ? [{ id: "du-an", label: "Dự án đã thực hiện" }] : []),
+    ...(hasCapacities ? [{ id: "nang-luc-san-xuat", label: "Năng lực sản xuất" }] : []),
     { id: "danh-gia", label: "Đánh giá" },
   ];
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsSticky(window.scrollY > 480);
+
+      const threshold = 160;
+      let currentId = navItems[0]?.id || "san-pham";
+      for (const item of navItems) {
+        const el = document.getElementById(item.id);
+        if (el && el.getBoundingClientRect().top <= threshold) {
+          currentId = item.id;
+        }
+      }
+      onSelectSection((prev) => (prev === currentId ? prev : currentId));
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    handleScroll();
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [hasCapacities, onSelectSection]);
 
   const handleClick = (e, id) => {
     e.preventDefault();

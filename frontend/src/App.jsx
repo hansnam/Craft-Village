@@ -14,7 +14,6 @@ import ProductDetailPage from "./pages/ProductDetailPage.jsx";
 import BookingPage from "./pages/BookingPage.jsx";
 import VillageNotFound from "./components/village/VillageNotFound.jsx";
 import TactileOrganicGrain from "./components/effects/TactileOrganicGrain.jsx";
-import HeritageProgressBar from "./components/effects/HeritageProgressBar.jsx";
 import useSilkParallax from "./hooks/useSilkParallax.js";
 import useMagnetic from "./hooks/useMagnetic.js";
 
@@ -100,7 +99,6 @@ export default function App() {
   return (
     <div className="page">
       <TactileOrganicGrain />
-      <HeritageProgressBar />
       <GlobalPageLoader />
       <RouteScrollManager />
       <CustomCursor />

@@ -30,24 +30,24 @@ export const villages =
 [
   {
     "id": "NLC",
-    "name": "Nón lá chuông",
-    "headerImage": "/images/Trang làng nghề/Làng nón/header.png",
+    "name": "Nón Làng Chuông",
+    "headerImage": "/images/Trang làng nghề/Header các trang/Nón làng chuông ảnh header.png",
     "story": {
       "template": "story-three-images",
       "title": "Chuyện làng nghề",
       "subtitle": "Nơi lưu giữ vẻ đẹp duyên dáng của chiếc nón lá Việt Nam",
       "images": [
         {
-          "url": "/images/Trang làng nghề/Làng nón/chuyenlangnghe1.jpg",
-          "alt": "Nón lá chuông"
-        },
-        {
-          "url": "/images/Trang làng nghề/Làng nón/chuyenlangnghe2.jpeg",
-          "alt": "Nón lá chuông 2"
+          "url": "/images/Trang làng nghề/Làng nón/snapedit_1794647348852.jpeg",
+          "alt": "Nón Làng Chuông"
         },
         {
           "url": "/images/Trang làng nghề/Làng nón/chuyenlangnghe3.jpg",
-          "alt": "Nón lá chuông 3"
+          "alt": "Nón Làng Chuông 2"
+        },
+        {
+          "url": "/images/Trang làng nghề/Làng nón/cơ sở sản xuất 1.jpg",
+          "alt": "Nón Làng Chuông 3"
         }
       ],
       "paragraphs": [
@@ -507,9 +507,9 @@ export const facilities =
     "storyTitle": "Giữ nghề nón, mở lối sáng tạo",
     "storyContent": "Với khoảng 20 năm kinh nghiệm, Nón lá Hải Yến tiếp tục duy trì nghề làm nón truyền thống, đồng thời mở rộng sản phẩm theo nhu cầu khách hàng. Bên cạnh những mẫu nón cổ, cơ sở còn nhận làm nón quai thao và đèn trang trí, linh hoạt điều chỉnh kích thước, kiểu dáng và độ cầu kỳ. Sự kết hợp giữa tay nghề thủ công và khả năng cá nhân hóa giúp sản phẩm phù hợp với nhiều mục đích sử dụng khác nhau.",
     "images": {
-      "header": "/download/images/Nón lá Hải Yến/header.png",
-      "consultation": "/download/images/Nón lá Hải Yến/tuavan.png",
-      "imageStory": "/download/images/Nón lá Hải Yến/cauchuyen.jpg"
+      "header": "/download/Ảnh làng nghề/Nón lá Hải Yến/header.png",
+      "consultation": "/download/Ảnh làng nghề/Nón lá Hải Yến/tuavan.png",
+      "imageStory": "/download/Ảnh làng nghề/Nón lá Hải Yến/cauchuyen.jpg"
     },
     "dienTichXuong": {
       "value": 100,
@@ -587,9 +587,9 @@ export const facilities =
     "storyTitle": "Nỗ lực giữ gìn di sản",
     "storyContent": "Làng Chuông, Thanh Oai, Hà Nội từ lâu nổi tiếng với nghề làm nón lá truyền thống. Gắn bó với nghề, nghệ nhân Lê Thị Phương cùng con gái Lê Thị Hoa nỗ lực gìn giữ di sản bằng cách kết hợp kỹ thuật thủ công với tư duy sáng tạo. Bên cạnh các dòng nón truyền thống, cơ sở phát triển nón thêu hoa nghệ thuật và nón quai thao, góp phần đưa sản phẩm làng nghề đến gần hơn với lĩnh vực thời trang, du lịch và biểu diễn văn hóa.",
     "images": {
-      "header": "/images/Hoa Nón Làng Chuông/68.png",
-      "consultation": "/images/Hoa Nón Làng Chuông/75.png",
-      "imageStory": "/images/Hoa Nón Làng Chuông/76.png"
+      "header": "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/sanpham1.png",
+      "consultation": "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/sanpham2.png",
+      "imageStory": "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/sanpham3.png"
     },
     "dienTichXuong": {
       "value": 100,
@@ -627,9 +627,9 @@ export const facilities =
     "storyTitle": "Gắn với làng nghề truyền thống",
     "storyContent": "Quạt Chàng Sơn là sản phẩm thủ công mang dấu ấn văn hóa của vùng Xứ Đoài. Từ những nguyên liệu quen thuộc như tre và giấy, người thợ tạo nên những chiếc quạt vừa có công năng sử dụng, vừa có giá trị thẩm mỹ qua hình ảnh, họa tiết và kỹ thuật chế tác.",
     "images": {
-      "header": "/download/images/Quạt Chàng Sơn/header.png",
-      "consultation": "/download/images/Quạt Chàng Sơn/tuvan.png",
-      "imageStory": "/download/images/Quạt Chàng Sơn/cauchuyen.png"
+      "header": "/download/Ảnh làng nghề/Quạt Chàng Sơn/header.png",
+      "consultation": "/download/Ảnh làng nghề/Quạt Chàng Sơn/tuvan.png",
+      "imageStory": "/download/Ảnh làng nghề/Quạt Chàng Sơn/cauchuyen.png"
     },
     "dienTichXuong": {
       "value": 200,
@@ -707,9 +707,9 @@ export const facilities =
     "storyTitle": "Hình thành từ tình yêu với nghề làm quạt truyền thống",
     "storyContent": "Bắt đầu từ mô hình hộ kinh doanh gia đình vào đầu những năm 2000, thương hiệu đã phát triển với mong muốn gìn giữ nghề truyền thống và đưa quạt Việt đến gần hơn với thị trường hiện đại. Xưởng chú trọng kết hợp chất liệu, thiết kế mới với bản sắc văn hóa Việt Nam.",
     "images": {
-      "header": "/download/images/Quạt Phương/header.png",
-      "consultation": "/download/images/Quạt Phương/tuvan.png",
-      "imageStory": "/download/images/Quạt Phương/cauchuyen.png"
+      "header": "/download/Ảnh làng nghề/Quạt Phương/header.png",
+      "consultation": "/download/Ảnh làng nghề/Quạt Phương/tuvan.png",
+      "imageStory": "/download/Ảnh làng nghề/Quạt Phương/cauchuyen.png"
     },
     "dienTichXuong": {
       "value": 300,
@@ -1091,7 +1091,7 @@ export const capacities =
     "order": 1,
     "description": "Với khoảng 20 năm kinh nghiệm, cơ sở duy trì kỹ thuật làm nón thủ công truyền thống và tích lũy tay nghề qua từng sản phẩm.",
     "image": {
-      "url": "/download/images/Nón lá Hải Yến/nanglucsanxuat1.jpg",
+      "url": "/download/Ảnh làng nghề/Nón lá Hải Yến/nanglucsanxuat1.jpg",
       "alt": "Kinh nghiệm làm nghề nón lá Hải Yến"
     }
   },
@@ -1102,7 +1102,7 @@ export const capacities =
     "order": 2,
     "description": "Nhận thiết kế riêng, linh hoạt điều chỉnh kích thước và độ cầu kỳ theo mục đích sử dụng của khách hàng.",
     "image": {
-      "url": "/download/images/nón lá Hải Yến/nanglucsanxuat2.jpg",
+      "url": "/download/Ảnh làng nghề/nón lá Hải Yến/nanglucsanxuat2.jpg",
       "alt": "Sản xuất theo yêu cầu nón lá Hải Yến"
     }
   },
@@ -1113,7 +1113,7 @@ export const capacities =
     "order": 3,
     "description": "Gìn giữ kỹ thuật làm các dòng nón cổ như nón ba tầm, nón dâu, kết hợp kinh nghiệm thủ công được tích lũy qua khoảng 20 năm làm nghề.",
     "image": {
-      "url": "/download/images/nón lá Hải Yến/nanglucsanxuat3.jpg",
+      "url": "/download/Ảnh làng nghề/nón lá Hải Yến/nanglucsanxuat3.jpg",
       "alt": "Chế tác nón cổ truyền nón lá Hải Yến"
     }
   },
@@ -1124,7 +1124,7 @@ export const capacities =
     "order": 4,
     "description": "Với đội ngũ 10 người tham gia sản xuất, cơ sở nhận đơn từ 1 sản phẩm đến số lượng lớn, đáp ứng nhiều quy mô đặt hàng khác nhau.",
     "image": {
-      "url": "/download/images/nón lá Hải Yến/nanglucsanxuat4.png",
+      "url": "/download/Ảnh làng nghề/nón lá Hải Yến/nanglucsanxuat4.png",
       "alt": "Năng lực gia công và cung ứng nón lá Hải Yến"
     }
   },
@@ -1179,7 +1179,7 @@ export const capacities =
     "order": 1,
     "description": "Lưu giữ kỹ thuật làm nón truyền thống, từ chọn lá, là phẳng đến khâu nón tỉ mỉ bằng tay.",
     "image": {
-      "url": "/images/Hoa Nón Làng Chuông/nlsx1.png",
+      "url": "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/nanglucsanxuat1.png",
       "alt": "Sản xuất thủ công truyền thống Hoa Nón Làng Chuông"
     }
   },
@@ -1190,7 +1190,7 @@ export const capacities =
     "order": 2,
     "description": "Linh hoạt trong kiểu dáng, màu sắc và họa tiết, đáp ứng nhu cầu sử dụng và đặt hàng riêng.",
     "image": {
-      "url": "/images/Hoa Nón Làng Chuông/nlsx2.png",
+      "url": "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/nanglucsanxuat2.png",
       "alt": "Thiết kế theo yêu cầu Hoa Nón Làng Chuông"
     }
   },
@@ -1201,7 +1201,7 @@ export const capacities =
     "order": 3,
     "description": "Cung cấp các dòng nón lá truyền thống, nón cưới hỏi, nón trang trí và nón phục vụ quà tặng, biểu diễn văn hóa.",
     "image": {
-      "url": "/images/Hoa Nón Làng Chuông/nlsx3.png",
+      "url": "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/nanglucsanxuat3.png",
       "alt": "Đa dạng dòng sản phẩm Hoa Nón Làng Chuông"
     }
   },
@@ -1212,7 +1212,7 @@ export const capacities =
     "order": 4,
     "description": "Chú trọng từng đường kim, mối khâu và phần quai nón, đảm bảo tính thẩm mỹ và độ bền của sản phẩm.",
     "image": {
-      "url": "/images/Hoa Nón Làng Chuông/nlsx4.png",
+      "url": "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/nanglucsanxuat4.png",
       "alt": "Gia công và hoàn thiện sản phẩm Hoa Nón Làng Chuông"
     }
   },
@@ -1223,7 +1223,7 @@ export const capacities =
     "order": 1,
     "description": "Lưu giữ kỹ thuật làm quạt truyền thống, từ gia công nan quạt đến phất quạt và hoàn thiện sản phẩm.",
     "image": {
-      "url": "/download/images/Quạt Chàng Sơn/nanglucsanxuat1.png",
+      "url": "/download/Ảnh làng nghề/Quạt Chàng Sơn/nanglucsanxuat1.png",
       "alt": "Sản xuất thủ công truyền thống Quạt Chàng Sơn"
     }
   },
@@ -1234,7 +1234,7 @@ export const capacities =
     "order": 2,
     "description": "Đa dạng mẫu mã, kiểu dáng, hoa văn và kích thước, đáp ứng nhu cầu riêng của từng khách hàng.",
     "image": {
-      "url": "/download/images/Quạt Chàng Sơn/nanglucsanxuat2.png",
+      "url": "/download/Ảnh làng nghề/Quạt Chàng Sơn/nanglucsanxuat2.png",
       "alt": "Thiết kế theo yêu cầu Quạt Chàng Sơn"
     }
   },
@@ -1245,7 +1245,7 @@ export const capacities =
     "order": 3,
     "description": "Cung cấp quạt truyền thống, quạt quà tặng, quạt cưới và quạt trang trí phục vụ nhiều mục đích sử dụng.",
     "image": {
-      "url": "/download/images/Quạt Chàng Sơn/nanglucsanxuat3.png",
+      "url": "/download/Ảnh làng nghề/Quạt Chàng Sơn/nanglucsanxuat3.png",
       "alt": "Sản xuất đa dạng dòng quạt Quạt Chàng Sơn"
     }
   },
@@ -1256,7 +1256,7 @@ export const capacities =
     "order": 4,
     "description": "Thực hiện các công đoạn gia công, in ấn, lắp ráp và kiểm tra nhằm đảm bảo tính thẩm mỹ của từng chiếc quạt.",
     "image": {
-      "url": "/download/images/Quạt Chàng Sơn/nanglucsanxuat4.png",
+      "url": "/download/Ảnh làng nghề/Quạt Chàng Sơn/nanglucsanxuat4.png",
       "alt": "Gia công và hoàn thiện sản phẩm Quạt Chàng Sơn"
     }
   },
@@ -1399,7 +1399,7 @@ export const capacities =
     "order": 1,
     "description": "Phát triển các dòng sản phẩm mây tre đan từ đồ gia dụng, phụ kiện đến vật dụng trang trí.",
     "image": {
-      "url": "/images/CS mây tre đan tuấn anh/nlsx1.jpg",
+      "url": "/download/Ảnh làng nghề/CS mây tre đan tuấn anh/nanglucsanxuat1.jpg",
       "alt": "Đa dạng sản phẩm thủ công Mây tre đan Tuấn Anh"
     }
   },
@@ -1410,7 +1410,7 @@ export const capacities =
     "order": 2,
     "description": "Linh hoạt kiểu dáng, kích thước và công năng theo nhu cầu riêng của khách hàng.",
     "image": {
-      "url": "/images/CS mây tre đan tuấn anh/nlsx2.jpg",
+      "url": "/download/Ảnh làng nghề/CS mây tre đan tuấn anh/nanglucsanxuat2.jpg",
       "alt": "Thiết kế theo yêu cầu Mây tre đan Tuấn Anh"
     }
   },
@@ -1421,7 +1421,7 @@ export const capacities =
     "order": 3,
     "description": "Phù hợp với không gian sống, nhà hàng, khách sạn, homestay và dịch vụ.",
     "image": {
-      "url": "/images/CS mây tre đan tuấn anh/nlsx3.jpg",
+      "url": "/download/Ảnh làng nghề/CS mây tre đan tuấn anh/nanglucsanxuat3.jpg",
       "alt": "Ứng dụng đa dạng Mây tre đan Tuấn Anh"
     }
   },
@@ -1432,7 +1432,7 @@ export const capacities =
     "order": 4,
     "description": "Tiếp nhận đơn đặt hàng phục vụ quà tặng, phụ kiện và nhu cầu hợp tác doanh nghiệp.",
     "image": {
-      "url": "/images/CS mây tre đan tuấn anh/nlsx4.jpg",
+      "url": "/download/Ảnh làng nghề/CS mây tre đan tuấn anh/nanglucsanxuat4.jpg",
       "alt": "Đơn hàng riêng biệt Mây tre đan Tuấn Anh"
     }
   },
@@ -1801,7 +1801,7 @@ export const projects =
     "coSoSanXuatId": "MTD_MTDVQ",
     "name": "Lồng bàn đan mây - Sản phẩm công nghiệp nông thôn tiêu biểu khu vực phía Bắc",
     "description": "Sản phẩm thể hiện khả năng ứng dụng kỹ thuật đan truyền thống vào vật dụng phục vụ đời sống, kết hợp giá trị thủ công với tính ứng dụng thực tế.",
-    "image": "/download/images/CS Mây tre việt quang/duan1.jpg",
+    "image": "/download/Ảnh làng nghề/CS Mây tre việt quang/duan1.jpg",
     "link": "",
     "createdAt": "04/08/2024",
     "sourceNote": "Nội dung thiết kế PDF 26, chưa xác minh thực tế."
@@ -1811,7 +1811,7 @@ export const projects =
     "coSoSanXuatId": "MTD_MTDVQ",
     "name": "Bộ sưu tập sản phẩm mây tre đan OCOP 4 sao",
     "description": "Việt Quang có các sản phẩm đạt OCOP 4 sao gồm bình hoa đan tre, túi thời trang, chậu tre, giỏ đan mây và tháp mây. Danh mục cho thấy sự đa dạng về kiểu dáng và công năng, từ đồ gia dụng đến sản phẩm trang trí và phụ kiện.",
-    "image": "/download/images/CS Mây tre việt quang/duan2.jpg",
+    "image": "/download/Ảnh làng nghề/CS Mây tre việt quang/duan2.jpg",
     "link": "",
     "createdAt": "",
     "sourceNote": "Nội dung thiết kế PDF 26, chưa xác minh thực tế."
@@ -1821,7 +1821,7 @@ export const projects =
     "coSoSanXuatId": "MTD_MTDVQ",
     "name": "Phát triển sản phẩm thủ công mỹ nghệ sáng tạo",
     "description": "Dưới sự dẫn dắt của nghệ nhân Nguyễn Văn Tĩnh, xưởng duy trì kỹ thuật đan thủ công truyền thống, đồng thời cải tiến mẫu mã để đáp ứng nhu cầu thị trường.",
-    "image": "/download/images/CS Mây tre việt quang/duan3.jpg",
+    "image": "/download/Ảnh làng nghề/CS Mây tre việt quang/duan3.jpg",
     "link": "",
     "createdAt": "",
     "sourceNote": "Nội dung thiết kế PDF 26, chưa xác minh thực tế."
@@ -1863,7 +1863,7 @@ export const projects =
     "coSoSanXuatId": "GBT_GTL",
     "name": "Bộ đạo cụ ấm chén trà quán cổ",
     "description": "Cung cấp trọn gói đạo cụ ấm chén tạo hình gốm nung củi cho không gian trà đạo và phim trường cổ trang.",
-    "image": "/download/images/CS Gốm tới liên/duan1.jpg",
+    "image": "/download/Ảnh làng nghề/Gốm Bát Tràng/Gốm Tới Liên/1.png",
     "link": "",
     "createdAt": "2024-11-15"
   },
@@ -1872,7 +1872,7 @@ export const projects =
     "coSoSanXuatId": "GBT_GTL",
     "name": "Thiết kế chén sen theo concept nghệ thuật",
     "description": "Gia công bộ ấm chén theo mẫu phác thảo riêng phục vụ triển lãm gốm sứ nghệ thuật.",
-    "image": "/download/images/CS Gốm tới liên/duan2.jpg",
+    "image": "/download/Ảnh làng nghề/Gốm Bát Tràng/Gốm Tới Liên/2.png",
     "link": "",
     "createdAt": "2025-03-20"
   },
@@ -1881,7 +1881,7 @@ export const projects =
     "coSoSanXuatId": "GBT_GTL",
     "name": "Bộ ấm rồng vân mây cao cấp",
     "description": "Đơn hàng gia công thủ công các mẫu ấm chén rồng đất nung phục vụ không gian trà cao cấp.",
-    "image": "/download/images/CS Gốm tới liên/duan3.jpg",
+    "image": "/download/Ảnh làng nghề/Gốm Bát Tràng/Gốm Tới Liên/3.png",
     "link": "",
     "createdAt": "2025-08-10"
   },
@@ -2001,7 +2001,7 @@ export const reviews =
     "reviewTime": "2026-01-11",
     "order": 1,
     "content": "Quạt giấy Chàng Sơn mang nét đẹp truyền thống nhưng vẫn có thể linh hoạt theo concept của từng chương trình. Đây là lựa chọn phù hợp để làm quà tặng, đạo cụ biểu diễn hoặc tạo điểm nhấn văn hóa cho sự kiện.",
-    "avatar": "/download/images/Quạt Chàng Sơn/PhamMyAnh.jpg"
+    "avatar": "/download/Ảnh làng nghề/avatar feedback/PhamMyAnh.jpg"
   },
   {
     "id": "rv_QCS02",
@@ -2010,7 +2010,7 @@ export const reviews =
     "reviewTime": "2025-06-15",
     "order": 2,
     "content": "Sản phẩm có tính ứng dụng cao, mẫu mã đa dạng và có thể cân nhắc thiết kế riêng theo nhu cầu đặt hàng. Quạt giấy không chỉ là món quà lưu niệm mà còn góp phần truyền tải nét văn hóa Việt đến khách hàng và đối tác.",
-    "avatar": "/download/images/Quạt Chàng Sơn/NguyenMinh.jpg"
+    "avatar": "/download/Ảnh làng nghề/avatar feedback/NguyenMinh.jpg"
   },
   {
     "id": "rv_QCS03",
@@ -2019,7 +2019,7 @@ export const reviews =
     "reviewTime": "2026-02-01",
     "order": 3,
     "content": "Họa tiết trên quạt giấy mở ra nhiều ý tưởng sáng tạo cho các bộ ảnh, hoạt động trải nghiệm và chiến dịch truyền thông mang bản sắc Việt. Sự kết hợp giữa chất liệu truyền thống và thiết kế hiện đại giúp sản phẩm trở nên gần gũi với nhiều đối tượng.",
-    "avatar": "/download/images/Quạt Chàng Sơn/ThaiLinh.jpg"
+    "avatar": "/download/Ảnh làng nghề/avatar feedback/ThaiLinh.jpg"
   },
   {
     "id": "rv_QTT01",
@@ -2028,7 +2028,7 @@ export const reviews =
     "reviewTime": "2026-02-25",
     "order": 1,
     "content": "Điều tôi đặc biệt yêu thích ở Quạt Từ Tâm chính là sự tận tâm – từ khâu tư vấn, thiết kế đến giao hàng đều nhanh chóng, chuyên nghiệp. Các bạn đã giúp tôi hoàn thiện lô quạt đúng giờ để gửi đi Mỹ, điều này thực sự khiến tôi rất cảm kích.",
-    "avatar": "/download/images/Quạt Từ Tâm/TranPhuongNhi.jpg"
+    "avatar": "/download/Ảnh làng nghề/avatar feedback/TranPhuongNhi.jpg"
   },
   {
     "id": "rv_QTT02",
@@ -2037,7 +2037,7 @@ export const reviews =
     "reviewTime": "2025-02-07",
     "order": 2,
     "content": "Những chiếc quạt từ Quạt Từ Tâm đã làm cho ngày của tôi trở nên thật đặc biệt! Các vị khách đều cảm tác khen ngợi và yêu thích chúng. Điều đó làm tôi cảm thấy thật tự hào khi mang một phần giá trị Việt Nam đến với mọi người.",
-    "avatar": "/download/images/Quạt Từ Tâm/ThanhNguyen.jpg"
+    "avatar": "/download/Ảnh làng nghề/avatar feedback/ThanhNguyen.jpg"
   },
   {
     "id": "rv_QTT03",
@@ -2046,7 +2046,7 @@ export const reviews =
     "reviewTime": "2026-04-14",
     "order": 3,
     "content": "Thiết kế quạt thể hiện rõ thông điệp và hình ảnh thương hiệu của chúng tôi với mặt sau hài hòa, sắc nét. Chất liệu nan tre và vải không chỉ thân thiện với môi trường mà còn nhẹ nhàng, dễ sử dụng – điều này rất phù hợp với các giá trị mà chúng tôi đang theo đuổi.",
-    "avatar": "/download/images/Quạt Từ Tâm/NguyenHaiLinh.jpg"
+    "avatar": "/download/Ảnh làng nghề/avatar feedback/NguyenHaiLinh.jpg"
   },
   {
     "id": "rv_QP01",
@@ -2055,7 +2055,7 @@ export const reviews =
     "reviewTime": "2026-10-19",
     "order": 1,
     "content": "Tôi ấn tượng với cách Quạt Phương kết hợp chất liệu truyền thống và kỹ thuật in hiện đại. Mỗi chiếc quạt không chỉ có tính thẩm mỹ mà còn mang nét văn hóa Việt Nam, rất phù hợp để làm quà tặng cho bạn bè và đối tác quốc tế.",
-    "avatar": "/download/images/Quạt Phương/TranMinhAnh.jpg"
+    "avatar": "/download/Ảnh làng nghề/avatar feedback/TranMinhAnh.jpg"
   },
   {
     "id": "rv_QP02",
@@ -2064,7 +2064,7 @@ export const reviews =
     "reviewTime": "2026-08-27",
     "order": 2,
     "content": "Điều khiến chúng tôi hài lòng là sự tỉ mỉ trong từng chi tiết và chất lượng hoàn thiện của sản phẩm. Quạt thủ công không chỉ đáp ứng nhu cầu sử dụng mà còn phù hợp với không gian văn hóa, lịch sử, nơi mỗi sản phẩm đều cần thể hiện được bản sắc truyền thống",
-    "avatar": "/download/images/Quạt Phương/LuongAnhTuan.avif"
+    "avatar": "/download/Ảnh làng nghề/avatar feedback/LuongAnhTuan.avif"
   },
   {
     "id": "rv_QP03",
@@ -2073,7 +2073,7 @@ export const reviews =
     "reviewTime": "2026-04-03",
     "order": 3,
     "content": "Với ngành du lịch, một món quà nhỏ nhưng mang dấu ấn địa phương có thể tạo nên trải nghiệm đáng nhớ cho du khách. Quạt thủ công là lựa chọn thú vị bởi vừa hữu ích, vừa giúp giới thiệu nét đẹp văn hóa Việt Nam theo cách gần gũi",
-    "avatar": "/download/images/Quạt Phương/VuThuPhuong.webp"
+    "avatar": "/download/Ảnh làng nghề/avatar feedback/VuThuPhuong.webp"
   },
   {
     "id": "rv_MTDVQ01",
@@ -2190,7 +2190,7 @@ export const reviews =
     "reviewTime": "2025-07-26",
     "order": 1,
     "content": "Những sản phẩm mang nét văn hóa truyền thống có tiềm năng sử dụng làm quà tặng hoặc vật phẩm trang trí cho sự kiện. Sự đa dạng về kiểu dáng giúp đơn vị tổ chức có thêm lựa chọn phù hợp với chủ đề chương trình.",
-    "avatar": "/download/images/CS gốm hải long/TranKhanhLinh.jpg"
+    "avatar": "/download/Ảnh làng nghề/CS gốm hải long/TranKhanhLinh.jpg"
   },
   {
     "id": "rv_GHL02",
@@ -2199,7 +2199,7 @@ export const reviews =
     "reviewTime": "2024-05-13",
     "order": 2,
     "content": "Mình đánh giá cao nét thủ công và sự đa dạng trong thiết kế sản phẩm. Đây là yếu tố giúp các mặt hàng gốm có điểm nhấn riêng, phù hợp với những khách hàng yêu thích sản phẩm mang dấu ấn truyền thống.",
-    "avatar": "/download/images/CS gốm hải long/DoNgocMai.jpg"
+    "avatar": "/download/Ảnh làng nghề/CS gốm hải long/DoNgocMai.jpg"
   },
   {
     "id": "rv_GHL03",
@@ -2208,7 +2208,7 @@ export const reviews =
     "reviewTime": "2025-09-05",
     "order": 3,
     "content": "Các sản phẩm gốm có thể ứng dụng trong nhiều không gian khác nhau, từ nhà ở đến quán cà phê và nhà hàng. Nếu có thêm thông tin về kích thước, chất liệu và khả năng đặt theo yêu cầu, doanh nghiệp sẽ thuận tiện hơn trong quá trình lựa chọn.",
-    "avatar": "/download/images/CS gốm hải long/NguyenDucThanh.jpg"
+    "avatar": "/download/Ảnh làng nghề/CS gốm hải long/NguyenDucThanh.jpg"
   },
   {
     "id": "rv_GTL01",
@@ -2217,7 +2217,7 @@ export const reviews =
     "reviewTime": "2025-01-21",
     "order": 1,
     "content": "Mình rất ưng chiếc ấm đất nung củi này. Dáng ấm nhỏ gọn, cầm vừa tay, chất gốm đanh chắc và con cua nổi trên nắp làm rất tinh xảo, nhìn là thích ngay. Chờ lò hơn 20 ngày nhưng thành phẩm ra rất đáng để đợi, ai mê trà và đồ gốm thủ công nên thử một lần.",
-    "avatar": "/download/images/CS Gốm tới liên/HaMaiPhuong.png"
+    "avatar": "/download/Ảnh làng nghề/CS Gốm tới liên/HaMaiPhuong.png"
   },
   {
     "id": "rv_GTL02",
@@ -2226,7 +2226,7 @@ export const reviews =
     "reviewTime": "2025-12-13",
     "order": 2,
     "content": "Mình chấm khoảng 85% hài lòng, chỉ thiếu chút độ đanh của gốm, nhưng vẫn đáng để thử và mình sẽ đặt thêm một chiếc nữa.",
-    "avatar": "/download/images/CS Gốm tới liên/TranVanMinh.png"
+    "avatar": "/download/Ảnh làng nghề/CS Gốm tới liên/TranVanMinh.png"
   },
   {
     "id": "rv_GTL03",
@@ -2235,7 +2235,7 @@ export const reviews =
     "reviewTime": "2026-06-05",
     "order": 3,
     "content": "Chiếc ấm “Bạch Cúc Trường Tồn” nung củi thủ công này làm mình rất ưng. Cầm lên có cảm giác như chạm vào đất, lửa và khói, mộc mạc mà có hồn. Đúng chất gốm Việt, càng dùng càng thấy yêu, ai mê gốm nung củi nên thử một lần.",
-    "avatar": "/download/images/CS Gốm tới liên/LuThanhHa.png"
+    "avatar": "/download/Ảnh làng nghề/CS Gốm tới liên/LuThanhHa.png"
   },
   {
     "id": "rv_GSMH01",
@@ -2337,10 +2337,10 @@ export const products =
     "hoaTietVaKieuDang": "Dáng quạt xòe bán nguyệt kinh điển, nan tre vót mảnh đều, tranh vẽ cảnh sắc Thăng Long - Hồ Gươm cổ kính.",
     "isFeatured": true,
     "images": [
-      "/download/images/Trang chủ/sanphamnoibat1.png",
-      "/download/images/Quạt Phương/sanpham1.png",
-      "/download/images/Quạt Phương/sanpham2.png",
-      "/download/images/Quạt Phương/sanpham3.png"
+      "/download/Ảnh làng nghề/Trang chủ/sanphamnoibat1.png",
+      "/download/Ảnh làng nghề/Quạt Phương/sanpham1.png",
+      "/download/Ảnh làng nghề/Quạt Phương/sanpham2.png",
+      "/download/Ảnh làng nghề/Quạt Phương/sanpham3.png"
     ],
     "sourcePdfPage": 88,
     "detailTemplate": "profile",
@@ -2371,10 +2371,10 @@ export const products =
     "hoaTietVaKieuDang": "Dáng đèn thả tròn nhiều tầng đồng tâm, nan tre đan dọc thanh mảnh tinh tế.",
     "isFeatured": true,
     "images": [
-      "/download/images/Trang chủ/sanphamnoibat2.jpg",
-      "/download/images/CS mây tre đan tuấn anh/mây tre tuấn anh 1 (1).jpg",
-      "/download/images/CS mây tre đan tuấn anh/mây tre tuấn anh 2 (1).jpg",
-      "/download/images/CS mây tre đan tuấn anh/mây tre tuấn anh 3 (1).jpg"
+      "/download/Ảnh làng nghề/Trang chủ/sanphamnoibat2.jpg",
+      "/download/Ảnh làng nghề/CS mây tre đan tuấn anh/sanpham1.jpg",
+      "/download/Ảnh làng nghề/CS mây tre đan tuấn anh/sanpham2.jpg",
+      "/download/Ảnh làng nghề/CS mây tre đan tuấn anh/sanpham3.jpg"
     ],
     "sourcePdfPage": 57,
     "detailTemplate": "profile",
@@ -2405,10 +2405,10 @@ export const products =
     "hoaTietVaKieuDang": "Áo dài dáng truyền thống thướt tha, tà áo bay bổng, dệt họa tiết hoa văn chìm quý phái.",
     "isFeatured": true,
     "images": [
-      "/download/images/Trang chủ/sanphamnoibat4.jpeg",
-      "/download/images/lụa hạ vy/sanpham1.png",
-      "/download/images/lụa hạ vy/sanpham2.png",
-      "/download/images/lụa hạ vy/sanpham3.png"
+      "/download/Ảnh làng nghề/Trang chủ/sanphamnoibat4.jpeg",
+      "/download/Ảnh làng nghề/Silk Hạ Vy/sanpham1.png",
+      "/download/Ảnh làng nghề/Silk Hạ Vy/sanpham2.png",
+      "/download/Ảnh làng nghề/Silk Hạ Vy/sanpham3.png"
     ],
     "sourcePdfPage": 135,
     "detailTemplate": "profile",
@@ -2439,10 +2439,10 @@ export const products =
     "hoaTietVaKieuDang": "Bình dáng giọt ngọc hoặc hồ lô đầy đặn, họa tiết hoa sen và lá sen đắp nổi ba chiều ấn tượng.",
     "isFeatured": true,
     "images": [
-      "/download/images/Trang chủ/sanphamnoibat5.jpeg",
-      "/download/images/gốm tới liên/sanpham1.png",
-      "/download/images/gốm tới liên/sanpham2.png",
-      "/download/images/gốm tới liên/sanpham3.png"
+      "/download/Ảnh làng nghề/Trang chủ/sanphamnoibat5.jpeg",
+      "/download/Ảnh làng nghề/CS Gốm tới liên/sanpham1.jpg",
+      "/download/Ảnh làng nghề/CS Gốm tới liên/Sanpham2.jpg",
+      "/download/Ảnh làng nghề/CS Gốm tới liên/Sanpham3.jpg"
     ],
     "sourcePdfPage": 18,
     "detailTemplate": "profile",
@@ -2472,13 +2472,13 @@ export const products =
     "hoaTietVaKieuDang": "Nón dáng tròn, vành rộng, lòng lõm nhẹ, điểm nhấn là chuỗi hạt và hai tua đỏ buông đối xứng.",
     "isFeatured": false,
     "images": [
-      "/download/images/Nón lá Hải Yến/sanpham1(1).png",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/quai thao nguyệt sắc/0f73c43332baf52bbb6813186ba40ab9.jpg",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/quai thao nguyệt sắc/1c4a289e8fe890e0fa53afa9a1a56230.jpg",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/quai thao nguyệt sắc/791d034b2576e955f39da8580933dc04.jpg",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/quai thao nguyệt sắc/a7b557f78c319cf88290faba32ce0e83.jpg",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/quai thao nguyệt sắc/b4fcebfa-485e-41d8-8b89-7e78b7afdfab.jpg",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/quai thao nguyệt sắc/e3102d2da76fd523e3e5266569586d22.jpg"
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/sanpham1(1).png",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/quai thao nguyệt sắc/0f73c43332baf52bbb6813186ba40ab9.jpg",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/quai thao nguyệt sắc/1c4a289e8fe890e0fa53afa9a1a56230.jpg",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/quai thao nguyệt sắc/791d034b2576e955f39da8580933dc04.jpg",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/quai thao nguyệt sắc/a7b557f78c319cf88290faba32ce0e83.jpg",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/quai thao nguyệt sắc/b4fcebfa-485e-41d8-8b89-7e78b7afdfab.jpg",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/quai thao nguyệt sắc/e3102d2da76fd523e3e5266569586d22.jpg"
     ],
     "sourcePdfPage": 107,
     "detailTemplate": "profile",
@@ -2508,13 +2508,13 @@ export const products =
     "hoaTietVaKieuDang": "Nón dáng tròn, vành rộng, trang trí họa tiết hình tròn ở trung tâm cùng đôi tua trắng buông hai bên.",
     "isFeatured": null,
     "images": [
-      "/download/images/Nón lá Hải Yến/sanpham2(1).png",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Quai thao kim nguyệt/4aa60ed0336eb74c4642f647e218d9bc.jpg",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Quai thao kim nguyệt/7f56b2f839a9a71b9648eed46b91f4f3.jpg",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Quai thao kim nguyệt/8573761901ede3f56981fcfdf7bdd28e.jpg",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Quai thao kim nguyệt/b927d290f55145ef304759726f2e60e0.jpg",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Quai thao kim nguyệt/Gemini_Generated_Image_yn9tiyn9tiyn9tiy.png",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Quai thao kim nguyệt/vn-11134207-7ra0g-m8fwiy9daglj33.webp"
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/sanpham2(1).png",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Quai thao kim nguyệt/4aa60ed0336eb74c4642f647e218d9bc.jpg",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Quai thao kim nguyệt/7f56b2f839a9a71b9648eed46b91f4f3.jpg",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Quai thao kim nguyệt/8573761901ede3f56981fcfdf7bdd28e.jpg",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Quai thao kim nguyệt/b927d290f55145ef304759726f2e60e0.jpg",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Quai thao kim nguyệt/Gemini_Generated_Image_yn9tiyn9tiyn9tiy.png",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Quai thao kim nguyệt/vn-11134207-7ra0g-m8fwiy9daglj33.webp"
     ],
     "sourcePdfPage": 108,
     "detailTemplate": "profile",
@@ -2544,13 +2544,13 @@ export const products =
     "hoaTietVaKieuDang": "Nón dáng tròn, vành rộng, bề mặt đan theo đường đồng tâm, thiết kế tối giản với dây quai buông mềm mại.",
     "isFeatured": null,
     "images": [
-      "/download/images/Nón lá Hải Yến/sanpham3(1).png",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón quai thao mộc nguyên/13a9135b86f4747caa379074b8e75c1a.jpg",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón quai thao mộc nguyên/5697234ebf017278e1822c8ba642f6eb.jpg",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón quai thao mộc nguyên/73b3233bf03162db6b2def182f57c13d.jpg",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón quai thao mộc nguyên/880aba263c1e8b7ab841699a68d84604.jpg",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón quai thao mộc nguyên/a1bd7121d54a7843659df2c363602619.jpg",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón quai thao mộc nguyên/Gemini_Generated_Image_u2vvbau2vvbau2vv.png"
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/sanpham3(1).png",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón quai thao mộc nguyên/13a9135b86f4747caa379074b8e75c1a.jpg",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón quai thao mộc nguyên/5697234ebf017278e1822c8ba642f6eb.jpg",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón quai thao mộc nguyên/73b3233bf03162db6b2def182f57c13d.jpg",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón quai thao mộc nguyên/880aba263c1e8b7ab841699a68d84604.jpg",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón quai thao mộc nguyên/a1bd7121d54a7843659df2c363602619.jpg",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón quai thao mộc nguyên/Gemini_Generated_Image_u2vvbau2vvbau2vv.png"
     ],
     "sourcePdfPage": 109,
     "detailTemplate": "profile",
@@ -2580,13 +2580,13 @@ export const products =
     "hoaTietVaKieuDang": "Chóp cao hình nón, vành rộng nhiều lớp với các đường đan đồng tâm; dây quai buông cong, kết hợp tua đen ở hai bên.",
     "isFeatured": null,
     "images": [
-      "/download/images/Nón lá Hải Yến/sanpham1.png",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Kim Quan/007b9ebe0b6b7ece97d45b323b1ec4fc.jpg",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Kim Quan/9a372d85-1382-4829-b0de-9f06f59aef70 1.png",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Kim Quan/9a372d85-1382-4829-b0de-9f06f59aef70 2.png",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Kim Quan/b4aabff0dc0da96280d4ea0d2a76e7b7.jpg",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Kim Quan/e13220a99b088594b0eb3b8dff0800c4.jpg",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Kim Quan/Gemini_Generated_Image_207uij207uij207u.png"
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/sanpham1.png",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Kim Quan/007b9ebe0b6b7ece97d45b323b1ec4fc.jpg",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Kim Quan/9a372d85-1382-4829-b0de-9f06f59aef70 1.png",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Kim Quan/9a372d85-1382-4829-b0de-9f06f59aef70 2.png",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Kim Quan/b4aabff0dc0da96280d4ea0d2a76e7b7.jpg",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Kim Quan/e13220a99b088594b0eb3b8dff0800c4.jpg",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Kim Quan/Gemini_Generated_Image_207uij207uij207u.png"
     ],
     "sourcePdfPage": 110,
     "detailTemplate": "profile",
@@ -2616,13 +2616,13 @@ export const products =
     "hoaTietVaKieuDang": "Dáng chóp cao, vành rộng nhiều lớp, đường đan chạy theo thân nón; dây quai cong kết hợp tua trang trí đối xứng",
     "isFeatured": null,
     "images": [
-      "/download/images/Nón lá Hải Yến/sanpham2.png",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón Đầu Hồng Vân/055a66d1-88fe-43ad-a56f-61aa052a1bee 1.png",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón Đầu Hồng Vân/055a66d1-88fe-43ad-a56f-61aa052a1bee 2.png",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón Đầu Hồng Vân/055a66d1-88fe-43ad-a56f-61aa052a1bee 3.png",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón Đầu Hồng Vân/5db0289b-153a-48c2-83ad-5d53fd9aa512 1.png",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón Đầu Hồng Vân/5db0289b-153a-48c2-83ad-5d53fd9aa512 2.png",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón Đầu Hồng Vân/Gemini_Generated_Image_ctqfjnctqfjnctqf.png"
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/sanpham2.png",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón Đầu Hồng Vân/055a66d1-88fe-43ad-a56f-61aa052a1bee 1.png",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón Đầu Hồng Vân/055a66d1-88fe-43ad-a56f-61aa052a1bee 2.png",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón Đầu Hồng Vân/055a66d1-88fe-43ad-a56f-61aa052a1bee 3.png",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón Đầu Hồng Vân/5db0289b-153a-48c2-83ad-5d53fd9aa512 1.png",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón Đầu Hồng Vân/5db0289b-153a-48c2-83ad-5d53fd9aa512 2.png",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Nón Đầu Hồng Vân/Gemini_Generated_Image_ctqfjnctqfjnctqf.png"
     ],
     "sourcePdfPage": 111,
     "detailTemplate": "profile",
@@ -2652,13 +2652,13 @@ export const products =
     "hoaTietVaKieuDang": "Chóp cao, vành cong vểnh hai bên, bề mặt đan theo các đường tỏa từ đỉnh; dây quai buông mềm với tua nhỏ ở hai phía.",
     "isFeatured": null,
     "images": [
-      "/download/images/Nón lá Hải Yến/sanpham3.png",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Vân Nguyệt/223faf46-81b2-4384-82d8-55696f48775e 1.png",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Vân Nguyệt/223faf46-81b2-4384-82d8-55696f48775e 2.png",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Vân Nguyệt/223faf46-81b2-4384-82d8-55696f48775e 3.png",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Vân Nguyệt/223faf46-81b2-4384-82d8-55696f48775e 4.png",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Vân Nguyệt/223faf46-81b2-4384-82d8-55696f48775e 7.png",
-      "/download/images/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Vân Nguyệt/Gemini_Generated_Image_c3nyz0c3nyz0c3ny.png"
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/sanpham3.png",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Vân Nguyệt/223faf46-81b2-4384-82d8-55696f48775e 1.png",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Vân Nguyệt/223faf46-81b2-4384-82d8-55696f48775e 2.png",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Vân Nguyệt/223faf46-81b2-4384-82d8-55696f48775e 3.png",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Vân Nguyệt/223faf46-81b2-4384-82d8-55696f48775e 4.png",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Vân Nguyệt/223faf46-81b2-4384-82d8-55696f48775e 7.png",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/Trang chi tiết sản phẩm Nón lá Hải Yến/Đầu Vân Nguyệt/Gemini_Generated_Image_c3nyz0c3nyz0c3ny.png"
     ],
     "sourcePdfPage": 112,
     "detailTemplate": "profile",
@@ -2688,12 +2688,12 @@ export const products =
     "hoaTietVaKieuDang": "Tranh vẽ người trong trang phục truyền thống, bố trí theo vòng cung trên mặt nón tròn.",
     "isFeatured": null,
     "images": [
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/sanpham1.png",
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Vũ Điệu Bản Làng/3f07650a-6a2d-4e3a-ba1e-41cd84c733db.jpg",
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Vũ Điệu Bản Làng/45904e48-80a9-419e-9653-5b6cbefb9e00.jpg",
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Vũ Điệu Bản Làng/4f3c9afd-f427-43c4-86c9-1c211217db39.jpg",
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Vũ Điệu Bản Làng/8961075e-9ee7-4ac1-bf6a-928ffaf71d62 1.png",
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Vũ Điệu Bản Làng/8961075e-9ee7-4ac1-bf6a-928ffaf71d62 2.png"
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/sanpham1.png",
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Vũ Điệu Bản Làng/3f07650a-6a2d-4e3a-ba1e-41cd84c733db.jpg",
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Vũ Điệu Bản Làng/45904e48-80a9-419e-9653-5b6cbefb9e00.jpg",
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Vũ Điệu Bản Làng/4f3c9afd-f427-43c4-86c9-1c211217db39.jpg",
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Vũ Điệu Bản Làng/8961075e-9ee7-4ac1-bf6a-928ffaf71d62 1.png",
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Vũ Điệu Bản Làng/8961075e-9ee7-4ac1-bf6a-928ffaf71d62 2.png"
     ],
     "sourcePdfPage": 113,
     "detailTemplate": "profile",
@@ -2723,12 +2723,12 @@ export const products =
     "hoaTietVaKieuDang": "Tranh thiên nhiên đơn sắc kết hợp điểm màu ở trung tâm trên dáng nón truyền thống.",
     "isFeatured": null,
     "images": [
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/sanpham2.png",
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Dấu Ấn Thời Gian/869832750_122268499616273480_7276361879873561227_n 1.png",
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Dấu Ấn Thời Gian/c10b666a-c9a3-4467-b04e-166c31e160a4 1.png",
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Dấu Ấn Thời Gian/c10b666a-c9a3-4467-b04e-166c31e160a4 2.png",
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Dấu Ấn Thời Gian/c10b666a-c9a3-4467-b04e-166c31e160a4 3.png",
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Dấu Ấn Thời Gian/c10b666a-c9a3-4467-b04e-166c31e160a4 4.png"
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/sanpham2.png",
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Dấu Ấn Thời Gian/869832750_122268499616273480_7276361879873561227_n 1.png",
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Dấu Ấn Thời Gian/c10b666a-c9a3-4467-b04e-166c31e160a4 1.png",
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Dấu Ấn Thời Gian/c10b666a-c9a3-4467-b04e-166c31e160a4 2.png",
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Dấu Ấn Thời Gian/c10b666a-c9a3-4467-b04e-166c31e160a4 3.png",
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Dấu Ấn Thời Gian/c10b666a-c9a3-4467-b04e-166c31e160a4 4.png"
     ],
     "sourcePdfPage": 114,
     "detailTemplate": "profile",
@@ -2758,12 +2758,12 @@ export const products =
     "hoaTietVaKieuDang": "Hình chim công cách điệu với phần đuôi kéo dài, kết hợp các chi tiết trang trí nhỏ",
     "isFeatured": null,
     "images": [
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/sanpham3.png",
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Nón Kim Vũ/11.png",
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Nón Kim Vũ/12.png",
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Nón Kim Vũ/833863924_122264873588273480_2503797066406257761_n.jpg",
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Nón Kim Vũ/844007611_122265877766273480_413282655460255551_n.jpg",
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Nón Kim Vũ/847033055_122265877538273480_3183531042725667871_n.jpg"
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/sanpham3.png",
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Nón Kim Vũ/11.png",
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Nón Kim Vũ/12.png",
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Nón Kim Vũ/833863924_122264873588273480_2503797066406257761_n.jpg",
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Nón Kim Vũ/844007611_122265877766273480_413282655460255551_n.jpg",
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Nón Kim Vũ/847033055_122265877538273480_3183531042725667871_n.jpg"
     ],
     "sourcePdfPage": 115,
     "detailTemplate": "profile",
@@ -2793,12 +2793,12 @@ export const products =
     "hoaTietVaKieuDang": "Hoa sen nở kết hợp lá sen và các chi tiết hoa nhỏ, bố trí theo độ cong của mặt nón để tạo cảm giác tự nhiên.",
     "isFeatured": null,
     "images": [
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/sanpham4.png",
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Liên Hoa Thanh Cảnh/111.png",
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Liên Hoa Thanh Cảnh/112.png",
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Liên Hoa Thanh Cảnh/868358897_122268499604273480_6985130325265403347_n 1.png",
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Liên Hoa Thanh Cảnh/871150678_122268499682273480_5076789892579742228_n 1.png",
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Liên Hoa Thanh Cảnh/871316160_122268499664273480_170722527425795122_n 1.png"
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/sanpham4.png",
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Liên Hoa Thanh Cảnh/111.png",
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Liên Hoa Thanh Cảnh/112.png",
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Liên Hoa Thanh Cảnh/868358897_122268499604273480_6985130325265403347_n 1.png",
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Liên Hoa Thanh Cảnh/871150678_122268499682273480_5076789892579742228_n 1.png",
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Liên Hoa Thanh Cảnh/871316160_122268499664273480_170722527425795122_n 1.png"
     ],
     "sourcePdfPage": 116,
     "detailTemplate": "profile",
@@ -2828,12 +2828,12 @@ export const products =
     "hoaTietVaKieuDang": "Chim công cách điệu kết hợp hoa nở và cành cây, tạo bố cục thiên nhiên mềm mại trên mặt nón tròn.",
     "isFeatured": null,
     "images": [
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/sanpham5.png",
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Nón Xuân Điệp/863683350_122267895350273480_7973370084803348637_n.jpg",
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Nón Xuân Điệp/869664342_122268499346273480_8180360518738157444_n.jpg",
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Nón Xuân Điệp/869729753_122268499322273480_5694301797513064183_n.jpg",
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Nón Xuân Điệp/image 48.png",
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Nón Xuân Điệp/image 49.png"
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/sanpham5.png",
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Nón Xuân Điệp/863683350_122267895350273480_7973370084803348637_n.jpg",
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Nón Xuân Điệp/869664342_122268499346273480_8180360518738157444_n.jpg",
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Nón Xuân Điệp/869729753_122268499322273480_5694301797513064183_n.jpg",
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Nón Xuân Điệp/image 48.png",
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Nón Xuân Điệp/image 49.png"
     ],
     "sourcePdfPage": 117,
     "detailTemplate": "profile",
@@ -2863,12 +2863,12 @@ export const products =
     "hoaTietVaKieuDang": "Tranh phong cảnh gợi nhắc kiến trúc Hà Nội, kết hợp hoa sen và cây xanh trên mặt nón.",
     "isFeatured": null,
     "images": [
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/sanpham6.png",
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Dấu Son Thăng Long/125.png",
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Dấu Son Thăng Long/820196092_122263346810273480_5895736972436216052_n.jpg",
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Dấu Son Thăng Long/821123779_122263346750273480_1402837331595121011_n.jpg",
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Dấu Son Thăng Long/image 50.png",
-      "/download/images/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Dấu Son Thăng Long/image 51.png"
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/sanpham6.png",
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Dấu Son Thăng Long/125.png",
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Dấu Son Thăng Long/820196092_122263346810273480_5895736972436216052_n.jpg",
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Dấu Son Thăng Long/821123779_122263346750273480_1402837331595121011_n.jpg",
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Dấu Son Thăng Long/image 50.png",
+      "/download/Ảnh làng nghề/HTX Mây Tre Nón Lá Tạ Thu Hương/Trang chi tiết sản phẩm HTX Mây tre nón lá Tạ Thu Hương/Dấu Son Thăng Long/image 51.png"
     ],
     "sourcePdfPage": 118,
     "detailTemplate": "profile",
@@ -2899,13 +2899,13 @@ export const products =
     "hoaTietVaKieuDang": "Hoa lá cách điệu kết hợp biểu tượng chữ Hỷ ở trung tâm, tạo điểm nhấn nổi bật trên dáng nón tròn truyền thống.",
     "isFeatured": null,
     "images": [
-      "/download/images/Hoa Nón Làng Chuông/69.png",
-      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hỷ Sắc/anhchatlieu.jpg",
-      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hỷ Sắc/anhchitiet1.png",
-      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hỷ Sắc/anhchitiet2.png",
-      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hỷ Sắc/anhchitiet3.jpg",
-      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hỷ Sắc/anhchitiet4.jpg",
-      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hỷ Sắc/hoatiet.png"
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/sanpham1.png",
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hỷ Sắc/anhchatlieu.jpg",
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hỷ Sắc/anhchitiet1.png",
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hỷ Sắc/anhchitiet2.png",
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hỷ Sắc/anhchitiet3.jpg",
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hỷ Sắc/anhchitiet4.jpg",
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hỷ Sắc/hoatiet.png"
     ],
     "sourcePdfPage": 101,
     "detailTemplate": "profile",
@@ -2935,13 +2935,13 @@ export const products =
     "hoaTietVaKieuDang": "Tranh phong cảnh, con người và thiên nhiên được bố trí theo đường cong mặt nón, tạo bố cục hài hòa.",
     "isFeatured": null,
     "images": [
-      "/download/images/Hoa Nón Làng Chuông/70.png",
-      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hồn Quê/anhchitiet1.png",
-      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hồn Quê/anhchitiet2.png",
-      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hồn Quê/anhchitiet3.png",
-      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hồn Quê/anhchitiet4.png",
-      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hồn Quê/chatlieu.png",
-      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hồn Quê/hoatiet.png"
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/sanpham2.png",
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hồn Quê/anhchitiet1.png",
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hồn Quê/anhchitiet2.png",
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hồn Quê/anhchitiet3.png",
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hồn Quê/anhchitiet4.png",
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hồn Quê/chatlieu.png",
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hồn Quê/hoatiet.png"
     ],
     "sourcePdfPage": 102,
     "detailTemplate": "profile",
@@ -2971,11 +2971,11 @@ export const products =
     "hoaTietVaKieuDang": "Họa tiết hoa sen với cánh hoa nhiều lớp, kết hợp lá và nụ sen, tạo cảm giác sinh động trên bề mặt nón tròn.",
     "isFeatured": null,
     "images": [
-      "/download/images/Hoa Nón Làng Chuông/71.png",
-      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Sen Ngọc/4e978dca-1cc5-4fa5-a9d5-0fe65bbe6da1 1.png",
-      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Sen Ngọc/4e978dca-1cc5-4fa5-a9d5-0fe65bbe6da1 3.png",
-      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Sen Ngọc/977b0bfd-19a0-46fb-b9dd-227d5c83ab5a 1.png",
-      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Sen Ngọc/977b0bfd-19a0-46fb-b9dd-227d5c83ab5a 2.png"
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/sanpham3.png",
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Sen Ngọc/4e978dca-1cc5-4fa5-a9d5-0fe65bbe6da1 1.png",
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Sen Ngọc/4e978dca-1cc5-4fa5-a9d5-0fe65bbe6da1 3.png",
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Sen Ngọc/977b0bfd-19a0-46fb-b9dd-227d5c83ab5a 1.png",
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Sen Ngọc/977b0bfd-19a0-46fb-b9dd-227d5c83ab5a 2.png"
     ],
     "sourcePdfPage": 103,
     "detailTemplate": "profile",
@@ -3005,12 +3005,12 @@ export const products =
     "hoaTietVaKieuDang": "Hoa sen, lá sen và cánh bướm được phối hợp hài hòa trên mặt nón, tạo nét trang trí sinh động, giàu tính nghệ thuật.",
     "isFeatured": null,
     "images": [
-      "/download/images/Hoa Nón Làng Chuông/72.png",
-      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Điệp Liên/10ba38b7-4b67-4365-a277-c08b3ff6102f.jpg",
-      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Điệp Liên/2b67ab78-dd05-443f-b2e4-85e6a4586ab0 1.png",
-      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Điệp Liên/37bffdba-39a7-4b9b-a23c-c317f07da152.jpg",
-      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Điệp Liên/976f6655-3a84-4ab7-815e-d0ac29cdeb75.jpg",
-      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Điệp Liên/Gemini_Generated_Image_mo6x50mo6x50mo6x.png"
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/sanpham4.png",
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Điệp Liên/10ba38b7-4b67-4365-a277-c08b3ff6102f.jpg",
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Điệp Liên/2b67ab78-dd05-443f-b2e4-85e6a4586ab0 1.png",
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Điệp Liên/37bffdba-39a7-4b9b-a23c-c317f07da152.jpg",
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Điệp Liên/976f6655-3a84-4ab7-815e-d0ac29cdeb75.jpg",
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Điệp Liên/Gemini_Generated_Image_mo6x50mo6x50mo6x.png"
     ],
     "sourcePdfPage": 104,
     "detailTemplate": "profile",
@@ -3040,12 +3040,12 @@ export const products =
     "hoaTietVaKieuDang": "Hoa nhỏ, lá xanh và cánh bướm được sắp xếp thành cụm trên mặt nón, tạo bố cục tự nhiên, hài hòa.",
     "isFeatured": null,
     "images": [
-      "/download/images/Hoa Nón Làng Chuông/74.png",
-      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hoa Điệp/2186605b-3cb8-4386-b63c-619afce5e655.jpg",
-      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hoa Điệp/5290d451-b884-4408-a2ba-a9b4647348a7.jpg",
-      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hoa Điệp/777559dd-25d3-4193-8819-f52517540fda.jpg",
-      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hoa Điệp/7b620438-d2a9-4daf-b550-c7d0469c8328 1.png",
-      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hoa Điệp/7b620438-d2a9-4daf-b550-c7d0469c8328 2.png"
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/sanpham6.png",
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hoa Điệp/2186605b-3cb8-4386-b63c-619afce5e655.jpg",
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hoa Điệp/5290d451-b884-4408-a2ba-a9b4647348a7.jpg",
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hoa Điệp/777559dd-25d3-4193-8819-f52517540fda.jpg",
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hoa Điệp/7b620438-d2a9-4daf-b550-c7d0469c8328 1.png",
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Hoa Điệp/7b620438-d2a9-4daf-b550-c7d0469c8328 2.png"
     ],
     "sourcePdfPage": 105,
     "detailTemplate": "profile",
@@ -3075,11 +3075,11 @@ export const products =
     "hoaTietVaKieuDang": "Hoa văn nhỏ được trang trí trên bề mặt nón, kết hợp các đường đồng tâm theo cấu trúc của dáng nón truyền thống.",
     "isFeatured": null,
     "images": [
-      "/download/images/Hoa Nón Làng Chuông/73.png",
-      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Xứ Huế/90e9fd28-de33-46fa-8cb2-279b7202e53d.jpg",
-      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Xứ Huế/sg-11134201-825zp-mjvjxn77g3cy1b.webp",
-      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Xứ Huế/sg-11134201-8260a-mjvjxo5f3o5j60.webp",
-      "/download/images/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Xứ Huế/sg-11134201-8261t-mjvjxp220ydc7f.webp"
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/sanpham5.png",
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Xứ Huế/90e9fd28-de33-46fa-8cb2-279b7202e53d.jpg",
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Xứ Huế/sg-11134201-825zp-mjvjxn77g3cy1b.webp",
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Xứ Huế/sg-11134201-8260a-mjvjxo5f3o5j60.webp",
+      "/download/Ảnh làng nghề/Hoa Nón Làng Chuông/Trang chi tiết sản phẩm hoa nón làng chuông/Nón Xứ Huế/sg-11134201-8261t-mjvjxp220ydc7f.webp"
     ],
     "sourcePdfPage": 106,
     "detailTemplate": "profile",
@@ -3109,10 +3109,10 @@ export const products =
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, nổi bật với hình tượng linh vật cách điệu theo phong cách tranh dân gian, đặt giữa hệ nan tỏa đều.",
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Chàng Sơn/sanpham1.png",
-      "/download/images/pdf_gallery/SP_QCS_QLTDG/pdf-094-xref-190377.jpg",
-      "/download/images/pdf_gallery/SP_QCS_QLTDG/pdf-094-xref-190391.jpg",
-      "/download/images/pdf_gallery/SP_QCS_QLTDG/pdf-094-xref-190387.jpg"
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham1.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham1.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham2.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham3.png"
     ],
     "sourcePdfPage": 94,
     "detailTemplate": "profile",
@@ -3142,10 +3142,10 @@ export const products =
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, nổi bật với hình tượng đồng tử trong trang phục truyền thống, mang đậm nét mỹ thuật phương Đông.",
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Chàng Sơn/sanpham2.png",
-      "/download/images/pdf_gallery/SP_QCS_QPLDT/pdf-095-xref-192676.jpg",
-      "/download/images/pdf_gallery/SP_QCS_QPLDT/pdf-095-xref-192686.jpg",
-      "/download/images/pdf_gallery/SP_QCS_QPLDT/pdf-095-xref-192682.jpg"
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham2.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham4.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham5.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham6.png"
     ],
     "sourcePdfPage": 95,
     "detailTemplate": "profile",
@@ -3175,8 +3175,8 @@ export const products =
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, trang trí cành cây, hoa mai và chim, mang nét cổ điển, đậm sắc xuân.",
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Chàng Sơn/sanpham3.png",
-      "/download/images/pdf_gallery/SP_QCS_QMDNX/pdf-096-xref-194827.jpg"
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham3.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham1.png"
     ],
     "sourcePdfPage": 96,
     "detailTemplate": "profile",
@@ -3206,7 +3206,7 @@ export const products =
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, nổi bật với cụm hoa sen nở và lá sen trải rộng, tạo bố cục cân đối, mềm mại.",
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Chàng Sơn/sanpham4.png"
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham4.png"
     ],
     "sourcePdfPage": 97,
     "detailTemplate": "profile",
@@ -3236,7 +3236,7 @@ export const products =
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, nổi bật với tranh sơn thủy kết hợp núi non, cây cối, mặt nước và kiến trúc truyền thống.",
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Chàng Sơn/sanpham5.png"
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham5.png"
     ],
     "sourcePdfPage": 98,
     "detailTemplate": "profile",
@@ -3266,7 +3266,7 @@ export const products =
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, kết hợp hoa sen hồng và tranh thủy mặc, tạo hiệu ứng tương phản sáng tối tinh tế.",
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Chàng Sơn/sanpham6.png"
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham6.png"
     ],
     "sourcePdfPage": 99,
     "detailTemplate": "profile",
@@ -3295,14 +3295,14 @@ export const products =
     "chatLieuVaMauSac": "Nền giấy trắng ngà, họa tiết đen xám điểm hồng đỏ, kết hợp nan quạt màu đen tương phản.",
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, trang trí thư pháp, tranh phong cảnh và hoa nhỏ, tạo nét hài hòa, tinh tế.",
     "featureImages": {
-      "material": "/download/images/pdf_features/SP_QCS_QKH/chat-lieu.jpg",
-      "design": "/download/images/pdf_features/SP_QCS_QKH/kieu-dang.jpg"
+      "material": "/download/Ảnh làng nghề/Quạt Chàng Sơn/nanglucsanxuat1.png",
+      "design": "/download/Ảnh làng nghề/Quạt Chàng Sơn/nanglucsanxuat2.png"
     },
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Từ Tâm/sanpham1.png",
-      "/download/images/pdf_gallery/SP_QCS_QKH/pdf-082-xref-165485.jpg",
-      "/download/images/pdf_gallery/SP_QCS_QKH/pdf-082-xref-165497.jpg"
+      "/download/Ảnh làng nghề/Quạt Từ Tâm/sanpham1.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham2.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham3.png"
     ],
     "sourcePdfPage": 82,
     "detailTemplate": "profile",
@@ -3332,9 +3332,9 @@ export const products =
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, trang trí hình rồng cách điệu cùng hoa văn thực vật, tạo điểm nhấn nổi bật trên nền xanh đậm.",
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Từ Tâm/sanpham2.png",
-      "/download/images/pdf_gallery/SP_QCS_QNG/pdf-083-xref-167400.jpg",
-      "/download/images/pdf_gallery/SP_QCS_QNG/pdf-083-xref-167396.jpg"
+      "/download/Ảnh làng nghề/Quạt Từ Tâm/sanpham2.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham4.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham5.png"
     ],
     "sourcePdfPage": 83,
     "detailTemplate": "profile",
@@ -3364,10 +3364,10 @@ export const products =
     "hoaTietVaKieuDang": "Hình cành đào nở hoa được bố trí theo đường cong của mặt quạt bán nguyệt. Có tua đỏ làm điểm nhấn trang trí.",
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Từ Tâm/sanpham3.png",
-      "/download/images/pdf_gallery/SP_QCS_QTT/pdf-084-xref-169385.jpg",
-      "/download/images/pdf_gallery/SP_QCS_QTT/pdf-084-xref-169395.jpg",
-      "/download/images/pdf_gallery/SP_QCS_QTT/pdf-084-xref-169391.jpg"
+      "/download/Ảnh làng nghề/Quạt Từ Tâm/sanpham3.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham6.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham1.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham2.png"
     ],
     "sourcePdfPage": 84,
     "detailTemplate": "profile",
@@ -3397,10 +3397,10 @@ export const products =
     "hoaTietVaKieuDang": "Hoa văn truyền thống kết hợp các mô-típ đối xứng và đường nét uốn lượn trên mặt quạt bán nguyệt.",
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Từ Tâm/sanpham4.png",
-      "/download/images/pdf_gallery/SP_QCS_QHVCC/pdf-085-xref-171440.jpg",
-      "/download/images/pdf_gallery/SP_QCS_QHVCC/pdf-085-xref-171436.jpg",
-      "/download/images/pdf_gallery/SP_QCS_QHVCC/pdf-085-xref-171444.jpg"
+      "/download/Ảnh làng nghề/Quạt Từ Tâm/sanpham4.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham3.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham4.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham5.png"
     ],
     "sourcePdfPage": 85,
     "detailTemplate": "profile",
@@ -3430,10 +3430,10 @@ export const products =
     "hoaTietVaKieuDang": "Cụm hoa sen nở kết hợp nụ sen và lá sen có phần tua đỏ nhỏ ở chốt quạt tạo điểm nhấn.",
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Từ Tâm/sanpham5.png",
-      "/download/images/pdf_gallery/SP_QCS_QTRUYENTHONG/pdf-086-xref-173467.jpg",
-      "/download/images/pdf_gallery/SP_QCS_QTRUYENTHONG/pdf-086-xref-173457.jpg",
-      "/download/images/pdf_gallery/SP_QCS_QTRUYENTHONG/pdf-086-xref-173463.jpg"
+      "/download/Ảnh làng nghề/Quạt Từ Tâm/sanpham5.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham6.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham1.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham2.png"
     ],
     "sourcePdfPage": 86,
     "detailTemplate": "profile",
@@ -3463,10 +3463,10 @@ export const products =
     "hoaTietVaKieuDang": "Hình ảnh chim công kết hợp các cụm hoa lá nhiều màu, bố trí uốn lượn trên mặt quạt xếp hình bán nguyệt.",
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Từ Tâm/sanpham6.png",
-      "/download/images/pdf_gallery/SP_QCS_QTPT/pdf-087-xref-175400.jpg",
-      "/download/images/pdf_gallery/SP_QCS_QTPT/pdf-087-xref-175390.jpg",
-      "/download/images/pdf_gallery/SP_QCS_QTPT/pdf-087-xref-175396.jpg"
+      "/download/Ảnh làng nghề/Quạt Từ Tâm/sanpham6.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham3.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham4.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham5.png"
     ],
     "sourcePdfPage": 87,
     "detailTemplate": "profile",
@@ -3496,10 +3496,10 @@ export const products =
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, trang trí hình nhân vật trong trang phục truyền thống xen kẽ hoa văn cách điệu, bố trí theo từng ô.",
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Phương/sanpham1.png",
-      "/download/images/pdf_gallery/SP_QCS_QSVCP/pdf-088-xref-177565.jpg",
-      "/download/images/pdf_gallery/SP_QCS_QSVCP/pdf-088-xref-177551.jpg",
-      "/download/images/pdf_gallery/SP_QCS_QSVCP/pdf-088-xref-177561.jpg"
+      "/download/Ảnh làng nghề/Quạt Phương/sanpham1.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham6.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham1.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham2.png"
     ],
     "sourcePdfPage": 88,
     "detailTemplate": "profile",
@@ -3529,8 +3529,8 @@ export const products =
     "hoaTietVaKieuDang": "Chim công cách điệu kết hợp hoa lá, được sắp xếp theo đường cong của mặt quạt bán nguyệt.",
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Phương/sanpham2.png",
-      "/download/images/pdf_gallery/SP_QCS_QTVHL/pdf-089-xref-179814.jpg"
+      "/download/Ảnh làng nghề/Quạt Phương/sanpham2.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham3.png"
     ],
     "sourcePdfPage": 89,
     "detailTemplate": "profile",
@@ -3560,10 +3560,10 @@ export const products =
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, trang trí hoa văn thực vật và đường nét uốn lượn mềm mại.",
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Phương/sanpham3.png",
-      "/download/images/pdf_gallery/SP_QCS_QKHCT/pdf-090-xref-181977.jpg",
-      "/download/images/pdf_gallery/SP_QCS_QKHCT/pdf-090-xref-181987.jpg",
-      "/download/images/pdf_gallery/SP_QCS_QKHCT/pdf-090-xref-181983.jpg"
+      "/download/Ảnh làng nghề/Quạt Phương/sanpham3.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham4.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham5.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham6.png"
     ],
     "sourcePdfPage": 90,
     "detailTemplate": "profile",
@@ -3593,8 +3593,8 @@ export const products =
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, trang trí bản vẽ kỹ thuật với đường nét hình học và hình minh họa kiến trúc độc đáo",
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Phương/sanpham4.png",
-      "/download/images/pdf_gallery/SP_QCS_QLDH/pdf-091-xref-184168.jpg"
+      "/download/Ảnh làng nghề/Quạt Phương/sanpham4.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham1.png"
     ],
     "sourcePdfPage": 91,
     "detailTemplate": "profile",
@@ -3624,10 +3624,10 @@ export const products =
     "hoaTietVaKieuDang": "Họa tiết xoắn tròn cách điệu kết hợp các đường nét nhỏ, được lặp lại theo chiều xòe của quạt bán nguyệt.",
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Phương/sanpham5.png",
-      "/download/images/pdf_gallery/SP_QCS_QVXL/pdf-092-xref-186359.jpg",
-      "/download/images/pdf_gallery/SP_QCS_QVXL/pdf-092-xref-186369.jpg",
-      "/download/images/pdf_gallery/SP_QCS_QVXL/pdf-092-xref-186365.jpg"
+      "/download/Ảnh làng nghề/Quạt Phương/sanpham5.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham2.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham3.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham4.png"
     ],
     "sourcePdfPage": 92,
     "detailTemplate": "profile",
@@ -3657,10 +3657,10 @@ export const products =
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, tái hiện tranh sinh hoạt dân gian cùng hình ảnh nhân vật và hoa văn truyền thống.",
     "isFeatured": null,
     "images": [
-      "/download/images/Quạt Phương/sanpham6.png",
-      "/download/images/pdf_gallery/SP_QCS_QHXDG/pdf-093-xref-188534.jpg",
-      "/download/images/pdf_gallery/SP_QCS_QHXDG/pdf-093-xref-188530.jpg",
-      "/download/images/pdf_gallery/SP_QCS_QHXDG/pdf-093-xref-188542.jpg"
+      "/download/Ảnh làng nghề/Quạt Phương/sanpham6.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham5.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham6.png",
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham1.png"
     ],
     "sourcePdfPage": 93,
     "detailTemplate": "profile",
@@ -3690,7 +3690,7 @@ export const products =
     "hoaTietVaKieuDang": "Túi dáng chữ nhật rộng, miệng mở, hai quai tròn và họa tiết zích zắc nổi bật.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS Mây tre việt quang/sanpham1.jpg"
+      "/download/Ảnh làng nghề/CS Mây tre việt quang/sanpham1.jpg"
     ],
     "sourcePdfPage": 51,
     "detailTemplate": "profile",
@@ -3720,7 +3720,7 @@ export const products =
     "hoaTietVaKieuDang": "Ghế tựa lưng chữ nhật đan đều, chân nghiêng và tay vịn thấp, mang thiết kế gọn nhẹ, gần gũi với thiên nhiên.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS Mây tre việt quang/sanpham2.png"
+      "/download/Ảnh làng nghề/CS Mây tre việt quang/sanpham2.png"
     ],
     "sourcePdfPage": 52,
     "detailTemplate": "profile",
@@ -3750,7 +3750,7 @@ export const products =
     "hoaTietVaKieuDang": "Lót ly dáng tròn, đan theo vòng đồng tâm, viền gọn gàng, tạo tổng thể cân đối và mộc mạc.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS Mây tre việt quang/sanpham3.jpg"
+      "/download/Ảnh làng nghề/CS Mây tre việt quang/sanpham3.jpg"
     ],
     "sourcePdfPage": 53,
     "detailTemplate": "profile",
@@ -3780,7 +3780,7 @@ export const products =
     "hoaTietVaKieuDang": "Đa dạng dáng tròn, bầu dục và cách điệu, trang trí hoa lá xanh trên nền sáng, tạo điểm nhấn mộc mạc, tinh tế.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS Mây tre việt quang/sanpham4.png"
+      "/download/Ảnh làng nghề/CS Mây tre việt quang/sanpham4.png"
     ],
     "sourcePdfPage": 54,
     "detailTemplate": "profile",
@@ -3810,7 +3810,7 @@ export const products =
     "hoaTietVaKieuDang": "Khay dáng thuôn dài, đáy phẳng, thành đan cao vừa phải và viền bo gọn, tạo vẻ mộc mạc, tinh tế.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS Mây tre việt quang/sanpham5.png"
+      "/download/Ảnh làng nghề/CS Mây tre việt quang/sanpham5.png"
     ],
     "sourcePdfPage": 55,
     "detailTemplate": "profile",
@@ -3840,7 +3840,7 @@ export const products =
     "hoaTietVaKieuDang": "Hộp chữ nhật, thân đan đều, miệng mở tiện đặt hộp giấy, có thể kết hợp nắp hoặc khe rút giấy tùy thiết kế.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS Mây tre việt quang/sanpham6.png"
+      "/download/Ảnh làng nghề/CS Mây tre việt quang/sanpham6.png"
     ],
     "sourcePdfPage": 56,
     "detailTemplate": "profile",
@@ -3870,8 +3870,8 @@ export const products =
     "hoaTietVaKieuDang": "Túi dáng tròn dẹt, đan theo vòng đồng tâm, có nắp đóng, khóa da và quai xách hai bên, tạo nét độc đáo.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS mây tre đan tuấn anh/mây tre tuấn anh 7 (1).jpg",
-      "/download/images/Mây tre đan Phú Vinh/Mây tre đan Tuấn Anh/mây tre tuấn anh 8.jpg"
+      "/download/Ảnh làng nghề/Mây tre đan Phú Vinh/Mây tre đan Tuấn Anh/mây tre tuấn anh 7.jpg",
+      "/download/Ảnh làng nghề/Mây tre đan Phú Vinh/Mây tre đan Tuấn Anh/mây tre tuấn anh 8.jpg"
     ],
     "sourcePdfPage": 57,
     "detailTemplate": "profile",
@@ -3901,9 +3901,9 @@ export const products =
     "hoaTietVaKieuDang": "Túi dáng hộp chữ nhật, quai xách phía trên, thân đan đều kết hợp khóa cài da, tạo vẻ gọn gàng, tiện dụng.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS mây tre đan tuấn anh/mây tre tuấn anh (1).jpg",
-      "/download/images/Mây tre đan Phú Vinh/Mây tre đan Tuấn Anh/mây tre tuấn anh 2.jpg",
-      "/download/images/Mây tre đan Phú Vinh/Mây tre đan Tuấn Anh/mây tre tuấn anh 3.jpg"
+      "/download/Ảnh làng nghề/Mây tre đan Phú Vinh/Mây tre đan Tuấn Anh/mây tre tuấn anh.jpg",
+      "/download/Ảnh làng nghề/Mây tre đan Phú Vinh/Mây tre đan Tuấn Anh/mây tre tuấn anh 2.jpg",
+      "/download/Ảnh làng nghề/Mây tre đan Phú Vinh/Mây tre đan Tuấn Anh/mây tre tuấn anh 3.jpg"
     ],
     "sourcePdfPage": 58,
     "detailTemplate": "profile",
@@ -3933,7 +3933,7 @@ export const products =
     "hoaTietVaKieuDang": "Túi dáng chữ nhật, nắp gập chéo, điểm nhấn nơ đan và khóa tròn, kết hợp dây đeo dài tiện dụng.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS mây tre đan tuấn anh/may tre tuan anh 9 (1).jpg"
+      "/download/Ảnh làng nghề/Mây tre đan Phú Vinh/Mây tre đan Tuấn Anh/mây tre tuấn anh 8.jpg"
     ],
     "sourcePdfPage": 59,
     "detailTemplate": "profile",
@@ -3963,7 +3963,7 @@ export const products =
     "hoaTietVaKieuDang": "Túi dáng thuôn dài, hai đầu bo tròn như chiếc trống nằm ngang, kết hợp nắp gập, khóa cài phía trước và dây đeo dài tiện dụng.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS mây tre đan tuấn anh/mây tre tuan anh 10 (1).jpg"
+      "/download/Ảnh làng nghề/Mây tre đan Phú Vinh/Mây tre đan Tuấn Anh/mây tre tuấn anh 3.jpg"
     ],
     "sourcePdfPage": 60,
     "detailTemplate": "profile",
@@ -3993,7 +3993,7 @@ export const products =
     "hoaTietVaKieuDang": "Vali dáng hộp chữ nhật, nắp mở và quai xách phía trên. Họa tiết hình thoi kết hợp khóa cài giúp tổng thể cân đối, gọn gàng.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS mây tre đan tuấn anh/mây tre tuấn anh 5 (1).jpg"
+      "/download/Ảnh làng nghề/Mây tre đan Phú Vinh/Mây tre đan Tuấn Anh/mây tre tuấn anh 5.jpg"
     ],
     "sourcePdfPage": 61,
     "detailTemplate": "profile",
@@ -4023,7 +4023,7 @@ export const products =
     "hoaTietVaKieuDang": "Giành có thân tròn, nắp hình chóp với các vòng đan đồng tâm, tạo tổng thể cân đối và đậm nét thủ công.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS mây tre đan tuấn anh/mây tre tuấn anh 6 (1).jpg"
+      "/download/Ảnh làng nghề/Mây tre đan Phú Vinh/Mây tre đan Tuấn Anh/mây tre tuấn anh 6.jpg"
     ],
     "sourcePdfPage": 62,
     "detailTemplate": "profile",
@@ -4053,10 +4053,10 @@ export const products =
     "hoaTietVaKieuDang": "Tán súp lơ uốn lượn tự nhiên, thân thuôn tròn cùng đôi mắt đen nhỏ, tạo vẻ ngộ nghĩnh, đáng yêu.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS hoàng anh ceramics/Sanpham1.jpg",
-      "/download/images/CS hoàng anh ceramics/Chi tiết sản phẩm-ỐNG HEO SÚP LƠ/Ảnh màn hình 2026-10-29 lúc 13.58.38.png",
-      "/download/images/CS hoàng anh ceramics/Chi tiết sản phẩm-ỐNG HEO SÚP LƠ/Ảnh màn hình 2026-10-29 lúc 13.58.45.png",
-      "/download/images/CS hoàng anh ceramics/Chi tiết sản phẩm-ỐNG HEO SÚP LƠ/Ảnh màn hình 2026-10-29 lúc 13.58.57.png"
+      "/download/Ảnh làng nghề/CS hoàng anh ceramics/Bản sao của Sanpham1.jpg",
+      "/download/Ảnh làng nghề/CS hoàng anh ceramics/Chi tiết sản phẩm-ỐNG HEO SÚP LƠ/Ảnh màn hình 2026-10-29 lúc 13.58.38.png",
+      "/download/Ảnh làng nghề/CS hoàng anh ceramics/Chi tiết sản phẩm-ỐNG HEO SÚP LƠ/Ảnh màn hình 2026-10-29 lúc 13.58.45.png",
+      "/download/Ảnh làng nghề/CS hoàng anh ceramics/Chi tiết sản phẩm-ỐNG HEO SÚP LƠ/Ảnh màn hình 2026-10-29 lúc 13.58.57.png"
     ],
     "sourcePdfPage": 30,
     "detailTemplate": "profile",
@@ -4086,11 +4086,11 @@ export const products =
     "hoaTietVaKieuDang": "Ống heo có đầu lớn, thân tròn, đường nét mềm mại và khuôn mặt tối giản, tạo vẻ đáng yêu, gần gũi.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS hoàng anh ceramics/Sanpham2.jpg",
-      "/download/images/CS hoàng anh ceramics/Chi tiết - ống heo shiba/Ảnh màn hình 2026-10-29 lúc 14.01.41.png",
-      "/download/images/CS hoàng anh ceramics/Chi tiết - ống heo shiba/Ảnh màn hình 2026-10-29 lúc 14.01.53.png",
-      "/download/images/CS hoàng anh ceramics/Chi tiết - ống heo shiba/Ảnh màn hình 2026-10-29 lúc 14.02.02.png",
-      "/download/images/CS hoàng anh ceramics/Chi tiết - ống heo shiba/Ảnh màn hình 2026-10-29 lúc 14.02.14.png"
+      "/download/Ảnh làng nghề/CS hoàng anh ceramics/Sanpham2.jpg",
+      "/download/Ảnh làng nghề/CS hoàng anh ceramics/Chi tiết - ống heo shiba/Ảnh màn hình 2026-10-29 lúc 14.01.41.png",
+      "/download/Ảnh làng nghề/CS hoàng anh ceramics/Chi tiết - ống heo shiba/Ảnh màn hình 2026-10-29 lúc 14.01.53.png",
+      "/download/Ảnh làng nghề/CS hoàng anh ceramics/Chi tiết - ống heo shiba/Ảnh màn hình 2026-10-29 lúc 14.02.02.png",
+      "/download/Ảnh làng nghề/CS hoàng anh ceramics/Chi tiết - ống heo shiba/Ảnh màn hình 2026-10-29 lúc 14.02.14.png"
     ],
     "sourcePdfPage": 31,
     "detailTemplate": "profile",
@@ -4120,10 +4120,10 @@ export const products =
     "hoaTietVaKieuDang": "Dáng túi bo góc mềm mại, quai cầm phía trên, trang trí chùm quả và lá xanh sinh động trên nền trắng.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS hoàng anh ceramics/Sanpham4.jpg",
-      "/download/images/CS hoàng anh ceramics/Chi tiết - túi sách cắm hoa/Ảnh màn hình 2026-10-29 lúc 14.05.19.png",
-      "/download/images/CS hoàng anh ceramics/Chi tiết - túi sách cắm hoa/Ảnh màn hình 2026-10-29 lúc 14.05.33.png",
-      "/download/images/CS hoàng anh ceramics/Chi tiết - túi sách cắm hoa/Ảnh màn hình 2026-10-29 lúc 14.05.43.png"
+      "/download/Ảnh làng nghề/CS hoàng anh ceramics/Sanpham4.jpg",
+      "/download/Ảnh làng nghề/CS hoàng anh ceramics/Chi tiết - túi sách cắm hoa/Ảnh màn hình 2026-10-29 lúc 14.05.19.png",
+      "/download/Ảnh làng nghề/CS hoàng anh ceramics/Chi tiết - túi sách cắm hoa/Ảnh màn hình 2026-10-29 lúc 14.05.33.png",
+      "/download/Ảnh làng nghề/CS hoàng anh ceramics/Chi tiết - túi sách cắm hoa/Ảnh màn hình 2026-10-29 lúc 14.05.43.png"
     ],
     "sourcePdfPage": 32,
     "detailTemplate": "profile",
@@ -4153,10 +4153,10 @@ export const products =
     "hoaTietVaKieuDang": "Thân tròn, đôi mắt nổi bật các chi tiết cách điệu hình càng cua, tạo vẻ đáng yêu và cá tính.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS hoàng anh ceramics/sanpham3.png",
-      "/download/images/CS hoàng anh ceramics/Chi tiết - ống heo cua/Ảnh màn hình 2026-10-29 lúc 14.09.48.png",
-      "/download/images/CS hoàng anh ceramics/Chi tiết - ống heo cua/Ảnh màn hình 2026-10-29 lúc 14.10.05.png",
-      "/download/images/CS hoàng anh ceramics/Chi tiết - ống heo cua/Ảnh màn hình 2026-10-29 lúc 14.10.15.png"
+      "/download/Ảnh làng nghề/CS hoàng anh ceramics/sanpham3.png",
+      "/download/Ảnh làng nghề/CS hoàng anh ceramics/Chi tiết - ống heo cua/Ảnh màn hình 2026-10-29 lúc 14.09.48.png",
+      "/download/Ảnh làng nghề/CS hoàng anh ceramics/Chi tiết - ống heo cua/Ảnh màn hình 2026-10-29 lúc 14.10.05.png",
+      "/download/Ảnh làng nghề/CS hoàng anh ceramics/Chi tiết - ống heo cua/Ảnh màn hình 2026-10-29 lúc 14.10.15.png"
     ],
     "sourcePdfPage": 33,
     "detailTemplate": "profile",
@@ -4186,10 +4186,10 @@ export const products =
     "hoaTietVaKieuDang": "Đầu lớn, tai dài nhọn, thân hình nhỏ gọn cùng các chi tiết khuôn mặt rõ nét, tạo vẻ ngoài đáng yêu và tinh nghịch.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS hoàng anh ceramics/Sanpham5.jpg",
-      "/download/images/CS hoàng anh ceramics/Chi tiết - ống heo labubu/Ảnh màn hình 2026-10-29 lúc 14.13.25.png",
-      "/download/images/CS hoàng anh ceramics/Chi tiết - ống heo labubu/Ảnh màn hình 2026-10-29 lúc 14.13.33.png",
-      "/download/images/CS hoàng anh ceramics/Chi tiết - ống heo labubu/Ảnh màn hình 2026-10-29 lúc 14.13.50.png"
+      "/download/Ảnh làng nghề/CS hoàng anh ceramics/Sanpham5.jpg",
+      "/download/Ảnh làng nghề/CS hoàng anh ceramics/Chi tiết - ống heo labubu/Ảnh màn hình 2026-10-29 lúc 14.13.25.png",
+      "/download/Ảnh làng nghề/CS hoàng anh ceramics/Chi tiết - ống heo labubu/Ảnh màn hình 2026-10-29 lúc 14.13.33.png",
+      "/download/Ảnh làng nghề/CS hoàng anh ceramics/Chi tiết - ống heo labubu/Ảnh màn hình 2026-10-29 lúc 14.13.50.png"
     ],
     "sourcePdfPage": 34,
     "detailTemplate": "profile",
@@ -4219,11 +4219,11 @@ export const products =
     "hoaTietVaKieuDang": "Tạo hình tối giản, giữ nét đặc trưng của chim cánh cụt, mang vẻ đáng yêu, thân thiện.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS hoàng anh ceramics/Sanpham6.jpg",
-      "/download/images/CS hoàng anh ceramics/Chi tiết - ống heo chim cánh cụt/Ảnh màn hình 2026-10-29 lúc 14.21.37.png",
-      "/download/images/CS hoàng anh ceramics/Chi tiết - ống heo chim cánh cụt/Ảnh màn hình 2026-10-29 lúc 14.21.43.png",
-      "/download/images/CS hoàng anh ceramics/Chi tiết - ống heo chim cánh cụt/Ảnh màn hình 2026-10-29 lúc 14.21.49.png",
-      "/download/images/CS hoàng anh ceramics/Chi tiết - ống heo chim cánh cụt/Ảnh màn hình 2026-10-29 lúc 14.21.56.png"
+      "/download/Ảnh làng nghề/CS hoàng anh ceramics/Sanpham6.jpg",
+      "/download/Ảnh làng nghề/CS hoàng anh ceramics/Chi tiết - ống heo chim cánh cụt/Ảnh màn hình 2026-10-29 lúc 14.21.37.png",
+      "/download/Ảnh làng nghề/CS hoàng anh ceramics/Chi tiết - ống heo chim cánh cụt/Ảnh màn hình 2026-10-29 lúc 14.21.43.png",
+      "/download/Ảnh làng nghề/CS hoàng anh ceramics/Chi tiết - ống heo chim cánh cụt/Ảnh màn hình 2026-10-29 lúc 14.21.49.png",
+      "/download/Ảnh làng nghề/CS hoàng anh ceramics/Chi tiết - ống heo chim cánh cụt/Ảnh màn hình 2026-10-29 lúc 14.21.56.png"
     ],
     "sourcePdfPage": 35,
     "detailTemplate": "profile",
@@ -4253,10 +4253,10 @@ export const products =
     "hoaTietVaKieuDang": "Bộ sưu tập gồm bát, đĩa, cốc và khay với họa tiết kẻ ô xanh trắng cùng các chi tiết trang trí nhỏ",
     "isFeatured": null,
     "images": [
-      "/download/images/CS bách ngân hỷ/sanpham1.jpg",
-      "/download/images/CS bách ngân hỷ/Chi tiết - gốm thanh mạ/Ảnh màn hình 2026-10-30 lúc 22.33.12.png",
-      "/download/images/CS bách ngân hỷ/Chi tiết - gốm thanh mạ/Ảnh màn hình 2026-10-30 lúc 22.33.34.png",
-      "/download/images/CS bách ngân hỷ/Chi tiết - gốm thanh mạ/Ảnh màn hình 2026-10-30 lúc 22.33.42.png"
+      "/download/Ảnh làng nghề/CS bách ngân hỷ/sanpham1.jpg",
+      "/download/Ảnh làng nghề/CS bách ngân hỷ/Chi tiết - gốm thanh mạ/Ảnh màn hình 2026-10-30 lúc 22.33.12.png",
+      "/download/Ảnh làng nghề/CS bách ngân hỷ/Chi tiết - gốm thanh mạ/Ảnh màn hình 2026-10-30 lúc 22.33.34.png",
+      "/download/Ảnh làng nghề/CS bách ngân hỷ/Chi tiết - gốm thanh mạ/Ảnh màn hình 2026-10-30 lúc 22.33.42.png"
     ],
     "sourcePdfPage": 36,
     "detailTemplate": "profile",
@@ -4286,11 +4286,11 @@ export const products =
     "hoaTietVaKieuDang": "Bộ sưu tập gồm cốc có quai, đĩa và khay với kiểu dáng đơn giản, trang trí họa tiết cá cách điệu vui mắt.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS bách ngân hỷ/sanpham2.jpg",
-      "/download/images/CS bách ngân hỷ/Chi tiết - gốm ngư sắc/Ảnh màn hình 2026-10-30 lúc 22.55.20.png",
-      "/download/images/CS bách ngân hỷ/Chi tiết - gốm ngư sắc/Ảnh màn hình 2026-10-30 lúc 22.55.27.png",
-      "/download/images/CS bách ngân hỷ/Chi tiết - gốm ngư sắc/Ảnh màn hình 2026-10-30 lúc 22.55.34.png",
-      "/download/images/CS bách ngân hỷ/Chi tiết - gốm ngư sắc/Ảnh màn hình 2026-10-30 lúc 22.55.41.png"
+      "/download/Ảnh làng nghề/CS bách ngân hỷ/sanpham2.jpg",
+      "/download/Ảnh làng nghề/CS bách ngân hỷ/Chi tiết - gốm ngư sắc/Ảnh màn hình 2026-10-30 lúc 22.55.20.png",
+      "/download/Ảnh làng nghề/CS bách ngân hỷ/Chi tiết - gốm ngư sắc/Ảnh màn hình 2026-10-30 lúc 22.55.27.png",
+      "/download/Ảnh làng nghề/CS bách ngân hỷ/Chi tiết - gốm ngư sắc/Ảnh màn hình 2026-10-30 lúc 22.55.34.png",
+      "/download/Ảnh làng nghề/CS bách ngân hỷ/Chi tiết - gốm ngư sắc/Ảnh màn hình 2026-10-30 lúc 22.55.41.png"
     ],
     "sourcePdfPage": 37,
     "detailTemplate": "profile",
@@ -4320,10 +4320,10 @@ export const products =
     "hoaTietVaKieuDang": "Bộ sưu tập gồm cốc có quai, đĩa và khay bo tròn mềm mại, trang trí cherry xen kẽ họa tiết kẻ ô đồng bộ.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS bách ngân hỷ/Sanpham3.jpg",
-      "/download/images/pdf_gallery/SP_GBT_09/pdf-038-xref-67585.jpg",
-      "/download/images/pdf_gallery/SP_GBT_09/pdf-038-xref-67599.jpg",
-      "/download/images/pdf_gallery/SP_GBT_09/pdf-038-xref-67549.jpg"
+      "/download/Ảnh làng nghề/CS bách ngân hỷ/Sanpham3.jpg",
+      "/download/Ảnh làng nghề/CS Gốm tới liên/sanpham1.jpg",
+      "/download/Ảnh làng nghề/CS Gốm tới liên/Sanpham2.jpg",
+      "/download/Ảnh làng nghề/CS Gốm tới liên/Sanpham3.jpg"
     ],
     "sourcePdfPage": 38,
     "detailTemplate": "profile",
@@ -4353,10 +4353,10 @@ export const products =
     "hoaTietVaKieuDang": "Cốc thân rộng, miệng mở, đáy thuôn nhẹ, trang trí họa tiết uốn lượn.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS bách ngân hỷ/Sanpham4.jpg",
-      "/download/images/pdf_gallery/SP_GBT_10/pdf-039-xref-69474.jpg",
-      "/download/images/pdf_gallery/SP_GBT_10/pdf-039-xref-69520.jpg",
-      "/download/images/pdf_gallery/SP_GBT_10/pdf-039-xref-69510.jpg"
+      "/download/Ảnh làng nghề/CS bách ngân hỷ/Sanpham4.jpg",
+      "/download/Ảnh làng nghề/CS gốm hải long/sanpham1.jpg",
+      "/download/Ảnh làng nghề/CS gốm hải long/sanpham2.png",
+      "/download/Ảnh làng nghề/CS Gốm Mạnh Hoa/sanpham1.jpg"
     ],
     "sourcePdfPage": 39,
     "detailTemplate": "profile",
@@ -4386,9 +4386,9 @@ export const products =
     "hoaTietVaKieuDang": "Rổ lòng sâu, miệng rộng, hai quai đối xứng và các lỗ nhỏ mô phỏng rổ đan truyền thống, tạo vẻ độc đáo.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS bách ngân hỷ/Sanpham5.jpg",
-      "/download/images/pdf_gallery/SP_GBT_11/pdf-040-xref-71353.jpg",
-      "/download/images/pdf_gallery/SP_GBT_11/pdf-040-xref-71391.jpg"
+      "/download/Ảnh làng nghề/CS bách ngân hỷ/Sanpham5.jpg",
+      "/download/Ảnh làng nghề/CS Gốm tới liên/sanpham1.jpg",
+      "/download/Ảnh làng nghề/CS Gốm tới liên/Sanpham2.jpg"
     ],
     "sourcePdfPage": 40,
     "detailTemplate": "profile",
@@ -4418,10 +4418,10 @@ export const products =
     "hoaTietVaKieuDang": "Hũ thân tròn, có nắp đậy và chi tiết tạo hình phía trước, trang trí hoa lá, đường kẻ và hình vẽ cách điệu đa dạng.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS bách ngân hỷ/Sanpham6.jpg",
-      "/download/images/pdf_gallery/SP_GBT_12/pdf-041-xref-65766.jpg",
-      "/download/images/pdf_gallery/SP_GBT_12/pdf-041-xref-73280.jpg",
-      "/download/images/pdf_gallery/SP_GBT_12/pdf-041-xref-73290.jpg"
+      "/download/Ảnh làng nghề/CS bách ngân hỷ/Sanpham6.jpg",
+      "/download/Ảnh làng nghề/CS Gốm tới liên/Sanpham3.jpg",
+      "/download/Ảnh làng nghề/CS gốm hải long/sanpham1.jpg",
+      "/download/Ảnh làng nghề/CS gốm hải long/sanpham2.png"
     ],
     "sourcePdfPage": 41,
     "detailTemplate": "profile",
@@ -4451,9 +4451,9 @@ export const products =
     "hoaTietVaKieuDang": "Nồi dáng tròn thấp, nắp đồng bộ, trang trí họa tiết xanh lam trên nền men sáng, giữ nét mộc mạc, tinh tế",
     "isFeatured": null,
     "images": [
-      "/download/images/CS gốm hải long/sanpham1.jpg",
-      "/download/images/pdf_gallery/SP_GBT_13/pdf-069-xref-128122.jpg",
-      "/download/images/pdf_gallery/SP_GBT_13/pdf-069-xref-128168.jpg"
+      "/download/Ảnh làng nghề/CS gốm hải long/sanpham1.jpg",
+      "/download/Ảnh làng nghề/CS Gốm Mạnh Hoa/sanpham1.jpg",
+      "/download/Ảnh làng nghề/CS Gốm tới liên/sanpham1.jpg"
     ],
     "sourcePdfPage": 69,
     "detailTemplate": "profile",
@@ -4483,9 +4483,9 @@ export const products =
     "hoaTietVaKieuDang": "Bình dáng tròn, cổ thu nhỏ, miệng loe nhẹ, trang trí họa tiết thuyền buồm mang ý nghĩa thuận lợi, hanh thông. Nắp bình đồng bộ với tổng thể",
     "isFeatured": null,
     "images": [
-      "/download/images/CS gốm hải long/sanpham2.png",
-      "/download/images/pdf_gallery/SP_GBT_14/pdf-070-xref-130027.jpg",
-      "/download/images/pdf_gallery/SP_GBT_14/pdf-070-xref-130069.jpg"
+      "/download/Ảnh làng nghề/CS gốm hải long/sanpham2.png",
+      "/download/Ảnh làng nghề/CS Gốm tới liên/Sanpham2.jpg",
+      "/download/Ảnh làng nghề/CS Gốm tới liên/Sanpham3.jpg"
     ],
     "sourcePdfPage": 70,
     "detailTemplate": "profile",
@@ -4515,7 +4515,7 @@ export const products =
     "hoaTietVaKieuDang": "Ngói dáng mũi hài với phần đầu cong đặc trưng, kết hợp họa tiết nổi, tôn lên nét đẹp truyền thống",
     "isFeatured": null,
     "images": [
-      "/download/images/CS gốm hải long/sanpham3.png"
+      "/download/Ảnh làng nghề/CS gốm hải long/sanpham3.png"
     ],
     "sourcePdfPage": 71,
     "detailTemplate": "profile",
@@ -4545,7 +4545,7 @@ export const products =
     "hoaTietVaKieuDang": "Ấm dáng tròn đầy, đi kèm chén trà đồng bộ, trang trí họa tiết mềm mại, kết hợp bọc đồng mang nét truyền thống và độc đáo",
     "isFeatured": null,
     "images": [
-      "/download/images/CS gốm hải long/sanpham4.jpg"
+      "/download/Ảnh làng nghề/CS gốm hải long/sanpham4.jpg"
     ],
     "sourcePdfPage": 72,
     "detailTemplate": "profile",
@@ -4575,7 +4575,7 @@ export const products =
     "hoaTietVaKieuDang": "Gốm tông nâu trầm, bề mặt mộc mạc, tôn lên vẻ đẹp tự nhiên của chất liệu",
     "isFeatured": null,
     "images": [
-      "/download/images/CS gốm hải long/sanpham3.jpg"
+      "/download/Ảnh làng nghề/CS gốm hải long/sanpham3.jpg"
     ],
     "sourcePdfPage": 73,
     "detailTemplate": "profile",
@@ -4605,7 +4605,7 @@ export const products =
     "hoaTietVaKieuDang": "Nồi dáng tròn, thân rộng, nắp đồng bộ và hai quai cầm tiện dụng. Thiết kế đơn giản, chú trọng công năng",
     "isFeatured": null,
     "images": [
-      "/download/images/CS gốm hải long/sanpham6.png"
+      "/download/Ảnh làng nghề/CS gốm hải long/sanpham6.png"
     ],
     "sourcePdfPage": 74,
     "detailTemplate": "profile",
@@ -4635,9 +4635,9 @@ export const products =
     "hoaTietVaKieuDang": "Ấm dáng tròn thấp, vòi cong, quai uốn mềm mại, trang trí hoa cúc trắng tạo hình nổi, mang nét thanh nhã, tinh tế",
     "isFeatured": true,
     "images": [
-      "/download/images/CS Gốm tới liên/sanpham1.jpg",
-      "/download/images/pdf_gallery/SP_GBT_19/pdf-063-xref-117380.jpg",
-      "/download/images/pdf_gallery/SP_GBT_19/pdf-063-xref-117394.jpg"
+      "/download/Ảnh làng nghề/CS Gốm tới liên/sanpham1.jpg",
+      "/download/Ảnh làng nghề/CS gốm hải long/sanpham1.jpg",
+      "/download/Ảnh làng nghề/CS gốm hải long/sanpham2.png"
     ],
     "sourcePdfPage": 63,
     "detailTemplate": "profile",
@@ -4667,9 +4667,9 @@ export const products =
     "hoaTietVaKieuDang": "Dáng vát, họa tiết rồng vờn mây",
     "isFeatured": true,
     "images": [
-      "/download/images/CS Gốm tới liên/Sanpham2.jpg",
-      "/download/images/pdf_gallery/SP_GBT_20/pdf-064-xref-119141.jpg",
-      "/download/images/pdf_gallery/SP_GBT_20/pdf-064-xref-117386.jpg"
+      "/download/Ảnh làng nghề/CS Gốm tới liên/Sanpham2.jpg",
+      "/download/Ảnh làng nghề/CS Gốm Mạnh Hoa/sanpham1.jpg",
+      "/download/Ảnh làng nghề/CS Gốm tới liên/sanpham1.jpg"
     ],
     "sourcePdfPage": 64,
     "detailTemplate": "profile",
@@ -4699,9 +4699,9 @@ export const products =
     "hoaTietVaKieuDang": "Dáng cổ quai cao, tạo hình cá hóa rồng",
     "isFeatured": true,
     "images": [
-      "/download/images/CS Gốm tới liên/Sanpham3.jpg",
-      "/download/images/pdf_gallery/SP_GBT_21/pdf-065-xref-120970.jpg",
-      "/download/images/pdf_gallery/SP_GBT_21/pdf-065-xref-120932.jpg"
+      "/download/Ảnh làng nghề/CS Gốm tới liên/Sanpham3.jpg",
+      "/download/Ảnh làng nghề/CS Gốm tới liên/Sanpham2.jpg",
+      "/download/Ảnh làng nghề/CS Gốm tới liên/Sanpham3.jpg"
     ],
     "sourcePdfPage": 65,
     "detailTemplate": "profile",
@@ -4731,9 +4731,9 @@ export const products =
     "hoaTietVaKieuDang": "Trọn bộ ấm chén phong cách trà đạo",
     "isFeatured": true,
     "images": [
-      "/download/images/CS Gốm tới liên/sanpham4.jpg",
-      "/download/images/pdf_gallery/SP_GBT_22/pdf-066-xref-122833.jpg",
-      "/download/images/pdf_gallery/SP_GBT_22/pdf-066-xref-122829.jpg"
+      "/download/Ảnh làng nghề/CS Gốm tới liên/sanpham4.jpg",
+      "/download/Ảnh làng nghề/CS gốm hải long/sanpham1.jpg",
+      "/download/Ảnh làng nghề/CS gốm hải long/sanpham2.png"
     ],
     "sourcePdfPage": 66,
     "detailTemplate": "profile",
@@ -4763,9 +4763,9 @@ export const products =
     "hoaTietVaKieuDang": "Dáng búp sen quai cành",
     "isFeatured": true,
     "images": [
-      "/download/images/CS Gốm tới liên/sanpham5.jpg",
-      "/download/images/pdf_gallery/SP_GBT_23/pdf-067-xref-124588.jpg",
-      "/download/images/pdf_gallery/SP_GBT_23/pdf-067-xref-124550.jpg"
+      "/download/Ảnh làng nghề/CS Gốm tới liên/sanpham5.jpg",
+      "/download/Ảnh làng nghề/CS Gốm Mạnh Hoa/sanpham1.jpg",
+      "/download/Ảnh làng nghề/CS Gốm tới liên/sanpham1.jpg"
     ],
     "sourcePdfPage": 67,
     "detailTemplate": "profile",
@@ -4795,9 +4795,9 @@ export const products =
     "hoaTietVaKieuDang": "Dáng chum tròn có nắp đậy khít",
     "isFeatured": true,
     "images": [
-      "/download/images/CS Gốm tới liên/Sanpham6.jpg",
-      "/download/images/pdf_gallery/SP_GBT_24/pdf-068-xref-126341.jpg",
-      "/download/images/pdf_gallery/SP_GBT_24/pdf-068-xref-126297.jpg"
+      "/download/Ảnh làng nghề/CS Gốm tới liên/Sanpham6.jpg",
+      "/download/Ảnh làng nghề/CS Gốm tới liên/Sanpham2.jpg",
+      "/download/Ảnh làng nghề/CS Gốm tới liên/Sanpham3.jpg"
     ],
     "sourcePdfPage": 68,
     "detailTemplate": "profile",
@@ -4827,7 +4827,7 @@ export const products =
     "hoaTietVaKieuDang": "Bộ ấm trà gồm ấm, chén và phụ kiện đồng bộ, thiết kế cân đối, trang nhã, phù hợp để thưởng trà và tiếp khách",
     "isFeatured": null,
     "images": [
-      "/download/images/CS Gốm Mạnh Hoa/sanpham1.jpg"
+      "/download/Ảnh làng nghề/CS Gốm Mạnh Hoa/sanpham1.jpg"
     ],
     "sourcePdfPage": 43,
     "detailTemplate": "profile",
@@ -4857,9 +4857,9 @@ export const products =
     "hoaTietVaKieuDang": "Ấm trà dáng tròn thấp, quai và nắp mềm mại, kết hợp chén nhỏ và khay cách điệu, tạo tổng thể đồng bộ, tinh tế",
     "isFeatured": null,
     "images": [
-      "/download/images/CS Gốm Mạnh Hoa/sanpham2.jpg",
-      "/download/images/pdf_gallery/SP_GBT_26/pdf-044-xref-78151.jpg",
-      "/download/images/pdf_gallery/SP_GBT_26/pdf-044-xref-78113.jpg"
+      "/download/Ảnh làng nghề/CS Gốm Mạnh Hoa/sanpham2.jpg",
+      "/download/Ảnh làng nghề/CS gốm hải long/sanpham1.jpg",
+      "/download/Ảnh làng nghề/CS gốm hải long/sanpham2.png"
     ],
     "sourcePdfPage": 44,
     "detailTemplate": "profile",
@@ -4889,9 +4889,9 @@ export const products =
     "hoaTietVaKieuDang": "Khay chia nhiều ngăn theo bố cục tròn, viền uốn lượn cách điệu, phù hợp để đựng mứt, bánh kẹo hoặc trang trí",
     "isFeatured": null,
     "images": [
-      "/download/images/CS Gốm Mạnh Hoa/sanpham3.jpg",
-      "/download/images/pdf_gallery/SP_GBT_27/pdf-045-xref-79946.jpg",
-      "/download/images/pdf_gallery/SP_GBT_27/pdf-045-xref-79956.jpg"
+      "/download/Ảnh làng nghề/CS Gốm Mạnh Hoa/sanpham3.jpg",
+      "/download/Ảnh làng nghề/CS Gốm Mạnh Hoa/sanpham1.jpg",
+      "/download/Ảnh làng nghề/CS Gốm tới liên/sanpham1.jpg"
     ],
     "sourcePdfPage": 45,
     "detailTemplate": "profile",
@@ -4921,9 +4921,9 @@ export const products =
     "hoaTietVaKieuDang": "Bộ đồ ăn gồm đĩa, bát và khay nhỏ với kiểu dáng cách điệu, sắp xếp theo bố cục tròn hài hòa, phù hợp để bày biện và trang trí bàn ăn",
     "isFeatured": null,
     "images": [
-      "/download/images/CS Gốm Mạnh Hoa/sanpham4.jpg",
-      "/download/images/pdf_gallery/SP_GBT_28/pdf-046-xref-81795.jpg",
-      "/download/images/pdf_gallery/SP_GBT_28/pdf-046-xref-81805.jpg"
+      "/download/Ảnh làng nghề/CS Gốm Mạnh Hoa/sanpham4.jpg",
+      "/download/Ảnh làng nghề/CS Gốm tới liên/Sanpham2.jpg",
+      "/download/Ảnh làng nghề/CS Gốm tới liên/Sanpham3.jpg"
     ],
     "sourcePdfPage": 46,
     "detailTemplate": "profile",
@@ -4953,9 +4953,9 @@ export const products =
     "hoaTietVaKieuDang": "Hộp dáng tròn, nắp đậy vừa vặn, trang trí họa tiết ánh vàng nổi bật trên nền tối",
     "isFeatured": null,
     "images": [
-      "/download/images/CS Gốm Mạnh Hoa/sanpham5.jpg",
-      "/download/images/pdf_gallery/SP_GBT_29/pdf-047-xref-83654.jpg",
-      "/download/images/pdf_gallery/SP_GBT_29/pdf-047-xref-83616.jpg"
+      "/download/Ảnh làng nghề/CS Gốm Mạnh Hoa/sanpham5.jpg",
+      "/download/Ảnh làng nghề/CS gốm hải long/sanpham1.jpg",
+      "/download/Ảnh làng nghề/CS gốm hải long/sanpham2.png"
     ],
     "sourcePdfPage": 47,
     "detailTemplate": "profile",
@@ -4985,9 +4985,9 @@ export const products =
     "hoaTietVaKieuDang": "Khay mô phỏng lá sen, lòng rộng, viền uốn lượn và dáng bất đối xứng, phù hợp để bày đồ ăn hoặc trang trí",
     "isFeatured": null,
     "images": [
-      "/download/images/CS Gốm Mạnh Hoa/sanpham6.png",
-      "/download/images/pdf_gallery/SP_GBT_30/pdf-048-xref-85491.jpg",
-      "/download/images/pdf_gallery/SP_GBT_30/pdf-048-xref-85453.jpg"
+      "/download/Ảnh làng nghề/CS Gốm Mạnh Hoa/sanpham6.png",
+      "/download/Ảnh làng nghề/CS Gốm Mạnh Hoa/sanpham1.jpg",
+      "/download/Ảnh làng nghề/CS Gốm tới liên/sanpham1.jpg"
     ],
     "sourcePdfPage": 48,
     "detailTemplate": "profile",
@@ -5017,12 +5017,12 @@ export const products =
     "hoaTietVaKieuDang": "Họa tiết phượng cách điệu nổi bật trên nền lụa đỏ hồng, với những đường nét uốn lượn mềm mại, tạo cảm giác uyển chuyển và thanh thoát.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS Lụa nha xá/sanpham1.png",
-      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn phượng vũ/ab105e41-2057-4c43-be16-06ec477fecfc.jpg",
-      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn phượng vũ/sanpham1 2.png",
-      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn phượng vũ/vn-11134207-81ztc-mnmcfqpq1rlw5a.webp",
-      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn phượng vũ/vn-11134207-81ztc-msozqv97oflw3e.webp",
-      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn phượng vũ/vn-11134207-81ztc-msoztuu8c5qic8.webp"
+      "/download/Ảnh làng nghề/CS Lụa nha xá/sanpham1.png",
+      "/download/Ảnh làng nghề/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn phượng vũ/ab105e41-2057-4c43-be16-06ec477fecfc.jpg",
+      "/download/Ảnh làng nghề/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn phượng vũ/sanpham1 2.png",
+      "/download/Ảnh làng nghề/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn phượng vũ/vn-11134207-81ztc-mnmcfqpq1rlw5a.webp",
+      "/download/Ảnh làng nghề/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn phượng vũ/vn-11134207-81ztc-msozqv97oflw3e.webp",
+      "/download/Ảnh làng nghề/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn phượng vũ/vn-11134207-81ztc-msoztuu8c5qic8.webp"
     ],
     "sourcePdfPage": 119,
     "detailTemplate": "profile",
@@ -5052,11 +5052,11 @@ export const products =
     "hoaTietVaKieuDang": "Những đường vân uốn lượn đan xen trên nền hồng phấn, tạo nên nhịp điệu hoa văn nhẹ nhàng và liền mạch.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS Lụa nha xá/sanpham2.png",
-      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn vân bèo/77861cd1-baf4-4f5a-ae75-7cb71e322f1d.jpg",
-      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn vân bèo/vn-11134207-7ras8-m4jsj99s647jce.webp",
-      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn vân bèo/vn-11134207-81ztc-mphnb1xli1an09@resize_w900_nl.webp",
-      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn vân bèo/vn-11134207-81ztc-mphnfhr8kwzk8a.webp"
+      "/download/Ảnh làng nghề/CS Lụa nha xá/sanpham2.png",
+      "/download/Ảnh làng nghề/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn vân bèo/77861cd1-baf4-4f5a-ae75-7cb71e322f1d.jpg",
+      "/download/Ảnh làng nghề/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn vân bèo/vn-11134207-7ras8-m4jsj99s647jce.webp",
+      "/download/Ảnh làng nghề/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn vân bèo/vn-11134207-81ztc-mphnb1xli1an09@resize_w900_nl.webp",
+      "/download/Ảnh làng nghề/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn vân bèo/vn-11134207-81ztc-mphnfhr8kwzk8a.webp"
     ],
     "sourcePdfPage": 120,
     "detailTemplate": "profile",
@@ -5086,12 +5086,12 @@ export const products =
     "hoaTietVaKieuDang": "Họa tiết chữ Thọ Dơi được thể hiện theo phong cách truyền thống, kết hợp các đường nét cân đối và bố cục hài hòa trên nền xám bạc.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS Lụa nha xá/sanpham3.webp",
-      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn thọ dơi - xám bạc/vn-11134207-81ztc-mnm8nit2oa9y0a.webp",
-      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn thọ dơi - xám bạc/vn-11134207-81ztc-mr74dtasusjk05@resize_w900_nl.webp",
-      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn thọ dơi - xám bạc/vn-11134207-81ztc-mrze9nqkpe6f75.webp",
-      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn thọ dơi - xám bạc/vn-11134207-81ztc-mrze9nrzs3k282.webp",
-      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn thọ dơi - xám bạc/vn-11134207-81ztc-mrziy0y6b5s2b8.webp"
+      "/download/Ảnh làng nghề/CS Lụa nha xá/sanpham3.webp",
+      "/download/Ảnh làng nghề/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn thọ dơi - xám bạc/vn-11134207-81ztc-mnm8nit2oa9y0a.webp",
+      "/download/Ảnh làng nghề/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn thọ dơi - xám bạc/vn-11134207-81ztc-mr74dtasusjk05@resize_w900_nl.webp",
+      "/download/Ảnh làng nghề/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn thọ dơi - xám bạc/vn-11134207-81ztc-mrze9nqkpe6f75.webp",
+      "/download/Ảnh làng nghề/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn thọ dơi - xám bạc/vn-11134207-81ztc-mrze9nrzs3k282.webp",
+      "/download/Ảnh làng nghề/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn thọ dơi - xám bạc/vn-11134207-81ztc-mrziy0y6b5s2b8.webp"
     ],
     "sourcePdfPage": 121,
     "detailTemplate": "profile",
@@ -5121,12 +5121,12 @@ export const products =
     "hoaTietVaKieuDang": "Hệ hoa văn hoa lá được sắp xếp đan xen trên nền xanh lam pha tím, tạo cảm giác phong phú nhưng vẫn hài hòa.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS Lụa nha xá/sanpham4.jpg",
-      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn bách liên hoa/vn-11134207-81ztc-mpk7ds082rke67.webp",
-      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn bách liên hoa/vn-11134207-81ztc-mpk7ds122ya6c7.webp",
-      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn bách liên hoa/vn-11134207-81ztc-mpukqn6j1s7487.webp",
-      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn bách liên hoa/vn-11134207-81ztc-mrtx85b407wn92.jpg",
-      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn bách liên hoa/vn-11134207-81ztc-mrtxcm9fyb5t77.jpg"
+      "/download/Ảnh làng nghề/CS Lụa nha xá/sanpham4.jpg",
+      "/download/Ảnh làng nghề/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn bách liên hoa/vn-11134207-81ztc-mpk7ds082rke67.webp",
+      "/download/Ảnh làng nghề/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn bách liên hoa/vn-11134207-81ztc-mpk7ds122ya6c7.webp",
+      "/download/Ảnh làng nghề/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn bách liên hoa/vn-11134207-81ztc-mpukqn6j1s7487.webp",
+      "/download/Ảnh làng nghề/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn bách liên hoa/vn-11134207-81ztc-mrtx85b407wn92.jpg",
+      "/download/Ảnh làng nghề/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn bách liên hoa/vn-11134207-81ztc-mrtxcm9fyb5t77.jpg"
     ],
     "sourcePdfPage": 122,
     "detailTemplate": "profile",
@@ -5156,12 +5156,12 @@ export const products =
     "hoaTietVaKieuDang": "Hoa văn lấy cảm hứng từ hình tượng sen và hồ điệp, kết hợp trên nền vàng nhạt tạo nên tổng thể nhẹ nhàng, thanh thoát.",
     "isFeatured": null,
     "images": [
-      "/download/images/CS Lụa nha xá/sanpham5.png",
-      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn sen hồ điệp/484824489_1044549594361729_4377349374783878228_n.jpg",
-      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn sen hồ điệp/485035892_1044549634361725_9085957628290583763_n.jpg",
-      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn sen hồ điệp/485687671_1047628964053792_5591196335653054878_n.jpg",
-      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn sen hồ điệp/vn-11134207-81ztc-mtdirh89lmv62e.webp",
-      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn sen hồ điệp/vn-11134207-81ztc-mtdirh987klgc0.webp"
+      "/download/Ảnh làng nghề/CS Lụa nha xá/sanpham5.png",
+      "/download/Ảnh làng nghề/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn sen hồ điệp/484824489_1044549594361729_4377349374783878228_n.jpg",
+      "/download/Ảnh làng nghề/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn sen hồ điệp/485035892_1044549634361725_9085957628290583763_n.jpg",
+      "/download/Ảnh làng nghề/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn sen hồ điệp/485687671_1047628964053792_5591196335653054878_n.jpg",
+      "/download/Ảnh làng nghề/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn sen hồ điệp/vn-11134207-81ztc-mtdirh89lmv62e.webp",
+      "/download/Ảnh làng nghề/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn sen hồ điệp/vn-11134207-81ztc-mtdirh987klgc0.webp"
     ],
     "sourcePdfPage": 123,
     "detailTemplate": "profile",
@@ -5191,12 +5191,12 @@ export const products =
     "hoaTietVaKieuDang": "Họa tiết chữ Thọ Dơi được bố trí lặp lại trên nền tím hồng đậm, tạo nên bề mặt hoa văn nổi bật và có chiều sâu thị giác",
     "isFeatured": null,
     "images": [
-      "/download/images/CS Lụa nha xá/sanpham6.webp",
-      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn thọ dơi - tím hồng/vn-11134207-81ztc-mmgufvsdijgh85.webp",
-      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn thọ dơi - tím hồng/vn-11134207-81ztc-mmzfsscv7478a9@resize_w900_nl.webp",
-      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn thọ dơi - tím hồng/vn-11134207-81ztc-mrzeh2ubvl6tc2.webp",
-      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn thọ dơi - tím hồng/vn-11134207-81ztc-mrzeh2uf6zgg29.webp",
-      "/download/images/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn thọ dơi - tím hồng/vn-11134207-820l4-mii6xg6nwxdyee.webp"
+      "/download/Ảnh làng nghề/CS Lụa nha xá/sanpham6.webp",
+      "/download/Ảnh làng nghề/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn thọ dơi - tím hồng/vn-11134207-81ztc-mmgufvsdijgh85.webp",
+      "/download/Ảnh làng nghề/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn thọ dơi - tím hồng/vn-11134207-81ztc-mmzfsscv7478a9@resize_w900_nl.webp",
+      "/download/Ảnh làng nghề/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn thọ dơi - tím hồng/vn-11134207-81ztc-mrzeh2ubvl6tc2.webp",
+      "/download/Ảnh làng nghề/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn thọ dơi - tím hồng/vn-11134207-81ztc-mrzeh2uf6zgg29.webp",
+      "/download/Ảnh làng nghề/CS Lụa nha xá/Trang chi tiết sản phẩm Lụa Nha Xá/lụa hoa văn thọ dơi - tím hồng/vn-11134207-820l4-mii6xg6nwxdyee.webp"
     ],
     "sourcePdfPage": 124,
     "detailTemplate": "profile",
@@ -5226,12 +5226,12 @@ export const products =
     "hoaTietVaKieuDang": "Họa tiết tròn lấy cảm hứng từ hoa văn trống đồng, kết hợp các đường nét hình học và mô-típ trang trí truyền thống.",
     "isFeatured": null,
     "images": [
-      "/download/images/Silk Hạ Vy/sanpham1.png",
-      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết trống đồng/115.png",
-      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết trống đồng/116.png",
-      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết trống đồng/118.png",
-      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết trống đồng/119.png",
-      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết trống đồng/image 59.png"
+      "/download/Ảnh làng nghề/Silk Hạ Vy/sanpham1.png",
+      "/download/Ảnh làng nghề/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết trống đồng/115.png",
+      "/download/Ảnh làng nghề/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết trống đồng/116.png",
+      "/download/Ảnh làng nghề/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết trống đồng/118.png",
+      "/download/Ảnh làng nghề/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết trống đồng/119.png",
+      "/download/Ảnh làng nghề/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết trống đồng/image 59.png"
     ],
     "sourcePdfPage": 125,
     "detailTemplate": "profile",
@@ -5261,12 +5261,12 @@ export const products =
     "hoaTietVaKieuDang": "Hoa văn hoa lá cách điệu với các cành, lá và cụm hoa đan xen, tạo bố cục liên tục trên bề mặt vải.",
     "isFeatured": null,
     "images": [
-      "/download/images/Silk Hạ Vy/sanpham2.png",
-      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết văn bèo/750055114_122171963312702573_5773349679271158708_n.jpg",
-      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết văn bèo/750975528_122171962916702573_1670322622917590725_n.jpg",
-      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết văn bèo/751403216_122171963600702573_2332413209466842260_n.jpg",
-      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết văn bèo/798797572_122176819682702573_472252852712524341_n.jpg",
-      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết văn bèo/vn-11134207-7ras8-m15e69mtlxmj33.webp"
+      "/download/Ảnh làng nghề/Silk Hạ Vy/sanpham2.png",
+      "/download/Ảnh làng nghề/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết văn bèo/750055114_122171963312702573_5773349679271158708_n.jpg",
+      "/download/Ảnh làng nghề/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết văn bèo/750975528_122171962916702573_1670322622917590725_n.jpg",
+      "/download/Ảnh làng nghề/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết văn bèo/751403216_122171963600702573_2332413209466842260_n.jpg",
+      "/download/Ảnh làng nghề/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết văn bèo/798797572_122176819682702573_472252852712524341_n.jpg",
+      "/download/Ảnh làng nghề/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết văn bèo/vn-11134207-7ras8-m15e69mtlxmj33.webp"
     ],
     "sourcePdfPage": 126,
     "detailTemplate": "profile",
@@ -5296,12 +5296,12 @@ export const products =
     "hoaTietVaKieuDang": "Hoa văn lấy cảm hứng từ sen và hồ điệp, thể hiện bằng những đường nét cách điệu trên nền vải sáng màu.",
     "isFeatured": null,
     "images": [
-      "/download/images/Silk Hạ Vy/sanpham3.png",
-      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa  họa tiết sen hồ điệp/795697006_122177387540702573_3171883097456989638_n.jpg",
-      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa  họa tiết sen hồ điệp/809039048_122177387150702573_1189098113739789235_n.jpg",
-      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa  họa tiết sen hồ điệp/813804480_122177387390702573_2589954493518617100_n.jpg",
-      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa  họa tiết sen hồ điệp/813825139_122177387336702573_7436785209372892926_n.jpg",
-      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa  họa tiết sen hồ điệp/814660566_122177387426702573_2830616196582631165_n.jpg"
+      "/download/Ảnh làng nghề/Silk Hạ Vy/sanpham3.png",
+      "/download/Ảnh làng nghề/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa  họa tiết sen hồ điệp/795697006_122177387540702573_3171883097456989638_n.jpg",
+      "/download/Ảnh làng nghề/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa  họa tiết sen hồ điệp/809039048_122177387150702573_1189098113739789235_n.jpg",
+      "/download/Ảnh làng nghề/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa  họa tiết sen hồ điệp/813804480_122177387390702573_2589954493518617100_n.jpg",
+      "/download/Ảnh làng nghề/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa  họa tiết sen hồ điệp/813825139_122177387336702573_7436785209372892926_n.jpg",
+      "/download/Ảnh làng nghề/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa  họa tiết sen hồ điệp/814660566_122177387426702573_2830616196582631165_n.jpg"
     ],
     "sourcePdfPage": 127,
     "detailTemplate": "profile",
@@ -5331,12 +5331,12 @@ export const products =
     "hoaTietVaKieuDang": "Họa tiết nhỏ dạng chấm và mô-típ trang trí cách điệu, được sắp xếp đều đặn trên nền vải.",
     "isFeatured": null,
     "images": [
-      "/download/images/Silk Hạ Vy/sanpham4.png",
-      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết bồ công anh/717215950_122168579858702573_8474644397043665798_n.jpg",
-      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết bồ công anh/720467700_122168578310702573_2103647288352647541_n.jpg",
-      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết bồ công anh/bang-mau-lua-to-tam-nha-xa-bo-cong-anh-7.png",
-      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết bồ công anh/bang-mau-lua-to-tam-nha-xa-bo-cong-anh-8-768x768.png",
-      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết bồ công anh/bang-mau-lua-to-tam-nha-xa-bo-cong-anh-9-1-768x768.png"
+      "/download/Ảnh làng nghề/Silk Hạ Vy/sanpham4.png",
+      "/download/Ảnh làng nghề/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết bồ công anh/717215950_122168579858702573_8474644397043665798_n.jpg",
+      "/download/Ảnh làng nghề/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết bồ công anh/720467700_122168578310702573_2103647288352647541_n.jpg",
+      "/download/Ảnh làng nghề/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết bồ công anh/bang-mau-lua-to-tam-nha-xa-bo-cong-anh-7.png",
+      "/download/Ảnh làng nghề/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết bồ công anh/bang-mau-lua-to-tam-nha-xa-bo-cong-anh-8-768x768.png",
+      "/download/Ảnh làng nghề/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết bồ công anh/bang-mau-lua-to-tam-nha-xa-bo-cong-anh-9-1-768x768.png"
     ],
     "sourcePdfPage": 128,
     "detailTemplate": "profile",
@@ -5366,11 +5366,11 @@ export const products =
     "hoaTietVaKieuDang": "Họa tiết chấm tròn kích thước tương đối đồng đều, bố trí theo nhịp lặp lại trên bề mặt vải.",
     "isFeatured": null,
     "images": [
-      "/download/images/Silk Hạ Vy/sanpham5.png",
-      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/Lụa họa tiết chấm trắng/844190415_122179810964702573_494931536953348333_n.jpg",
-      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/Lụa họa tiết chấm trắng/844544968_122179810382702573_3519689400050281184_n.jpg",
-      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/Lụa họa tiết chấm trắng/847908691_122179810634702573_4389983655385714811_n.jpg",
-      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/Lụa họa tiết chấm trắng/image 52.png"
+      "/download/Ảnh làng nghề/Silk Hạ Vy/sanpham5.png",
+      "/download/Ảnh làng nghề/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/Lụa họa tiết chấm trắng/844190415_122179810964702573_494931536953348333_n.jpg",
+      "/download/Ảnh làng nghề/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/Lụa họa tiết chấm trắng/844544968_122179810382702573_3519689400050281184_n.jpg",
+      "/download/Ảnh làng nghề/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/Lụa họa tiết chấm trắng/847908691_122179810634702573_4389983655385714811_n.jpg",
+      "/download/Ảnh làng nghề/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/Lụa họa tiết chấm trắng/image 52.png"
     ],
     "sourcePdfPage": 129,
     "detailTemplate": "profile",
@@ -5400,12 +5400,12 @@ export const products =
     "hoaTietVaKieuDang": "Hoa văn hoa lá cách điệu, gồm các đường cong mềm mại và mô-típ thực vật nối tiếp nhau trên bề mặt vải.",
     "isFeatured": null,
     "images": [
-      "/download/images/Silk Hạ Vy/sanpham6.png",
-      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết thủy tiên/839960533_122179315058702573_8463421776564176194_n.jpg",
-      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết thủy tiên/840094840_122179313270702573_1798523357816591698_n.jpg",
-      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết thủy tiên/841013291_122179313234702573_8051992405890746565_n.jpg",
-      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết thủy tiên/842308676_122179317332702573_199721434829700862_n.jpg",
-      "/download/images/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết thủy tiên/842329010_122179317548702573_3893334904783706225_n.jpg"
+      "/download/Ảnh làng nghề/Silk Hạ Vy/sanpham6.png",
+      "/download/Ảnh làng nghề/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết thủy tiên/839960533_122179315058702573_8463421776564176194_n.jpg",
+      "/download/Ảnh làng nghề/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết thủy tiên/840094840_122179313270702573_1798523357816591698_n.jpg",
+      "/download/Ảnh làng nghề/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết thủy tiên/841013291_122179313234702573_8051992405890746565_n.jpg",
+      "/download/Ảnh làng nghề/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết thủy tiên/842308676_122179317332702573_199721434829700862_n.jpg",
+      "/download/Ảnh làng nghề/Silk Hạ Vy/Trang chi tiết sản phẩm Silk Hạ Vy/lụa họa tiết thủy tiên/842329010_122179317548702573_3893334904783706225_n.jpg"
     ],
     "sourcePdfPage": 130,
     "detailTemplate": "profile",
@@ -5435,11 +5435,11 @@ export const products =
     "hoaTietVaKieuDang": "",
     "isFeatured": false,
     "images": [
-      "/download/images/product_detail/prod_sample_main.jpg",
-      "/download/images/product_detail/prod_sample_thumb1.jpg",
-      "/download/images/product_detail/prod_sample_thumb2.jpg",
-      "/download/images/product_detail/prod_sample_thumb3.jpg",
-      "/download/images/product_detail/prod_sample_thumb4.jpg"
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/sanpham1.png",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/sanpham2(1).png",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/sanpham3.png",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/sanpham1.png",
+      "/download/Ảnh làng nghề/Nón lá Hải Yến/sanpham3.png"
     ],
     "sourcePdfPage": 42,
     "detailTemplate": "tabs",

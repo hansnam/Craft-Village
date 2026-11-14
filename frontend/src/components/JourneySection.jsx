@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { brandAssets, journeyContent } from "../data/homeData.js";
 
 export default function JourneySection() {
@@ -44,13 +45,13 @@ export default function JourneySection() {
             </div>
 
             <div className="journey-content__cta-row">
-              <a
+              <Link
                 className="journey-content__btn"
-                href={journeyContent.ctaHref}
+                to={journeyContent.ctaHref}
                 data-cursor="link"
               >
                 {journeyContent.ctaLabel}
-              </a>
+              </Link>
             </div>
           </div>
         </div>

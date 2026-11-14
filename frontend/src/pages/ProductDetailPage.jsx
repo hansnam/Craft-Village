@@ -181,23 +181,36 @@ export default function ProductDetailPage() {
     }
   };
 
-  // Related products (prioritize same facility)
+  // Related products (strictly same facility first, then same craft village)
   const relatedProducts = useMemo(() => {
     if (!product) return [];
+
+    const facilityVillageMap = new Map(
+      facilities.map((f) => [f.id, f.langNgheId])
+    );
+    const currentVillageId = facilityVillageMap.get(product.coSoSanXuatId);
 
     const sameFacility = products.filter(
       (p) => p.coSoSanXuatId === product.coSoSanXuatId && p.id !== product.id
     );
 
-    const others = products.filter(
-      (p) => p.id !== product.id && p.coSoSanXuatId !== product.coSoSanXuatId
-    );
+    const sameVillage = currentVillageId
+      ? products.filter(
+          (p) =>
+            p.id !== product.id &&
+            p.coSoSanXuatId !== product.coSoSanXuatId &&
+            facilityVillageMap.get(p.coSoSanXuatId) === currentVillageId
+        )
+      : [];
 
-    return [...sameFacility, ...others].slice(0, 6);
+    return [...sameFacility, ...sameVillage].slice(0, 6);
   }, [product]);
 
   // Carousel controls for related products
   const [carouselIndex, setCarouselIndex] = useState(0);
+  useEffect(() => {
+    setCarouselIndex(0);
+  }, [product?.id]);
   const maxCarouselIndex = Math.max(0, relatedProducts.length - 3);
 
   const prevCarousel = () => {
@@ -233,11 +246,11 @@ export default function ProductDetailPage() {
   const isTabsTemplate = product.detailTemplate === "tabs";
   const isChairPdf52 = product.id === "SP_MTD_GMTDM";
   // Lotus Quote Banner & Contact Card assets from Figma Frame 1184:137
-  const defaultLotusQuoteBanner = "/download/images/product_detail/product_lotus_quote_banner.png";
-  const defaultContactCardBg = "/download/images/product_detail/product_contact_card_bg.png";
-  const defaultContactThumb = "/download/images/product_detail/product_contact_artisan_thumb.png";
-  const defaultFeatureMaterial = "/download/images/product_detail/product_feature_material_card.png";
-  const defaultFeatureDesign = "/download/images/product_detail/product_feature_design_card.png";
+  const defaultLotusQuoteBanner = "/download/Ảnh làng nghề/product_detail/product_lotus_quote_banner.png";
+  const defaultContactCardBg = "/download/Ảnh làng nghề/product_detail/product_contact_card_bg.png";
+  const defaultContactThumb = "/download/Ảnh làng nghề/product_detail/product_contact_artisan_thumb.png";
+  const defaultFeatureMaterial = "/download/Ảnh làng nghề/product_detail/product_feature_material_card.png";
+  const defaultFeatureDesign = "/download/Ảnh làng nghề/product_detail/product_feature_design_card.png";
 
   const quoteImage = defaultLotusQuoteBanner;
   const isLotusBanner = true;
@@ -960,7 +973,7 @@ export default function ProductDetailPage() {
                     {product.sourcePdfPage === 42 && (
                       <div className="product-tab-reference42">
                         <p>Khâu nón (thắt nón) được coi là công đoạn rất khó, đòi hỏi sự khéo léo của mỗi người bởi nếu không khéo lá sẽ bị rách. Điều quan trọng là mũi khâu phải ngắn, lỗ nhỏ để chiếc nón tròn, khít và mịn từ mép lá đến đường khâu. Các mối nối sợi móc được giấu kín, chỉ còn những mũi khâu đều tăm tắp.</p>
-                        <img src={resolveMockAsset('/download/images/product_detail/pdf42_embroidery.jpg')} alt="Chi tiết thêu trên nón cưới" />
+                        <img src={resolveMockAsset('/download/Ảnh làng nghề/product_detail/pdf42_embroidery.jpg')} alt="Chi tiết thêu trên nón cưới" />
                       </div>
                     )}
                     <div className="product-specs-grid">

@@ -1,17 +1,17 @@
-import heroBgImage from "../../download/images/Trang chủ/header.png";
-import productOneImage from "../../download/images/Trang chủ/sanphamnoibat1.png";
-import productTwoImage from "../../download/images/Trang chủ/sanphamnoibat2.jpg";
-import productThreeImage from "../../download/images/Trang chủ/sanphamnoibat3.png";
-import productFourImage from "../../download/images/Trang chủ/sanphamnoibat4.jpeg";
-import productFiveImage from "../../download/images/Trang chủ/sanphamnoibat5.jpeg";
-import journeyImage from "../../download/images/Trang chủ/vechungtoi.jpg";
-import villageBambooImage from "../../download/images/Trang chủ/langnghe1.jpg";
-import villageSilkImage from "../../download/images/Trang chủ/langnghe2.jpg";
-import villageFanImage from "../../download/images/Trang chủ/langnghe3.png";
-import villageHatImage from "../../download/images/Trang chủ/langnghe4.jpeg";
-import villagePotteryImage from "../../download/images/Trang chủ/langnghe5.jpeg";
-import joinBannerImage from "../../download/images/Trang chủ/banner.jpg";
-import craftFolioLogo from "../../download/images/Những thứ khác =_/logo.png";
+import heroBgImage from "../../download/Ảnh làng nghề/Trang chủ/header.png";
+import productOneImage from "../../download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham1.png";
+import productTwoImage from "../../download/Ảnh làng nghề/CS Mây tre việt quang/sanpham1.jpg";
+import productThreeImage from "../../download/Ảnh làng nghề/Nón lá Hải Yến/sanpham2(1).png";
+import productFourImage from "../../download/Ảnh làng nghề/CS Lụa nha xá/sanpham1.png";
+import productFiveImage from "../../download/Ảnh làng nghề/CS hoàng anh ceramics/Bản sao của Sanpham1.jpg";
+import journeyImage from "../../download/Ảnh làng nghề/Trang chủ/vechungtoi.jpg";
+import villageBambooImage from "../../download/Ảnh làng nghề/Trang chủ/langnghe1.jpg";
+import villageSilkImage from "../../download/Ảnh làng nghề/Trang chủ/langnghe2.jpg";
+import villageFanImage from "../../download/Ảnh làng nghề/Trang chủ/langnghe3.png";
+import villageHatImage from "../../download/Ảnh làng nghề/Trang chủ/langnghe4.jpeg";
+import villagePotteryImage from "../../download/Ảnh làng nghề/Trang chủ/langnghe5.jpeg";
+import joinBannerImage from "../../download/Ảnh làng nghề/Trang chủ/banner.jpg";
+import craftFolioLogo from "../../download/Ảnh làng nghề/logo.png";
 
 export const brandAssets = {
   logo: craftFolioLogo,
@@ -30,45 +30,45 @@ export const heroContent = {
 
 export const featuredProducts = [
   {
-    id: "SP_QCS_DAHT",
-    name: "Dấu Ấn Hà Thành",
-    description: "Gửi nét đẹp Thủ đô qua từng cánh quạt.",
+    id: "SP_QCS_QLTDG",
+    name: "Quạt Linh Thú Dân Gian",
+    description: "Nét vẽ linh thú truyền thống trên nan tre thủ công Chàng Sơn.",
     image: productOneImage,
-    alt: "Quạt thủ công Dấu Ấn Hà Thành trên nền Hồ Gươm",
-    href: "/san-pham/SP_QCS_DAHT",
+    alt: "Quạt Linh Thú Dân Gian thủ công làng Chàng Sơn",
+    href: "/san-pham/SP_QCS_QLTDG",
   },
   {
-    id: "SP_MTD_VDNT",
-    name: "Vân Đăng Nan Tre",
-    description: "Đan nét thủ công, thắp sáng không gian.",
+    id: "SP_MTD_TXMTDHD",
+    name: "Túi Xách Mây Tre Đan Hồng Đan",
+    description: "Đan nét thủ công mộc mạc, tinh tế cho phong cách hiện đại.",
     image: productTwoImage,
     imageVariant: "bamboo-lamp",
-    alt: "Đèn thả trần Vân Đăng Nan Tre đan thủ công",
-    href: "/san-pham/SP_MTD_VDNT",
+    alt: "Túi Xách Mây Tre Đan Hồng Đan làng Phú Vinh",
+    href: "/san-pham/SP_MTD_TXMTDHD",
   },
   {
-    id: "SP_NLC_NHS",
-    name: "Nón Hỷ Sắc",
-    description: "Gửi trao nét đẹp, vun đắp duyên lành.",
+    id: "SP_NLC_NQTKN",
+    name: "Nón Quai Thao Kim Nguyệt",
+    description: "Dáng nón truyền thống kết hợp chi tiết trang trí tinh xảo.",
     image: productThreeImage,
-    alt: "Nón Hỷ Sắc thêu họa tiết chim hạc và chữ Hỷ",
-    href: "/san-pham/SP_NLC_NHS",
+    alt: "Nón Quai Thao Kim Nguyệt làng Chuông",
+    href: "/san-pham/SP_NLC_NQTKN",
   },
   {
-    id: "SP_LNX_ADHV",
-    name: "Áo Dài Lụa Hoa Văn",
-    description: "Dáng lụa thanh tao, lưu giữ nét duyên truyền thống.",
+    id: "SP_LNX_01",
+    name: "Lụa Hoa Văn Phượng Vũ",
+    description: "Tơ tằm Nha Xá mềm mại, dệt hoa văn phượng múa thanh tao.",
     image: productFourImage,
-    alt: "Áo dài lụa dệt hoa văn truyền thống",
-    href: "/san-pham/SP_LNX_ADHV",
+    alt: "Lụa Hoa Văn Phượng Vũ dệt truyền thống Nha Xá",
+    href: "/san-pham/SP_LNX_01",
   },
   {
-    id: "SP_GBT_BGLH",
-    name: "Bình Gốm Liên Hoa",
-    description: "Đắp nổi tinh xảo, điểm sáng không gian sang trọng.",
+    id: "SP_GBT_01",
+    name: "Ống Heo Súp Lơ",
+    description: "Gốm Bát Tràng tạo hình sáng tạo, men màu sắc nét thủ công.",
     image: productFiveImage,
-    alt: "Bình gốm nghệ thuật đắp nổi hoa thanh nhã",
-    href: "/san-pham/SP_GBT_BGLH",
+    alt: "Ống Heo Súp Lơ gốm thủ công Bát Tràng",
+    href: "/san-pham/SP_GBT_01",
   },
 ];
 
@@ -83,7 +83,7 @@ export const journeyContent = {
     "Qua đó, doanh nghiệp có thể dễ dàng khám phá các sản phẩm thủ công, tìm hiểu quy trình sản xuất, lựa chọn cơ sở phù hợp và gửi yêu cầu hợp tác trực tiếp.",
   ],
   ctaLabel: "Tìm hiểu thêm",
-  ctaHref: "#villages",
+  ctaHref: "/ve-chung-toi",
 };
 
 export const craftVillages = [

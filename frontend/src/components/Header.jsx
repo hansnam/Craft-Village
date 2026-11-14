@@ -64,17 +64,21 @@ export default function Header() {
 
     if (
       location.pathname.startsWith("/lang-nghe") ||
-      location.pathname.startsWith("/co-so")
+      location.pathname.startsWith("/co-so") ||
+      location.pathname.startsWith("/san-pham")
     ) {
       setActiveNav("villages");
       return undefined;
     }
 
-    const updateActiveOnScroll = () => {
-      const scrollPos = window.scrollY + 180;
-      const villagesEl = document.getElementById("villages");
+    if (location.pathname !== "/") {
+      setActiveNav("");
+      return undefined;
+    }
 
-      if (villagesEl && scrollPos >= villagesEl.offsetTop) {
+    const updateActiveOnScroll = () => {
+      const villagesEl = document.getElementById("villages");
+      if (villagesEl && villagesEl.getBoundingClientRect().top <= 220) {
         setActiveNav("villages");
       } else {
         setActiveNav("home");

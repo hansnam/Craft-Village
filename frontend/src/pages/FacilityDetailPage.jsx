@@ -73,6 +73,9 @@ export default function FacilityDetailPage() {
     ? reviews.filter((r) => r.coSoSanXuatId === facility.id)
     : [];
 
+  const showCapacities =
+    facility.id !== "GBT_HAC" && facilityCapacities.length > 0;
+
   const handleOpenLightbox = (imageUrl, title) => {
     setLightbox({
       isOpen: true,
@@ -125,11 +128,11 @@ export default function FacilityDetailPage() {
         onOpenLightbox={handleOpenLightbox}
       />
 
-      {/* Thanh điều hướng nội dung: Sản phẩm, Câu chuyện, Năng lực, Dự án, Đánh giá */}
+      {/* Thanh điều hướng nội dung: Sản phẩm, Câu chuyện, Năng lực, Đánh giá */}
       <FacilityNav
         activeSection={activeSection}
         onSelectSection={setActiveSection}
-        hasProjects={facilityProjects.length > 0}
+        hasCapacities={showCapacities}
       />
 
       {/* 2. Danh sách Sản phẩm */}
@@ -154,11 +157,13 @@ export default function FacilityDetailPage() {
       />
 
       {/* 4. Năng lực sản xuất */}
-      <FacilityCapacities
-        capacities={facilityCapacities}
-        facilityName={facility.name}
-        onOpenLightbox={handleOpenLightbox}
-      />
+      {showCapacities && (
+        <FacilityCapacities
+          capacities={facilityCapacities}
+          facilityName={facility.name}
+          onOpenLightbox={handleOpenLightbox}
+        />
+      )}
 
       {/* 5. Dự án đã thực hiện (chỉ hiển thị nếu có nội dung) */}
       <FacilityProjects

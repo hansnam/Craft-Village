@@ -1,5 +1,5 @@
 const allBundledModules = import.meta.glob(
-  "../../download/images/**/*.{png,jpg,jpeg,webp,avif,svg,PNG,JPG,JPEG,WEBP}",
+  "../../download/Ảnh làng nghề/**/*.{png,jpg,jpeg,webp,avif,svg,mp4,PNG,JPG,JPEG,WEBP,MP4}",
   { eager: true, import: "default" }
 );
 
@@ -34,7 +34,7 @@ const exactLowerLookup = new Map();
 const asciiSlugLookup = new Map();
 const asciiNoExtLookup = new Map();
 
-const GLOB_PREFIX = "../../download/images/";
+const GLOB_PREFIX = "../../download/Ảnh làng nghề/";
 
 Object.entries(allBundledModules).forEach(([globKey, assetUrl]) => {
   if (!globKey.startsWith(GLOB_PREFIX)) return;
@@ -73,7 +73,7 @@ export function resolveMockAsset(rawPath) {
   const relativeFromImages = repaired
     .replace(/^\/+/, "")
     .replace(/^download\/+/i, "")
-    .replace(/^images\/+/i, "");
+    .replace(/^(?:images|Ảnh làng nghề)\/+/i, "");
 
   if (!relativeFromImages) return "";
 

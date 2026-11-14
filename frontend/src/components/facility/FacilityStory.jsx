@@ -27,7 +27,15 @@ export default function FacilityStory({ facility, onOpenLightbox }) {
           {/* Cột trái: Văn bản câu chuyện */}
           <div className="workshop-story__text-col">
             <h3 className="workshop-story__facility-name">
-              {facility?.name}
+              {/htx mây tre nón lá tạ thu hương/i.test(facility?.name || "") ? (
+                <>
+                  HTX MÂY TRE NÓN LÁ
+                  <br />
+                  TẠ THU HƯƠNG
+                </>
+              ) : (
+                facility?.name
+              )}
             </h3>
 
             {title && (
