@@ -62,7 +62,16 @@ export default function FacilityReviews({ reviews = [], facilityName = "xưởng
       <div className="workshop-section__container">
         <header className="workshop-section__header">
           <h2 id="reviews-heading" className="workshop-section__title">
-            Khách hàng nói gì về {displayTitleName}
+            {displayTitleName.toLowerCase().includes("tạ thu hương") ||
+            displayTitleName.length > 22 ? (
+              <>
+                Khách hàng nói gì về
+                <br />
+                {displayTitleName}
+              </>
+            ) : (
+              <>Khách hàng nói gì về {displayTitleName}</>
+            )}
           </h2>
         </header>
 

@@ -12,7 +12,7 @@
   --bg-paper: #fcf9f2;
   --bg-ivory: #fffdf9;
   --bg-footer: #f8f5ee;
-  --bg-card: #ffffff;
+  --bg-card: #e9e3e3;
   --brand-crimson: #8f1d1d;
   --brand-crimson-deep: #870a0d;
   --brand-crimson-hover: #6e1111;
@@ -67,7 +67,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--font-h5);
   line-height: 1.65;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 img,
@@ -865,10 +865,19 @@ h6 {
   align-items: center;
   gap: 8px;
   min-height: 38px;
+  max-width: 210px;
   padding: 0 14px;
   font-size: var(--font-h6);
   font-weight: 600;
   color: var(--brand-crimson);
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.site-header__greeting-text {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
   white-space: nowrap;
 }
 
@@ -1418,13 +1427,10 @@ h6 {
 
 /* Căn chính giữa chiếc đèn Vân Đăng Nan Tre trên cả Laptop & Điện thoại */
 .product-card__image--bamboo-lamp {
-  inset: auto;
-  top: -4.5%;
-  left: -10.5%;
-  width: 110.5%;
-  height: 109%;
-  max-width: none;
-  object-position: 100% 46%;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-position: center center;
 }
 
 .product-card__overlay {
@@ -1969,7 +1975,7 @@ h6 {
 .footer {
   position: relative;
   z-index: 10;
-  margin-top: 0;
+  margin-top: clamp(32px, 4vw, 56px);
 }
 
 .footer__silk-wrap {
@@ -1990,7 +1996,7 @@ h6 {
 
 .footer__body {
   background-color: var(--bg-footer);
-  padding: clamp(18px, 2.2vw, 32px) 0 clamp(56px, 6.2vw, 88px);
+  padding: clamp(18px, 2.2vw, 30px) 0 clamp(36px, 4vw, 52px);
 }
 
 .footer__grid {
@@ -2216,13 +2222,15 @@ h6 {
 }
 
 .footer__vision-link {
+  display: block;
   color: inherit;
   text-decoration: none;
-  transition: opacity 200ms ease;
+  cursor: pointer;
+  transition: opacity 200ms ease, transform 200ms ease;
 }
 
 .footer__vision-link:hover {
-  opacity: 0.78;
+  opacity: 0.85;
 }
 
 /* Place the vision to the left of the contact details across the website. */
@@ -3128,31 +3136,36 @@ html.custom-cursor-active select {
 }
 
 .story-nlc__upper {
+  width: min(var(--container-max), calc(100% - 112px));
+  margin-inline: auto;
   display: grid;
-  grid-template-columns: minmax(0, 0.88fr) minmax(0, 1.12fr);
-  gap: clamp(32px, 5.2vw, 76px);
-  align-items: start;
+  grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+  gap: clamp(32px, 4.2vw, 56px);
+  align-items: stretch;
 }
 
 .story-nlc__left {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .story-nlc__intro {
-  padding-left: var(--story-edge-pad);
+  padding-left: 0;
   padding-top: 4px;
-  margin-bottom: clamp(28px, 3.6vw, 46px);
+  margin-bottom: clamp(22px, 2.8vw, 32px);
 }
 
 .story-nlc__subtitle {
-  max-width: 440px;
+  max-width: 480px;
 }
 
 .story-nlc__left-media {
   width: 100%;
-  aspect-ratio: 1.08;
-  border-radius: 0 24px 24px 0;
+  flex: 1 1 auto;
+  aspect-ratio: 4 / 3;
+  max-height: 460px;
+  border-radius: 18px;
   overflow: hidden;
 }
 
@@ -3161,20 +3174,22 @@ html.custom-cursor-active select {
   height: 100%;
   display: block;
   object-fit: cover;
-  border-radius: 0 24px 24px 0;
+  border-radius: 18px;
   object-position: center center;
 }
 
 .story-nlc__right {
-  padding-right: var(--story-edge-pad);
+  padding-right: 0;
   display: flex;
   flex-direction: column;
-  gap: clamp(22px, 2.6vw, 30px);
+  justify-content: space-between;
+  gap: clamp(20px, 2.4vw, 28px);
 }
 
 .story-nlc__right-media {
   width: 100%;
-  aspect-ratio: 1.85;
+  aspect-ratio: 16 / 9;
+  max-height: 360px;
   border-radius: 18px;
   overflow: hidden;
 }
@@ -4151,12 +4166,13 @@ html.custom-cursor-active select {
   }
 
   .story-nlc__upper {
+    width: calc(100% - 64px);
     grid-template-columns: 1fr;
     gap: 28px;
   }
 
   .story-nlc__intro {
-    padding: 0 var(--story-edge-pad);
+    padding: 0;
     margin-bottom: 22px;
   }
 
@@ -4165,14 +4181,14 @@ html.custom-cursor-active select {
   }
 
   .story-nlc__left-media {
-    width: auto;
-    margin: 0 var(--story-edge-pad);
+    width: 100%;
+    margin: 0;
     aspect-ratio: 1.42;
     border-radius: 18px;
   }
 
   .story-nlc__right {
-    padding: 0 var(--story-edge-pad);
+    padding: 0;
   }
 
   .story-qcs__top,

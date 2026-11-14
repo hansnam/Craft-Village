@@ -33,6 +33,12 @@ export default function FacilityStory({ facility, onOpenLightbox }) {
                   <br />
                   TẠ THU HƯƠNG
                 </>
+              ) : /mây tre đan việt quang/i.test(facility?.name || "") ? (
+                <>
+                  MÂY TRE ĐAN
+                  <br />
+                  VIỆT QUANG
+                </>
               ) : (
                 facility?.name
               )}

@@ -56,11 +56,10 @@ export default function AboutPage() {
   const videoStream1080Url = getAssetUrl("download/Ảnh làng nghề/Về Chúng Tôi/header.mp4");
   const videoOriginalUrl = getAssetUrl("download/Ảnh làng nghề/Về Chúng Tôi/header.mp4");
   const projectAvatarUrl = getAssetUrl("download/Ảnh làng nghề/Về Chúng Tôi/avatar du an.jpg");
-  const statementStripsUrl = getAssetUrl("download/Ảnh làng nghề/Về Chúng Tôi/thông tin dự án.png");
+  const statementStripsUrl = getAssetUrl("download/Ảnh làng nghề/Về Chúng Tôi/Thông tin dự án.png");
   const missionCard1Url = getAssetUrl("download/Ảnh làng nghề/Về Chúng Tôi/sumenh.jpg");
   const missionCard2Url = getAssetUrl("download/Ảnh làng nghề/Về Chúng Tôi/sumenh(1).jpg");
   const visionCollageUrl = getAssetUrl("download/Ảnh làng nghề/Về Chúng Tôi/Tầm nhìn.png");
-  const waveBgUrl = getAssetUrl("download/Ảnh làng nghề/Về Chúng Tôi/Thiết kế chưa có tên.png");
   const botanicalPatternUrl = getAssetUrl("download/Ảnh làng nghề/Nền/nền trang cơ sở xưởng.png");
 
   return (
@@ -249,12 +248,6 @@ export default function AboutPage() {
         <section
           className="about-section about-vision"
           aria-labelledby="vision-title"
-          style={{
-            backgroundImage: `url('${waveBgUrl}')`,
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "top center",
-            backgroundSize: "cover",
-          }}
         >
           <div className="about-vision__header">
             <h2 id="vision-title" className="about-section__title">

@@ -181,36 +181,23 @@ export default function ProductDetailPage() {
     }
   };
 
-  // Related products (strictly same facility first, then same craft village)
+  // Related products (prioritize same facility)
   const relatedProducts = useMemo(() => {
     if (!product) return [];
 
-    const facilityVillageMap = new Map(
-      facilities.map((f) => [f.id, f.langNgheId])
-    );
-    const currentVillageId = facilityVillageMap.get(product.coSoSanXuatId);
-
     const sameFacility = products.filter(
-      (p) => p.coSoSanXuatId === product.coSoSanXuatId && p.id !== product.id && !p.isHomeFeaturedOnly
+      (p) => p.coSoSanXuatId === product.coSoSanXuatId && p.id !== product.id
     );
 
-    const sameVillage = currentVillageId
-      ? products.filter(
-          (p) =>
-            p.id !== product.id &&
-            p.coSoSanXuatId !== product.coSoSanXuatId &&
-            facilityVillageMap.get(p.coSoSanXuatId) === currentVillageId
-        )
-      : [];
+    const others = products.filter(
+      (p) => p.id !== product.id && p.coSoSanXuatId !== product.coSoSanXuatId
+    );
 
-    return [...sameFacility, ...sameVillage].slice(0, 6);
+    return [...sameFacility, ...others].slice(0, 6);
   }, [product]);
 
   // Carousel controls for related products
   const [carouselIndex, setCarouselIndex] = useState(0);
-  useEffect(() => {
-    setCarouselIndex(0);
-  }, [product?.id]);
   const maxCarouselIndex = Math.max(0, relatedProducts.length - 3);
 
   const prevCarousel = () => {
@@ -267,7 +254,7 @@ export default function ProductDetailPage() {
   const shapeImage = { url: explicitShapeUrl };
 
   return (
-    <div className={`product-detail-page ${isTabsTemplate ? "has-tabs-template" : "has-profile-template"}${profileAssets ? " product-detail-page--profile-reference" : ""}${isLotusBanner ? " product-detail-page--lotus" : ""}${facility?.langNgheId === "LNX" ? " product-detail-page--silk" : ""}${isChairPdf52 ? " product-detail-page--pdf52" : ""}`}>
+    <div className={`product-detail-page ${isTabsTemplate ? "has-tabs-template" : "has-profile-template"}${profileAssets ? " product-detail-page--profile-reference" : ""}${isLotusBanner ? " product-detail-page--lotus" : ""}${isChairPdf52 ? " product-detail-page--pdf52" : ""}`}>
       {/* Toast feedback notification */}
       {toastMessage && (
         <div className="craft-toast" role="status" aria-live="polite">
@@ -609,20 +596,9 @@ export default function ProductDetailPage() {
                         <span className="product-profile-contact-row__label">Hotline</span>
                       </div>
                       <span className="product-profile-contact-row__val">
-                        {product.id === "SP_MTD_GMTDM" ? "0912 916 992" : (facility?.soDienThoai || "Liên hệ xưởng")}
+                        {facility?.soDienThoai ? `${facility.soDienThoai} (${facility?.chuCoSo || "Chủ xưởng"})` : "0915 062 662 (Phượng)"}
                       </span>
                     </div>
-
-                    {facility?.email?.trim() && <div className="product-profile-contact-row">
-                      <div className="product-profile-contact-row__head">
-                        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#730000" strokeWidth="2" aria-hidden="true">
-                          <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
-                          <polyline points="22,6 12,13 2,6" />
-                        </svg>
-                        <span className="product-profile-contact-row__label">Email</span>
-                      </div>
-                      <span className="product-profile-contact-row__val">{facility.email.trim()}</span>
-                    </div>}
 
                     <div className="product-profile-contact-row">
                       <div className="product-profile-contact-row__head">
@@ -644,18 +620,16 @@ export default function ProductDetailPage() {
                   <div
                     className="product-profile-contact__callout-card"
                     style={{
-                      backgroundImage: profileAssets
-                        ? `linear-gradient(rgba(247, 241, 230, 0.53), rgba(247, 241, 230, 0.53)), url('${resolveMockAsset(profileAssets.contact)}')`
-                        : facility?.images?.consultation
-                          ? `linear-gradient(rgba(247, 241, 230, 0.86), rgba(247, 241, 230, 0.86)), url('${resolveMockAsset(facility.images.consultation)}')`
-                          : undefined,
+                      backgroundImage: `url('${defaultContactCardBg}')`,
                       backgroundSize: 'cover',
                       backgroundPosition: 'center',
                     }}
                   >
-                    {profileAssets && (
-                      <img className="product-profile-contact__callout-image" src={resolveMockAsset(profileAssets.contact)} alt="Hình minh họa nghề thủ công" />
-                    )}
+                    <img
+                      className="product-profile-contact__callout-image"
+                      src={defaultContactThumb}
+                      alt="Nghệ nhân pha trà thưởng gốm"
+                    />
                     <div className="product-profile-contact__callout-content">
                       <p className="product-profile-contact__callout-prompt">
                         <strong>Bạn cần tư vấn thêm</strong><br />

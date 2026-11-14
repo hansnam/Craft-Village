@@ -98,6 +98,7 @@
   gap: 14px;
   background-color: var(--brand-crimson-deep);
   color: #ffffff;
+  text-decoration: none;
   padding: 14px 28px 14px 28px;
   border-radius: 9999px;
   border: none;
@@ -400,8 +401,8 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 20%;
-  transform: scale(1.03);
+  object-position: center center;
+  transform: none;
   transition: transform 0.6s var(--ease-luxury);
 }
 
@@ -1608,10 +1609,12 @@
 .workshop-consult__btn {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 14px;
   padding: 14px 32px;
   background-color: var(--brand-crimson, #960018);
   color: #ffffff;
+  text-decoration: none;
   border-radius: 12px;
   border: none;
   font-size: clamp(18px, 1.4vw, 22px);
@@ -1647,28 +1650,39 @@
 .workshop-consult__badges {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
-  max-width: 1080px;
+  gap: 20px;
+  max-width: 1120px;
   margin: 0 auto;
 }
+
 .workshop-consult__booking {
-  display: inline-block;
-  margin-top: 20px;
-  color: #730000;
-  font-weight: 600;
-  text-underline-offset: 3px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+  line-height: 1;
+  text-align: center;
 }
+
+.workshop-consult__booking:hover {
+  color: #ffffff;
+}
+
 .workshop-consult__badge-card {
   background-color: #ffffff;
-  border-radius: 14px;
-  padding: 14px 12px;
+  border-radius: 16px;
+  padding: 20px 18px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   text-align: center;
-  gap: 8px;
-  border: 1px solid rgba(223, 215, 203, 0.6);
-  box-shadow: 0 4px 14px rgba(92, 73, 56, 0.04);
+  gap: 10px;
+  border: 1px solid rgba(223, 215, 203, 0.55);
+  box-shadow: 0 5px 16px rgba(92, 73, 56, 0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
@@ -1679,11 +1693,18 @@
 }
 
 .workshop-consult__badge-icon-wrap {
-  width: 44px;
-  height: 44px;
+  width: 48px;
+  height: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #262320;
+}
+
+.workshop-consult__badge-svg {
+  width: 44px;
+  height: 44px;
+  display: block;
 }
 
 .workshop-consult__badge-icon {
@@ -1703,8 +1724,9 @@
   font-size: 13.5px;
   font-weight: 500;
   color: #181010;
-  line-height: 1.35;
+  line-height: 1.45;
   margin: 0;
+  white-space: pre-line;
 }
 
 @media (max-width: 1024px) {

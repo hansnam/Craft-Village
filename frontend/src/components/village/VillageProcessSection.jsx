@@ -1,33 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { productionProcesses } from "../../data/mockData.js";
 import { resolveMockAsset } from "../../utils/resolveMockAsset.js";
-
-function DashedStepConnector({ fromLeft }) {
-  const pathData = fromLeft
-    ? "M 355 4 C 355 78, 645 52, 645 126"
-    : "M 645 4 C 645 78, 355 52, 355 126";
-
-  return (
-    <div className="process-connector" data-process-reveal aria-hidden="true">
-      <svg
-        className="process-connector__svg"
-        viewBox="0 0 1000 130"
-        preserveAspectRatio="none"
-      >
-        <path
-          d={pathData}
-          fill="none"
-          stroke="#a87063"
-          strokeWidth="1.7"
-          strokeDasharray="6 6"
-          strokeLinecap="round"
-          vectorEffect="non-scaling-stroke"
-        />
-      </svg>
-      <span className="process-connector__mobile-line" />
-    </div>
-  );
-}
+import AnimatedDrawingCurve from "../effects/AnimatedDrawingCurve.jsx";
 
 export default function VillageProcessSection({ village }) {
   const sectionRef = useRef(null);
@@ -140,7 +114,12 @@ export default function VillageProcessSection({ village }) {
                   </div>
                 </article>
 
-                {!isLast && <DashedStepConnector fromLeft={isImageLeft} />}
+                {!isLast && (
+                  <AnimatedDrawingCurve
+                    direction={isImageLeft ? "left-to-right" : "right-to-left"}
+                    index={idx}
+                  />
+                )}
               </React.Fragment>
             );
           })}

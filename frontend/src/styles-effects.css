@@ -42,9 +42,7 @@
 }
 
 .footer__waves {
-  transform: translate3d(0, calc(var(--silk-parallax-slow, 0px) * -0.16), 0);
-  transition: transform 60ms linear;
-  will-change: transform;
+  transform: none;
 }
 
 .silk-parallax-layer {

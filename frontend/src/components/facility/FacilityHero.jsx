@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 import { resolveMockAsset, resolveFacilityThumbnail } from "../../utils/resolveMockAsset.js";
 
 /**
@@ -165,7 +166,21 @@ export default function FacilityHero({ facility, onOpenConnect, onOpenLightbox }
         <div className="workshop-hero__top-row">
           <div className="workshop-hero__content">
             <h1 id="workshop-title" className="workshop-hero__title">
-              {facility?.name || "Cơ sở sản xuất"}
+              {/mây tre đan việt quang/i.test(facility?.name || "") ? (
+                <>
+                  MÂY TRE ĐAN
+                  <br />
+                  VIỆT QUANG
+                </>
+              ) : /htx mây tre nón lá tạ thu hương/i.test(facility?.name || "") ? (
+                <>
+                  HTX MÂY TRE NÓN LÁ
+                  <br />
+                  TẠ THU HƯƠNG
+                </>
+              ) : (
+                facility?.name || "Cơ sở sản xuất"
+              )}
             </h1>
 
             <p className="workshop-hero__desc">
@@ -175,10 +190,9 @@ export default function FacilityHero({ facility, onOpenConnect, onOpenLightbox }
             </p>
 
             <div className="workshop-hero__action">
-              <button
-                type="button"
+              <Link
+                to={`/dat-lich/${facility?.id || ""}`}
                 className="workshop-hero__cta-btn"
-                onClick={onOpenConnect}
                 data-cursor="button"
               >
                 <span>Gửi yêu cầu kết nối</span>
@@ -187,7 +201,7 @@ export default function FacilityHero({ facility, onOpenConnect, onOpenLightbox }
                     <path d="M4 10h12M11 5l5 5-5 5" />
                   </svg>
                 </span>
-              </button>
+              </Link>
             </div>
           </div>
 

@@ -1,10 +1,10 @@
 const allBundledModules = {
   ...import.meta.glob(
-    "../../download/images/**/*.{png,jpg,jpeg,webp,avif,svg,mp4,PNG,JPG,JPEG,WEBP,MP4}",
+    "../../download/Ảnh làng nghề/**/*.{png,jpg,jpeg,webp,avif,svg,mp4,PNG,JPG,JPEG,WEBP,MP4}",
     { eager: true, import: "default" }
   ),
   ...import.meta.glob(
-    "../../download/Ảnh làng nghề/**/*.{png,jpg,jpeg,webp,avif,svg,mp4,PNG,JPG,JPEG,WEBP,MP4}",
+    "../../download/images/**/*.{png,jpg,jpeg,webp,avif,svg,mp4,PNG,JPG,JPEG,WEBP,MP4}",
     { eager: true, import: "default" }
   ),
 };

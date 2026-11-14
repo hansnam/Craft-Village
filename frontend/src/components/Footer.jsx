@@ -276,11 +276,12 @@ export default function Footer() {
         <div className="section-container footer__grid">
           {/* Left Column: Brand + Contact + Newsletter */}
           <div className="footer__left">
-            <a
+            <Link
               className="footer__brand"
-              href="#home"
-              aria-label="Craft Folio - Về đầu trang"
+              to="/"
+              aria-label="Craft Folio - Về trang chủ"
               data-cursor="link"
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             >
               <span className="brand__logo-frame brand__logo-frame--footer">
                 <img
@@ -290,7 +291,7 @@ export default function Footer() {
                 />
               </span>
               <span className="footer__brand-name">Craft Folio</span>
-            </a>
+            </Link>
 
             <address className="footer__contact-list">
               <div className="footer__contact-row">
@@ -396,15 +397,18 @@ export default function Footer() {
 
           {/* Right Column: Vision Statement */}
           <div className="footer__right">
-            <h3 className="footer__vision-title">
-              <Link to="/ve-chung-toi" className="footer__vision-link" data-cursor="link">
-                Tầm nhìn của chúng tôi
-              </Link>
-            </h3>
-            <p className="footer__vision-quote">
-              “CRAFT FOLIO hướng đến xây dựng hệ thống Digital Portfolio trực quan, giúp doanh nghiệp dễ dàng tìm kiếm, đánh giá và kết nối với các xưởng phù hợp. Trong giai đoạn đầu, dự án tập trung phát triển phiên bản thử nghiệm, xây dựng hồ sơ xưởng thực tế và tiếp nhận phản hồi để hoàn thiện nền tảng”
-            </p>
-            <p className="footer__vision-motto">SỐ HÓA – KẾT NỐI – LAN TỎA</p>
+            <Link
+              to="/ve-chung-toi"
+              className="footer__vision-link"
+              data-cursor="link"
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            >
+              <h3 className="footer__vision-title">Tầm nhìn của chúng tôi</h3>
+              <p className="footer__vision-quote">
+                “CRAFT FOLIO hướng đến xây dựng hệ thống Digital Portfolio trực quan, giúp doanh nghiệp dễ dàng tìm kiếm, đánh giá và kết nối với các xưởng phù hợp. Trong giai đoạn đầu, dự án tập trung phát triển phiên bản thử nghiệm, xây dựng hồ sơ xưởng thực tế và tiếp nhận phản hồi để hoàn thiện nền tảng”
+              </p>
+              <p className="footer__vision-motto">SỐ HÓA – KẾT NỐI – LAN TỎA</p>
+            </Link>
           </div>
         </div>
       </div>

@@ -5,23 +5,105 @@ import { resolveMockAsset, resolveFacilityThumbnail } from "../../utils/resolveM
 const DEFAULT_BADGES = [
   {
     id: "design",
-    icon: "/download/images/facility_common/badge_icon_design.png",
-    text: "Miễn phí thiết kế và in mẫu theo yêu cầu",
+    text: "Miễn phí thiết kế và in\nmẫu theo yêu cầu",
+    renderIcon: () => (
+      <svg
+        viewBox="0 0 48 48"
+        width="40"
+        height="40"
+        fill="none"
+        stroke="#181010"
+        strokeWidth="1.65"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        aria-hidden="true"
+      >
+        <path d="M36.5 23.5c0 7.456-6.716 13.5-15 13.5-2.38 0-4.63-.5-6.63-1.39L7.5 37.5l2.1-5.82C7.98 29.43 6.5 26.6 6.5 23.5 6.5 16.044 13.216 10 21.5 10c4.85 0 9.16 2.07 11.9 5.28" />
+        <line x1="14" y1="21" x2="24" y2="21" />
+        <line x1="14" y1="25.5" x2="27" y2="25.5" />
+        <line x1="17" y1="30" x2="23" y2="30" />
+        <path d="M27.5 24.5 39.2 12.8a2.4 2.4 0 0 1 3.4 3.4L30.9 27.9l-4.6 1.2 1.2-4.6Z" />
+        <path d="m36.8 15.2 3.4 3.4" />
+      </svg>
+    ),
   },
   {
     id: "handcrafted",
-    icon: "/download/images/facility_common/badge_icon_handcrafted.png",
-    text: "Cam kết 100% sản phẩm thủ công",
+    text: "Cam kết 100%\nsản phẩm thủ công",
+    renderIcon: () => (
+      <svg
+        viewBox="0 0 48 48"
+        width="40"
+        height="40"
+        fill="none"
+        stroke="#181010"
+        strokeWidth="1.6"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        aria-hidden="true"
+      >
+        <path d="M24 5.5 27.4 8l4.1-.9 1.8 3.8 4.1 1.1.1 4.2 3.2 2.7-1.6 3.9 1.6 3.9-3.2 2.7-.1 4.2-4.1 1.1-1.8 3.8-4.1-.9L24 40.5l-3.4-2.5-4.1.9-1.8-3.8-4.1-1.1-.1-4.2-3.2-2.7 1.6-3.9-1.6-3.9 3.2-2.7.1-4.2 4.1-1.1 1.8-3.8 4.1.9L24 5.5Z" />
+        <circle cx="24" cy="23" r="10.5" />
+        <path d="m18.8 23.2 3.4 3.4 7.2-7.2" strokeWidth="2" />
+      </svg>
+    ),
   },
   {
     id: "delivery",
-    icon: "/download/images/facility_common/badge_icon_delivery.png",
     text: "Giao hàng toàn quốc",
+    renderIcon: () => (
+      <svg
+        viewBox="0 0 48 48"
+        width="42"
+        height="40"
+        fill="none"
+        stroke="#181010"
+        strokeWidth="1.65"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        aria-hidden="true"
+      >
+        <line x1="5" y1="18" x2="12" y2="18" />
+        <line x1="3" y1="22.5" x2="12" y2="22.5" />
+        <line x1="6.5" y1="27" x2="12" y2="27" />
+        <rect x="12" y="13" width="19" height="18" rx="1" />
+        <path d="M31 18h7.2l4.8 6.2V31h-12V18Z" />
+        <path d="M33.8 20.8h3.4l2.8 3.6h-6.2v-3.6Z" />
+        <line x1="10" y1="31" x2="44" y2="31" />
+        <circle cx="19" cy="33.5" r="3.5" fill="#ffffff" />
+        <circle cx="19" cy="33.5" r="1.2" />
+        <circle cx="37" cy="33.5" r="3.5" fill="#ffffff" />
+        <circle cx="37" cy="33.5" r="1.2" />
+      </svg>
+    ),
   },
   {
     id: "invoice",
-    icon: "/download/images/facility_common/badge_icon_invoice.png",
-    text: "Hỗ trợ xuất hóa đơn nhanh chóng",
+    text: "Hỗ trợ xuất hóa đơn\nnhanh chóng",
+    renderIcon: () => (
+      <svg
+        viewBox="0 0 48 48"
+        width="40"
+        height="40"
+        fill="none"
+        stroke="#181010"
+        strokeWidth="1.6"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        aria-hidden="true"
+      >
+        <path d="M12 7h24v33l-3-2.2-3 2.2-3-2.2-3 2.2-3-2.2-3 2.2-3-2.2-3 2.2V7Z" />
+        <circle cx="24" cy="14.5" r="4.2" />
+        <path d="M24 12v5M25.3 13.1c-.4-.4-1.8-.5-2.2.2-.4.7.4 1.1 1.2 1.3.8.2 1.5.6 1.1 1.4-.4.7-1.8.6-2.4.1" strokeWidth="1.3" />
+        <line x1="16" y1="22" x2="32" y2="22" />
+        <rect x="15.5" y="25" width="2.8" height="2.8" />
+        <line x1="21" y1="26.4" x2="32" y2="26.4" />
+        <rect x="15.5" y="29.8" width="2.8" height="2.8" />
+        <line x1="21" y1="31.2" x2="32" y2="31.2" />
+        <rect x="15.5" y="34.6" width="2.8" height="2.8" />
+        <line x1="21" y1="36" x2="29" y2="36" />
+      </svg>
+    ),
   },
 ];
 
@@ -158,13 +240,14 @@ export default function FacilityConsultation({
 
             {/* Nút gửi yêu cầu kết nối & đặt lịch */}
             <div className="workshop-consult__action" style={{ display: "flex", flexWrap: "wrap", gap: "12px", alignItems: "center" }}>
-              <button
-                type="button"
+              <Link
+                to={`/dat-lich/${facility?.id || ""}`}
                 className="workshop-consult__btn"
-                onClick={onOpenConnect}
                 data-cursor="button"
               >
-                <span>Gửi yêu cầu kết nối</span>
+                <span className="workshop-consult__booking">
+                  Đặt lịch đến xưởng
+                </span>
                 <span className="workshop-consult__btn-icon" aria-hidden="true">
                   <svg
                     viewBox="0 0 20 20"
@@ -177,38 +260,25 @@ export default function FacilityConsultation({
                     <path d="M4 10h12M11 5l5 5-5 5" />
                   </svg>
                 </span>
-              </button>
-
+              </Link>
             </div>
           </div>
         </div>
 
         {/* 4 Thẻ Cam kết / Đặc quyền dịch vụ */}
         <div className="workshop-consult__badges" role="region" aria-label="Cam kết dịch vụ">
-          {DEFAULT_BADGES.map((badge) => {
-            const iconUrl = resolveMockAsset(badge.icon);
-            return (
-              <div key={badge.id} className="workshop-consult__badge-card">
-                <div className="workshop-consult__badge-icon-wrap">
-                  {iconUrl ? (
-                    <img
-                      src={iconUrl}
-                      alt=""
-                      className="workshop-consult__badge-icon"
-                      loading="lazy"
-                    />
-                  ) : (
-                    <div className="workshop-consult__badge-icon-fallback" />
-                  )}
-                </div>
-                <p className="workshop-consult__badge-text">{badge.text}</p>
+          {DEFAULT_BADGES.map((badge) => (
+            <div key={badge.id} className="workshop-consult__badge-card">
+              <div className="workshop-consult__badge-icon-wrap">
+                {badge.renderIcon ? badge.renderIcon() : null}
               </div>
-            );
-          })}
+              <p className="workshop-consult__badge-text">{badge.text}</p>
+            </div>
+          ))}
         </div>
-        <Link className="workshop-consult__booking" to={`/dat-lich/${facility?.id || ""}`}>
+        {/* <Link className="workshop-consult__booking" to={`/dat-lich/${facility?.id || ""}`}>
           Đặt lịch đến xưởng
-        </Link>
+        </Link> */}
       </div>
     </section>
   );

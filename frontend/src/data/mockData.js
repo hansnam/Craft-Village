@@ -31,22 +31,22 @@ export const villages =
   {
     "id": "NLC",
     "name": "Nón Làng Chuông",
-    "headerImage": "/images/Trang làng nghề/Header các trang/Nón làng chuông ảnh header.png",
+    "headerImage": "/download/Ảnh làng nghề/Trang làng nghề/Làng nón/font chữ (16).png",
     "story": {
       "template": "story-three-images",
       "title": "Chuyện làng nghề",
       "subtitle": "Nơi lưu giữ vẻ đẹp duyên dáng của chiếc nón lá Việt Nam",
       "images": [
         {
-          "url": "/images/Trang làng nghề/Làng nón/snapedit_1794647348852.jpeg",
+          "url": "/download/Ảnh làng nghề/Trang làng nghề/Làng nón/snapedit_1794647348852.jpeg",
           "alt": "Nón Làng Chuông"
         },
         {
-          "url": "/images/Trang làng nghề/Làng nón/chuyenlangnghe3.jpg",
+          "url": "/download/Ảnh làng nghề/Trang làng nghề/Làng nón/chuyenlangnghe3.jpg",
           "alt": "Nón Làng Chuông 2"
         },
         {
-          "url": "/images/Trang làng nghề/Làng nón/cơ sở sản xuất 1.jpg",
+          "url": "/download/Ảnh làng nghề/Trang làng nghề/Làng nón/cơ sở sản xuất 1.jpg",
           "alt": "Nón Làng Chuông 3"
         }
       ],
@@ -60,26 +60,26 @@ export const villages =
   {
     "id": "QCS",
     "name": "Quạt Chàng Sơn",
-    "headerImage": "/images/Trang làng nghề/Làng quạt/header.png",
+    "headerImage": "/download/Ảnh làng nghề/Trang làng nghề/Làng quạt/header.png",
     "story": {
       "template": "story-four-images",
       "title": "Chuyện làng nghề",
       "subtitle": "Chàng Sơn – nơi lưu giữ tinh hoa nghề làm quạt truyền thống Việt Nam.",
       "images": [
         {
-          "url": "/images/Trang làng nghề/Làng quạt/chuyện làng nghề 1.jpg",
+          "url": "/download/Ảnh làng nghề/Trang làng nghề/Làng quạt/chuyện làng nghề 1.jpg",
           "alt": "Quạt Chàng Sơn 1"
         },
         {
-          "url": "/images/Trang làng nghề/Làng quạt/chuyện làng nghề 2.jpg",
+          "url": "/download/Ảnh làng nghề/Trang làng nghề/Làng quạt/chuyện làng nghề 2.jpg",
           "alt": "Quạt Chàng Sơn 2"
         },
         {
-          "url": "/images/Trang làng nghề/Làng quạt/chuyện làng nghề 3.jpeg",
+          "url": "/download/Ảnh làng nghề/Trang làng nghề/Làng quạt/chuyện làng nghề 3.jpeg",
           "alt": "Quạt Chàng Sơn 3"
         },
         {
-          "url": "/images/Trang làng nghề/Làng quạt/chuyện làng nghề 4.jpeg",
+          "url": "/download/Ảnh làng nghề/Trang làng nghề/Làng quạt/chuyện làng nghề 4.jpeg",
           "alt": "Quạt Chàng Sơn 4"
         }
       ],
@@ -93,22 +93,22 @@ export const villages =
   {
     "id": "MTD",
     "name": "Mây tre đan",
-    "headerImage": "/images/Trang_lang_nghe/May_tre_dan/header.png",
+    "headerImage": "/download/Ảnh làng nghề/Trang làng nghề/Mây tre đan/header.png",
     "story": {
       "template": "story-two-images",
       "title": "Chuyện làng nghề",
       "subtitle": "Phú Vinh – Nơi những sợi mây, nan tre kết thành tinh hoa thủ công Việt.",
       "images": [
         {
-          "url": "/images/Trang làng nghề/Mây tre đan/chuyện làng nghề 1.jpg",
+          "url": "/download/Ảnh làng nghề/Trang làng nghề/Mây tre đan/chuyện làng nghề 1.jpg",
           "alt": "Sản phẩm mây tre đan Phú Vinh"
         },
         {
-          "url": "/images/Trang chủ/sanphamnoibat2.jpg",
+          "url": "/download/Ảnh làng nghề/Trang chủ/sanphamnoibat2.jpg",
           "alt": "Đèn lồng mây tre đan Phú Vinh"
         },
         {
-          "url": "/images/Trang làng nghề/Mây tre đan/chuyện làng nghề 3.jpg",
+          "url": "/download/Ảnh làng nghề/Trang làng nghề/Mây tre đan/chuyện làng nghề 3.jpg",
           "alt": "Đèn trang trí mây tre đan nghệ thuật"
         }
       ],
@@ -122,26 +122,26 @@ export const villages =
   {
     "id": "GBT",
     "name": "Gốm Bát Tràng",
-    "headerImage": "/images/Trang làng nghề/Làng gốm/header.png",
+    "headerImage": "/download/Ảnh làng nghề/Trang làng nghề/Làng gốm/header.png",
     "story": {
       "template": "story-four-images",
       "title": "Chuyện làng nghề",
       "subtitle": "Bát Tràng – Nơi đất và lửa tạo nên tinh hoa gốm Việt.",
       "images": [
         {
-          "url": "/images/Trang làng nghề/Làng gốm/chuyện làng nghề 1.jpg",
+          "url": "/download/Ảnh làng nghề/Trang làng nghề/Làng gốm/chuyện làng nghề 1.jpg",
           "alt": "Gốm Bát Tràng 1"
         },
         {
-          "url": "/images/Trang làng nghề/Làng gốm/chuyện làng nghề 2.jpeg",
+          "url": "/download/Ảnh làng nghề/Trang làng nghề/Làng gốm/chuyện làng nghề 2.jpeg",
           "alt": "Gốm Bát Tràng 2"
         },
         {
-          "url": "/images/Trang làng nghề/Làng gốm/chuyện làng nghề 3.jpg",
+          "url": "/download/Ảnh làng nghề/Trang làng nghề/Làng gốm/chuyện làng nghề 3.jpg",
           "alt": "Gốm Bát Tràng 3"
         },
         {
-          "url": "/images/Trang làng nghề/Làng gốm/chuyện làng nghề 4.jpeg",
+          "url": "/download/Ảnh làng nghề/Trang làng nghề/Làng gốm/chuyện làng nghề 4.jpeg",
           "alt": "Gốm Bát Tràng 4"
         }
       ],
@@ -155,18 +155,18 @@ export const villages =
   {
     "id": "LNX",
     "name": "Lụa Nha Xá",
-    "headerImage": "/images/Trang làng nghề/Làng lụa/header.png",
+    "headerImage": "/download/Ảnh làng nghề/Trang làng nghề/Làng lụa/header.png",
     "story": {
       "template": "story-two-images",
       "title": "Chuyện làng nghề",
       "subtitle": "Nha Xá – Nơi lưu giữ vẻ đẹp mềm mại của nghề dệt lụa truyền thống.",
       "images": [
         {
-          "url": "/images/Trang làng nghề/Làng lụa/chuyện làng nghề 1.jpg",
+          "url": "/download/Ảnh làng nghề/Trang làng nghề/Làng lụa/chuyện làng nghề 1.jpg",
           "alt": "Lụa Nha Xá 1"
         },
         {
-          "url": "/images/Trang làng nghề/Làng lụa/chuyện làng nghề 2.jpg",
+          "url": "/download/Ảnh làng nghề/Trang làng nghề/Làng lụa/chuyện làng nghề 2.jpg",
           "alt": "Lụa Nha Xá 2"
         }
       ],
@@ -298,7 +298,7 @@ export const productionProcesses =
     "step": 1,
     "description": "Bước chọn nguyên liệu có lẽ là bước quan trọng nhất trong quy trình sản xuất sản phẩm mây tre bởi nó quyết định chất lượng của một sản phẩm. Loại tre được cho là tốt nhất phải là loại tre không non, không già, mọc thẳng, có độ cứng cao.",
     "image": {
-      "url": "/images/Trang làng nghề/Mây tre đan/quy trình sản xuất 1.jpg",
+      "url": "/download/Ảnh làng nghề/Trang làng nghề/Mây tre đan/quy trình sản xuất 1.jpg",
       "alt": "Chọn nguyên liệu mây tre đan chất lượng"
     }
   },
@@ -309,7 +309,7 @@ export const productionProcesses =
     "step": 2,
     "description": "Bước tiếp theo trong quy trình sản xuất sản phẩm từ mây tre đó là sơ chế nguyên liệu. Nếu quy trình này xử lý không cẩn thận sẽ dẫn đến đồ nội thất sau khi sử dụng một thời gian sẽ bị mối mọt, ẩm mốc và làm giảm tuổi thọ của sản phẩm.",
     "image": {
-      "url": "/images/Trang làng nghề/Mây tre đan/quy trình sản xuất 2.jpg",
+      "url": "/download/Ảnh làng nghề/Trang làng nghề/Mây tre đan/quy trình sản xuất 2.jpg",
       "alt": "Sơ chế nguyên liệu"
     }
   },
@@ -320,7 +320,7 @@ export const productionProcesses =
     "step": 3,
     "description": "Đối với nguyên liệu tre: Tre được cạo vỏ, đánh bóng bằng giấy ráp rồi hun khói bằng rơm hoặc lá tre để tạo màu nâu tây hoặc nâu đen, làm khô và chống cong vênh. Khi nguội, tre được uốn thẳng. Đối với nguyên liệu mây: Mây được phơi sấy để làm khô và tạo màu. Công đoạn này đòi hỏi kinh nghiệm vì quá nhiều hoặc ít khói, gặp mưa, nắng hay phơi sấy chưa đạt đều ảnh hưởng đến màu sắc, độ óng mềm và vẻ đẹp tự nhiên của sợi mây.",
     "image": {
-      "url": "/images/Trang làng nghề/Mây tre đan/quy trình sản xuất 3.jpg",
+      "url": "/download/Ảnh làng nghề/Trang làng nghề/Mây tre đan/quy trình sản xuất 3.jpg",
       "alt": "Xử lý nguyên liệu"
     }
   },
@@ -331,7 +331,7 @@ export const productionProcesses =
     "step": 4,
     "description": "Đều quan trọng và tốn nhiều thời gian nhất trong quy trình sản xuất sản phẩm mây tre đó là chẻ sợ. Dù là mây hay tre thì đều cần chẻ sợi thì mới có thể sử dụng để đan được. Việc làm này sẽ tạo cho nguyên liệu một độ dẻo dai mới có thể thỏa sức làm nên những sản phẩm khác nhau.",
     "image": {
-      "url": "/images/Trang làng nghề/Mây tre đan/quy trình sản xuất 4.jpg",
+      "url": "/download/Ảnh làng nghề/Trang làng nghề/Mây tre đan/quy trình sản xuất 4.jpg",
       "alt": "Chẻ sợi"
     }
   },
@@ -342,7 +342,7 @@ export const productionProcesses =
     "step": 5,
     "description": "Đây cũng chính là nước cuối cùng trong quy trình sản xuất sản phẩm mây tre truyền thống. Sau khi đan xong, sản phẩm có thể được nhúng keo, sơn màu, phủ bóng bề mặt, cắt tỉa lại sao cho hoàn chỉnh nhất trước khi đóng gói và vận chuyển đến tay khách hàng. Các nguyên liệu sau khi được xử lý hoàn tất, sẽ được đan và tạo hình bởi bàn tay tài hoa, khéo léo của những người thợ thủ công lành nghề để trở thành những sản phẩm đẹp mắt và cuốn hút.",
     "image": {
-      "url": "/images/Trang làng nghề/Mây tre đan/quy trình sản xuất 5.jpg",
+      "url": "/download/Ảnh làng nghề/Trang làng nghề/Mây tre đan/quy trình sản xuất 5.jpg",
       "alt": "Thi công chế tác sản phẩm"
     }
   },
@@ -485,7 +485,7 @@ export const productionProcesses =
     "step": 5,
     "description": "Lụa được nhuộm màu theo yêu cầu, sau đó giặt sạch, làm khô và kiểm tra chất lượng. Công đoạn hoàn thiện giúp vải giữ được màu sắc bền đẹp, độ mềm mại và thoáng mát trước khi đến tay khách hàng.",
     "image": {
-      "url": "/images/Trang làng nghề/Làng lụa/quy trình sản xuất 5.jpg",
+      "url": "/download/Ảnh làng nghề/Trang làng nghề/Làng lụa/quy trình sản xuất 5.png",
       "alt": "Nhuộm màu và hoàn thiện"
     }
   }
@@ -747,9 +747,9 @@ export const facilities =
     "storyTitle": "Từ sợi mây, nan tre – Gìn giữ hồn nghề thủ công",
     "storyContent": "Gắn bó với làng nghề mây tre đan Phú Vinh, nghệ nhân Nguyễn Văn Tĩnh tiếp nối truyền thống gia đình và gìn giữ những kỹ thuật thủ công được truyền lại qua nhiều thế hệ. Với ông, để tạo nên một sản phẩm đẹp không chỉ cần đôi bàn tay khéo léo mà còn đòi hỏi sự sáng tạo, kiên trì và cẩn trọng trong từng chi tiết. Từ những sợi mây, nan tre quen thuộc, người thợ tạo nên các sản phẩm vừa đáp ứng nhu cầu sử dụng, vừa thể hiện giá trị thẩm mỹ của nghề thủ công truyền thống. Hành trình của nghệ nhân Nguyễn Văn Tĩnh cũng góp phần đưa nghề mây tre đan Phú Vinh tiếp tục phát triển trong đời sống hiện đại.",
     "images": {
-      "header": "/images/CS Mây tre việt quang/header.png",
-      "consultation": "/images/CS Mây tre việt quang/tuvan.png",
-      "imageStory": "/images/CS Mây tre việt quang/cauchuyen.jpeg"
+      "header": "/download/Ảnh làng nghề/CS Mây tre việt quang/header.png",
+      "consultation": "/download/Ảnh làng nghề/CS Mây tre việt quang/tuvan.jpg",
+      "imageStory": "/download/Ảnh làng nghề/CS Mây tre việt quang/cauchuyen.jpeg"
     },
     "dienTichXuong": {
       "value": 120,
@@ -1355,7 +1355,7 @@ export const capacities =
     "order": 1,
     "description": "Đa dạng sản phẩm thủ công từ mây, tre và giang đan, mang vẻ đẹp mộc mạc và giá trị truyền thống.",
     "image": {
-      "url": "/images/CS Mây tre việt quang/nanglucsanxuat1.webp",
+      "url": "/download/Ảnh làng nghề/CS Mây tre việt quang/nanglucsanxuat1.png",
       "alt": "Sản phẩm mây tre đan Mây Tre Đan Việt Quang"
     }
   },
@@ -1366,7 +1366,7 @@ export const capacities =
     "order": 2,
     "description": "Kế thừa kinh nghiệm làm nghề qua nhiều thế hệ, chú trọng sự tỉ mỉ trong từng công đoạn đan.",
     "image": {
-      "url": "/images/CS Mây tre việt quang/nanglucsanxuat2.webp",
+      "url": "/download/Ảnh làng nghề/CS Mây tre việt quang/nanglucsanxuat2.png",
       "alt": "Kỹ thuật đan thủ công Mây Tre Đan Việt Quang"
     }
   },
@@ -1821,7 +1821,7 @@ export const projects =
     "coSoSanXuatId": "MTD_MTDVQ",
     "name": "Phát triển sản phẩm thủ công mỹ nghệ sáng tạo",
     "description": "Dưới sự dẫn dắt của nghệ nhân Nguyễn Văn Tĩnh, xưởng duy trì kỹ thuật đan thủ công truyền thống, đồng thời cải tiến mẫu mã để đáp ứng nhu cầu thị trường.",
-    "image": "/download/Ảnh làng nghề/CS Mây tre việt quang/duan3.jpg",
+    "image": "/download/Ảnh làng nghề/CS Mây tre việt quang/duan3.png",
     "link": "",
     "createdAt": "",
     "sourceNote": "Nội dung thiết kế PDF 26, chưa xác minh thực tế."

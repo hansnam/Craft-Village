@@ -78,16 +78,29 @@ export default function Header() {
 
     const updateActiveOnScroll = () => {
       const villagesEl = document.getElementById("villages");
-      if (villagesEl && villagesEl.getBoundingClientRect().top <= 220) {
-        setActiveNav("villages");
-      } else {
-        setActiveNav("home");
+      if (villagesEl) {
+        const rect = villagesEl.getBoundingClientRect();
+        const triggerLine = Math.max(320, window.innerHeight * 0.58);
+        if (rect.top <= triggerLine && rect.bottom >= 120) {
+          setActiveNav("villages");
+          return;
+        }
       }
+      setActiveNav("home");
     };
 
-    window.addEventListener("scroll", updateActiveOnScroll, { passive: true });
+    window.addEventListener("scroll", updateActiveOnScroll, {
+      passive: true,
+      capture: true,
+    });
+    window.addEventListener("resize", updateActiveOnScroll, { passive: true });
     updateActiveOnScroll();
-    return () => window.removeEventListener("scroll", updateActiveOnScroll);
+    return () => {
+      window.removeEventListener("scroll", updateActiveOnScroll, {
+        capture: true,
+      });
+      window.removeEventListener("resize", updateActiveOnScroll);
+    };
   }, [location.pathname]);
 
   const jumpToSection = (event, targetHash, navId) => {
@@ -216,9 +229,14 @@ export default function Header() {
           <div className="site-header__actions">
             {currentUser ? (
               <>
-                <span className="site-header__greeting">
+                <span
+                  className="site-header__greeting"
+                  title={`Xin chào, ${currentUser.userName}`}
+                >
                   <span className="site-header__user-dot" aria-hidden="true" />
-                  <span>Xin chào, {currentUser.userName}</span>
+                  <span className="site-header__greeting-text">
+                    Xin chào, {currentUser.userName}
+                  </span>
                 </span>
                 <span className="site-header__divider" aria-hidden="true">
                   |
