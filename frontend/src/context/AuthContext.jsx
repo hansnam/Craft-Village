@@ -8,6 +8,7 @@ import React, {
   useState,
 } from "react";
 import { users as initialMockUsers } from "../data/mockData.js";
+import { ensureDemoSeedData } from "../utils/userDataStorage.js";
 
 const USERS_STORAGE_KEY = "users";
 const CURRENT_USER_STORAGE_KEY = "currentUser";
@@ -137,9 +138,10 @@ export function AuthProvider({ children }) {
   const pendingActionRef = useRef(null);
   const toastTimersRef = useRef(new Map());
 
-  // Khởi tạo danh sách users trong localStorage ngay lần chạy đầu tiên
+  // Khởi tạo danh sách users & dữ liệu demo trong localStorage ngay lần chạy đầu tiên
   useEffect(() => {
     readOrInitializeUsers();
+    ensureDemoSeedData();
   }, []);
 
   useEffect(() => {
@@ -160,9 +162,12 @@ export function AuthProvider({ children }) {
   }, []);
 
   const showToast = useCallback(
-    ({ title, message = "", type = "success" }) => {
+    ({ title, message = "", type = "success", actionLabel = "", onAction = null }) => {
       const id = `toast_${Date.now()}_${Math.random().toString(36).slice(2, 7)}`;
-      setToasts((prev) => [...prev.slice(-2), { id, title, message, type }]);
+      setToasts((prev) => [
+        ...prev.slice(-2),
+        { id, title, message, type, actionLabel, onAction },
+      ]);
 
       const timerId = window.setTimeout(() => {
         toastTimersRef.current.delete(id);
@@ -294,6 +299,12 @@ export function AuthProvider({ children }) {
         id: `USR_${Date.now()}`,
         userName: trimmedUserName,
         password: rawPassword,
+        fullName: "",
+        phone: "",
+        email: "",
+        company: "",
+        address: "",
+        bio: "",
       };
 
       const updatedUsers = [...storedUsers, newUser];
@@ -352,6 +363,134 @@ export function AuthProvider({ children }) {
     [currentUser, openLoginModal, showToast]
   );
 
+  const updateProfile = useCallback(
+    (updates) => {
+      if (!currentUser) {
+        return { ok: false, error: "Bạn cần đăng nhập để cập nhật hồ sơ." };
+      }
+
+      const fullName = (updates.fullName ?? "").trim();
+      const phone = (updates.phone ?? "").trim();
+      const email = (updates.email ?? "").trim();
+      const company = (updates.company ?? "").trim();
+      const address = (updates.address ?? "").trim();
+      const bio = (updates.bio ?? "").trim();
+
+      if (!fullName) {
+        return { ok: false, field: "fullName", error: "Vui lòng nhập họ và tên." };
+      }
+
+      if (phone && !/^[0-9+\s.-]{8,15}$/.test(phone)) {
+        return {
+          ok: false,
+          field: "phone",
+          error: "Số điện thoại chưa hợp lệ (8–15 chữ số).",
+        };
+      }
+
+      if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+        return {
+          ok: false,
+          field: "email",
+          error: "Địa chỉ email chưa đúng định dạng.",
+        };
+      }
+
+      const nextUser = {
+        ...currentUser,
+        fullName,
+        phone,
+        email,
+        company,
+        address,
+        bio,
+        updatedAt: new Date().toISOString(),
+      };
+
+      const storedUsers = readOrInitializeUsers();
+      const updatedUsers = storedUsers.map((u) =>
+        u.id === currentUser.id || u.userName === currentUser.userName
+          ? { ...u, ...nextUser }
+          : u
+      );
+
+      window.localStorage.setItem(USERS_STORAGE_KEY, JSON.stringify(updatedUsers));
+      window.localStorage.setItem(CURRENT_USER_STORAGE_KEY, JSON.stringify(nextUser));
+      setCurrentUser(nextUser);
+
+      showToast({
+        type: "success",
+        title: "Đã cập nhật hồ sơ cá nhân!",
+        message: "Thông tin của bạn đã được lưu thành công.",
+      });
+
+      return { ok: true, user: nextUser };
+    },
+    [currentUser, showToast]
+  );
+
+  const changePassword = useCallback(
+    ({ currentPassword, newPassword, confirmPassword }) => {
+      if (!currentUser) {
+        return { ok: false, error: "Bạn cần đăng nhập để đổi mật khẩu." };
+      }
+
+      if (!currentPassword || !newPassword || !confirmPassword) {
+        return { ok: false, error: "Vui lòng điền đầy đủ thông tin mật khẩu." };
+      }
+
+      if (currentPassword !== currentUser.password) {
+        return {
+          ok: false,
+          field: "currentPassword",
+          error: "Mật khẩu hiện tại không chính xác.",
+        };
+      }
+
+      if (newPassword.length < 6) {
+        return {
+          ok: false,
+          field: "newPassword",
+          error: "Mật khẩu mới cần tối thiểu 6 ký tự.",
+        };
+      }
+
+      if (newPassword !== confirmPassword) {
+        return {
+          ok: false,
+          field: "confirmPassword",
+          error: "Mật khẩu xác nhận không khớp.",
+        };
+      }
+
+      const nextUser = {
+        ...currentUser,
+        password: newPassword,
+        updatedAt: new Date().toISOString(),
+      };
+
+      const storedUsers = readOrInitializeUsers();
+      const updatedUsers = storedUsers.map((u) =>
+        u.id === currentUser.id || u.userName === currentUser.userName
+          ? { ...u, password: newPassword, updatedAt: nextUser.updatedAt }
+          : u
+      );
+
+      window.localStorage.setItem(USERS_STORAGE_KEY, JSON.stringify(updatedUsers));
+      window.localStorage.setItem(CURRENT_USER_STORAGE_KEY, JSON.stringify(nextUser));
+      setCurrentUser(nextUser);
+
+      showToast({
+        type: "success",
+        title: "Đổi mật khẩu thành công!",
+        message: "Hãy ghi nhớ mật khẩu mới cho lần đăng nhập tiếp theo.",
+      });
+
+      return { ok: true };
+    },
+    [currentUser, showToast]
+  );
+
   const contextValue = useMemo(
     () => ({
       currentUser,
@@ -365,6 +504,8 @@ export function AuthProvider({ children }) {
       login,
       register,
       logout,
+      updateProfile,
+      changePassword,
       requireAuth,
       showToast,
     }),
@@ -378,6 +519,8 @@ export function AuthProvider({ children }) {
       login,
       register,
       logout,
+      updateProfile,
+      changePassword,
       requireAuth,
       showToast,
     ]

@@ -12,6 +12,10 @@ import FacilityDetailPage from "./pages/FacilityDetailPage.jsx";
 import AboutPage from "./pages/AboutPage.jsx";
 import ProductDetailPage from "./pages/ProductDetailPage.jsx";
 import BookingPage from "./pages/BookingPage.jsx";
+import PartnerRegisterPage from "./pages/PartnerRegisterPage.jsx";
+import ProfilePage from "./pages/ProfilePage.jsx";
+import NewsPage from "./pages/NewsPage.jsx";
+import NewsDetailPage from "./pages/NewsDetailPage.jsx";
 import VillageNotFound from "./components/village/VillageNotFound.jsx";
 import TactileOrganicGrain from "./components/effects/TactileOrganicGrain.jsx";
 import useSilkParallax from "./hooks/useSilkParallax.js";
@@ -115,6 +119,12 @@ export default function App() {
           <Route path="/san-pham/:productId" element={<ProductDetailPage />} />
           <Route path="/dat-lich" element={<BookingPage />} />
           <Route path="/dat-lich/:facilityId" element={<BookingPage />} />
+          <Route path="/tham-gia" element={<PartnerRegisterPage />} />
+          <Route path="/dang-ky-doanh-nghiep" element={<PartnerRegisterPage />} />
+          <Route path="/ho-so" element={<ProfilePage />} />
+          <Route path="/about-me" element={<ProfilePage />} />
+          <Route path="/tin-tuc" element={<NewsPage />} />
+          <Route path="/tin-tuc/:slug" element={<NewsDetailPage />} />
           <Route path="/ve-chung-toi" element={<AboutPage />} />
           <Route path="*" element={<VillageNotFound />} />
         </Routes>

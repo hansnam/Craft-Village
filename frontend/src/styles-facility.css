@@ -79,6 +79,16 @@
   text-transform: uppercase;
 }
 
+.workshop-hero__title--htx {
+  font-size: clamp(30px, 3.7vw, 54px);
+}
+
+@media (min-width: 641px) {
+  .workshop-hero__title-line {
+    white-space: nowrap;
+  }
+}
+
 .workshop-hero__desc {
   font-family: var(--body-font);
   font-size: clamp(16px, 1.25vw, 19px);
@@ -151,6 +161,10 @@
   height: 100%;
   object-fit: cover;
   transition: transform 0.6s var(--ease-luxury);
+}
+
+.workshop-hero__img--gbt {
+  object-position: center 60%;
 }
 
 .workshop-hero__img-frame:hover .workshop-hero__img {

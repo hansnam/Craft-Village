@@ -2,7 +2,7 @@ import React from "react";
 import { resolveMockAsset } from "../../../utils/resolveMockAsset.js";
 
 /**
- * PHẦN 2: CHUYỆN LÀNG NGHỀ — Template 'story-three-images' (Nón lá Chuông - NLC)
+ * PHẦN 2: CHUYỆN LÀNG NGHỀ — Template 'story-three-images' (Nón làng Chuông - NLC)
  * Bố cục theo thiết kế:
  * - Khối trên 2 cột bất đối xứng:
  *   + Cột trái: Tiêu đề "Chuyện làng nghề", phụ đề in đậm, bên dưới là ảnh nón lá sát mép trái màn hình bo góc phải.

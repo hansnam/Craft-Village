@@ -1,6 +1,12 @@
 import React from "react";
 import { resolveMockAsset } from "../../utils/resolveMockAsset.js";
 
+const PROJECT_IMAGE_POSITIONS = {
+  PRJ_GTL_01: "center 58%",
+  PRJ_GTL_02: "center 58%",
+  PRJ_GTL_03: "center 58%",
+};
+
 export default function FacilityProjects({ projects = [], onOpenLightbox }) {
   const validProjects = projects.filter(
     (p) => (p?.name && p.name.trim() !== "") || (p?.image && p.image.trim() !== "")
@@ -38,6 +44,11 @@ export default function FacilityProjects({ projects = [], onOpenLightbox }) {
                         src={imageUrl}
                         alt={proj.name || "Dự án xưởng"}
                         className="workshop-project-card__img"
+                        style={
+                          PROJECT_IMAGE_POSITIONS[proj?.id]
+                            ? { objectPosition: PROJECT_IMAGE_POSITIONS[proj.id] }
+                            : undefined
+                        }
                         loading="lazy"
                       />
                     </div>

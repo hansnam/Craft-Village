@@ -8,6 +8,9 @@ import "./styles-facility.css";
 import "./styles-about.css";
 import "./styles-product-detail.css";
 import "./styles-booking.css";
+import "./styles-partner.css";
+import "./styles-profile.css";
+import "./styles-news.css";
 import "./styles-effects.css";
 
 createRoot(document.getElementById("root")).render(

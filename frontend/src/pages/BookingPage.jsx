@@ -1,7 +1,9 @@
 import React, { useState, useEffect, useMemo } from "react";
 import { useParams, useSearchParams, Link } from "react-router-dom";
+import { useAuth } from "../context/AuthContext.jsx";
 import { facilities, products } from "../data/mockData.js";
 import { resolveMockAsset, resolveFacilityThumbnail } from "../utils/resolveMockAsset.js";
+import { addUserBooking } from "../utils/userDataStorage.js";
 
 const PURPOSE_OPTIONS = [
   "Tham quan xưởng",
@@ -21,6 +23,7 @@ const TIME_SLOTS = [
 ];
 
 export default function BookingPage() {
+  const { currentUser, openLoginModal, showToast } = useAuth();
   const { facilityId } = useParams();
   const [searchParams] = useSearchParams();
   const productIdFromQuery = searchParams.get("productId");
@@ -51,17 +54,27 @@ export default function BookingPage() {
   }, [productIdFromQuery]);
 
   // Form State
-  const [formData, setFormData] = useState({
-    fullName: "",
-    phone: "",
-    email: "",
+  const [formData, setFormData] = useState(() => ({
+    fullName: currentUser?.fullName || "",
+    phone: currentUser?.phone || "",
+    email: currentUser?.email || "",
     purpose: "Tham quan xưởng",
     preferredDate: "",
     timeSlot: "08:30 - 10:00",
     notes: referencedProduct
       ? `Quan tâm sản phẩm: ${referencedProduct.name}. Cần trao đổi thêm về mẫu mã và đơn giá.`
       : "",
-  });
+  }));
+
+  useEffect(() => {
+    if (!currentUser) return;
+    setFormData((prev) => ({
+      ...prev,
+      fullName: prev.fullName || currentUser.fullName || "",
+      phone: prev.phone || currentUser.phone || "",
+      email: prev.email || currentUser.email || "",
+    }));
+  }, [currentUser]);
 
   const [submitted, setSubmitted] = useState(false);
   const [bookingRef, setBookingRef] = useState("");
@@ -76,26 +89,64 @@ export default function BookingPage() {
     setFormData((prev) => ({ ...prev, purpose }));
   };
 
+  const finalizeBookingSubmission = (actingUser) => {
+    const code = "BK-" + Math.floor(1000 + Math.random() * 9000);
+    addUserBooking(actingUser, {
+      id: code,
+      facilityId: activeFacility?.id || "",
+      facilityName: activeFacility?.name || "Cơ sở sản xuất",
+      productId: referencedProduct?.id || "",
+      productName: referencedProduct?.name || "",
+      fullName: formData.fullName,
+      phone: formData.phone,
+      email: formData.email,
+      purpose: formData.purpose,
+      preferredDate: formData.preferredDate,
+      timeSlot: formData.timeSlot,
+      notes: formData.notes,
+    });
+    setBookingRef(code);
+    setSubmitted(true);
+    showToast?.({
+      type: "success",
+      title: "Đặt lịch thành công!",
+      message: `Mã đơn ${code} đã được lưu vào hồ sơ cá nhân của bạn.`,
+    });
+    window.scrollTo({ top: 300, behavior: "smooth" });
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (!formData.fullName || !formData.phone || !formData.preferredDate) {
-      alert("Vui lòng điền đầy đủ các thông tin bắt buộc (*)");
+    if (!formData.fullName.trim() || !formData.phone.trim() || !formData.preferredDate) {
+      showToast?.({
+        type: "warning",
+        title: "Thiếu thông tin",
+        message: "Vui lòng điền đầy đủ các thông tin bắt buộc (*).",
+      });
       return;
     }
 
-    // Generate reference code e.g. BK-8492
-    const code = "BK-" + Math.floor(1000 + Math.random() * 9000);
-    setBookingRef(code);
-    setSubmitted(true);
-    window.scrollTo({ top: 300, behavior: "smooth" });
+    if (!currentUser) {
+      showToast?.({
+        type: "warning",
+        title: "Cần đăng nhập",
+        message: "Bạn cần đăng nhập để gửi và lưu đơn đặt lịch.",
+        actionLabel: "Đăng nhập ngay ↗",
+        onAction: () => openLoginModal(finalizeBookingSubmission),
+      });
+      openLoginModal(finalizeBookingSubmission);
+      return;
+    }
+
+    finalizeBookingSubmission(currentUser);
   };
 
   const handleReset = () => {
     setSubmitted(false);
     setFormData({
-      fullName: "",
-      phone: "",
-      email: "",
+      fullName: currentUser?.fullName || "",
+      phone: currentUser?.phone || "",
+      email: currentUser?.email || "",
       purpose: "Tham quan xưởng",
       preferredDate: "",
       timeSlot: "08:30 - 10:00",
@@ -204,13 +255,21 @@ export default function BookingPage() {
                 <div className="booking-success__note">
                   Chủ xưởng <strong>{contactPerson}</strong> sẽ liên hệ trực tiếp qua số điện thoại hoặc Zalo của bạn trong vòng 24 giờ để xác nhận buổi làm việc.
                 </div>
-                <button
-                  type="button"
-                  className="btn-primary"
-                  onClick={handleReset}
-                >
-                  Đặt thêm lịch hẹn khác
-                </button>
+                <div className="booking-success__actions">
+                  <Link
+                    to="/ho-so?tab=bookings"
+                    className="booking-success__profile-btn"
+                  >
+                    Xem lịch sử đặt lịch
+                  </Link>
+                  <button
+                    type="button"
+                    className="btn-primary"
+                    onClick={handleReset}
+                  >
+                    Đặt thêm lịch hẹn khác
+                  </button>
+                </div>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="booking-form">
@@ -218,6 +277,22 @@ export default function BookingPage() {
                 <p className="booking-form__desc">
                   Vui lòng cung cấp thông tin để xưởng chuẩn bị đón tiếp và tư vấn chi tiết nhất.
                 </p>
+
+                {!currentUser && (
+                  <div className="booking-auth-hint">
+                    <span>
+                      Đăng nhập để tự động điền thông tin và lưu đơn vào{" "}
+                      <strong>Hồ sơ cá nhân</strong>.
+                    </span>
+                    <button
+                      type="button"
+                      className="booking-auth-hint__btn"
+                      onClick={() => openLoginModal()}
+                    >
+                      Đăng nhập ngay
+                    </button>
+                  </div>
+                )}
 
                 {/* Facility Selector */}
                 <div className="booking-field">
@@ -459,7 +534,7 @@ export default function BookingPage() {
                   <div className="workshop-contact-item__text">
                     <span className="label">Số điện thoại / Zalo</span>
                     <a href={`tel:${contactPhone.replace(/\D/g, "")}`} className="value">
-                      {contactPhone} (Zalo)
+                      {contactPhone}
                     </a>
                   </div>
                 </div>

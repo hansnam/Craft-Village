@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import { useAuth } from "../context/AuthContext.jsx";
 import { brandAssets } from "../data/homeData.js";
 
@@ -376,6 +377,18 @@ export default function AuthModal() {
           >
             {isRegister ? "Đăng nhập" : "Đăng ký"}
           </button>
+        </p>
+
+        <p className="auth-modal__switch-hint" style={{ marginTop: "8px", fontSize: "12.5px" }}>
+          Bạn là xưởng sản xuất hoặc khách hàng doanh nghiệp?{" "}
+          <Link
+            to="/tham-gia?tab=business"
+            className="auth-modal__switch-link"
+            data-cursor="link"
+            onClick={closeAuthModal}
+          >
+            Đăng ký đối tác ngay
+          </Link>
         </p>
       </div>
     </div>

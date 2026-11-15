@@ -188,7 +188,7 @@ export const productionProcesses =
     "step": 1,
     "description": "Lá khi đã phơi khô sẽ được vò trong cát và tước nhỏ hay còn gọi là rẽ lá. Tiếp đến là công đoạn đem lá đi là phẳng. Nếu chỉ nhìn thôi, ta tưởng rằng rất đơn giản nhưng thực ra khâu này quyết định rất nhiều đến chất lượng nón. Dụng cụ là lá một chiếc lưỡi cày được nung nóng để miết lá. Miết làm sao cho tấm lá thật phẳng, nhẵn mà không bị giòn, bị rách và quan trọng là phải canh được độ nóng sao cho lá không bị cháy và không bị non.",
     "image": {
-      "url": "/images/Trang làng nghề/Làng nón/quy trình sản xuất 1.jpg",
+      "url": "/images/Trang làng nghề/Làng nón/quy trình sản xuất 1.png",
       "alt": "Công đoạn rẽ lá và là lá"
     }
   },
@@ -210,7 +210,7 @@ export const productionProcesses =
     "step": 3,
     "description": "Vòng nón sau khi hoàn thành sẽ được xếp theo 3 lớp, bao gồm 2 lớp lá lụi và một lớp mo nứa ở giữa.",
     "image": {
-      "url": "/images/Trang làng nghề/Làng nón/quy trình sản xuất 3.jpg",
+      "url": "/images/Trang làng nghề/Làng nón/quy trình sản xuất 3.png",
       "alt": "Dán nón"
     }
   },
@@ -221,7 +221,7 @@ export const productionProcesses =
     "step": 4,
     "description": "Khâu nón được coi là công đoạn rất khó đòi hỏi sự khéo léo của mỗi người bởi nếu không khéo lá sẽ bị rách. Điều quan trọng nữa là mũi khâu yêu cầu phải ngắn, lỗ nhỏ thì chiếc nón mới tròn, khít, mịn từ mép lá đến đường khâu.",
     "image": {
-      "url": "/images/Trang làng nghề/Làng nón/quy trình sản xuất 4.jpg",
+      "url": "/images/Trang làng nghề/Làng nón/quy trình sản xuất 4.png",
       "alt": "Khâu nón (thắt nón)"
     }
   },

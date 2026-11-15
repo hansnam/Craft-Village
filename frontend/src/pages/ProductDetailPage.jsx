@@ -2,7 +2,12 @@ import React, { useState, useEffect, useMemo } from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext.jsx";
 import { products, facilities, villages } from "../data/mockData.js";
-import { resolveMockAsset } from "../utils/resolveMockAsset.js";
+import { resolveMockAsset, resolveFacilityThumbnail } from "../utils/resolveMockAsset.js";
+import {
+  isProductFavorited,
+  subscribeUserDataChanges,
+  toggleUserFavorite,
+} from "../utils/userDataStorage.js";
 import ImageLightboxModal from "../components/facility/ImageLightboxModal.jsx";
 import FacilityConnectModal from "../components/facility/FacilityConnectModal.jsx";
 import ArtisanTurntableShowcase from "../components/effects/ArtisanTurntableShowcase.jsx";
@@ -90,7 +95,18 @@ export default function ProductDetailPage() {
   const [lightbox, setLightbox] = useState({ open: false, url: "", alt: "" });
   const [isConnectModalOpen, setIsConnectModalOpen] = useState(false);
 
-  // Handler for "Gửi yêu cầu": requires login or prompts user to login
+  const canonicalProductId = product?.id || productId || "";
+
+  // Navigate directly to Workshop Booking page with facility & product pre-selected
+  const handleBookingRequest = () => {
+    const targetUrl = facility
+      ? `/dat-lich/${facility.id}?productId=${canonicalProductId}`
+      : `/dat-lich?productId=${canonicalProductId}`;
+    navigate(targetUrl);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  // Handler for quick inquiry modal (used in tabs template secondary CTA)
   const handleInquiryRequest = () => {
     if (!currentUser) {
       if (typeof showAuthToast === "function") {
@@ -116,17 +132,19 @@ export default function ProductDetailPage() {
     setIsConnectModalOpen(true);
   };
 
-
-  // Manage favorites in localStorage
+  // Manage favorites in localStorage per authenticated user
   useEffect(() => {
-    if (!productId) return;
-    try {
-      const favs = JSON.parse(localStorage.getItem("craft_favorites") || "[]");
-      setIsFavorite(favs.includes(productId));
-    } catch {
-      setIsFavorite(false);
-    }
-  }, [productId]);
+    const syncFavorite = () => {
+      if (!canonicalProductId || !currentUser) {
+        setIsFavorite(false);
+        return;
+      }
+      setIsFavorite(isProductFavorited(currentUser, canonicalProductId));
+    };
+
+    syncFavorite();
+    return subscribeUserDataChanges(syncFavorite);
+  }, [canonicalProductId, currentUser]);
 
   // Manage recently viewed products in localStorage
   useEffect(() => {
@@ -146,24 +164,44 @@ export default function ProductDetailPage() {
     setActiveImageIndex(0);
   }, [productId]);
 
-  // Handle favorite toggle
+  // Handle favorite toggle (requires authentication)
   const toggleFavorite = () => {
-    try {
-      const favs = JSON.parse(localStorage.getItem("craft_favorites") || "[]");
-      let nextFavs;
-      if (favs.includes(productId)) {
-        nextFavs = favs.filter((id) => id !== productId);
-        setIsFavorite(false);
-        showToast("Đã xóa khỏi danh sách yêu thích");
-      } else {
-        nextFavs = [...favs, productId];
-        setIsFavorite(true);
-        showToast("Đã lưu vào danh sách yêu thích");
+    if (!canonicalProductId) return;
+
+    if (!currentUser) {
+      if (typeof showAuthToast === "function") {
+        showAuthToast({
+          type: "warning",
+          title: "Cần đăng nhập",
+          message: "Bạn cần đăng nhập mới có thể lưu sản phẩm yêu thích.",
+          actionLabel: "Đăng nhập ngay ↗",
+          onAction: () => {
+            if (typeof openLoginModal === "function") {
+              openLoginModal((loggedUser) => {
+                const res = toggleUserFavorite(loggedUser, canonicalProductId);
+                setIsFavorite(res.isFavorite);
+                showToast(
+                  res.isFavorite
+                    ? "Đã lưu vào danh sách yêu thích"
+                    : "Đã xóa khỏi danh sách yêu thích"
+                );
+              });
+            }
+          },
+        });
+      } else if (typeof openLoginModal === "function") {
+        openLoginModal();
       }
-      localStorage.setItem("craft_favorites", JSON.stringify(nextFavs));
-    } catch {
-      setIsFavorite(!isFavorite);
+      return;
     }
+
+    const res = toggleUserFavorite(currentUser, canonicalProductId);
+    setIsFavorite(res.isFavorite);
+    showToast(
+      res.isFavorite
+        ? "Đã lưu vào danh sách yêu thích"
+        : "Đã xóa khỏi danh sách yêu thích"
+    );
   };
 
   const showToast = (msg) => {
@@ -181,19 +219,29 @@ export default function ProductDetailPage() {
     }
   };
 
-  // Related products (prioritize same facility)
+  // Related products (prioritize same facility, then same village, then others)
   const relatedProducts = useMemo(() => {
     if (!product) return [];
 
-    const sameFacility = products.filter(
-      (p) => p.coSoSanXuatId === product.coSoSanXuatId && p.id !== product.id
-    );
+    const facilityLangNgheMap = new Map(facilities.map((f) => [f.id, f.langNgheId]));
+    const currentVillageId = facilityLangNgheMap.get(product.coSoSanXuatId);
 
-    const others = products.filter(
-      (p) => p.id !== product.id && p.coSoSanXuatId !== product.coSoSanXuatId
-    );
+    const sameFacility = [];
+    const sameVillage = [];
+    const others = [];
 
-    return [...sameFacility, ...others].slice(0, 6);
+    products.forEach((p) => {
+      if (p.id === product.id) return;
+      if (p.coSoSanXuatId === product.coSoSanXuatId) {
+        sameFacility.push(p);
+      } else if (currentVillageId && facilityLangNgheMap.get(p.coSoSanXuatId) === currentVillageId) {
+        sameVillage.push(p);
+      } else {
+        others.push(p);
+      }
+    });
+
+    return [...sameFacility, ...sameVillage, ...others].slice(0, 6);
   }, [product]);
 
   // Carousel controls for related products
@@ -248,13 +296,25 @@ export default function ProductDetailPage() {
     lotus: true,
   };
 
-  const explicitMaterialUrl = (product.featureImages?.material && resolveMockAsset(product.featureImages.material)) || defaultFeatureMaterial;
-  const explicitShapeUrl = (product.featureImages?.design && resolveMockAsset(product.featureImages.design)) || defaultFeatureDesign;
-  const materialImage = { url: explicitMaterialUrl };
-  const shapeImage = { url: explicitShapeUrl };
+  const explicitMaterialUrl = product.featureImages?.material ? resolveMockAsset(product.featureImages.material) : null;
+  const explicitShapeUrl = product.featureImages?.design ? resolveMockAsset(product.featureImages.design) : null;
+
+  // Automatically select 2 distinct images from this product's own gallery/feature pool
+  const activeMaterialUrl =
+    explicitMaterialUrl ||
+    galleryImages[1]?.url ||
+    galleryImages[0]?.url ||
+    defaultFeatureMaterial;
+  const activeShapeUrl =
+    explicitShapeUrl ||
+    galleryImages[2]?.url ||
+    (galleryImages.length === 2 ? galleryImages[0]?.url : galleryImages[galleryImages.length - 1]?.url) ||
+    galleryImages[0]?.url ||
+    defaultFeatureDesign;
+  const isNonLaProduct = facility?.langNgheId === "NLC";
 
   return (
-    <div className={`product-detail-page ${isTabsTemplate ? "has-tabs-template" : "has-profile-template"}${profileAssets ? " product-detail-page--profile-reference" : ""}${isLotusBanner ? " product-detail-page--lotus" : ""}${isChairPdf52 ? " product-detail-page--pdf52" : ""}`}>
+    <div className={`product-detail-page ${isTabsTemplate ? "has-tabs-template" : "has-profile-template"}${profileAssets ? " product-detail-page--profile-reference" : ""}${isLotusBanner ? " product-detail-page--lotus" : ""}${isChairPdf52 ? " product-detail-page--pdf52" : ""}${isNonLaProduct ? " product-detail-page--non-la" : ""}`}>
       {/* Toast feedback notification */}
       {toastMessage && (
         <div className="craft-toast" role="status" aria-live="polite">
@@ -438,45 +498,28 @@ export default function ProductDetailPage() {
                   </div>
                 </div>
 
-                {/* Primary CTA button + Subtle secondary actions */}
+                {/* Primary CTA button + Favorite action side-by-side */}
                 <div className="product-profile-hero__actions">
                   <button
                     type="button"
                     className="btn-profile-primary"
-                    onClick={handleInquiryRequest}
+                    onClick={handleBookingRequest}
                   >
                     Gửi yêu cầu
                   </button>
 
-                  <div className="product-profile-hero__secondary-actions">
-                    {facility && (
-                      <Link
-                        to={`/dat-lich/${facility.id}?productId=${product.id}`}
-                        className="btn-profile-secondary"
-                        title="Đặt lịch tham quan trực tiếp tại xưởng"
-                      >
-                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="1.8">
-                          <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
-                          <line x1="16" y1="2" x2="16" y2="6" />
-                          <line x1="8" y1="2" x2="8" y2="6" />
-                          <line x1="3" y1="10" x2="21" y2="10" />
-                        </svg>
-                        <span>Đặt lịch xưởng</span>
-                      </Link>
-                    )}
-
-                    <button
-                      type="button"
-                      className={`btn-profile-fav ${isFavorite ? "is-active" : ""}`}
-                      onClick={toggleFavorite}
-                      aria-label={isFavorite ? "Xóa khỏi mục yêu thích" : "Lưu vào mục yêu thích"}
-                      title={isFavorite ? "Đã lưu yêu thích" : "Lưu yêu thích"}
-                    >
-                      <svg viewBox="0 0 24 24" width="18" height="18" fill={isFavorite ? "currentColor" : "none"} stroke="currentColor" strokeWidth="2">
-                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
-                      </svg>
-                    </button>
-                  </div>
+                  <button
+                    type="button"
+                    className={`btn-profile-fav ${isFavorite ? "is-active" : ""}`}
+                    onClick={toggleFavorite}
+                    aria-label={isFavorite ? "Xóa khỏi mục yêu thích" : "Yêu thích sản phẩm"}
+                    title={isFavorite ? "Đã yêu thích" : "Yêu thích sản phẩm"}
+                  >
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill={isFavorite ? "currentColor" : "none"} stroke="currentColor" strokeWidth="2">
+                      <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+                    </svg>
+                    <span>{isFavorite ? "Đã yêu thích" : "Yêu thích sản phẩm"}</span>
+                  </button>
                 </div>
               </div>
             </div>
@@ -485,11 +528,10 @@ export default function ProductDetailPage() {
           {/* SECTION 2: ĐẶC ĐIỂM SẢN PHẨM (2-Column: Left Text, Right 2 Side-by-Side Cards) */}
           <section className="product-profile-features">
             <div className="product-container">
-              <h2 className="product-profile-section-title">ĐẶC ĐIỂM SẢN PHẨM</h2>
-
               <div className="product-profile-features__grid">
-                {/* Left Column: Headline and Narrative Text */}
+                {/* Left Column: Label, Headline and Narrative Text */}
                 <div className="product-profile-features__content">
+                  <h2 className="product-profile-section-title">ĐẶC ĐIỂM SẢN PHẨM</h2>
                   <h3 className="product-profile-features__headline">
                     {product.dacDiemTitle || "Vẻ mộc tự nhiên, nâng niu từng phút giây"}
                   </h3>
@@ -503,57 +545,52 @@ export default function ProductDetailPage() {
 
                 {/* Right Column: Two Side-by-Side Feature Cards */}
                 <div className="product-profile-features__side-cards">
-                  {/* Card 1: Chất liệu và màu sắc */}
-                  <div className="product-profile-feature-card">
-                    <div className="product-profile-feature-card__img-box">
-                      {materialImage ? (
-                        <img
-                          src={materialImage.url}
-                          alt={`Chi tiết chất liệu ${product.name}`}
-                          className="product-profile-feature-card__img is-clickable"
-                          onClick={() => setLightbox({ open: true, url: materialImage.url, alt: `Chi tiết chất liệu ${product.name}` })}
-                        />
-                      ) : (
-                        <div className="product-profile-feature-card__placeholder">
-                          <svg viewBox="0 0 36 36" width="32" height="32" fill="none" stroke="#A89C8D" strokeWidth="1.5">
-                            <circle cx="18" cy="18" r="14" />
-                            <path d="M12 18c3-3 6-3 12 0M18 12v12" />
-                          </svg>
-                          <span className="placeholder-note">Hình ảnh chi tiết đang cập nhật</span>
-                        </div>
-                      )}
-                    </div>
-                    <h4 className="product-profile-feature-card__title">Chất liệu và màu sắc</h4>
-                    <p className="product-profile-feature-card__text">
-                      {product.chatLieuVaMauSac || product.chatLieu || "Tông nâu vàng tự nhiên, kết hợp đệm ngồi màu sáng, dễ phối hợp với nhiều không gian nội thất."}
-                    </p>
-                  </div>
+                  {[
+                    {
+                      key: "material",
+                      title: "Chất liệu và màu sắc",
+                      text:
+                        product.chatLieuVaMauSac ||
+                        product.chatLieu ||
+                        "Tông nâu vàng tự nhiên, kết hợp đệm ngồi màu sáng, dễ phối hợp với nhiều không gian nội thất.",
+                      imageUrl: activeMaterialUrl,
+                      alt: `Chi tiết chất liệu ${product.name}`,
+                    },
+                    {
+                      key: "design",
+                      title: "Họa tiết và kiểu dáng",
+                      text:
+                        product.hoaTietVaKieuDang ||
+                        product.kyThuat ||
+                        "Ghế tựa lưng chữ nhật đan đều, chân nghiêng và tay vịn thấp, mang thiết kế gọn nhẹ, gần gũi với thiên nhiên.",
+                      imageUrl: activeShapeUrl,
+                      alt: `Chi tiết kiểu dáng ${product.name}`,
+                    },
+                  ].map((card) => (
+                    <div key={card.key} className="product-profile-feature-card">
+                      <div className="product-profile-feature-card__img-box">
+                        {card.imageUrl ? (
+                          <img
+                            src={card.imageUrl}
+                            alt={card.alt}
+                            className="product-profile-feature-card__img is-clickable"
+                            onClick={() => setLightbox({ open: true, url: card.imageUrl, alt: card.alt })}
+                          />
+                        ) : (
+                          <div className="product-profile-feature-card__placeholder">
+                            <svg viewBox="0 0 36 36" width="32" height="32" fill="none" stroke="#A89C8D" strokeWidth="1.5">
+                              <circle cx="18" cy="18" r="14" />
+                              <path d="M12 18c3-3 6-3 12 0M18 12v12" />
+                            </svg>
+                            <span className="placeholder-note">Hình ảnh chi tiết đang cập nhật</span>
+                          </div>
+                        )}
+                      </div>
 
-                  {/* Card 2: Họa tiết và kiểu dáng */}
-                  <div className="product-profile-feature-card">
-                    <div className="product-profile-feature-card__img-box">
-                      {shapeImage ? (
-                        <img
-                          src={shapeImage.url}
-                          alt={`Chi tiết kiểu dáng ${product.name}`}
-                          className="product-profile-feature-card__img is-clickable"
-                          onClick={() => setLightbox({ open: true, url: shapeImage.url, alt: `Chi tiết kiểu dáng ${product.name}` })}
-                        />
-                      ) : (
-                        <div className="product-profile-feature-card__placeholder">
-                          <svg viewBox="0 0 36 36" width="32" height="32" fill="none" stroke="#A89C8D" strokeWidth="1.5">
-                            <rect x="6" y="6" width="24" height="24" rx="4" />
-                            <path d="M10 26l6-6 4 4 6-6" />
-                          </svg>
-                          <span className="placeholder-note">Hình ảnh chi tiết đang cập nhật</span>
-                        </div>
-                      )}
+                      <h4 className="product-profile-feature-card__title">{card.title}</h4>
+                      <p className="product-profile-feature-card__text">{card.text}</p>
                     </div>
-                    <h4 className="product-profile-feature-card__title">Họa tiết và kiểu dáng</h4>
-                    <p className="product-profile-feature-card__text">
-                      {product.hoaTietVaKieuDang || product.kyThuat || "Ghế tựa lưng chữ nhật đan đều, chân nghiêng và tay vịn thấp, mang thiết kế gọn nhẹ, gần gũi với thiên nhiên."}
-                    </p>
-                  </div>
+                  ))}
                 </div>
               </div>
             </div>
@@ -583,34 +620,75 @@ export default function ProductDetailPage() {
               <h2 className="product-profile-section-title">HƯỚNG DẪN LIÊN HỆ XƯỞNG</h2>
 
               <div className="product-profile-contact__grid">
-                {/* Left: Contact Info with Icons matching Figma 1184:137 */}
+                {/* Left: Contact Info with Icons matching Figma 1444:3280 / 1182:159 */}
                 <div className="product-profile-contact__info">
                   <h3 className="product-profile-contact__subtitle">Trao đổi trực tiếp với xưởng</h3>
 
                   <div className="product-profile-contact__rows">
                     <div className="product-profile-contact-row">
-                      <div className="product-profile-contact-row__head">
-                        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#730000" strokeWidth="2" aria-hidden="true">
+                      <span className="product-profile-contact-row__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="1.8">
                           <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                         </svg>
-                        <span className="product-profile-contact-row__label">Hotline</span>
-                      </div>
-                      <span className="product-profile-contact-row__val">
-                        {facility?.soDienThoai ? `${facility.soDienThoai} (${facility?.chuCoSo || "Chủ xưởng"})` : "0915 062 662 (Phượng)"}
                       </span>
+                      <div className="product-profile-contact-row__body">
+                        <span className="product-profile-contact-row__label">Hotline - Zalo</span>
+                        <span className="product-profile-contact-row__val">
+                          {facility?.soDienThoai
+                            ? `${facility.soDienThoai}${facility?.tenChuXuong ? ` (${facility.tenChuXuong})` : ""}`
+                            : "Đang cập nhật"}
+                        </span>
+                      </div>
+                    </div>
+
+                    {facility?.email && (
+                      <div className="product-profile-contact-row">
+                        <span className="product-profile-contact-row__icon" aria-hidden="true">
+                          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="1.8">
+                            <rect x="2" y="4" width="20" height="16" rx="2" />
+                            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                          </svg>
+                        </span>
+                        <div className="product-profile-contact-row__body">
+                          <span className="product-profile-contact-row__label">Email</span>
+                          <a className="product-profile-contact-row__val product-profile-contact-row__link" href={`mailto:${facility.email}`}>
+                            {facility.email}
+                          </a>
+                        </div>
+                      </div>
+                    )}
+
+                    <div className="product-profile-contact-row">
+                      <span className="product-profile-contact-row__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="1.8">
+                          <path d="M20 7h-9" />
+                          <path d="M14 17H5" />
+                          <circle cx="17" cy="17" r="3" />
+                          <circle cx="7" cy="7" r="3" />
+                        </svg>
+                      </span>
+                      <div className="product-profile-contact-row__body">
+                        <span className="product-profile-contact-row__label">Dịch vụ đi kèm</span>
+                        <span className="product-profile-contact-row__val">
+                          {facility?.dichVuDiKem ||
+                            "Tư vấn sản phẩm, trao đổi đơn hàng sỉ và nhu cầu đặt hàng theo yêu cầu; các dịch vụ cụ thể cần được xác nhận với cơ sở"}
+                        </span>
+                      </div>
                     </div>
 
                     <div className="product-profile-contact-row">
-                      <div className="product-profile-contact-row__head">
-                        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#730000" strokeWidth="2" aria-hidden="true">
-                          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
-                          <circle cx="12" cy="10" r="3" />
+                      <span className="product-profile-contact-row__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="1.8">
+                          <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" />
+                          <line x1="7" y1="7" x2="7.01" y2="7" />
                         </svg>
-                        <span className="product-profile-contact-row__label">Dịch vụ đi kèm</span>
-                      </div>
-                      <span className="product-profile-contact-row__val">
-                        Tư vấn sản phẩm, trao đổi đơn hàng sỉ và nhu cầu đặt hàng theo yêu cầu; các dịch vụ cụ thể cần được xác nhận với cơ sở
                       </span>
+                      <div className="product-profile-contact-row__body">
+                        <span className="product-profile-contact-row__label">Giá</span>
+                        <span className="product-profile-contact-row__val">
+                          Liên hệ xưởng để nhận báo giá theo chất liệu, mẫu mã và số lượng đặt hàng.
+                        </span>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -627,8 +705,12 @@ export default function ProductDetailPage() {
                   >
                     <img
                       className="product-profile-contact__callout-image"
-                      src={defaultContactThumb}
-                      alt="Nghệ nhân pha trà thưởng gốm"
+                      src={
+                        resolveMockAsset(facility?.images?.consultation) ||
+                        resolveFacilityThumbnail(facility) ||
+                        defaultContactThumb
+                      }
+                      alt={facility?.name ? `Cơ sở sản xuất ${facility.name}` : "Cơ sở sản xuất thủ công"}
                     />
                     <div className="product-profile-contact__callout-content">
                       <p className="product-profile-contact__callout-prompt">
@@ -638,7 +720,7 @@ export default function ProductDetailPage() {
                       <button
                         type="button"
                         className="btn-profile-primary"
-                        onClick={handleInquiryRequest}
+                        onClick={handleBookingRequest}
                       >
                         Gửi yêu cầu
                       </button>
@@ -698,7 +780,9 @@ export default function ProductDetailPage() {
                     return (
                       <article
                         key={item.id}
-                        className="product-profile-card"
+                        className={`product-profile-card${
+                          item.coSoSanXuatId?.startsWith("NLC_") ? " product-profile-card--non-la" : ""
+                        }`}
                         onClick={() => navigate(`/san-pham/${item.id}`)}
                       >
                         <div className="product-profile-card__media">
@@ -898,12 +982,12 @@ export default function ProductDetailPage() {
                     type="button"
                     className={`btn-favorite ${isFavorite ? "is-active" : ""}`}
                     onClick={toggleFavorite}
-                    aria-label={isFavorite ? "Xóa khỏi mục yêu thích" : "Thêm vào mục yêu thích"}
+                    aria-label={isFavorite ? "Xóa khỏi mục yêu thích" : "Yêu thích sản phẩm"}
                   >
                     <svg viewBox="0 0 24 24" width="18" height="18" fill={isFavorite ? "currentColor" : "none"} stroke="currentColor" strokeWidth="2">
                       <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
                     </svg>
-                    <span>{isFavorite ? "Đã lưu yêu thích" : "Thêm vào mục yêu thích"}</span>
+                    <span>{isFavorite ? "Đã yêu thích" : "Yêu thích sản phẩm"}</span>
                   </button>
 
                   <button

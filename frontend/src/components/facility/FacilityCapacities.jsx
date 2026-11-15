@@ -79,6 +79,13 @@ export default function FacilityCapacities({
                               src={imageUrl}
                               alt={item?.image?.alt || item.name || "Năng lực xưởng"}
                               className="workshop-capacity-row__img"
+                              style={
+                                item?.id === "BNH_NLSX02"
+                                  ? { objectPosition: "center 52%" }
+                                  : item?.id === "GTL_NLSX04"
+                                  ? { objectPosition: "center 56%" }
+                                  : undefined
+                              }
                               loading="lazy"
                             />
                           </div>

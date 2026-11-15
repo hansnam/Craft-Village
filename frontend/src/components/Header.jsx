@@ -11,6 +11,7 @@ import {
 const NAV_ITEMS = [
   { id: "home", label: "Trang chủ", targetHash: "#home", href: "/" },
   { id: "villages", label: "Làng nghề", targetHash: "#villages", hasMenu: true, href: "/#villages" },
+  { id: "news", label: "Tin tức", href: "/tin-tuc" },
   { id: "about", label: "Về chúng tôi", href: "/ve-chung-toi" },
 ];
 
@@ -20,9 +21,11 @@ export default function Header() {
   const navigate = useNavigate();
 
   const headerRef = useRef(null);
+  const userMenuRef = useRef(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [villageMenuOpen, setVillageMenuOpen] = useState(false);
   const [mobileVillagesOpen, setMobileVillagesOpen] = useState(false);
+  const [userMenuOpen, setUserMenuOpen] = useState(false);
   const [activeNav, setActiveNav] = useState("home");
 
   const isHomeRoute = location.pathname === "/";
@@ -31,20 +34,25 @@ export default function Header() {
     setMobileMenuOpen(false);
     setVillageMenuOpen(false);
     setMobileVillagesOpen(false);
+    setUserMenuOpen(false);
   }, [location.pathname, location.hash]);
 
   useEffect(() => {
-    if (!villageMenuOpen) return undefined;
+    if (!villageMenuOpen && !userMenuOpen) return undefined;
 
     const handlePointerDownOutside = (event) => {
-      if (headerRef.current && !headerRef.current.contains(event.target)) {
+      if (villageMenuOpen && headerRef.current && !headerRef.current.contains(event.target)) {
         setVillageMenuOpen(false);
+      }
+      if (userMenuOpen && userMenuRef.current && !userMenuRef.current.contains(event.target)) {
+        setUserMenuOpen(false);
       }
     };
 
     const handleKeyDown = (event) => {
       if (event.key === "Escape") {
         setVillageMenuOpen(false);
+        setUserMenuOpen(false);
       }
     };
 
@@ -54,9 +62,14 @@ export default function Header() {
       document.removeEventListener("pointerdown", handlePointerDownOutside);
       document.removeEventListener("keydown", handleKeyDown);
     };
-  }, [villageMenuOpen]);
+  }, [villageMenuOpen, userMenuOpen]);
 
   useEffect(() => {
+    if (location.pathname.startsWith("/tin-tuc")) {
+      setActiveNav("news");
+      return undefined;
+    }
+
     if (location.pathname === "/ve-chung-toi") {
       setActiveNav("about");
       return undefined;
@@ -76,31 +89,8 @@ export default function Header() {
       return undefined;
     }
 
-    const updateActiveOnScroll = () => {
-      const villagesEl = document.getElementById("villages");
-      if (villagesEl) {
-        const rect = villagesEl.getBoundingClientRect();
-        const triggerLine = Math.max(320, window.innerHeight * 0.58);
-        if (rect.top <= triggerLine && rect.bottom >= 120) {
-          setActiveNav("villages");
-          return;
-        }
-      }
-      setActiveNav("home");
-    };
-
-    window.addEventListener("scroll", updateActiveOnScroll, {
-      passive: true,
-      capture: true,
-    });
-    window.addEventListener("resize", updateActiveOnScroll, { passive: true });
-    updateActiveOnScroll();
-    return () => {
-      window.removeEventListener("scroll", updateActiveOnScroll, {
-        capture: true,
-      });
-      window.removeEventListener("resize", updateActiveOnScroll);
-    };
+    setActiveNav("home");
+    return undefined;
   }, [location.pathname]);
 
   const jumpToSection = (event, targetHash, navId) => {
@@ -108,6 +98,11 @@ export default function Header() {
     setActiveNav(navId);
     setVillageMenuOpen(false);
     setMobileMenuOpen(false);
+
+    if (navId === "news") {
+      navigate("/tin-tuc");
+      return;
+    }
 
     if (navId === "about") {
       navigate("/ve-chung-toi");
@@ -228,28 +223,59 @@ export default function Header() {
 
           <div className="site-header__actions">
             {currentUser ? (
-              <>
-                <span
-                  className="site-header__greeting"
-                  title={`Xin chào, ${currentUser.userName}`}
+              <div className="site-header__user-menu" ref={userMenuRef}>
+                <button
+                  type="button"
+                  className={`site-header__greeting site-header__user-trigger ${
+                    userMenuOpen ? "is-open" : ""
+                  }`}
+                  aria-expanded={userMenuOpen}
+                  aria-haspopup="menu"
+                  data-cursor="link"
+                  title={`Xin chào, ${currentUser.fullName || currentUser.userName}`}
+                  onClick={() => setUserMenuOpen((prev) => !prev)}
                 >
                   <span className="site-header__user-dot" aria-hidden="true" />
                   <span className="site-header__greeting-text">
-                    Xin chào, {currentUser.userName}
+                    Xin chào, {currentUser.fullName || currentUser.userName}
                   </span>
-                </span>
-                <span className="site-header__divider" aria-hidden="true">
-                  |
-                </span>
-                <button
-                  type="button"
-                  className="site-header__auth-link site-header__auth-btn"
-                  data-cursor="link"
-                  onClick={logout}
-                >
-                  Đăng xuất
+                  <svg
+                    className="site-header__user-chevron"
+                    viewBox="0 0 14 14"
+                    aria-hidden="true"
+                  >
+                    <path d="m3.5 5.2 3.5 3.6 3.5-3.6" />
+                  </svg>
                 </button>
-              </>
+
+                {userMenuOpen && (
+                  <div
+                    className="site-header__user-dropdown"
+                    role="menu"
+                    aria-label="Menu tài khoản"
+                  >
+                    <Link
+                      to="/about-me"
+                      role="menuitem"
+                      className="site-header__user-item"
+                      onClick={() => setUserMenuOpen(false)}
+                    >
+                      Tài khoản của tôi
+                    </Link>
+                    <button
+                      type="button"
+                      role="menuitem"
+                      className="site-header__user-item site-header__user-item--danger"
+                      onClick={() => {
+                        setUserMenuOpen(false);
+                        logout();
+                      }}
+                    >
+                      Đăng xuất
+                    </button>
+                  </div>
+                )}
+              </div>
             ) : (
               <>
                 <button
@@ -346,6 +372,53 @@ export default function Header() {
             isMobile
             onNavigateComplete={() => setMobileMenuOpen(false)}
           />
+
+          <div className="site-header__mobile-auth">
+            {currentUser ? (
+              <>
+                <Link
+                  to="/about-me"
+                  className="site-header__mobile-profile-link"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  Tài khoản của tôi ({currentUser.fullName || currentUser.userName})
+                </Link>
+                <button
+                  type="button"
+                  className="site-header__mobile-auth-btn"
+                  onClick={() => {
+                    logout();
+                    setMobileMenuOpen(false);
+                  }}
+                >
+                  Đăng xuất
+                </button>
+              </>
+            ) : (
+              <>
+                <button
+                  type="button"
+                  className="site-header__mobile-auth-btn"
+                  onClick={() => {
+                    setMobileMenuOpen(false);
+                    openLoginModal();
+                  }}
+                >
+                  Đăng nhập
+                </button>
+                <button
+                  type="button"
+                  className="site-header__mobile-auth-btn site-header__mobile-auth-btn--accent"
+                  onClick={() => {
+                    setMobileMenuOpen(false);
+                    openRegisterModal();
+                  }}
+                >
+                  Đăng ký
+                </button>
+              </>
+            )}
+          </div>
         </div>
       )}
     </header>

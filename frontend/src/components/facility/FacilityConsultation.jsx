@@ -164,6 +164,15 @@ export default function FacilityConsultation({
                 src={consultImageUrl}
                 alt={`Tư vấn thiết kế xưởng ${facility?.name || ""}`}
                 className="workshop-consult__img"
+                style={
+                  facility?.id === "GBT_HAC"
+                    ? { objectPosition: "center 68%" }
+                    : facility?.id === "GBT_GTL"
+                    ? { objectPosition: "center 62%" }
+                    : facility?.id === "GBT_BNH"
+                    ? { objectPosition: "center 56%" }
+                    : undefined
+                }
                 loading="lazy"
               />
             ) : (

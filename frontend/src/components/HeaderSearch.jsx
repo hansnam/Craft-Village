@@ -2,6 +2,7 @@ import React, { useEffect, useId, useMemo, useRef, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { craftVillages } from "../data/homeData.js";
 import { facilities, products, villages } from "../data/mockData.js";
+import { newsArticles } from "../data/newsData.js";
 import {
   resolveFacilityThumbnail,
   resolveMockAsset,
@@ -53,6 +54,7 @@ const CATEGORY_LABELS = {
   village: "Làng nghề",
   facility: "Cơ sở SX",
   product: "Sản phẩm",
+  news: "Tin tức",
 };
 
 export default function HeaderSearch({
@@ -167,6 +169,23 @@ export default function HeaderSearch({
       });
     }
 
+    if (Array.isArray(newsArticles)) {
+      newsArticles.forEach((article) => {
+        entries.push({
+          key: `news-${article.id}`,
+          type: "news",
+          title: article.title,
+          subtitle: `${article.categoryLabel} • ${article.date}`,
+          thumb: article.images?.[0] || "",
+          href: `/tin-tuc/${article.slug}`,
+          normTitle: normalizeVietnameseText(article.title),
+          normMeta: normalizeVietnameseText(
+            `${article.categoryLabel} ${article.sapo}`
+          ),
+        });
+      });
+    }
+
     return entries;
   }, []);
 
@@ -186,7 +205,7 @@ export default function HeaderSearch({
     const cleanQuery = normalizeVietnameseText(query).trim();
     if (!cleanQuery) return [];
 
-    const typePriority = { village: 0, facility: 1, product: 2 };
+    const typePriority = { village: 0, facility: 1, product: 2, news: 3 };
     const scored = [];
 
     for (const entry of searchCatalog) {

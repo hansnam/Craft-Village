@@ -35,7 +35,13 @@ function FacilityCard({ facility, index }) {
       >
         {thumbUrl ? (
           <img
-            className="facility-card__image"
+            className={`facility-card__image ${
+              facility?.langNgheId === "GBT" &&
+              facility?.id !== "GBT_GHL" &&
+              facility?.id !== "GBT_GSMH"
+                ? "facility-card__image--gbt"
+                : ""
+            }`}
             src={thumbUrl}
             alt={facility?.name || "Cơ sở sản xuất làng nghề"}
             loading="lazy"

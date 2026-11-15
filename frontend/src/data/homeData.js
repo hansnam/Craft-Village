@@ -137,8 +137,8 @@ export const craftVillages = [
   },
   {
     id: "NLC",
-    shortName: "NÓN LÁ CHUÔNG",
-    fullName: "LÀNG NÓN LÁ CHUÔNG",
+    shortName: "NÓN LÀNG CHUÔNG",
+    fullName: "LÀNG NÓN LÀNG CHUÔNG",
     location: "Phương Trung, Thanh Oai, Hà Nội",
     description:
       "Chất liệu mộc mạc: Lá lụa trắng, tre vót mảnh và chỉ cước trong suốt, đòi hỏi kỹ thuật đan nan đều đặn và mũi khâu tăm tắp.",

@@ -1,6 +1,12 @@
 import React from "react";
 import { resolveMockAsset } from "../../utils/resolveMockAsset.js";
 
+const STORY_IMAGE_POSITIONS = {
+  GBT_GTL: "center 38%",
+  GBT_BNH: "center 40%",
+  GBT_HAC: "center 36%",
+};
+
 export default function FacilityStory({ facility, onOpenLightbox }) {
   const storyImageRaw =
     facility?.images?.imageStory ||
@@ -70,6 +76,11 @@ export default function FacilityStory({ facility, onOpenLightbox }) {
                   src={storyImageUrl}
                   alt={`Câu chuyện ${facility?.name || "xưởng"}`}
                   className="workshop-story__img"
+                  style={
+                    STORY_IMAGE_POSITIONS[facility?.id]
+                      ? { objectPosition: STORY_IMAGE_POSITIONS[facility.id] }
+                      : undefined
+                  }
                   loading="lazy"
                 />
               </div>

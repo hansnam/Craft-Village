@@ -165,7 +165,14 @@ export default function FacilityHero({ facility, onOpenConnect, onOpenLightbox }
         {/* Hàng trên: Tiêu đề + Giới thiệu + Nút CTA & Ảnh nổi bật */}
         <div className="workshop-hero__top-row">
           <div className="workshop-hero__content">
-            <h1 id="workshop-title" className="workshop-hero__title">
+            <h1
+              id="workshop-title"
+              className={`workshop-hero__title${
+                /htx mây tre nón lá tạ thu hương/i.test(facility?.name || "")
+                  ? " workshop-hero__title--htx"
+                  : ""
+              }`}
+            >
               {/mây tre đan việt quang/i.test(facility?.name || "") ? (
                 <>
                   MÂY TRE ĐAN
@@ -174,7 +181,9 @@ export default function FacilityHero({ facility, onOpenConnect, onOpenLightbox }
                 </>
               ) : /htx mây tre nón lá tạ thu hương/i.test(facility?.name || "") ? (
                 <>
-                  HTX MÂY TRE NÓN LÁ
+                  <span className="workshop-hero__title-line">
+                    HTX MÂY TRE NÓN LÁ
+                  </span>
                   <br />
                   TẠ THU HƯƠNG
                 </>
@@ -214,7 +223,13 @@ export default function FacilityHero({ facility, onOpenConnect, onOpenLightbox }
                 <img
                   src={heroImageUrl}
                   alt={facility?.name || "Hình ảnh xưởng sản xuất"}
-                  className="workshop-hero__img"
+                  className={`workshop-hero__img ${
+                    facility?.langNgheId === "GBT" &&
+                    facility?.id !== "GBT_GHL" &&
+                    facility?.id !== "GBT_GSMH"
+                      ? "workshop-hero__img--gbt"
+                      : ""
+                  }`}
                   loading="eager"
                 />
               </div>

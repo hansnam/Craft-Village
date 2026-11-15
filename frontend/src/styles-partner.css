@@ -1,0 +1,436 @@
+/* ==========================================================================
+   Partner Registration Page (Xưởng sản xuất & Khách hàng doanh nghiệp)
+   ========================================================================== */
+
+.partner-page {
+  position: relative;
+  min-height: 100vh;
+  background-color: var(--bg-cream, #fffbf2);
+  padding: 44px 0 96px;
+  overflow-x: hidden;
+}
+
+.partner-page__bg-pattern {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: var(--partner-botanical-bg);
+  background-repeat: repeat-y;
+  background-size: 100% auto;
+  background-position: top center;
+  opacity: 0.22;
+  z-index: 0;
+}
+
+.partner-container {
+  position: relative;
+  z-index: 1;
+  width: min(920px, calc(100% - 40px));
+  margin: 0 auto;
+}
+
+/* Header block */
+.partner-hero {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.partner-hero__title {
+  margin: 0 0 10px;
+  font-family: var(--font-heading, "1FTV Blushing Rose", Georgia, serif);
+  font-size: clamp(32px, 4.4vw, 48px);
+  font-weight: 400;
+  line-height: 1.15;
+  color: #2f2318;
+}
+
+.partner-hero__brand {
+  color: var(--brand-crimson-deep, #7f1414);
+}
+
+.partner-hero__subtitle {
+  margin: 0 auto;
+  max-width: 600px;
+  font-family: var(--font-body, "Be Vietnam Pro", sans-serif);
+  font-size: 15.5px;
+  line-height: 1.55;
+  color: #5c4b3b;
+}
+
+.partner-hero__divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 18px auto 0;
+  max-width: 300px;
+  color: #c29b61;
+}
+
+.partner-hero__line {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(194, 155, 97, 0.7), transparent);
+}
+
+/* Switcher Tabs */
+.partner-tabs {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  max-width: 760px;
+  margin: 0 auto 24px;
+  padding: 6px;
+  background: rgba(247, 238, 224, 0.85);
+  border: 1px solid #e6d7c1;
+  border-radius: 999px;
+  box-shadow: 0 4px 16px rgba(62, 42, 24, 0.05);
+}
+
+.partner-tab {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 999px;
+  background: transparent;
+  color: #614e3d;
+  font-family: var(--font-body, "Be Vietnam Pro", sans-serif);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 200ms ease, color 200ms ease, box-shadow 200ms ease;
+}
+
+.partner-tab:hover {
+  color: #7f1414;
+}
+
+.partner-tab.is-active {
+  background: #8f1d1d;
+  color: #fffbf2;
+  box-shadow: 0 6px 16px rgba(143, 29, 29, 0.24);
+}
+
+/* Form Card */
+.partner-card {
+  background: rgba(255, 253, 248, 0.96);
+  border: 1px solid #eadcc7;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 18px 46px rgba(60, 42, 24, 0.08);
+}
+
+/* Top Split Banner inside Card */
+.partner-card__banner {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  align-items: center;
+  min-height: 126px;
+  background: linear-gradient(90deg, #f3e4cd 0%, #f9f0e2 65%, #fbf5eb 100%);
+  border-bottom: 1px solid #ecdec9;
+  position: relative;
+}
+
+.partner-card__banner-media {
+  position: relative;
+  height: 100%;
+  min-height: 126px;
+  overflow: hidden;
+}
+
+.partner-card__banner-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.partner-card__banner-fade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(243, 228, 205, 0.08) 45%, #f5e8d4 100%);
+}
+
+.partner-card__banner-copy {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 20px 30px 20px 16px;
+}
+
+.partner-card__banner-icon {
+  flex-shrink: 0;
+  width: 54px;
+  height: 54px;
+  border-radius: 14px;
+  background: rgba(255, 251, 242, 0.9);
+  border: 1px solid #e2cfa9;
+  color: #a6702e;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(166, 112, 46, 0.12);
+}
+
+.partner-card__banner-title {
+  margin: 0 0 6px;
+  font-family: var(--font-heading, "1FTV Blushing Rose", Georgia, serif);
+  font-size: clamp(22px, 2.5vw, 28px);
+  font-weight: 400;
+  color: #2f2318;
+  line-height: 1.2;
+}
+
+.partner-card__banner-desc {
+  margin: 0;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: #695747;
+}
+
+/* Form Body */
+.partner-card__body {
+  padding: 30px 34px 36px;
+}
+
+.partner-form__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px 22px;
+}
+
+.partner-field {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.partner-field--full {
+  grid-column: 1 / -1;
+}
+
+.partner-field__label {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: #3a2d21;
+}
+
+.partner-field__label .req {
+  color: #b51f1f;
+}
+
+.partner-input,
+.partner-select,
+.partner-textarea {
+  width: 100%;
+  border: 1px solid #e3d6c1;
+  border-radius: 10px;
+  background: #f9f3e9;
+  color: #2f2318;
+  font-family: var(--font-body, "Be Vietnam Pro", sans-serif);
+  font-size: 14px;
+  transition: border-color 180ms ease, background-color 180ms ease, box-shadow 180ms ease;
+}
+
+.partner-input,
+.partner-select {
+  height: 44px;
+  padding: 0 14px;
+}
+
+.partner-select.is-placeholder {
+  color: #938271;
+}
+
+.partner-textarea {
+  padding: 12px 14px;
+  min-height: 108px;
+  resize: vertical;
+  line-height: 1.55;
+}
+
+.partner-input::placeholder,
+.partner-textarea::placeholder {
+  color: #938271;
+}
+
+.partner-input:focus,
+.partner-select:focus,
+.partner-textarea:focus {
+  outline: none;
+  border-color: #8f1d1d;
+  background: #ffffff;
+  box-shadow: 0 0 0 3px rgba(143, 29, 29, 0.1);
+}
+
+.partner-input.has-error,
+.partner-select.has-error,
+.partner-textarea.has-error {
+  border-color: #c62828;
+  background: #fff7f7;
+}
+
+.partner-input-icon-wrap {
+  position: relative;
+}
+
+.partner-input-icon {
+  position: absolute;
+  left: 13px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #8f7e6d;
+  pointer-events: none;
+  display: inline-flex;
+}
+
+.partner-input--with-icon {
+  padding-left: 38px;
+}
+
+.partner-select-wrap {
+  position: relative;
+}
+
+.partner-error {
+  font-size: 12.5px;
+  color: #c62828;
+}
+
+.partner-form__footer {
+  margin-top: 28px;
+  display: flex;
+  justify-content: center;
+}
+
+.partner-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-width: 270px;
+  height: 48px;
+  padding: 0 28px;
+  border: none;
+  border-radius: 999px;
+  background: #8f1d1d;
+  color: #fffbf2;
+  font-family: var(--font-body, "Be Vietnam Pro", sans-serif);
+  font-size: 14.5px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(143, 29, 29, 0.25);
+  transition: transform 180ms ease, background-color 180ms ease, box-shadow 180ms ease;
+}
+
+.partner-btn-primary:hover {
+  background: #731111;
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(115, 17, 17, 0.32);
+}
+
+.partner-btn-arrow {
+  font-size: 16px;
+  line-height: 1;
+}
+
+.partner-btn-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  padding: 0 24px;
+  border: 1px solid #8f1d1d;
+  border-radius: 999px;
+  color: #8f1d1d;
+  text-decoration: none;
+  font-size: 14.5px;
+  font-weight: 600;
+  transition: background-color 180ms ease;
+}
+
+.partner-btn-outline:hover {
+  background: rgba(143, 29, 29, 0.06);
+}
+
+/* Success State */
+.partner-success {
+  text-align: center;
+  padding: 20px 12px 12px;
+}
+
+.partner-success__icon {
+  width: 68px;
+  height: 68px;
+  margin: 0 auto 14px;
+  border-radius: 50%;
+  background: rgba(46, 125, 50, 0.12);
+  color: #2e7d32;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.partner-success__title {
+  margin: 0 0 8px;
+  font-family: var(--font-heading, "1FTV Blushing Rose", Georgia, serif);
+  font-size: 28px;
+  font-weight: 400;
+  color: #2f2318;
+}
+
+.partner-success__code {
+  margin: 0 0 12px;
+  font-size: 14px;
+  color: #8f1d1d;
+}
+
+.partner-success__desc {
+  margin: 0 auto 24px;
+  max-width: 560px;
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: #5c4b3b;
+}
+
+.partner-success__actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+@media (max-width: 760px) {
+  .partner-tabs {
+    grid-template-columns: 1fr;
+    border-radius: 16px;
+  }
+
+  .partner-card__banner {
+    grid-template-columns: 1fr;
+  }
+
+  .partner-card__banner-media {
+    height: 130px;
+  }
+
+  .partner-card__banner-fade {
+    background: linear-gradient(180deg, rgba(243, 228, 205, 0.05) 35%, #f5e8d4 100%);
+  }
+
+  .partner-card__banner-copy {
+    padding: 16px 20px 20px;
+  }
+
+  .partner-card__body {
+    padding: 22px 18px 28px;
+  }
+
+  .partner-form__grid {
+    grid-template-columns: 1fr;
+  }
+}

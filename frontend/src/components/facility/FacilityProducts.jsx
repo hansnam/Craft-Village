@@ -51,6 +51,11 @@ export default function FacilityProducts({
                         src={imageUrl}
                         alt={product.name || "Sản phẩm xưởng"}
                         className="workshop-product-card__img"
+                        style={
+                          facility?.langNgheId === "NLC"
+                            ? { objectPosition: "center top" }
+                            : undefined
+                        }
                         loading="lazy"
                       />
                     ) : (
