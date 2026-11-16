@@ -379,7 +379,7 @@ export default function AuthModal() {
           </button>
         </p>
 
-        <p className="auth-modal__switch-hint" style={{ marginTop: "8px", fontSize: "12.5px" }}>
+        {/* <p className="auth-modal__switch-hint" style={{ marginTop: "8px", fontSize: "12.5px" }}>
           Bạn là xưởng sản xuất hoặc khách hàng doanh nghiệp?{" "}
           <Link
             to="/tham-gia?tab=business"
@@ -389,7 +389,7 @@ export default function AuthModal() {
           >
             Đăng ký đối tác ngay
           </Link>
-        </p>
+        </p> */}
       </div>
     </div>
   );

@@ -1659,7 +1659,7 @@
 .product-detail-page--pdf52 .product-profile-feature-card:last-child .product-profile-feature-card__img { object-position: center center; }
 .product-detail-page--profile-reference .product-profile-feature-card__title { font: 400 20px/1.25 var(--heading-font); color: #870a0d; margin-bottom: 6px; }
 .product-detail-page--profile-reference .product-profile-feature-card__text { font-size: 14px; line-height: 1.5; color: #171411; }
-.product-detail-page--profile-reference .product-profile-quote-strip { min-height: 214px; background-position: center 87%; border: 0; }
+.product-detail-page--profile-reference .product-profile-quote-strip { min-height: 214px; background-position: center center; background-size: cover; border: 0; }
 .product-detail-page--profile-reference .product-profile-quote-strip__text { max-width: 570px; font: 400 26px/1.2 var(--heading-font); }
 .product-detail-page--lotus .product-profile-quote-strip { background-position: center 10%; background-color: transparent; background-size: cover; }
 .product-detail-page--lotus .product-profile-quote-strip__text { color: #870a0d; text-shadow: none; }
@@ -1727,6 +1727,10 @@
 .product-detail-page--profile-reference.product-detail-page--non-la .product-profile-feature-card__img,
 .product-detail-page--profile-reference.product-detail-page--non-la .product-profile-card__img,
 .product-detail-page--profile-reference .product-profile-card--non-la .product-profile-card__img { object-position: center top; }
+.product-detail-page--profile-reference.product-detail-page--fan .product-profile-hero__main-box { background: #ffffff; border: 1px solid #ede4d4; }
+.product-detail-page--profile-reference.product-detail-page--fan .artisan-turntable__img,
+.product-detail-page--profile-reference.product-detail-page--fan .product-profile-hero__main-img { object-fit: contain; object-position: center center; padding: 10px; }
+.product-detail-page--profile-reference.product-detail-page--fan .product-profile-hero__thumb-img { object-fit: contain; background: #ffffff; }
 .product-detail-page--profile-reference .product-profile-card__body { padding: 14px 0 0; }
 .product-detail-page--profile-reference .product-profile-card__title { font: 700 16px/1.4 var(--body-font); color: #171411; }
 

@@ -2323,42 +2323,6 @@ export const reviews =
 export const products =
 [
   {
-    "id": "SP_QCS_DAHT",
-    "aliasIds": ["prod-1"],
-    "coSoSanXuatId": "QCS_QP",
-    "name": "Dấu Ấn Hà Thành",
-    "itemDescription": "Gửi nét đẹp Thủ đô qua từng cánh quạt. Tác phẩm quạt Chàng Sơn tinh xảo với nan tre tuyển chọn vót chuốt tỉ mỉ, bề mặt bồi giấy điệp vẽ phong cảnh Thăng Long - Hà Nội cổ kính thanh tao, mang đậm bản sắc văn hóa truyền thống nghìn năm văn hiến.",
-    "chatLieu": "Nan tre tự nhiên già dặn, giấy điệp truyền thống bồi bền chắc, mực vẽ thủ công cao cấp",
-    "kyThuat": "Vót nan tre đều tay, vào nan chính xác, bồi giấy thủ công nhiều lớp và vẽ tay họa tiết thắng cảnh Hà Nội",
-    "xuatXu": "Làng quạt Chàng Sơn, huyện Thạch Thất, Hà Nội",
-    "dacDiemTitle": "Gửi nét đẹp Thủ đô qua từng cánh quạt",
-    "dacDiemDescription": "Thiết kế kết hợp hài hòa giữa kỹ thuật làm quạt truyền thống Chàng Sơn và phong cảnh Thăng Long thanh lịch. Quạt xòe tròn đều, nan tre dẻo dai đàn hồi tốt, bề mặt tranh sinh động, thích hợp làm quà tặng ngoại giao, lưu niệm văn hóa hoặc trang trí không gian sang trọng.",
-    "chatLieuVaMauSac": "Nan tre nâu trầm tự nhiên, nền giấy ngà ấm áp kết hợp sắc màu hội họa truyền thống.",
-    "hoaTietVaKieuDang": "Dáng quạt xòe bán nguyệt kinh điển, nan tre vót mảnh đều, tranh vẽ cảnh sắc Thăng Long - Hồ Gươm cổ kính.",
-    "isFeatured": true,
-    "images": [
-      "/download/Ảnh làng nghề/Trang chủ/sanphamnoibat1.png",
-      "/download/Ảnh làng nghề/Quạt Phương/sanpham1.png",
-      "/download/Ảnh làng nghề/Quạt Phương/sanpham2.png",
-      "/download/Ảnh làng nghề/Quạt Phương/sanpham3.png"
-    ],
-    "sourcePdfPage": null,
-    "isHomeFeaturedOnly": true,
-    "sourceNote": "Sản phẩm nổi bật mock; chưa xác định trang chi tiết tương ứng trong PDF.",
-    "detailTemplate": "profile",
-    "pdfContent": {
-      "chatLieu": "Nan tre tự nhiên và giấy điệp thủ công",
-      "kyThuat": "Vót nan tre, vào nan, bồi giấy và vẽ tay cảnh sắc Thăng Long",
-      "xuatXu": "Làng quạt Chàng Sơn, huyện Thạch Thất, Hà Nội",
-      "itemDescription": "Quạt thủ công Dấu Ấn Hà Thành tái hiện cảnh sắc Thăng Long cổ kính qua đường nét hội họa tinh xảo trên nan tre Chàng Sơn.",
-      "dacDiemTitle": "Gửi nét đẹp Thủ đô qua từng cánh quạt",
-      "dacDiemDescription": "Thiết kế kết hợp hài hòa giữa kỹ thuật làm quạt truyền thống Chàng Sơn và phong cảnh Thăng Long thanh lịch.",
-      "chatLieuVaMauSac": "Nan tre nâu trầm tự nhiên, nền giấy ngà ấm áp kết hợp sắc màu hội họa truyền thống.",
-      "hoaTietVaKieuDang": "Dáng quạt xòe bán nguyệt kinh điển, nan tre vót mảnh đều, tranh vẽ cảnh sắc Thăng Long - Hồ Gươm cổ kính.",
-      "lienHeXuongTheoPdfChuaXacMinh": "Trao đổi trực tiếp với xưởng Quạt Phương. Dịch vụ đi kèm: Nhận đặt làm quạt quà tặng doanh nghiệp, in logo và vẽ mẫu theo yêu cầu."
-    }
-  },
-  {
     "id": "SP_MTD_VDNT",
     "aliasIds": ["prod-2"],
     "coSoSanXuatId": "MTD_MTDTA",
@@ -3173,10 +3137,7 @@ export const products =
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, nổi bật với hình tượng linh vật cách điệu theo phong cách tranh dân gian, đặt giữa hệ nan tỏa đều.",
     "isFeatured": null,
     "images": [
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham1.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham1.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham2.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham3.png"
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham1.png"
     ],
     "sourcePdfPage": 94,
     "detailTemplate": "profile",
@@ -3210,10 +3171,7 @@ export const products =
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, nổi bật với hình tượng đồng tử trong trang phục truyền thống, mang đậm nét mỹ thuật phương Đông.",
     "isFeatured": null,
     "images": [
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham2.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham4.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham5.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham6.png"
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham2.png"
     ],
     "sourcePdfPage": 95,
     "detailTemplate": "profile",
@@ -3247,8 +3205,7 @@ export const products =
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, trang trí cành cây, hoa mai và chim, mang nét cổ điển, đậm sắc xuân.",
     "isFeatured": null,
     "images": [
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham3.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham1.png"
+      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham3.png"
     ],
     "sourcePdfPage": 96,
     "detailTemplate": "profile",
@@ -3372,9 +3329,7 @@ export const products =
     },
     "isFeatured": null,
     "images": [
-      "/download/Ảnh làng nghề/Quạt Từ Tâm/sanpham1.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham2.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham3.png"
+      "/download/Ảnh làng nghề/Quạt Từ Tâm/sanpham1.png"
     ],
     "sourcePdfPage": 82,
     "detailTemplate": "profile",
@@ -3408,9 +3363,7 @@ export const products =
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, trang trí hình rồng cách điệu cùng hoa văn thực vật, tạo điểm nhấn nổi bật trên nền xanh đậm.",
     "isFeatured": null,
     "images": [
-      "/download/Ảnh làng nghề/Quạt Từ Tâm/sanpham2.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham4.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham5.png"
+      "/download/Ảnh làng nghề/Quạt Từ Tâm/sanpham2.png"
     ],
     "sourcePdfPage": 83,
     "detailTemplate": "profile",
@@ -3444,10 +3397,7 @@ export const products =
     "hoaTietVaKieuDang": "Hình cành đào nở hoa được bố trí theo đường cong của mặt quạt bán nguyệt. Có tua đỏ làm điểm nhấn trang trí.",
     "isFeatured": null,
     "images": [
-      "/download/Ảnh làng nghề/Quạt Từ Tâm/sanpham3.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham6.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham1.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham2.png"
+      "/download/Ảnh làng nghề/Quạt Từ Tâm/sanpham3.png"
     ],
     "sourcePdfPage": 84,
     "detailTemplate": "profile",
@@ -3481,10 +3431,7 @@ export const products =
     "hoaTietVaKieuDang": "Hoa văn truyền thống kết hợp các mô-típ đối xứng và đường nét uốn lượn trên mặt quạt bán nguyệt.",
     "isFeatured": null,
     "images": [
-      "/download/Ảnh làng nghề/Quạt Từ Tâm/sanpham4.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham3.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham4.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham5.png"
+      "/download/Ảnh làng nghề/Quạt Từ Tâm/sanpham4.png"
     ],
     "sourcePdfPage": 85,
     "detailTemplate": "profile",
@@ -3518,10 +3465,7 @@ export const products =
     "hoaTietVaKieuDang": "Cụm hoa sen nở kết hợp nụ sen và lá sen có phần tua đỏ nhỏ ở chốt quạt tạo điểm nhấn.",
     "isFeatured": null,
     "images": [
-      "/download/Ảnh làng nghề/Quạt Từ Tâm/sanpham5.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham6.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham1.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham2.png"
+      "/download/Ảnh làng nghề/Quạt Từ Tâm/sanpham5.png"
     ],
     "sourcePdfPage": 86,
     "detailTemplate": "profile",
@@ -3555,10 +3499,7 @@ export const products =
     "hoaTietVaKieuDang": "Hình ảnh chim công kết hợp các cụm hoa lá nhiều màu, bố trí uốn lượn trên mặt quạt xếp hình bán nguyệt.",
     "isFeatured": null,
     "images": [
-      "/download/Ảnh làng nghề/Quạt Từ Tâm/sanpham6.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham3.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham4.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham5.png"
+      "/download/Ảnh làng nghề/Quạt Từ Tâm/sanpham6.png"
     ],
     "sourcePdfPage": 87,
     "detailTemplate": "profile",
@@ -3592,10 +3533,7 @@ export const products =
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, trang trí hình nhân vật trong trang phục truyền thống xen kẽ hoa văn cách điệu, bố trí theo từng ô.",
     "isFeatured": null,
     "images": [
-      "/download/Ảnh làng nghề/Quạt Phương/sanpham1.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham6.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham1.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham2.png"
+      "/download/Ảnh làng nghề/Quạt Phương/sanpham1.png"
     ],
     "sourcePdfPage": 88,
     "detailTemplate": "profile",
@@ -3629,8 +3567,7 @@ export const products =
     "hoaTietVaKieuDang": "Chim công cách điệu kết hợp hoa lá, được sắp xếp theo đường cong của mặt quạt bán nguyệt.",
     "isFeatured": null,
     "images": [
-      "/download/Ảnh làng nghề/Quạt Phương/sanpham2.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham3.png"
+      "/download/Ảnh làng nghề/Quạt Phương/sanpham2.png"
     ],
     "sourcePdfPage": 89,
     "detailTemplate": "profile",
@@ -3664,10 +3601,7 @@ export const products =
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, trang trí hoa văn thực vật và đường nét uốn lượn mềm mại.",
     "isFeatured": null,
     "images": [
-      "/download/Ảnh làng nghề/Quạt Phương/sanpham3.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham4.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham5.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham6.png"
+      "/download/Ảnh làng nghề/Quạt Phương/sanpham3.png"
     ],
     "sourcePdfPage": 90,
     "detailTemplate": "profile",
@@ -3701,8 +3635,7 @@ export const products =
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, trang trí bản vẽ kỹ thuật với đường nét hình học và hình minh họa kiến trúc độc đáo",
     "isFeatured": null,
     "images": [
-      "/download/Ảnh làng nghề/Quạt Phương/sanpham4.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham1.png"
+      "/download/Ảnh làng nghề/Quạt Phương/sanpham4.png"
     ],
     "sourcePdfPage": 91,
     "detailTemplate": "profile",
@@ -3736,10 +3669,7 @@ export const products =
     "hoaTietVaKieuDang": "Họa tiết xoắn tròn cách điệu kết hợp các đường nét nhỏ, được lặp lại theo chiều xòe của quạt bán nguyệt.",
     "isFeatured": null,
     "images": [
-      "/download/Ảnh làng nghề/Quạt Phương/sanpham5.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham2.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham3.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham4.png"
+      "/download/Ảnh làng nghề/Quạt Phương/sanpham5.png"
     ],
     "sourcePdfPage": 92,
     "detailTemplate": "profile",
@@ -3773,10 +3703,7 @@ export const products =
     "hoaTietVaKieuDang": "Quạt xếp bán nguyệt, tái hiện tranh sinh hoạt dân gian cùng hình ảnh nhân vật và hoa văn truyền thống.",
     "isFeatured": null,
     "images": [
-      "/download/Ảnh làng nghề/Quạt Phương/sanpham6.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham5.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham6.png",
-      "/download/Ảnh làng nghề/Quạt Chàng Sơn/sanpham1.png"
+      "/download/Ảnh làng nghề/Quạt Phương/sanpham6.png"
     ],
     "sourcePdfPage": 93,
     "detailTemplate": "profile",

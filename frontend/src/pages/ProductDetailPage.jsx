@@ -287,13 +287,14 @@ export default function ProductDetailPage() {
   const defaultFeatureMaterial = "/download/Ảnh làng nghề/product_detail/product_feature_material_card.png";
   const defaultFeatureDesign = "/download/Ảnh làng nghề/product_detail/product_feature_design_card.png";
 
-  const quoteImage = defaultLotusQuoteBanner;
-  const isLotusBanner = true;
+  const villageStoryImage = village?.story?.images?.[0]?.url || village?.headerImage;
+  const quoteImage = villageStoryImage || defaultLotusQuoteBanner;
+  const isLotusBanner = !villageStoryImage;
   const profileAssets = {
-    quote: defaultLotusQuoteBanner,
+    quote: quoteImage,
     contact: defaultContactCardBg,
     thumb: defaultContactThumb,
-    lotus: true,
+    lotus: isLotusBanner,
   };
 
   const explicitMaterialUrl = product.featureImages?.material ? resolveMockAsset(product.featureImages.material) : null;
@@ -312,9 +313,10 @@ export default function ProductDetailPage() {
     galleryImages[0]?.url ||
     defaultFeatureDesign;
   const isNonLaProduct = facility?.langNgheId === "NLC";
+  const isFanProduct = facility?.langNgheId === "QCS";
 
   return (
-    <div className={`product-detail-page ${isTabsTemplate ? "has-tabs-template" : "has-profile-template"}${profileAssets ? " product-detail-page--profile-reference" : ""}${isLotusBanner ? " product-detail-page--lotus" : ""}${isChairPdf52 ? " product-detail-page--pdf52" : ""}${isNonLaProduct ? " product-detail-page--non-la" : ""}`}>
+    <div className={`product-detail-page ${isTabsTemplate ? "has-tabs-template" : "has-profile-template"}${profileAssets ? " product-detail-page--profile-reference" : ""}${isLotusBanner ? " product-detail-page--lotus" : ""}${isChairPdf52 ? " product-detail-page--pdf52" : ""}${isNonLaProduct ? " product-detail-page--non-la" : ""}${isFanProduct ? " product-detail-page--fan" : ""}`}>
       {/* Toast feedback notification */}
       {toastMessage && (
         <div className="craft-toast" role="status" aria-live="polite">

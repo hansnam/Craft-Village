@@ -6,15 +6,6 @@ import {
 } from "../data/newsData.js";
 import { resolveMockAsset } from "../utils/resolveMockAsset.js";
 
-function normalizeVietnamese(str) {
-  return String(str || "")
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/đ/g, "d")
-    .replace(/Đ/g, "D")
-    .toLowerCase();
-}
-
 function CalendarIcon() {
   return (
     <svg viewBox="0 0 18 18" aria-hidden="true">
@@ -159,7 +150,6 @@ function ExploreVillagesBanner() {
 
 export default function NewsPage() {
   const [searchParams, setSearchParams] = useSearchParams();
-  const [searchTerm, setSearchTerm] = useState("");
   const [showMoreArticles, setShowMoreArticles] = useState(false);
 
   const rawCategory = searchParams.get("danh-muc") || "all";
@@ -174,29 +164,15 @@ export default function NewsPage() {
     []
   );
 
-  const normalizedQuery = normalizeVietnamese(searchTerm).trim();
+  const newsHeaderUrl = useMemo(
+    () => resolveMockAsset("download/Ảnh làng nghề/Tin tức/header_Tintuc.jpg"),
+    []
+  );
 
   const filteredArticles = useMemo(() => {
-    return sortedArticles.filter((article) => {
-      if (activeCategory !== "all" && article.category !== activeCategory) {
-        return false;
-      }
-      if (!normalizedQuery) return true;
-
-      const haystack = normalizeVietnamese(
-        [
-          article.title,
-          article.sapo,
-          article.categoryLabel,
-          ...(article.sections || []).flatMap((sec) => [
-            sec.heading,
-            ...(sec.paragraphs || []),
-          ]),
-        ].join(" ")
-      );
-      return haystack.includes(normalizedQuery);
-    });
-  }, [sortedArticles, activeCategory, normalizedQuery]);
+    if (activeCategory === "all") return sortedArticles;
+    return sortedArticles.filter((article) => article.category === activeCategory);
+  }, [sortedArticles, activeCategory]);
 
   const highlightedArticles = useMemo(() => {
     const shownSlugs = new Set(filteredArticles.map((item) => item.slug));
@@ -227,7 +203,7 @@ export default function NewsPage() {
     }
   };
 
-  const isDefaultAllView = activeCategory === "all" && !normalizedQuery;
+  const isDefaultAllView = activeCategory === "all";
   const bentoLead = filteredArticles[0] || null;
   const bentoSide = filteredArticles.slice(1, 5);
   const lowerGrid = filteredArticles.slice(5);
@@ -240,9 +216,18 @@ export default function NewsPage() {
         aria-hidden="true"
       />
 
-      <section className="news-hero">
+      <section
+        className="news-hero"
+        style={
+          newsHeaderUrl
+            ? {
+                backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0.32) 0%, rgba(0, 0, 0, 0.44) 100%), url('${newsHeaderUrl}')`,
+              }
+            : undefined
+        }
+      >
         <div className="news-container news-hero__inner">
-          <span className="news-hero__eyebrow">Tạp chí Craft Folio</span>
+          <span>     </span>
           <h1 className="news-hero__title">Tin tức</h1>
           <p className="news-hero__subtitle">
             Cập nhật những câu chuyện, xu hướng và hoạt động về làng nghề Việt
@@ -276,52 +261,21 @@ export default function NewsPage() {
               );
             })}
           </div>
-
-          <div className="news-search-box">
-            <svg
-              viewBox="0 0 20 20"
-              className="news-search-box__icon"
-              aria-hidden="true"
-            >
-              <circle cx="8.75" cy="8.75" r="5.5" />
-              <path d="M12.9 12.9l4.1 4.1" />
-            </svg>
-            <input
-              type="search"
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-              placeholder="Tìm kiếm bài viết..."
-              aria-label="Tìm kiếm bài viết tin tức"
-            />
-            {searchTerm && (
-              <button
-                type="button"
-                className="news-search-box__clear"
-                onClick={() => setSearchTerm("")}
-                aria-label="Xóa từ khóa"
-              >
-                ×
-              </button>
-            )}
-          </div>
         </div>
 
         {filteredArticles.length === 0 ? (
           <div className="news-empty">
             <h2 className="news-empty__title">
-              Chưa tìm thấy bài viết phù hợp
+              Chưa có bài viết trong danh mục này
             </h2>
             <p className="news-empty__desc">
-              Thử đổi từ khóa hoặc chọn lại danh mục "Tất cả" để khám phá đầy
-              đủ các bài viết làng nghề và thị trường.
+              Chọn lại danh mục "Tất cả" để khám phá đầy đủ các bài viết làng
+              nghề và thị trường.
             </p>
             <button
               type="button"
               className="news-empty__btn"
-              onClick={() => {
-                setSearchTerm("");
-                handleCategoryChange("all");
-              }}
+              onClick={() => handleCategoryChange("all")}
             >
               Xem tất cả bài viết
             </button>
@@ -377,7 +331,6 @@ export default function NewsPage() {
                     NEWS_CATEGORIES.find((c) => c.id === activeCategory)
                       ?.label
                   }
-                  {normalizedQuery ? ` · "${searchTerm.trim()}"` : ""}
                 </h2>
                 <span className="news-section-head__count">
                   {filteredArticles.length} bài viết
