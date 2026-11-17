@@ -219,34 +219,22 @@ export default function ProductDetailPage() {
     }
   };
 
-  // Related products (prioritize same facility, then same village, then others)
+  // Related products must belong to the same production facility.
   const relatedProducts = useMemo(() => {
-    if (!product) return [];
+    if (!product?.coSoSanXuatId) return [];
 
-    const facilityLangNgheMap = new Map(facilities.map((f) => [f.id, f.langNgheId]));
-    const currentVillageId = facilityLangNgheMap.get(product.coSoSanXuatId);
-
-    const sameFacility = [];
-    const sameVillage = [];
-    const others = [];
-
-    products.forEach((p) => {
-      if (p.id === product.id) return;
-      if (p.coSoSanXuatId === product.coSoSanXuatId) {
-        sameFacility.push(p);
-      } else if (currentVillageId && facilityLangNgheMap.get(p.coSoSanXuatId) === currentVillageId) {
-        sameVillage.push(p);
-      } else {
-        others.push(p);
-      }
-    });
-
-    return [...sameFacility, ...sameVillage, ...others].slice(0, 6);
+    return products
+      .filter((p) => p.id !== product.id && p.coSoSanXuatId === product.coSoSanXuatId)
+      .slice(0, 6);
   }, [product]);
 
   // Carousel controls for related products
   const [carouselIndex, setCarouselIndex] = useState(0);
   const maxCarouselIndex = Math.max(0, relatedProducts.length - 3);
+
+  useEffect(() => {
+    setCarouselIndex(0);
+  }, [product?.id]);
 
   const prevCarousel = () => {
     setCarouselIndex((prev) => Math.max(0, prev - 1));

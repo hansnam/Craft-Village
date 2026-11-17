@@ -12,6 +12,7 @@ import "./styles-partner.css";
 import "./styles-profile.css";
 import "./styles-news.css";
 import "./styles-effects.css";
+import "./styles-contact.css";
 
 createRoot(document.getElementById("root")).render(
   <React.StrictMode>

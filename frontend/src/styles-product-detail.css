@@ -1727,6 +1727,11 @@
 .product-detail-page--profile-reference.product-detail-page--non-la .product-profile-feature-card__img,
 .product-detail-page--profile-reference.product-detail-page--non-la .product-profile-card__img,
 .product-detail-page--profile-reference .product-profile-card--non-la .product-profile-card__img { object-position: center top; }
+
+.product-detail-page--profile-reference.product-detail-page--non-la img[src*="4aa60ed0336eb74c4642f647e218d9bc"] {
+  object-position: center 40%;
+}
+
 .product-detail-page--profile-reference.product-detail-page--fan .product-profile-hero__main-box { background: #ffffff; border: 1px solid #ede4d4; }
 .product-detail-page--profile-reference.product-detail-page--fan .artisan-turntable__img,
 .product-detail-page--profile-reference.product-detail-page--fan .product-profile-hero__main-img { object-fit: contain; object-position: center center; padding: 10px; }

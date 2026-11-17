@@ -89,7 +89,7 @@ export const journeyContent = {
 export const craftVillages = [
   {
     id: "MTD",
-    shortName: "MÂY TRE ĐAN",
+    shortName: "MÂY TRE ĐAN PHÚ VINH",
     fullName: "MÂY TRE ĐAN PHÚ VINH",
     location: "Phú Vinh, Chương Mỹ, Hà Nội",
     description:

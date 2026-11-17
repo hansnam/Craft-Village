@@ -4,7 +4,7 @@ import { resolveMockAsset } from "../../utils/resolveMockAsset.js";
 import AnimatedDrawingCurve from "../effects/AnimatedDrawingCurve.jsx";
 
 const PROCESS_IMAGE_POSITIONS = {
-  QCS_QTSX01: "center 24%",
+  QCS_QTSX01: "center bottom",
   QCS_QTSX02: "center top",
   QCS_QTSX05: "center 45%",
   NLC_QTSX02: "center 58%",

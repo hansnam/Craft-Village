@@ -397,6 +397,7 @@ export default function Footer() {
 
           {/* Right Column: Vision Statement */}
           <div className="footer__right">
+            <Link className="footer__contact-page-link" to="/tham-gia">Liên hệ & đăng ký tham gia <span aria-hidden="true">↗</span></Link>
             <Link
               to="/ve-chung-toi"
               className="footer__vision-link"

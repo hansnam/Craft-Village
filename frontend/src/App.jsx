@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Route, Routes, useLocation } from "react-router-dom";
+import { Navigate, Route, Routes, useLocation } from "react-router-dom";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import CustomCursor from "./components/CustomCursor.jsx";
@@ -16,6 +16,7 @@ import PartnerRegisterPage from "./pages/PartnerRegisterPage.jsx";
 import ProfilePage from "./pages/ProfilePage.jsx";
 import NewsPage from "./pages/NewsPage.jsx";
 import NewsDetailPage from "./pages/NewsDetailPage.jsx";
+import QuickContact from "./components/QuickContact.jsx";
 import VillageNotFound from "./components/village/VillageNotFound.jsx";
 import TactileOrganicGrain from "./components/effects/TactileOrganicGrain.jsx";
 import useSilkParallax from "./hooks/useSilkParallax.js";
@@ -126,11 +127,13 @@ export default function App() {
           <Route path="/tin-tuc" element={<NewsPage />} />
           <Route path="/tin-tuc/:slug" element={<NewsDetailPage />} />
           <Route path="/ve-chung-toi" element={<AboutPage />} />
+          <Route path="/lien-he" element={<Navigate to="/tham-gia" replace />} />
           <Route path="*" element={<VillageNotFound />} />
         </Routes>
         </RouteTransition>
       </main>
       <Footer />
+      <QuickContact />
       <AuthModal />
     </div>
   );

@@ -165,7 +165,7 @@ export default function NewsPage() {
   );
 
   const newsHeaderUrl = useMemo(
-    () => resolveMockAsset("download/Ảnh làng nghề/Tin tức/header_Tintuc.jpg"),
+    () => resolveMockAsset("download/Ảnh làng nghề/Tin tức/header_Tintuc_upscayl_2x_upscayl-standard-4x.png"),
     []
   );
 

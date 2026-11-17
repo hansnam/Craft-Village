@@ -1,0 +1,27 @@
+.quick-contact { position: fixed; z-index: 80; bottom: 24px; right: 20px; display: flex; flex-direction: column; align-items: flex-end; gap: 8px; }
+.quick-contact__link { display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 10px 16px; border: 1px solid var(--earth-border); border-radius: 28px; background: #fffdf9; color: var(--brand-crimson); box-shadow: 0 4px 16px #3a19191a; font-size: 13px; font-weight: 600; }
+.quick-contact__link svg { width: 20px; height: 20px; flex-shrink: 0; }
+.quick-contact__link--primary { background: var(--brand-crimson); color: #fffdf9; border-color: var(--brand-crimson); }
+.quick-contact__link:hover { box-shadow: 0 6px 20px #3a191930; }
+.quick-contact__link:focus-visible { outline: 2px solid var(--brand-crimson); outline-offset: 4px; }
+.footer__contact-page-link { display: inline-flex; align-items: center; gap: 12px; margin-bottom: 20px; color: var(--brand-crimson); font-weight: 600; text-decoration: underline; text-underline-offset: 4px; }
+@media (min-width: 821px) and (max-width: 1350px) {
+  .site-header__inner { gap: 16px; width: calc(100% - 40px); }
+  .site-header__left { gap: 20px; }
+  .site-nav { gap: 18px; }
+  .site-nav__link { font-size: 14px; white-space: nowrap; }
+  .site-header__right { gap: 12px; min-width: 0; }
+  .site-search { width: clamp(140px, 18vw, 220px); }
+}
+@media (min-width: 821px) and (max-width: 1100px) {
+  .site-header__right > .site-search-wrap { display: none; }
+}
+@media (max-width: 760px) {
+  .quick-contact { bottom: 0; left: 0; right: 0; flex-direction: row; justify-content: center; align-items: center; padding: 10px 12px calc(10px + env(safe-area-inset-bottom)); background: #fffdf9f5; border-top: 1px solid var(--earth-border); }
+  .quick-contact__link { box-shadow: none; justify-content: center; flex: 1; padding: 10px 8px; }
+  .page:has(.quick-contact) { padding-bottom: calc(76px + env(safe-area-inset-bottom)); }
+}
+@media (max-width: 420px) {
+  .site-header__actions > .site-header__auth-btn:last-child,
+  .site-header__actions > .site-header__divider { display: none; }
+}
