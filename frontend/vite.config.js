@@ -19,5 +19,5 @@ function spaFallback404Plugin() {
 
 export default defineConfig({
   plugins: [react(), spaFallback404Plugin()],
-  base: "/Craft-Village/",
+  base: process.env.VERCEL ? "/" : "/Craft-Village/",
 });

@@ -75,7 +75,10 @@
   line-height: 1.1;
   margin: 0 0 20px 0;
   font-weight: 400;
-  letter-spacing: -0.01em;
+  font-kerning: none;
+  font-variant-ligatures: none;
+  letter-spacing: 0.015em;
+  word-spacing: 0.04em;
   text-transform: uppercase;
 }
 
@@ -83,8 +86,13 @@
   font-size: clamp(30px, 3.7vw, 54px);
 }
 
+.workshop-hero__title--single-line {
+  font-size: clamp(32px, 4.1vw, 58px);
+}
+
 @media (min-width: 641px) {
-  .workshop-hero__title-line {
+  .workshop-hero__title-line,
+  .workshop-hero__title--single-line {
     white-space: nowrap;
   }
 }
@@ -165,6 +173,10 @@
 
 .workshop-hero__img--gbt {
   object-position: center 60%;
+}
+
+.workshop-hero__img--hnlc {
+  object-position: center center;
 }
 
 .workshop-hero__img-frame:hover .workshop-hero__img {
@@ -424,6 +436,15 @@
   transform: scale(1.1);
 }
 
+.workshop-product-card--fan .workshop-product-card__img {
+  transform: scale(1.12);
+  transform-origin: center 46%;
+}
+
+.workshop-product-card--fan:hover .workshop-product-card__img {
+  transform: scale(1.22);
+}
+
 .workshop-product-card__placeholder {
   width: 100%;
   height: 100%;
@@ -510,6 +531,11 @@
   color: var(--brand-crimson-deep);
   margin: 0 0 12px 0;
   font-weight: 400;
+  font-kerning: none;
+  font-variant-ligatures: none;
+  letter-spacing: 0.02em;
+  word-spacing: 0.04em;
+  line-height: 1.25;
 }
 
 .workshop-story__kicker {

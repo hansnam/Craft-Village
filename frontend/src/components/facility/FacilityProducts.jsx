@@ -35,7 +35,9 @@ export default function FacilityProducts({
               return (
                 <article
                   key={product.id || index}
-                  className="workshop-product-card"
+                  className={`workshop-product-card${
+                    facility?.langNgheId === "QCS" ? " workshop-product-card--fan" : ""
+                  }`}
                   data-cursor="card"
                   onClick={() => {
                     if (product.id) {

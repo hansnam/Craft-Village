@@ -3772,6 +3772,11 @@ html.custom-cursor-active select {
   object-position: center 62%;
 }
 
+.facility-card__image--hnlc {
+  object-fit: cover;
+  object-position: center center;
+}
+
 .facility-card:hover .facility-card__image,
 .facility-card:focus-within .facility-card__image {
   transform: scale(1.02);

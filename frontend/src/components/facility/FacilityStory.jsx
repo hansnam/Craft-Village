@@ -1,5 +1,6 @@
 import React from "react";
 import { resolveMockAsset } from "../../utils/resolveMockAsset.js";
+import { renderFacilityLines } from "./FacilityHero.jsx";
 
 const STORY_IMAGE_POSITIONS = {
   GBT_GTL: "center 38%",
@@ -33,21 +34,7 @@ export default function FacilityStory({ facility, onOpenLightbox }) {
           {/* Cột trái: Văn bản câu chuyện */}
           <div className="workshop-story__text-col">
             <h3 className="workshop-story__facility-name">
-              {/htx mây tre nón lá tạ thu hương/i.test(facility?.name || "") ? (
-                <>
-                  HTX MÂY TRE NÓN LÁ
-                  <br />
-                  TẠ THU HƯƠNG
-                </>
-              ) : /mây tre đan việt quang/i.test(facility?.name || "") ? (
-                <>
-                  MÂY TRE ĐAN
-                  <br />
-                  VIỆT QUANG
-                </>
-              ) : (
-                facility?.name
-              )}
+              {renderFacilityLines(facility?.name)}
             </h3>
 
             {title && (

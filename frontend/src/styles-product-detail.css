@@ -1716,6 +1716,10 @@
 .product-detail-page--profile-reference .product-profile-card { background: transparent; border: 0; border-radius: 0; box-shadow: none; }
 .product-detail-page--profile-reference .product-profile-card__media { aspect-ratio: 16 / 10; border-radius: 10px; }
 .product-detail-page--profile-reference .product-profile-card__img { object-fit: cover; object-position: center center; }
+.product-detail-page--profile-reference .product-profile-card--fan .product-profile-card__media { background: #ffffff; border: 1px solid #ede4d4; }
+.product-detail-page--profile-reference .product-profile-card--fan .product-profile-card__img { object-fit: contain; object-position: center center; padding: 0; transform: scale(1.08); }
+.product-detail-page--profile-reference .product-profile-card--fan:hover .product-profile-card__img { transform: scale(1.13); }
+.product-detail-page--profile-reference .product-profile-card--fan-scene .product-profile-card__img { object-fit: cover; object-position: center 42%; }
 .product-detail-page--profile-reference.product-detail-page--non-la .product-profile-hero__main-box { aspect-ratio: 4 / 3; max-height: 480px; }
 .product-detail-page--profile-reference.product-detail-page--non-la .product-profile-hero__thumb-btn { height: 90px; aspect-ratio: 4 / 3; }
 .product-detail-page--profile-reference.product-detail-page--non-la .product-profile-feature-card__img-box { aspect-ratio: 4 / 3; }
@@ -1734,8 +1738,11 @@
 
 .product-detail-page--profile-reference.product-detail-page--fan .product-profile-hero__main-box { background: #ffffff; border: 1px solid #ede4d4; }
 .product-detail-page--profile-reference.product-detail-page--fan .artisan-turntable__img,
-.product-detail-page--profile-reference.product-detail-page--fan .product-profile-hero__main-img { object-fit: contain; object-position: center center; padding: 10px; }
+.product-detail-page--profile-reference.product-detail-page--fan .product-profile-hero__main-img { object-fit: contain; object-position: center center; padding: 0; transform: scale(1.06); }
 .product-detail-page--profile-reference.product-detail-page--fan .product-profile-hero__thumb-img { object-fit: contain; background: #ffffff; }
+.product-detail-page--profile-reference.product-detail-page--fan-scene .product-profile-hero__main-box { aspect-ratio: 5 / 4; max-height: 490px; }
+.product-detail-page--profile-reference.product-detail-page--fan-scene .artisan-turntable__img,
+.product-detail-page--profile-reference.product-detail-page--fan-scene .product-profile-hero__main-img { object-fit: cover; object-position: center 45%; }
 .product-detail-page--profile-reference .product-profile-card__body { padding: 14px 0 0; }
 .product-detail-page--profile-reference .product-profile-card__title { font: 700 16px/1.4 var(--body-font); color: #171411; }
 

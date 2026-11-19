@@ -301,10 +301,11 @@ export default function ProductDetailPage() {
     galleryImages[0]?.url ||
     defaultFeatureDesign;
   const isNonLaProduct = facility?.langNgheId === "NLC";
-  const isFanProduct = facility?.langNgheId === "QCS";
+  const isFanChangSon = facility?.id === "QCS_QCS";
+  const isFanSceneProduct = facility?.langNgheId === "QCS" && !isFanChangSon;
 
   return (
-    <div className={`product-detail-page ${isTabsTemplate ? "has-tabs-template" : "has-profile-template"}${profileAssets ? " product-detail-page--profile-reference" : ""}${isLotusBanner ? " product-detail-page--lotus" : ""}${isChairPdf52 ? " product-detail-page--pdf52" : ""}${isNonLaProduct ? " product-detail-page--non-la" : ""}${isFanProduct ? " product-detail-page--fan" : ""}`}>
+    <div className={`product-detail-page ${isTabsTemplate ? "has-tabs-template" : "has-profile-template"}${profileAssets ? " product-detail-page--profile-reference" : ""}${isLotusBanner ? " product-detail-page--lotus" : ""}${isChairPdf52 ? " product-detail-page--pdf52" : ""}${isNonLaProduct ? " product-detail-page--non-la" : ""}${isFanChangSon ? " product-detail-page--fan" : ""}${isFanSceneProduct ? " product-detail-page--fan-scene" : ""}`}>
       {/* Toast feedback notification */}
       {toastMessage && (
         <div className="craft-toast" role="status" aria-live="polite">
@@ -700,6 +701,15 @@ export default function ProductDetailPage() {
                         resolveFacilityThumbnail(facility) ||
                         defaultContactThumb
                       }
+                      style={
+                        facility?.id === "GBT_GTL"
+                          ? { objectPosition: "center 65%" }
+                          : facility?.id === "GBT_HAC"
+                          ? { objectPosition: "center 68%" }
+                          : facility?.id === "GBT_BNH"
+                          ? { objectPosition: "center 56%" }
+                          : undefined
+                      }
                       alt={facility?.name ? `Cơ sở sản xuất ${facility.name}` : "Cơ sở sản xuất thủ công"}
                     />
                     <div className="product-profile-contact__callout-content">
@@ -771,7 +781,13 @@ export default function ProductDetailPage() {
                       <article
                         key={item.id}
                         className={`product-profile-card${
-                          item.coSoSanXuatId?.startsWith("NLC_") ? " product-profile-card--non-la" : ""
+                          item.coSoSanXuatId?.startsWith("NLC_")
+                            ? " product-profile-card--non-la"
+                            : item.coSoSanXuatId === "QCS_QCS"
+                            ? " product-profile-card--fan"
+                            : item.coSoSanXuatId?.startsWith("QCS_")
+                            ? " product-profile-card--fan-scene"
+                            : ""
                         }`}
                         onClick={() => navigate(`/san-pham/${item.id}`)}
                       >

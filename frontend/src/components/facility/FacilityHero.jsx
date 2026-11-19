@@ -2,6 +2,29 @@ import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { resolveMockAsset, resolveFacilityThumbnail } from "../../utils/resolveMockAsset.js";
 
+const FACILITY_TWO_LINE_TITLES = [
+  { pattern: /mây tre đan việt quang/i, lines: ["MÂY TRE ĐAN", "VIỆT QUANG"] },
+  { pattern: /gốm sứ mạnh hoa/i, lines: ["GỐM SỨ", "MẠNH HOA"] },
+  { pattern: /hoa nón làng chuông/i, lines: ["HOA NÓN", "LÀNG CHUÔNG"] },
+  { pattern: /htx mây tre nón lá tạ thu hương/i, lines: ["HTX MÂY TRE NÓN LÁ", "TẠ THU HƯƠNG"], nowrapFirst: true },
+];
+
+export function renderFacilityLines(name, fallback = "") {
+  const matched = FACILITY_TWO_LINE_TITLES.find((item) => item.pattern.test(name || ""));
+  if (!matched) return name || fallback;
+  return (
+    <>
+      {matched.nowrapFirst ? (
+        <span className="workshop-hero__title-line">{matched.lines[0]}</span>
+      ) : (
+        matched.lines[0]
+      )}
+      <br />
+      {matched.lines[1]}
+    </>
+  );
+}
+
 /**
  * Component hiển thị con số đếm từ 0 lên giá trị đích mỗi khi lướt tới
  */
@@ -170,26 +193,12 @@ export default function FacilityHero({ facility, onOpenConnect, onOpenLightbox }
               className={`workshop-hero__title${
                 /htx mây tre nón lá tạ thu hương/i.test(facility?.name || "")
                   ? " workshop-hero__title--htx"
+                  : /quạt chàng sơn/i.test(facility?.name || "")
+                  ? " workshop-hero__title--single-line"
                   : ""
               }`}
             >
-              {/mây tre đan việt quang/i.test(facility?.name || "") ? (
-                <>
-                  MÂY TRE ĐAN
-                  <br />
-                  VIỆT QUANG
-                </>
-              ) : /htx mây tre nón lá tạ thu hương/i.test(facility?.name || "") ? (
-                <>
-                  <span className="workshop-hero__title-line">
-                    HTX MÂY TRE NÓN LÁ
-                  </span>
-                  <br />
-                  TẠ THU HƯƠNG
-                </>
-              ) : (
-                facility?.name || "Cơ sở sản xuất"
-              )}
+              {renderFacilityLines(facility?.name, "Cơ sở sản xuất")}
             </h1>
 
             <p className="workshop-hero__desc">
@@ -224,9 +233,11 @@ export default function FacilityHero({ facility, onOpenConnect, onOpenLightbox }
                   src={heroImageUrl}
                   alt={facility?.name || "Hình ảnh xưởng sản xuất"}
                   className={`workshop-hero__img ${
-                    facility?.langNgheId === "GBT" &&
-                    facility?.id !== "GBT_GHL" &&
-                    facility?.id !== "GBT_GSMH"
+                    facility?.id === "NLC_HNLC"
+                      ? "workshop-hero__img--hnlc"
+                      : facility?.langNgheId === "GBT" &&
+                        facility?.id !== "GBT_GHL" &&
+                        facility?.id !== "GBT_GSMH"
                       ? "workshop-hero__img--gbt"
                       : ""
                   }`}
