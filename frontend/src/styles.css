@@ -118,10 +118,45 @@ h6 {
   display: flex;
   flex-direction: column;
   background-color: var(--bg-paper);
-  background-image: url("./assets/floral-sketch-pattern.svg");
-  background-size: 680px 680px;
-  background-position: top center;
-  background-repeat: repeat;
+}
+
+.home-page,
+.village-detail-page {
+  position: relative;
+  background-color: var(--bg-paper);
+  overflow-x: clip;
+}
+
+.home-page > *:not(.craft-page-bg-pattern),
+.village-detail-page > *:not(.craft-page-bg-pattern) {
+  position: relative;
+  z-index: 1;
+}
+
+.craft-page-bg-pattern {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: auto clamp(420px, 86vh, 900px);
+  opacity: 0.1;
+}
+
+.craft-page-bg-pattern--gom,
+.craft-page-bg-pattern--non-la,
+.craft-page-bg-pattern--may-tre-dan,
+.craft-page-bg-pattern--lua,
+.craft-page-bg-pattern--co-so {
+  opacity: 0.1;
+}
+
+@media (max-width: 768px) {
+  .craft-page-bg-pattern {
+    background-position: center bottom;
+    background-size: clamp(220px, 64vw, 340px) auto;
+  }
 }
 
 .page__main {
@@ -4871,10 +4906,28 @@ html.custom-cursor-active select {
     gap: 16px;
   }
 
+  .story-nlc__upper {
+    width: calc(100% - 36px);
+  }
+
+  .story-gbt .village-story__title {
+    white-space: normal;
+  }
+
+  .story-gbt__banner-title,
+  .story-gbt__banner-subtitle {
+    font-size: clamp(20px, 5.8vw, 28px);
+  }
+
   .story-mtd__top-pair {
     grid-template-columns: 1fr 1fr;
-    min-height: 215px;
-    gap: 12px;
+    min-height: 185px;
+    gap: 10px;
+  }
+
+  .footer__subscribe {
+    flex-direction: column;
+    align-items: stretch;
   }
 
   .story-nlc__quote-banner {

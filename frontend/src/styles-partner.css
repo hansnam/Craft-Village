@@ -7,19 +7,26 @@
   min-height: 100vh;
   background-color: var(--bg-cream, #fffbf2);
   padding: 44px 0 96px;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 .partner-page__bg-pattern {
-  position: absolute;
+  position: fixed;
   inset: 0;
   pointer-events: none;
   background-image: var(--partner-botanical-bg);
-  background-repeat: repeat-y;
-  background-size: 100% auto;
-  background-position: top center;
-  opacity: 0.22;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: auto clamp(420px, 86vh, 900px);
+  opacity: 0.1;
   z-index: 0;
+}
+
+@media (max-width: 768px) {
+  .partner-page__bg-pattern {
+    background-position: center bottom;
+    background-size: clamp(220px, 64vw, 340px) auto;
+  }
 }
 
 .partner-container {
@@ -432,5 +439,21 @@
 
   .partner-form__grid {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .partner-page {
+    padding: 28px 0 64px;
+  }
+
+  .partner-container {
+    width: calc(100% - 32px);
+  }
+
+  .partner-btn-primary,
+  .partner-btn-outline {
+    width: 100%;
+    min-width: 0;
   }
 }

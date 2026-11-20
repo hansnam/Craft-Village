@@ -4,11 +4,18 @@
    ========================================================================== */
 
 .product-detail-page {
+  position: relative;
+  overflow-x: clip;
   background-color: var(--bg-paper, #fcf9f2);
   min-height: 100vh;
   padding-bottom: 80px;
   color: var(--ink-body, #2f2b27);
   font-family: var(--font-body, "Be Vietnam Pro", sans-serif);
+}
+
+.product-detail-page > *:not(.craft-page-bg-pattern) {
+  position: relative;
+  z-index: 1;
 }
 
 .product-container {
@@ -1749,14 +1756,24 @@
 @media (max-width: 992px) {
   .product-detail-page--profile-reference .product-container { padding-inline: 24px; }
   .product-detail-page--profile-reference .product-profile-hero__grid, .product-detail-page--profile-reference .product-profile-features__grid, .product-detail-page--profile-reference .product-profile-contact__grid { grid-template-columns: 1fr; }
+  .product-detail-page--profile-reference .product-profile-contact__callout-card { grid-template-columns: minmax(170px, 220px) 1fr !important; padding: 22px 24px !important; }
 }
 @media (max-width: 640px) {
   .product-detail-page--profile-reference .product-container { padding-inline: 18px; }
-  .product-detail-page--profile-reference .product-profile-hero { padding-top: 24px; }
-  .product-detail-page--profile-reference .product-profile-features__side-cards { grid-template-columns: 1fr 1fr; gap: 14px; }
+  .product-detail-page--profile-reference .product-profile-hero { padding: 24px 0 36px; }
+  .product-detail-page--profile-reference .product-profile-hero__thumb-btn { width: 72px; height: 52px; border-radius: 8px; }
+  .product-detail-page--profile-reference.product-detail-page--fan-scene .product-profile-hero__main-box { max-height: 360px; }
+  .product-detail-page--profile-reference .product-profile-features { padding: 16px 0 48px; }
+  .product-detail-page--profile-reference .product-profile-features__side-cards { grid-template-columns: 1fr; gap: 20px; }
+  .product-detail-page--profile-reference .product-profile-quote-strip { min-height: 160px; padding: 32px 18px; }
+  .product-detail-page--profile-reference .product-profile-quote-strip__text { font-size: 20px; }
+  .product-detail-page--profile-reference .product-profile-contact { padding: 40px 0 56px; }
+  .product-detail-page--profile-reference .product-profile-related { padding: 0 0 56px; }
   .product-detail-page--profile-reference .product-profile-contact__callout-card { grid-template-columns: 1fr; }
-  .product-detail-page--profile-reference .product-profile-contact__callout-image { height: 130px; }
+  .product-detail-page--profile-reference .product-profile-contact__callout-image { height: 150px; }
   .product-detail-page--profile-reference .product-profile-related__grid { grid-template-columns: 1fr; }
+  .product-profile-card__body { min-width: 0; }
+  .product-profile-card__title { white-space: normal; }
 }
 
 /* 5. Related Products Section */
@@ -2014,5 +2031,11 @@
 @media (max-width: 768px) {
   .product-profile-contact__callout-card {
     grid-template-columns: 1fr !important;
+    padding: 20px !important;
+  }
+
+  .product-profile-contact__callout-card .btn-profile-primary {
+    max-width: none !important;
+    width: 100% !important;
   }
 }

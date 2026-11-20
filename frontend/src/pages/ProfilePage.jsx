@@ -9,7 +9,9 @@ import {
   subscribeUserDataChanges,
   toggleUserFavorite,
 } from "../utils/userDataStorage.js";
-import botanicalBgImg from "../../download/Ảnh làng nghề/Nền/nền trang cơ sở xưởng.png";
+import { HOME_BACKGROUND } from "../assets/pageBackgrounds.js";
+
+const botanicalBgImg = HOME_BACKGROUND.url;
 
 const VALID_TABS = new Set(["info", "bookings", "favorites"]);
 

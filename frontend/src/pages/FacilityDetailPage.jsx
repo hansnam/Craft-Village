@@ -20,6 +20,7 @@ import FacilityReviews from "../components/facility/FacilityReviews.jsx";
 import FacilityConnectModal from "../components/facility/FacilityConnectModal.jsx";
 import ProductDetailModal from "../components/facility/ProductDetailModal.jsx";
 import ImageLightboxModal from "../components/facility/ImageLightboxModal.jsx";
+import { FACILITY_BACKGROUND } from "../assets/pageBackgrounds.js";
 
 export default function FacilityDetailPage() {
   const { facilityId } = useParams();
@@ -90,6 +91,11 @@ export default function FacilityDetailPage() {
 
   return (
     <div className={`workshop-detail-page${facility.id === "MTD_MTDVQ" ? " workshop-detail-page--viet-quang" : ""}`}>
+      <div
+        className={`craft-page-bg-pattern ${FACILITY_BACKGROUND.className}`}
+        style={{ backgroundImage: `url('${FACILITY_BACKGROUND.url}')` }}
+        aria-hidden="true"
+      />
       {/* Breadcrumb điều hướng */}
       <nav className="workshop-breadcrumb" aria-label="Đường dẫn trang">
         <div className="workshop-breadcrumb__container">

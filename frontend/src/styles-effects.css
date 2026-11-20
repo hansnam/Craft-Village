@@ -31,16 +31,6 @@
 /* --------------------------------------------------------------------------
    5.2. LỤA TRÔI KHI CUỘN TRANG (SILK FLOW PARALLAX)
    -------------------------------------------------------------------------- */
-.page {
-  background-position: center calc(var(--silk-parallax-y, 0px) * -0.22);
-  transition: background-position 60ms linear;
-}
-
-.about-page::before {
-  transform: translate3d(0, calc(var(--silk-parallax-y, 0px) * 0.28), 0) !important;
-  will-change: transform;
-}
-
 .footer__waves {
   transform: none;
 }

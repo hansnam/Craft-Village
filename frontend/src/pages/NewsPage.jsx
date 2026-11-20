@@ -5,6 +5,7 @@ import {
   getNewsArticlesSorted,
 } from "../data/newsData.js";
 import { resolveMockAsset } from "../utils/resolveMockAsset.js";
+import { HOME_BACKGROUND } from "../assets/pageBackgrounds.js";
 
 function CalendarIcon() {
   return (
@@ -159,10 +160,7 @@ export default function NewsPage() {
 
   const sortedArticles = useMemo(() => getNewsArticlesSorted(), []);
 
-  const botanicalPatternUrl = useMemo(
-    () => resolveMockAsset("download/Ảnh làng nghề/Nền/nền trang cơ sở xưởng.png"),
-    []
-  );
+  const botanicalPatternUrl = HOME_BACKGROUND.url;
 
   const newsHeaderUrl = useMemo(
     () => resolveMockAsset("download/Ảnh làng nghề/Tin tức/header_Tintuc_upscayl_2x_upscayl-standard-4x.png"),

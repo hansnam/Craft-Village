@@ -4,7 +4,9 @@ import { useAuth } from "../context/AuthContext.jsx";
 import { villages } from "../data/mockData.js";
 import workshopBannerImg from "../../download/Ảnh làng nghề/Trang chủ/vechungtoi.jpg";
 import businessBannerImg from "../../download/Ảnh làng nghề/Về Chúng Tôi/sumenh(1).jpg";
-import botanicalBgImg from "../../download/Ảnh làng nghề/Nền/nền trang cơ sở xưởng.png";
+import { HOME_BACKGROUND } from "../assets/pageBackgrounds.js";
+
+const botanicalBgImg = HOME_BACKGROUND.url;
 
 const STORAGE_KEY = "craft_partner_registrations";
 

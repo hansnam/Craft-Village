@@ -11,6 +11,7 @@ import {
 import ImageLightboxModal from "../components/facility/ImageLightboxModal.jsx";
 import FacilityConnectModal from "../components/facility/FacilityConnectModal.jsx";
 import ArtisanTurntableShowcase from "../components/effects/ArtisanTurntableShowcase.jsx";
+import { HOME_BACKGROUND } from "../assets/pageBackgrounds.js";
 
 // Helper icon placeholder for missing craft product images
 function CraftProductPlaceholder({ name, facilityName }) {
@@ -306,6 +307,11 @@ export default function ProductDetailPage() {
 
   return (
     <div className={`product-detail-page ${isTabsTemplate ? "has-tabs-template" : "has-profile-template"}${profileAssets ? " product-detail-page--profile-reference" : ""}${isLotusBanner ? " product-detail-page--lotus" : ""}${isChairPdf52 ? " product-detail-page--pdf52" : ""}${isNonLaProduct ? " product-detail-page--non-la" : ""}${isFanChangSon ? " product-detail-page--fan" : ""}${isFanSceneProduct ? " product-detail-page--fan-scene" : ""}`}>
+      <div
+        className={`craft-page-bg-pattern ${HOME_BACKGROUND.className}`}
+        style={{ backgroundImage: `url('${HOME_BACKGROUND.url}')` }}
+        aria-hidden="true"
+      />
       {/* Toast feedback notification */}
       {toastMessage && (
         <div className="craft-toast" role="status" aria-live="polite">

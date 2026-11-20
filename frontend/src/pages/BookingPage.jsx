@@ -4,6 +4,7 @@ import { useAuth } from "../context/AuthContext.jsx";
 import { facilities, products } from "../data/mockData.js";
 import { resolveMockAsset, resolveFacilityThumbnail } from "../utils/resolveMockAsset.js";
 import { addUserBooking } from "../utils/userDataStorage.js";
+import { HOME_BACKGROUND } from "../assets/pageBackgrounds.js";
 
 const PURPOSE_OPTIONS = [
   "Tham quan xưởng",
@@ -163,6 +164,11 @@ export default function BookingPage() {
 
   return (
     <div className="booking-page">
+      <div
+        className={`craft-page-bg-pattern ${HOME_BACKGROUND.className}`}
+        style={{ backgroundImage: `url('${HOME_BACKGROUND.url}')` }}
+        aria-hidden="true"
+      />
       {/* Hero Banner (Figma Frame 203:85 & 78:414) */}
       <section
         className="booking-hero"

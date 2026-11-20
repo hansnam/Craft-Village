@@ -7,19 +7,26 @@
   min-height: 78vh;
   background-color: var(--bg-cream, #fffbf2);
   padding: 40px 0 92px;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 .profile-page__bg-pattern {
-  position: absolute;
+  position: fixed;
   inset: 0;
   pointer-events: none;
   background-image: var(--profile-botanical-bg);
-  background-repeat: repeat-y;
-  background-size: 100% auto;
-  background-position: top center;
-  opacity: 0.18;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: auto clamp(420px, 86vh, 900px);
+  opacity: 0.1;
   z-index: 0;
+}
+
+@media (max-width: 768px) {
+  .profile-page__bg-pattern {
+    background-position: center bottom;
+    background-size: clamp(220px, 64vw, 340px) auto;
+  }
 }
 
 .profile-container {
@@ -815,9 +822,31 @@
 }
 
 @media (max-width: 680px) {
+  .profile-page {
+    padding: 24px 0 64px;
+  }
+
+  .profile-container {
+    width: calc(100% - 32px);
+  }
+
   .profile-hero-card,
   .profile-card {
-    padding: 20px 18px;
+    padding: 20px 16px;
+  }
+
+  .profile-hero-card__stats {
+    width: 100%;
+  }
+
+  .profile-stat-box {
+    flex: 1 1 130px;
+    min-width: 0;
+  }
+
+  .profile-tabs {
+    overflow-x: auto;
+    scrollbar-width: none;
   }
 
   .profile-form__grid,

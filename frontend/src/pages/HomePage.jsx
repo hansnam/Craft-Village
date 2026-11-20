@@ -4,6 +4,7 @@ import FeaturedProductsSection from "../components/FeaturedProductsSection.jsx";
 import JourneySection from "../components/JourneySection.jsx";
 import CraftVillagesSection from "../components/CraftVillagesSection.jsx";
 import JoinBannerSection from "../components/JoinBannerSection.jsx";
+import { HOME_BACKGROUND } from "../assets/pageBackgrounds.js";
 
 export default function HomePage() {
   useEffect(() => {
@@ -43,13 +44,18 @@ export default function HomePage() {
   }, []);
 
   return (
-    <>
+    <div className="home-page">
+      <div
+        className={`craft-page-bg-pattern ${HOME_BACKGROUND.className}`}
+        style={{ backgroundImage: `url('${HOME_BACKGROUND.url}')` }}
+        aria-hidden="true"
+      />
       <HeroBanner />
       <FeaturedProductsSection />
       <JourneySection />
       <CraftVillagesSection />
       <JoinBannerSection />
-    </>
+    </div>
   );
 }
 

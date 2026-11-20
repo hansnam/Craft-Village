@@ -3,10 +3,17 @@
    ========================================================================== */
 
 .workshop-detail-page {
+  position: relative;
   background-color: var(--bg-paper);
   min-height: 100vh;
   color: var(--ink-charcoal);
   padding-bottom: 80px;
+  overflow-x: clip;
+}
+
+.workshop-detail-page > *:not(.craft-page-bg-pattern):not(.workshop-subnav) {
+  position: relative;
+  z-index: 1;
 }
 
 /* Breadcrumb */
@@ -1412,6 +1419,10 @@
     padding-bottom: 24px;
   }
 
+  .workshop-projects__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .workshop-review-card--middle {
     transform: none;
   }
@@ -1427,10 +1438,17 @@
   }
 
   .workshop-subnav__list {
-    gap: 16px;
+    display: flex;
+    gap: 8px;
     justify-content: flex-start;
     overflow-x: auto;
-    padding-bottom: 8px;
+    scrollbar-width: none;
+    padding: 0 12px 6px;
+  }
+
+  .workshop-subnav__link {
+    padding: 14px 12px;
+    font-size: 14px;
   }
 
   .workshop-products__grid {
@@ -1484,7 +1502,7 @@
 .workshop-consult {
   padding: 60px 0 80px;
   position: relative;
-  background: #fffdf2 url("./assets/floral-sketch-pattern.svg") center / cover no-repeat;
+  background: transparent;
 }
 
 .workshop-consult__container {
@@ -1783,6 +1801,43 @@
 }
 
 @media (max-width: 640px) {
+  .workshop-subnav--sticky {
+    top: 62px;
+  }
+
+  .workshop-hero__title {
+    font-size: clamp(28px, 8.5vw, 42px);
+    word-spacing: 0.03em;
+  }
+
+  .workshop-hero__title--htx {
+    font-size: clamp(24px, 7vw, 34px);
+  }
+
+  .workshop-hero__title--single-line {
+    font-size: clamp(26px, 7.6vw, 36px);
+    white-space: normal;
+  }
+
+  .workshop-hero__cta-btn {
+    width: 100%;
+    max-width: 300px;
+    justify-content: center;
+  }
+
+  .workshop-section {
+    padding: 40px 0;
+  }
+
+  .workshop-section__title {
+    font-size: clamp(26px, 7.5vw, 36px);
+  }
+
+  .workshop-story__facility-name {
+    font-size: clamp(24px, 7vw, 32px);
+    word-spacing: 0.03em;
+  }
+
   .workshop-consult {
     padding: 40px 0 60px;
   }
@@ -1797,8 +1852,11 @@
     width: 100%;
     justify-content: center;
   }
-  .workshop-consult__title { margin-bottom: 28px; }
+  .workshop-consult__title { margin-bottom: 24px; }
+  .workshop-consult__card { gap: 24px; margin-bottom: 32px; }
   .workshop-consult__info { gap: 22px; }
+  .workshop-consult__desc { font-size: 18px; }
+  .workshop-consult__contact-item { font-size: 15px; gap: 12px; }
   .workshop-consult__media { aspect-ratio: 1.5; }
 }
 

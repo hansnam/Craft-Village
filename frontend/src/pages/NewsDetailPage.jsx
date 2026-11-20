@@ -6,6 +6,7 @@ import {
   getRelatedNewsArticles,
 } from "../data/newsData.js";
 import { resolveMockAsset } from "../utils/resolveMockAsset.js";
+import { HOME_BACKGROUND } from "../assets/pageBackgrounds.js";
 
 function CalendarIcon() {
   return (
@@ -74,10 +75,7 @@ export default function NewsDetailPage() {
     title: "",
   });
 
-  const botanicalPatternUrl = useMemo(
-    () => resolveMockAsset("download/Ảnh làng nghề/Nền/nền trang cơ sở xưởng.png"),
-    []
-  );
+  const botanicalPatternUrl = HOME_BACKGROUND.url;
 
   const openLightbox = (imageUrl, caption) => {
     if (!imageUrl) return;

@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { resolveMockAsset } from "../utils/resolveMockAsset.js";
 import ImageLightboxModal from "../components/facility/ImageLightboxModal.jsx";
+import { HOME_BACKGROUND } from "../assets/pageBackgrounds.js";
 
 const base = import.meta.env.BASE_URL || "/";
 
@@ -60,7 +61,7 @@ export default function AboutPage() {
   const missionCard1Url = getAssetUrl("download/Ảnh làng nghề/Về Chúng Tôi/sumenh.jpg");
   const missionCard2Url = getAssetUrl("download/Ảnh làng nghề/Về Chúng Tôi/sumenh(1).jpg");
   const visionCollageUrl = getAssetUrl("download/Ảnh làng nghề/Về Chúng Tôi/Tầm nhìn.png");
-  const botanicalPatternUrl = getAssetUrl("download/Ảnh làng nghề/Nền/nền trang cơ sở xưởng.png");
+  const botanicalPatternUrl = HOME_BACKGROUND.url;
 
   return (
     <div className="about-page">

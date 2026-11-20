@@ -13,19 +13,14 @@
 
 /* Background botanical pattern layer from Figma */
 .about-page__bg-pattern {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  position: fixed;
+  inset: 0;
   pointer-events: none;
-  background-repeat: repeat-y;
-  background-position: center top;
-  background-size: 1440px auto;
-  opacity: 0.12;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: auto clamp(420px, 86vh, 900px);
+  opacity: 0.1;
   z-index: 0;
-  transform: translateY(var(--silk-parallax-y, 0px));
-  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .about-page__container {
@@ -373,6 +368,10 @@
 }
 
 @media (max-width: 768px) {
+  .about-page__bg-pattern {
+    background-position: center bottom;
+    background-size: clamp(220px, 64vw, 340px) auto;
+  }
   .about-page__container {
     padding: 0 16px;
   }
@@ -388,8 +387,12 @@
   .about-section {
     padding: 24px 0;
   }
+  .about-project__content .about-section__lead {
+    text-align: left;
+  }
   .about-project__highlight-quote {
     margin-top: 16px;
+    padding: 0;
   }
   .about-statement__strips-wrap {
     margin-bottom: 16px;
