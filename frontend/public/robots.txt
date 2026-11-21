@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /ho-so
+Disallow: /about-me
+Disallow: /dat-lich
+
+Sitemap: https://craft-village.vercel.app/sitemap.xml

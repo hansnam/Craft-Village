@@ -7,6 +7,7 @@ import {
 } from "../data/newsData.js";
 import { resolveMockAsset } from "../utils/resolveMockAsset.js";
 import { HOME_BACKGROUND } from "../assets/pageBackgrounds.js";
+import { usePageSeo } from "../utils/seo.js";
 
 function CalendarIcon() {
   return (
@@ -67,6 +68,23 @@ export default function NewsDetailPage() {
   const relatedArticles = useMemo(
     () => (article ? getRelatedNewsArticles(article.slug, 4) : []),
     [article]
+  );
+
+  usePageSeo(
+    article
+      ? {
+          title: `${article.title} | Craft Folio`,
+          description: article.sapo || article.title,
+          canonicalPath: `/tin-tuc/${article.slug}`,
+          ogType: "article",
+          image: article.images?.[0] || "",
+        }
+      : {
+          title: "Không tìm thấy bài viết | Craft Folio",
+          description: "Bài viết bạn đang tìm kiếm không tồn tại hoặc đã được cập nhật.",
+          canonicalPath: slug ? `/tin-tuc/${slug}` : "/tin-tuc",
+          noIndex: true,
+        }
   );
 
   const [lightbox, setLightbox] = useState({

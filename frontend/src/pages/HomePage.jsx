@@ -5,8 +5,11 @@ import JourneySection from "../components/JourneySection.jsx";
 import CraftVillagesSection from "../components/CraftVillagesSection.jsx";
 import JoinBannerSection from "../components/JoinBannerSection.jsx";
 import { HOME_BACKGROUND } from "../assets/pageBackgrounds.js";
+import { DEFAULT_SEO, usePageSeo } from "../utils/seo.js";
 
 export default function HomePage() {
+  usePageSeo(DEFAULT_SEO);
+
   useEffect(() => {
     const motionPreference = window.matchMedia(
       "(prefers-reduced-motion: reduce)"

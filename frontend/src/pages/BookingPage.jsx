@@ -5,6 +5,7 @@ import { facilities, products } from "../data/mockData.js";
 import { resolveMockAsset, resolveFacilityThumbnail } from "../utils/resolveMockAsset.js";
 import { addUserBooking } from "../utils/userDataStorage.js";
 import { HOME_BACKGROUND } from "../assets/pageBackgrounds.js";
+import { usePageSeo } from "../utils/seo.js";
 
 const PURPOSE_OPTIONS = [
   "Tham quan xưởng",
@@ -45,6 +46,15 @@ export default function BookingPage() {
       facilities.find((f) => f.id === selectedFacilityId) || facilities[0] || null
     );
   }, [selectedFacilityId]);
+
+  usePageSeo({
+    title: activeFacility
+      ? `Đặt lịch làm việc - ${activeFacility.name} | Craft Folio`
+      : "Đặt lịch làm việc với chủ xưởng | Craft Folio",
+    description: "Đặt lịch tham quan xưởng, tư vấn trực tiếp hoặc đặt gia công sản phẩm thủ công truyền thống qua Craft Folio.",
+    canonicalPath: facilityId ? `/dat-lich/${facilityId}` : "/dat-lich",
+    noIndex: true,
+  });
 
   // Product referenced (if any)
   const referencedProduct = useMemo(() => {

@@ -7,6 +7,7 @@ import VillageFacilitiesSection from "../components/village/VillageFacilitiesSec
 import VillageProcessSection from "../components/village/VillageProcessSection.jsx";
 import VillageNotFound from "../components/village/VillageNotFound.jsx";
 import { getVillageBackground } from "../assets/pageBackgrounds.js";
+import { usePageSeo } from "../utils/seo.js";
 
 export default function VillageDetailPage() {
   const { id } = useParams();
@@ -17,6 +18,25 @@ export default function VillageDetailPage() {
         (item) => (item?.id || "").toUpperCase() === normalizedId
       )
     : null;
+
+  usePageSeo(
+    village
+      ? {
+          title: `Làng nghề ${village.name} | Quy trình & Xưởng sản xuất - Craft Folio`,
+          description:
+            village.story?.paragraphs?.[0] ||
+            village.highlightText ||
+            `Khám phá lịch sử, quy trình chế tác và các cơ sở sản xuất tiêu biểu tại làng nghề ${village.name}.`,
+          canonicalPath: `/lang-nghe/${village.id}`,
+          image: village.headerImage || "",
+        }
+      : {
+          title: "Không tìm thấy làng nghề | Craft Folio",
+          description: "Làng nghề bạn đang tìm kiếm không tồn tại trên hệ thống Craft Folio.",
+          canonicalPath: normalizedId ? `/lang-nghe/${normalizedId}` : "/",
+          noIndex: true,
+        }
+  );
 
   if (!village) {
     return <VillageNotFound />;

@@ -6,6 +6,7 @@ import {
 } from "../data/newsData.js";
 import { resolveMockAsset } from "../utils/resolveMockAsset.js";
 import { HOME_BACKGROUND } from "../assets/pageBackgrounds.js";
+import { usePageSeo } from "../utils/seo.js";
 
 function CalendarIcon() {
   return (
@@ -154,9 +155,18 @@ export default function NewsPage() {
   const [showMoreArticles, setShowMoreArticles] = useState(false);
 
   const rawCategory = searchParams.get("danh-muc") || "all";
-  const activeCategory = NEWS_CATEGORIES.some((c) => c.id === rawCategory)
-    ? rawCategory
-    : "all";
+  const activeCategoryObj = NEWS_CATEGORIES.find((c) => c.id === rawCategory);
+  const activeCategory = activeCategoryObj ? rawCategory : "all";
+
+  usePageSeo({
+    title:
+      activeCategory !== "all"
+        ? `${activeCategoryObj.label} - Tin tức Làng nghề | Craft Folio`
+        : "Tin tức & Câu chuyện Làng nghề Truyền thống | Craft Folio",
+    description:
+      "Cập nhật tin tức, xu hướng nội thất thủ công, câu chuyện giữ nghề và góc nhìn doanh nghiệp về các làng nghề truyền thống Việt Nam.",
+    canonicalPath: "/tin-tuc",
+  });
 
   const sortedArticles = useMemo(() => getNewsArticlesSorted(), []);
 

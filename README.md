@@ -1,6 +1,19 @@
-# Craft Folk
+# Craft Folio
 
-Craft Folk là giao diện web giới thiệu và kết nối các xưởng thủ công Việt Nam với khách hàng doanh nghiệp. Hiện repository chứa ứng dụng frontend React; chưa có mã backend hoặc API.
+**Website chính thức:** https://craft-village.vercel.app
+
+Craft Folio là nền tảng Digital Portfolio giới thiệu các làng nghề truyền thống Việt Nam (Gốm Bát Tràng, Nón Làng Chuông, Quạt Chàng Sơn, Mây Tre Đan Phú Vinh, Lụa Nha Xá) và kết nối các xưởng sản xuất thủ công với khách hàng doanh nghiệp. Hiện repository chứa ứng dụng frontend React; chưa có mã backend hoặc API.
+
+## Liên kết chính trên website
+
+- Trang chủ: https://craft-village.vercel.app/
+- Làng Gốm Bát Tràng: https://craft-village.vercel.app/lang-nghe/GBT
+- Làng Nón Chuông: https://craft-village.vercel.app/lang-nghe/NLC
+- Làng Quạt Chàng Sơn: https://craft-village.vercel.app/lang-nghe/QCS
+- Mây Tre Đan Phú Vinh: https://craft-village.vercel.app/lang-nghe/MTD
+- Lụa Nha Xá: https://craft-village.vercel.app/lang-nghe/LNX
+- Tin tức làng nghề: https://craft-village.vercel.app/tin-tuc
+- Về chúng tôi: https://craft-village.vercel.app/ve-chung-toi
 
 ## Công nghệ
 

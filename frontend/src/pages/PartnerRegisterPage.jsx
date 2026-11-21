@@ -5,6 +5,7 @@ import { villages } from "../data/mockData.js";
 import workshopBannerImg from "../../download/Ảnh làng nghề/Trang chủ/vechungtoi.jpg";
 import businessBannerImg from "../../download/Ảnh làng nghề/Về Chúng Tôi/sumenh(1).jpg";
 import { HOME_BACKGROUND } from "../assets/pageBackgrounds.js";
+import { usePageSeo } from "../utils/seo.js";
 
 const botanicalBgImg = HOME_BACKGROUND.url;
 
@@ -92,12 +93,23 @@ export default function PartnerRegisterPage() {
   const [errors, setErrors] = useState({});
   const [submittedRecord, setSubmittedRecord] = useState(null);
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-    document.title =
+  usePageSeo({
+    title:
       activeTab === "business"
         ? "Đăng ký khách hàng doanh nghiệp | CRAFT FOLIO"
-        : "Tham gia cùng Craft Folio | Đăng ký đối tác";
+        : "Tham gia cùng Craft Folio | Đăng ký đối tác xưởng thủ công",
+    description:
+      activeTab === "business"
+        ? "Đăng ký tài khoản khách hàng doanh nghiệp để tìm kiếm, đánh giá và đặt gia công sản phẩm từ các xưởng làng nghề truyền thống Việt Nam."
+        : "Đăng ký hồ sơ xưởng sản xuất làng nghề truyền thống lên nền tảng Craft Folio để kết nối trực tiếp với khách hàng doanh nghiệp.",
+    canonicalPath:
+      location.pathname === "/dang-ky-doanh-nghiep"
+        ? "/dang-ky-doanh-nghiep"
+        : "/tham-gia",
+  });
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
   }, [activeTab]);
 
   useEffect(() => {

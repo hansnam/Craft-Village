@@ -21,6 +21,7 @@ import FacilityConnectModal from "../components/facility/FacilityConnectModal.js
 import ProductDetailModal from "../components/facility/ProductDetailModal.jsx";
 import ImageLightboxModal from "../components/facility/ImageLightboxModal.jsx";
 import { FACILITY_BACKGROUND } from "../assets/pageBackgrounds.js";
+import { usePageSeo } from "../utils/seo.js";
 
 export default function FacilityDetailPage() {
   const { facilityId } = useParams();
@@ -32,6 +33,29 @@ export default function FacilityDetailPage() {
         (item) => (item?.id || "").toUpperCase() === normalizedId
       )
     : null;
+
+  const parentVillage = Array.isArray(villages)
+    ? villages.find((v) => v?.id === facility?.langNgheId)
+    : null;
+
+  usePageSeo(
+    facility
+      ? {
+          title: `${facility.name}${parentVillage ? ` - ${parentVillage.name}` : ""} | Craft Folio`,
+          description:
+            facility.description ||
+            facility.sanPhamDescription ||
+            `${facility.name}${facility.diaChi ? ` (${facility.diaChi})` : ""} - Đối tác xưởng thủ công truyền thống nhận đơn hàng lớn và thiết kế theo yêu cầu.`,
+          canonicalPath: `/co-so/${facility.id}`,
+          image: facility.thumbnail || facility.avatar || "",
+        }
+      : {
+          title: "Không tìm thấy cơ sở sản xuất | Craft Folio",
+          description: "Cơ sở sản xuất bạn đang tìm kiếm không tồn tại hoặc đường dẫn không hợp lệ.",
+          canonicalPath: normalizedId ? `/co-so/${normalizedId}` : "/",
+          noIndex: true,
+        }
+  );
 
   // Quản lý Modal & Lightbox
   const [activeSection, setActiveSection] = useState("san-pham");
@@ -51,11 +75,6 @@ export default function FacilityDetailPage() {
       />
     );
   }
-
-  // Làng nghề cha
-  const parentVillage = Array.isArray(villages)
-    ? villages.find((v) => v?.id === facility?.langNgheId)
-    : null;
 
   // Lọc dữ liệu liên quan đến cơ sở này
   const facilityProducts = Array.isArray(products)

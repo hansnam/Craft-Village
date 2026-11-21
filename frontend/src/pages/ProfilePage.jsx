@@ -10,6 +10,7 @@ import {
   toggleUserFavorite,
 } from "../utils/userDataStorage.js";
 import { HOME_BACKGROUND } from "../assets/pageBackgrounds.js";
+import { usePageSeo } from "../utils/seo.js";
 
 const botanicalBgImg = HOME_BACKGROUND.url;
 
@@ -63,9 +64,15 @@ export default function ProfilePage() {
   });
   const [profileError, setProfileError] = useState("");
 
+  usePageSeo({
+    title: "Hồ sơ cá nhân | CRAFT FOLIO",
+    description: "Quản lý thông tin tài khoản, lịch hẹn làm việc với xưởng và sản phẩm yêu thích trên Craft Folio.",
+    canonicalPath: "/ho-so",
+    noIndex: true,
+  });
+
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = "Hồ sơ cá nhân | CRAFT FOLIO";
   }, []);
 
   useEffect(() => {

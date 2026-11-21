@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { resolveMockAsset } from "../utils/resolveMockAsset.js";
 import ImageLightboxModal from "../components/facility/ImageLightboxModal.jsx";
 import { HOME_BACKGROUND } from "../assets/pageBackgrounds.js";
+import { usePageSeo } from "../utils/seo.js";
 
 const base = import.meta.env.BASE_URL || "/";
 
@@ -18,9 +19,15 @@ export default function AboutPage() {
   const [isVideoLoaded, setIsVideoLoaded] = useState(false);
   const videoRef = useRef(null);
 
+  usePageSeo({
+    title: "Về chúng tôi | CRAFT FOLIO - Kết nối làng nghề truyền thống",
+    description:
+      "Tìm hiểu dự án Craft Folio — hệ thống Digital Portfolio kết nối xưởng sản xuất làng nghề truyền thống Việt Nam với khách hàng doanh nghiệp.",
+    canonicalPath: "/ve-chung-toi",
+  });
+
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = "Về chúng tôi | CRAFT FOLIO - Kết nối làng nghề truyền thống";
 
     const video = videoRef.current;
     if (video) {

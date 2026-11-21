@@ -1,10 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { usePageSeo } from "../../utils/seo.js";
 
 export default function VillageNotFound({
   title = "Không tìm thấy làng nghề",
   description = "Làng nghề bạn đang tìm kiếm không tồn tại hoặc đường dẫn không hợp lệ. Vui lòng quay lại Trang chủ để khám phá các làng nghề truyền thống Việt Nam.",
 }) {
+  usePageSeo({
+    title: `${title} | Craft Folio`,
+    description,
+    canonicalPath: "/",
+    noIndex: true,
+  });
+
   return (
     <section className="village-not-found" aria-labelledby="not-found-heading">
       <div className="section-container village-not-found__card">

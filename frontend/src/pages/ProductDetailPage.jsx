@@ -12,6 +12,7 @@ import ImageLightboxModal from "../components/facility/ImageLightboxModal.jsx";
 import FacilityConnectModal from "../components/facility/FacilityConnectModal.jsx";
 import ArtisanTurntableShowcase from "../components/effects/ArtisanTurntableShowcase.jsx";
 import { HOME_BACKGROUND } from "../assets/pageBackgrounds.js";
+import { usePageSeo } from "../utils/seo.js";
 
 // Helper icon placeholder for missing craft product images
 function CraftProductPlaceholder({ name, facilityName }) {
@@ -97,6 +98,24 @@ export default function ProductDetailPage() {
   const [isConnectModalOpen, setIsConnectModalOpen] = useState(false);
 
   const canonicalProductId = product?.id || productId || "";
+
+  usePageSeo(
+    product
+      ? {
+          title: `${product.name}${facility ? ` - ${facility.name}` : ""} | Craft Folio`,
+          description:
+            product.description ||
+            `${product.name}${village ? ` thuộc làng nghề ${village.name}` : ""} - Sản phẩm thủ công truyền thống chế tác theo yêu cầu tại Craft Folio.`,
+          canonicalPath: `/san-pham/${canonicalProductId}`,
+          image: galleryImages[0]?.url || "",
+        }
+      : {
+          title: "Không tìm thấy sản phẩm | Craft Folio",
+          description: "Sản phẩm bạn đang tìm kiếm không tồn tại hoặc đã được cập nhật.",
+          canonicalPath: canonicalProductId ? `/san-pham/${canonicalProductId}` : "/",
+          noIndex: true,
+        }
+  );
 
   // Navigate directly to Workshop Booking page with facility & product pre-selected
   const handleBookingRequest = () => {
