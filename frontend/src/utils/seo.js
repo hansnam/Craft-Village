@@ -1,11 +1,11 @@
 import { useEffect } from "react";
 
 export const SITE_URL = "https://craft-village.vercel.app";
-export const SITE_NAME = "Craft Folio";
-export const DEFAULT_OG_IMAGE = `${SITE_URL}/download/images/about_us/header_poster.jpg`;
+export const SITE_NAME = "CRAFT FOLIO";
+export const DEFAULT_OG_IMAGE = `${SITE_URL}/download/images/about_us/about_mission_card1.jpg`;
 
 export const DEFAULT_SEO = {
-  title: "Craft Folio | Kết nối Xưởng Thủ Công & Làng Nghề Truyền Thống Việt Nam",
+  title: "CRAFT FOLIO | Kết nối Xưởng Thủ Công & Làng Nghề Truyền Thống Việt Nam",
   description:
     "Craft Folio kết nối các xưởng sản xuất làng nghề truyền thống Việt Nam như Gốm Bát Tràng, Nón Làng Chuông, Quạt Chàng Sơn, Mây Tre Đan Phú Vinh, Lụa Nha Xá với khách hàng doanh nghiệp.",
   canonicalPath: "/",
